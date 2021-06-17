@@ -1,0 +1,22 @@
+{{ define "main" }}
+  <section class="homepage-member">
+    <h1>{{ .Params.Name }}</h1>
+    {{ with .Params.Twitter }}<h6><a href="https://twitter.com/{{ . }}">{{ . }}</a></h6>{{ end }}
+    {{ with .Params.Website }}<h6><a href="{{ . }}">{{ . }}</a></h6>{{ end }}
+    {{ with .Params.Instagram }}<h6><a href="https://instagram.com/{{ . }}">{{ . }}</a></h6>{{ end }}
+    <h6>{{ dateFormat "January 2006" .Params.Start }}</h6>
+    {{ with .Params.Description }}<p>{{ . | markdownify }}</p>{{ end }}
+    <h2>Involved projects</h2>
+    <ul>
+    {{ range .Params.Projects }}
+      <li><a href="{{ .slug | absURL }}">{{ .title }}</a></li>
+    {{ end }}
+    </ul>
+    <h2>Involved events</h2>
+    <ul>
+    {{ range .Params.Events }}
+      <li><a href="{{ .slug | absURL }}">{{ .title }}</a></li>
+    {{ end }}
+    </ul>
+  </section>
+{{ end }}

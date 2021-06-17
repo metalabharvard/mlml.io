@@ -1,0 +1,21 @@
+{{ define "main" }}
+  <section class="homepage-member">
+    <h1>{{ .Params.Title }}</h1>
+    <h6>{{ dateFormat "January 2006" .Params.Start }}</h6>
+    {{ with .Params.ExternalLink }}<h6><a href="{{ . }}">{{ . }}</a></h6>{{ end }}
+    {{ with .Params.Intro }}<h3>{{ . | markdownify }}</h3>{{ end }}
+    {{ with .Params.Description }}<p>{{ . | markdownify }}</p>{{ end }}
+    <h2>Involved members</h2>
+    <ul>
+    {{ range .Params.Members }}
+      <li><a href="{{ .slug | absURL }}">{{ .name }}</a></li>
+    {{ end }}
+    </ul>
+    <h2>Related events</h2>
+    <ul>
+    {{ range .Params.Events }}
+      <li><a href="{{ .slug | absURL }}">{{ .title }}</a></li>
+    {{ end }}
+    </ul>
+  </section>
+{{ end }}

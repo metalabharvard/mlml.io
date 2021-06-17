@@ -1,0 +1,10 @@
+{{ define "main" }}
+  <section class="homepage-projects-list">
+    <h1>Projects</h1>
+    <ul>
+    {{ range .Pages }}
+      <li><a href="{{ .Slug | absURL }}">{{ .Params.Title }}</a></li>
+    {{ end }}
+    </ul>
+  </section>
+{{ end }}

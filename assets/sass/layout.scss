@@ -1,0 +1,22 @@
+@import "./global";
+
+:root {
+  --spacing-025: calc(var(--margin) * 0.25);
+  --spacing-05: calc(var(--margin) * 0.5);
+  --spacing-1: calc(var(--margin) * 1);
+  --spacing-15: calc(var(--margin) * 1.5);
+  --spacing-2: calc(var(--margin) * 2);
+  --spacing-3: calc(var(--margin) * 3);
+  --spacing-4: calc(var(--margin) * 4);
+  --spacing-5: calc(var(--margin) * 5);
+  --spacing-6: calc(var(--margin) * 6);
+  --spacing-8: calc(var(--margin) * 8);
+  --border-area: 1px solid var(--color-fg);
+  --border-area--side: 10px solid var(--color-fg);
+  --border-area--top: 5px solid var(--color-fg);
+  --border-link: 1px solid var(--color-fg);
+}
+
+#main {
+  margin: var(--spacing-2) 0;
+}

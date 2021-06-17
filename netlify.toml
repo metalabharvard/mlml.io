@@ -1,0 +1,12 @@
+[build]
+command = "go run script.go && hugo --gc --minify --config config.json --ignoreCache"
+
+[context.production.environment]
+HUGO_VERSION = "0.83.1"
+HUGO_ENV = "production"
+HUGO_ENABLEGITINFO = "true"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Permissions-Policy = "interest-cohort=()"

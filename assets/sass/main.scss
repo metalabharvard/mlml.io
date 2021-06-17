@@ -1,0 +1,33 @@
+@import "./global";
+@import "./fonts";
+
+html {
+  // font-size: calc(0.8vw + 0.8vh + 1.4vmin);
+  font-size: calc(1vw + 1vh + .5vmin);
+  color: $color-default;
+  line-height: 1.7;
+  font-family: Helvetica;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-weight: $font-weight-default;
+  font-kerning: normal;
+  font-variant-ligatures: contextual common-ligatures;
+  font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1;
+}
+
+body {
+  background-color: #fff;
+  color: $color-default;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@import "./layout";
+@import "./typography";
+@import "./icons";

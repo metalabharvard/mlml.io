@@ -1,0 +1,28 @@
+$font-family-default: "Helvetica Neue", Helvetica, system-ui, sans-serif;
+$font-weight-default: 500 !default;
+$font-weight-bold:    800 !default;
+
+$color-default:      #282828 !default;
+$color-white:		     #ffffff !default;
+$color-mute:				 rgba(0, 0, 0, 0.15) !default;
+$color-accent:	     #f73c2f !default;
+$color-interactive:  #1437dd !default;
+$color-highlight:    #3366CC !default;
+
+$transition: 			0.3s !default;
+
+$narrow:				600px !default;
+$medium:				900px !default;
+$wide:        	1200px !default;
+$extra-wide:    1700px !default;
+
+:root {
+  --color-fg: #{$color-default};
+  --color-bg: #{$color-white};
+  --color-accent: #{$color-accent};
+  --color-interactive: #{$color-interactive};
+  --color-highlight: #{$color-highlight};
+
+  --margin: max(calc(2vw + 0.5vmin), 2px); // Used for spacing
+  --base: calc(1.1vw); // Used for fonts
+}

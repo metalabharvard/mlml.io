@@ -1,0 +1,11 @@
+@mixin query($device) {
+  @media screen and (min-width: $device) {
+    @content;
+  }
+}
+
+@mixin query-max($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}

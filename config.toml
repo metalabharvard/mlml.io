@@ -1,0 +1,10 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+
+[params]
+  contentTypes = ["projects", "members", "events"]
+
+[permalinks]
+  projects = "/:slug/"
+  members = "/:slug/"
+  events = "/:slug/"
