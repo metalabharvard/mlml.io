@@ -32,21 +32,31 @@
  ],
  "picture": {
   "alternativeText": "",
+  "url": "",
   "width": 0,
   "height": 0,
   "formats": {
    "large": {
     "url": "",
+    "ext": "",
     "width": 0,
     "height": 0
    },
    "medium": {
     "url": "",
+    "ext": "",
     "width": 0,
     "height": 0
    },
    "small": {
     "url": "",
+    "ext": "",
+    "width": 0,
+    "height": 0
+   },
+   "thumbnail": {
+    "url": "",
+    "ext": "",
     "width": 0,
     "height": 0
    }

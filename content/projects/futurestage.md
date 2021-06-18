@@ -10,7 +10,7 @@
  "updated_at": "2021-06-17T15:12:43.724Z",
  "created_at": "2021-06-16T16:32:45.349Z",
  "slug": "futurestage",
- "collaborators": null,
+ "collaborators": [],
  "events": [
   {
    "title": "Virtual Creative Spring Workshops 2021",
@@ -29,23 +29,33 @@
  ],
  "cover": {
   "alternativeText": "",
+  "url": "https://res.cloudinary.com/dfffh0gkl/image/upload/v1623942726/futurestage_5eaed577d1.jpg",
   "width": 2550,
   "height": 3300,
   "formats": {
    "large": {
     "url": "https://res.cloudinary.com/dfffh0gkl/image/upload/v1623942728/large_futurestage_5eaed577d1.jpg",
+    "ext": ".jpg",
     "width": 773,
     "height": 1000
    },
    "medium": {
     "url": "https://res.cloudinary.com/dfffh0gkl/image/upload/v1623942729/medium_futurestage_5eaed577d1.jpg",
+    "ext": ".jpg",
     "width": 580,
     "height": 750
    },
    "small": {
     "url": "https://res.cloudinary.com/dfffh0gkl/image/upload/v1623942730/small_futurestage_5eaed577d1.jpg",
+    "ext": ".jpg",
     "width": 386,
     "height": 500
+   },
+   "thumbnail": {
+    "url": "https://res.cloudinary.com/dfffh0gkl/image/upload/v1623942727/thumbnail_futurestage_5eaed577d1.jpg",
+    "ext": ".jpg",
+    "width": 121,
+    "height": 156
    }
   }
  }

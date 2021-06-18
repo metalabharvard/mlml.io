@@ -1,5 +1,9 @@
 {{ define "main" }}
   <div>
     <h1>{{ .Site.Title }}</h1>
+    <h2>{{ .Site.Params.description }}</h2>
+    {{ with .Site.Params.twitter }}<h6>Twitter: <a href="https://twitter.com/{{ . }}">{{ . }}</a></h6>{{ end }}
+    {{ with .Site.Params.github }}<h6>Github: <a href="https://github.com/{{ . }}">{{ . }}</a></h6>{{ end }}
+    {{ with .Site.Params.email }}<h6>{{ . }}</h6>{{ end }}
   </div>
 {{ end }}

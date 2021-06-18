@@ -1,0 +1,10 @@
+{{ define "main" }}
+  <section class="homepage-members-list">
+    <h1>Events</h1>
+    <ul>
+    {{ range .Pages }}
+      <li><a href="{{ .Slug | absURL }}">{{ .Params.Title }}</a></li>
+    {{ end }}
+    </ul>
+  </section>
+{{ end }}

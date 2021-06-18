@@ -1,22 +1,58 @@
 {{ define "main" }}
   <section class="homepage-member">
     <h1>{{ .Params.Name }}</h1>
+    {{ if and .Params.Picture.width .Params.Picture.height }}
+    <picture>
+      {{ if .Params.Picture.formats.large.url }}
+      <source {{ printf "srcset=%v" (replace .Params.Picture.formats.large.url ".jpg" ".webp") | safeHTMLAttr }} type="image/webp" media="(min-width: {{ .Params.Picture.formats.large.width }}px)" />
+      {{ end }}
+      {{ if .Params.Picture.formats.medium.url }}
+      <source {{ printf "srcset=%v" (replace .Params.Picture.formats.medium.url ".jpg" ".webp") | safeHTMLAttr }} type="image/webp" media="(min-width: {{ .Params.Picture.formats.medium.width }}px)" />
+      {{ end }}
+      {{ if .Params.Picture.formats.small.url }}
+      <source {{ printf "srcset=%v" (replace .Params.Picture.formats.small.url ".jpg" ".webp") | safeHTMLAttr }} type="image/webp" media="(min-width: {{ .Params.Picture.formats.small.width }}px)" />
+      {{ end }}
+      {{ if .Params.Picture.formats.thumbnail.url }}
+      <source {{ printf "srcset=%v" (replace .Params.Picture.formats.thumbnail.url ".jpg" ".webp") | safeHTMLAttr }} type="image/webp" />
+      {{ end }}
+      {{ if .Params.Picture.formats.large.url }}
+      <source {{ printf "srcset=%v" .Params.Picture.formats.large.url | safeHTMLAttr }} type="image/jepg" media="(min-width: {{ .Params.Picture.formats.large.width }}px)" />
+      {{ end }}
+      {{ if .Params.Picture.formats.medium.url }}
+      <source {{ printf "srcset=%v" .Params.Picture.formats.medium.url | safeHTMLAttr }} type="image/jepg" media="(min-width: {{ .Params.Picture.formats.medium.width }}px)" />
+      {{ end }}
+      {{ if .Params.Picture.formats.small.url }}
+      <source {{ printf "srcset=%v" .Params.Picture.formats.small.url | safeHTMLAttr }} type="image/jepg" media="(min-width: {{ .Params.Picture.formats.small.width }}px)" />
+      {{ end }}
+      {{ if .Params.Picture.formats.thumbnail.url }}
+      <source {{ printf "srcset=%v" .Params.Picture.formats.thumbnail.url | safeHTMLAttr }} type="image/jepg" />
+      {{ end }}
+      {{ if .Params.Picture.url }}
+      <img {{ printf "src=%v" .Params.Picture.url | safeHTMLAttr }} loading="lazy" alt="{{ .Params.Picture.alternativeText }}" height="{{ .Params.Cover.height }}px" width="{{ .Params.Cover.width }}px">
+      {{ end }}
+    </picture>
+    {{ end }}
     {{ with .Params.Twitter }}<h6><a href="https://twitter.com/{{ . }}">{{ . }}</a></h6>{{ end }}
     {{ with .Params.Website }}<h6><a href="{{ . }}">{{ . }}</a></h6>{{ end }}
     {{ with .Params.Instagram }}<h6><a href="https://instagram.com/{{ . }}">{{ . }}</a></h6>{{ end }}
     <h6>{{ dateFormat "January 2006" .Params.Start }}</h6>
-    {{ with .Params.Description }}<p>{{ . | markdownify }}</p>{{ end }}
+    {{ with .Params.Projects }}
     <h2>Involved projects</h2>
     <ul>
-    {{ range .Params.Projects }}
+    {{ range . }}
       <li><a href="{{ .slug | absURL }}">{{ .title }}</a></li>
     {{ end }}
     </ul>
+    {{ end }}
+    {{ with .Params.Events }}
     <h2>Involved events</h2>
     <ul>
-    {{ range .Params.Events }}
+    {{ range . }}
       <li><a href="{{ .slug | absURL }}">{{ .title }}</a></li>
     {{ end }}
     </ul>
+    {{ end }}
+    <br />
+    {{ with .Params.Description }}<p>{{ . | markdownify }}</p>{{ end }}
   </section>
 {{ end }}

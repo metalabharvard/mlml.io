@@ -24,23 +24,33 @@
  ],
  "picture": {
   "alternativeText": "",
-  "width": 0,
-  "height": 0,
+  "url": "https://res.cloudinary.com/dfffh0gkl/image/upload/v1623942069/matthew_17805c8fda.jpg",
+  "width": 500,
+  "height": 500,
   "formats": {
    "large": {
     "url": "",
+    "ext": "",
     "width": 0,
     "height": 0
    },
    "medium": {
     "url": "",
+    "ext": "",
     "width": 0,
     "height": 0
    },
    "small": {
     "url": "",
+    "ext": "",
     "width": 0,
     "height": 0
+   },
+   "thumbnail": {
+    "url": "https://res.cloudinary.com/dfffh0gkl/image/upload/v1623942070/thumbnail_matthew_17805c8fda.jpg",
+    "ext": ".jpg",
+    "width": 156,
+    "height": 156
    }
   }
  }

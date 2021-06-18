@@ -15,26 +15,45 @@
    "slug": "sarah-newman"
   }
  ],
- "project": null,
+ "projects": [
+  {
+   "title": "futureSTAGE",
+   "slug": "futurestage"
+  },
+  {
+   "title": "Curatorial A(i)gents",
+   "slug": "curatorial-a-i-gents"
+  }
+ ],
  "cover": {
   "alternativeText": "",
+  "url": "https://res.cloudinary.com/dfffh0gkl/image/upload/v1623943200/workshop_b86a78aa63.jpg",
   "width": 500,
   "height": 625,
   "formats": {
    "large": {
     "url": "",
+    "ext": "",
     "width": 0,
     "height": 0
    },
    "medium": {
     "url": "",
+    "ext": "",
     "width": 0,
     "height": 0
    },
    "small": {
     "url": "https://res.cloudinary.com/dfffh0gkl/image/upload/v1623943202/small_workshop_b86a78aa63.jpg",
+    "ext": ".jpg",
     "width": 400,
     "height": 500
+   },
+   "thumbnail": {
+    "url": "https://res.cloudinary.com/dfffh0gkl/image/upload/v1623943201/thumbnail_workshop_b86a78aa63.jpg",
+    "ext": ".jpg",
+    "width": 125,
+    "height": 156
    }
   }
  }

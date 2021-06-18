@@ -12,10 +12,16 @@ import (
 type Meta struct {
   Title string `json:"Title"`
   Description string `json:"Description"`
+  Twitter string `json:"twitter"`
+  Github string `json:"github"`
+  Email string `json:"email"`
 }
 
 type Params struct {
   Description string `json:"description"`
+  Twitter string `json:"twitter"`
+  Github string `json:"github"`
+  Email string `json:"email"`
 }
 
 type Config struct {
@@ -43,6 +49,9 @@ func main() {
     Title: responseObject.Title,
     Params: Params{
       Description: responseObject.Description,
+      Twitter: responseObject.Twitter,
+      Github: responseObject.Github,
+      Email: responseObject.Email,
     },
   }
 

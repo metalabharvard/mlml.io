@@ -1,7 +1,7 @@
 {{ define "main" }}
-  <section class="homepage-member">
+  <section class="homepage-events">
     <h1>{{ .Params.Title }}</h1>
-    {{ if .Params.Cover.url }}
+    {{ if and .Params.Cover.width .Params.Cover.height }}
     <picture>
       {{ if .Params.Cover.formats.large.url }}
       <source {{ printf "srcset=%v" (replace .Params.Cover.formats.large.url ".jpg" ".webp") | safeHTMLAttr }} type="image/webp" media="(min-width: {{ .Params.Cover.formats.large.width }}px)" />
@@ -32,10 +32,10 @@
       {{ end }}
     </picture>
     {{ end }}
-    <h6>{{ dateFormat "January 2006" .Params.Start }}</h6>
-    {{ with .Params.ExternalLink }}<h6><a href="{{ . }}">{{ . }}</a></h6>{{ end }}
-    {{ with .Params.Intro }}<h3>{{ . | markdownify }}</h3>{{ end }}
-    {{ with .Params.Members }}
+    {{ with .Params.Time }}<h6>{{ dateFormat "January 2006" . }}</h6>{{ end }}
+    {{ with .Params.Location }}<h6>{{ . }}</h6>{{ end }}
+    {{ with .Params.Link }}<h6><a href="{{ . }}">{{ . }}</a></h6>{{ end }}
+    {{ with .Params.members }}
     <h2>Involved members</h2>
     <ul>
     {{ range . }}
@@ -43,8 +43,8 @@
     {{ end }}
     </ul>
     {{ end }}
-    {{ with .Params.Events}}
-    <h2>Related events</h2>
+    {{ with .Params.projects }}
+    <h2>Related Projects</h2>
     <ul>
     {{ range . }}
       <li><a href="{{ .slug | absURL }}">{{ .title }}</a></li>

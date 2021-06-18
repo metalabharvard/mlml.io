@@ -26,6 +26,7 @@ type Event struct {
 
 type Format struct {
   Url string `json:"url"`
+  Ext string `json:"ext"`
   Width int `json:"width"`
   Height int `json:"height"`
 }
@@ -34,10 +35,12 @@ type Formats struct {
   Large Format `json:"large"`
   Medium Format `json:"medium"`
   Small Format `json:"small"`
+  Thumbnail Format `json:"thumbnail"`
 }
 
 type Cover struct {
   AlternativeText string `json:"alternativeText"`
+  Url string `json:"url"`
   Width int `json:"width"`
   Height int `json:"height"`
   Formats Formats `json:"formats"`

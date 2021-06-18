@@ -10,7 +10,12 @@
  "updated_at": "2021-06-17T16:37:09.301Z",
  "created_at": "2021-06-17T15:17:56.412Z",
  "slug": "curatorial-a-i-gents",
- "collaborators": null,
+ "collaborators": [
+  {
+   "name": "Harvard Art Museums",
+   "url": ""
+  }
+ ],
  "events": [
   {
    "title": "Virtual Creative Spring Workshops 2021",
@@ -29,23 +34,33 @@
  ],
  "cover": {
   "alternativeText": "Curatiorial A(i)gents Cover",
+  "url": "https://res.cloudinary.com/dfffh0gkl/image/upload/v1623943307/agents_ce7bfadd93.jpg",
   "width": 1000,
   "height": 1260,
   "formats": {
    "large": {
     "url": "https://res.cloudinary.com/dfffh0gkl/image/upload/v1623943308/large_agents_ce7bfadd93.jpg",
+    "ext": ".jpg",
     "width": 794,
     "height": 1000
    },
    "medium": {
     "url": "https://res.cloudinary.com/dfffh0gkl/image/upload/v1623943309/medium_agents_ce7bfadd93.jpg",
+    "ext": ".jpg",
     "width": 595,
     "height": 750
    },
    "small": {
     "url": "https://res.cloudinary.com/dfffh0gkl/image/upload/v1623943309/small_agents_ce7bfadd93.jpg",
+    "ext": ".jpg",
     "width": 397,
     "height": 500
+   },
+   "thumbnail": {
+    "url": "https://res.cloudinary.com/dfffh0gkl/image/upload/v1623943307/thumbnail_agents_ce7bfadd93.jpg",
+    "ext": ".jpg",
+    "width": 124,
+    "height": 156
    }
   }
  }
