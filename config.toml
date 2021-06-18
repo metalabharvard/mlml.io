@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://jovial-noether-d4ee9f.netlify.app"
 languageCode = "en-us"
 
 [params]
