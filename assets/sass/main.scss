@@ -6,7 +6,7 @@ html {
   font-size: calc(1vw + 1vh + .5vmin);
   color: $color-default;
   line-height: 1.7;
-  font-family: Helvetica;
+  font-family: $font-family-default;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;

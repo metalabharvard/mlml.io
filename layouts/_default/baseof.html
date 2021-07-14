@@ -1,16 +1,24 @@
 <!doctype html>
 <html lang="{{ .Site.LanguageCode }}">
   {{ partial "head.html" . }}
-  <body>
-    <nav>
-      <ul>
-        <li><a href="{{ "/" | absURL }}">Home</a></li>
-        <li><a href="{{ "projects" | absURL }}">Projects</a></li>
-        <li><a href="{{ "members" | absURL }}">Members</a></li>
-        <li><a href="{{ "events" | absURL }}">Events</a></li>
-      </ul>
-    </nav>
-    <main id="main" role="main">
+  <body class="center-h">
+    <header class="page-header">
+      <div class="page-logo center">
+        metalab
+      </div>
+      <nav>
+        <ul class="page-menu-items">
+          <li><a href="{{ "/" | absURL }}"><span>Home</span></a></li>
+          <li><a href="{{ "projects" | absURL }}"><span>Projects</span></a></li>
+          <li><a href="{{ "members" | absURL }}"><span>Members</span></a></li>
+          <li><a href="{{ "events" | absURL }}"><span>Events</span></a></li>
+        </ul>
+      </nav>
+      <div class="page-search center">
+        Icon
+      </div>
+    </header>
+    <main id="main" role="main" class="wrapper grid">
     	{{ block "main" . }}{{ end }}
     </main>
   </body>

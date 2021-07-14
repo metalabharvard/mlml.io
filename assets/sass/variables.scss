@@ -1,5 +1,7 @@
-$font-family-default: "Helvetica Neue", Helvetica, system-ui, sans-serif;
-$font-weight-default: 500 !default;
+$font-family-default: 'Helvetica Neue', Helvetica, system-ui, sans-serif;
+$font-family-serif: 'Neco-Medium', serif;
+$font-weight-default: 400 !default;
+$font-weight-medium:  500 !default;
 $font-weight-bold:    800 !default;
 
 $color-default:      #282828 !default;
@@ -8,6 +10,8 @@ $color-mute:				 rgba(0, 0, 0, 0.15) !default;
 $color-accent:	     #f73c2f !default;
 $color-interactive:  #1437dd !default;
 $color-highlight:    #3366CC !default;
+$color-gray:          #EBEBEB;
+$color-gray-dark:   #979797;
 
 $transition: 			0.3s !default;
 
@@ -15,6 +19,21 @@ $narrow:				600px !default;
 $medium:				900px !default;
 $wide:        	1200px !default;
 $extra-wide:    1700px !default;
+
+$columns: 12;
+$size-wrapper: 1280px;
+$size-gap: 30px;
+$size-column: ($size-wrapper - $size-gap * ($columns - 1)) / $columns;
+
+$size-1: 67.34px;
+$size-2: 50.52px;
+$size-3: 37.90px;
+$size-4: 28.43px;
+$size-5: 21.33px;
+$size-6: 16.00px;
+$size-7: 12.00px;
+$size-8: 9.00px;
+$size-9: 6.76px;
 
 :root {
   --color-fg: #{$color-default};

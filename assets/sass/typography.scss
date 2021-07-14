@@ -67,3 +67,49 @@ ul {
   margin: 0;
 }
 
+.page-menu-items {
+  font-size: $size-6;
+  font-weight: $font-weight-medium;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.page-logo, .page-search { // TODO: Delete if no longer needed
+  font-size: $size-6;
+  font-weight: $font-weight-medium;
+}
+
+.intro {
+  font-family: $font-family-serif;
+  font-size: $size-2;
+  text-align: center;
+}
+
+.project {
+  border-bottom: 1px solid $color-gray;
+
+  a {
+    text-decoration: none;
+  }
+
+  .project-title {
+    font-size: $size-1;
+    line-height: 1.1;
+  }
+
+  .project-tag {
+    font-size: $size-8;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    vertical-align: top;
+  }
+
+  footer {
+    font-size: $size-8;
+    text-transform: uppercase;
+    color: $color-gray-dark;
+    letter-spacing: 0.1em;
+  }
+}

@@ -1,9 +1,25 @@
 {{ define "main" }}
-  <div>
-    <h1>{{ .Site.Title }}</h1>
-    <h2>{{ .Site.Params.description }}</h2>
-    {{ with .Site.Params.twitter }}<h6>Twitter: <a href="https://twitter.com/{{ . }}">{{ . }}</a></h6>{{ end }}
+  <div class="grid-full">
+    <!-- <h1>{{ .Site.Title }}</h1> -->
+    <h2 class="intro">{{ .Site.Params.description }}</h2>
+<!--     {{ with .Site.Params.twitter }}<h6>Twitter: <a href="https://twitter.com/{{ . }}">{{ . }}</a></h6>{{ end }}
     {{ with .Site.Params.github }}<h6>Github: <a href="https://github.com/{{ . }}">{{ . }}</a></h6>{{ end }}
-    {{ with .Site.Params.email }}<h6>{{ . }}</h6>{{ end }}
+    {{ with .Site.Params.email }}<h6>{{ . }}</h6>{{ end }} -->
+  </div>
+  <div class="grid-wide home-projects">
+    <ul>
+    {{ range (where .Site.Pages "Section" "projects") }}
+      <li class="project">
+        <a href="{{ .Slug | absURL }}">
+          <span class="project-title">{{ .Params.Title }}</span><span class="project-tag">Ongoing</span>
+          <footer>
+            <span>Project</span>
+            <span>since June 2021</span>
+            <span>Harvard</span>
+          </footer>
+        </a>
+      </li>
+    {{ end }}
+    </ul>
   </div>
 {{ end }}

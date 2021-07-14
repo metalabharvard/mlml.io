@@ -1,10 +1,21 @@
-@font-face {
-  font-family: 'VeronaSerial';
-  src: url('../fonts/font.woff2') format('woff2'),
-      url('../fonts/font.woff') format('woff');
-}
+// @font-face {
+//   font-family: 'VeronaSerial';
+//   src: url('../fonts/font.woff2') format('woff2'),
+//       url('../fonts/font.woff') format('woff');
+// }
+
+// @font-face {
+//   font-family: 'CheltenhamStdBook';
+//   src: url('../fonts/CheltenhamStdBook.woff') format('woff');
+// }
+
 
 @font-face {
-  font-family: 'CheltenhamStdBook';
-  src: url('../fonts/CheltenhamStdBook.woff') format('woff');
+  font-family: 'Neco-Medium';
+  src: url('../fonts/Neco-Medium.woff2') format('woff2'),
+       url('../fonts/Neco-Medium.woff') format('woff'),
+       url('../fonts/Neco-Medium.ttf') format('truetype');
+       font-weight: 500;
+       font-display: swap;
+       font-style: normal;
 }
