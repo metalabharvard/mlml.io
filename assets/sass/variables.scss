@@ -24,6 +24,7 @@ $columns: 12;
 $size-wrapper: 1280px;
 $size-gap: 30px;
 $size-column: ($size-wrapper - $size-gap * ($columns - 1)) / $columns;
+$wide-margin: $size-column * 2 + $size-gap * 2;
 
 $size-1: 67.34px;
 $size-2: 50.52px;

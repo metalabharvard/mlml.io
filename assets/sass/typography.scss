@@ -67,7 +67,7 @@ ul {
   margin: 0;
 }
 
-.page-menu-items {
+.page-menu-items, .page-logo {
   font-size: $size-6;
   font-weight: $font-weight-medium;
 
@@ -76,15 +76,16 @@ ul {
   }
 }
 
-.page-logo, .page-search { // TODO: Delete if no longer needed
+.page-search { // TODO: Delete if no longer needed
   font-size: $size-6;
   font-weight: $font-weight-medium;
 }
 
-.intro {
+.intro, .about-intro {
   font-family: $font-family-serif;
   font-size: $size-2;
   text-align: center;
+  line-height: 1.2;
 }
 
 .project {

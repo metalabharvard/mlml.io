@@ -4,14 +4,14 @@
   <body class="center-h">
     <header class="page-header">
       <div class="page-logo center">
-        metalab
+        <a href="{{ "/" | absURL }}" {{ if .IsHome }}class="isActive"{{ end }}><span>metalab</span></a>
       </div>
       <nav>
         <ul class="page-menu-items">
-          <li><a href="{{ "/" | absURL }}"><span>Home</span></a></li>
-          <li><a href="{{ "projects" | absURL }}"><span>Projects</span></a></li>
-          <li><a href="{{ "members" | absURL }}"><span>Members</span></a></li>
-          <li><a href="{{ "events" | absURL }}"><span>Events</span></a></li>
+          <li><a href="{{ "about" | absURL }}" {{ if eq .RelPermalink "/about/" }}class="isActive"{{ end }}><span>About</span></a></li>
+          <li><a href="{{ "projects" | absURL }}" {{ if eq .RelPermalink "/projects/" }}class="isActive"{{ end }}><span>Projects</span></a></li>
+          <li><a href="{{ "members" | absURL }}" {{ if eq .RelPermalink "/members/" }}class="isActive"{{ end }}><span>Members</span></a></li>
+          <li><a href="{{ "events" | absURL }}" {{ if eq .RelPermalink "/events/" }}class="isActive"{{ end }}><span>Events</span></a></li>
         </ul>
       </nav>
       <div class="page-search center">

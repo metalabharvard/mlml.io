@@ -6,6 +6,9 @@
   <meta name="keywords" content="{{ .Site.Params.keywords }}">
   <meta name="robots" content="index,follow">
 
+  {{ $js := resources.Get "js/index.js" | js.Build (dict "minify" true) | fingerprint }}
+  <script type="text/javascript" src="{{ $js.Permalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
+
   {{ $style := resources.Get "sass/main.scss" | toCSS | minify | fingerprint }}
   <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}">
 </head>

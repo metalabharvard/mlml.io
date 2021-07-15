@@ -37,7 +37,7 @@ picture img {
 
   .grid-full {
     grid-column-start: 1;
-    grid-column-end: 12;
+    grid-column-end: 13;
   }
 
   .grid-wide {
@@ -90,44 +90,48 @@ picture img {
       height: 100%;
 
       a {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
         border-bottom: 1px solid $color-gray;
         border-right: 1px solid $color-gray;
-        position: relative;
-
-        &:hover {
-          color: #fff;
-
-          span {
-            position: relative;
-            z-index: 1;
-          }
-
-          &::after {
-            background-color: black;
-            content: '';
-            position: absolute;
-            right: -1px;
-            bottom: -1px;
-            top: 0;
-            // width: 100%;
-            left: -1px;
-            z-index: 0;
-          }
-        }
       }
 
       &:first-child a {
         border-left: 1px solid $color-gray;
-
-        // &:hover {
-        //   border-left-color: #000;
-        // }
       }
+    }
+  }
+
+  a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    &.isActive {
+      color: #fff;
+
+      span {
+        position: relative;
+        z-index: 1;
+      }
+
+      &::after {
+        background-color: black;
+        content: '';
+        position: absolute;
+        right: -1px;
+        bottom: -1px;
+        top: 0;
+        left: -1px;
+        z-index: 0;
+      }
+    }
+
+    &:not(.isActive):hover {
+      background-image: linear-gradient(90deg, #FF4800, #FFB600);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
   }
 }
@@ -142,6 +146,42 @@ picture img {
     footer {
       display: flex;
       justify-content: space-between;
+    }
+  }
+}
+
+.about-header {
+  position: relative;
+  padding: var(--spacing-2) 0;
+  margin: var(--spacing-2) 0;
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: $wide-margin;
+    right: $wide-margin;
+    bottom: 0;
+    height: 100%;
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 3px;
+    z-index: -1;
+    --angle: 90deg;
+    border-image-source: linear-gradient(var(--angle), #FFB600 0%, #FF4800 100%);
+    // border-image-source: linear-gradient(90deg, #FFB600 0%, #FF4800 100%);
+    animation: 20s rotate linear infinite;
+    // border-image-source: radial-gradient(circle, #FFB600 60%, #FF4800 100%);
+  }
+
+  @property --angle {
+    syntax: '<angle>';
+    initial-value: 0deg;
+    inherits: false;
+  }
+
+  @keyframes rotate {
+    to {
+      --angle: 360deg;
     }
   }
 }
