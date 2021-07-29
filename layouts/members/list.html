@@ -1,9 +1,23 @@
 {{ define "main" }}
-  <section class="homepage-members-list">
+  <section class="homepage-members-list grid-full">
     <h1>Members</h1>
-    <ul>
-    {{ range .Pages }}
-      <li><a href="{{ .Slug | absURL }}">{{ .Params.Name }} ({{ range .Params.Roles }}{{ .role }}{{ end }})</a></li>
+    <ul class="grid member-list">
+      {{ range (sort .Pages "Params.rank" "asc") }}
+      <li>
+        <a href="{{ .Slug | absURL }}" class="member-preview">
+          {{ partial "image.html" (dict "picture" .Params.Picture "alt" (printf "Profile picture of %s" .Params.Name)) }}
+          <strong class="member-name">{{ .Params.Name }}</strong>
+          <span class="member-role">{{ delimit (apply .Params.Roles "partial" "role" ".") ", " " and "   }}</span>
+        </a>
+      </li>
+      {{ end }}
+    </ul>
+    <h1>Alumni</h1>
+    <ul class="members-list">
+    {{ range (where .Site.Pages "Section" "alumni") }}
+      <li class="alumni-preview">
+        <strong class="alumni-name">{{ .Params.Name }}</strong>
+      </li>
     {{ end }}
     </ul>
   </section>

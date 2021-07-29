@@ -9,3 +9,43 @@
     @content;
   }
 }
+
+@mixin grid-full() {
+  grid-column-start: 1;
+  grid-column-end: 13;
+
+  .grid {
+    grid-template-columns: repeat($columns, 1fr);
+    grid-column-gap: $size-gap;
+  }
+}
+
+@mixin grid-wide() {
+  grid-column-start: 2;
+  grid-column-end: 12;
+
+  .grid {
+    grid-template-columns: repeat(10, 1fr);
+    grid-column-gap: $size-gap;
+  }
+}
+
+@mixin grid-medium() {
+  grid-column-start: 3;
+  grid-column-end: 11;
+
+  .grid {
+    grid-template-columns: repeat(8, 1fr);
+    grid-column-gap: $size-gap;
+  }
+}
+
+@mixin grid-narrow() {
+  grid-column-start: 4;
+  grid-column-end: 10;
+
+  .grid {
+    grid-template-columns: repeat(6, 1fr);
+    grid-column-gap: $size-gap;
+  }
+}

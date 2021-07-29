@@ -1,6 +1,7 @@
 @import "./global";
 
 :root {
+  --spacing-0125: calc(var(--margin) * 0.125);
   --spacing-025: calc(var(--margin) * 0.25);
   --spacing-05: calc(var(--margin) * 0.5);
   --spacing-1: calc(var(--margin) * 1);
@@ -27,7 +28,7 @@ picture img {
 }
 
 .wrapper {
-  width: $size-wrapper;
+  width: var(--size-wrapper);
 }
 
 .grid {
@@ -41,8 +42,7 @@ picture img {
   }
 
   .grid-wide {
-    grid-column-start: 3;
-    grid-column-end: 11;
+    @include grid-full();
   }
 
   .grid-medium {
@@ -50,9 +50,31 @@ picture img {
     grid-column-end: 11;
   }
 
+  .grid-narrow-left {
+    grid-column-start: 3;
+    grid-column-end: 9;
+  }
+
+  .grid-narrow-left-aside {
+    grid-column-start: 9;
+    grid-column-end: 11;
+  }
+
   .grid-narrow {
     grid-column-start: 3;
     grid-column-end: 11;
+  }
+
+  @include query($narrow) {
+    .grid-wide {
+      @include grid-wide();
+    }
+  }
+
+  @include query($medium) {
+    .grid-wide {
+      @include grid-medium();
+    }
   }
 }
 
@@ -71,7 +93,7 @@ picture img {
 .page-header {
   width: 100vw;
   display: grid;
-  grid-template-columns: 1fr ($size-column * 8 + $size-gap * 7) 1fr;
+  grid-template-columns: 1fr calc(var(--size-column) * 8 + var(--size-gap) * 7) 1fr;
   height: 15vh;
 
   & > * {
@@ -80,7 +102,15 @@ picture img {
     }
   }
 
-  nav ul {
+  .page-search {
+    svg {
+      height: calc(var(--size-6) * 1.1);
+      stroke-width: 2.5px;
+      vector-effect: non-scaling-stroke;
+    }
+  }
+
+  .page-menu .page-menu-items {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     height: 100%;
@@ -136,8 +166,31 @@ picture img {
   }
 }
 
+.home-intro {
+  margin: var(--spacing-2) 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .intro {
+    margin-bottom: var(--spacing-2);
+  }
+}
+
 .home-projects {
   margin: var(--spacing-2) 0;
+  position: relative;
+
+  h3 {
+    position: absolute;
+    // writing-mode: vertical-lr;
+    transform: rotate(-45deg) translateX(-50%) translateY(-200%);
+    // text-align: center;
+    transform-origin: left bottom;
+    // left: 100%; // calc(var(--spacing-2) * -1);
+    // top: calc(var(--spacing-1) * 1);
+  }
 
   .project {
     padding: var(--spacing-025) 0;
@@ -156,12 +209,15 @@ picture img {
   margin: var(--spacing-2) 0;
 
   &::before {
+    grid-row-start: 1;
+    grid-row-end: 2;
     content: '';
-    position: absolute;
-    left: $wide-margin;
-    right: $wide-margin;
-    bottom: 0;
-    height: 100%;
+    display: block;
+    // position: absolute;
+    // left: $wide-margin;
+    // right: $wide-margin;
+    // bottom: 0;
+    // height: 100%;
     border: 10px solid;
     border-image-slice: 1;
     border-width: 3px;
@@ -171,6 +227,15 @@ picture img {
     // border-image-source: linear-gradient(90deg, #FFB600 0%, #FF4800 100%);
     animation: 20s rotate linear infinite;
     // border-image-source: radial-gradient(circle, #FFB600 60%, #FF4800 100%);
+    @include grid-medium();
+
+    @include query($narrow) {
+      @include grid-wide();
+    }
+
+    @include query($medium) {
+      @include grid-medium();
+    }
   }
 
   @property --angle {
@@ -182,6 +247,127 @@ picture img {
   @keyframes rotate {
     to {
       --angle: 360deg;
+    }
+  }
+
+  .about-intro {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding: var(--spacing-2) 0;
+  }
+}
+
+picture, img {
+  max-width: 100%;
+}
+
+.member-list {
+  row-gap: var(--spacing-1);
+
+  & > * {
+    grid-column: auto / span 3;
+    display: inline-block;
+
+    .member-preview {
+      display: block;
+
+      img {
+        --width-preview: 160px;
+        width: var(--width-preview);
+        height: calc(var(--width-preview) * 1.3);
+        object-fit: cover;
+        object-position: 50% 50%;
+        display: block;
+        margin-bottom: var(--spacing-025);
+      }
+
+      .member-name {
+        margin-bottom: var(--spacing-0125);
+      }
+    }
+  }
+}
+
+.homepage-member {
+  row-gap: var(--spacing-2);
+
+  .member-events, .member-projects {
+    border-top: 1px solid $color-gray;
+    padding-top: var(--spacing-2);
+    padding-bottom: var(--spacing-05);
+  }
+
+  .member-event, .member-project {
+    &:not(:last-child) {
+      padding-bottom: var(--spacing-05);
+    }
+    // padding-bottom: var(--spacing-05);
+  }
+
+  .member-header {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 4;
+    margin-top: var(--spacing-3);
+
+    .member-role {
+      margin-top: var(--spacing-05);
+    }
+  }
+
+  .member-image {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    margin-bottom: var(--spacing-05); // This is used to have a min height of the block
+
+    img {
+      filter: grayscale(100%);
+    }
+  }
+
+  .member-aside {
+    // margin-top: var(--spacing-0125);
+    text-align: right;
+  }
+
+  // .member-role {
+  //   grid-row-start: 2;
+  //   grid-row-end: 3;
+  // }
+
+  &::before {
+    margin-top: var(--spacing-2);
+    // grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    // grid-column-start: 1;
+    // grid-column-end: 3;
+    content: '';
+    display: block;
+    // position: absolute;
+    // left: $wide-margin;
+    // right: $wide-margin;
+    // bottom: 0;
+    // height: 100%;
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 3px;
+    z-index: -1;
+    --angle: 90deg;
+    border-image-source: linear-gradient(var(--angle), #FFB600 0%, #FF4800 100%);
+    // border-image-source: linear-gradient(90deg, #FFB600 0%, #FF4800 100%);
+    animation: 20s rotate linear infinite;
+    // border-image-source: radial-gradient(circle, #FFB600 60%, #FF4800 100%);
+    @include grid-medium();
+
+    @include query($narrow) {
+      @include grid-wide();
+    }
+
+    @include query($medium) {
+      @include grid-medium();
     }
   }
 }

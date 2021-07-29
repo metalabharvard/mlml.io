@@ -1,0 +1,31 @@
+{{ if and .picture.width .picture.height }}
+<picture>
+  {{ if .picture.formats.large.url }}
+  <source {{ printf "srcset=%v" (replace .picture.formats.large.url ".jpg" ".webp") | safeHTMLAttr }} type="image/webp" media="(min-width: {{ .picture.formats.large.width }}px)" />
+  {{ end }}
+  {{ if .picture.formats.medium.url }}
+  <source {{ printf "srcset=%v" (replace .picture.formats.medium.url ".jpg" ".webp") | safeHTMLAttr }} type="image/webp" media="(min-width: {{ .picture.formats.medium.width }}px)" />
+  {{ end }}
+  {{ if .picture.formats.small.url }}
+  <source {{ printf "srcset=%v" (replace .picture.formats.small.url ".jpg" ".webp") | safeHTMLAttr }} type="image/webp" media="(min-width: {{ .picture.formats.small.width }}px)" />
+  {{ end }}
+  {{ if .picture.formats.thumbnail.url }}
+  <source {{ printf "srcset=%v" (replace .picture.formats.thumbnail.url ".jpg" ".webp") | safeHTMLAttr }} type="image/webp" />
+  {{ end }}
+  {{ if .picture.formats.large.url }}
+  <source {{ printf "srcset=%v" .picture.formats.large.url | safeHTMLAttr }} type="image/jepg" media="(min-width: {{ .picture.formats.large.width }}px)" />
+  {{ end }}
+  {{ if .picture.formats.medium.url }}
+  <source {{ printf "srcset=%v" .picture.formats.medium.url | safeHTMLAttr }} type="image/jepg" media="(min-width: {{ .picture.formats.medium.width }}px)" />
+  {{ end }}
+  {{ if .picture.formats.small.url }}
+  <source {{ printf "srcset=%v" .picture.formats.small.url | safeHTMLAttr }} type="image/jepg" media="(min-width: {{ .picture.formats.small.width }}px)" />
+  {{ end }}
+  {{ if .picture.formats.thumbnail.url }}
+  <source {{ printf "srcset=%v" .picture.formats.thumbnail.url | safeHTMLAttr }} type="image/jepg" />
+  {{ end }}
+  {{ if .picture.url }}
+  <img {{ printf "src=%v" .picture.url | safeHTMLAttr }} loading="lazy" alt="{{ .alt }}" height="{{ .picture.height }}px" width="{{ .picture.width }}px">
+  {{ end }}
+</picture>
+{{ end }}

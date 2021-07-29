@@ -6,16 +6,20 @@
       <div class="page-logo center">
         <a href="{{ "/" | absURL }}" {{ if .IsHome }}class="isActive"{{ end }}><span>metalab</span></a>
       </div>
-      <nav>
+      <nav class="page-menu">
         <ul class="page-menu-items">
           <li><a href="{{ "about" | absURL }}" {{ if eq .RelPermalink "/about/" }}class="isActive"{{ end }}><span>About</span></a></li>
-          <li><a href="{{ "projects" | absURL }}" {{ if eq .RelPermalink "/projects/" }}class="isActive"{{ end }}><span>Projects</span></a></li>
-          <li><a href="{{ "members" | absURL }}" {{ if eq .RelPermalink "/members/" }}class="isActive"{{ end }}><span>Members</span></a></li>
-          <li><a href="{{ "events" | absURL }}" {{ if eq .RelPermalink "/events/" }}class="isActive"{{ end }}><span>Events</span></a></li>
+          <li><a href="{{ "projects" | absURL }}" {{ if eq .Section "projects" }}class="isActive"{{ end }}><span>Projects</span></a></li>
+          <li><a href="{{ "members" | absURL }}" {{ if eq .Section "members" }}class="isActive"{{ end }}><span>Members</span></a></li>
+          <li><a href="{{ "events" | absURL }}" {{ if eq .Section "events" }}class="isActive"{{ end }}><span>Events</span></a></li>
         </ul>
       </nav>
       <div class="page-search center">
-        Icon
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+          <circle cx="10" cy="10" r="7"></circle>
+          <line x1="21" y1="21" x2="15" y2="15"></line>
+        </svg>
       </div>
     </header>
     <main id="main" role="main" class="wrapper grid">
