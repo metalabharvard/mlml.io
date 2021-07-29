@@ -1,9 +1,8 @@
 {{ define "main" }}
-  <section class="homepage-projects-list">
-    <h1>Projects</h1>
+  <section class="homepage-projects-list grid-wide">
     <ul>
     {{ range .Pages }}
-      <li><a href="{{ .Slug | absURL }}">{{ .Params.Title }}</a></li>
+      {{ partial "project-preview.html" (dict "project" . )}}
     {{ end }}
     </ul>
   </section>

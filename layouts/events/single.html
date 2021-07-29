@@ -1,57 +1,40 @@
 {{ define "main" }}
-  <section class="homepage-events">
-    <h1>{{ .Params.Title }}</h1>
-    {{ if and .Params.Cover.width .Params.Cover.height }}
-    <picture>
-      {{ if .Params.Cover.formats.large.url }}
-      <source {{ printf "srcset=%v" (replace .Params.Cover.formats.large.url ".jpg" ".webp") | safeHTMLAttr }} type="image/webp" media="(min-width: {{ .Params.Cover.formats.large.width }}px)" />
-      {{ end }}
-      {{ if .Params.Cover.formats.medium.url }}
-      <source {{ printf "srcset=%v" (replace .Params.Cover.formats.medium.url ".jpg" ".webp") | safeHTMLAttr }} type="image/webp" media="(min-width: {{ .Params.Cover.formats.medium.width }}px)" />
-      {{ end }}
-      {{ if .Params.Cover.formats.small.url }}
-      <source {{ printf "srcset=%v" (replace .Params.Cover.formats.small.url ".jpg" ".webp") | safeHTMLAttr }} type="image/webp" media="(min-width: {{ .Params.Cover.formats.small.width }}px)" />
-      {{ end }}
-      {{ if .Params.Cover.formats.thumbnail.url }}
-      <source {{ printf "srcset=%v" (replace .Params.Cover.formats.thumbnail.url ".jpg" ".webp") | safeHTMLAttr }} type="image/webp" />
-      {{ end }}
-      {{ if .Params.Cover.formats.large.url }}
-      <source {{ printf "srcset=%v" .Params.Cover.formats.large.url | safeHTMLAttr }} type="image/jepg" media="(min-width: {{ .Params.Cover.formats.large.width }}px)" />
-      {{ end }}
-      {{ if .Params.Cover.formats.medium.url }}
-      <source {{ printf "srcset=%v" .Params.Cover.formats.medium.url | safeHTMLAttr }} type="image/jepg" media="(min-width: {{ .Params.Cover.formats.medium.width }}px)" />
-      {{ end }}
-      {{ if .Params.Cover.formats.small.url }}
-      <source {{ printf "srcset=%v" .Params.Cover.formats.small.url | safeHTMLAttr }} type="image/jepg" media="(min-width: {{ .Params.Cover.formats.small.width }}px)" />
-      {{ end }}
-      {{ if .Params.Cover.formats.thumbnail.url }}
-      <source {{ printf "srcset=%v" .Params.Cover.formats.thumbnail.url | safeHTMLAttr }} type="image/jepg" />
-      {{ end }}
-      {{ if .Params.Cover.url }}
-      <img {{ printf "src=%v" .Params.Cover.url | safeHTMLAttr }} loading="lazy" alt="{{ .Params.Cover.alternativeText }}" height="{{ .Params.Cover.height }}px" width="{{ .Params.Cover.width }}px">
-      {{ end }}
-    </picture>
+  <section class="homepage-event grid-full grid">
+    <header class="event-header grid-wide">
+      <h1 class="event-name">{{ .Params.Title }}</h1>
+      {{ with .Params.Intro }}<span class="event-intro">{{ . | markdownify }}</span>{{ end }}
+    </header>
+    <aside class="event-aside grid-narrow-right-aside">
+      {{ with .Params.Time }}<time class="event-time">{{ dateFormat "January 2006" . }}</time>{{ end }}
+      {{ with .Params.Location }}<span class="event-location">{{ . }}</span>{{ end }}
+    </aside>
+    {{ with .Params.Link }}
+    <a class="event-link" href="{{ . }}"><span>Visit event</span></a>
     {{ end }}
-    {{ with .Params.Time }}<h6>{{ dateFormat "January 2006" . }}</h6>{{ end }}
-    {{ with .Params.Location }}<h6>{{ . }}</h6>{{ end }}
-    {{ with .Params.Link }}<h6><a href="{{ . }}">{{ . }}</a></h6>{{ end }}
-    {{ with .Params.members }}
-    <h2>Involved members</h2>
-    <ul>
-    {{ range . }}
-      <li><a href="{{ .slug | absURL }}">{{ .name }}</a></li>
+    {{ with .Params.Description }}
+    <div class="grid-narrow-right">
+      <p>{{ . | markdownify }}</p>
+    </div>
     {{ end }}
-    </ul>
+    {{ with .Params.Members }}
+    <div class="grid-wide">
+      <h2 class="related-members">Involved members</h2>
+      <ul>
+      {{ range . }}
+        <li class="related-member"><a href="{{ .slug | absURL }}">{{ .name }}</a></li>
+      {{ end }}
+      </ul>
+    </div>
     {{ end }}
-    {{ with .Params.projects }}
-    <h2>Related Projects</h2>
-    <ul>
-    {{ range . }}
-      <li><a href="{{ .slug | absURL }}">{{ .title }}</a></li>
+    {{ with .Params.Project }}
+    <div class="grid-wide">
+      <h2 class="related-events">Related project</h2>
+      <ul>
+      {{ range . }}
+        <li class="related-project"><a href="{{ .slug | absURL }}">{{ .title }}</a></li>
+      {{ end }}
+      </ul>
+    </div>
     {{ end }}
-    </ul>
-    {{ end }}
-    <br />
-    {{ with .Params.Description }}<p>{{ . | markdownify }}</p>{{ end }}
   </section>
 {{ end }}

@@ -1,57 +1,39 @@
 {{ define "main" }}
-  <section class="homepage-member">
-    <h1>{{ .Params.Title }}</h1>
-    {{ if .Params.Cover.url }}
-    <picture>
-      {{ if .Params.Cover.formats.large.url }}
-      <source {{ printf "srcset=%v" (replace .Params.Cover.formats.large.url ".jpg" ".webp") | safeHTMLAttr }} type="image/webp" media="(min-width: {{ .Params.Cover.formats.large.width }}px)" />
-      {{ end }}
-      {{ if .Params.Cover.formats.medium.url }}
-      <source {{ printf "srcset=%v" (replace .Params.Cover.formats.medium.url ".jpg" ".webp") | safeHTMLAttr }} type="image/webp" media="(min-width: {{ .Params.Cover.formats.medium.width }}px)" />
-      {{ end }}
-      {{ if .Params.Cover.formats.small.url }}
-      <source {{ printf "srcset=%v" (replace .Params.Cover.formats.small.url ".jpg" ".webp") | safeHTMLAttr }} type="image/webp" media="(min-width: {{ .Params.Cover.formats.small.width }}px)" />
-      {{ end }}
-      {{ if .Params.Cover.formats.thumbnail.url }}
-      <source {{ printf "srcset=%v" (replace .Params.Cover.formats.thumbnail.url ".jpg" ".webp") | safeHTMLAttr }} type="image/webp" />
-      {{ end }}
-      {{ if .Params.Cover.formats.large.url }}
-      <source {{ printf "srcset=%v" .Params.Cover.formats.large.url | safeHTMLAttr }} type="image/jepg" media="(min-width: {{ .Params.Cover.formats.large.width }}px)" />
-      {{ end }}
-      {{ if .Params.Cover.formats.medium.url }}
-      <source {{ printf "srcset=%v" .Params.Cover.formats.medium.url | safeHTMLAttr }} type="image/jepg" media="(min-width: {{ .Params.Cover.formats.medium.width }}px)" />
-      {{ end }}
-      {{ if .Params.Cover.formats.small.url }}
-      <source {{ printf "srcset=%v" .Params.Cover.formats.small.url | safeHTMLAttr }} type="image/jepg" media="(min-width: {{ .Params.Cover.formats.small.width }}px)" />
-      {{ end }}
-      {{ if .Params.Cover.formats.thumbnail.url }}
-      <source {{ printf "srcset=%v" .Params.Cover.formats.thumbnail.url | safeHTMLAttr }} type="image/jepg" />
-      {{ end }}
-      {{ if .Params.Cover.url }}
-      <img {{ printf "src=%v" .Params.Cover.url | safeHTMLAttr }} loading="lazy" alt="{{ .Params.Cover.alternativeText }}" height="{{ .Params.Cover.height }}px" width="{{ .Params.Cover.width }}px">
-      {{ end }}
-    </picture>
+  <section class="homepage-project grid-full grid">
+    <header class="project-header grid-wide">
+      <h1 class="project-name">{{ .Params.Title }}</h1>
+      {{ with .Params.Intro }}<span class="project-intro">{{ . | markdownify }}</span>{{ end }}
+    </header>
+    <aside class="project-aside grid-narrow-right-aside">
+      <time class="project-start">{{ dateFormat "January 2006" .Params.Start }}</time>
+    </aside>
+    {{ with .Params.ExternalLink }}
+    <a class="project-link" href="{{ . }}"><span>Visit project</span></a>
     {{ end }}
-    <h6>{{ dateFormat "January 2006" .Params.Start }}</h6>
-    {{ with .Params.ExternalLink }}<h6><a href="{{ . }}">{{ . }}</a></h6>{{ end }}
-    {{ with .Params.Intro }}<h3>{{ . | markdownify }}</h3>{{ end }}
+    {{ with .Params.Description }}
+    <div class="grid-narrow-right">
+      <p>{{ . | markdownify }}</p>
+    </div>
+    {{ end }}
     {{ with .Params.Members }}
-    <h2>Involved members</h2>
-    <ul>
-    {{ range . }}
-      <li><a href="{{ .slug | absURL }}">{{ .name }}</a></li>
+    <div class="grid-wide">
+      <h2 class="related-members">Involved members</h2>
+      <ul>
+      {{ range . }}
+        <li class="related-member"><a href="{{ .slug | absURL }}">{{ .name }}</a></li>
+      {{ end }}
+      </ul>
+    </div>
     {{ end }}
-    </ul>
+    {{ with .Params.Events }}
+    <div class="grid-wide">
+      <h2 class="related-events">Related events</h2>
+      <ul>
+      {{ range . }}
+        <li class="related-event"><a href="{{ .slug | absURL }}">{{ .title }}</a></li>
+      {{ end }}
+      </ul>
+    </div>
     {{ end }}
-    {{ with .Params.Events}}
-    <h2>Related events</h2>
-    <ul>
-    {{ range . }}
-      <li><a href="{{ .slug | absURL }}">{{ .title }}</a></li>
-    {{ end }}
-    </ul>
-    {{ end }}
-    <br />
-    {{ with .Params.Description }}<p>{{ . | markdownify }}</p>{{ end }}
   </section>
 {{ end }}

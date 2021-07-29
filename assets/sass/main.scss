@@ -21,6 +21,7 @@ html {
 body {
   background-color: #fff;
   color: $color-default;
+  overflow-x: hidden;
 }
 
 *, *:before, *:after {

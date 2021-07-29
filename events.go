@@ -49,6 +49,7 @@ type Cover struct {
 type Response struct {
   Title string `json:"title"`
   Time string `json:"time"`
+  Intro string `json:"intro"`
   Location string `json:"location"`
   Link string `json:"link"`
   Description string `json:"description"`

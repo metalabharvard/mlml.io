@@ -60,6 +60,16 @@ picture img {
     grid-column-end: 11;
   }
 
+  .grid-narrow-right {
+    grid-column-start: 5;
+    grid-column-end: 11;
+  }
+
+  .grid-narrow-right-aside {
+    grid-column-start: 3;
+    grid-column-end: 5;
+  }
+
   .grid-narrow {
     grid-column-start: 3;
     grid-column-end: 11;
@@ -191,15 +201,15 @@ picture img {
     // left: 100%; // calc(var(--spacing-2) * -1);
     // top: calc(var(--spacing-1) * 1);
   }
+}
 
-  .project {
-    padding: var(--spacing-025) 0;
-    margin: var(--spacing-05) 0;
+.project-preview, .event-preview {
+  padding: var(--spacing-025) 0;
+  margin: var(--spacing-05) 0;
 
-    footer {
-      display: flex;
-      justify-content: space-between;
-    }
+  footer {
+    display: flex;
+    justify-content: space-between;
   }
 }
 
@@ -289,21 +299,6 @@ picture, img {
 }
 
 .homepage-member {
-  row-gap: var(--spacing-2);
-
-  .member-events, .member-projects {
-    border-top: 1px solid $color-gray;
-    padding-top: var(--spacing-2);
-    padding-bottom: var(--spacing-05);
-  }
-
-  .member-event, .member-project {
-    &:not(:last-child) {
-      padding-bottom: var(--spacing-05);
-    }
-    // padding-bottom: var(--spacing-05);
-  }
-
   .member-header {
     grid-row-start: 1;
     grid-row-end: 2;
@@ -370,4 +365,59 @@ picture, img {
       @include grid-medium();
     }
   }
+}
+
+.homepage-project {
+  .project-intro {
+    margin-top: var(--spacing-05);
+  }
+
+  .project-link {
+    position: fixed;
+    right: -200px;
+    top: calc(15vh + var(--spacing-2));
+    border: 3px solid #FF4800;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &:hover, &:focus {
+      background-color: #222;
+      color: #fff;
+      border-color: #222;
+    }
+
+    span {
+      text-align: right;
+      display: block;
+      width: 50%;
+      padding-right: var(--spacing-05);
+    }
+  }
+}
+
+.homepage-member, .homepage-event, .homepage-project {
+  row-gap: var(--spacing-2);
+}
+
+.homepage-event {
+  .event-intro {
+    margin-top: var(--spacing-05);
+  }
+}
+
+.related-events, .related-projects, .related-members {
+  border-top: 1px solid $color-gray;
+  padding-top: var(--spacing-2);
+  padding-bottom: var(--spacing-05);
+}
+
+.related-event, .related-project, .rellated-member {
+  &:not(:last-child) {
+    padding-bottom: var(--spacing-05);
+  }
+  // padding-bottom: var(--spacing-05);
 }

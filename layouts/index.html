@@ -11,16 +11,7 @@
     <h3>Recent projects and events</h3>
     <ul>
     {{ range (where .Site.Pages "Section" "projects") }}
-      <li class="project">
-        <a href="{{ .Slug | absURL }}">
-          <span class="project-title">{{ .Params.Title }}</span><span class="project-tag">Ongoing</span>
-          <footer>
-            <span>Project</span>
-            <span>since June 2021</span>
-            <span>Harvard</span>
-          </footer>
-        </a>
-      </li>
+      {{ partial "project-preview.html" (dict "project" . )}}
     {{ end }}
     </ul>
   </div>

@@ -48,20 +48,20 @@
     </aside>
     {{ with .Params.Projects }}
     <div class="grid-wide">
-      <h2 class="member-projects">Involved projects</h2>
+      <h2 class="related-projects">Involved projects</h2>
       <ul>
       {{ range . }}
-        <li class="member-project"><a href="{{ .slug | absURL }}">{{ .title }}</a></li>
+        <li class="related-project"><a href="{{ .slug | absURL }}">{{ .title }}</a></li>
       {{ end }}
       </ul>
     </div>
     {{ end }}
     {{ with .Params.Events }}
     <div class="grid-wide">
-      <h2 class="member-events">Involved events</h2>
+      <h2 class="related-events">Involved events</h2>
       <ul>
       {{ range . }}
-        <li class="member-event"><a href="{{ .slug | absURL }}">{{ .title }}</a></li>
+        <li class="related-event"><a href="{{ .slug | absURL }}">{{ .title }}</a></li>
       {{ end }}
       </ul>
     </div>

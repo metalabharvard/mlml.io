@@ -143,20 +143,6 @@ ul {
     display: block;
   }
 
-  .member-events, .member-projects {
-    font-size: var(--size-3);
-    font-weight: $font-weight-bold;
-    line-height: 1.1;
-    display: block;
-  }
-
-  .member-event, .member-project {
-    font-size: var(--size-4);
-    font-weight: $font-weight-medium;
-    line-height: 1.1;
-    display: block;
-  }
-
   .member-description {
     font-size: var(--size-6);
   }
@@ -174,19 +160,39 @@ ul {
   }
 }
 
-.project {
-  border-bottom: 1px solid $color-gray;
+.related-events, .related-projects, .related-members {
+  font-size: var(--size-3);
+  font-weight: $font-weight-bold;
+  line-height: 1.1;
+  display: block;
+}
+
+.related-event, .related-project, .related-member {
+  font-size: var(--size-4);
+  font-weight: $font-weight-medium;
+  line-height: 1.1;
+  display: block;
+
+  &:not(:last-child) {
+    margin-bottom: var(--spacing-05);
+  }
+}
+
+.project-preview, .event-preview {
+  &:not(:last-child) {
+    border-bottom: 1px solid $color-gray;
+  }
 
   a {
     text-decoration: none;
   }
 
-  .project-title {
+  .project-title, .event-title {
     font-size: var(--size-1);
     line-height: 1.1;
   }
 
-  .project-tag {
+  .project-tag, .event-tag {
     font-size: var(--size-8);
     text-transform: uppercase;
     letter-spacing: 0.1em;
@@ -198,5 +204,53 @@ ul {
     text-transform: uppercase;
     color: $color-gray-dark;
     letter-spacing: 0.1em;
+  }
+}
+
+.homepage-project {
+  .project-name {
+    font-size: var(--size-1);
+    line-height: 1.05;
+  }
+
+  .project-intro {
+    font-size: var(--size-5);
+    font-weight: $font-weight-bold;
+    line-height: 1.1;
+    display: block;
+  }
+
+  .project-aside {
+    font-size: var(--size-6);
+    font-weight: $font-weight-bold;
+  }
+
+  .project-link {
+    font-size: var(--size-5);
+    font-weight: $font-weight-bold;
+    text-decoration: none;
+  }
+}
+
+.homepage-event {
+  .event-name {
+    font-size: var(--size-1);
+    line-height: 1.05;
+  }
+
+  .event-intro {
+    font-size: var(--size-5);
+    font-weight: $font-weight-bold;
+    line-height: 1.1;
+    display: block;
+  }
+
+  .event-aside {
+    font-size: var(--size-6);
+    font-weight: $font-weight-bold;
+
+    & > * {
+      display: block;
+    }
   }
 }
