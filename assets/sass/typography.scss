@@ -173,6 +173,10 @@ ul {
   line-height: 1.1;
   display: block;
 
+  a {
+    text-decoration: none;
+  }
+
   &:not(:last-child) {
     margin-bottom: var(--spacing-05);
   }
@@ -251,6 +255,35 @@ ul {
 
     & > * {
       display: block;
+    }
+  }
+}
+
+.page-footer {
+  font-weight: $font-weight-default;
+  line-height: 1.1;
+
+  li, p {
+    font-size: var(--size-6);
+  }
+
+  .footer-logos li {
+    font-size: var(--size-6);
+    font-weight: $font-weight-bold;
+  }
+
+  span {
+    font-size: var(--size-7);
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
+
+    svg {
+      height: calc(var(--size-5) * 0.9);
+      stroke-width: 1.8px;
+      vector-effect: non-scaling-stroke;
     }
   }
 }
