@@ -1,5 +1,5 @@
 {
- "name": "Alison Head",
+ "name": "Julianne VanWagenen",
  "roles": [
   {
    "role": "Alumnus",
@@ -14,9 +14,9 @@
  "instagram": "",
  "start": "",
  "description": "",
- "updated_at": "2021-07-29T16:05:15.789Z",
- "created_at": "2021-07-29T16:05:14.225Z",
- "slug": "alison-head",
+ "updated_at": "2021-08-02T16:40:09.363Z",
+ "created_at": "2021-08-02T16:40:05.764Z",
+ "slug": "julianne-van-wagenen",
  "events": [],
  "projects": [],
  "picture": {

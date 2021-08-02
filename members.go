@@ -53,6 +53,7 @@ type Response struct {
   Name string `json:"name"`
   Roles []Role `json:"roles"`
   Rank float64 `json:"rank"`
+  RoleString string `json:"role_string"`
   Twitter string `json:"twitter"`
   Mail string `json:"email"`
   Website string `json:"website"`
@@ -93,6 +94,19 @@ func calculateRoleRank(roles []Role) float64 {
     rank += 9 * math.Pow(10, float64(-i))
   }
   return math.Round(rank * 1000) / 1000
+}
+
+func createRoleString(roles []Role) string {
+  var role string = ""
+  for i := 0; i < len(roles); i++ {
+    role += roles[i].Role
+    if i < len(roles) - 2 {
+      role += ", "
+    } else if i == len(roles) - 2 {
+      role += " and "
+    }
+  }
+  return role
 }
 
 type ByRole []Role
@@ -140,6 +154,7 @@ func main() {
     sort.Sort(ByRole(element.Roles))
     // fmt.Println(element.Roles)
     element.Rank = calculateRoleRank(element.Roles)
+    element.RoleString = createRoleString(element.Roles)
     
     element.Name = strings.TrimSpace(element.Name)
 

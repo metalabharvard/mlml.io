@@ -7,6 +7,7 @@
   }
  ],
  "rank": 3.999,
+ "role_string": "Senior Affiliate",
  "twitter": "",
  "email": "",
  "website": "http://annette-jael-lehmann.de/",

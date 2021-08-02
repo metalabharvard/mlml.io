@@ -7,6 +7,7 @@
   }
  ],
  "rank": 3.999,
+ "role_string": "Senior Affiliate",
  "twitter": "pciuccarelli",
  "email": "",
  "website": "http://https//camd.northeastern.edu/faculty/paolo-ciuccarelli/",

@@ -2,6 +2,7 @@
  "name": "Kim Albrecht",
  "roles": [],
  "rank": 9.999,
+ "role_string": "",
  "twitter": "kimay",
  "email": "",
  "website": "http://kimalbrecht.com/",

@@ -7,6 +7,7 @@
   }
  ],
  "rank": 4.999,
+ "role_string": "Affiliate",
  "twitter": "alarconbits",
  "email": "",
  "website": "http://franciscoalarcon.info/",

@@ -7,6 +7,7 @@
   }
  ],
  "rank": 10.999,
+ "role_string": "Alumnus",
  "twitter": "",
  "email": "",
  "website": "",
@@ -16,7 +17,12 @@
  "updated_at": "2021-07-29T16:03:46.306Z",
  "created_at": "2021-07-29T16:03:43.462Z",
  "slug": "adam-haar-horowitz",
- "events": [],
+ "events": [
+  {
+   "title": "Virtual Creative Spring Workshops 2021",
+   "slug": "virtual-creative-spring-workshops-2021"
+  }
+ ],
  "projects": [],
  "picture": {
   "alternativeText": "",

@@ -7,6 +7,7 @@
   }
  ],
  "rank": 4.999,
+ "role_string": "Affiliate",
  "twitter": "minneatairu",
  "email": "",
  "website": "http://studio.minneatairu.com/",

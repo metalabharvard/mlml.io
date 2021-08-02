@@ -7,6 +7,7 @@
   }
  ],
  "rank": 1.999,
+ "role_string": "Founder",
  "twitter": "matthewbattles",
  "email": "matthew@metalab.harvard.edu",
  "website": "http://mbattl.es/",

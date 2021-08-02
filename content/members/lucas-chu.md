@@ -2,6 +2,7 @@
  "name": "Lucas Chu",
  "roles": [],
  "rank": 9.999,
+ "role_string": "",
  "twitter": "",
  "email": "",
  "website": "",

@@ -11,6 +11,7 @@
   }
  ],
  "rank": 2.399,
+ "role_string": "Principal and Senior Affiliate",
  "twitter": "sarahwnewman",
  "email": "snewman@metalab.harvard.edu",
  "website": "http://sarahwnewman.com/",

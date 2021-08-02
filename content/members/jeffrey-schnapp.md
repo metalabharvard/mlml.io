@@ -11,6 +11,7 @@
   }
  ],
  "rank": 1.299,
+ "role_string": "Founder and Principal",
  "twitter": "jaytiesse",
  "email": "jeffrey@metalab.harvard.edu",
  "website": "jeffreyschnapp.com",

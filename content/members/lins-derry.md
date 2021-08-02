@@ -7,6 +7,7 @@
   }
  ],
  "rank": 2.999,
+ "role_string": "Principal",
  "twitter": "linsderry",
  "email": "",
  "website": "",

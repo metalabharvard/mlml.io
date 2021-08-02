@@ -7,6 +7,7 @@
   }
  ],
  "rank": 4.999,
+ "role_string": "Affiliate",
  "twitter": "",
  "email": "",
  "website": "http://jeanette-andrews.com/",

@@ -7,6 +7,7 @@
   }
  ],
  "rank": 6.999,
+ "role_string": "Visiting Researcher",
  "twitter": "dietoff",
  "email": "d.offenhuber@northeastern.edu",
  "website": "http://cssh.northeastern.edu/people/faculty/dietmar-offenhuber/",

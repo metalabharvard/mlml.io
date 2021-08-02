@@ -1,5 +1,5 @@
 {
- "name": "Alison Head",
+ "name": "Joe Steele",
  "roles": [
   {
    "role": "Alumnus",
@@ -14,9 +14,9 @@
  "instagram": "",
  "start": "",
  "description": "",
- "updated_at": "2021-07-29T16:05:15.789Z",
- "created_at": "2021-07-29T16:05:14.225Z",
- "slug": "alison-head",
+ "updated_at": "2021-08-02T16:39:51.163Z",
+ "created_at": "2021-08-02T16:39:49.533Z",
+ "slug": "joe-steele",
  "events": [],
  "projects": [],
  "picture": {

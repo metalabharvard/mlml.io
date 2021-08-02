@@ -7,6 +7,7 @@
   }
  ],
  "rank": 10.999,
+ "role_string": "Alumnus",
  "twitter": "",
  "email": "",
  "website": "",
