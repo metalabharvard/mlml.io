@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="{{ .Site.LanguageCode }}">
   {{ partial "head.html" . }}
-  <body class="center-h">
+  <body>
     <header class="page-header">
       <div class="page-logo center">
         <a href="{{ "/" | absURL }}" {{ if .IsHome }}class="isActive"{{ end }}><span>metalab</span></a>
@@ -22,8 +22,10 @@
         </svg>
       </div>
     </header>
-    <main id="main" role="main" class="wrapper grid">
-    	{{ block "main" . }}{{ end }}
+    <main id="main" role="main" class="center-h">
+      <div class="wrapper grid">
+    	 {{ block "main" . }}{{ end }}
+      </div>
     </main>
     <footer class="page-footer">
       <div class="footer-content wrapper grid">

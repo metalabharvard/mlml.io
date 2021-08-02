@@ -19,9 +19,13 @@ html {
 }
 
 body {
-  background-color: #fff;
+  background-color: var(--color-bg-black);
   color: $color-default;
   overflow-x: hidden;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+  justify-items: center;
 }
 
 *, *:before, *:after {

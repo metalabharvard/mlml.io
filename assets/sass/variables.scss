@@ -51,6 +51,8 @@ $size-9: 6.76px;
   --color-interactive: #{$color-interactive};
   --color-highlight: #{$color-highlight};
 
+  --color-bg-black: #000;
+
   --margin: max(calc(2vw + 0.5vmin), 2px); // Used for spacing
   --base: calc(1.1vw); // Used for fonts
 
