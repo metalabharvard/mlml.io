@@ -15,6 +15,7 @@
 	let fuseProjects; // Fuse instance
 	let hasTerm = false;
 	let pageHeader;
+	let isOpen = false;
 
 	function handleInput () {
 		const term = trim(input.value)
@@ -43,12 +44,26 @@
 	    });
 	})
 
+	function closeSearch () {
+		input.blur();
+		input.value = '';
+		handleInput();
+		isOpen = false;
+	}
+
 	function handleKeyDown (event) {
 		const { key, target } = event;
 		if (key === 'Escape') {
-			input.blur();
-			input.value = '';
-			handleInput();
+			closeSearch();
+		}
+	}
+
+	function handleTriggerClick () {
+		if (isOpen) {
+			closeSearch();
+		} else {
+			input.focus();
+			isOpen = true;
 		}
 	}
 </script>
@@ -64,7 +79,7 @@
 	role="search"
 	class:hasTerm={hasTerm}>
 
-<button class="search-trigger" on:click={input.focus()}>
+<button class="search-trigger" on:click={handleTriggerClick}>
 	<svg
 		xmlns="http://www.w3.org/2000/svg"
 		class="icon icon-tabler icon-tabler-search"
