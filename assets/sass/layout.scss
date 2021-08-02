@@ -238,11 +238,11 @@ picture img {
     border: 10px solid;
     border-image-slice: 1;
     border-width: 3px;
-    z-index: -1;
+    z-index: 0;
     --angle: 90deg;
-    border-image-source: linear-gradient(var(--angle), #FFB600 0%, #FF4800 100%);
+    border-image-source: linear-gradient(90deg, #FFB600 0%, #FF4800 100%);
     // border-image-source: linear-gradient(90deg, #FFB600 0%, #FF4800 100%);
-    animation: 20s rotate linear infinite;
+    // animation: 20s rotate linear infinite;
     // border-image-source: radial-gradient(circle, #FFB600 60%, #FF4800 100%);
     @include grid-medium();
 
@@ -271,6 +271,7 @@ picture img {
     grid-row-start: 1;
     grid-row-end: 2;
     padding: var(--spacing-2) 0;
+    z-index: 1;
   }
 }
 
@@ -356,7 +357,7 @@ picture, img {
     border: 10px solid;
     border-image-slice: 1;
     border-width: 3px;
-    z-index: -1;
+    z-index: 0;
     --angle: 90deg;
     border-image-source: linear-gradient(var(--angle), #FFB600 0%, #FF4800 100%);
     // border-image-source: linear-gradient(90deg, #FFB600 0%, #FF4800 100%);
