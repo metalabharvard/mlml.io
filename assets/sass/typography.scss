@@ -259,6 +259,12 @@ ul {
   }
 }
 
+.project-description, .member-description, .event-description {
+  p + p {
+    margin-top: var(--spacing-05);
+  }
+}
+
 .page-footer {
   font-weight: $font-weight-default;
   line-height: 1.1;

@@ -5,9 +5,11 @@
       <span class="member-role">{{ delimit (apply .Params.Roles "partial" "role" ".") ", " " and "   }}</span>
     </header>
     <div class="member-image">{{ partial "image.html" (dict "picture" .Params.Picture) }}</div>
-    <div class="grid-narrow-left">
-      {{ with .Params.Description }}<p class="member-description">{{ . | markdownify }}</p>{{ end }}
+    {{ with .Params.Description }}
+    <div class="member-description grid-narrow-left">
+      {{ . | markdownify }}
     </div>
+    {{ end }}
     <aside class="member-aside grid-narrow-left-aside">
       {{ with .Params.Twitter -}}
       <a href="https://twitter.com/{{ . }}">

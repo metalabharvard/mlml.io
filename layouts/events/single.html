@@ -12,8 +12,8 @@
     <a class="event-link" href="{{ . }}"><span>Visit event</span></a>
     {{ end }}
     {{ with .Params.Description }}
-    <div class="grid-narrow-right">
-      <p>{{ . | markdownify }}</p>
+    <div class="event-description grid-narrow-right">
+      {{ . | markdownify }}
     </div>
     {{ end }}
     {{ with .Params.Members }}

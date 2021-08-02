@@ -8,3 +8,6 @@ languageCode = "en-us"
   projects = "/:slug/"
   members = "/:slug/"
   events = "/:slug/"
+
+[markup.goldmark.renderer]
+  hardWraps = true

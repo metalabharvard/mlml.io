@@ -11,8 +11,8 @@
     <a class="project-link" href="{{ . }}"><span>Visit project</span></a>
     {{ end }}
     {{ with .Params.Description }}
-    <div class="grid-narrow-right">
-      <p>{{ . | markdownify }}</p>
+    <div class="project-description grid-narrow-right">
+      {{ . | markdownify }}
     </div>
     {{ end }}
     {{ with .Params.Members }}
