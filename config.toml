@@ -11,3 +11,13 @@ languageCode = "en-us"
 
 [markup.goldmark.renderer]
   hardWraps = true
+
+[outputFormats]
+  [outputFormats.Content]
+    mediaType = "application/json"
+    baseName = "content"
+    isPlainText = true
+    notAlternative = true
+
+[outputs]
+  home = ["HTML", "Content"]

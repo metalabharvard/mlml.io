@@ -2,7 +2,7 @@
 <html lang="{{ .Site.LanguageCode }}">
   {{ partial "head.html" . }}
   <body>
-    <header class="page-header">
+    <header class="page-header" id="page-header">
       <div class="page-logo center">
         <a href="{{ "/" | absURL }}" {{ if .IsHome }}class="isActive"{{ end }}><span>metalab</span></a>
       </div>
@@ -14,16 +14,11 @@
           <li><a href="{{ "events" | absURL }}" {{ if eq .Section "events" }}class="isActive"{{ end }}><span>Events</span></a></li>
         </ul>
       </nav>
-      <div class="page-search center">
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-          <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-          <circle cx="10" cy="10" r="7"></circle>
-          <line x1="21" y1="21" x2="15" y2="15"></line>
-        </svg>
+      <div class="page-search center" id="page-search">
       </div>
     </header>
     <main id="main" role="main" class="center-h">
-      <div class="wrapper grid">
+      <div class="wrapper grid grid-v-default">
     	 {{ block "main" . }}{{ end }}
       </div>
     </main>

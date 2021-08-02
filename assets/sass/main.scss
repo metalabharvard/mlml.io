@@ -16,16 +16,17 @@ html {
   font-kerning: normal;
   font-variant-ligatures: contextual common-ligatures;
   font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1;
+  background-color: var(--color-bg-black);
 }
 
 body {
-  background-color: var(--color-bg-black);
   color: $color-default;
   overflow-x: hidden;
   display: grid;
   grid-template-rows: auto 1fr auto;
   min-height: 100vh;
   justify-items: center;
+  background-color: var(--color-bg);
 }
 
 *, *:before, *:after {

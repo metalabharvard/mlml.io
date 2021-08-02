@@ -9,6 +9,9 @@
   {{ $js := resources.Get "js/index.js" | js.Build (dict "minify" true) | fingerprint }}
   <script type="text/javascript" src="{{ $js.Permalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
 
+  {{ $svelte := resources.Get "/js/svelte.js" | js.Build (dict "minify" true) | fingerprint }}
+  <script type="text/javascript" src="{{ $svelte.Permalink }}" integrity="{{ $svelte.Data.Integrity }}" defer></script>
+
   {{ $style := resources.Get "sass/main.scss" | toCSS | minify | fingerprint }}
   <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}">
 </head>

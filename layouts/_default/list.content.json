@@ -1,0 +1,23 @@
+{{ $membersScratch := newScratch }}
+{{- $membersScratch.Set "members" slice -}}
+{{- range $index, $element := (where .Site.Pages "Section" "members") -}}
+  {{- $membersScratch.Add "members" (dict "type" "member" "name" $element.Params.Name "role" $element.Params.Role_string "slug" $element.Slug) -}}
+{{- end -}}
+
+{{ $eventsScratch := newScratch }}
+{{- $eventsScratch.Set "events" slice -}}
+{{- range $index, $element := (where .Site.Pages "Section" "events") -}}
+  {{- $eventsScratch.Add "events" (dict "type" "event" "title" $element.Title "intro" (plainify ($element.Params.Intro | markdownify)) "description" (replace (safeHTMLAttr (safeJS (plainify ($element.Params.Description | markdownify)))) "\n" " ") "slug" $element.Slug) -}}
+{{- end -}}
+
+{{ $projectsScratch := newScratch }}
+{{- $projectsScratch.Set "projects" slice -}}
+{{- range $index, $element := (where .Site.Pages "Section" "projects") -}}
+  {{- $projectsScratch.Add "projects" (dict "type" "event" "title" $element.Title "intro" (plainify ($element.Params.Intro | markdownify)) "description" (replace (safeHTMLAttr (safeJS (plainify ($element.Params.Description | markdownify)))) "\n" " ") "slug" $element.Slug) -}}
+{{- end -}}
+
+{{ $content := newScratch }}
+{{ $content.SetInMap "list" "projects" ($projectsScratch.Get "projects") }}
+{{ $content.SetInMap "list" "members" ($membersScratch.Get "members") }}
+{{ $content.SetInMap "list" "events" ($eventsScratch.Get "events") }}
+{{- $content.Get "list" | jsonify -}}

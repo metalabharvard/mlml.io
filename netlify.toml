@@ -1,5 +1,5 @@
 [build]
-command = "go run script.go && go run events.go && go run members.go && go run projects.go && hugo --gc --minify --config config/config.json,config.toml --ignoreCache"
+command = "npm run build"
 
 [context.production.environment]
 HUGO_VERSION = "0.83.1"

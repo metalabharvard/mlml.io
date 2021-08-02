@@ -7,13 +7,15 @@
         <a href="{{ .Slug | absURL }}" class="member-preview">
           {{ partial "image.html" (dict "picture" .Params.Picture "alt" (printf "Profile picture of %s" .Params.Name)) }}
           <strong class="member-name">{{ .Params.Name }}</strong>
-          <span class="member-role">{{ delimit (apply .Params.Roles "partial" "role" ".") ", " " and "   }}</span>
+          <span class="member-role">{{ .Params.Role_string }}</span>
         </a>
       </li>
       {{ end }}
     </ul>
+  </section>
+  <section class="homepage-alumni-list grid-full">
     <h1>Alumni</h1>
-    <ul class="members-list">
+    <ul class="grid alumni-list">
     {{ range (where .Site.Pages "Section" "alumni") }}
       <li class="alumni-preview">
         <strong class="alumni-name">{{ .Params.Name }}</strong>

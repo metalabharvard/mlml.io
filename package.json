@@ -2,13 +2,27 @@
   "name": "metalab-website",
   "version": "0.0.1",
   "description": "Website for metalab(at)harvard and metalab(at)fu_berlin",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup -c; go run script.go && go run events.go && go run members.go && go run projects.go && hugo --gc --minify --config config/config.json,config.toml --ignoreCache",
+    "autobuild": "rollup -c -w",
+    "dev": "run-p autobuild hugo:dev",
+    "hugo:dev": "hugo server --bind=0.0.0.0 -D --config config/config.json,config.toml --ignoreCache"
   },
   "author": "Jonas Parnow <jonas@parnow.de>",
   "license": "ISC",
   "dependencies": {
-    "chroma-js": "^2.1.2"
+    "body-scroll-lock": "3.1.5",
+    "chroma-js": "^2.1.2",
+    "fuse.js": "^6.4.6",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "rollup": "^2.55.1",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-svelte": "^7.1.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "svelte": "^3.41.0"
   }
 }

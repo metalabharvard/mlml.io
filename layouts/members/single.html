@@ -2,7 +2,7 @@
   <section class="homepage-member grid-full grid">
     <header class="member-header grid-wide">
       <h1 class="member-name">{{ .Params.Name }}</h1>
-      <span class="member-role">{{ delimit (apply .Params.Roles "partial" "role" ".") ", " " and "   }}</span>
+      <span class="member-role">{{ .Params.Role_string }}</span>
     </header>
     <div class="member-image">{{ partial "image.html" (dict "picture" .Params.Picture) }}</div>
     {{ with .Params.Description }}

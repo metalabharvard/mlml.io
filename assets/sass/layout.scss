@@ -20,7 +20,6 @@
 
 #main {
   padding: var(--spacing-2) 0;
-  background-color: var(--color-bg);
   width: 100vw;
 }
 
@@ -37,6 +36,10 @@ picture img {
   display: grid;
   grid-template-columns: repeat($columns, 1fr);
   grid-column-gap: $size-gap;
+
+  &.grid-v-default {
+    grid-row-gap: var(--spacing-4);
+  }
 
   .grid-full {
     grid-column-start: 1;
@@ -106,7 +109,8 @@ picture img {
   width: 100vw;
   display: grid;
   grid-template-columns: 1fr calc(var(--size-column) * 8 + var(--size-gap) * 7) 1fr;
-  height: 15vh;
+  --header-height: 15vh;
+  height: var(--header-height);
 
   & > * {
     background-color: var(--color-bg);
@@ -118,11 +122,68 @@ picture img {
 
   .page-search {
     background-color: var(--color-bg);
+    position: relative;
 
-    svg {
-      height: calc(var(--size-6) * 1.1);
-      stroke-width: 2.5px;
-      vector-effect: non-scaling-stroke;
+    .search-trigger {
+      width: 100%;
+      height: 100%;
+      border-radius: 0;
+      border: none;
+      background-color: transparent;
+
+      .icon {
+        height: calc(var(--size-6) * 1.1);
+        stroke-width: 2.5px;
+        vector-effect: non-scaling-stroke;
+      }
+
+      &:hover, &:focus {
+        outline: none;
+        // background-image: linear-gradient(90deg, #FF4800, #FFB600);
+        // -webkit-background-clip: text;
+        // -webkit-text-fill-color: transparent;
+
+        color: red;
+      }
+    }
+
+    #page-search-input {
+      position: absolute;
+      right: 100%;
+      transition: width 0.3s ease, border-bottom-color 0.3s ease;
+      width: 0;
+      border: none;
+      height: calc(100% + 2px);
+      outline: none;
+      border-bottom: 1px solid $color-gray;
+      border-left: 1px solid $color-gray;
+      z-index: 999;
+      text-indent: var(--spacing-1);
+
+      &:focus, &.hasTerm {
+        width: calc(var(--size-column) * 8 + var(--size-gap) * 7);
+        border-bottom-color: var(--color-bg-black);
+      }
+    }
+
+    .search-results {
+      position: absolute;
+      z-index: 999;
+      background-color: #fff;
+      width: 100vw;
+      height: calc(100vh - var(--header-height) - 1px);
+      right: 0;
+      top: calc(100% + 1px);
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s ease;
+      padding: var(--spacing-2);
+      overflow-y: auto;
+
+      &.hasTerm {
+        opacity: 1;
+        pointer-events: all;
+      }
     }
   }
 
@@ -146,7 +207,7 @@ picture img {
     }
   }
 
-  a {
+  .page-logo a, .page-menu-items a {
     width: 100%;
     height: 100%;
     display: flex;
@@ -306,12 +367,22 @@ picture, img {
   }
 }
 
+.alumni-list {
+  row-gap: var(--spacing-1);
+
+  & > * {
+    grid-column: auto / span 3;
+    display: inline-block;
+  }
+}
+
 .homepage-member {
   .member-header {
     grid-row-start: 1;
     grid-row-end: 2;
     grid-column-start: 4;
     margin-top: var(--spacing-3);
+    z-index: 2;
 
     .member-role {
       margin-top: var(--spacing-05);
