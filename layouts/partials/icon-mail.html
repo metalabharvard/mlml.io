@@ -1,0 +1,4 @@
+{{ $name := .name}}
+{{ with .mail -}}
+{{ partial "cloakemail.html" (dict "address" . "display" true "title" (printf "Contact %s via mail" $name)) }}
+{{- end }}
