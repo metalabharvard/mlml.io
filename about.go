@@ -13,6 +13,9 @@ type Meta struct {
   Intro string `json:"intro"`
   Updated_at string `json:"updated_at"`
   Created_at string `json:"created_at"`
+  Title string
+  Layout string
+  Slug string
 }
 
 func main() {
@@ -30,6 +33,10 @@ func main() {
 
   var responseObject Meta
   json.Unmarshal(responseData, &responseObject)
+
+  responseObject.Title = "About"
+  responseObject.Layout = "about"
+  responseObject.Slug = "about"
 
   file, _ := json.MarshalIndent(responseObject, "", " ")
 
