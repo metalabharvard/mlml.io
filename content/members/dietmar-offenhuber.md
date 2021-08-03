@@ -1,5 +1,6 @@
 {
  "name": "Dietmar Offenhuber",
+ "Title": "Dietmar Offenhuber",
  "roles": [
   {
    "role": "Visiting Researcher",

@@ -1,5 +1,6 @@
 {
  "name": "Annette Jael Lehmann",
+ "Title": "Annette Jael Lehmann",
  "roles": [
   {
    "role": "Senior Affiliate",

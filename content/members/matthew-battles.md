@@ -1,5 +1,6 @@
 {
  "name": "Matthew Battles",
+ "Title": "Matthew Battles",
  "roles": [
   {
    "role": "Founder",

@@ -1,5 +1,6 @@
 {
  "name": "Joe Steele",
+ "Title": "Joe Steele",
  "roles": [],
  "isAlumnus": true,
  "rank": 9.999,

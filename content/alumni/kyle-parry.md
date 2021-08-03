@@ -1,5 +1,6 @@
 {
  "name": "Kyle Parry",
+ "Title": "Kyle Parry",
  "roles": [],
  "isAlumnus": true,
  "rank": 9.999,

@@ -1,5 +1,6 @@
 {
  "name": "Jeanette Andrews",
+ "Title": "Jeanette Andrews",
  "roles": [
   {
    "role": "Affiliate",

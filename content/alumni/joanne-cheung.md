@@ -1,5 +1,6 @@
 {
  "name": "Joanne Cheung",
+ "Title": "Joanne Cheung",
  "roles": [],
  "isAlumnus": true,
  "rank": 9.999,

@@ -1,5 +1,6 @@
 {
  "name": "George Tsiveriotis",
+ "Title": "George Tsiveriotis",
  "roles": [],
  "isAlumnus": true,
  "rank": 9.999,

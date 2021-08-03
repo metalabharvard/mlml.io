@@ -1,5 +1,6 @@
 {
  "name": "Julianne VanWagenen",
+ "Title": "Julianne VanWagenen",
  "roles": [],
  "isAlumnus": true,
  "rank": 9.999,

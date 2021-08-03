@@ -1,5 +1,6 @@
 {
  "name": "James Yamada",
+ "Title": "James Yamada",
  "roles": [],
  "isAlumnus": true,
  "rank": 9.999,

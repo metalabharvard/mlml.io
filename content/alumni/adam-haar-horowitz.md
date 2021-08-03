@@ -1,5 +1,6 @@
 {
  "name": "Adam Haar Horowitz",
+ "Title": "Adam Haar Horowitz",
  "roles": [],
  "isAlumnus": true,
  "rank": 9.999,

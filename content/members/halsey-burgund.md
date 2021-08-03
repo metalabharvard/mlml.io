@@ -1,5 +1,6 @@
 {
  "name": "Halsey Burgund",
+ "Title": "Halsey Burgund",
  "roles": [
   {
    "role": "Affiliate",

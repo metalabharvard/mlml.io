@@ -1,5 +1,6 @@
 {
  "name": "Cristoforo Magliozzi",
+ "Title": "Cristoforo Magliozzi",
  "roles": [],
  "isAlumnus": true,
  "rank": 9.999,

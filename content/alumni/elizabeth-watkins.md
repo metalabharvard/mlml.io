@@ -1,5 +1,6 @@
 {
  "name": "Elizabeth Watkins",
+ "Title": "Elizabeth Watkins",
  "roles": [],
  "isAlumnus": true,
  "rank": 9.999,

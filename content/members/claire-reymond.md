@@ -1,5 +1,6 @@
 {
  "name": "Claire Reymond",
+ "Title": "Claire Reymond",
  "roles": [
   {
    "role": "Affiliate",

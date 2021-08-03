@@ -1,5 +1,6 @@
 {
  "name": "Alison Head",
+ "Title": "Alison Head",
  "roles": [],
  "isAlumnus": true,
  "rank": 9.999,

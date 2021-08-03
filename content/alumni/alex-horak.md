@@ -1,5 +1,6 @@
 {
  "name": "Alex Horak",
+ "Title": "Alex Horak",
  "roles": [],
  "isAlumnus": true,
  "rank": 9.999,

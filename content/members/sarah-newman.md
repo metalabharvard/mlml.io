@@ -1,5 +1,6 @@
 {
  "name": "Sarah Newman",
+ "Title": "Sarah Newman",
  "roles": [
   {
    "role": "Principal",

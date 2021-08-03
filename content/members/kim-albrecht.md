@@ -1,5 +1,6 @@
 {
  "name": "Kim Albrecht",
+ "Title": "Kim Albrecht",
  "roles": [],
  "isAlumnus": false,
  "rank": 9.999,

@@ -1,5 +1,6 @@
 {
  "name": "Dash Elhauge",
+ "Title": "Dash Elhauge",
  "roles": [],
  "isAlumnus": true,
  "rank": 9.999,

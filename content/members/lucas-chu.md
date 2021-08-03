@@ -1,5 +1,6 @@
 {
  "name": "Lucas Chu",
+ "Title": "Lucas Chu",
  "roles": [],
  "isAlumnus": false,
  "rank": 9.999,

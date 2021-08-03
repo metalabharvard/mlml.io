@@ -1,5 +1,6 @@
 {
  "name": "Jeffrey Schnapp",
+ "Title": "Jeffrey Schnapp",
  "roles": [
   {
    "role": "Founder",

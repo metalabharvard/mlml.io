@@ -1,5 +1,6 @@
 {
  "name": "Jason Griffey",
+ "Title": "Jason Griffey",
  "roles": [],
  "isAlumnus": true,
  "rank": 9.999,

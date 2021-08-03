@@ -1,5 +1,6 @@
 {
  "name": "Francisco Alarcon",
+ "Title": "Francisco Alarcon",
  "roles": [
   {
    "role": "Affiliate",

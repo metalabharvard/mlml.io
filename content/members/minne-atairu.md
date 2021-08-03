@@ -1,5 +1,6 @@
 {
  "name": "Minne Atairu",
+ "Title": "Minne Atairu",
  "roles": [
   {
    "role": "Affiliate",

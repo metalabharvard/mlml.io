@@ -1,5 +1,6 @@
 {
  "name": "Krystelle Denis",
+ "Title": "Krystelle Denis",
  "roles": [],
  "isAlumnus": true,
  "rank": 9.999,

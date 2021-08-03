@@ -1,5 +1,6 @@
 {
  "name": "Paolo Ciuccarelli",
+ "Title": "Paolo Ciuccarelli",
  "roles": [
   {
    "role": "Senior Affiliate",
