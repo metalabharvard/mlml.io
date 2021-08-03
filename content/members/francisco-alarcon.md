@@ -6,6 +6,7 @@
    "position": 4
   }
  ],
+ "isAlumnus": false,
  "rank": 4.999,
  "role_string": "Affiliate",
  "twitter": "alarconbits",
@@ -14,7 +15,7 @@
  "instagram": "franciscoalarconruiz",
  "start": "",
  "description": "",
- "updated_at": "2021-07-29T15:24:43.407Z",
+ "updated_at": "2021-08-03T10:22:36.680Z",
  "created_at": "2021-07-29T15:11:06.292Z",
  "slug": "francisco-alarcon",
  "events": [],

@@ -52,6 +52,7 @@ type Picture struct {
 type Response struct {
   Name string `json:"name"`
   Roles []Role `json:"roles"`
+  IsAlumnus bool `json:"isAlumnus"`
   Rank float64 `json:"rank"`
   RoleString string `json:"role_string"`
   Twitter string `json:"twitter"`
@@ -66,15 +67,6 @@ type Response struct {
   Events []Event `json:"events"`
   Projects []Project `json:"projects"`
   Picture Picture `json:"picture"`
-}
-
-func checkForAlumnusRole(roles []Role) bool {
-  for _, a := range roles {
-    if a.Role == "Alumnus" {
-      return true
-    }
-  }
-  return false
 }
 
 func getPath(isAlumnus bool) string {
@@ -147,7 +139,6 @@ func main() {
   sort.Ints(s)
 
   for _, element := range responseObject {
-    isAlumnus := checkForAlumnusRole(element.Roles)
     // println(getPath(isAlumnus))
     // println(fmt.Sprintf("content/%s/%s.md", getPath(isAlumnus), element.Slug))
 
@@ -159,6 +150,6 @@ func main() {
     element.Name = strings.TrimSpace(element.Name)
 
     file, _ := json.MarshalIndent(element, "", " ")
-    _ = ioutil.WriteFile(fmt.Sprintf("content/%s/%s.md", getPath(isAlumnus), element.Slug), file, 0644)
+    _ = ioutil.WriteFile(fmt.Sprintf("content/%s/%s.md", getPath(element.IsAlumnus), element.Slug), file, 0644)
   }
 }

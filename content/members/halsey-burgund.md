@@ -6,6 +6,7 @@
    "position": 4
   }
  ],
+ "isAlumnus": false,
  "rank": 4.999,
  "role_string": "Affiliate",
  "twitter": "hburgund",
@@ -14,7 +15,7 @@
  "instagram": "hburgund",
  "start": "",
  "description": "",
- "updated_at": "2021-07-29T15:23:40.424Z",
+ "updated_at": "2021-08-03T10:21:29.671Z",
  "created_at": "2021-07-29T15:12:35.590Z",
  "slug": "halsey-burgund",
  "events": [],

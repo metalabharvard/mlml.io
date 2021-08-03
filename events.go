@@ -17,6 +17,7 @@ type Project struct {
 type Member struct {
   Name string `json:"name"`
   Slug string `json:"slug"`
+  IsAlumnus bool `json:"isAlumnus"`
 }
 
 type Role struct {

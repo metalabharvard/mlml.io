@@ -20,11 +20,13 @@
  "members": [
   {
    "name": "Jeffrey Schnapp",
-   "slug": "jeffrey-schnapp"
+   "slug": "jeffrey-schnapp",
+   "isAlumnus": false
   },
   {
    "name": "Matthew Battles",
-   "slug": "matthew-battles"
+   "slug": "matthew-battles",
+   "isAlumnus": false
   }
  ],
  "cover": {

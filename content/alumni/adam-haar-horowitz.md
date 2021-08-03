@@ -1,20 +1,16 @@
 {
  "name": "Adam Haar Horowitz",
- "roles": [
-  {
-   "role": "Alumnus",
-   "position": 10
-  }
- ],
- "rank": 10.999,
- "role_string": "Alumnus",
+ "roles": [],
+ "isAlumnus": true,
+ "rank": 9.999,
+ "role_string": "",
  "twitter": "",
  "email": "",
  "website": "",
  "instagram": "",
  "start": "",
  "description": "",
- "updated_at": "2021-07-29T16:03:46.306Z",
+ "updated_at": "2021-08-03T10:24:12.890Z",
  "created_at": "2021-07-29T16:03:43.462Z",
  "slug": "adam-haar-horowitz",
  "events": [

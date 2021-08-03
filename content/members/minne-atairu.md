@@ -6,6 +6,7 @@
    "position": 4
   }
  ],
+ "isAlumnus": false,
  "rank": 4.999,
  "role_string": "Affiliate",
  "twitter": "minneatairu",
@@ -14,7 +15,7 @@
  "instagram": "minneatairu",
  "start": "",
  "description": "",
- "updated_at": "2021-07-29T15:25:29.937Z",
+ "updated_at": "2021-08-03T10:23:45.826Z",
  "created_at": "2021-07-29T15:12:06.887Z",
  "slug": "minne-atairu",
  "events": [],

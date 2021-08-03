@@ -6,6 +6,7 @@
    "position": 3
   }
  ],
+ "isAlumnus": false,
  "rank": 3.999,
  "role_string": "Senior Affiliate",
  "twitter": "",
@@ -14,7 +15,7 @@
  "instagram": "annettejaellehmann",
  "start": "",
  "description": "",
- "updated_at": "2021-07-29T15:23:48.153Z",
+ "updated_at": "2021-08-03T10:21:47.901Z",
  "created_at": "2021-07-29T15:09:27.781Z",
  "slug": "annette-jael-lehmann",
  "events": [],

@@ -6,6 +6,7 @@
    "position": 4
   }
  ],
+ "isAlumnus": false,
  "rank": 4.999,
  "role_string": "Affiliate",
  "twitter": "",
@@ -14,7 +15,7 @@
  "instagram": "",
  "start": "",
  "description": "",
- "updated_at": "2021-07-29T15:24:05.714Z",
+ "updated_at": "2021-08-03T10:22:12.888Z",
  "created_at": "2021-07-29T15:09:54.933Z",
  "slug": "claire-reymond",
  "events": [],

@@ -1,20 +1,16 @@
 {
  "name": "Krystelle Denis",
- "roles": [
-  {
-   "role": "Alumnus",
-   "position": 10
-  }
- ],
- "rank": 10.999,
- "role_string": "Alumnus",
+ "roles": [],
+ "isAlumnus": true,
+ "rank": 9.999,
+ "role_string": "",
  "twitter": "",
  "email": "",
  "website": "",
  "instagram": "",
  "start": "",
  "description": "",
- "updated_at": "2021-08-02T16:40:19.456Z",
+ "updated_at": "2021-08-03T10:25:40.404Z",
  "created_at": "2021-08-02T16:40:17.827Z",
  "slug": "krystelle-denis",
  "events": [],

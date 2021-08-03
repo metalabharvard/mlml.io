@@ -6,6 +6,7 @@
    "position": 4
   }
  ],
+ "isAlumnus": false,
  "rank": 4.999,
  "role_string": "Affiliate",
  "twitter": "CarloFerretti19",
@@ -14,7 +15,7 @@
  "instagram": "cfready",
  "start": "",
  "description": "",
- "updated_at": "2021-07-29T15:58:26.462Z",
+ "updated_at": "2021-08-03T10:24:02.151Z",
  "created_at": "2021-07-29T15:15:38.285Z",
  "slug": "carlo-ferretti",
  "events": [],

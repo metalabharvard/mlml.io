@@ -6,6 +6,7 @@
    "position": 2
   }
  ],
+ "isAlumnus": false,
  "rank": 2.999,
  "role_string": "Principal",
  "twitter": "linsderry",
@@ -14,7 +15,7 @@
  "instagram": "linsderry",
  "start": "",
  "description": "",
- "updated_at": "2021-07-29T15:23:24.562Z",
+ "updated_at": "2021-08-03T10:25:56.841Z",
  "created_at": "2021-07-29T15:08:54.522Z",
  "slug": "lins-derry",
  "events": [],

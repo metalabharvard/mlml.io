@@ -1,6 +1,7 @@
 {
  "name": "Lucas Chu",
  "roles": [],
+ "isAlumnus": false,
  "rank": 9.999,
  "role_string": "",
  "twitter": "",
@@ -9,7 +10,7 @@
  "instagram": "",
  "start": "",
  "description": "",
- "updated_at": "2021-07-29T15:24:15.161Z",
+ "updated_at": "2021-08-03T10:22:26.734Z",
  "created_at": "2021-07-29T15:12:56.690Z",
  "slug": "lucas-chu",
  "events": [],

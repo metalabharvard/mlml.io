@@ -1,20 +1,16 @@
 {
  "name": "Joe Steele",
- "roles": [
-  {
-   "role": "Alumnus",
-   "position": 10
-  }
- ],
- "rank": 10.999,
- "role_string": "Alumnus",
+ "roles": [],
+ "isAlumnus": true,
+ "rank": 9.999,
+ "role_string": "",
  "twitter": "",
  "email": "",
  "website": "",
  "instagram": "",
  "start": "",
  "description": "",
- "updated_at": "2021-08-02T16:39:51.163Z",
+ "updated_at": "2021-08-03T10:25:09.820Z",
  "created_at": "2021-08-02T16:39:49.533Z",
  "slug": "joe-steele",
  "events": [],

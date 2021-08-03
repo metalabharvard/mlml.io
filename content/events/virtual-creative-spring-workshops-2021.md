@@ -13,11 +13,13 @@
  "members": [
   {
    "name": "Sarah Newman",
-   "slug": "sarah-newman"
+   "slug": "sarah-newman",
+   "isAlumnus": false
   },
   {
    "name": "Adam Haar Horowitz",
-   "slug": "adam-haar-horowitz"
+   "slug": "adam-haar-horowitz",
+   "isAlumnus": true
   }
  ],
  "projects": [

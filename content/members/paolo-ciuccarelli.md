@@ -6,6 +6,7 @@
    "position": 3
   }
  ],
+ "isAlumnus": false,
  "rank": 3.999,
  "role_string": "Senior Affiliate",
  "twitter": "pciuccarelli",
@@ -14,7 +15,7 @@
  "instagram": "",
  "start": "",
  "description": "",
- "updated_at": "2021-07-29T15:25:12.882Z",
+ "updated_at": "2021-08-03T10:23:32.835Z",
  "created_at": "2021-07-29T15:14:36.806Z",
  "slug": "paolo-ciuccarelli",
  "events": [],

@@ -1,20 +1,16 @@
 {
  "name": "Alison Head",
- "roles": [
-  {
-   "role": "Alumnus",
-   "position": 10
-  }
- ],
- "rank": 10.999,
- "role_string": "Alumnus",
+ "roles": [],
+ "isAlumnus": true,
+ "rank": 9.999,
+ "role_string": "",
  "twitter": "",
  "email": "",
  "website": "",
  "instagram": "",
  "start": "",
  "description": "",
- "updated_at": "2021-07-29T16:05:15.789Z",
+ "updated_at": "2021-08-03T10:21:04.905Z",
  "created_at": "2021-07-29T16:05:14.225Z",
  "slug": "alison-head",
  "events": [],

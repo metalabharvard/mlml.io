@@ -1,20 +1,16 @@
 {
  "name": "Alexander Reben",
- "roles": [
-  {
-   "role": "Alumnus",
-   "position": 10
-  }
- ],
- "rank": 10.999,
- "role_string": "Alumnus",
+ "roles": [],
+ "isAlumnus": true,
+ "rank": 9.999,
+ "role_string": "",
  "twitter": "",
  "email": "",
  "website": "",
  "instagram": "",
  "start": "",
  "description": "",
- "updated_at": "2021-07-29T16:04:49.365Z",
+ "updated_at": "2021-08-03T10:20:42.432Z",
  "created_at": "2021-07-29T16:04:47.258Z",
  "slug": "alexander-reben",
  "events": [],

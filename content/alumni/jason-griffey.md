@@ -1,20 +1,16 @@
 {
  "name": "Jason Griffey",
- "roles": [
-  {
-   "role": "Alumnus",
-   "position": 10
-  }
- ],
- "rank": 10.999,
- "role_string": "Alumnus",
+ "roles": [],
+ "isAlumnus": true,
+ "rank": 9.999,
+ "role_string": "",
  "twitter": "",
  "email": "",
  "website": "",
  "instagram": "",
  "start": "",
  "description": "",
- "updated_at": "2021-08-02T16:39:15.529Z",
+ "updated_at": "2021-08-03T10:23:06.734Z",
  "created_at": "2021-08-02T16:39:13.945Z",
  "slug": "jason-griffey",
  "events": [],

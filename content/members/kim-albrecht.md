@@ -1,6 +1,7 @@
 {
  "name": "Kim Albrecht",
  "roles": [],
+ "isAlumnus": false,
  "rank": 9.999,
  "role_string": "",
  "twitter": "kimay",
@@ -9,7 +10,7 @@
  "instagram": "kimfalbrecht",
  "start": "",
  "description": "",
- "updated_at": "2021-07-29T15:23:11.678Z",
+ "updated_at": "2021-08-03T10:22:05.019Z",
  "created_at": "2021-07-29T15:08:03.432Z",
  "slug": "kim-albrecht",
  "events": [],
