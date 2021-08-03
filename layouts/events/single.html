@@ -16,11 +16,7 @@
       {{ . | markdownify }}
     </div>
     {{ end }}
-    {{ with .Params.Members }}
-    {{ partial "related-members.html" (dict "members" . "term" "Involved") }}
-    {{ end }}
-    {{ with .Params.Projects }}
-    {{ partial "related-projects.html" (dict "projects" . "term" "Related") }}
-    {{ end }}
+    {{ partial "related-members.html" (dict "members" .Params.Members "term" "Involved") }}
+    {{ partial "related-projects.html" (dict "projects" .Params.Projects "term" "Related") }}
   </section>
 {{ end }}

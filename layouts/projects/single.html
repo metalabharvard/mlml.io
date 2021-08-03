@@ -15,11 +15,7 @@
       {{ . | markdownify }}
     </div>
     {{ end }}
-    {{ with .Params.Members }}
-    {{ partial "related-members.html" (dict "members" . "term" "Involved") }}
-    {{ end }}
-    {{ with .Params.Events }}
-    {{ partial "related-events.html" (dict "events" . "term" "Related") }}
-    {{ end }}
+    {{ partial "related-members.html" (dict "members" .Params.Members "term" "Involved") }}
+    {{ partial "related-events.html" (dict "events" .Params.Events "term" "Related") }}
   </section>
 {{ end }}

@@ -51,6 +51,7 @@ type Picture struct {
 
 type Response struct {
   Name string `json:"name"`
+  Title string
   Roles []Role `json:"roles"`
   IsAlumnus bool `json:"isAlumnus"`
   Rank float64 `json:"rank"`
@@ -148,6 +149,7 @@ func main() {
     element.RoleString = createRoleString(element.Roles)
     
     element.Name = strings.TrimSpace(element.Name)
+    element.Title = strings.TrimSpace(element.Name)
 
     file, _ := json.MarshalIndent(element, "", " ")
     _ = ioutil.WriteFile(fmt.Sprintf("content/%s/%s.md", getPath(element.IsAlumnus), element.Slug), file, 0644)

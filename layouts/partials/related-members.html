@@ -1,5 +1,6 @@
 {{ $term := .term }}
-{{ $active := where .members "isAlumnus" false }}
+{{ with .members }}
+{{ $active := where . "isAlumnus" false }}
 {{ with len $active }}
 <div class="grid-wide">
   <h2 class="related-members">{{ $term }} {{ cond (eq (len $active) 1) "member" "members" }}</h2>
@@ -10,7 +11,7 @@
   </ul>
 </div>
 {{ end }}
-{{ $alumni := where .members "isAlumnus" true }}
+{{ $alumni := where . "isAlumnus" true }}
 {{ with len $alumni }}
 <div class="grid-wide">
   <h2 class="related-members">{{ $term }} {{ cond (eq (len $active) 1) "alumnus" "alumni" }}</h2>
@@ -20,4 +21,5 @@
   {{ end }}
   </ul>
 </div>
+{{ end }}
 {{ end }}

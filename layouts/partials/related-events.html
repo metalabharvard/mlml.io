@@ -1,8 +1,11 @@
+{{ $term := .term }}
+{{ with .events }}
 <div class="grid-wide">
-  <h2 class="related-events">{{ .term }} {{ cond (eq (len .events) 1) "event" "events" }}</h2>
+  <h2 class="related-events">{{ $term }} {{ cond (eq (len .) 1) "event" "events" }}</h2>
   <ul>
-  {{ range .events }}
+  {{ range . }}
     <li class="related-event"><a href="{{ .slug | absURL }}">{{ .title }}</a></li>
   {{ end }}
   </ul>
 </div>
+{{ end }}

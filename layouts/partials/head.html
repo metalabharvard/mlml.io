@@ -1,9 +1,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>{{ .Site.Title }}</title>
-  <meta name="description" content="{{ .Site.Params.description }}">
-  <meta name="keywords" content="{{ .Site.Params.keywords }}">
+  <title>{{ if and .Title (not .IsHome) }}{{ .Title }} – {{ end }}{{ .Site.Title }}</title>
+  {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+  {{ with .Site.Params.keywords }}<meta name="keywords" content="{{ . }}">{{ end }}
   <meta name="robots" content="index,follow">
 
   {{ $js := resources.Get "js/index.js" | js.Build (dict "minify" true) | fingerprint }}
