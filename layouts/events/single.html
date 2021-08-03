@@ -1,18 +1,18 @@
 {{ define "main" }}
-  <section class="homepage-event grid-full grid">
+  <section class="homepage-event grid-full grid h-event">
     <header class="event-header grid-wide">
-      <h1 class="event-name">{{ .Params.Title }}</h1>
-      {{ with .Params.Intro }}<span class="event-intro">{{ . | markdownify }}</span>{{ end }}
+      <h1 class="event-name p-name">{{ .Params.Title }}</h1>
+      {{ with .Params.Intro }}<span class="event-intro p-summary">{{ . | markdownify }}</span>{{ end }}
     </header>
     <aside class="event-aside grid-narrow-right-aside">
       {{ with .Params.Time }}<time class="event-time">{{ dateFormat "January 2006" . }}</time>{{ end }}
-      {{ with .Params.Location }}<span class="event-location">{{ . }}</span>{{ end }}
+      {{ with .Params.Location }}<span class="event-location p-location">{{ . }}</span>{{ end }}
     </aside>
     {{ with .Params.Link }}
-    <a class="event-link" href="{{ . }}"><span>Visit event</span></a>
+    <a class="event-link u-url" href="{{ . }}"><span>Visit event</span></a>
     {{ end }}
     {{ with .Params.Description }}
-    <div class="event-description grid-narrow-right">
+    <div class="event-description grid-narrow-right e-content p-description">
       {{ . | markdownify }}
     </div>
     {{ end }}
@@ -21,7 +21,7 @@
       <h2 class="related-members">Involved members</h2>
       <ul>
       {{ range . }}
-        <li class="related-member"><a href="{{ .slug | absURL }}">{{ .name }}</a></li>
+        <li class="related-member"><a href="{{ .slug | absURL }}" ref="author">{{ .name }}</a></li>
       {{ end }}
       </ul>
     </div>

@@ -4,10 +4,10 @@
     <ul class="grid member-list">
       {{ range (sort .Pages "Params.rank" "asc") }}
       <li>
-        <a href="{{ .Slug | absURL }}" class="member-preview">
+        <a href="{{ .Slug | absURL }}" class="member-preview vcard">
           {{ partial "image.html" (dict "picture" .Params.Picture "alt" (printf "Profile picture of %s" .Params.Name)) }}
-          <strong class="member-name">{{ .Params.Name }}</strong>
-          <span class="member-role">{{ .Params.Role_string }}</span>
+          <strong class="member-name fn">{{ .Params.Name }}</strong>
+          <span class="member-role role">{{ .Params.Role_string }}</span>
         </a>
       </li>
       {{ end }}
@@ -17,8 +17,8 @@
     <h1>Alumni</h1>
     <ul class="grid alumni-list">
     {{ range (where .Site.Pages "Section" "alumni") }}
-      <li class="alumni-preview">
-        <strong class="alumni-name">{{ .Params.Name }}</strong>
+      <li class="alumni-preview vcard">
+        <strong class="alumni-name fn">{{ .Params.Name }}</strong>
       </li>
     {{ end }}
     </ul>

@@ -20,7 +20,7 @@
       <h2 class="related-members">Involved members</h2>
       <ul>
       {{ range . }}
-        <li class="related-member"><a href="{{ .slug | absURL }}">{{ .name }}</a></li>
+        <li class="related-member"><a href="{{ .slug | absURL }}" ref="author">{{ .name }}</a></li>
       {{ end }}
       </ul>
     </div>

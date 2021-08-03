@@ -1,10 +1,10 @@
-<li class="project-preview">
-  <a href="{{ .project.Slug | absURL }}">
-    <span class="project-title">{{ .project.Params.Title }}</span><span class="project-tag">Ongoing</span>
+<li class="project-preview h-entry">
+  <a href="{{ .project.Slug | absURL }}" class="u-url u-uid">
+    <span class="project-title p-name">{{ .project.Params.Title }}</span><span class="project-tag">Ongoing</span>
     <footer>
-      <span>Project</span>
-      <span>since June 2021</span>
-      <span>Harvard</span>
+      <span class="p-category">Project</span>
+      <span class="dt-published">since June 2021</span>
+      <span class="p-location">Harvard</span>
     </footer>
   </a>
 </li>

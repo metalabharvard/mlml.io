@@ -1,5 +1,5 @@
 {{ if and .picture.width .picture.height }}
-<picture>
+<picture class="photo">
   {{ if .picture.formats.large.url }}
   <source {{ printf "srcset=%v" (replace .picture.formats.large.url ".jpg" ".webp") | safeHTMLAttr }} type="image/webp" media="(min-width: {{ .picture.formats.large.width }}px)" />
   {{ end }}

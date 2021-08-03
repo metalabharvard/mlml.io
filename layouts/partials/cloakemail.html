@@ -2,6 +2,7 @@
 {{- $address := .address | default (.Params.Get 0) -}}
 {{- $protocol := .protocol | default "mailto" -}}
 {{- $class := .class -}}
+{{- $title := .title -}}
 {{- $displaytext := .display -}}
 {{- $parts := split $address "@" -}}
 {{- $user := (index $parts 0) -}}
@@ -37,7 +38,10 @@
   link.innerText = address.split('?')[0];
   {{ end }}
   {{ with $class }}
-  link.className = "{{ $class }}";
+  link.className = "{{ $class }} email";
+  {{ end }}
+  {{ with $title }}
+  link.title = "{{ $title }}";
   {{ end }}
   scriptTag.parentElement.insertBefore(link, scriptTag.previousElementSibling);
   scriptTag.parentElement.removeChild(scriptTag.previousElementSibling)
