@@ -44,24 +44,10 @@
       {{- end }}
     </aside>
     {{ with .Params.Projects }}
-    <div class="grid-wide">
-      <h2 class="related-projects">Involved projects</h2>
-      <ul>
-      {{ range . }}
-        <li class="related-project"><a href="{{ .slug | absURL }}">{{ .title }}</a></li>
-      {{ end }}
-      </ul>
-    </div>
+    {{ partial "related-projects.html" (dict "projects" . "term" "Involved") }}
     {{ end }}
     {{ with .Params.Events }}
-    <div class="grid-wide">
-      <h2 class="related-events">Involved events</h2>
-      <ul>
-      {{ range . }}
-        <li class="related-event"><a href="{{ .slug | absURL }}">{{ .title }}</a></li>
-      {{ end }}
-      </ul>
-    </div>
+    {{ partial "related-events.html" (dict "events" . "term" "Involved") }}
     {{ end }}
   </section>
 {{ end }}

@@ -16,24 +16,10 @@
     </div>
     {{ end }}
     {{ with .Params.Members }}
-    <div class="grid-wide">
-      <h2 class="related-members">Involved members</h2>
-      <ul>
-      {{ range . }}
-        <li class="related-member"><a href="{{ .slug | absURL }}" ref="author">{{ .name }}</a></li>
-      {{ end }}
-      </ul>
-    </div>
+    {{ partial "related-members.html" (dict "members" . "term" "Involved") }}
     {{ end }}
     {{ with .Params.Events }}
-    <div class="grid-wide">
-      <h2 class="related-events">Related events</h2>
-      <ul>
-      {{ range . }}
-        <li class="related-event"><a href="{{ .slug | absURL }}">{{ .title }}</a></li>
-      {{ end }}
-      </ul>
-    </div>
+    {{ partial "related-events.html" (dict "events" . "term" "Related") }}
     {{ end }}
   </section>
 {{ end }}
