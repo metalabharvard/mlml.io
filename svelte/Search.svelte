@@ -66,6 +66,12 @@
 			isOpen = true;
 		}
 	}
+
+	function handleBlur () {
+		if (!hasTerm) {
+			closeSearch();
+		}
+	}
 </script>
 
 <svelte:window on:keydown={handleKeyDown} />
@@ -76,6 +82,7 @@
 	placeholder="Search for events, members, projects, …"
 	bind:this={input}
 	on:input={handleInput}
+	on:blur={handleBlur}
 	role="search"
 	class:hasTerm={hasTerm}>
 

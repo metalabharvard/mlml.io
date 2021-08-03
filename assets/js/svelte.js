@@ -3120,29 +3120,29 @@
 
     function get_each_context(ctx, list, i) {
     	const child_ctx = ctx.slice();
-    	child_ctx[17] = list[i].name;
-    	child_ctx[18] = list[i].slug;
-    	child_ctx[19] = list[i].role;
+    	child_ctx[18] = list[i].name;
+    	child_ctx[19] = list[i].slug;
+    	child_ctx[20] = list[i].role;
     	return child_ctx;
     }
 
     function get_each_context_1(ctx, list, i) {
     	const child_ctx = ctx.slice();
-    	child_ctx[22] = list[i].title;
-    	child_ctx[18] = list[i].slug;
-    	child_ctx[23] = list[i].intro;
+    	child_ctx[23] = list[i].title;
+    	child_ctx[19] = list[i].slug;
+    	child_ctx[24] = list[i].intro;
     	return child_ctx;
     }
 
     function get_each_context_2(ctx, list, i) {
     	const child_ctx = ctx.slice();
-    	child_ctx[22] = list[i].title;
-    	child_ctx[18] = list[i].slug;
-    	child_ctx[23] = list[i].intro;
+    	child_ctx[23] = list[i].title;
+    	child_ctx[19] = list[i].slug;
+    	child_ctx[24] = list[i].intro;
     	return child_ctx;
     }
 
-    // (102:2) {#if resultsProjects.length}
+    // (109:2) {#if resultsProjects.length}
     function create_if_block_2(ctx) {
     	let h2;
     	let t0;
@@ -3221,16 +3221,16 @@
     	};
     }
 
-    // (105:3) {#each resultsProjects as { title, slug, intro }}
+    // (112:3) {#each resultsProjects as { title, slug, intro }}
     function create_each_block_2(ctx) {
     	let li;
     	let a;
     	let span0;
-    	let t0_value = /*title*/ ctx[22] + "";
+    	let t0_value = /*title*/ ctx[23] + "";
     	let t0;
     	let t1;
     	let span1;
-    	let t2_value = /*intro*/ ctx[23] + "";
+    	let t2_value = /*intro*/ ctx[24] + "";
     	let t2;
     	let a_href_value;
     	let t3;
@@ -3247,7 +3247,7 @@
     			t3 = space();
     			attr(span0, "class", "result-title");
     			attr(span1, "class", "result-subtitle");
-    			attr(a, "href", a_href_value = "/" + /*slug*/ ctx[18]);
+    			attr(a, "href", a_href_value = "/" + /*slug*/ ctx[19]);
     		},
     		m(target, anchor) {
     			insert(target, li, anchor);
@@ -3260,10 +3260,10 @@
     			append(li, t3);
     		},
     		p(ctx, dirty) {
-    			if (dirty & /*resultsProjects*/ 16 && t0_value !== (t0_value = /*title*/ ctx[22] + "")) set_data(t0, t0_value);
-    			if (dirty & /*resultsProjects*/ 16 && t2_value !== (t2_value = /*intro*/ ctx[23] + "")) set_data(t2, t2_value);
+    			if (dirty & /*resultsProjects*/ 16 && t0_value !== (t0_value = /*title*/ ctx[23] + "")) set_data(t0, t0_value);
+    			if (dirty & /*resultsProjects*/ 16 && t2_value !== (t2_value = /*intro*/ ctx[24] + "")) set_data(t2, t2_value);
 
-    			if (dirty & /*resultsProjects*/ 16 && a_href_value !== (a_href_value = "/" + /*slug*/ ctx[18])) {
+    			if (dirty & /*resultsProjects*/ 16 && a_href_value !== (a_href_value = "/" + /*slug*/ ctx[19])) {
     				attr(a, "href", a_href_value);
     			}
     		},
@@ -3273,7 +3273,7 @@
     	};
     }
 
-    // (115:2) {#if resultsEvents.length}
+    // (122:2) {#if resultsEvents.length}
     function create_if_block_1(ctx) {
     	let h2;
     	let t0;
@@ -3352,16 +3352,16 @@
     	};
     }
 
-    // (118:3) {#each resultsEvents as { title, slug, intro }}
+    // (125:3) {#each resultsEvents as { title, slug, intro }}
     function create_each_block_1(ctx) {
     	let li;
     	let a;
     	let span0;
-    	let t0_value = /*title*/ ctx[22] + "";
+    	let t0_value = /*title*/ ctx[23] + "";
     	let t0;
     	let t1;
     	let span1;
-    	let t2_value = /*intro*/ ctx[23] + "";
+    	let t2_value = /*intro*/ ctx[24] + "";
     	let t2;
     	let a_href_value;
     	let t3;
@@ -3378,7 +3378,7 @@
     			t3 = space();
     			attr(span0, "class", "result-title");
     			attr(span1, "class", "result-subtitle");
-    			attr(a, "href", a_href_value = "/" + /*slug*/ ctx[18]);
+    			attr(a, "href", a_href_value = "/" + /*slug*/ ctx[19]);
     		},
     		m(target, anchor) {
     			insert(target, li, anchor);
@@ -3391,10 +3391,10 @@
     			append(li, t3);
     		},
     		p(ctx, dirty) {
-    			if (dirty & /*resultsEvents*/ 8 && t0_value !== (t0_value = /*title*/ ctx[22] + "")) set_data(t0, t0_value);
-    			if (dirty & /*resultsEvents*/ 8 && t2_value !== (t2_value = /*intro*/ ctx[23] + "")) set_data(t2, t2_value);
+    			if (dirty & /*resultsEvents*/ 8 && t0_value !== (t0_value = /*title*/ ctx[23] + "")) set_data(t0, t0_value);
+    			if (dirty & /*resultsEvents*/ 8 && t2_value !== (t2_value = /*intro*/ ctx[24] + "")) set_data(t2, t2_value);
 
-    			if (dirty & /*resultsEvents*/ 8 && a_href_value !== (a_href_value = "/" + /*slug*/ ctx[18])) {
+    			if (dirty & /*resultsEvents*/ 8 && a_href_value !== (a_href_value = "/" + /*slug*/ ctx[19])) {
     				attr(a, "href", a_href_value);
     			}
     		},
@@ -3404,7 +3404,7 @@
     	};
     }
 
-    // (128:2) {#if resultsMembers.length}
+    // (135:2) {#if resultsMembers.length}
     function create_if_block(ctx) {
     	let h2;
     	let t0;
@@ -3483,16 +3483,16 @@
     	};
     }
 
-    // (131:3) {#each resultsMembers as { name, slug, role }}
+    // (138:3) {#each resultsMembers as { name, slug, role }}
     function create_each_block(ctx) {
     	let li;
     	let a;
     	let span0;
-    	let t0_value = /*name*/ ctx[17] + "";
+    	let t0_value = /*name*/ ctx[18] + "";
     	let t0;
     	let t1;
     	let span1;
-    	let t2_value = /*role*/ ctx[19] + "";
+    	let t2_value = /*role*/ ctx[20] + "";
     	let t2;
     	let a_href_value;
     	let t3;
@@ -3509,7 +3509,7 @@
     			t3 = space();
     			attr(span0, "class", "result-title");
     			attr(span1, "class", "result-subtitle");
-    			attr(a, "href", a_href_value = "/" + /*slug*/ ctx[18]);
+    			attr(a, "href", a_href_value = "/" + /*slug*/ ctx[19]);
     		},
     		m(target, anchor) {
     			insert(target, li, anchor);
@@ -3522,10 +3522,10 @@
     			append(li, t3);
     		},
     		p(ctx, dirty) {
-    			if (dirty & /*resultsMembers*/ 4 && t0_value !== (t0_value = /*name*/ ctx[17] + "")) set_data(t0, t0_value);
-    			if (dirty & /*resultsMembers*/ 4 && t2_value !== (t2_value = /*role*/ ctx[19] + "")) set_data(t2, t2_value);
+    			if (dirty & /*resultsMembers*/ 4 && t0_value !== (t0_value = /*name*/ ctx[18] + "")) set_data(t0, t0_value);
+    			if (dirty & /*resultsMembers*/ 4 && t2_value !== (t2_value = /*role*/ ctx[20] + "")) set_data(t2, t2_value);
 
-    			if (dirty & /*resultsMembers*/ 4 && a_href_value !== (a_href_value = "/" + /*slug*/ ctx[18])) {
+    			if (dirty & /*resultsMembers*/ 4 && a_href_value !== (a_href_value = "/" + /*slug*/ ctx[19])) {
     				attr(a, "href", a_href_value);
     			}
     		},
@@ -3576,7 +3576,7 @@
     		},
     		m(target, anchor) {
     			insert(target, input_1, anchor);
-    			/*input_1_binding*/ ctx[9](input_1);
+    			/*input_1_binding*/ ctx[10](input_1);
     			insert(target, t0, anchor);
     			insert(target, button, anchor);
     			insert(target, t1, anchor);
@@ -3587,12 +3587,13 @@
     			if (if_block1) if_block1.m(div0, null);
     			append(div0, t3);
     			if (if_block2) if_block2.m(div0, null);
-    			/*div1_binding*/ ctx[10](div1);
+    			/*div1_binding*/ ctx[11](div1);
 
     			if (!mounted) {
     				dispose = [
     					listen(window, "keydown", /*handleKeyDown*/ ctx[7]),
     					listen(input_1, "input", /*handleInput*/ ctx[6]),
+    					listen(input_1, "blur", /*handleBlur*/ ctx[9]),
     					listen(button, "click", /*handleTriggerClick*/ ctx[8])
     				];
 
@@ -3651,7 +3652,7 @@
     		o: noop$1,
     		d(detaching) {
     			if (detaching) detach(input_1);
-    			/*input_1_binding*/ ctx[9](null);
+    			/*input_1_binding*/ ctx[10](null);
     			if (detaching) detach(t0);
     			if (detaching) detach(button);
     			if (detaching) detach(t1);
@@ -3659,7 +3660,7 @@
     			if (if_block0) if_block0.d();
     			if (if_block1) if_block1.d();
     			if (if_block2) if_block2.d();
-    			/*div1_binding*/ ctx[10](null);
+    			/*div1_binding*/ ctx[11](null);
     			mounted = false;
     			run_all(dispose);
     		}
@@ -3736,6 +3737,12 @@
     		}
     	}
 
+    	function handleBlur() {
+    		if (!hasTerm) {
+    			closeSearch();
+    		}
+    	}
+
     	function input_1_binding($$value) {
     		binding_callbacks[$$value ? 'unshift' : 'push'](() => {
     			input = $$value;
@@ -3760,6 +3767,7 @@
     		handleInput,
     		handleKeyDown,
     		handleTriggerClick,
+    		handleBlur,
     		input_1_binding,
     		div1_binding
     	];
