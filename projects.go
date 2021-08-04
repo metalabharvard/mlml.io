@@ -14,6 +14,16 @@ type Collaborator struct {
   Url string `json:"url"`
 }
 
+type PressArticle struct {
+  Text string `json:"text"`
+  Url string `json:"url"`
+}
+
+type Link struct {
+  Text string `json:"text"`
+  Url string `json:"url"`
+}
+
 type Member struct {
   Name string `json:"name"`
   Slug string `json:"slug"`
@@ -54,12 +64,16 @@ type Response struct {
   End string `json:"end"`
   Link string `json:"link"`
   Description string `json:"description"`
+  Location string `json:"location"`
+  Type string `json:"category"`
   IsFeatured bool `json:"isFeatured"`
   ExternalLink string `json:"externalLink"`
   Updated_at string `json:"updated_at"`
   Created_at string `json:"created_at"`
   Slug string `json:"slug"`
   Collaborators []Collaborator `json:"collaborators"`
+  PressArticle []PressArticle `json:"press_articles"`
+  Links []Link `json:"links"`
   Events []Event `json:"events"`
   Members []Member `json:"members"`
   Cover Cover `json:"cover"`

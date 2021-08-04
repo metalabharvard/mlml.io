@@ -5,7 +5,29 @@
       {{ with .Params.Intro }}<span class="project-intro">{{ . | markdownify }}</span>{{ end }}
     </header>
     <aside class="project-aside grid-narrow-right-aside">
-      <time class="project-start">{{ dateFormat "January 2006" .Params.Start }}</time>
+      {{ with .Params.Category }}<span class="project-type">{{ title . }}</span>{{ end }}
+      {{ if or .Params.Start .Params.End }}
+      <div>
+        {{ if and .Params.Start .Params.End }}
+        {{- if (eq (dateFormat "January 2006" .Params.Start) (dateFormat "January 2006" .Params.End)) -}}
+        <time class="project-start project-end">
+        {{ dateFormat "January 2006" .Params.Start }}
+        {{ else }}
+        <time class="project-start">
+          {{- dateFormat "January" .Params.Start }}
+          {{- if not (eq (dateFormat "2006" .Params.Start) (dateFormat "2006" .Params.End)) -}}&ensp;
+          {{- dateFormat "2006" .Params.Start -}}
+          {{- end -}}
+        </time>&ensp;–&ensp;<time class="project-end">{{ dateFormat "January 2006" .Params.End }}</time>
+        {{- end -}}
+        {{- else if .Params.Start -}}
+        <time class="project-start">Since {{ dateFormat "January 2006" .Params.Start }}</time>
+        {{- else -}}
+        <time class="project-end">{{ dateFormat "January 2006" .Params.End }}</time>
+        {{ end }}
+      </div>
+      {{ end }}
+      {{ with .Params.location }}<span class="project-location">{{ title . }}</span>{{ end }}
     </aside>
     {{ with .Params.ExternalLink }}
     <a class="project-link" href="{{ . }}"><span>Visit project</span></a>
@@ -13,6 +35,36 @@
     {{ with .Params.Description }}
     <div class="project-description grid-narrow-right">
       {{ . | markdownify }}
+    </div>
+    {{ end }}
+    {{ with .Params.Collaborators }}
+    <div class="project-collaborators grid-narrow-right">
+      <h2 class="related-collaborators">{{ cond (eq (len .) 1) "Collaborator" "Collaborators" }}</h2>
+      <ul>
+      {{ range . }}
+        {{ partial "list-item.html" (dict "url" .url "text" .name "class" "collaborator") }}
+      {{ end }}
+      </ul>
+    </div>
+    {{ end }}
+    {{ with .Params.Press_articles }}
+    <div class="project-articles grid-narrow-right">
+      <h2 class="related-articles">{{ cond (eq (len .) 1) "Press article" "Press articles" }}</h2>
+      <ul>
+      {{ range . }}
+        {{ partial "list-item.html" (dict "url" .url "text" .text "class" "article") }}
+      {{ end }}
+      </ul>
+    </div>
+    {{ end }}
+    {{ with .Params.Links }}
+    <div class="project-links grid-narrow-right">
+      <h2 class="related-links">{{ cond (eq (len .) 1) "Link" "Links" }}</h2>
+      <ul>
+      {{ range . }}
+        {{ partial "list-item.html" (dict "url" .url "text" .text "class" "link") }}
+      {{ end }}
+      </ul>
     </div>
     {{ end }}
     {{ partial "related-members.html" (dict "members" .Params.Members "term" "Involved") }}
