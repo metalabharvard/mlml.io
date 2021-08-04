@@ -6,27 +6,7 @@
     </header>
     <aside class="project-aside grid-narrow-right-aside">
       {{ with .Params.Category }}<span class="project-type">{{ title . }}</span>{{ end }}
-      {{ if or .Params.Start .Params.End }}
-      <div>
-        {{ if and .Params.Start .Params.End }}
-        {{- if (eq (dateFormat "January 2006" .Params.Start) (dateFormat "January 2006" .Params.End)) -}}
-        <time class="project-start project-end">
-        {{ dateFormat "January 2006" .Params.Start }}
-        {{ else }}
-        <time class="project-start">
-          {{- dateFormat "January" .Params.Start }}
-          {{- if not (eq (dateFormat "2006" .Params.Start) (dateFormat "2006" .Params.End)) -}}&ensp;
-          {{- dateFormat "2006" .Params.Start -}}
-          {{- end -}}
-        </time>&ensp;–&ensp;<time class="project-end">{{ dateFormat "January 2006" .Params.End }}</time>
-        {{- end -}}
-        {{- else if .Params.Start -}}
-        <time class="project-start">Since {{ dateFormat "January 2006" .Params.Start }}</time>
-        {{- else -}}
-        <time class="project-end">{{ dateFormat "January 2006" .Params.End }}</time>
-        {{ end }}
-      </div>
-      {{ end }}
+      {{ partial "timespan.html" (dict "start" .Params.Start "end" .Params.End) }}
       {{ with .Params.location }}<span class="project-location">{{ title . }}</span>{{ end }}
     </aside>
     {{ with .Params.ExternalLink }}

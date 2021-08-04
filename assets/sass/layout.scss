@@ -476,6 +476,12 @@ picture, img {
       padding-right: var(--spacing-05);
     }
   }
+
+  .project-aside {
+    & > * {
+      display: block;
+    }
+  }
 }
 
 .homepage-member, .homepage-event, .homepage-project {

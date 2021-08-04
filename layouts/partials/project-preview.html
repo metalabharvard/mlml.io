@@ -2,9 +2,9 @@
   <a href="{{ .project.Slug | absURL }}" class="u-url u-uid">
     <span class="project-title p-name">{{ .project.Params.Title }}</span><span class="project-tag">Ongoing</span>
     <footer>
-      <span class="p-category">Project</span>
-      <span class="dt-published">since June 2021</span>
-      <span class="p-location">Harvard</span>
+      <span class="project-type p-category">{{ if .project.Params.Category }}{{ title .project.Params.Category }}{{ else }}Project{{ end }}</span>
+      {{ partial "timespan.html" (dict "start" .project.Params.Start "end" .project.Params.End) }}
+      <span class="project-location p-location">{{ if .project.Params.location }}{{ title .project.Params.location }}{{ else }}Harvard{{ end }}</span>
     </footer>
   </a>
 </li>
