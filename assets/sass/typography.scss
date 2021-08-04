@@ -286,6 +286,14 @@ ul {
     display: block;
   }
 
+  .event-time {
+    font-size: var(--size-6);
+    font-weight: $font-weight-bold;
+    line-height: 1.1;
+    display: block;
+    margin-top: var(--spacing-05);
+  }
+
   .event-aside {
     font-size: var(--size-6);
     font-weight: $font-weight-bold;

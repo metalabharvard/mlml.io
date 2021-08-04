@@ -1,6 +1,15 @@
 {
  "title": "Mahindra Seminar: The Future of Transmedia Performance",
  "time": "2021-05-28T17:00:00.000Z",
+ "start_time": "",
+ "start_time_locations": {
+  "berlin": "",
+  "new_york": "",
+  "london": "",
+  "los_angeles": ""
+ },
+ "end_time": "",
+ "timezone": "",
  "intro": "The future of transmedia performance",
  "location": "Cambridge, MA",
  "link": "",
@@ -43,5 +52,8 @@
     "height": 156
    }
   }
- }
+ },
+ "youtube": "",
+ "vimeo": "",
+ "links": []
 }

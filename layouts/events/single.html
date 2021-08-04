@@ -3,9 +3,12 @@
     <header class="event-header grid-wide">
       <h1 class="event-name p-name">{{ .Params.Title }}</h1>
       {{ with .Params.Intro }}<span class="event-intro p-summary">{{ . | markdownify }}</span>{{ end }}
+      {{ $timezone := .Params.Timezone }}
+      {{ $startBerlin := .Params.Start_time_locations.Berlin }}
+      {{ $startLondon := .Params.Start_time_locations.London }}
+      {{ with .Params.Start_Time }}<time class="event-time" {{ printf "data-tippy-content=%s,%s" $startBerlin $startLondon | safeHTMLAttr }}>{{ dateFormat "Monday, 2 January 2006 3:04 pm" . }} {{ $timezone }}</time>{{ end }}
     </header>
     <aside class="event-aside grid-narrow-right-aside">
-      {{ with .Params.Time }}<time class="event-time">{{ dateFormat "January 2006" . }}</time>{{ end }}
       {{ with .Params.Location }}<span class="event-location p-location">{{ . }}</span>{{ end }}
     </aside>
     {{ with .Params.Link }}
@@ -14,6 +17,16 @@
     {{ with .Params.Description }}
     <div class="event-description grid-narrow-right e-content p-description">
       {{ . | markdownify }}
+    </div>
+    {{ end }}
+    {{ with .Params.Links }}
+    <div class="event-links grid-narrow-right">
+      <h2 class="related-links">{{ cond (eq (len .) 1) "Link" "Links" }}</h2>
+      <ul>
+      {{ range . }}
+        {{ partial "list-item.html" (dict "url" .url "text" .text "class" "link") }}
+      {{ end }}
+      </ul>
     </div>
     {{ end }}
     {{ partial "related-members.html" (dict "members" .Params.Members "term" "Involved") }}
