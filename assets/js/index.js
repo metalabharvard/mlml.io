@@ -19,9 +19,9 @@ for (let i = 0; i < tags.length; i++) {
 
 const template = document.getElementById('start-time-template');
 
-console.log(template)
-
-tippy('.event-time', {
-  content: template.innerHTML,
-  allowHTML: true
-});
+if (template) {
+  tippy('.event-time', {
+    content: template.innerHTML,
+    allowHTML: true
+  });
+}
