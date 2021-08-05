@@ -38,9 +38,9 @@
 	    .then(res => res.json())
 	    .then(data => {
 	    	const { members, events, projects } = data;
-	      fuseMembers = new Fuse(members, { keys: ['name', 'role', 'slug'] });
-	      fuseEvents = new Fuse(events, { keys: ['title', 'intro', 'description', 'slug'] });
-	      fuseProjects = new Fuse(projects, { keys: ['title', 'intro', 'description', 'slug'] });
+	      fuseMembers = new Fuse(members, { threshold: 0.4, keys: [{ name: 'name', weight: 2 }, 'role', 'slug'] });
+	      fuseEvents = new Fuse(events, { threshold: 0.4, keys: [{ name: 'title', weight: 2 }, { name: 'intro', weight: 1.5 }, 'description', 'members', 'slug'] });
+	      fuseProjects = new Fuse(projects, { threshold: 0.4, keys: [{ name: 'title', weight: 2 }, { name: 'intro', weight: 1.5 }, 'description', 'members', 'slug'] });
 	    });
 	})
 

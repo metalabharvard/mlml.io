@@ -31,6 +31,11 @@
    "name": "Matthew Battles",
    "slug": "matthew-battles",
    "isAlumnus": false
+  },
+  {
+   "name": "Kim Albrecht",
+   "slug": "kim-albrecht",
+   "isAlumnus": false
   }
  ],
  "cover": {

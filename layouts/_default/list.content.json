@@ -7,13 +7,21 @@
 {{ $eventsScratch := newScratch }}
 {{- $eventsScratch.Set "events" slice -}}
 {{- range $index, $element := (where .Site.Pages "Section" "events") -}}
-  {{- $eventsScratch.Add "events" (dict "type" "event" "title" $element.Title "intro" (plainify ($element.Params.Intro | markdownify)) "description" (replace (safeHTMLAttr (safeJS (plainify ($element.Params.Description | markdownify)))) "\n" " ") "slug" $element.Slug) -}}
+  {{ $relatedMembers := newScratch }}
+  {{- range $member := $element.Params.Members -}}
+    {{- $relatedMembers.Add "members" (slice $member.name) -}}
+  {{- end -}}
+  {{- $eventsScratch.Add "events" (dict "type" "event" "title" $element.Title "intro" (plainify ($element.Params.Intro | markdownify)) "description" (replace (safeHTMLAttr (safeJS (plainify ($element.Params.Description | markdownify)))) "\n" " ") "members" ($relatedMembers.Get "members") "slug" $element.Slug) -}}
 {{- end -}}
 
 {{ $projectsScratch := newScratch }}
 {{- $projectsScratch.Set "projects" slice -}}
 {{- range $index, $element := (where .Site.Pages "Section" "projects") -}}
-  {{- $projectsScratch.Add "projects" (dict "type" "event" "title" $element.Title "intro" (plainify ($element.Params.Intro | markdownify)) "description" (replace (safeHTMLAttr (safeJS (plainify ($element.Params.Description | markdownify)))) "\n" " ") "slug" $element.Slug) -}}
+  {{ $relatedMembers := newScratch }}
+  {{- range $member := $element.Params.Members -}}
+    {{- $relatedMembers.Add "members" (slice $member.name) -}}
+  {{- end -}}
+  {{- $projectsScratch.Add "projects" (dict "type" "event" "title" $element.Title "intro" (plainify ($element.Params.Intro | markdownify)) "description" (replace (safeHTMLAttr (safeJS (plainify ($element.Params.Description | markdownify)))) "\n" " ") "members" ($relatedMembers.Get "members") "slug" $element.Slug) -}}
 {{- end -}}
 
 {{ $content := newScratch }}

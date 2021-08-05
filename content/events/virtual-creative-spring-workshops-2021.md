@@ -26,6 +26,11 @@
    "isAlumnus": false
   },
   {
+   "name": "Kim Albrecht",
+   "slug": "kim-albrecht",
+   "isAlumnus": false
+  },
+  {
    "name": "Adam Haar Horowitz",
    "slug": "adam-haar-horowitz",
    "isAlumnus": true
