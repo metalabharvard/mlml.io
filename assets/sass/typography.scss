@@ -290,7 +290,7 @@ ul {
     font-size: var(--size-6);
     font-weight: $font-weight-bold;
     line-height: 1.1;
-    display: block;
+    display: inline-block;
     margin-top: var(--spacing-05);
   }
 
@@ -302,6 +302,13 @@ ul {
       display: block;
     }
   }
+}
+
+.start-time-list {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-column-gap: var(--spacing-05);
+  grid-row-gap: var(--spacing-0125);
 }
 
 .project-description, .member-description, .event-description {

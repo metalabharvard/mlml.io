@@ -6,7 +6,8 @@
   {{ with .Site.Params.keywords }}<meta name="keywords" content="{{ . }}">{{ end }}
   <meta name="robots" content="index,follow">
 
-  {{ $js := resources.Get "js/index.js" | js.Build (dict "minify" true) | fingerprint }}
+  {{ $defines := dict "process.env.NODE_ENV" `"production"` }}
+  {{ $js := resources.Get "js/index.js" | js.Build (dict "minify" true "defines" $defines) | fingerprint }}
   <script type="text/javascript" src="{{ $js.Permalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
 
   {{ $svelte := resources.Get "/js/svelte.js" | js.Build (dict "minify" true) | fingerprint }}

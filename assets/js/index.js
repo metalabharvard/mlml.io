@@ -1,4 +1,5 @@
 import chroma from "chroma-js";
+import tippy from 'tippy.js';
 
 const tags = document.getElementsByClassName('project-tag');
 
@@ -15,3 +16,12 @@ for (let i = 0; i < tags.length; i++) {
   }
   tag.innerHTML = newContent;
 }
+
+const template = document.getElementById('start-time-template');
+
+console.log(template)
+
+tippy('.event-time', {
+  content: template.innerHTML,
+  allowHTML: true
+});
