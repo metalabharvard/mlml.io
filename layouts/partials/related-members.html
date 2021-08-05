@@ -5,7 +5,7 @@
 <div class="grid-wide">
   <h2 class="related-members">{{ $term }} {{ cond (eq (len $active) 1) "member" "members" }}</h2>
   <ul>
-  {{ range $active }}
+  {{ range sort $active "slug" }}
     <li class="related-member"><a href="{{ .slug | absURL }}" ref="author">{{ .name }}</a></li>
   {{ end }}
   </ul>
@@ -16,7 +16,7 @@
 <div class="grid-wide">
   <h2 class="related-members">{{ $term }} {{ cond (eq (len $active) 1) "alumnus" "alumni" }}</h2>
   <ul>
-  {{ range $alumni }}
+  {{ range sort $alumni "name" }}
     <li class="related-member" rel="author">{{ .name }}</li>
   {{ end }}
   </ul>

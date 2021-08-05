@@ -3,7 +3,7 @@
 <div class="grid-wide">
   <h2 class="related-projects">{{ $term }} {{ cond (eq (len .) 1) "project" "projects" }}</h2>
   <ul>
-  {{ range . }}
+  {{ range sort . "slug" }}
     <li class="related-project"><a href="{{ .slug | absURL }}">{{ .title }}</a></li>
   {{ end }}
   </ul>

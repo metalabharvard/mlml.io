@@ -21,7 +21,7 @@
     <div class="project-collaborators grid-narrow-right">
       <h2 class="related-collaborators">{{ cond (eq (len .) 1) "Collaborator" "Collaborators" }}</h2>
       <ul>
-      {{ range . }}
+      {{ range sort . "name" }}
         {{ partial "list-item.html" (dict "url" .url "text" .name "class" "collaborator") }}
       {{ end }}
       </ul>
@@ -31,7 +31,7 @@
     <div class="project-articles grid-narrow-right">
       <h2 class="related-articles">{{ cond (eq (len .) 1) "Press article" "Press articles" }}</h2>
       <ul>
-      {{ range . }}
+      {{ range sort . "text" }}
         {{ partial "list-item.html" (dict "url" .url "text" .text "class" "article") }}
       {{ end }}
       </ul>
@@ -41,7 +41,7 @@
     <div class="project-links grid-narrow-right">
       <h2 class="related-links">{{ cond (eq (len .) 1) "Link" "Links" }}</h2>
       <ul>
-      {{ range . }}
+      {{ range sort . "text" }}
         {{ partial "list-item.html" (dict "url" .url "text" .text "class" "link") }}
       {{ end }}
       </ul>
