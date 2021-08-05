@@ -84,9 +84,14 @@ ul {
   }
 }
 
-.page-menu-items, .page-logo {
-  font-size: var(--size-6);
+.page-menu-items, .page-logo, .page-current-section {
+  font-size: var(--size-2);
   font-weight: $font-weight-medium;
+
+  @include query($medium) {
+    font-size: var(--size-6);
+    font-weight: $font-weight-medium;
+  }
 
   a {
     text-decoration: none;
@@ -186,7 +191,6 @@ ul {
 
   .member-aside a {
     font-size: var(--size-4);
-    display: block;
     text-decoration: none;
 
     svg {

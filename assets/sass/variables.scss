@@ -28,6 +28,21 @@ $size-gap: 30px;
 $size-column: ($size-wrapper - $size-gap * ($columns - 1)) / $columns;
 $wide-margin: $size-column * 2 + $size-gap * 2;
 
+$z-index-search-input: 999;
+$z-index-search-results: 999;
+$z-index-page-menu: 2;
+$z-index-page-menu-list: 2;
+$z-index-page-menu-trigger: 3;
+$z-index-page-search: 2;
+$z-index-page-search-trigger: 3;
+$z-index-header-items: 1;
+$z-index-header-items-after: 0;
+$z-index-about-header: 0;
+$z-index-about-intro: 1;
+$z-index-member-header: 2;
+$z-index-member-header-before: 0;
+$z-index-project-link: 1;
+
 // https://type-scale.com/?size=12&scale=1.333&text=A%20Visual%20Type%20Scale&font=Poppins&fontweight=400&bodyfont=body_font_default&bodyfontweight=400&lineheight=1.75&backgroundcolor=%23ffffff&fontcolor=%23000000&preview=false
 $size-1: 67.34px;
 $size-2: 50.52px;
@@ -65,6 +80,8 @@ $size-9: 6.76px;
   --size-7: 12.00px; // Base
   --size-8: 10.67px;
   --size-9: 9.48px;
+
+  --transition: 0.3s;
 }
 
 @include query($narrow) {

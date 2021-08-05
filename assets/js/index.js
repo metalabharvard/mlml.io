@@ -1,3 +1,4 @@
+import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
 import chroma from "chroma-js";
 import tippy from 'tippy.js';
 
@@ -25,3 +26,48 @@ if (template) {
     allowHTML: true
   });
 }
+
+
+
+
+
+let isOpen = false;
+const trigger = document.getElementById('page-menu-trigger');
+// const backdrop = document.getElementById('homepage-sidebar-backdrop');
+const container = document.getElementById('page-menu');
+const sidebar = document.getElementById('page-menu-list');
+
+trigger.setAttribute('title', 'Click to open navigation sidebar');
+trigger.removeAttribute('aria-disabled');
+
+function toggleSidebar () {
+  if (isOpen) {
+    isOpen = false
+    sidebar.classList.remove('isOpen');
+    trigger.setAttribute('aria-pressed', false);
+    container.setAttribute('aria-hidden', true);
+    trigger.setAttribute('title', 'Click to open navigation sidebar');
+    enableBodyScroll(sidebar)
+  } else {
+    isOpen = true
+    sidebar.classList.add('isOpen');
+    trigger.setAttribute('aria-pressed', true);
+    container.setAttribute('aria-hidden', false);
+    trigger.setAttribute('title', 'Click to close navigation sidebar');
+    disableBodyScroll(sidebar)
+  }
+}
+
+trigger.addEventListener('click', toggleSidebar);
+trigger.addEventListener('keydown', ({ key }) => {
+  if (key === ' ' || key === 'Enter' || key === 'Spacebar') {
+    toggleSidebar();
+  }
+});
+// backdrop.addEventListener('click', toggleSidebar);
+
+document.addEventListener('keydown', ({ key }) => {
+  if (key === 'Escape' && isOpen) {
+    toggleSidebar();
+  }
+});

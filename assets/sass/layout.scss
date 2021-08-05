@@ -28,6 +28,13 @@ picture img {
   height: auto;
 }
 
+.until-medium {
+  @include query($medium) {
+    display: none !important;
+    visibility: none !important;
+  }
+}
+
 .wrapper {
   width: var(--size-wrapper);
 }
@@ -55,24 +62,8 @@ picture img {
     grid-column-end: 11;
   }
 
-  .grid-narrow-left {
-    grid-column-start: 3;
-    grid-column-end: 9;
-  }
-
-  .grid-narrow-left-aside {
-    grid-column-start: 9;
-    grid-column-end: 11;
-  }
-
-  .grid-narrow-right {
-    grid-column-start: 5;
-    grid-column-end: 11;
-  }
-
-  .grid-narrow-right-aside {
-    grid-column-start: 3;
-    grid-column-end: 5;
+  .grid-narrow-left, .grid-narrow-left-aside, .grid-narrow-right, .grid-narrow-right-aside {
+    @include grid-full();
   }
 
   .grid-narrow {
@@ -84,57 +75,130 @@ picture img {
     .grid-wide {
       @include grid-wide();
     }
+
+    .grid-narrow-left, .grid-narrow-left-aside, .grid-narrow-right, .grid-narrow-right-aside {
+      @include grid-wide();
+    }
   }
 
   @include query($medium) {
     .grid-wide {
       @include grid-medium();
     }
+
+    .grid-narrow-left {
+      @include grid-narrow-left();
+    }
+
+    .grid-narrow-left-aside {
+      @include grid-narrow-left-aside();
+    }
+
+    .grid-narrow-right {
+      @include grid-narrow-right();
+    }
+
+    .grid-narrow-right-aside {
+      @include grid-narrow-right-aside();
+    }
   }
 }
 
 .center-h {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+  @include center-h();
 }
 
 .center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include center();
+}
+
+.center-right {
+  @include center-right();
+}
+
+.center-left {
+  @include center-left();
 }
 
 .page-header {
+  --header-height: 15vh;
+  --trigger-size: var(--spacing-6);
   width: 100vw;
   display: grid;
-  grid-template-columns: 1fr calc(var(--size-column) * 8 + var(--size-gap) * 7) 1fr;
-  --header-height: 15vh;
+  grid-template-columns: 1fr repeat(2, calc(var(--size-wrapper) / 2)) 1fr;
   height: var(--header-height);
+  @include gradient-border-bottom(3.5px);
+
+
+  @include query($medium) {
+    border-bottom: 0;
+    width: 100vw;
+    grid-template-columns: 1fr calc(var(--size-column) * 8 + var(--size-gap) * 7) 1fr;
+  }
 
   & > * {
     background-color: var(--color-bg);
 
-    &:first-child, &:last-child {
+    &.page-search, &.page-logo {
       border-bottom: 1px solid $color-gray;
     }
   }
 
+  .trigger-icon {
+    height: calc(var(--trigger-size) * 0.5);
+    stroke-width: 2px;
+    vector-effect: non-scaling-stroke;
+
+    @include query($medium) {
+      height: calc(var(--size-5) * 1.1);
+    }
+  }
+
+  .page-logo {
+    grid-column-start: 2;
+    @include center-left();
+
+    @include query($medium) {
+      grid-column-start: auto;
+      @include center();
+    }
+  }
+
   .page-search {
-    background-color: var(--color-bg);
-    position: relative;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-color: transparent;
+    z-index: $z-index-page-search;
+
+    @include query($medium) {
+      background-color: var(--color-bg);
+      position: relative;
+    }
 
     .search-trigger {
-      width: 100%;
-      height: 100%;
-      border-radius: 0;
-      border: none;
-      background-color: transparent;
+      position: fixed;
+      left: var(--spacing-2);
+      bottom: var(--spacing-2);
+      right: auto;
+      top: auto;
+      background-color: #fff;
+      border-radius: 50%;
+      width: var(--trigger-size);
+      height: var(--trigger-size);
+      border: 1px solid red;
+      z-index: $z-index-page-search-trigger;
 
-      .icon {
-        height: calc(var(--size-6) * 1.1);
-        stroke-width: 2.5px;
-        vector-effect: non-scaling-stroke;
+      @include query($medium) {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+        border: none;
+        background-color: transparent;
+        left: auto;
+        bottom: auto;
       }
 
       &:hover, &:focus {
@@ -157,7 +221,7 @@ picture img {
       outline: none;
       border-bottom: 1px solid $color-gray;
       border-left: 1px solid $color-gray;
-      z-index: 999;
+      z-index: $z-index-search-input;
       text-indent: var(--spacing-1);
 
       &:focus, &.hasTerm {
@@ -168,7 +232,7 @@ picture img {
 
     .search-results {
       position: absolute;
-      z-index: 999;
+      z-index: $z-index-search-results;
       background-color: #fff;
       width: 100vw;
       height: calc(100vh - var(--header-height) - 1px);
@@ -187,32 +251,125 @@ picture img {
     }
   }
 
-  .page-menu .page-menu-items {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    height: 100%;
+  .page-menu {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: $z-index-page-menu;
 
-    li {
+    @include query($medium) {
+      position: relative;
+      top: auto;
+      bottom: auto;
+      right: auto;
+    }
+  }
+
+  .page-menu-list {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    z-index: $z-index-page-menu-list;
+    width: 100vw;
+    height: 100vh;
+    transition: transform var(--transition) ease;
+    transform: translateX(100vw);
+
+    &.isOpen {
+      transform: translateX(0);
+    }
+
+    @include query($medium) {
+      transform: translateX(0);
+      transition: transform 0;
+    }
+
+    @include query($medium) {
+      position: relative;
+      background-color: transparent;
       width: 100%;
       height: 100%;
+    }
 
-      a {
-        border-bottom: 1px solid $color-gray;
-        border-right: 1px solid $color-gray;
+    .page-menu-items {
+      display: grid;
+      grid-template-rows: var(--header-height) repeat(5, 1fr) calc(var(--trigger-size) + var(--spacing-1));
+      height: 100%;
+
+      @include query($medium) {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: auto;
       }
 
-      &:first-child a {
-        border-left: 1px solid $color-gray;
+      li {
+        width: 100%;
+        height: 100%;
+
+        &:not(.social) a {
+          border-bottom: 1px solid $color-gray;
+
+          @include query($medium) {
+            border-right: 1px solid $color-gray;
+          }
+        }
+
+        &.header a {
+          @include gradient-border-bottom(3.5px);
+        }
+
+        &.social {
+          display: grid;
+          grid-auto-flow: column;
+          justify-items: center;
+          align-items: center;
+        }
+
+        @include query($medium) {
+          &:first-child a {
+            border-left: 1px solid $color-gray;
+          }
+        }
       }
     }
   }
 
-  .page-logo a, .page-menu-items a {
+  .page-menu-trigger {
+    position: fixed;
+    right: var(--spacing-2);
+    bottom: var(--spacing-2);
+    left: auto;
+    top: auto;
+    background-color: #fff;
+    border-radius: 50%;
+    width: var(--spacing-6);
+    height: var(--spacing-6);
+    border: 1px solid red;
+    z-index: $z-index-page-menu-trigger;
+
+    &[aria-pressed=true] {
+      outline: none;
+      background-color: red;
+
+      svg {
+        color: #fff;
+      }
+    }
+  }
+
+  .page-menu-items *:not(.social) a {
     width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    background-color: var(--color-bg);
+  }
+
+  .page-logo a, .page-menu-items a {
     position: relative;
     background-color: var(--color-bg);
 
@@ -221,18 +378,26 @@ picture img {
 
       span {
         position: relative;
-        z-index: 1;
+        z-index: $z-index-header-items;
       }
 
       &::after {
         background-color: black;
         content: '';
         position: absolute;
-        right: -1px;
+        right: 0;
         bottom: -1px;
-        top: 0;
-        left: -1px;
-        z-index: 0;
+        top: -1px;
+        left: 0;
+      }
+
+      @include query($medium) {
+        &::after {
+          right: -1px;
+          bottom: -1px;
+          top: 0;
+          left: -1px;
+        }
       }
     }
 
@@ -299,7 +464,7 @@ picture img {
     border: 10px solid;
     border-image-slice: 1;
     border-width: 3px;
-    z-index: 0;
+    z-index: $z-index-about-header;
     --angle: 90deg;
     border-image-source: linear-gradient(90deg, #FFB600 0%, #FF4800 100%);
     // border-image-source: linear-gradient(90deg, #FFB600 0%, #FF4800 100%);
@@ -332,7 +497,7 @@ picture img {
     grid-row-start: 1;
     grid-row-end: 2;
     padding: var(--spacing-2) 0;
-    z-index: 1;
+    z-index: $z-index-about-intro;
   }
 }
 
@@ -382,7 +547,7 @@ picture, img {
     grid-row-end: 2;
     grid-column-start: 4;
     margin-top: var(--spacing-3);
-    z-index: 2;
+    z-index: $z-index-member-header;
 
     .member-role {
       margin-top: var(--spacing-05);
@@ -392,9 +557,16 @@ picture, img {
   .member-image {
     grid-row-start: 1;
     grid-row-end: 3;
-    grid-column-start: 2;
-    grid-column-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 5;
     margin-bottom: var(--spacing-05); // This is used to have a min height of the block
+
+    @include query($medium) {
+      grid-row-start: 1;
+      grid-row-end: 3;
+      grid-column-start: 2;
+      grid-column-end: 4;
+    }
 
     img {
       filter: grayscale(100%);
@@ -403,7 +575,9 @@ picture, img {
 
   .member-aside {
     // margin-top: var(--spacing-0125);
-    text-align: right;
+    text-align: center;
+    display: grid;
+    grid-auto-flow: column;
   }
 
   // .member-role {
@@ -428,13 +602,13 @@ picture, img {
     border: 10px solid;
     border-image-slice: 1;
     border-width: 3px;
-    z-index: 0;
+    z-index: $z-index-member-header-before;
     --angle: 90deg;
     border-image-source: linear-gradient(var(--angle), #FFB600 0%, #FF4800 100%);
     // border-image-source: linear-gradient(90deg, #FFB600 0%, #FF4800 100%);
     animation: 20s rotate linear infinite;
     // border-image-source: radial-gradient(circle, #FFB600 60%, #FF4800 100%);
-    @include grid-medium();
+    @include grid-wide();
 
     @include query($narrow) {
       @include grid-wide();
@@ -452,16 +626,21 @@ picture, img {
   }
 
   .project-link {
-    position: fixed;
-    right: -200px;
-    top: calc(15vh + var(--spacing-2));
-    border: 3px solid #FF4800;
-    border-radius: 50%;
-    height: 400px;
-    width: 400px;
+    @include grid-full();
     display: flex;
     flex-direction: column;
     justify-content: center;
+    // z-index: $z-index-project-link;
+
+    @include query($medium) {
+      position: fixed;
+      right: -200px;
+      top: calc(15vh + var(--spacing-2));
+      border: 3px solid #FF4800;
+      border-radius: 50%;
+      height: 400px;
+      width: 400px;
+    }
 
     &:hover, &:focus {
       background-color: #222;
@@ -470,10 +649,12 @@ picture, img {
     }
 
     span {
-      text-align: right;
-      display: block;
-      width: 50%;
-      padding-right: var(--spacing-05);
+      @include query($medium) {
+        text-align: right;
+        display: block;
+        width: 50%;
+        padding-right: var(--spacing-05);
+      }
     }
   }
 

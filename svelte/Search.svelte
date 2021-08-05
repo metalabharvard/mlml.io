@@ -89,7 +89,7 @@
 <button class="search-trigger" on:click={handleTriggerClick}>
 	<svg
 		xmlns="http://www.w3.org/2000/svg"
-		class="icon icon-tabler icon-tabler-search"
+		class="trigger-icon icon icon-tabler icon-tabler-search"
 		width="24"
 		height="24"
 		viewBox="0 0 24 24"
