@@ -1,6 +1,10 @@
 [build]
 command = "npm run build"
 
+[build.environment]
+  GO_IMPORT_PATH = "github.com/z3to/metalab-website"
+  GO111MODULE = "on"
+
 [context.production.environment]
 HUGO_VERSION = "0.83.1"
 HUGO_ENV = "production"
