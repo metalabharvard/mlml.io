@@ -29,46 +29,46 @@ type Role struct {
 }
 
 type Format struct {
-  Url string `json:"url"`
-  Ext string `json:"ext"`
-  Width int `json:"width"`
-  Height int `json:"height"`
+  Url string `json:"url,omitempty"`
+  Ext string `json:"ext,omitempty"`
+  Width int `json:"width,omitempty"`
+  Height int `json:"height,omitempty"`
 }
 
 type Formats struct {
-  Large Format `json:"large"`
-  Medium Format `json:"medium"`
-  Small Format `json:"small"`
-  Thumbnail Format `json:"thumbnail"`
+  Large Format `json:"large,omitempty"`
+  Medium Format `json:"medium,omitempty"`
+  Small Format `json:"small,omitempty"`
+  Thumbnail Format `json:"thumbnail,omitempty"`
 }
 
 type Picture struct {
-  AlternativeText string `json:"alternativeText"`
-  Url string `json:"url"`
-  Width int `json:"width"`
-  Height int `json:"height"`
-  Formats Formats `json:"formats"`
+  AlternativeText string `json:"alternativeText,omitempty"`
+  Url string `json:"url,omitempty"`
+  Width int `json:"width,omitempty"`
+  Height int `json:"height,omitempty"`
+  Formats Formats `json:"formats,omitempty"`
 }
 
 type Response struct {
   Name string `json:"name"`
   Title string
-  Roles []Role `json:"roles"`
+  Roles []Role `json:"roles,omitempty"`
   IsAlumnus bool `json:"isAlumnus"`
   Rank float64 `json:"rank"`
-  RoleString string `json:"role_string"`
-  Twitter string `json:"twitter"`
-  Mail string `json:"email"`
-  Website string `json:"website"`
-  Instagram string `json:"instagram"`
-  Start string `json:"start"`
+  RoleString string `json:"role_string,omitempty"`
+  Twitter string `json:"twitter,omitempty"`
+  Mail string `json:"email,omitempty"`
+  Website string `json:"website,omitempty"`
+  Instagram string `json:"instagram,omitempty"`
+  Start string `json:"start,omitempty"`
   Description string `json:"description,omitempty"`
   Updated_at string `json:"updated_at"`
   Created_at string `json:"created_at"`
   Slug string `json:"slug"`
-  Events []Event `json:"events"`
-  Projects []Project `json:"projects"`
-  Picture Picture `json:"picture"`
+  Events []Event `json:"events,omitempty"`
+  Projects []Project `json:"projects,omitempty"`
+  Picture Picture `json:"picture,omitempty"`
 }
 
 func getPath(isAlumnus bool) string {

@@ -24,26 +24,10 @@ projects:
 - title: Curatorial A(i)gents
   slug: curatorial-a-i-gents
 picture:
-  alternativeText: ""
   url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1627572148/newman_e72b9062e3.jpg
   width: 379
   height: 500
   formats:
-    large:
-      url: ""
-      ext: ""
-      width: 0
-      height: 0
-    medium:
-      url: ""
-      ext: ""
-      width: 0
-      height: 0
-    small:
-      url: ""
-      ext: ""
-      width: 0
-      height: 0
     thumbnail:
       url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1627572148/thumbnail_newman_e72b9062e3.jpg
       ext: .jpg
