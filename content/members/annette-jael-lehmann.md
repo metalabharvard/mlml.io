@@ -9,8 +9,8 @@ rank: 3.999
 role_string: Senior Affiliate
 website: http://annette-jael-lehmann.de/
 instagram: annettejaellehmann
-updated_at: 2021-08-03T10:21:47.901Z
-created_at: 2021-07-29T15:09:27.781Z
+lastmod: 2021-08-03T10:21:47.901Z
+date: 2021-07-29T15:09:27.781Z
 slug: annette-jael-lehmann
 picture:
   url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1627572148/annette_5e66373bc5.jpg

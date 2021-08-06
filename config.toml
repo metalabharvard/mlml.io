@@ -1,5 +1,6 @@
 baseURL = "https://jovial-noether-d4ee9f.netlify.app"
 languageCode = "en-us"
+disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [params]
   contentTypes = ["projects", "members", "events"]
@@ -20,4 +21,8 @@ languageCode = "en-us"
     notAlternative = true
 
 [outputs]
-  home = ["HTML", "Content"]
+  home = ["HTML", "Content", "RSS"]
+  section = ["HTML", "RSS"]
+
+[sitemap]
+  filename = "sitemap.xml"

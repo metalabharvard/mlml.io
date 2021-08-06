@@ -57,7 +57,9 @@
           {{ partial "footer-social.html" . }}
         </div>
         <span class="footer-update">
-          <span>Last updated <time datetime="{{ now.Format "2006-01-02T15:04:05Z07:00" }}" title="{{ now.Format "Monday, 02 January 2006 15:04" }}">{{ now.Format "January 2006"}}</time></span>
+          <span>Last updated <time datetime="{{ now.Format "2006-01-02T15:04:05Z07:00" }}" title="{{ now.Format "Monday, 02 January 2006 15:04" }}">{{ now.Format "January 2006"}}</time></span><br />
+          <span><a href="{{ "projects/index.xml" | absURL }}">Projects RSS</a></span><br />
+          <span><a href="{{ "events/index.xml" | absURL }}">Events RSS</a></span>
         </span>
       </div>
     </footer>

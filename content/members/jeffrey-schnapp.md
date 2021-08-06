@@ -14,8 +14,8 @@ email: jeffrey@metalab.harvard.edu
 website: jeffreyschnapp.com
 instagram: jschnapp
 start: 2021-06-17
-updated_at: 2021-08-06T10:12:54.815Z
-created_at: 2021-06-16T16:34:22.247Z
+lastmod: 2021-08-06T10:12:54.815Z
+date: 2021-06-16T16:34:22.247Z
 slug: jeffrey-schnapp
 projects:
 - title: futureSTAGE

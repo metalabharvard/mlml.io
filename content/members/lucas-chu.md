@@ -3,8 +3,8 @@ name: Lucas Chu
 title: Lucas Chu
 isAlumnus: false
 rank: 9.999
-updated_at: 2021-08-03T10:22:26.734Z
-created_at: 2021-07-29T15:12:56.690Z
+lastmod: 2021-08-03T10:22:26.734Z
+date: 2021-07-29T15:12:56.690Z
 slug: lucas-chu
 picture:
   url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1627572142/lucas_147be1fceb.jpg

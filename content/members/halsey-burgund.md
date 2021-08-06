@@ -10,8 +10,8 @@ role_string: Affiliate
 twitter: hburgund
 website: http://halseyburgund.com/
 instagram: hburgund
-updated_at: 2021-08-03T10:21:29.671Z
-created_at: 2021-07-29T15:12:35.590Z
+lastmod: 2021-08-03T10:21:29.671Z
+date: 2021-07-29T15:12:35.590Z
 slug: halsey-burgund
 picture:
   url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1627572142/halsey_8c8be37543.jpg

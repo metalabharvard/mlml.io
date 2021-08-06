@@ -12,8 +12,8 @@ email: matthew@metalab.harvard.edu
 website: http://mbattl.es/
 instagram: mbattles
 start: 2021-06-17
-updated_at: 2021-08-06T10:13:45.567Z
-created_at: 2021-06-17T15:01:18.624Z
+lastmod: 2021-08-06T10:13:45.567Z
+date: 2021-06-17T15:01:18.624Z
 slug: matthew-battles
 projects:
 - title: futureSTAGE

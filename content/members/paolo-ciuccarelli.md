@@ -9,8 +9,8 @@ rank: 3.999
 role_string: Senior Affiliate
 twitter: pciuccarelli
 website: http://https//camd.northeastern.edu/faculty/paolo-ciuccarelli/
-updated_at: 2021-08-03T10:23:32.835Z
-created_at: 2021-07-29T15:14:36.806Z
+lastmod: 2021-08-03T10:23:32.835Z
+date: 2021-07-29T15:14:36.806Z
 slug: paolo-ciuccarelli
 picture:
   url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1627572140/paolo_85f86e0a62.jpg

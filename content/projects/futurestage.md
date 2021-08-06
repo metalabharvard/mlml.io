@@ -3,17 +3,13 @@ title: futureSTAGE
 intro: An international research collaborative mapping opportunities for performance spaces in a hyperconnected world
 start: 2021-06-16
 end: 2021-08-10
-link: ""
 location: harvard
 category: project
 isFeatured: true
 externalLink: ""
-updated_at: 2021-08-04T11:50:25.033Z
-created_at: 2021-06-16T16:32:45.349Z
+lastmod: 2021-08-04T11:50:25.033Z
+date: 2021-06-16T16:32:45.349Z
 slug: futurestage
-collaborators: []
-press_articles: []
-links: []
 events:
 - title: Virtual Creative Spring Workshops 2021
   slug: virtual-creative-spring-workshops-2021
@@ -25,7 +21,6 @@ members:
   slug: matthew-battles
   isAlumnus: false
 cover:
-  alternativeText: ""
   url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1623942726/futurestage_5eaed577d1.jpg
   width: 2550
   height: 3300

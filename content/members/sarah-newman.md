@@ -14,8 +14,8 @@ email: snewman@metalab.harvard.edu
 website: http://sarahwnewman.com/
 instagram: sarahwnewman
 start: 2021-06-17
-updated_at: 2021-08-06T10:14:32.179Z
-created_at: 2021-06-17T15:03:05.077Z
+lastmod: 2021-08-06T10:14:32.179Z
+date: 2021-06-17T15:03:05.077Z
 slug: sarah-newman
 events:
 - title: Virtual Creative Spring Workshops 2021

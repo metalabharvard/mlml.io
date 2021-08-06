@@ -14,16 +14,14 @@ location: Cambridge, MA
 link: ""
 isFeatured: false
 isOngoing: false
-updated_at: 2021-07-30T13:23:55.243Z
-created_at: 2021-07-30T13:21:18.117Z
+lastmod: 2021-07-30T13:23:55.243Z
+date: 2021-07-30T13:21:18.117Z
 slug: mahindra-seminar-the-future-of-transmedia-performance
 members:
 - name: Kim Albrecht
   slug: kim-albrecht
   isAlumnus: false
-projects: []
 cover:
-  alternativeText: ""
   url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1627651421/transmediafuture_4c658abf60.jpg
   width: 1631
   height: 1885
@@ -48,9 +46,6 @@ cover:
       ext: .jpg
       width: 135
       height: 156
-youtube: ""
-vimeo: ""
-links: []
 
 ---
 **[CLICK HERE TO REGISTER](https://harvard.zoom.us/webinar/register/WN_eeQ8KbEiS16OX0yAIRIDdg)**

@@ -14,8 +14,8 @@ location: Online
 link: ""
 isFeatured: false
 isOngoing: false
-updated_at: 2021-08-04T14:47:54.968Z
-created_at: 2021-06-17T15:20:22.781Z
+lastmod: 2021-08-04T14:47:54.968Z
+date: 2021-06-17T15:20:22.781Z
 slug: virtual-creative-spring-workshops-2021
 members:
 - name: Sarah Newman
@@ -33,21 +33,10 @@ projects:
 - title: Curatorial A(i)gents
   slug: curatorial-a-i-gents
 cover:
-  alternativeText: ""
   url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1623943200/workshop_b86a78aa63.jpg
   width: 500
   height: 625
   formats:
-    large:
-      url: ""
-      ext: ""
-      width: 0
-      height: 0
-    medium:
-      url: ""
-      ext: ""
-      width: 0
-      height: 0
     small:
       url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1623943202/small_workshop_b86a78aa63.jpg
       ext: .jpg
@@ -58,8 +47,6 @@ cover:
       ext: .jpg
       width: 125
       height: 156
-youtube: ""
-vimeo: ""
 links:
 - text: The Questions Concerning Technology
   url: https://theconvivialsociety.substack.com/p/the-questions-concerning-technology

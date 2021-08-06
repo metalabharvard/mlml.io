@@ -11,8 +11,8 @@ twitter: kimay
 email: me@kimalbrecht.com
 website: http://kimalbrecht.com/
 instagram: kimfalbrecht
-updated_at: 2021-08-06T10:16:28.419Z
-created_at: 2021-07-29T15:08:03.432Z
+lastmod: 2021-08-06T10:16:28.419Z
+date: 2021-07-29T15:08:03.432Z
 slug: kim-albrecht
 events:
 - title: Virtual Creative Spring Workshops 2021

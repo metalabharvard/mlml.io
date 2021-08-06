@@ -9,8 +9,8 @@ rank: 2.999
 role_string: Principal
 twitter: linsderry
 instagram: linsderry
-updated_at: 2021-08-06T10:51:41.601Z
-created_at: 2021-07-29T15:08:54.522Z
+lastmod: 2021-08-06T10:51:41.601Z
+date: 2021-07-29T15:08:54.522Z
 slug: lins-derry
 picture:
   url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1627572147/lins_1e0c7ba2a8.jpg

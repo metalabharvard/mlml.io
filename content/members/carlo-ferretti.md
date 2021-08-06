@@ -9,8 +9,8 @@ rank: 4.999
 role_string: Affiliate
 twitter: CarloFerretti19
 instagram: cfready
-updated_at: 2021-08-03T10:24:02.151Z
-created_at: 2021-07-29T15:15:38.285Z
+lastmod: 2021-08-03T10:24:02.151Z
+date: 2021-07-29T15:15:38.285Z
 slug: carlo-ferretti
 picture:
   url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1627572138/carlo_aa616e5d62.jpg

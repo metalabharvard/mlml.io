@@ -63,8 +63,10 @@ type Response struct {
   Instagram string `json:"instagram,omitempty"`
   Start string `json:"start,omitempty"`
   Description string `json:"description,omitempty"`
-  Updated_at string `json:"updated_at"`
-  Created_at string `json:"created_at"`
+  Updated_at string `json:"updated_at,omitempty"`
+  Created_at string `json:"created_at,omitempty"`
+  Lastmod string `json:"lastmod"`
+  Date string `json:"date"`
   Slug string `json:"slug"`
   Events []Event `json:"events,omitempty"`
   Projects []Project `json:"projects,omitempty"`
@@ -155,6 +157,12 @@ func main() {
     content := element.Description
 
     element.Description = ""
+
+    element.Date = element.Created_at
+    element.Lastmod = element.Updated_at
+
+    element.Created_at = ""
+    element.Updated_at = ""
 
     file, _ := yaml.Marshal(element)
     _ = ioutil.WriteFile(fmt.Sprintf("content/%s/%s.md", getPath(element.IsAlumnus), element.Slug), []byte(fmt.Sprintf("---\n%s\n---\n%s", file, content)), 0644)

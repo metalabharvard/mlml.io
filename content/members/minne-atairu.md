@@ -10,8 +10,8 @@ role_string: Affiliate
 twitter: minneatairu
 website: http://studio.minneatairu.com/
 instagram: minneatairu
-updated_at: 2021-08-03T10:23:45.826Z
-created_at: 2021-07-29T15:12:06.887Z
+lastmod: 2021-08-03T10:23:45.826Z
+date: 2021-07-29T15:12:06.887Z
 slug: minne-atairu
 picture:
   url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1627572142/minne_d70e90de79.jpg

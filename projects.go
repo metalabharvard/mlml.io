@@ -37,25 +37,25 @@ type Event struct {
 }
 
 type Format struct {
-  Url string `json:"url"`
-  Ext string `json:"ext"`
-  Width int `json:"width"`
-  Height int `json:"height"`
+  Url string `json:"url,omitempty"`
+  Ext string `json:"ext,omitempty"`
+  Width int `json:"width,omitempty"`
+  Height int `json:"height,omitempty"`
 }
 
 type Formats struct {
-  Large Format `json:"large"`
-  Medium Format `json:"medium"`
-  Small Format `json:"small"`
-  Thumbnail Format `json:"thumbnail"`
+  Large Format `json:"large,omitempty"`
+  Medium Format `json:"medium,omitempty"`
+  Small Format `json:"small,omitempty"`
+  Thumbnail Format `json:"thumbnail,omitempty"`
 }
 
 type Cover struct {
-  AlternativeText string `json:"alternativeText"`
-  Url string `json:"url"`
-  Width int `json:"width"`
-  Height int `json:"height"`
-  Formats Formats `json:"formats"`
+  AlternativeText string `json:"alternativeText,omitempty"`
+  Url string `json:"url,omitempty"`
+  Width int `json:"width,omitempty"`
+  Height int `json:"height,omitempty"`
+  Formats Formats `json:"formats,omitempty"`
 }
 
 type Response struct {
@@ -63,21 +63,23 @@ type Response struct {
   Intro string `json:"intro"`
   Start string `json:"start"`
   End string `json:"end"`
-  Link string `json:"link"`
+  Link string `json:"link,omitempty"`
   Description string `json:"description,omitempty"`
   Location string `json:"location"`
   Type string `json:"category"`
   IsFeatured bool `json:"isFeatured"`
   ExternalLink string `json:"externalLink"`
-  Updated_at string `json:"updated_at"`
-  Created_at string `json:"created_at"`
+  Updated_at string `json:"updated_at,omitempty"`
+  Created_at string `json:"created_at,omitempty"`
+  Lastmod string `json:"lastmod"`
+  Date string `json:"date"`
   Slug string `json:"slug"`
-  Collaborators []Collaborator `json:"collaborators"`
-  PressArticle []PressArticle `json:"press_articles"`
-  Links []Link `json:"links"`
-  Events []Event `json:"events"`
-  Members []Member `json:"members"`
-  Cover Cover `json:"cover"`
+  Collaborators []Collaborator `json:"collaborators,omitempty"`
+  PressArticle []PressArticle `json:"press_articles,omitempty"`
+  Links []Link `json:"links,omitempty"`
+  Events []Event `json:"events,omitempty"`
+  Members []Member `json:"members,omitempty"`
+  Cover Cover `json:"cover,omitempty"`
 }
 
 func main() {
@@ -100,6 +102,12 @@ func main() {
     content := element.Description
 
     element.Description = ""
+
+    element.Date = element.Created_at
+    element.Lastmod = element.Updated_at
+
+    element.Created_at = ""
+    element.Updated_at = ""
 
     file, _ := yaml.Marshal(element)
     _ = ioutil.WriteFile(fmt.Sprintf("content/projects/%s.md", element.Slug), []byte(fmt.Sprintf("---\n%s\n---\n%s", file, content)), 0644)

@@ -10,8 +10,8 @@ role_string: Visiting Researcher
 twitter: dietoff
 email: d.offenhuber@northeastern.edu
 website: http://cssh.northeastern.edu/people/faculty/dietmar-offenhuber/
-updated_at: 2021-08-03T10:21:37.563Z
-created_at: 2021-07-29T15:10:24.398Z
+lastmod: 2021-08-03T10:21:37.563Z
+date: 2021-07-29T15:10:24.398Z
 slug: dietmar-offenhuber
 picture:
   url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1627572142/dietmar_f4ddfaac59.jpg

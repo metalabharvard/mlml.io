@@ -3,48 +3,21 @@ title: Artificial Senses
 intro: Artificial Senses visualizes sensor data of the machines that surround us to develop an understanding how they experience the world.
 start: 2017-06-01
 end: 2017-12-01
-link: ""
 location: ""
 category: ""
 isFeatured: false
 externalLink: https://artificial-senses.kimalbrecht.com/
-updated_at: 2021-08-05T14:35:34.011Z
-created_at: 2021-08-05T14:29:32.192Z
+lastmod: 2021-08-05T14:35:34.011Z
+date: 2021-08-05T14:29:32.192Z
 slug: artificial-senses
-collaborators: []
-press_articles: []
-links: []
-events: []
 members:
 - name: Kim Albrecht
   slug: kim-albrecht
   isAlumnus: false
 cover:
-  alternativeText: ""
   url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628173929/img1_017c9cba83.gif
   width: 120
   height: 120
-  formats:
-    large:
-      url: ""
-      ext: ""
-      width: 0
-      height: 0
-    medium:
-      url: ""
-      ext: ""
-      width: 0
-      height: 0
-    small:
-      url: ""
-      ext: ""
-      width: 0
-      height: 0
-    thumbnail:
-      url: ""
-      ext: ""
-      width: 0
-      height: 0
 
 ---
 Contemporary culture is unimaginable without the machines that surround us every day. Our knowledge depends on Google search results, our music taste on the mixes Spotify creates for us and our consumption on Amazon recommendations. This strange new world became part of our reality in a very short timeframe. Interface design creates this natural feeling. But if we want to live with these devices and understand them, we cannot just rely on the machines becoming something easily understandable to us. We need to develop an understanding of how these devices experience our world.
