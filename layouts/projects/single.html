@@ -12,9 +12,9 @@
     {{ with .Params.ExternalLink }}
     <a class="project-link" href="{{ . }}"><span>Visit project</span></a>
     {{ end }}
-    {{ with .Params.Description }}
+    {{ with .Content }}
     <div class="project-description grid-narrow-right">
-      {{ . | markdownify }}
+      {{ . }}
     </div>
     {{ end }}
     {{ with .Params.Collaborators }}

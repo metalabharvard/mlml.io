@@ -5,7 +5,7 @@
       <h1 class="member-name fn">{{ .Params.Name }}</h1>
       <span class="member-role role">{{ .Params.Role_string }}</span>
     </header>
-    <div class="member-image">{{ partial "image.html" (dict "picture" .Params.Picture "alt" (printf "Profile picture of %s" .Params.Name)) }}</div>
+    <div class="member-image">{{ partial "image.html" (dict "picture" .Params.picture "alt" (printf "Profile picture of %s" .Params.name)) }}</div>
     <aside class="member-aside grid-narrow-left-aside">
       {{ partial "icon-website.html" (dict "link" .Params.Website "name" $name) }}
       {{ partial "icon-mail.html" (dict "mail" .Params.Email "name" $name) }}
@@ -16,9 +16,9 @@
       {{ partial "icon-youtube.html" (dict "handle" .Params.Youtube "name" $name) }}
       {{ partial "icon-vimeo.html" (dict "handle" .Params.Vimeo "name" $name) }}
     </aside>
-    {{ with .Params.Description }}
+    {{ with .Content }}
     <div class="member-description grid-narrow-left note">
-      {{ . | markdownify }}
+      {{ . }}
     </div>
     {{ end }}
     {{ partial "related-projects.html" (dict "projects" .Params.Projects "term" "Involved") }}

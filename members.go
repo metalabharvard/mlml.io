@@ -10,6 +10,7 @@ import (
   "sort"
   "math"
   "strings"
+  "github.com/goccy/go-yaml"
 )
 
 type Project struct {
@@ -61,7 +62,7 @@ type Response struct {
   Website string `json:"website"`
   Instagram string `json:"instagram"`
   Start string `json:"start"`
-  Description string `json:"description"`
+  Description string `json:"description,omitempty"`
   Updated_at string `json:"updated_at"`
   Created_at string `json:"created_at"`
   Slug string `json:"slug"`
@@ -151,7 +152,11 @@ func main() {
     element.Name = strings.TrimSpace(element.Name)
     element.Title = strings.TrimSpace(element.Name)
 
-    file, _ := json.MarshalIndent(element, "", " ")
-    _ = ioutil.WriteFile(fmt.Sprintf("content/%s/%s.md", getPath(element.IsAlumnus), element.Slug), file, 0644)
+    content := element.Description
+
+    element.Description = ""
+
+    file, _ := yaml.Marshal(element)
+    _ = ioutil.WriteFile(fmt.Sprintf("content/%s/%s.md", getPath(element.IsAlumnus), element.Slug), []byte(fmt.Sprintf("---\n%s\n---\n%s", file, content)), 0644)
   }
 }

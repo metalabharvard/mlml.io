@@ -9,6 +9,7 @@ import (
   "os"
   "time"
   "strings"
+  "github.com/goccy/go-yaml"
 )
 
 type Project struct {
@@ -66,7 +67,7 @@ type Response struct {
   Intro string `json:"intro"`
   Location string `json:"location"`
   Link string `json:"link"`
-  Description string `json:"description"`
+  Description string `json:"description,omitempty"`
   IsFeatured bool `json:"isFeatured"`
   IsOngoing bool `json:"isOngoing"`
   Updated_at string `json:"updated_at"`
@@ -143,7 +144,12 @@ func main() {
       fmt.Println(t.In(locNewYork))
       fmt.Println(t.In(locLosAngeles))
     }
-    file, _ := json.MarshalIndent(element, "", " ")
-    _ = ioutil.WriteFile(fmt.Sprintf("content/events/%s.md", element.Slug), file, 0644)
+
+    content := element.Description
+
+    element.Description = ""
+
+    file, _ := yaml.Marshal(element)
+    _ = ioutil.WriteFile(fmt.Sprintf("content/events/%s.md", element.Slug), []byte(fmt.Sprintf("---\n%s\n---\n%s", file, content)), 0644)
   }
 }

@@ -28,9 +28,9 @@
     {{ with .Params.Link }}
     <a class="event-link u-url" href="{{ . }}"><span>Visit event</span></a>
     {{ end }}
-    {{ with .Params.Description }}
+    {{ with .Content }}
     <div class="event-description grid-narrow-right e-content p-description">
-      {{ . | markdownify }}
+      {{ . }}
     </div>
     {{ end }}
     {{ with .Params.Links }}

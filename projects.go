@@ -7,6 +7,7 @@ import (
   "log"
   "net/http"
   "os"
+  "github.com/goccy/go-yaml"
 )
 
 type Collaborator struct {
@@ -63,7 +64,7 @@ type Response struct {
   Start string `json:"start"`
   End string `json:"end"`
   Link string `json:"link"`
-  Description string `json:"description"`
+  Description string `json:"description,omitempty"`
   Location string `json:"location"`
   Type string `json:"category"`
   IsFeatured bool `json:"isFeatured"`
@@ -96,7 +97,11 @@ func main() {
   json.Unmarshal(responseData, &responseObject)
 
   for _, element := range responseObject {
-    file, _ := json.MarshalIndent(element, "", " ")
-    _ = ioutil.WriteFile(fmt.Sprintf("content/projects/%s.md", element.Slug), file, 0644)
+    content := element.Description
+
+    element.Description = ""
+
+    file, _ := yaml.Marshal(element)
+    _ = ioutil.WriteFile(fmt.Sprintf("content/projects/%s.md", element.Slug), []byte(fmt.Sprintf("---\n%s\n---\n%s", file, content)), 0644)
   }
 }
