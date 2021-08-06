@@ -71,7 +71,8 @@
 }
 
 @mixin gradient-border-bottom ($width) {
-  border-bottom: $width solid;
+  border: none;
+  border-bottom: $width solid #FF4800;
   border-image: linear-gradient(45deg, #FF4800, #FFB600) 1;
 }
 

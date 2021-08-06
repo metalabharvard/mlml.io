@@ -75,12 +75,10 @@ ul {
   padding: 0 var(--spacing-2) var(--spacing-05) var(--spacing-2);
   font-weight: $font-weight-medium;
   line-height: 1;
-  border-bottom: 1.5px solid;
-  border-image: linear-gradient(45deg, #FF4800, #FFB600) 1;
+  @include gradient-border-bottom(1.5px);
 
   &:hover, &:focus {
     color: $color-default;
-    border-image: linear-gradient(45deg, #FF4800, #FFB600) 1;
   }
 }
 
