@@ -16,9 +16,14 @@
       {{ partial "icon-youtube.html" (dict "handle" .Params.Youtube "name" $name) }}
       {{ partial "icon-vimeo.html" (dict "handle" .Params.Vimeo "name" $name) }}
     </aside>
-    {{ with .Content }}
+    {{ if or .Params.Intro .Content }}
     <div class="member-description grid-narrow-left note">
+      {{ with .Params.Intro }}
+      <h2 class="member-intro">{{ . }}</h2>
+      {{ end }}
+      {{ with .Content }}
       {{ . }}
+      {{ end }}
     </div>
     {{ end }}
     {{ partial "related-projects.html" (dict "projects" .Params.Projects "term" "Involved") }}

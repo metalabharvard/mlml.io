@@ -57,6 +57,7 @@ type Response struct {
   IsAlumnus bool `json:"isAlumnus"`
   Rank float64 `json:"rank"`
   RoleString string `json:"role_string,omitempty"`
+  Intro string `json:"intro,omitempty"`
   Twitter string `json:"twitter,omitempty"`
   Mail string `json:"email,omitempty"`
   Website string `json:"website,omitempty"`

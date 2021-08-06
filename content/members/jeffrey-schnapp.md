@@ -9,6 +9,7 @@ roles:
 isAlumnus: false
 rank: 1.299
 role_string: Founder and Principal
+intro: Eventually everything connects.
 twitter: jaytiesse
 email: jeffrey@metalab.harvard.edu
 website: jeffreyschnapp.com

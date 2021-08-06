@@ -7,6 +7,7 @@ roles:
 isAlumnus: false
 rank: 2.999
 role_string: Principal
+intro: No bird has the heart to sing in a thicket of questions. — René Char.
 twitter: matthewbattles
 email: matthew@metalab.harvard.edu
 website: http://mbattl.es/
