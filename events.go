@@ -59,11 +59,15 @@ type Times struct {
 
 type Response struct {
   Title string `json:"title"`
+  Outputs [2]string `json:outputs`
   Time string `json:"time"`
   StartTime string `json:"start_time"`
+  StartTimeUTC string `json:"start_time_utc"`
   StartTimeLocations Times `json:"start_time_locations"`
   EndTime string `json:"end_time"`
+  EndTimeUTC string `json:"end_time_utc"`
   Timezone string `json:"timezone"`
+  TimezoneID string `json:"tzid"`
   Intro string `json:"intro"`
   Location string `json:"location"`
   Link string `json:"link"`
@@ -111,35 +115,43 @@ func main() {
       // loc := locDefault
       s := element.StartTime
       tz := "UTC"
+      tzid := "UTC"
       switch element.Timezone {
       case "Berlin":
         // loc = locBerlin
         s = strings.Replace(s, "Z", "+02:00", 1)
         tz = "CEST"
+        tzid = "Europe/Berlin"
         println("It’s in Berlin!")
       case "London":
         // loc = locLondon
         println("It’s in London!")
         s = strings.Replace(s, "Z", "+01:00", 1)
         tz = "BST"
+        tzid = "Europe/London"
       case "New_York":
         // loc = locNewYork
         println("It’s in New York!")
         s = strings.Replace(s, "Z", "-04:00", 1)
         tz = "EDT"
+        tzid = "America/New_York"
       case "Los_Angeles":
         // loc = locLosAngeles
         println("It’s in Los Angeles!")
         s = strings.Replace(s, "Z", "-07:00", 1)
         tz = "PDT"
+        tzid = "America/Los_Angeles"
       }
       t, _ := time.Parse(time.RFC3339, s)
+      element.StartTimeUTC = t.Format("20060102T150405Z")
       element.StartTime = t.Format(time.RFC3339)
       element.StartTimeLocations.Berlin = t.In(locBerlin).Format(time.RFC3339)
       element.StartTimeLocations.London = t.In(locLondon).Format(time.RFC3339)
       element.StartTimeLocations.NewYork = t.In(locNewYork).Format(time.RFC3339)
       element.StartTimeLocations.LosAngeles = t.In(locLosAngeles).Format(time.RFC3339)
       element.Timezone = tz
+      element.TimezoneID = tzid
+      element.EndTimeUTC = t.Add(time.Hour * 2).Format("20060102T150405Z") // TODO
       fmt.Println(t)
       fmt.Println(t.In(locBerlin))
       fmt.Println(t.In(locLondon))
@@ -156,6 +168,8 @@ func main() {
 
     element.Created_at = ""
     element.Updated_at = ""
+
+    element.Outputs = [2]string{"HTML", "Calendar"}
 
     file, _ := yaml.Marshal(element)
     _ = ioutil.WriteFile(fmt.Sprintf("content/events/%s.md", element.Slug), []byte(fmt.Sprintf("---\n%s\n---\n%s", file, content)), 0644)

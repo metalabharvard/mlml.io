@@ -24,6 +24,7 @@
     </header>
     <aside class="event-aside grid-narrow-right-aside">
       {{ with .Params.Location }}<span class="event-location p-location">{{ . }}</span>{{ end }}
+      <a href="{{ (printf `%s/index.ics` .Slug) | absURL }}">iCal</a>
     </aside>
     {{ with .Params.Link }}
     <a class="event-link u-url" href="{{ . }}"><span>Visit event</span></a>

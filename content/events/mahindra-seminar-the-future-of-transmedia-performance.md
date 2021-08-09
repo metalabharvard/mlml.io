@@ -1,26 +1,28 @@
 ---
 title: "Mahindra Seminar: The Future of Transmedia Performance"
+outputs:
+- HTML
+- Calendar
 time: 2021-05-28T17:00:00.000Z
 start_time: ""
+start_time_utc: ""
 start_time_locations:
   berlin: ""
   new_york: ""
   london: ""
   los_angeles: ""
 end_time: ""
+end_time_utc: ""
 timezone: ""
+tzid: ""
 intro: The future of transmedia performance
 location: Cambridge, MA
-link: ""
+link: https://mahindrahumanities.fas.harvard.edu/transmedia-arts
 isFeatured: false
 isOngoing: false
-lastmod: 2021-07-30T13:23:55.243Z
+lastmod: 2021-08-06T16:41:42.468Z
 date: 2021-07-30T13:21:18.117Z
 slug: mahindra-seminar-the-future-of-transmedia-performance
-members:
-- name: Kim Albrecht
-  slug: kim-albrecht
-  isAlumnus: false
 cover:
   url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1627651421/transmediafuture_4c658abf60.jpg
   width: 1631

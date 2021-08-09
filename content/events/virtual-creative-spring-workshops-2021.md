@@ -1,14 +1,20 @@
 ---
 title: Virtual Creative Spring Workshops 2021
+outputs:
+- HTML
+- Calendar
 time: 2021-06-24T12:00:00.000Z
 start_time: 2021-08-04T10:30:00+01:00
+start_time_utc: 20210804T103000Z
 start_time_locations:
   berlin: 2021-08-04T11:30:00+02:00
   new_york: 2021-08-04T05:30:00-04:00
   london: 2021-08-04T10:30:00+01:00
   los_angeles: 2021-08-04T02:30:00-07:00
 end_time: 2021-08-17T13:00:00.000Z
+end_time_utc: 20210804T123000Z
 timezone: BST
+tzid: Europe/London
 intro: Upcoming creative workshops exploring AI, time, and the future of communication
 location: Online
 link: ""

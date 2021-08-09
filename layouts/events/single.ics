@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:{{ .Site.Title }}
+METHOD:PUBLISH
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+TZID:{{ .Params.Tzid }}
+UID:{{ .Slug }}{{ dateFormat "20060102T030405Z" .Params.Lastmod }}@metalab
+DTSTAMP:{{ .Params.Start_time_utc }}
+DTSTART;TZID={{ .Params.Tzid }}:{{ .Params.Start_time_utc }}
+DTEND;TZID={{ .Params.Tzid }}:{{ .Params.End_time_utc }}
+SUMMARY:{{ plainify .Params.Title }}
+{{ with .Params.Intro }}DESCRIPTION:{{ plainify . }}{{ end }}
+URL:{{ .Permalink }}
+{{ with .Params.location }}LOCATION:{{ . }}{{ end }}
+DTSTAMP:{{ dateFormat "20060102T030405Z" .Params.Lastmod }}
+END:VEVENT
+END:VCALENDAR
