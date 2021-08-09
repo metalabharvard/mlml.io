@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Website for metalab(at)harvard and metalab(at)fu_berlin",
   "scripts": {
-    "build": "rollup -c; go run scipts/script.go && go run scipts/events.go && go run scipts/members.go && go run scipts/projects.go && hugo --gc --minify --config config/config.json,config.toml --ignoreCache",
+    "build": "rollup -c; go run scripts/script.go && go run scripts/events.go && go run scripts/members.go && go run scripts/projects.go && hugo --gc --minify --config config/config.json,config.toml --ignoreCache",
     "autobuild": "rollup -c -w",
     "dev": "run-p autobuild hugo:dev",
     "hugo:dev": "hugo server --bind=0.0.0.0 -D --config config/config.json,config.toml --ignoreCache"
