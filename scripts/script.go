@@ -75,5 +75,5 @@ func main() {
 
   file, _ := json.MarshalIndent(config, "", " ")
 
-  _ = ioutil.WriteFile("config/config.json", file, 0644)
+  _ = ioutil.WriteFile("../config/config.json", file, 0644)
 }

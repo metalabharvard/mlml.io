@@ -40,5 +40,5 @@ func main() {
 
   file, _ := json.MarshalIndent(responseObject, "", " ")
 
-  _ = ioutil.WriteFile("content/about.md", file, 0644)
+  _ = ioutil.WriteFile("../content/about.md", file, 0644)
 }

@@ -10,68 +10,68 @@ import (
   "sort"
   "math"
   "strings"
-  "github.com/goccy/go-yaml"
+  "gopkg.in/yaml.v3"
 )
 
 type Project struct {
-  Title string `json:"title"`
-  Slug string `json:"slug"`
+  Title string `yaml:"title"`
+  Slug string `yaml:"slug"`
 }
 
 type Event struct {
-  Title string `json:"title"`
-  Slug string `json:"slug"`
+  Title string `yaml:"title"`
+  Slug string `yaml:"slug"`
 }
 
 type Role struct {
-  Role string `json:"role"`
-  Position int `json:"position"`
+  Role string `yaml:"role"`
+  Position int `yaml:"position"`
 }
 
 type Format struct {
-  Url string `json:"url,omitempty"`
-  Ext string `json:"ext,omitempty"`
-  Width int `json:"width,omitempty"`
-  Height int `json:"height,omitempty"`
+  Url string `yaml:"url,omitempty"`
+  Ext string `yaml:"ext,omitempty"`
+  Width int `yaml:"width,omitempty"`
+  Height int `yaml:"height,omitempty"`
 }
 
 type Formats struct {
-  Large Format `json:"large,omitempty"`
-  Medium Format `json:"medium,omitempty"`
-  Small Format `json:"small,omitempty"`
-  Thumbnail Format `json:"thumbnail,omitempty"`
+  Large Format `yaml:"large,omitempty"`
+  Medium Format `yaml:"medium,omitempty"`
+  Small Format `yaml:"small,omitempty"`
+  Thumbnail Format `yaml:"thumbnail,omitempty"`
 }
 
 type Picture struct {
-  AlternativeText string `json:"alternativeText,omitempty"`
-  Url string `json:"url,omitempty"`
-  Width int `json:"width,omitempty"`
-  Height int `json:"height,omitempty"`
-  Formats Formats `json:"formats,omitempty"`
+  AlternativeText string `yaml:"alternativeText,omitempty"`
+  Url string `yaml:"url,omitempty"`
+  Width int `yaml:"width,omitempty"`
+  Height int `yaml:"height,omitempty"`
+  Formats Formats `yaml:"formats,omitempty"`
 }
 
 type Response struct {
-  Name string `json:"name"`
+  Name string `yaml:"name"`
   Title string
-  Roles []Role `json:"roles,omitempty"`
-  IsAlumnus bool `json:"isAlumnus"`
-  Rank float64 `json:"rank"`
-  RoleString string `json:"role_string,omitempty"`
-  Intro string `json:"intro,omitempty"`
-  Twitter string `json:"twitter,omitempty"`
-  Mail string `json:"email,omitempty"`
-  Website string `json:"website,omitempty"`
-  Instagram string `json:"instagram,omitempty"`
-  Start string `json:"start,omitempty"`
-  Description string `json:"description,omitempty"`
-  Updated_at string `json:"updated_at,omitempty"`
-  Created_at string `json:"created_at,omitempty"`
-  Lastmod string `json:"lastmod"`
-  Date string `json:"date"`
-  Slug string `json:"slug"`
-  Events []Event `json:"events,omitempty"`
-  Projects []Project `json:"projects,omitempty"`
-  Picture Picture `json:"picture,omitempty"`
+  Roles []Role `yaml:"roles,omitempty"`
+  IsAlumnus bool `yaml:"isAlumnus"`
+  Rank float64 `yaml:"rank"`
+  RoleString string `yaml:"role_string,omitempty"`
+  Intro string `yaml:"intro,omitempty"`
+  Twitter string `yaml:"twitter,omitempty"`
+  Mail string `yaml:"email,omitempty"`
+  Website string `yaml:"website,omitempty"`
+  Instagram string `yaml:"instagram,omitempty"`
+  Start string `yaml:"start,omitempty"`
+  Description string `yaml:"description,omitempty"`
+  Updated_at string `yaml:"updated_at,omitempty"`
+  Created_at string `yaml:"created_at,omitempty"`
+  Lastmod string `yaml:"lastmod"`
+  Date string `yaml:"date"`
+  Slug string `yaml:"slug"`
+  Events []Event `yaml:"events,omitempty"`
+  Projects []Project `yaml:"projects,omitempty"`
+  Picture Picture `yaml:"picture,omitempty"`
 }
 
 func getPath(isAlumnus bool) string {
@@ -125,17 +125,17 @@ func main() {
     log.Fatal(err)
   }
 
-  err = os.RemoveAll("content/members/")
+  err = os.RemoveAll("../content/members/")
   if err != nil {
     log.Fatal(err)
   }
-  os.MkdirAll("content/members/", 0777)
+  os.MkdirAll("../content/members/", 0777)
 
-  err = os.RemoveAll("content/alumni/")
+  err = os.RemoveAll("../content/alumni/")
   if err != nil {
     log.Fatal(err)
   }
-  os.MkdirAll("content/alumni/", 0777)
+  os.MkdirAll("../content/alumni/", 0777)
 
   var responseObject []Response
   json.Unmarshal(responseData, &responseObject)
@@ -166,6 +166,6 @@ func main() {
     element.Updated_at = ""
 
     file, _ := yaml.Marshal(element)
-    _ = ioutil.WriteFile(fmt.Sprintf("content/%s/%s.md", getPath(element.IsAlumnus), element.Slug), []byte(fmt.Sprintf("---\n%s\n---\n%s", file, content)), 0644)
+    _ = ioutil.WriteFile(fmt.Sprintf("../content/%s/%s.md", getPath(element.IsAlumnus), element.Slug), []byte(fmt.Sprintf("---\n%s\n---\n%s", file, content)), 0644)
   }
 }
