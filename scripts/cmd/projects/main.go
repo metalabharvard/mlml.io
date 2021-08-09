@@ -1,0 +1,115 @@
+package main
+
+import (
+  "encoding/json"
+  "fmt"
+  "io/ioutil"
+  "log"
+  "net/http"
+  "os"
+  "gopkg.in/yaml.v3"
+)
+
+type Collaborator struct {
+  Name string `yaml:"name"`
+  Url string `yaml:"url"`
+}
+
+type PressArticle struct {
+  Text string `yaml:"text"`
+  Url string `yaml:"url"`
+}
+
+type Link struct {
+  Text string `yaml:"text"`
+  Url string `yaml:"url"`
+}
+
+type Member struct {
+  Name string `yaml:"name"`
+  Slug string `yaml:"slug"`
+  IsAlumnus bool `yaml:"isAlumnus"`
+}
+
+type Event struct {
+  Title string `yaml:"title"`
+  Slug string `yaml:"slug"`
+}
+
+type Format struct {
+  Url string `yaml:"url,omitempty"`
+  Ext string `yaml:"ext,omitempty"`
+  Width int `yaml:"width,omitempty"`
+  Height int `yaml:"height,omitempty"`
+}
+
+type Formats struct {
+  Large Format `yaml:"large,omitempty"`
+  Medium Format `yaml:"medium,omitempty"`
+  Small Format `yaml:"small,omitempty"`
+  Thumbnail Format `yaml:"thumbnail,omitempty"`
+}
+
+type Cover struct {
+  AlternativeText string `yaml:"alternativeText,omitempty"`
+  Url string `yaml:"url,omitempty"`
+  Width int `yaml:"width,omitempty"`
+  Height int `yaml:"height,omitempty"`
+  Formats Formats `yaml:"formats,omitempty"`
+}
+
+type Response struct {
+  Title string `yaml:"title"`
+  Intro string `yaml:"intro"`
+  Start string `yaml:"start"`
+  End string `yaml:"end"`
+  Link string `yaml:"link,omitempty"`
+  Description string `yaml:"description,omitempty"`
+  Location string `yaml:"location"`
+  Type string `yaml:"category"`
+  IsFeatured bool `yaml:"isFeatured"`
+  ExternalLink string `yaml:"externalLink"`
+  Updated_at string `yaml:"updated_at,omitempty"`
+  Created_at string `yaml:"created_at,omitempty"`
+  Lastmod string `yaml:"lastmod"`
+  Date string `yaml:"date"`
+  Slug string `yaml:"slug"`
+  Collaborators []Collaborator `yaml:"collaborators,omitempty"`
+  PressArticle []PressArticle `yaml:"press_articles,omitempty"`
+  Links []Link `yaml:"links,omitempty"`
+  Events []Event `yaml:"events,omitempty"`
+  Members []Member `yaml:"members,omitempty"`
+  Cover Cover `yaml:"cover,omitempty"`
+}
+
+func main() {
+  response, err := http.Get("https://metalab-strapi.herokuapp.com/projects")
+
+  if err != nil {
+    fmt.Print(err.Error())
+    os.Exit(1)
+  }
+
+  responseData, err := ioutil.ReadAll(response.Body)
+  if err != nil {
+    log.Fatal(err)
+  }
+
+  var responseObject []Response
+  json.Unmarshal(responseData, &responseObject)
+
+  for _, element := range responseObject {
+    content := element.Description
+
+    element.Description = ""
+
+    element.Date = element.Created_at
+    element.Lastmod = element.Updated_at
+
+    element.Created_at = ""
+    element.Updated_at = ""
+
+    file, _ := yaml.Marshal(element)
+    _ = ioutil.WriteFile(fmt.Sprintf("../content/projects/%s.md", element.Slug), []byte(fmt.Sprintf("---\n%s\n---\n%s", file, content)), 0644)
+  }
+}
