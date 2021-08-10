@@ -1,9 +1,9 @@
 <li class="event-preview h-entry h-event">
   <a href="{{ .event.Slug | absURL }}" class="u-url u-uid">
-    <span class="event-title p-name">{{ .event.Params.Title }}</span><span class="event-tag">Ongoing</span>
+    <span class="event-title p-name">{{ .event.Title }}</span><span class="event-tag">Ongoing</span>
     <footer>
       <span class="p-category">Project</span>
-      <span class="event-time">since June 2021</span>
+      {{ with .event.Params.start_time }}<time datetime="{{ dateFormat "2006-01-02 03:04:05 UTC" . }}" class="event-time">{{ dateFormat "2006-01-02 03:04:05 UTC" . }} <span class="timeago" datetime="{{ dateFormat "2006-01-02 03:04:05 UTC" . }}"></span></time>{{ end }}
       <span class="event-location p-location">Harvard</span>
     </footer>
   </a>

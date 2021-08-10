@@ -1,4 +1,5 @@
 import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
+import { render } from 'timeago.js';
 import chroma from "chroma-js";
 import tippy from 'tippy.js';
 
@@ -28,8 +29,10 @@ if (template) {
 }
 
 
-
-
+const nodes = document.querySelectorAll('.timeago');
+if (nodes.length) {
+  render(nodes);
+}
 
 let isOpen = false;
 const trigger = document.getElementById('page-menu-trigger');
