@@ -19,7 +19,7 @@
       {{ $timezone := .Params.Timezone }}
       {{ $startBerlin := .Params.Start_time_locations.Berlin }}
       {{ $startLondon := .Params.Start_time_locations.London }}
-      {{ with .Params.Start_time }}<time class="event-time">{{ dateFormat "Monday, 2 January 2006 3:04 pm" . }} {{ $timezone }}</time>{{ end }}
+      {{ with .Params.Start_time }}<time datetime="{{ dateFormat "2006-01-02T15:04:05-0700" . }}" class="event-time">{{ dateFormat "Monday, 2 January 2006 3:04 pm" . }} {{ $timezone }}</time>{{ end }}
       {{ end }}
     </header>
     <aside class="event-aside grid-narrow-right-aside">

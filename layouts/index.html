@@ -10,8 +10,12 @@
   <div class="grid-wide home-projects">
     <h3>Recent projects and events</h3>
     <ul>
-    {{ range (where .Site.Pages "Section" "projects") }}
+    {{ range (where .Site.RegularPages "Section" "in" (slice "projects" "events")) }}
+      {{ if eq .Section "events" }}
+      {{ partial "event-preview.html" (dict "event" . )}}
+      {{ else }}
       {{ partial "project-preview.html" (dict "project" . )}}
+      {{ end }}
     {{ end }}
     </ul>
   </div>
