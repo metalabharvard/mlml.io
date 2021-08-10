@@ -1,8 +1,8 @@
 {
- "title": "About",
  "intro": "Like all platforms for experimentation, metaLAB is less a destination than a perpetual work in progress. Rooted in the arts and humanities, straddling scholarly, critical, and creative practice, it is a community of scholars, designers, artists, makers, technologists, curators, and educators dedicated to modeling new forms of cultural communication, creative and critical practice, and knowledge production.\n\nmetaLAB is an idea foundry in the sense that it is committed to ideation, debate, speculation, and theorization across the disciplinary grid.\n\nmetaLAB is a knowledge design lab inasmuch as it consists of a portfolio of projects that translate ideas into practical expressions, from experimental books and pamphlets to museum installations to software platforms and data visualizations to participatory events.\n\nmetaLAB is a production studio because it is committed to bringing together the mind and the hand, thinking and making. It tests out hypotheses and ideas by developing and delivering a wide array of outputs including database documentaries, software platforms, artworks, exhibitions, studio courses and workshops, data visualizations, and curatorial projects.\n\nAs an institutional unit within the Berkman Klein Center for Internet \u0026 Society, metaLAB is actively involved in the Center’s research efforts in such domains as artificial intelligence, social justice, internet governance, cybersecurity, and the law. metaLAB is physically located on the 4th floor of 42 Kirkland Street, within Harvard’s Graduate School of Design. Because design practice is fundamental to its ethos, metaLAB maintains close ties to GSD faculty, students, and academic programs, as well as to the Faculty of Arts and Sciences.",
  "updated_at": "2021-06-17T15:57:31.614Z",
  "created_at": "2021-06-17T15:57:31.606Z",
- "slug": "about",
- "layout": "about"
+ "Title": "About",
+ "Layout": "about",
+ "Slug": "about"
 }

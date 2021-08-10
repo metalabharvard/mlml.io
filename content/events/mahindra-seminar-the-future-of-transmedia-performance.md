@@ -1,16 +1,16 @@
 ---
-title: "Mahindra Seminar: The Future of Transmedia Performance"
+title: 'Mahindra Seminar: The Future of Transmedia Performance'
 outputs:
-- HTML
-- Calendar
-time: 2021-05-28T17:00:00.000Z
+    - HTML
+    - Calendar
+time: "2021-05-28T17:00:00.000Z"
 start_time: ""
 start_time_utc: ""
 start_time_locations:
-  berlin: ""
-  new_york: ""
-  london: ""
-  los_angeles: ""
+    berlin: ""
+    new_york: ""
+    london: ""
+    los_angeles: ""
 end_time: ""
 end_time_utc: ""
 timezone: ""
@@ -20,34 +20,34 @@ location: Cambridge, MA
 link: https://mahindrahumanities.fas.harvard.edu/transmedia-arts
 isFeatured: false
 isOngoing: false
-lastmod: 2021-08-06T16:41:42.468Z
-date: 2021-07-30T13:21:18.117Z
+lastmod: "2021-08-06T16:41:42.468Z"
+date: "2021-07-30T13:21:18.117Z"
 slug: mahindra-seminar-the-future-of-transmedia-performance
 cover:
-  url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1627651421/transmediafuture_4c658abf60.jpg
-  width: 1631
-  height: 1885
-  formats:
-    large:
-      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1627651422/large_transmediafuture_4c658abf60.jpg
-      ext: .jpg
-      width: 865
-      height: 1000
-    medium:
-      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1627651423/medium_transmediafuture_4c658abf60.jpg
-      ext: .jpg
-      width: 649
-      height: 750
-    small:
-      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1627651423/small_transmediafuture_4c658abf60.jpg
-      ext: .jpg
-      width: 433
-      height: 500
-    thumbnail:
-      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1627651422/thumbnail_transmediafuture_4c658abf60.jpg
-      ext: .jpg
-      width: 135
-      height: 156
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1627651421/transmediafuture_4c658abf60.jpg
+    width: 1631
+    height: 1885
+    formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1627651422/large_transmediafuture_4c658abf60.jpg
+            ext: .jpg
+            width: 865
+            height: 1000
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1627651423/medium_transmediafuture_4c658abf60.jpg
+            ext: .jpg
+            width: 649
+            height: 750
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1627651423/small_transmediafuture_4c658abf60.jpg
+            ext: .jpg
+            width: 433
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1627651422/thumbnail_transmediafuture_4c658abf60.jpg
+            ext: .jpg
+            width: 135
+            height: 156
 
 ---
 **[CLICK HERE TO REGISTER](https://harvard.zoom.us/webinar/register/WN_eeQ8KbEiS16OX0yAIRIDdg)**

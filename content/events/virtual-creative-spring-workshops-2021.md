@@ -1,17 +1,17 @@
 ---
 title: Virtual Creative Spring Workshops 2021
 outputs:
-- HTML
-- Calendar
-time: 2021-06-24T12:00:00.000Z
-start_time: 2021-08-04T10:30:00+01:00
+    - HTML
+    - Calendar
+time: "2021-06-24T12:00:00.000Z"
+start_time: "2021-08-04T10:30:00+01:00"
 start_time_utc: 20210804T103000Z
 start_time_locations:
-  berlin: 2021-08-04T11:30:00+02:00
-  new_york: 2021-08-04T05:30:00-04:00
-  london: 2021-08-04T10:30:00+01:00
-  los_angeles: 2021-08-04T02:30:00-07:00
-end_time: 2021-08-17T13:00:00.000Z
+    berlin: "2021-08-04T11:30:00+02:00"
+    new_york: "2021-08-04T05:30:00-04:00"
+    london: "2021-08-04T10:30:00+01:00"
+    los_angeles: "2021-08-04T02:30:00-07:00"
+end_time: ""
 end_time_utc: 20210804T123000Z
 timezone: BST
 tzid: Europe/London
@@ -20,42 +20,42 @@ location: Online
 link: ""
 isFeatured: false
 isOngoing: false
-lastmod: 2021-08-04T14:47:54.968Z
-date: 2021-06-17T15:20:22.781Z
+lastmod: "2021-08-04T14:47:54.968Z"
+date: "2021-06-17T15:20:22.781Z"
 slug: virtual-creative-spring-workshops-2021
 members:
-- name: Sarah Newman
-  slug: sarah-newman
-  isAlumnus: false
-- name: Kim Albrecht
-  slug: kim-albrecht
-  isAlumnus: false
-- name: Adam Haar Horowitz
-  slug: adam-haar-horowitz
-  isAlumnus: true
+    - name: Sarah Newman
+      slug: sarah-newman
+      isAlumnus: false
+    - name: Kim Albrecht
+      slug: kim-albrecht
+      isAlumnus: false
+    - name: Adam Haar Horowitz
+      slug: adam-haar-horowitz
+      isAlumnus: true
 projects:
-- title: futureSTAGE
-  slug: futurestage
-- title: Curatorial A(i)gents
-  slug: curatorial-a-i-gents
+    - title: futureSTAGE
+      slug: futurestage
+    - title: Curatorial A(i)gents
+      slug: curatorial-a-i-gents
 cover:
-  url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1623943200/workshop_b86a78aa63.jpg
-  width: 500
-  height: 625
-  formats:
-    small:
-      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1623943202/small_workshop_b86a78aa63.jpg
-      ext: .jpg
-      width: 400
-      height: 500
-    thumbnail:
-      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1623943201/thumbnail_workshop_b86a78aa63.jpg
-      ext: .jpg
-      width: 125
-      height: 156
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1623943200/workshop_b86a78aa63.jpg
+    width: 500
+    height: 625
+    formats:
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1623943202/small_workshop_b86a78aa63.jpg
+            ext: .jpg
+            width: 400
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1623943201/thumbnail_workshop_b86a78aa63.jpg
+            ext: .jpg
+            width: 125
+            height: 156
 links:
-- text: The Questions Concerning Technology
-  url: https://theconvivialsociety.substack.com/p/the-questions-concerning-technology
+    - text: The Questions Concerning Technology
+      url: https://theconvivialsociety.substack.com/p/the-questions-concerning-technology
 
 ---
 metaLAB’s experimental, materials-based creative workshops bring together hybrid formats that include design thinking exercises, group discussion, and physical prototyping (yes, even on zoom!) to think through pressing questions and work toward possible reformulations, new metaphors—and maybe, some solutions.

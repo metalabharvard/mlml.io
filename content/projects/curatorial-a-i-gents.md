@@ -1,70 +1,67 @@
 ---
 title: Curatorial A(i)gents
 intro: A metaLAB series of interactive projects exploring machine learning in, around, and about the Harvard Art Museums
-start: 2021-06-17
-end: 2021-08-03
+start: "2021-06-17"
+end: "2021-08-03"
 location: harvard
-category: ""
+category: project
 isFeatured: false
 externalLink: https://metalabharvard.github.io/
-lastmod: 2021-08-04T11:51:24.665Z
-date: 2021-06-17T15:17:56.412Z
+lastmod: "2021-08-04T11:51:24.665Z"
+date: "2021-06-17T15:17:56.412Z"
 slug: curatorial-a-i-gents
 collaborators:
-- name: Harvard Art Museums
-  url: ""
-press_articles:
-- text: Under Fire and Alone, Cuomo Fights for His Political Life
-  url: https://www.nytimes.com/2021/08/03/nyregion/cuomo-guilty.html
+    - name: Harvard Art Museums
+      url: ""
 links:
-- text: Sympoietic System
-  url: https://metalabharvard.github.io/projects/curatorial-aigents/sympoieticsystem/
-- text: Second Look
-  url: https://metalabharvard.github.io/projects/curatorial-aigents/secondlook/
-- text: Watching Machines Loving Grace
-  url: https://metalabharvard.github.io/projects/curatorial-aigents/thelovinggrace/
+    - text: Sympoietic System
+      url: https://metalabharvard.github.io/projects/curatorial-aigents/sympoieticsystem/
+    - text: Second Look
+      url: https://metalabharvard.github.io/projects/curatorial-aigents/secondlook/
+    - text: Watching Machines Loving Grace
+      url: https://metalabharvard.github.io/projects/curatorial-aigents/thelovinggrace/
 events:
-- title: Virtual Creative Spring Workshops 2021
-  slug: virtual-creative-spring-workshops-2021
+    - title: Virtual Creative Spring Workshops 2021
+      slug: virtual-creative-spring-workshops-2021
 members:
-- name: Jeffrey Schnapp
-  slug: jeffrey-schnapp
-  isAlumnus: false
-- name: Matthew Battles
-  slug: matthew-battles
-  isAlumnus: false
-- name: Sarah Newman
-  slug: sarah-newman
-  isAlumnus: false
-- name: Kim Albrecht
-  slug: kim-albrecht
-  isAlumnus: false
+    - name: Jeffrey Schnapp
+      slug: jeffrey-schnapp
+      isAlumnus: false
+    - name: Matthew Battles
+      slug: matthew-battles
+      isAlumnus: false
+    - name: Sarah Newman
+      slug: sarah-newman
+      isAlumnus: false
+    - name: Kim Albrecht
+      slug: kim-albrecht
+      isAlumnus: false
 cover:
-  alternativeText: Curatiorial A(i)gents Cover
-  url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1623943307/agents_ce7bfadd93.jpg
-  width: 1000
-  height: 1260
-  formats:
-    large:
-      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1623943308/large_agents_ce7bfadd93.jpg
-      ext: .jpg
-      width: 794
-      height: 1000
-    medium:
-      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1623943309/medium_agents_ce7bfadd93.jpg
-      ext: .jpg
-      width: 595
-      height: 750
-    small:
-      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1623943309/small_agents_ce7bfadd93.jpg
-      ext: .jpg
-      width: 397
-      height: 500
-    thumbnail:
-      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1623943307/thumbnail_agents_ce7bfadd93.jpg
-      ext: .jpg
-      width: 124
-      height: 156
+    alternativeText: Curatiorial A(i)gents Cover
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1623943307/agents_ce7bfadd93.jpg
+    width: 1000
+    height: 1260
+    formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1623943308/large_agents_ce7bfadd93.jpg
+            ext: .jpg
+            width: 794
+            height: 1000
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1623943309/medium_agents_ce7bfadd93.jpg
+            ext: .jpg
+            width: 595
+            height: 750
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1623943309/small_agents_ce7bfadd93.jpg
+            ext: .jpg
+            width: 397
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1623943307/thumbnail_agents_ce7bfadd93.jpg
+            ext: .jpg
+            width: 124
+            height: 156
 
 ---
 Curatorial A(i)gents presents a series of machine-learning-based experiments with museum collections and data developed by members and affiliates of metaLAB (at) Harvard, a creative research group working in the networked arts and humanities.

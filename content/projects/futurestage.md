@@ -1,50 +1,50 @@
 ---
 title: futureSTAGE
 intro: An international research collaborative mapping opportunities for performance spaces in a hyperconnected world
-start: 2021-06-16
-end: 2021-08-10
+start: "2021-06-16"
+end: "2021-08-10"
 location: harvard
 category: project
 isFeatured: true
 externalLink: ""
-lastmod: 2021-08-04T11:50:25.033Z
-date: 2021-06-16T16:32:45.349Z
+lastmod: "2021-08-04T11:50:25.033Z"
+date: "2021-06-16T16:32:45.349Z"
 slug: futurestage
 events:
-- title: Virtual Creative Spring Workshops 2021
-  slug: virtual-creative-spring-workshops-2021
+    - title: Virtual Creative Spring Workshops 2021
+      slug: virtual-creative-spring-workshops-2021
 members:
-- name: Jeffrey Schnapp
-  slug: jeffrey-schnapp
-  isAlumnus: false
-- name: Matthew Battles
-  slug: matthew-battles
-  isAlumnus: false
+    - name: Jeffrey Schnapp
+      slug: jeffrey-schnapp
+      isAlumnus: false
+    - name: Matthew Battles
+      slug: matthew-battles
+      isAlumnus: false
 cover:
-  url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1623942726/futurestage_5eaed577d1.jpg
-  width: 2550
-  height: 3300
-  formats:
-    large:
-      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1623942728/large_futurestage_5eaed577d1.jpg
-      ext: .jpg
-      width: 773
-      height: 1000
-    medium:
-      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1623942729/medium_futurestage_5eaed577d1.jpg
-      ext: .jpg
-      width: 580
-      height: 750
-    small:
-      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1623942730/small_futurestage_5eaed577d1.jpg
-      ext: .jpg
-      width: 386
-      height: 500
-    thumbnail:
-      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1623942727/thumbnail_futurestage_5eaed577d1.jpg
-      ext: .jpg
-      width: 121
-      height: 156
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1623942726/futurestage_5eaed577d1.jpg
+    width: 2550
+    height: 3300
+    formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1623942728/large_futurestage_5eaed577d1.jpg
+            ext: .jpg
+            width: 773
+            height: 1000
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1623942729/medium_futurestage_5eaed577d1.jpg
+            ext: .jpg
+            width: 580
+            height: 750
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1623942730/small_futurestage_5eaed577d1.jpg
+            ext: .jpg
+            width: 386
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1623942727/thumbnail_futurestage_5eaed577d1.jpg
+            ext: .jpg
+            width: 121
+            height: 156
 
 ---
 FutureSTAGE is a global research project dedicated to investigating current challenges and future prospects for the development of opera houses, theatres, and performing arts centers.
