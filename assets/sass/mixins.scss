@@ -74,6 +74,9 @@
   border: none;
   border-bottom: $width solid #FF4800;
   border-image: linear-gradient(45deg, #FF4800, #FFB600) 1;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
 }
 
 @mixin center-h () {
