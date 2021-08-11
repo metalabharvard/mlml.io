@@ -17,6 +17,7 @@ timezone: ""
 tzid: ""
 intro: The future of transmedia performance
 location: Cambridge, MA
+host: ""
 link: https://mahindrahumanities.fas.harvard.edu/transmedia-arts
 isFeatured: false
 isOngoing: false

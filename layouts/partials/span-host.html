@@ -1,0 +1,11 @@
+<span class="{{ .type }}-host p-location">
+{{- if .host -}}
+{{- if eq .host "both" -}}
+Harvard and Berlin
+{{- else -}}
+{{- title .host }}
+{{- end -}}
+{{- else -}}
+Harvard
+{{- end -}}
+</span>

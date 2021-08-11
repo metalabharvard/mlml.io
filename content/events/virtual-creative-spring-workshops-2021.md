@@ -17,6 +17,7 @@ timezone: BST
 tzid: Europe/London
 intro: Upcoming creative workshops exploring AI, time, and the future of communication
 location: Online
+host: ""
 link: ""
 isFeatured: false
 isOngoing: false

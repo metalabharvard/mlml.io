@@ -3,11 +3,12 @@ title: 'Where Art Might Happen: The Early Years of CalArts'
 intro: Memory traces of “the daydreams that women have as they wash, bake, cook, sew, clean and iron their lives away ... taken to fantasy proportions” (30/1/1970-28/2/1970)
 start: "2020-03-13"
 end: "2020-06-07"
-location: harvard
+location: ""
+host: harvard
 category: ""
 isFeatured: false
 externalLink: ""
-lastmod: "2021-08-11T12:55:01.534Z"
+lastmod: "2021-08-11T14:48:16.971Z"
 date: "2021-08-11T12:54:25.148Z"
 slug: where-art-might-happen-the-early-years-of-cal-arts
 cover:

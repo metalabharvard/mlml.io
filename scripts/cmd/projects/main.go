@@ -67,6 +67,7 @@ type Response struct {
   Link string `yaml:"link,omitempty"`
   Description string `yaml:"description,omitempty"`
   Location string `yaml:"location"`
+  Host string `yaml:"host"`
   Type string `yaml:"category"`
   IsFeatured bool `yaml:"isFeatured"`
   ExternalLink string `yaml:"externalLink"`

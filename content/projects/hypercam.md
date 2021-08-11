@@ -3,11 +3,12 @@ title: Hypercam
 intro: ""
 start: ""
 end: ""
-location: harvard
+location: ""
+host: harvard
 category: ""
 isFeatured: false
 externalLink: ""
-lastmod: "2021-08-11T13:04:33.307Z"
+lastmod: "2021-08-11T14:46:34.878Z"
 date: "2021-08-11T13:04:27.915Z"
 slug: hypercam
 members:

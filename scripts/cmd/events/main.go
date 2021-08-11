@@ -70,6 +70,7 @@ type Response struct {
   TimezoneID string `yaml:"tzid"`
   Intro string `yaml:"intro"`
   Location string `yaml:"location"`
+  Host string `yaml:"host"`
   Link string `yaml:"link"`
   Description string `yaml:"description,omitempty"`
   IsFeatured bool `yaml:"isFeatured"`

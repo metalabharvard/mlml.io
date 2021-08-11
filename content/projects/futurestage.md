@@ -3,11 +3,12 @@ title: futureSTAGE
 intro: An international research collaborative mapping opportunities for performance spaces in a hyperconnected world
 start: "2021-06-16"
 end: "2021-08-10"
-location: harvard
+location: ""
+host: harvard
 category: project
 isFeatured: true
 externalLink: ""
-lastmod: "2021-08-04T11:50:25.033Z"
+lastmod: "2021-08-11T14:47:29.931Z"
 date: "2021-06-16T16:32:45.349Z"
 slug: futurestage
 events:

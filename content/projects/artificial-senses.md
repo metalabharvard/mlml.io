@@ -3,11 +3,12 @@ title: Artificial Senses
 intro: Artificial Senses visualizes sensor data of the machines that surround us to develop an understanding how they experience the world.
 start: "2017-06-01"
 end: "2017-12-01"
-location: both
+location: ""
+host: both
 category: ""
 isFeatured: false
 externalLink: https://artificial-senses.kimalbrecht.com/
-lastmod: "2021-08-06T15:47:02.059Z"
+lastmod: "2021-08-11T14:46:48.592Z"
 date: "2021-08-05T14:29:32.192Z"
 slug: artificial-senses
 members:

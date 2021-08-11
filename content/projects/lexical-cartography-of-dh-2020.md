@@ -3,11 +3,12 @@ title: Lexical Cartography of DH2020
 intro: A map to navigate scientific conferences through their speakers, arranged in a network visualization according to their lexical similarity.
 start: ""
 end: ""
-location: harvard
+location: ""
+host: harvard
 category: ""
 isFeatured: false
 externalLink: https://rodighiero.github.io/DH2020/
-lastmod: "2021-08-11T12:59:25.910Z"
+lastmod: "2021-08-11T14:47:48.589Z"
 date: "2021-08-11T12:59:21.615Z"
 slug: lexical-cartography-of-dh-2020
 cover:

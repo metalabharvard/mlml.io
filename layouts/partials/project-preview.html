@@ -4,7 +4,7 @@
     <footer>
       {{ partial "span-category.html" (dict "category" .project.Params.Category "type" "project") }}
       {{ partial "span-timespan.html" (dict "start" .project.Params.Start "end" .project.Params.End) }}
-      {{ partial "span-location.html" (dict "location" .project.Params.location "type" "project") }}
+      {{ partial "span-host.html" (dict "host" .project.Params.host "type" "project") }}
     </footer>
   </a>
 </li>

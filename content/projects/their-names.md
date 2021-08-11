@@ -3,11 +3,12 @@ title: Their Names
 intro: ""
 start: ""
 end: ""
-location: harvard
+location: ""
+host: harvard
 category: ""
 isFeatured: false
 externalLink: ""
-lastmod: "2021-08-11T12:57:09.510Z"
+lastmod: "2021-08-11T14:48:07.223Z"
 date: "2021-08-11T12:57:04.779Z"
 slug: their-names
 members:

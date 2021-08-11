@@ -17,6 +17,7 @@ timezone: EDT
 tzid: America/New_York
 intro: How mechanized animals might produce a disturbance that provokes possibility.
 location: Cambridge, MA
+host: ""
 link: ""
 isFeatured: false
 isOngoing: false
