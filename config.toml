@@ -2,6 +2,7 @@ baseURL = "https://jovial-noether-d4ee9f.netlify.app"
 languageCode = "en-us"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 uglyURLs = true
+theme = ["hugo-cloak-email"]
 
 [params]
   contentTypes = ["projects", "members", "events"]

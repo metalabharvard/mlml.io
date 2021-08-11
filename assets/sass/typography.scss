@@ -321,6 +321,10 @@ ul {
   p + p {
     margin-top: var(--spacing-05);
   }
+
+  p + div, div + p {
+    margin-top: var(--spacing-05);
+  }
 }
 
 .page-footer {
