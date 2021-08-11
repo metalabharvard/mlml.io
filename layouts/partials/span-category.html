@@ -1,0 +1,15 @@
+<span class="{{ .type }}-type p-category">
+{{- if eq .type "event" -}}
+{{- if .category -}}
+{{- title .category -}}
+{{- else -}}
+Event
+{{- end -}}
+{{- else -}}
+{{- if .category -}}
+{{- title .category -}}
+{{- else -}}
+Project
+{{- end -}}
+{{- end -}}
+</span>

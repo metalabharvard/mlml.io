@@ -1,10 +1,10 @@
 <span class="{{ .type }}-location p-location">
 {{- if .location -}}
-{{- if eq .location "both" }}
+{{- if eq .location "both" -}}
 Harvard and Berlin
 {{- else -}}
-{{ title .location }}
-{{ end }}
+{{- title .location }}
+{{- end -}}
 {{- else -}}
 Harvard
 {{- end -}}

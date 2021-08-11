@@ -1,12 +1,12 @@
-{{ if or .start .end }}
+{{- if or .start .end -}}
 <span>
-  {{ if and .start .end }}
+  {{- if and .start .end -}}
   {{- if (eq (dateFormat "January 2006" .start) (dateFormat "January 2006" .end)) -}}
   <time class="project-start project-end">
-  {{ dateFormat "January 2006" .start }}
-  {{ else }}
+  {{- dateFormat "January 2006" .start -}}
+  {{- else -}}
   <time class="project-start">
-    {{- dateFormat "January" .start }}
+    {{- dateFormat "January" .start -}}
     {{- if not (eq (dateFormat "2006" .start) (dateFormat "2006" .end)) -}}&ensp;
     {{- dateFormat "2006" .start -}}
     {{- end -}}
@@ -16,6 +16,6 @@
   <time class="project-start">Since {{ dateFormat "January 2006" .start }}</time>
   {{- else -}}
   <time class="project-end">{{ dateFormat "January 2006" .end }}</time>
-  {{ end }}
+  {{- end -}}
 </span>
-{{ end }}
+{{- end -}}

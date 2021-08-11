@@ -2,9 +2,9 @@
   <a href="{{ .project.Slug | absURL }}" class="u-url u-uid">
     <span class="project-title p-name">{{ .project.Params.Title }}</span><span class="project-tag">{{ .CurrentSection }}</span>
     <footer>
-      <span class="project-type p-category">{{ if .project.Params.Category }}{{ title .project.Params.Category }}{{ else }}Project{{ end }}</span>
-      {{ partial "timespan.html" (dict "start" .project.Params.Start "end" .project.Params.End) }}
-      {{ partial "location.html" (dict "location" .project.Params.location "type" "project") }}
+      {{ partial "span-category.html" (dict "category" .project.Params.Category "type" "project") }}
+      {{ partial "span-timespan.html" (dict "start" .project.Params.Start "end" .project.Params.End) }}
+      {{ partial "span-location.html" (dict "location" .project.Params.location "type" "project") }}
     </footer>
   </a>
 </li>

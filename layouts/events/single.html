@@ -23,7 +23,7 @@
       {{ end }}
     </header>
     <aside class="event-aside grid-narrow-right-aside">
-      {{ partial "location.html" (dict "location" .Params.location "type" "event") }}
+      {{ partial "span-location.html" (dict "location" .Params.location "type" "event") }}
       <a href="{{ (printf `%s.ics` .Slug) | absURL }}">iCal</a>
       {{ with .Params.Start_time }}<span class="timeago" datetime="{{ dateFormat "2006-01-02 03:04:05 UTC" . }}"></span>{{ end }}
     </aside>
