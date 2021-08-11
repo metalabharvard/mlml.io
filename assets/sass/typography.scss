@@ -40,9 +40,13 @@ p, h2, h3, ul{
   line-height: 1.7;
 }
 
-p {
+@mixin text-default () {
   font-size: var(--font-size-m);
   line-height: 1.8;
+}
+
+p {
+  @include text-default();
 }
 
 h2 {
@@ -328,6 +332,20 @@ ul {
 
   p + div, div + p {
     margin-top: var(--spacing-05);
+  }
+
+  ul, ol {
+    margin-top: var(--spacing-05);
+    margin-bottom: var(--spacing-05);
+
+    li {
+      padding-left: var(--spacing-05);
+      margin-left: var(--spacing-1);
+    }
+  }
+
+  p, ul, ol {
+    @include text-default();
   }
 }
 
