@@ -74,3 +74,13 @@ document.addEventListener('keydown', ({ key }) => {
     toggleSidebar();
   }
 });
+
+const eventTags = document.getElementsByClassName('event-tag');
+
+for (let i = 0; i < eventTags.length; i++) {
+  const tag = eventTags[i];
+  const eventDate = new Date(tag.getAttribute('datetime'))
+  if (eventDate > new Date()) {
+    tag.textContent = 'Upcoming';
+  }
+}
