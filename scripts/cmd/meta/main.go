@@ -21,6 +21,8 @@ type Meta struct {
   Youtube string `json:"youtube"`
   Soundcloud string `json:"soundcloud"`
   Instagram string `json:"instagram"`
+  ErrorTitle string `json:"error_title"`
+  ErrorText string `json:"error_text"`
 }
 
 type Params struct {
@@ -34,6 +36,8 @@ type Params struct {
   Youtube string `json:"youtube"`
   Soundcloud string `json:"soundcloud"`
   Instagram string `json:"instagram"`
+  ErrorTitle string `json:"error_title"`
+  ErrorText string `json:"error_text"`
 }
 
 type Config struct {
@@ -70,10 +74,12 @@ func main() {
       Youtube: responseObject.Youtube,
       Soundcloud: responseObject.Soundcloud,
       Instagram: responseObject.Instagram,
+      ErrorTitle: responseObject.ErrorTitle,
+      ErrorText: responseObject.ErrorText,
     },
   }
 
   file, _ := json.MarshalIndent(config, "", " ")
 
-  _ = ioutil.WriteFile("../config/config.json", file, 0644)
+  _ = ioutil.WriteFile("config/config.json", file, 0644)
 }

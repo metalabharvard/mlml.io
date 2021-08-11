@@ -1,6 +1,6 @@
 {{ define "main" }}
   <div class="grid-full grid">
-    <h1 class="grid-wide text-center">404: Page could not be found</h1>
-    <p class="grid-wide text-center">Please use the page search to find what you are looking for.</p>
+    <h1 class="grid-wide text-center">{{ .Site.Params.Error_title }}</h1>
+    <p class="grid-wide text-center">{{ .Site.Params.Error_text }}</p>
   </div>
 {{ end }}

@@ -10,6 +10,8 @@
   "vimeo": "",
   "youtube": "",
   "soundcloud": "",
-  "instagram": ""
+  "instagram": "",
+  "error_title": "404: Page could not be found",
+  "error_text": "Please use the page search to find what you are looking for."
  }
 }
