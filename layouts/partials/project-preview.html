@@ -4,7 +4,7 @@
     <footer>
       <span class="project-type p-category">{{ if .project.Params.Category }}{{ title .project.Params.Category }}{{ else }}Project{{ end }}</span>
       {{ partial "timespan.html" (dict "start" .project.Params.Start "end" .project.Params.End) }}
-      <span class="project-location p-location">{{ if .project.Params.location }}{{ title .project.Params.location }}{{ else }}Harvard{{ end }}</span>
+      {{ partial "location.html" (dict "location" .project.Params.location "type" "project") }}
     </footer>
   </a>
 </li>

@@ -4,7 +4,7 @@
     <footer>
       <span class="event-type p-category">{{ if .event.Params.Category }}{{ title .event.Params.Category }}{{ else }}Event{{ end }}</span>
       {{ with .event.Params.start_time }}<time datetime="{{ dateFormat "2006-01-02T15:04:05-0700" . }}" class="event-time">{{ dateFormat "2 January 2006" . }} <span class="timeago" datetime="{{ dateFormat "2006-01-02 03:04:05 UTC" . }}"></span></time>{{ end }}
-      <span class="event-location p-location">{{ if .event.Params.location }}{{ title .event.Params.location }}{{ else }}Harvard{{ end }}</span>
+      {{ partial "location.html" (dict "location" .event.Params.location "type" "event") }}
     </footer>
   </a>
 </li>

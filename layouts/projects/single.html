@@ -7,7 +7,7 @@
     <aside class="project-aside grid-narrow-right-aside">
       {{ with .Params.Category }}<span class="project-type">{{ title . }}</span>{{ end }}
       {{ partial "timespan.html" (dict "start" .Params.Start "end" .Params.End) }}
-      {{ with .Params.location }}<span class="project-location">{{ title . }}</span>{{ end }}
+      {{ partial "location.html" (dict "location" .Params.location "type" "project") }}
     </aside>
     {{ with .Params.ExternalLink }}
     <a class="project-link" href="{{ . }}"><span>Visit project</span></a>
