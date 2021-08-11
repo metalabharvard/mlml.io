@@ -13,6 +13,10 @@
   --font-size-l: min(max(1.3rem, 16px), 27px);
 }
 
+.text-center {
+  text-align: center;
+}
+
 a {
   color: $color-default;
   text-decoration: underline;
