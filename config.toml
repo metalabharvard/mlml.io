@@ -1,6 +1,7 @@
 baseURL = "https://jovial-noether-d4ee9f.netlify.app"
 languageCode = "en-us"
 disableKinds = ["taxonomy", "taxonomyTerm"]
+uglyURLs = true
 
 [params]
   contentTypes = ["projects", "members", "events"]
@@ -19,6 +20,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     baseName = "content"
     isPlainText = true
     notAlternative = true
+  [outputFormats.HTML]
+    noUgly = true
 
 [outputs]
   home = ["HTML", "Content", "RSS"]
