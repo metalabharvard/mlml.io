@@ -7,6 +7,7 @@ import (
   "log"
   "net/http"
   "os"
+  "time"
   "gopkg.in/yaml.v3"
 )
 
@@ -82,8 +83,14 @@ type Response struct {
   Cover Cover `yaml:"cover,omitempty"`
 }
 
+type Index struct {
+  Lastmod string `yaml:"lastmod"`
+}
+
 func main() {
   response, err := http.Get("https://metalab-strapi.herokuapp.com/projects")
+
+  var Lastmod time.Time;
 
   if err != nil {
     fmt.Print(err.Error())
@@ -99,6 +106,10 @@ func main() {
   json.Unmarshal(responseData, &responseObject)
 
   for _, element := range responseObject {
+    Updated_at, _ := time.Parse(time.RFC3339, element.Updated_at)
+    if Updated_at.After(Lastmod) {
+      Lastmod = Updated_at
+    }
     content := element.Description
 
     element.Description = ""
@@ -110,6 +121,11 @@ func main() {
     element.Updated_at = ""
 
     file, _ := yaml.Marshal(element)
-    _ = ioutil.WriteFile(fmt.Sprintf("../content/projects/%s.md", element.Slug), []byte(fmt.Sprintf("---\n%s\n---\n%s", file, content)), 0644)
+    _ = ioutil.WriteFile(fmt.Sprintf("content/projects/%s.md", element.Slug), []byte(fmt.Sprintf("---\n%s\n---\n%s", file, content)), 0644)
   }
+
+  var meta Index
+  meta.Lastmod = Lastmod.Format(time.RFC3339)
+  file, _ := yaml.Marshal(meta)
+  _ = ioutil.WriteFile("content/projects/_index.md", []byte(fmt.Sprintf("---\n%s---", file)), 0644)
 }

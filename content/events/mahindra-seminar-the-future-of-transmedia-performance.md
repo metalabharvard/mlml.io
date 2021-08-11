@@ -48,7 +48,6 @@ cover:
             ext: .jpg
             width: 135
             height: 156
-
 ---
 **[CLICK HERE TO REGISTER](https://harvard.zoom.us/webinar/register/WN_eeQ8KbEiS16OX0yAIRIDdg)**
 

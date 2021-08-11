@@ -87,8 +87,14 @@ type Response struct {
   Links []Link `yaml:"links,omitempty"`
 }
 
+type Index struct {
+  Lastmod string `yaml:"lastmod"`
+}
+
 func main() {
   response, err := http.Get("https://metalab-strapi.herokuapp.com/events")
+
+  var Lastmod time.Time;
 
   if err != nil {
     fmt.Print(err.Error())
@@ -107,38 +113,34 @@ func main() {
   locLondon, _ := time.LoadLocation("Europe/London")
   locNewYork, _ := time.LoadLocation("America/New_York")
   locLosAngeles, _ := time.LoadLocation("America/Los_Angeles")
-  // locDefault, _ := time.LoadLocation("UTC")
 
   for _, element := range responseObject {
-    fmt.Println(element.Start_Time)
+    Updated_at, _ := time.Parse(time.RFC3339, element.Updated_at)
+    if Updated_at.After(Lastmod) {
+      Lastmod = Updated_at
+    }
     if len(element.Start_Time) > 1 {
-      fmt.Println(element.Start_Time)
-      // loc := locDefault
       s := element.Start_Time
       tz := "UTC"
       tzid := "UTC"
       switch element.Timezone {
       case "Berlin":
-        // loc = locBerlin
         s = strings.Replace(s, "Z", "+02:00", 1)
         tz = "CEST"
         tzid = "Europe/Berlin"
-        println("It’s in Berlin!")
+        // println("It’s in Berlin!")
       case "London":
-        // loc = locLondon
-        println("It’s in London!")
+        // println("It’s in London!")
         s = strings.Replace(s, "Z", "+01:00", 1)
         tz = "BST"
         tzid = "Europe/London"
       case "New_York":
-        // loc = locNewYork
-        println("It’s in New York!")
+        // println("It’s in New York!")
         s = strings.Replace(s, "Z", "-04:00", 1)
         tz = "EDT"
         tzid = "America/New_York"
       case "Los_Angeles":
-        // loc = locLosAngeles
-        println("It’s in Los Angeles!")
+        // println("It’s in Los Angeles!")
         s = strings.Replace(s, "Z", "-07:00", 1)
         tz = "PDT"
         tzid = "America/Los_Angeles"
@@ -153,11 +155,6 @@ func main() {
       element.Timezone = tz
       element.TimezoneID = tzid
       element.EndTimeUTC = t.Add(time.Hour * 2).Format("20060102T150405Z") // TODO
-      fmt.Println(t)
-      fmt.Println(t.In(locBerlin))
-      fmt.Println(t.In(locLondon))
-      fmt.Println(t.In(locNewYork))
-      fmt.Println(t.In(locLosAngeles))
     }
 
     content := element.Description
@@ -173,6 +170,11 @@ func main() {
     element.Outputs = [2]string{"HTML", "Calendar"}
 
     file, _ := yaml.Marshal(element)
-    _ = ioutil.WriteFile(fmt.Sprintf("../content/events/%s.md", element.Slug), []byte(fmt.Sprintf("---\n%s\n---\n%s", file, content)), 0644)
+    _ = ioutil.WriteFile(fmt.Sprintf("content/events/%s.md", element.Slug), []byte(fmt.Sprintf("---\n%s---\n%s", file, content)), 0644)
   }
+
+  var meta Index
+  meta.Lastmod = Lastmod.Format(time.RFC3339)
+  file, _ := yaml.Marshal(meta)
+  _ = ioutil.WriteFile("content/events/_index.md", []byte(fmt.Sprintf("---\n%s---", file)), 0644)
 }

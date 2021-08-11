@@ -10,6 +10,7 @@ import (
   "sort"
   "math"
   "strings"
+  "time"
   "gopkg.in/yaml.v3"
 )
 
@@ -74,6 +75,10 @@ type Response struct {
   Picture Picture `yaml:"picture,omitempty"`
 }
 
+type Index struct {
+  Lastmod string `yaml:"lastmod"`
+}
+
 func getPath(isAlumnus bool) string {
   if isAlumnus {
     return "alumni"
@@ -115,6 +120,8 @@ func (a ByRole) Swap(i, j int)      { a[i], a[j] = a[j], a[i] }
 func main() {
   response, err := http.Get("https://metalab-strapi.herokuapp.com/members")
 
+  var Lastmod time.Time;
+
   if err != nil {
     fmt.Print(err.Error())
     os.Exit(1)
@@ -144,6 +151,10 @@ func main() {
   sort.Ints(s)
 
   for _, element := range responseObject {
+    Updated_at, _ := time.Parse(time.RFC3339, element.Updated_at)
+    if Updated_at.After(Lastmod) {
+      Lastmod = Updated_at
+    }
     // println(getPath(isAlumnus))
     // println(fmt.Sprintf("content/%s/%s.md", getPath(isAlumnus), element.Slug))
 
@@ -166,6 +177,11 @@ func main() {
     element.Updated_at = ""
 
     file, _ := yaml.Marshal(element)
-    _ = ioutil.WriteFile(fmt.Sprintf("../content/%s/%s.md", getPath(element.IsAlumnus), element.Slug), []byte(fmt.Sprintf("---\n%s\n---\n%s", file, content)), 0644)
+    _ = ioutil.WriteFile(fmt.Sprintf("content/%s/%s.md", getPath(element.IsAlumnus), element.Slug), []byte(fmt.Sprintf("---\n%s\n---\n%s", file, content)), 0644)
   }
+
+  var meta Index
+  meta.Lastmod = Lastmod.Format(time.RFC3339)
+  file, _ := yaml.Marshal(meta)
+  _ = ioutil.WriteFile("content/members/_index.md", []byte(fmt.Sprintf("---\n%s---", file)), 0644)
 }

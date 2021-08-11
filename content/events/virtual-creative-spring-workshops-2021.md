@@ -56,7 +56,6 @@ cover:
 links:
     - text: The Questions Concerning Technology
       url: https://theconvivialsociety.substack.com/p/the-questions-concerning-technology
-
 ---
 metaLAB’s experimental, materials-based creative workshops bring together hybrid formats that include design thinking exercises, group discussion, and physical prototyping (yes, even on zoom!) to think through pressing questions and work toward possible reformulations, new metaphors—and maybe, some solutions.
 

@@ -10,9 +10,11 @@ import (
 )
 
 type Meta struct {
-  Intro string `json:"intro"`
-  Updated_at string `json:"updated_at"`
-  Created_at string `json:"created_at"`
+  Intro string `json:"intro,omitempty"`
+  Updated_at string `json:"updated_at,omitempty"`
+  Created_at string `json:"created_at,omitempty"`
+  Lastmod string `yaml:"lastmod,omitempty"`
+  Date string `yaml:"date,omitempty"`
   Title string
   Layout string
   Slug string
@@ -38,7 +40,13 @@ func main() {
   responseObject.Layout = "about"
   responseObject.Slug = "about"
 
+  responseObject.Date = responseObject.Created_at
+  responseObject.Lastmod = responseObject.Updated_at
+
+  responseObject.Created_at = ""
+  responseObject.Updated_at = ""
+
   file, _ := json.MarshalIndent(responseObject, "", " ")
 
-  _ = ioutil.WriteFile("../content/about.md", file, 0644)
+  _ = ioutil.WriteFile("content/about.md", file, 0644)
 }
