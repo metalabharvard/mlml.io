@@ -1,11 +1,11 @@
 {{ define "main" }}
   {{ $name := .Params.Name }}
-  <section class="homepage-member grid-full grid vcard">
+  <section class="homepage-member grid-full grid vcard" vocab="https://schema.org/" typeof="Person">
     <header class="member-header grid-wide">
-      <h1 class="member-name fn">{{ .Params.Name }}</h1>
-      <span class="member-role role">{{ .Params.Role_string }}</span>
+      <h1 class="member-name fn" property="name">{{ .Params.Name }}</h1>
+      <span class="member-role role" property="jobTitle">{{ .Params.Role_string }}</span>
     </header>
-    <div class="member-image">{{ partial "image.html" (dict "picture" .Params.picture "alt" (printf "Profile picture of %s" .Params.name)) }}</div>
+    <div class="member-image" property="image">{{ partial "image.html" (dict "picture" .Params.picture "alt" (printf "Profile picture of %s" .Params.name)) }}</div>
     <aside class="member-aside grid-narrow-left-aside">
       {{ partial "icon-website.html" (dict "link" .Params.Website "name" $name) }}
       {{ partial "icon-mail.html" (dict "mail" .Params.Email "name" $name) }}

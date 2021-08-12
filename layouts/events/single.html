@@ -1,7 +1,7 @@
 {{ define "main" }}
-  <section class="homepage-event grid-full grid h-event">
+  <section class="homepage-event grid-full grid h-event" vocab="https://schema.org/" typeof="Event">
     <header class="event-header grid-wide">
-      <h1 class="event-name p-name">{{ .Params.Title }}</h1>
+      <h1 class="event-name p-name" property="name">{{ .Params.Title }}</h1>
       {{ with .Params.Intro }}<span class="event-intro p-summary">{{ . | markdownify }}</span>{{ end }}
       {{ if .Params.Start_time }}
       <template id="start-time-template">
@@ -19,7 +19,7 @@
       {{ $timezone := .Params.Timezone }}
       {{ $startBerlin := .Params.Start_time_locations.Berlin }}
       {{ $startLondon := .Params.Start_time_locations.London }}
-      {{ with .Params.Start_time }}<time datetime="{{ dateFormat "2006-01-02T15:04:05-0700" . }}" class="event-time">{{ dateFormat "Monday, 2 January 2006 3:04 pm" . }} {{ $timezone }}</time>{{ end }}
+      {{ with .Params.Start_time }}<time property="startDate" content="{{ dateFormat "2006-01-02T15:04:05-0700" . }}" datetime="{{ dateFormat "2006-01-02T15:04:05-0700" . }}" class="event-time">{{ dateFormat "Monday, 2 January 2006 3:04 pm" . }} {{ $timezone }}</time>{{ end }}
       {{ end }}
     </header>
     <aside class="event-aside grid-narrow-right-aside">

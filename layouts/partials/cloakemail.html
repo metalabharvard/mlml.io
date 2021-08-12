@@ -40,6 +40,7 @@
   {{ with $class }}
   link.className = "{{ $class }} email";
   {{ end }}
+  link.setAttribute('property', 'email');
   {{ with $title }}
   link.title = "{{ $title }}";
   {{ end }}

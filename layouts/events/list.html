@@ -1,6 +1,6 @@
 {{ define "main" }}
   <section class="homepage-events-list grid-wide">
-    <ul>
+    <ul role="list">
     {{ range .Pages }}
       {{ partial "event-preview.html" (dict "event" . )}}
     {{ end }}
