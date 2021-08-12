@@ -38,6 +38,9 @@
     function element(name) {
         return document.createElement(name);
     }
+    function svg_element(name) {
+        return document.createElementNS('http://www.w3.org/2000/svg', name);
+    }
     function text(data) {
         return document.createTextNode(data);
     }
@@ -3142,7 +3145,7 @@
     	return child_ctx;
     }
 
-    // (109:2) {#if resultsProjects.length}
+    // (119:2) {#if resultsProjects.length}
     function create_if_block_2(ctx) {
     	let h2;
     	let t0;
@@ -3221,7 +3224,7 @@
     	};
     }
 
-    // (112:3) {#each resultsProjects as { title, slug, intro }}
+    // (122:3) {#each resultsProjects as { title, slug, intro }}
     function create_each_block_2(ctx) {
     	let li;
     	let a;
@@ -3273,7 +3276,7 @@
     	};
     }
 
-    // (122:2) {#if resultsEvents.length}
+    // (132:2) {#if resultsEvents.length}
     function create_if_block_1(ctx) {
     	let h2;
     	let t0;
@@ -3352,7 +3355,7 @@
     	};
     }
 
-    // (125:3) {#each resultsEvents as { title, slug, intro }}
+    // (135:3) {#each resultsEvents as { title, slug, intro }}
     function create_each_block_1(ctx) {
     	let li;
     	let a;
@@ -3404,7 +3407,7 @@
     	};
     }
 
-    // (135:2) {#if resultsMembers.length}
+    // (145:2) {#if resultsMembers.length}
     function create_if_block(ctx) {
     	let h2;
     	let t0;
@@ -3483,7 +3486,7 @@
     	};
     }
 
-    // (138:3) {#each resultsMembers as { name, slug, role }}
+    // (148:3) {#each resultsMembers as { name, slug, role }}
     function create_each_block(ctx) {
     	let li;
     	let a;
@@ -3537,8 +3540,16 @@
 
     function create_fragment(ctx) {
     	let input_1;
+    	let input_1_aria_hidden_value;
     	let t0;
     	let button;
+    	let svg;
+    	let path;
+    	let circle;
+    	let line0;
+    	let line1;
+    	let line2;
+    	let button_title_value;
     	let t1;
     	let div1;
     	let div0;
@@ -3555,7 +3566,12 @@
     			input_1 = element("input");
     			t0 = space();
     			button = element("button");
-    			button.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="trigger-icon icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><circle cx="10" cy="10" r="7"></circle><line x1="21" y1="21" x2="15" y2="15"></line></svg>`;
+    			svg = svg_element("svg");
+    			path = svg_element("path");
+    			circle = svg_element("circle");
+    			line0 = svg_element("line");
+    			line1 = svg_element("line");
+    			line2 = svg_element("line");
     			t1 = space();
     			div1 = element("div");
     			div0 = element("div");
@@ -3566,19 +3582,61 @@
     			if (if_block2) if_block2.c();
     			attr(input_1, "type", "search");
     			attr(input_1, "id", "page-search-input");
-    			attr(input_1, "placeholder", "Search for events, members, projects, …");
+    			attr(input_1, "placeholder", "Type to search…");
     			attr(input_1, "role", "search");
+    			attr(input_1, "aria-hidden", input_1_aria_hidden_value = !/*isOpen*/ ctx[6]);
     			toggle_class(input_1, "hasTerm", /*hasTerm*/ ctx[5]);
+    			attr(path, "stroke", "none");
+    			attr(path, "d", "M0 0h24v24H0z");
+    			attr(path, "fill", "none");
+    			attr(circle, "cx", "10");
+    			attr(circle, "cy", "10");
+    			attr(circle, "r", "7");
+    			attr(circle, "class", "s0");
+    			attr(line0, "x1", "21");
+    			attr(line0, "y1", "21");
+    			attr(line0, "x2", "15");
+    			attr(line0, "y2", "15");
+    			attr(line0, "class", "s0");
+    			attr(line1, "x1", "18");
+    			attr(line1, "y1", "6");
+    			attr(line1, "x2", "6");
+    			attr(line1, "y2", "18");
+    			attr(line1, "class", "s1");
+    			attr(line2, "x1", "6");
+    			attr(line2, "y1", "6");
+    			attr(line2, "x2", "18");
+    			attr(line2, "y2", "18");
+    			attr(line2, "class", "s1");
+    			attr(svg, "xmlns", "http://www.w3.org/2000/svg");
+    			attr(svg, "class", "trigger-icon icon icon-tabler icon-tabler-search");
+    			attr(svg, "width", "24");
+    			attr(svg, "height", "24");
+    			attr(svg, "viewBox", "0 0 24 24");
+    			attr(svg, "stroke-width", "2");
+    			attr(svg, "stroke", "currentColor");
+    			attr(svg, "fill", "none");
+    			attr(svg, "stroke-linecap", "round");
+    			attr(svg, "stroke-linejoin", "round");
+    			toggle_class(svg, "isOpen", /*isOpen*/ ctx[6]);
     			attr(button, "class", "search-trigger");
+    			attr(button, "id", "search-trigger");
+    			attr(button, "title", button_title_value = `Click to ${/*isOpen*/ ctx[6] ? 'close' : 'open'} the search field`);
     			attr(div0, "class", "grid-wide");
     			attr(div1, "class", "search-results grid");
     			toggle_class(div1, "hasTerm", /*hasTerm*/ ctx[5]);
     		},
     		m(target, anchor) {
     			insert(target, input_1, anchor);
-    			/*input_1_binding*/ ctx[10](input_1);
+    			/*input_1_binding*/ ctx[11](input_1);
     			insert(target, t0, anchor);
     			insert(target, button, anchor);
+    			append(button, svg);
+    			append(svg, path);
+    			append(svg, circle);
+    			append(svg, line0);
+    			append(svg, line1);
+    			append(svg, line2);
     			insert(target, t1, anchor);
     			insert(target, div1, anchor);
     			append(div1, div0);
@@ -3587,22 +3645,34 @@
     			if (if_block1) if_block1.m(div0, null);
     			append(div0, t3);
     			if (if_block2) if_block2.m(div0, null);
-    			/*div1_binding*/ ctx[11](div1);
+    			/*div1_binding*/ ctx[12](div1);
 
     			if (!mounted) {
     				dispose = [
-    					listen(window, "keydown", /*handleKeyDown*/ ctx[7]),
-    					listen(input_1, "input", /*handleInput*/ ctx[6]),
-    					listen(input_1, "blur", /*handleBlur*/ ctx[9]),
-    					listen(button, "click", /*handleTriggerClick*/ ctx[8])
+    					listen(window, "keydown", /*handleKeyDown*/ ctx[8]),
+    					listen(input_1, "input", /*handleInput*/ ctx[7]),
+    					listen(input_1, "blur", /*handleBlur*/ ctx[10]),
+    					listen(button, "click", /*handleTriggerClick*/ ctx[9])
     				];
 
     				mounted = true;
     			}
     		},
     		p(ctx, [dirty]) {
+    			if (dirty & /*isOpen*/ 64 && input_1_aria_hidden_value !== (input_1_aria_hidden_value = !/*isOpen*/ ctx[6])) {
+    				attr(input_1, "aria-hidden", input_1_aria_hidden_value);
+    			}
+
     			if (dirty & /*hasTerm*/ 32) {
     				toggle_class(input_1, "hasTerm", /*hasTerm*/ ctx[5]);
+    			}
+
+    			if (dirty & /*isOpen*/ 64) {
+    				toggle_class(svg, "isOpen", /*isOpen*/ ctx[6]);
+    			}
+
+    			if (dirty & /*isOpen*/ 64 && button_title_value !== (button_title_value = `Click to ${/*isOpen*/ ctx[6] ? 'close' : 'open'} the search field`)) {
+    				attr(button, "title", button_title_value);
     			}
 
     			if (/*resultsProjects*/ ctx[4].length) {
@@ -3652,7 +3722,7 @@
     		o: noop$1,
     		d(detaching) {
     			if (detaching) detach(input_1);
-    			/*input_1_binding*/ ctx[10](null);
+    			/*input_1_binding*/ ctx[11](null);
     			if (detaching) detach(t0);
     			if (detaching) detach(button);
     			if (detaching) detach(t1);
@@ -3660,7 +3730,7 @@
     			if (if_block0) if_block0.d();
     			if (if_block1) if_block1.d();
     			if (if_block2) if_block2.d();
-    			/*div1_binding*/ ctx[11](null);
+    			/*div1_binding*/ ctx[12](null);
     			mounted = false;
     			run_all(dispose);
     		}
@@ -3736,7 +3806,7 @@
     		input.blur();
     		$$invalidate(0, input.value = '', input);
     		handleInput();
-    		isOpen = false;
+    		$$invalidate(6, isOpen = false);
     	}
 
     	function handleKeyDown(event) {
@@ -3752,14 +3822,19 @@
     			closeSearch();
     		} else {
     			input.focus();
-    			isOpen = true;
+    			$$invalidate(6, isOpen = true);
     		}
     	}
 
-    	function handleBlur() {
-    		if (!hasTerm) {
-    			closeSearch();
-    		}
+    	function handleBlur(e) {
+    		setTimeout(
+    			() => {
+    				if (document.activeElement.id !== 'search-trigger' && !hasTerm) {
+    					$$invalidate(6, isOpen = false);
+    				}
+    			},
+    			0
+    		);
     	}
 
     	function input_1_binding($$value) {
@@ -3783,6 +3858,7 @@
     		resultsEvents,
     		resultsProjects,
     		hasTerm,
+    		isOpen,
     		handleInput,
     		handleKeyDown,
     		handleTriggerClick,

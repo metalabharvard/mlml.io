@@ -153,6 +153,28 @@ picture img {
     @include query($medium) {
       height: calc(var(--size-5) * 1.1);
     }
+
+    .s0 {
+      opacity: 1;
+      transition: opacity 0.3s ease 0.15s;
+    }
+
+    .s1 {
+      opacity: 0;
+      transition: opacity 0.3s ease 0s;
+    }
+
+    &.isOpen {
+      .s0 {
+        opacity: 0;
+        transition: opacity 0.3s ease 0s;
+      }
+
+      .s1 {
+        opacity: 1;
+        transition: opacity 0.3s ease 0.15s;
+      }
+    }
   }
 
   .page-logo {
@@ -232,8 +254,15 @@ picture img {
       text-indent: var(--spacing-1);
 
       &:focus, &.hasTerm {
-        width: calc(var(--size-column) * 8 + var(--size-gap) * 7);
-        border-bottom-color: var(--color-bg-black);
+        width: calc(var(--size-column) * 8 + var(--size-gap) * 7 + 1px);
+        // border-bottom-color: var(--color-bg-black);
+      }
+
+      &::-webkit-search-decoration,
+      &::-webkit-search-cancel-button,
+      &::-webkit-search-results-button,
+      &::-webkit-search-results-decoration {
+        -webkit-appearance:none;
       }
     }
 

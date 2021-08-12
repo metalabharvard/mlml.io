@@ -67,10 +67,12 @@
 		}
 	}
 
-	function handleBlur () {
-		if (!hasTerm) {
-			closeSearch();
-		}
+	function handleBlur (e) {
+		setTimeout(() => {
+			if (document.activeElement.id !== 'search-trigger' && !hasTerm) {
+				isOpen = false;
+			}
+  	}, 0);
 	}
 </script>
 
@@ -79,14 +81,19 @@
 <input
 	type="search"
 	id="page-search-input"
-	placeholder="Search for events, members, projects, …"
+	placeholder="Type to search…"
 	bind:this={input}
 	on:input={handleInput}
 	on:blur={handleBlur}
 	role="search"
-	class:hasTerm={hasTerm}>
+	class:hasTerm={hasTerm}
+	aria-hidden={!isOpen}>
 
-<button class="search-trigger" on:click={handleTriggerClick}>
+<button
+	class="search-trigger"
+	id="search-trigger"
+	on:click={handleTriggerClick}
+	title={`Click to ${isOpen ? 'close' : 'open'} the search field`}>
 	<svg
 		xmlns="http://www.w3.org/2000/svg"
 		class="trigger-icon icon icon-tabler icon-tabler-search"
@@ -97,10 +104,13 @@
 		stroke="currentColor"
 		fill="none"
 		stroke-linecap="round"
-		stroke-linejoin="round">
+		stroke-linejoin="round"
+		class:isOpen={isOpen}>
 	  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-	  <circle cx="10" cy="10" r="7"></circle>
-	  <line x1="21" y1="21" x2="15" y2="15"></line>
+	  <circle cx="10" cy="10" r="7" class="s0"></circle>
+	  <line x1="21" y1="21" x2="15" y2="15" class="s0"></line>
+	  <line x1="18" y1="6" x2="6" y2="18" class="s1"></line>
+   	<line x1="6" y1="6" x2="18" y2="18" class="s1"></line>
 	</svg>
 </button>
 
@@ -147,6 +157,3 @@
 		{/if}
 	</div>
 </div>
-
-<!-- <input type="text" on:input={handleInput} placeholder={placeholder} bind:this={input} class="search" role="search" /> -->
-
