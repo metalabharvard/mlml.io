@@ -4,22 +4,35 @@
       <h1 class="event-name p-name" property="name">{{ .Params.Title }}</h1>
       {{ with .Params.Intro }}<span class="event-intro p-summary">{{ . | markdownify }}</span>{{ end }}
       {{ if .Params.Start_time }}
-      <template id="start-time-template">
-        <dl class="start-time-list">
-          <dt>Berlin</dt>
-          <dd><time>{{ dateFormat "2 January 3:04 pm" .Params.Start_time_locations.Berlin }} CEST</time></dd>
-          <dt>London</dt>
-          <dd><time>{{ dateFormat "2 January 3:04 pm" .Params.Start_time_locations.London }} BST</time></dd>
-          <dt>New York</dt>
-          <dd><time>{{ dateFormat "2 January 3:04 pm" .Params.Start_time_locations.New_York }} EDT</time></dd>
-          <dt>Los Angeles</dt>
-          <dd><time>{{ dateFormat "2 January 3:04 pm" .Params.Start_time_locations.Los_Angeles }} PDT</time></dd>
-        </dl>
-      </template>
-      {{ $timezone := .Params.Timezone }}
-      {{ $startBerlin := .Params.Start_time_locations.Berlin }}
-      {{ $startLondon := .Params.Start_time_locations.London }}
-      {{ with .Params.Start_time }}<time property="startDate" content="{{ dateFormat "2006-01-02T15:04:05-0700" . }}" datetime="{{ dateFormat "2006-01-02T15:04:05-0700" . }}" class="event-time">{{ dateFormat "Monday, 2 January 2006 3:04 pm" . }} {{ $timezone }}</time>{{ end }}
+      <div class="timezone-tabs">
+        <nav role="tablist" aria-label="Timezone selection">
+          <button class="event-timezone btn-tab" role="tab" aria-controls="panel-boston" id="tab-boston" aria-selected="true" tabindex="0">Boston</button>
+          <button class="event-timezone btn-tab" role="tab" aria-controls="panel-berlin" id="tab-berlin" aria-selected="false" tabindex="-1">Berlin</button>
+        </nav>
+        <div class="timezone-content">
+          <time
+            class="event-time"
+            role="tabpanel"
+            id="panel-boston"
+            tabindex="0"
+            aria-labelledby="tab-boston"
+            property="startDate"
+            content="{{ dateFormat "2006-01-02T15:04:05-0700" .Params.Start_time_locations.New_York }}"
+            datetime="{{ dateFormat "2006-01-02T15:04:05-0700" .Params.Start_time_locations.New_York }}">
+            {{- dateFormat "Monday, 2 January 3:04 pm" .Params.Start_time_locations.New_York }} EDT</time>
+          <time
+            class="event-time"
+            role="tabpanel"
+            id="panel-berlin"
+            tabindex="-1"
+            aria-labelledby="tab-berlin"
+            hidden
+            property="startDate"
+            content="{{ dateFormat "2006-01-02T15:04:05-0700" .Params.Start_time_locations.Berlin }}"
+            datetime="{{ dateFormat "2006-01-02T15:04:05-0700" .Params.Start_time_locations.Berlin }}">
+            {{- dateFormat "Monday, 2 January 3:04 pm" .Params.Start_time_locations.Berlin }} CEST</time>
+        </div>
+      </div>
       {{ end }}
     </header>
     <aside class="event-aside grid-narrow-right-aside">

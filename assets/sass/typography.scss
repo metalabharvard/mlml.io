@@ -84,9 +84,28 @@ ul {
   font-weight: $font-weight-medium;
   line-height: 1;
   @include gradient-border-bottom(1.5px);
+  background-color: transparent;
 
   &:hover, &:focus {
     color: $color-default;
+  }
+}
+
+.btn-tab {
+  text-decoration: none;
+  padding: 0 var(--spacing-1) var(--spacing-025) var(--spacing-1);
+  line-height: 1;
+  background-color: transparent;
+  border: none;
+  transition: border-bottom-color 0.3s ease;
+  border-bottom: 1.5px solid transparent;
+
+  &[aria-selected=true] {
+    @include gradient-border-bottom(1.5px);
+  }
+
+  &:hover, &:focus {
+    border-bottom-color: $color-default;
   }
 }
 
@@ -304,7 +323,17 @@ ul {
     font-size: var(--size-6);
     font-weight: $font-weight-bold;
     line-height: 1.1;
-    display: inline-block;
+    // margin-top: var(--spacing-05);
+
+    &:not([hidden]) {
+      display: inline-block;
+    }
+  }
+
+  .event-timezone {
+    font-size: var(--size-7);
+    font-weight: $font-weight-medium;
+    line-height: 1.1;
     margin-top: var(--spacing-05);
   }
 

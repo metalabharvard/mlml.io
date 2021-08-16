@@ -765,6 +765,14 @@ picture, img {
   .event-intro {
     margin-top: var(--spacing-05);
   }
+
+  .timezone-tabs {
+    margin-top: var(--spacing-05);
+
+    .timezone-content {
+      line-height: 1;
+    }
+  }
 }
 
 .related-events, .related-projects, .related-members {
