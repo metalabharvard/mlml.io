@@ -15,7 +15,7 @@ email: jeffrey@metalab.harvard.edu
 website: jeffreyschnapp.com
 instagram: jschnapp
 start: "2021-06-17"
-lastmod: "2021-08-06T10:12:54.815Z"
+lastmod: "2021-08-16T14:11:08.254Z"
 date: "2021-06-16T16:34:22.247Z"
 slug: jeffrey-schnapp
 projects:
@@ -24,12 +24,22 @@ projects:
     - title: Curatorial A(i)gents
       slug: curatorial-a-i-gents
 picture:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1627572147/jeffrey_da7762f132.jpg
-    width: 500
-    height: 500
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122118/jeffrey_c976257763.jpg
+    width: 850
+    height: 850
     formats:
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122120/medium_jeffrey_c976257763.jpg
+            ext: .jpg
+            width: 750
+            height: 750
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122120/small_jeffrey_c976257763.jpg
+            ext: .jpg
+            width: 500
+            height: 500
         thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1627572148/thumbnail_jeffrey_da7762f132.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122119/thumbnail_jeffrey_c976257763.jpg
             ext: .jpg
             width: 156
             height: 156

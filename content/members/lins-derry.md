@@ -9,16 +9,26 @@ rank: 2.999
 role_string: Principal
 twitter: linsderry
 instagram: linsderry
-lastmod: "2021-08-06T10:51:41.601Z"
+lastmod: "2021-08-16T14:15:39.907Z"
 date: "2021-07-29T15:08:54.522Z"
 slug: lins-derry
 picture:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1627572147/lins_1e0c7ba2a8.jpg
-    width: 500
-    height: 500
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122128/lins_927dfa0458.jpg
+    width: 800
+    height: 800
     formats:
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122129/medium_lins_927dfa0458.jpg
+            ext: .jpg
+            width: 750
+            height: 750
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122129/small_lins_927dfa0458.jpg
+            ext: .jpg
+            width: 500
+            height: 500
         thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1627572148/thumbnail_lins_1e0c7ba2a8.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122128/thumbnail_lins_927dfa0458.jpg
             ext: .jpg
             width: 156
             height: 156

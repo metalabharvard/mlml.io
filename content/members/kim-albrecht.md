@@ -10,7 +10,7 @@ role_string: Principal
 twitter: kimay
 website: http://kimalbrecht.com/
 instagram: kimfalbrecht
-lastmod: "2021-08-06T10:16:28.419Z"
+lastmod: "2021-08-16T14:15:28.572Z"
 date: "2021-07-29T15:08:03.432Z"
 slug: kim-albrecht
 events:
@@ -21,16 +21,10 @@ projects:
       slug: curatorial-a-i-gents
     - title: Artificial Senses
       slug: artificial-senses
-picture:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1627572146/kim_9a45ecc67f.jpg
-    width: 357
-    height: 500
-    formats:
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1627572147/thumbnail_kim_9a45ecc67f.jpg
-            ext: .jpg
-            width: 111
-            height: 156
+    - title: Their Names
+      slug: their-names
+    - title: Hypercam
+      slug: hypercam
 
 ---
 As a visual researcher and information designer, Kim Albrecht is interested in networks, power, the artificial, and how we can find visual representations for these topics to produce and represent knowledge. Kim holds a BA in graphic design from the AAA school and an MA in interface design from the University of Applied Sciences Potsdam. From 2015 to 2017, Kim worked at the Center for Complex Network Research with Prof. Laszlo Barabasi as a visualization researcher in Boston. His research is focused on the visual representation of complex systems and particularly complex networks.

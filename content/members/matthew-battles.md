@@ -13,7 +13,7 @@ email: matthew@metalab.harvard.edu
 website: http://mbattl.es/
 instagram: mbattles
 start: "2021-06-17"
-lastmod: "2021-08-06T10:13:45.567Z"
+lastmod: "2021-08-16T14:11:17.759Z"
 date: "2021-06-17T15:01:18.624Z"
 slug: matthew-battles
 projects:
@@ -22,12 +22,22 @@ projects:
     - title: Curatorial A(i)gents
       slug: curatorial-a-i-gents
 picture:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1623942069/matthew_17805c8fda.jpg
-    width: 500
-    height: 500
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122131/matthew_18c95f4abd.jpg
+    width: 850
+    height: 850
     formats:
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122131/medium_matthew_18c95f4abd.jpg
+            ext: .jpg
+            width: 750
+            height: 750
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122132/small_matthew_18c95f4abd.jpg
+            ext: .jpg
+            width: 500
+            height: 500
         thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1623942070/thumbnail_matthew_17805c8fda.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122131/thumbnail_matthew_18c95f4abd.jpg
             ext: .jpg
             width: 156
             height: 156
