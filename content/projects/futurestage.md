@@ -5,11 +5,12 @@ start: "2021-06-16"
 end: "2021-08-10"
 location: ""
 host: harvard
+mediation: ""
 category: project
 isFeatured: true
 externalLink: ""
 lastmod: "2021-08-11T14:47:29.931Z"
-date: "2021-06-16T16:32:45.349Z"
+date: "2021-06-16"
 slug: futurestage
 events:
     - title: Virtual Creative Spring Workshops 2021

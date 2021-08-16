@@ -13,16 +13,22 @@ start_time_locations:
     los_angeles: "2021-04-15T14:00:00-07:00"
 end_time: ""
 end_time_utc: 20210415T190000Z
+end_time_locations:
+    berlin: ""
+    new_york: ""
+    london: ""
+    los_angeles: ""
 timezone: EDT
 tzid: America/New_York
 intro: How mechanized animals might produce a disturbance that provokes possibility.
 location: Cambridge, MA
 host: ""
+category: ""
 link: ""
 isFeatured: false
 isOngoing: false
 lastmod: "2021-08-11T13:14:39.319Z"
-date: "2021-08-11T13:13:57.689Z"
+date: "2021-04-15T17:00:00-04:00"
 slug: mahindra-transmedia-arts-seminar-jenn-parker-starbuck-animals-in-the-machine-robotic-animal-agents
 cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628687672/Mahindra_Center_title_card_for_Animal_Agents_talk_7b25027a3f.jpg

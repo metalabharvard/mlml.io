@@ -5,11 +5,12 @@ start: "2021-06-17"
 end: "2021-08-03"
 location: ""
 host: harvard
+mediation: ""
 category: project
 isFeatured: false
 externalLink: https://metalabharvard.github.io/
 lastmod: "2021-08-11T14:47:02.527Z"
-date: "2021-06-17T15:17:56.412Z"
+date: "2021-06-17"
 slug: curatorial-a-i-gents
 collaborators:
     - name: Harvard Art Museums

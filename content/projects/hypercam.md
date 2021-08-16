@@ -5,11 +5,12 @@ start: ""
 end: ""
 location: ""
 host: harvard
+mediation: ""
 category: ""
 isFeatured: false
 externalLink: ""
 lastmod: "2021-08-11T14:46:34.878Z"
-date: "2021-08-11T13:04:27.915Z"
+date: "2021-08-11T13:04:33.103Z"
 slug: hypercam
 members:
     - name: Kim Albrecht

@@ -5,11 +5,12 @@ start: ""
 end: ""
 location: ""
 host: harvard
+mediation: ""
 category: ""
 isFeatured: false
 externalLink: https://rodighiero.github.io/DH2020/
 lastmod: "2021-08-11T14:47:48.589Z"
-date: "2021-08-11T12:59:21.615Z"
+date: "2021-08-11T12:59:25.825Z"
 slug: lexical-cartography-of-dh-2020
 cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686754/lexicalcarto_686c2c0761.jpg

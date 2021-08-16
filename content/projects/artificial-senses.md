@@ -5,11 +5,12 @@ start: "2017-06-01"
 end: "2017-12-01"
 location: ""
 host: both
+mediation: ""
 category: ""
 isFeatured: false
 externalLink: https://artificial-senses.kimalbrecht.com/
 lastmod: "2021-08-11T14:46:48.592Z"
-date: "2021-08-05T14:29:32.192Z"
+date: "2017-06-01"
 slug: artificial-senses
 members:
     - name: Kim Albrecht

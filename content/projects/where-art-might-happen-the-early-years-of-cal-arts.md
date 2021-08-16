@@ -5,11 +5,12 @@ start: "2020-03-13"
 end: "2020-06-07"
 location: ""
 host: harvard
+mediation: ""
 category: ""
 isFeatured: false
 externalLink: ""
 lastmod: "2021-08-11T14:48:16.971Z"
-date: "2021-08-11T12:54:25.148Z"
+date: "2020-03-13"
 slug: where-art-might-happen-the-early-years-of-cal-arts
 cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686495/where_art_might_happen_the_early_years_of_cal_arts_4b18fd7f74.jpg

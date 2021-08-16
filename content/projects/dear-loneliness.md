@@ -5,11 +5,12 @@ start: "2020-11-01"
 end: ""
 location: ""
 host: harvard
+mediation: ""
 category: ""
 isFeatured: false
 externalLink: ""
 lastmod: "2021-08-11T14:47:13.731Z"
-date: "2021-08-11T12:50:06.754Z"
+date: "2020-11-01"
 slug: dear-loneliness
 cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686200/Dear_Loneliness_1b1650ed67.jpg

@@ -5,11 +5,12 @@ start: "2020-12-01"
 end: ""
 location: ""
 host: harvard
+mediation: ""
 category: ""
 isFeatured: false
 externalLink: ""
 lastmod: "2021-08-11T14:47:57.862Z"
-date: "2021-08-11T12:47:12.865Z"
+date: "2020-12-01"
 slug: mahindra-humanities-center-transmedia-arts-seminar
 cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686081/Mahindra_Transmedia_Center_ea57b542d1.jpg

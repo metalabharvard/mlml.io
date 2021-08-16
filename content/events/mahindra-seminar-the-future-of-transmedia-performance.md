@@ -13,16 +13,22 @@ start_time_locations:
     los_angeles: ""
 end_time: ""
 end_time_utc: ""
+end_time_locations:
+    berlin: ""
+    new_york: ""
+    london: ""
+    los_angeles: ""
 timezone: ""
 tzid: ""
 intro: The future of transmedia performance
 location: Cambridge, MA
 host: ""
+category: ""
 link: https://mahindrahumanities.fas.harvard.edu/transmedia-arts
 isFeatured: false
 isOngoing: false
 lastmod: "2021-08-06T16:41:42.468Z"
-date: "2021-07-30T13:21:18.117Z"
+date: "2021-07-30T13:23:55.212Z"
 slug: mahindra-seminar-the-future-of-transmedia-performance
 cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1627651421/transmediafuture_4c658abf60.jpg

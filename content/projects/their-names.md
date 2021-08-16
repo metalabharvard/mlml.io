@@ -5,11 +5,12 @@ start: ""
 end: ""
 location: ""
 host: harvard
+mediation: ""
 category: ""
 isFeatured: false
 externalLink: ""
 lastmod: "2021-08-11T14:48:07.223Z"
-date: "2021-08-11T12:57:04.779Z"
+date: "2021-08-11T12:57:09.359Z"
 slug: their-names
 members:
     - name: Kim Albrecht

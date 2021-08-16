@@ -11,18 +11,24 @@ start_time_locations:
     new_york: "2021-08-04T05:30:00-04:00"
     london: "2021-08-04T10:30:00+01:00"
     los_angeles: "2021-08-04T02:30:00-07:00"
-end_time: ""
+end_time: "2021-08-17T13:00:00.000Z"
 end_time_utc: 20210804T123000Z
+end_time_locations:
+    berlin: ""
+    new_york: ""
+    london: ""
+    los_angeles: ""
 timezone: BST
 tzid: Europe/London
 intro: Upcoming creative workshops exploring AI, time, and the future of communication
 location: Online
 host: ""
+category: ""
 link: ""
 isFeatured: false
 isOngoing: false
 lastmod: "2021-08-04T14:47:54.968Z"
-date: "2021-06-17T15:20:22.781Z"
+date: "2021-08-04T10:30:00+01:00"
 slug: virtual-creative-spring-workshops-2021
 members:
     - name: Sarah Newman
