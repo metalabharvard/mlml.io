@@ -13,6 +13,13 @@
   --font-size-l: min(max(1.3rem, 16px), 27px);
 }
 
+@mixin text-tag () {
+  font-size: var(--size-8);
+  font-weight: $font-weight-medium;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
 .text-center {
   text-align: center;
 }
@@ -267,10 +274,7 @@ ul {
   }
 
   .project-tag, .event-tag {
-    font-size: var(--size-8);
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    vertical-align: top;
+    @include text-tag();
   }
 
   footer {
@@ -344,6 +348,10 @@ ul {
     & > * {
       display: block;
     }
+  }
+
+  .event-timeago {
+    @include text-tag();
   }
 }
 

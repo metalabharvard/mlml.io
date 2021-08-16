@@ -1,6 +1,7 @@
 {{ define "main" }}
   <section class="homepage-event grid-full grid h-event" vocab="https://schema.org/" typeof="Event">
     <header class="event-header grid-wide">
+      {{ with .Params.Start_time }}<span class="event-timeago timeago" datetime="{{ dateFormat "2006-01-02 03:04:05 UTC" . }}"></span>{{ end }}
       <h1 class="event-name p-name" property="name">{{ .Params.Title }}</h1>
       {{ with .Params.Intro }}<span class="event-intro p-summary">{{ . | markdownify }}</span>{{ end }}
       {{ if .Params.Start_time }}
@@ -38,7 +39,6 @@
     <aside class="event-aside grid-narrow-right-aside">
       {{ partial "span-host.html" (dict "host" .Params.host "type" "event") }}
       <a href="{{ (printf `%s.ics` .Slug) | absURL }}">iCal</a>
-      {{ with .Params.Start_time }}<span class="timeago" datetime="{{ dateFormat "2006-01-02 03:04:05 UTC" . }}"></span>{{ end }}
     </aside>
     {{ with .Params.Link }}
     <a class="event-link u-url" href="{{ . }}"><span>Visit event</span></a>
