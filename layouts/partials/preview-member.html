@@ -1,0 +1,8 @@
+<li>
+  <a href="{{ .Slug | absURL }}" class="member-preview vcard" role="listitem">
+    {{ $name := .member.Params.Name }}
+    {{ with .member.Params.Picture }}{{ partial "image.html" (dict "picture" . "alt" (printf "Profile picture of %s" $name)) }}{{ end }}
+    <strong class="member-name fn p-name">{{ $name }}</strong>
+    <span class="member-role role">{{ .member.Params.Role_string }}</span>
+  </a>
+</li>
