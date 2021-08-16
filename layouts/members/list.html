@@ -2,23 +2,20 @@
   <section class="homepage-members-list grid-full">
     <h1>Members</h1>
     <ul class="grid member-list" role="list">
-      {{ range (sort .Pages "Params.rank" "asc") }}
-      <li>
-        <a href="{{ .Slug | absURL }}" class="member-preview vcard" role="listitem">
-          {{ partial "image.html" (dict "picture" .Params.Picture "alt" (printf "Profile picture of %s" .Params.Name)) }}
-          <strong class="member-name fn p-name">{{ .Params.Name }}</strong>
-          <span class="member-role role">{{ .Params.Role_string }}</span>
-        </a>
-      </li>
+      {{ range (sort (where .Pages "Params.picture" "!=" nil) "Params.rank" "asc") }}
+        {{ partial "preview-member.html" (dict "member" .) }}
+      {{ end }}
+      {{ range (sort (where .Pages "Params.picture" "==" nil) "Params.rank" "asc") }}
+        {{ partial "preview-member.html" (dict "member" .) }}
       {{ end }}
     </ul>
   </section>
   <section class="homepage-alumni-list grid-full">
-    <h1>Alumni</h1>
+    <h1>Community</h1>
     <ul class="grid alumni-list" role="list">
-    {{ range (where .Site.Pages "Section" "alumni") }}
-      <li class="alumni-preview vcard" role="listitem">
-        <strong class="alumni-name fn p-name">{{ .Params.Name }}</strong>
+    {{ range (sort (where .Site.RegularPages "Section" "alumni") "Params.name") }}
+      <li class="alumni-preview vcard" role="listitem" vocab="https://schema.org/" typeof="Person">
+        <strong class="alumni-name fn p-name" property="name">{{ .Params.Name }}</strong>
       </li>
     {{ end }}
     </ul>
