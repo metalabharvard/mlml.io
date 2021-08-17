@@ -1,20 +1,16 @@
 {{ define "main" }}
   <div class="grid-full home-intro">
-    <!-- <h1>{{ .Site.Title }}</h1> -->
     <h2 class="intro">{{ .Site.Params.description }}</h2>
     <a href="{{ "about" | absURL }}" class="btn">Learn more</a>
-<!--     {{ with .Site.Params.twitter }}<h6>Twitter: <a href="https://twitter.com/{{ . }}">{{ . }}</a></h6>{{ end }}
-    {{ with .Site.Params.github }}<h6>Github: <a href="https://github.com/{{ . }}">{{ . }}</a></h6>{{ end }}
-    {{ with .Site.Params.email }}<h6>{{ . }}</h6>{{ end }} -->
   </div>
   <div class="grid-wide home-projects">
     <h3>Recent projects and events</h3>
     <ul>
     {{ range (where .Site.RegularPages "Section" "in" (slice "projects" "events")) }}
       {{ if eq .Section "events" }}
-      {{ partial "event-preview.html" (dict "event" . )}}
+      {{ partial "event-preview.html" (dict "event" . "type" "event")}}
       {{ else }}
-      {{ partial "project-preview.html" (dict "project" . )}}
+      {{ partial "project-preview.html" (dict "project" . "type" "project" )}}
       {{ end }}
     {{ end }}
     </ul>

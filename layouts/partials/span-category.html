@@ -1,15 +1,7 @@
-<span class="{{ .type }}-type p-category">
-{{- if eq .type "event" -}}
+<span class="event-type p-category">
 {{- if .category -}}
-{{- title .category -}}
+	{{- title .category -}}
 {{- else -}}
-Event
-{{- end -}}
-{{- else -}}
-{{- if .category -}}
-{{- title .category -}}
-{{- else -}}
-Project
-{{- end -}}
+	Event
 {{- end -}}
 </span>

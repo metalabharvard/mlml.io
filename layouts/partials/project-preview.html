@@ -2,7 +2,11 @@
   <a href="{{ .project.Slug | absURL }}" class="u-url u-uid">
     <span class="project-title p-name">{{ .project.Params.Title }}</span><span class="project-tag">{{ .CurrentSection }}</span>
     <footer>
-      {{ partial "span-category.html" (dict "category" .project.Params.Category "type" "project") }}
+      {{ if .type }}
+      <span class="project-type p-category">{{ .type }}</span>
+      {{ else }}
+      {{ partial "span-mediation.html" (dict "mediation" .project.Params.Mediation) }}
+      {{ end }}
       {{ partial "span-timespan.html" (dict "start" .project.Params.Start "end" .project.Params.End) }}
       {{ partial "span-host.html" (dict "host" .project.Params.host "type" "project") }}
     </footer>

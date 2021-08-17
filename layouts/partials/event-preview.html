@@ -2,7 +2,11 @@
   <a href="{{ .event.Slug | absURL }}" class="u-url u-uid">
     <span class="event-title p-name">{{ .event.Title }}</span>{{ with .event.Params.start_time }}<span class="event-tag" datetime="{{ dateFormat "2006-01-02T15:04:05-0700" . }}"></span>{{ end }}
     <footer>
-      {{ partial "span-category.html" (dict "category" .event.Params.Category "type" "event") }}
+      {{ if .type }}
+      <span class="event-type p-category">{{ .type }}</span>
+      {{ else }}
+      {{ partial "span-category.html" (dict "category" .event.Params.Category) }}
+      {{ end }}
       {{ with .event.Params.start_time }}<time datetime="{{ dateFormat "2006-01-02T15:04:05-0700" . }}" class="event-time">{{ dateFormat "2 January 2006" . }} <span class="timeago" datetime="{{ dateFormat "2006-01-02 03:04:05 UTC" . }}"></span></time>{{ end }}
       {{ partial "span-host.html" (dict "host" .event.Params.host "type" "event") }}
     </footer>
