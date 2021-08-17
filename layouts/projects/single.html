@@ -11,7 +11,7 @@
       {{ with .Params.location }}<span class="project-location">{{ . }}</span>{{ end }}
     </aside>
     {{ with .Params.ExternalLink }}
-    <a class="project-link" href="{{ . }}"><span>Visit project</span></a>
+    <a class="project-link" href="{{ . }}" rel="noopener noreferrer external" target="_blank"><span>Visit project</span></a>
     {{ end }}
     {{ with .Content }}
     <div class="project-description grid-narrow-right">

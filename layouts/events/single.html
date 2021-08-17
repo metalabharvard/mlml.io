@@ -41,7 +41,7 @@
       <a href="{{ (printf `%s.ics` .Slug) | absURL }}">iCal</a>
     </aside>
     {{ with .Params.Link }}
-    <a class="event-link u-url" href="{{ . }}"><span>Visit event</span></a>
+    <a class="event-link u-url" href="{{ . }}" rel="noopener noreferrer external" target="_blank"><span>Visit event</span></a>
     {{ end }}
     {{ with .Content }}
     <div class="event-description grid-narrow-right e-content p-description">

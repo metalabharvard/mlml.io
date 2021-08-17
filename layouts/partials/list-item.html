@@ -1,9 +1,9 @@
 <li class="related-link {{ with .class }}related-{{ . }}{{ end }}">
   {{ if and .url .text }}
-  <a href="{{ .url }}" rel="noopener" rel="external">{{ .text }}</a>
+  <a href="{{ .url }}" rel="noopener noreferrer external" target="_blank">{{ .text }}</a>
   {{ else if .text }}
   <span>{{ .text }}</span>
   {{ else }}
-  <a href="{{ .url }}" rel="noopener" rel="external">{{ .url }}</span>
+  <a href="{{ .url }}" rel="noopener noreferrer external" target="_blank">{{ .url }}</span>
   {{ end }}
 </li>
