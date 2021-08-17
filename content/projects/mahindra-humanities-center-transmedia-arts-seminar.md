@@ -9,7 +9,7 @@ mediation: ""
 category: ""
 isFeatured: false
 externalLink: ""
-lastmod: "2021-08-11T14:47:57.862Z"
+lastmod: "2021-08-17T16:21:22.648Z"
 date: "2020-12-01"
 slug: mahindra-humanities-center-transmedia-arts-seminar
 cover:
@@ -37,6 +37,8 @@ cover:
             ext: .jpg
             width: 121
             height: 156
+topicIDs:
+    - Mahindra Humanities Center
 
 ---
 metaLAB is partnering with the Mahindra Humanities Center to sponsor the [Transmedia Arts Seminar](https://mahindrahumanities.fas.harvard.edu/transmedia-arts), chaired by [Magda Romanska](https://mahindrahumanities.fas.harvard.edu/people/magda-romanska) and [Hana Worthen](https://mahindrahumanities.fas.harvard.edu/people/hana-worthen). The seminar considers the intersection of contemporary art/theatre and new media technologies, taking up immersive, multisite, and networked modes of transmedia storytelling, performances instrumentalizing a range of live and digital platforms and formats, including social media, augmented and virtual reality, haptic and digital technology, visual and audio mapping, human/AI interaction, algorithms, and bodily and sensory enhancements.

@@ -59,6 +59,10 @@ type Cover struct {
   Formats Formats `yaml:"formats,omitempty"`
 }
 
+type Topic struct {
+  Topic string `yaml:"topic,omitempty"`
+}
+
 type Response struct {
   Title string `yaml:"title"`
   Intro string `yaml:"intro"`
@@ -68,11 +72,13 @@ type Response struct {
   Description string `yaml:"description,omitempty"`
   Location string `yaml:"location"`
   Host string `yaml:"host"`
+  Mediation string `yaml:"mediation"`
   Type string `yaml:"category"`
   IsFeatured bool `yaml:"isFeatured"`
   ExternalLink string `yaml:"externalLink"`
   Updated_at string `yaml:"updated_at,omitempty"`
   Created_at string `yaml:"created_at,omitempty"`
+  Published_at string `yaml:"published_at,omitempty"` // Deleted by this script
   Lastmod string `yaml:"lastmod"`
   Date string `yaml:"date"`
   Slug string `yaml:"slug"`
@@ -82,10 +88,20 @@ type Response struct {
   Events []Event `yaml:"events,omitempty"`
   Members []Member `yaml:"members,omitempty"`
   Cover Cover `yaml:"cover,omitempty"`
+  Topics []Topic `yaml:"topics,omitempty"`
+  TopicIDs []string `yaml:"topicIDs,omitempty"`
 }
 
 type Index struct {
   Lastmod string `yaml:"lastmod"`
+}
+
+func getTopicIDs(topics []Topic) []string {
+  vsm := make([]string, len(topics))
+  for i, v := range topics {
+    vsm[i] = v.Topic
+  }
+  return vsm
 }
 
 func main() {
@@ -116,10 +132,22 @@ func main() {
     element.Description = ""
 
     element.Date = element.Created_at
+    if len(element.Start) > 1 {
+      element.Date = element.Start
+    } else if len(element.End) > 1 {
+      element.Date = element.End
+    } else {
+      element.Date = element.Published_at
+    }
     element.Lastmod = element.Updated_at
 
     element.Created_at = ""
     element.Updated_at = ""
+    element.Published_at = ""
+
+    element.TopicIDs = getTopicIDs(element.Topics)
+
+    element.Topics = nil
 
     file, _ := yaml.Marshal(element)
     _ = ioutil.WriteFile(fmt.Sprintf("content/projects/%s.md", element.Slug), []byte(fmt.Sprintf("---\n%s\n---\n%s", file, content)), 0644)

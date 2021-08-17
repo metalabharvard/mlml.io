@@ -55,6 +55,8 @@ cover:
             ext: .jpg
             width: 121
             height: 156
+topicIDs:
+    - Mahindra Humanities Center
 ---
 Jenn Parker-Starbuck, Royal Holloway, University of London. April 15, 5pm EST.
 **Animals in the Machine: Robotic Animal Agents**

@@ -60,5 +60,7 @@
     {{ end }}
     {{ partial "related-members.html" (dict "members" .Params.Members "term" "Involved") }}
     {{ partial "related-projects.html" (dict "projects" .Params.Projects "term" "Related") }}
+    {{ $events := where (where .Site.RegularPages "Section" "events") "Params.topicids" "intersect" .Params.topicids }}
+    {{ partial "related-events.html" (dict "events" $events "term" "Related") }}
   </section>
 {{ end }}

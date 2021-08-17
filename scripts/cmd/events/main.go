@@ -57,28 +57,35 @@ type Times struct {
   LosAngeles string `yaml:"los_angeles"`
 }
 
+type Topic struct {
+  Topic string `yaml:"topic,omitempty"`
+}
+
 type Response struct {
   Title string `yaml:"title"`
-  Outputs [2]string `yaml:outputs`
-  Time string `yaml:"time"`
+  Outputs [2]string `yaml:outputs` // Added by this script
+  Time string `yaml:"time"` // TODO: Delete this?
   Start_Time string `yaml:"start_time"`
   Start_TimeUTC string `yaml:"start_time_utc"`
   Start_TimeLocations Times `yaml:"start_time_locations"`
-  EndTime string `yaml:"end_time"`
-  EndTimeUTC string `yaml:"end_time_utc"`
+  End_Time string `yaml:"end_time"`
+  End_TimeUTC string `yaml:"end_time_utc"`
+  End_TimeLocations Times `yaml:"end_time_locations"`
   Timezone string `yaml:"timezone"`
   TimezoneID string `yaml:"tzid"`
   Intro string `yaml:"intro"`
   Location string `yaml:"location"`
   Host string `yaml:"host"`
+  Category string `yaml:"category"`
   Link string `yaml:"link"`
   Description string `yaml:"description,omitempty"`
   IsFeatured bool `yaml:"isFeatured"`
   IsOngoing bool `yaml:"isOngoing"`
-  Updated_at string `yaml:"updated_at,omitempty"`
-  Created_at string `yaml:"created_at,omitempty"`
-  Lastmod string `yaml:"lastmod"`
-  Date string `yaml:"date"`
+  Updated_at string `yaml:"updated_at,omitempty"` // Deleted by this script
+  Created_at string `yaml:"created_at,omitempty"` // Deleted by this script
+  Published_at string `yaml:"published_at,omitempty"` // Deleted by this script
+  Lastmod string `yaml:"lastmod"` // Added by this script
+  Date string `yaml:"date"` // Added by this script
   Slug string `yaml:"slug"`
   Members []Member `yaml:"members,omitempty"`
   Projects []Project `yaml:"projects,omitempty"`
@@ -86,10 +93,20 @@ type Response struct {
   YouTube string `yaml:"youtube,omitempty"`
   Vimeo string `yaml:"vimeo,omitempty"`
   Links []Link `yaml:"links,omitempty"`
+  Topics []Topic `yaml:"topics,omitempty"`
+  TopicIDs []string `yaml:"topicIDs,omitempty"`
 }
 
 type Index struct {
   Lastmod string `yaml:"lastmod"`
+}
+
+func getTopicIDs(topics []Topic) []string {
+  vsm := make([]string, len(topics))
+  for i, v := range topics {
+    vsm[i] = v.Topic
+  }
+  return vsm
 }
 
 func main() {
@@ -155,20 +172,31 @@ func main() {
       element.Start_TimeLocations.LosAngeles = t.In(locLosAngeles).Format(time.RFC3339)
       element.Timezone = tz
       element.TimezoneID = tzid
-      element.EndTimeUTC = t.Add(time.Hour * 2).Format("20060102T150405Z") // TODO
+      element.End_TimeUTC = t.Add(time.Hour * 2).Format("20060102T150405Z") // TODO
     }
 
     content := element.Description
 
     element.Description = ""
 
-    element.Date = element.Created_at
+    if len(element.Start_Time) > 1 {
+      element.Date = element.Start_Time
+    } else if len(element.End_Time) > 1 {
+      element.Date = element.End_Time
+    } else {
+      element.Date = element.Published_at
+    }
     element.Lastmod = element.Updated_at
 
     element.Created_at = ""
     element.Updated_at = ""
+    element.Published_at = ""
 
     element.Outputs = [2]string{"HTML", "Calendar"}
+
+    element.TopicIDs = getTopicIDs(element.Topics)
+
+    element.Topics = nil
 
     file, _ := yaml.Marshal(element)
     _ = ioutil.WriteFile(fmt.Sprintf("content/events/%s.md", element.Slug), []byte(fmt.Sprintf("---\n%s---\n%s", file, content)), 0644)

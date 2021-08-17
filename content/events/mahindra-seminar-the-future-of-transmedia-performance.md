@@ -55,6 +55,8 @@ cover:
             ext: .jpg
             width: 135
             height: 156
+topicIDs:
+    - Mahindra Humanities Center
 ---
 **[CLICK HERE TO REGISTER](https://harvard.zoom.us/webinar/register/WN_eeQ8KbEiS16OX0yAIRIDdg)**
 
