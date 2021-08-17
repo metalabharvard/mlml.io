@@ -47,6 +47,9 @@
     function space() {
         return text(' ');
     }
+    function empty() {
+        return text('');
+    }
     function listen(node, event, handler, options) {
         node.addEventListener(event, handler, options);
         return () => node.removeEventListener(event, handler, options);
@@ -294,14 +297,14 @@
     }
 
     // Adapted from: https://github.com/lodash/lodash/blob/master/.internal/baseToString.js
-    const INFINITY$2 = 1 / 0;
+    const INFINITY$3 = 1 / 0;
     function baseToString$1(value) {
       // Exit early for strings to avoid a performance hit in some environments.
       if (typeof value == 'string') {
         return value
       }
       let result = value + '';
-      return result == '0' && 1 / value == -INFINITY$2 ? '-0' : result
+      return result == '0' && 1 / value == -INFINITY$3 ? '-0' : result
     }
 
     function toString$1(value) {
@@ -444,7 +447,7 @@
       return isArray$1(key) ? key.join('.') : key
     }
 
-    function get(obj, path) {
+    function get$1(obj, path) {
       let list = [];
       let arr = false;
 
@@ -536,7 +539,7 @@
       useExtendedSearch: false,
       // The get function to use when fetching an object's properties.
       // The default will search nested paths *ie foo.bar.baz*
-      getFn: get,
+      getFn: get$1,
       // When `true`, search will ignore `location` and `distance`, so it won't matter
       // where in the string the pattern appears.
       // More info: https://fusejs.io/concepts/scoring-theory.html#fuzziness-score
@@ -2319,17 +2322,17 @@
     var isArray_1 = isArray;
 
     /** Used for built-in method references. */
-    var objectProto$2 = Object.prototype;
+    var objectProto$4 = Object.prototype;
 
     /** Used to check objects for own properties. */
-    var hasOwnProperty$1 = objectProto$2.hasOwnProperty;
+    var hasOwnProperty$3 = objectProto$4.hasOwnProperty;
 
     /**
      * Used to resolve the
      * [`toStringTag`](http://ecma-international.org/ecma-262/7.0/#sec-object.prototype.tostring)
      * of values.
      */
-    var nativeObjectToString$1 = objectProto$2.toString;
+    var nativeObjectToString$1 = objectProto$4.toString;
 
     /** Built-in value references. */
     var symToStringTag$1 = _Symbol ? _Symbol.toStringTag : undefined;
@@ -2342,7 +2345,7 @@
      * @returns {string} Returns the raw `toStringTag`.
      */
     function getRawTag(value) {
-      var isOwn = hasOwnProperty$1.call(value, symToStringTag$1),
+      var isOwn = hasOwnProperty$3.call(value, symToStringTag$1),
           tag = value[symToStringTag$1];
 
       try {
@@ -2364,14 +2367,14 @@
     var _getRawTag = getRawTag;
 
     /** Used for built-in method references. */
-    var objectProto$1 = Object.prototype;
+    var objectProto$3 = Object.prototype;
 
     /**
      * Used to resolve the
      * [`toStringTag`](http://ecma-international.org/ecma-262/7.0/#sec-object.prototype.tostring)
      * of values.
      */
-    var nativeObjectToString = objectProto$1.toString;
+    var nativeObjectToString = objectProto$3.toString;
 
     /**
      * Converts `value` to a string using `Object.prototype.toString`.
@@ -2469,7 +2472,7 @@
     var isSymbol_1 = isSymbol;
 
     /** Used as references for various `Number` constants. */
-    var INFINITY$1 = 1 / 0;
+    var INFINITY$2 = 1 / 0;
 
     /** Used to convert symbols to primitives and strings. */
     var symbolProto = _Symbol ? _Symbol.prototype : undefined,
@@ -2496,7 +2499,7 @@
         return symbolToString ? symbolToString.call(value) : '';
       }
       var result = (value + '');
-      return (result == '0' && (1 / value) == -INFINITY$1) ? '-0' : result;
+      return (result == '0' && (1 / value) == -INFINITY$2) ? '-0' : result;
     }
 
     var _baseToString = baseToString;
@@ -2996,17 +2999,17 @@
 
     /** Used for built-in method references. */
     var funcProto = Function.prototype,
-        objectProto = Object.prototype;
+        objectProto$2 = Object.prototype;
 
     /** Used to resolve the decompiled source of functions. */
     var funcToString = funcProto.toString;
 
     /** Used to check objects for own properties. */
-    var hasOwnProperty = objectProto.hasOwnProperty;
+    var hasOwnProperty$2 = objectProto$2.hasOwnProperty;
 
     /** Used to detect if a method is native. */
     var reIsNative = RegExp('^' +
-      funcToString.call(hasOwnProperty).replace(reRegExpChar, '\\$&')
+      funcToString.call(hasOwnProperty$2).replace(reRegExpChar, '\\$&')
       .replace(/hasOwnProperty|(function).*?(?=\\\()| for .+?(?=\\\])/g, '$1.*?') + '$'
     );
 
@@ -3058,10 +3061,483 @@
     var _getNative = getNative;
 
     /* Built-in method references that are verified to be native. */
-    _getNative(Object, 'create');
+    var nativeCreate = _getNative(Object, 'create');
+
+    var _nativeCreate = nativeCreate;
+
+    /**
+     * Removes all key-value entries from the hash.
+     *
+     * @private
+     * @name clear
+     * @memberOf Hash
+     */
+    function hashClear() {
+      this.__data__ = _nativeCreate ? _nativeCreate(null) : {};
+      this.size = 0;
+    }
+
+    var _hashClear = hashClear;
+
+    /**
+     * Removes `key` and its value from the hash.
+     *
+     * @private
+     * @name delete
+     * @memberOf Hash
+     * @param {Object} hash The hash to modify.
+     * @param {string} key The key of the value to remove.
+     * @returns {boolean} Returns `true` if the entry was removed, else `false`.
+     */
+    function hashDelete(key) {
+      var result = this.has(key) && delete this.__data__[key];
+      this.size -= result ? 1 : 0;
+      return result;
+    }
+
+    var _hashDelete = hashDelete;
+
+    /** Used to stand-in for `undefined` hash values. */
+    var HASH_UNDEFINED$1 = '__lodash_hash_undefined__';
+
+    /** Used for built-in method references. */
+    var objectProto$1 = Object.prototype;
+
+    /** Used to check objects for own properties. */
+    var hasOwnProperty$1 = objectProto$1.hasOwnProperty;
+
+    /**
+     * Gets the hash value for `key`.
+     *
+     * @private
+     * @name get
+     * @memberOf Hash
+     * @param {string} key The key of the value to get.
+     * @returns {*} Returns the entry value.
+     */
+    function hashGet(key) {
+      var data = this.__data__;
+      if (_nativeCreate) {
+        var result = data[key];
+        return result === HASH_UNDEFINED$1 ? undefined : result;
+      }
+      return hasOwnProperty$1.call(data, key) ? data[key] : undefined;
+    }
+
+    var _hashGet = hashGet;
+
+    /** Used for built-in method references. */
+    var objectProto = Object.prototype;
+
+    /** Used to check objects for own properties. */
+    var hasOwnProperty = objectProto.hasOwnProperty;
+
+    /**
+     * Checks if a hash value for `key` exists.
+     *
+     * @private
+     * @name has
+     * @memberOf Hash
+     * @param {string} key The key of the entry to check.
+     * @returns {boolean} Returns `true` if an entry for `key` exists, else `false`.
+     */
+    function hashHas(key) {
+      var data = this.__data__;
+      return _nativeCreate ? (data[key] !== undefined) : hasOwnProperty.call(data, key);
+    }
+
+    var _hashHas = hashHas;
+
+    /** Used to stand-in for `undefined` hash values. */
+    var HASH_UNDEFINED = '__lodash_hash_undefined__';
+
+    /**
+     * Sets the hash `key` to `value`.
+     *
+     * @private
+     * @name set
+     * @memberOf Hash
+     * @param {string} key The key of the value to set.
+     * @param {*} value The value to set.
+     * @returns {Object} Returns the hash instance.
+     */
+    function hashSet(key, value) {
+      var data = this.__data__;
+      this.size += this.has(key) ? 0 : 1;
+      data[key] = (_nativeCreate && value === undefined) ? HASH_UNDEFINED : value;
+      return this;
+    }
+
+    var _hashSet = hashSet;
+
+    /**
+     * Creates a hash object.
+     *
+     * @private
+     * @constructor
+     * @param {Array} [entries] The key-value pairs to cache.
+     */
+    function Hash(entries) {
+      var index = -1,
+          length = entries == null ? 0 : entries.length;
+
+      this.clear();
+      while (++index < length) {
+        var entry = entries[index];
+        this.set(entry[0], entry[1]);
+      }
+    }
+
+    // Add methods to `Hash`.
+    Hash.prototype.clear = _hashClear;
+    Hash.prototype['delete'] = _hashDelete;
+    Hash.prototype.get = _hashGet;
+    Hash.prototype.has = _hashHas;
+    Hash.prototype.set = _hashSet;
+
+    var _Hash = Hash;
+
+    /**
+     * Removes all key-value entries from the list cache.
+     *
+     * @private
+     * @name clear
+     * @memberOf ListCache
+     */
+    function listCacheClear() {
+      this.__data__ = [];
+      this.size = 0;
+    }
+
+    var _listCacheClear = listCacheClear;
+
+    /**
+     * Performs a
+     * [`SameValueZero`](http://ecma-international.org/ecma-262/7.0/#sec-samevaluezero)
+     * comparison between two values to determine if they are equivalent.
+     *
+     * @static
+     * @memberOf _
+     * @since 4.0.0
+     * @category Lang
+     * @param {*} value The value to compare.
+     * @param {*} other The other value to compare.
+     * @returns {boolean} Returns `true` if the values are equivalent, else `false`.
+     * @example
+     *
+     * var object = { 'a': 1 };
+     * var other = { 'a': 1 };
+     *
+     * _.eq(object, object);
+     * // => true
+     *
+     * _.eq(object, other);
+     * // => false
+     *
+     * _.eq('a', 'a');
+     * // => true
+     *
+     * _.eq('a', Object('a'));
+     * // => false
+     *
+     * _.eq(NaN, NaN);
+     * // => true
+     */
+    function eq(value, other) {
+      return value === other || (value !== value && other !== other);
+    }
+
+    var eq_1 = eq;
+
+    /**
+     * Gets the index at which the `key` is found in `array` of key-value pairs.
+     *
+     * @private
+     * @param {Array} array The array to inspect.
+     * @param {*} key The key to search for.
+     * @returns {number} Returns the index of the matched value, else `-1`.
+     */
+    function assocIndexOf(array, key) {
+      var length = array.length;
+      while (length--) {
+        if (eq_1(array[length][0], key)) {
+          return length;
+        }
+      }
+      return -1;
+    }
+
+    var _assocIndexOf = assocIndexOf;
+
+    /** Used for built-in method references. */
+    var arrayProto = Array.prototype;
+
+    /** Built-in value references. */
+    var splice = arrayProto.splice;
+
+    /**
+     * Removes `key` and its value from the list cache.
+     *
+     * @private
+     * @name delete
+     * @memberOf ListCache
+     * @param {string} key The key of the value to remove.
+     * @returns {boolean} Returns `true` if the entry was removed, else `false`.
+     */
+    function listCacheDelete(key) {
+      var data = this.__data__,
+          index = _assocIndexOf(data, key);
+
+      if (index < 0) {
+        return false;
+      }
+      var lastIndex = data.length - 1;
+      if (index == lastIndex) {
+        data.pop();
+      } else {
+        splice.call(data, index, 1);
+      }
+      --this.size;
+      return true;
+    }
+
+    var _listCacheDelete = listCacheDelete;
+
+    /**
+     * Gets the list cache value for `key`.
+     *
+     * @private
+     * @name get
+     * @memberOf ListCache
+     * @param {string} key The key of the value to get.
+     * @returns {*} Returns the entry value.
+     */
+    function listCacheGet(key) {
+      var data = this.__data__,
+          index = _assocIndexOf(data, key);
+
+      return index < 0 ? undefined : data[index][1];
+    }
+
+    var _listCacheGet = listCacheGet;
+
+    /**
+     * Checks if a list cache value for `key` exists.
+     *
+     * @private
+     * @name has
+     * @memberOf ListCache
+     * @param {string} key The key of the entry to check.
+     * @returns {boolean} Returns `true` if an entry for `key` exists, else `false`.
+     */
+    function listCacheHas(key) {
+      return _assocIndexOf(this.__data__, key) > -1;
+    }
+
+    var _listCacheHas = listCacheHas;
+
+    /**
+     * Sets the list cache `key` to `value`.
+     *
+     * @private
+     * @name set
+     * @memberOf ListCache
+     * @param {string} key The key of the value to set.
+     * @param {*} value The value to set.
+     * @returns {Object} Returns the list cache instance.
+     */
+    function listCacheSet(key, value) {
+      var data = this.__data__,
+          index = _assocIndexOf(data, key);
+
+      if (index < 0) {
+        ++this.size;
+        data.push([key, value]);
+      } else {
+        data[index][1] = value;
+      }
+      return this;
+    }
+
+    var _listCacheSet = listCacheSet;
+
+    /**
+     * Creates an list cache object.
+     *
+     * @private
+     * @constructor
+     * @param {Array} [entries] The key-value pairs to cache.
+     */
+    function ListCache(entries) {
+      var index = -1,
+          length = entries == null ? 0 : entries.length;
+
+      this.clear();
+      while (++index < length) {
+        var entry = entries[index];
+        this.set(entry[0], entry[1]);
+      }
+    }
+
+    // Add methods to `ListCache`.
+    ListCache.prototype.clear = _listCacheClear;
+    ListCache.prototype['delete'] = _listCacheDelete;
+    ListCache.prototype.get = _listCacheGet;
+    ListCache.prototype.has = _listCacheHas;
+    ListCache.prototype.set = _listCacheSet;
+
+    var _ListCache = ListCache;
 
     /* Built-in method references that are verified to be native. */
-    _getNative(_root, 'Map');
+    var Map$1 = _getNative(_root, 'Map');
+
+    var _Map = Map$1;
+
+    /**
+     * Removes all key-value entries from the map.
+     *
+     * @private
+     * @name clear
+     * @memberOf MapCache
+     */
+    function mapCacheClear() {
+      this.size = 0;
+      this.__data__ = {
+        'hash': new _Hash,
+        'map': new (_Map || _ListCache),
+        'string': new _Hash
+      };
+    }
+
+    var _mapCacheClear = mapCacheClear;
+
+    /**
+     * Checks if `value` is suitable for use as unique object key.
+     *
+     * @private
+     * @param {*} value The value to check.
+     * @returns {boolean} Returns `true` if `value` is suitable, else `false`.
+     */
+    function isKeyable(value) {
+      var type = typeof value;
+      return (type == 'string' || type == 'number' || type == 'symbol' || type == 'boolean')
+        ? (value !== '__proto__')
+        : (value === null);
+    }
+
+    var _isKeyable = isKeyable;
+
+    /**
+     * Gets the data for `map`.
+     *
+     * @private
+     * @param {Object} map The map to query.
+     * @param {string} key The reference key.
+     * @returns {*} Returns the map data.
+     */
+    function getMapData(map, key) {
+      var data = map.__data__;
+      return _isKeyable(key)
+        ? data[typeof key == 'string' ? 'string' : 'hash']
+        : data.map;
+    }
+
+    var _getMapData = getMapData;
+
+    /**
+     * Removes `key` and its value from the map.
+     *
+     * @private
+     * @name delete
+     * @memberOf MapCache
+     * @param {string} key The key of the value to remove.
+     * @returns {boolean} Returns `true` if the entry was removed, else `false`.
+     */
+    function mapCacheDelete(key) {
+      var result = _getMapData(this, key)['delete'](key);
+      this.size -= result ? 1 : 0;
+      return result;
+    }
+
+    var _mapCacheDelete = mapCacheDelete;
+
+    /**
+     * Gets the map value for `key`.
+     *
+     * @private
+     * @name get
+     * @memberOf MapCache
+     * @param {string} key The key of the value to get.
+     * @returns {*} Returns the entry value.
+     */
+    function mapCacheGet(key) {
+      return _getMapData(this, key).get(key);
+    }
+
+    var _mapCacheGet = mapCacheGet;
+
+    /**
+     * Checks if a map value for `key` exists.
+     *
+     * @private
+     * @name has
+     * @memberOf MapCache
+     * @param {string} key The key of the entry to check.
+     * @returns {boolean} Returns `true` if an entry for `key` exists, else `false`.
+     */
+    function mapCacheHas(key) {
+      return _getMapData(this, key).has(key);
+    }
+
+    var _mapCacheHas = mapCacheHas;
+
+    /**
+     * Sets the map `key` to `value`.
+     *
+     * @private
+     * @name set
+     * @memberOf MapCache
+     * @param {string} key The key of the value to set.
+     * @param {*} value The value to set.
+     * @returns {Object} Returns the map cache instance.
+     */
+    function mapCacheSet(key, value) {
+      var data = _getMapData(this, key),
+          size = data.size;
+
+      data.set(key, value);
+      this.size += data.size == size ? 0 : 1;
+      return this;
+    }
+
+    var _mapCacheSet = mapCacheSet;
+
+    /**
+     * Creates a map cache object to store key-value pairs.
+     *
+     * @private
+     * @constructor
+     * @param {Array} [entries] The key-value pairs to cache.
+     */
+    function MapCache(entries) {
+      var index = -1,
+          length = entries == null ? 0 : entries.length;
+
+      this.clear();
+      while (++index < length) {
+        var entry = entries[index];
+        this.set(entry[0], entry[1]);
+      }
+    }
+
+    // Add methods to `MapCache`.
+    MapCache.prototype.clear = _mapCacheClear;
+    MapCache.prototype['delete'] = _mapCacheDelete;
+    MapCache.prototype.get = _mapCacheGet;
+    MapCache.prototype.has = _mapCacheHas;
+    MapCache.prototype.set = _mapCacheSet;
+
+    var _MapCache = MapCache;
 
     /* Built-in method references that are verified to be native. */
     var Set$1 = _getNative(_root, 'Set');
@@ -3106,7 +3582,7 @@
     var _setToArray = setToArray;
 
     /** Used as references for various `Number` constants. */
-    var INFINITY = 1 / 0;
+    var INFINITY$1 = 1 / 0;
 
     /**
      * Creates a set object of `values`.
@@ -3115,177 +3591,287 @@
      * @param {Array} values The values to add to the set.
      * @returns {Object} Returns the new set.
      */
-    !(_Set && (1 / _setToArray(new _Set([,-0]))[1]) == INFINITY) ? noop_1 : function(values) {
+    !(_Set && (1 / _setToArray(new _Set([,-0]))[1]) == INFINITY$1) ? noop_1 : function(values) {
       return new _Set(values);
     };
+
+    /** Used to match property names within property paths. */
+    var reIsDeepProp = /\.|\[(?:[^[\]]*|(["'])(?:(?!\1)[^\\]|\\.)*?\1)\]/,
+        reIsPlainProp = /^\w*$/;
+
+    /**
+     * Checks if `value` is a property name and not a property path.
+     *
+     * @private
+     * @param {*} value The value to check.
+     * @param {Object} [object] The object to query keys on.
+     * @returns {boolean} Returns `true` if `value` is a property name, else `false`.
+     */
+    function isKey(value, object) {
+      if (isArray_1(value)) {
+        return false;
+      }
+      var type = typeof value;
+      if (type == 'number' || type == 'symbol' || type == 'boolean' ||
+          value == null || isSymbol_1(value)) {
+        return true;
+      }
+      return reIsPlainProp.test(value) || !reIsDeepProp.test(value) ||
+        (object != null && value in Object(object));
+    }
+
+    var _isKey = isKey;
+
+    /** Error message constants. */
+    var FUNC_ERROR_TEXT = 'Expected a function';
+
+    /**
+     * Creates a function that memoizes the result of `func`. If `resolver` is
+     * provided, it determines the cache key for storing the result based on the
+     * arguments provided to the memoized function. By default, the first argument
+     * provided to the memoized function is used as the map cache key. The `func`
+     * is invoked with the `this` binding of the memoized function.
+     *
+     * **Note:** The cache is exposed as the `cache` property on the memoized
+     * function. Its creation may be customized by replacing the `_.memoize.Cache`
+     * constructor with one whose instances implement the
+     * [`Map`](http://ecma-international.org/ecma-262/7.0/#sec-properties-of-the-map-prototype-object)
+     * method interface of `clear`, `delete`, `get`, `has`, and `set`.
+     *
+     * @static
+     * @memberOf _
+     * @since 0.1.0
+     * @category Function
+     * @param {Function} func The function to have its output memoized.
+     * @param {Function} [resolver] The function to resolve the cache key.
+     * @returns {Function} Returns the new memoized function.
+     * @example
+     *
+     * var object = { 'a': 1, 'b': 2 };
+     * var other = { 'c': 3, 'd': 4 };
+     *
+     * var values = _.memoize(_.values);
+     * values(object);
+     * // => [1, 2]
+     *
+     * values(other);
+     * // => [3, 4]
+     *
+     * object.a = 2;
+     * values(object);
+     * // => [1, 2]
+     *
+     * // Modify the result cache.
+     * values.cache.set(object, ['a', 'b']);
+     * values(object);
+     * // => ['a', 'b']
+     *
+     * // Replace `_.memoize.Cache`.
+     * _.memoize.Cache = WeakMap;
+     */
+    function memoize(func, resolver) {
+      if (typeof func != 'function' || (resolver != null && typeof resolver != 'function')) {
+        throw new TypeError(FUNC_ERROR_TEXT);
+      }
+      var memoized = function() {
+        var args = arguments,
+            key = resolver ? resolver.apply(this, args) : args[0],
+            cache = memoized.cache;
+
+        if (cache.has(key)) {
+          return cache.get(key);
+        }
+        var result = func.apply(this, args);
+        memoized.cache = cache.set(key, result) || cache;
+        return result;
+      };
+      memoized.cache = new (memoize.Cache || _MapCache);
+      return memoized;
+    }
+
+    // Expose `MapCache`.
+    memoize.Cache = _MapCache;
+
+    var memoize_1 = memoize;
+
+    /** Used as the maximum memoize cache size. */
+    var MAX_MEMOIZE_SIZE = 500;
+
+    /**
+     * A specialized version of `_.memoize` which clears the memoized function's
+     * cache when it exceeds `MAX_MEMOIZE_SIZE`.
+     *
+     * @private
+     * @param {Function} func The function to have its output memoized.
+     * @returns {Function} Returns the new memoized function.
+     */
+    function memoizeCapped(func) {
+      var result = memoize_1(func, function(key) {
+        if (cache.size === MAX_MEMOIZE_SIZE) {
+          cache.clear();
+        }
+        return key;
+      });
+
+      var cache = result.cache;
+      return result;
+    }
+
+    var _memoizeCapped = memoizeCapped;
+
+    /** Used to match property names within property paths. */
+    var rePropName = /[^.[\]]+|\[(?:(-?\d+(?:\.\d+)?)|(["'])((?:(?!\2)[^\\]|\\.)*?)\2)\]|(?=(?:\.|\[\])(?:\.|\[\]|$))/g;
+
+    /** Used to match backslashes in property paths. */
+    var reEscapeChar = /\\(\\)?/g;
+
+    /**
+     * Converts `string` to a property path array.
+     *
+     * @private
+     * @param {string} string The string to convert.
+     * @returns {Array} Returns the property path array.
+     */
+    var stringToPath = _memoizeCapped(function(string) {
+      var result = [];
+      if (string.charCodeAt(0) === 46 /* . */) {
+        result.push('');
+      }
+      string.replace(rePropName, function(match, number, quote, subString) {
+        result.push(quote ? subString.replace(reEscapeChar, '$1') : (number || match));
+      });
+      return result;
+    });
+
+    var _stringToPath = stringToPath;
+
+    /**
+     * Casts `value` to a path array if it's not one.
+     *
+     * @private
+     * @param {*} value The value to inspect.
+     * @param {Object} [object] The object to query keys on.
+     * @returns {Array} Returns the cast property path array.
+     */
+    function castPath(value, object) {
+      if (isArray_1(value)) {
+        return value;
+      }
+      return _isKey(value, object) ? [value] : _stringToPath(toString_1(value));
+    }
+
+    var _castPath = castPath;
+
+    /** Used as references for various `Number` constants. */
+    var INFINITY = 1 / 0;
+
+    /**
+     * Converts `value` to a string key if it's not a string or symbol.
+     *
+     * @private
+     * @param {*} value The value to inspect.
+     * @returns {string|symbol} Returns the key.
+     */
+    function toKey(value) {
+      if (typeof value == 'string' || isSymbol_1(value)) {
+        return value;
+      }
+      var result = (value + '');
+      return (result == '0' && (1 / value) == -INFINITY) ? '-0' : result;
+    }
+
+    var _toKey = toKey;
+
+    /**
+     * The base implementation of `_.get` without support for default values.
+     *
+     * @private
+     * @param {Object} object The object to query.
+     * @param {Array|string} path The path of the property to get.
+     * @returns {*} Returns the resolved value.
+     */
+    function baseGet(object, path) {
+      path = _castPath(path, object);
+
+      var index = 0,
+          length = path.length;
+
+      while (object != null && index < length) {
+        object = object[_toKey(path[index++])];
+      }
+      return (index && index == length) ? object : undefined;
+    }
+
+    var _baseGet = baseGet;
+
+    /**
+     * Gets the value at `path` of `object`. If the resolved value is
+     * `undefined`, the `defaultValue` is returned in its place.
+     *
+     * @static
+     * @memberOf _
+     * @since 3.7.0
+     * @category Object
+     * @param {Object} object The object to query.
+     * @param {Array|string} path The path of the property to get.
+     * @param {*} [defaultValue] The value returned for `undefined` resolved values.
+     * @returns {*} Returns the resolved value.
+     * @example
+     *
+     * var object = { 'a': [{ 'b': { 'c': 3 } }] };
+     *
+     * _.get(object, 'a[0].b.c');
+     * // => 3
+     *
+     * _.get(object, ['a', '0', 'b', 'c']);
+     * // => 3
+     *
+     * _.get(object, 'a.b.c', 'default');
+     * // => 'default'
+     */
+    function get(object, path, defaultValue) {
+      var result = object == null ? undefined : _baseGet(object, path);
+      return result === undefined ? defaultValue : result;
+    }
+
+    var get_1 = get;
 
     /* svelte/Search.svelte generated by Svelte v3.41.0 */
 
     function get_each_context(ctx, list, i) {
     	const child_ctx = ctx.slice();
-    	child_ctx[18] = list[i].name;
-    	child_ctx[19] = list[i].slug;
-    	child_ctx[20] = list[i].role;
+    	child_ctx[25] = list[i][0];
+    	child_ctx[5] = list[i][1];
+    	child_ctx[26] = list[i][2];
+    	child_ctx[27] = list[i][3];
+    	child_ctx[28] = list[i][4];
+    	child_ctx[29] = list[i][5];
     	return child_ctx;
     }
 
     function get_each_context_1(ctx, list, i) {
     	const child_ctx = ctx.slice();
-    	child_ctx[23] = list[i].title;
-    	child_ctx[19] = list[i].slug;
-    	child_ctx[24] = list[i].intro;
+    	child_ctx[32] = list[i];
+    	child_ctx[34] = i;
     	return child_ctx;
     }
 
-    function get_each_context_2(ctx, list, i) {
-    	const child_ctx = ctx.slice();
-    	child_ctx[23] = list[i].title;
-    	child_ctx[19] = list[i].slug;
-    	child_ctx[24] = list[i].intro;
-    	return child_ctx;
-    }
-
-    // (119:2) {#if resultsProjects.length}
-    function create_if_block_2(ctx) {
+    // (163:2) {#if results.length}
+    function create_if_block(ctx) {
+    	let section;
     	let h2;
-    	let t0;
-    	let t1_value = /*resultsProjects*/ ctx[4].length + "";
-    	let t1;
-    	let t2;
-    	let t3;
-    	let ul;
-    	let each_value_2 = /*resultsProjects*/ ctx[4];
-    	let each_blocks = [];
-
-    	for (let i = 0; i < each_value_2.length; i += 1) {
-    		each_blocks[i] = create_each_block_2(get_each_context_2(ctx, each_value_2, i));
-    	}
-
-    	return {
-    		c() {
-    			h2 = element("h2");
-    			t0 = text("Projects (");
-    			t1 = text(t1_value);
-    			t2 = text(")");
-    			t3 = space();
-    			ul = element("ul");
-
-    			for (let i = 0; i < each_blocks.length; i += 1) {
-    				each_blocks[i].c();
-    			}
-
-    			attr(ul, "class", "plain");
-    			attr(ul, "role", "feed");
-    		},
-    		m(target, anchor) {
-    			insert(target, h2, anchor);
-    			append(h2, t0);
-    			append(h2, t1);
-    			append(h2, t2);
-    			insert(target, t3, anchor);
-    			insert(target, ul, anchor);
-
-    			for (let i = 0; i < each_blocks.length; i += 1) {
-    				each_blocks[i].m(ul, null);
-    			}
-    		},
-    		p(ctx, dirty) {
-    			if (dirty & /*resultsProjects*/ 16 && t1_value !== (t1_value = /*resultsProjects*/ ctx[4].length + "")) set_data(t1, t1_value);
-
-    			if (dirty & /*resultsProjects*/ 16) {
-    				each_value_2 = /*resultsProjects*/ ctx[4];
-    				let i;
-
-    				for (i = 0; i < each_value_2.length; i += 1) {
-    					const child_ctx = get_each_context_2(ctx, each_value_2, i);
-
-    					if (each_blocks[i]) {
-    						each_blocks[i].p(child_ctx, dirty);
-    					} else {
-    						each_blocks[i] = create_each_block_2(child_ctx);
-    						each_blocks[i].c();
-    						each_blocks[i].m(ul, null);
-    					}
-    				}
-
-    				for (; i < each_blocks.length; i += 1) {
-    					each_blocks[i].d(1);
-    				}
-
-    				each_blocks.length = each_value_2.length;
-    			}
-    		},
-    		d(detaching) {
-    			if (detaching) detach(h2);
-    			if (detaching) detach(t3);
-    			if (detaching) detach(ul);
-    			destroy_each(each_blocks, detaching);
-    		}
-    	};
-    }
-
-    // (122:3) {#each resultsProjects as { title, slug, intro }}
-    function create_each_block_2(ctx) {
-    	let li;
-    	let a;
-    	let span0;
-    	let t0_value = /*title*/ ctx[23] + "";
+    	let t0_value = /*noun*/ ctx[26] + "";
     	let t0;
     	let t1;
-    	let span1;
-    	let t2_value = /*intro*/ ctx[24] + "";
+    	let small;
+    	let t2_value = /*results*/ ctx[5].length + "";
     	let t2;
-    	let a_href_value;
+    	let h2_id_value;
+    	let h2_aria_label_value;
     	let t3;
-
-    	return {
-    		c() {
-    			li = element("li");
-    			a = element("a");
-    			span0 = element("span");
-    			t0 = text(t0_value);
-    			t1 = space();
-    			span1 = element("span");
-    			t2 = text(t2_value);
-    			t3 = space();
-    			attr(span0, "class", "result-title");
-    			attr(span1, "class", "result-subtitle");
-    			attr(a, "href", a_href_value = "/" + /*slug*/ ctx[19]);
-    		},
-    		m(target, anchor) {
-    			insert(target, li, anchor);
-    			append(li, a);
-    			append(a, span0);
-    			append(span0, t0);
-    			append(a, t1);
-    			append(a, span1);
-    			append(span1, t2);
-    			append(li, t3);
-    		},
-    		p(ctx, dirty) {
-    			if (dirty & /*resultsProjects*/ 16 && t0_value !== (t0_value = /*title*/ ctx[23] + "")) set_data(t0, t0_value);
-    			if (dirty & /*resultsProjects*/ 16 && t2_value !== (t2_value = /*intro*/ ctx[24] + "")) set_data(t2, t2_value);
-
-    			if (dirty & /*resultsProjects*/ 16 && a_href_value !== (a_href_value = "/" + /*slug*/ ctx[19])) {
-    				attr(a, "href", a_href_value);
-    			}
-    		},
-    		d(detaching) {
-    			if (detaching) detach(li);
-    		}
-    	};
-    }
-
-    // (132:2) {#if resultsEvents.length}
-    function create_if_block_1(ctx) {
-    	let h2;
-    	let t0;
-    	let t1_value = /*resultsEvents*/ ctx[3].length + "";
-    	let t1;
-    	let t2;
-    	let t3;
-    	let ul;
-    	let each_value_1 = /*resultsEvents*/ ctx[3];
+    	let div;
+    	let t4;
+    	let each_value_1 = /*results*/ ctx[5];
     	let each_blocks = [];
 
     	for (let i = 0; i < each_value_1.length; i += 1) {
@@ -3294,37 +3880,57 @@
 
     	return {
     		c() {
+    			section = element("section");
     			h2 = element("h2");
-    			t0 = text("Events (");
-    			t1 = text(t1_value);
-    			t2 = text(")");
+    			t0 = text(t0_value);
+    			t1 = space();
+    			small = element("small");
+    			t2 = text(t2_value);
     			t3 = space();
-    			ul = element("ul");
+    			div = element("div");
 
     			for (let i = 0; i < each_blocks.length; i += 1) {
     				each_blocks[i].c();
     			}
 
-    			attr(ul, "class", "plain");
-    			attr(ul, "role", "feed");
+    			t4 = space();
+    			attr(small, "class", "search-result-counter");
+    			attr(h2, "id", h2_id_value = `results-${/*id*/ ctx[25]}`);
+    			attr(h2, "aria-label", h2_aria_label_value = `Search results for ${/*noun*/ ctx[26]}`);
+    			attr(div, "role", "feed");
+    			attr(div, "aria-busy", "false");
+    			attr(div, "aria-labelledby", "results-projects");
     		},
     		m(target, anchor) {
-    			insert(target, h2, anchor);
+    			insert(target, section, anchor);
+    			append(section, h2);
     			append(h2, t0);
     			append(h2, t1);
-    			append(h2, t2);
-    			insert(target, t3, anchor);
-    			insert(target, ul, anchor);
+    			append(h2, small);
+    			append(small, t2);
+    			append(section, t3);
+    			append(section, div);
 
     			for (let i = 0; i < each_blocks.length; i += 1) {
-    				each_blocks[i].m(ul, null);
+    				each_blocks[i].m(div, null);
     			}
+
+    			append(section, t4);
     		},
     		p(ctx, dirty) {
-    			if (dirty & /*resultsEvents*/ 8 && t1_value !== (t1_value = /*resultsEvents*/ ctx[3].length + "")) set_data(t1, t1_value);
+    			if (dirty[0] & /*resultsTotal*/ 16 && t0_value !== (t0_value = /*noun*/ ctx[26] + "")) set_data(t0, t0_value);
+    			if (dirty[0] & /*resultsTotal*/ 16 && t2_value !== (t2_value = /*results*/ ctx[5].length + "")) set_data(t2, t2_value);
 
-    			if (dirty & /*resultsEvents*/ 8) {
-    				each_value_1 = /*resultsEvents*/ ctx[3];
+    			if (dirty[0] & /*resultsTotal*/ 16 && h2_id_value !== (h2_id_value = `results-${/*id*/ ctx[25]}`)) {
+    				attr(h2, "id", h2_id_value);
+    			}
+
+    			if (dirty[0] & /*resultsTotal*/ 16 && h2_aria_label_value !== (h2_aria_label_value = `Search results for ${/*noun*/ ctx[26]}`)) {
+    				attr(h2, "aria-label", h2_aria_label_value);
+    			}
+
+    			if (dirty[0] & /*resultsTotal, tabIndex, handleKeyDownResult*/ 536) {
+    				each_value_1 = /*results*/ ctx[5];
     				let i;
 
     				for (i = 0; i < each_value_1.length; i += 1) {
@@ -3335,7 +3941,7 @@
     					} else {
     						each_blocks[i] = create_each_block_1(child_ctx);
     						each_blocks[i].c();
-    						each_blocks[i].m(ul, null);
+    						each_blocks[i].m(div, null);
     					}
     				}
 
@@ -3347,162 +3953,38 @@
     			}
     		},
     		d(detaching) {
-    			if (detaching) detach(h2);
-    			if (detaching) detach(t3);
-    			if (detaching) detach(ul);
+    			if (detaching) detach(section);
     			destroy_each(each_blocks, detaching);
     		}
     	};
     }
 
-    // (135:3) {#each resultsEvents as { title, slug, intro }}
+    // (167:4) {#each results as result, i}
     function create_each_block_1(ctx) {
-    	let li;
     	let a;
     	let span0;
-    	let t0_value = /*title*/ ctx[23] + "";
+    	let t0_value = get_1(/*result*/ ctx[32], /*title*/ ctx[27]) + "";
     	let t0;
+    	let span0_id_value;
     	let t1;
     	let span1;
-    	let t2_value = /*intro*/ ctx[24] + "";
+    	let t2_value = get_1(/*result*/ ctx[32], /*subtitle*/ ctx[28]) + "";
     	let t2;
+    	let t3;
     	let a_href_value;
-    	let t3;
+    	let a_aria_posinset_value;
+    	let a_aria_setsize_value;
+    	let a_aria_labelledby_value;
+    	let a_id_value;
+    	let mounted;
+    	let dispose;
 
-    	return {
-    		c() {
-    			li = element("li");
-    			a = element("a");
-    			span0 = element("span");
-    			t0 = text(t0_value);
-    			t1 = space();
-    			span1 = element("span");
-    			t2 = text(t2_value);
-    			t3 = space();
-    			attr(span0, "class", "result-title");
-    			attr(span1, "class", "result-subtitle");
-    			attr(a, "href", a_href_value = "/" + /*slug*/ ctx[19]);
-    		},
-    		m(target, anchor) {
-    			insert(target, li, anchor);
-    			append(li, a);
-    			append(a, span0);
-    			append(span0, t0);
-    			append(a, t1);
-    			append(a, span1);
-    			append(span1, t2);
-    			append(li, t3);
-    		},
-    		p(ctx, dirty) {
-    			if (dirty & /*resultsEvents*/ 8 && t0_value !== (t0_value = /*title*/ ctx[23] + "")) set_data(t0, t0_value);
-    			if (dirty & /*resultsEvents*/ 8 && t2_value !== (t2_value = /*intro*/ ctx[24] + "")) set_data(t2, t2_value);
-
-    			if (dirty & /*resultsEvents*/ 8 && a_href_value !== (a_href_value = "/" + /*slug*/ ctx[19])) {
-    				attr(a, "href", a_href_value);
-    			}
-    		},
-    		d(detaching) {
-    			if (detaching) detach(li);
-    		}
-    	};
-    }
-
-    // (145:2) {#if resultsMembers.length}
-    function create_if_block(ctx) {
-    	let h2;
-    	let t0;
-    	let t1_value = /*resultsMembers*/ ctx[2].length + "";
-    	let t1;
-    	let t2;
-    	let t3;
-    	let ul;
-    	let each_value = /*resultsMembers*/ ctx[2];
-    	let each_blocks = [];
-
-    	for (let i = 0; i < each_value.length; i += 1) {
-    		each_blocks[i] = create_each_block(get_each_context(ctx, each_value, i));
+    	function focus_handler() {
+    		return /*focus_handler*/ ctx[17](/*index*/ ctx[29], /*i*/ ctx[34]);
     	}
 
     	return {
     		c() {
-    			h2 = element("h2");
-    			t0 = text("Members (");
-    			t1 = text(t1_value);
-    			t2 = text(")");
-    			t3 = space();
-    			ul = element("ul");
-
-    			for (let i = 0; i < each_blocks.length; i += 1) {
-    				each_blocks[i].c();
-    			}
-
-    			attr(ul, "class", "plain");
-    			attr(ul, "role", "feed");
-    		},
-    		m(target, anchor) {
-    			insert(target, h2, anchor);
-    			append(h2, t0);
-    			append(h2, t1);
-    			append(h2, t2);
-    			insert(target, t3, anchor);
-    			insert(target, ul, anchor);
-
-    			for (let i = 0; i < each_blocks.length; i += 1) {
-    				each_blocks[i].m(ul, null);
-    			}
-    		},
-    		p(ctx, dirty) {
-    			if (dirty & /*resultsMembers*/ 4 && t1_value !== (t1_value = /*resultsMembers*/ ctx[2].length + "")) set_data(t1, t1_value);
-
-    			if (dirty & /*resultsMembers*/ 4) {
-    				each_value = /*resultsMembers*/ ctx[2];
-    				let i;
-
-    				for (i = 0; i < each_value.length; i += 1) {
-    					const child_ctx = get_each_context(ctx, each_value, i);
-
-    					if (each_blocks[i]) {
-    						each_blocks[i].p(child_ctx, dirty);
-    					} else {
-    						each_blocks[i] = create_each_block(child_ctx);
-    						each_blocks[i].c();
-    						each_blocks[i].m(ul, null);
-    					}
-    				}
-
-    				for (; i < each_blocks.length; i += 1) {
-    					each_blocks[i].d(1);
-    				}
-
-    				each_blocks.length = each_value.length;
-    			}
-    		},
-    		d(detaching) {
-    			if (detaching) detach(h2);
-    			if (detaching) detach(t3);
-    			if (detaching) detach(ul);
-    			destroy_each(each_blocks, detaching);
-    		}
-    	};
-    }
-
-    // (148:3) {#each resultsMembers as { name, slug, role }}
-    function create_each_block(ctx) {
-    	let li;
-    	let a;
-    	let span0;
-    	let t0_value = /*name*/ ctx[18] + "";
-    	let t0;
-    	let t1;
-    	let span1;
-    	let t2_value = /*role*/ ctx[20] + "";
-    	let t2;
-    	let a_href_value;
-    	let t3;
-
-    	return {
-    		c() {
-    			li = element("li");
     			a = element("a");
     			span0 = element("span");
     			t0 = text(t0_value);
@@ -3511,29 +3993,100 @@
     			t2 = text(t2_value);
     			t3 = space();
     			attr(span0, "class", "result-title");
+    			attr(span0, "id", span0_id_value = `search-result-${/*id*/ ctx[25]}-${/*i*/ ctx[34]}`);
     			attr(span1, "class", "result-subtitle");
-    			attr(a, "href", a_href_value = "/" + /*slug*/ ctx[19]);
+    			attr(a, "role", "article");
+    			attr(a, "href", a_href_value = "/" + get_1(/*result*/ ctx[32], 'slug'));
+    			attr(a, "aria-posinset", a_aria_posinset_value = /*i*/ ctx[34] + 1);
+    			attr(a, "aria-setsize", a_aria_setsize_value = /*results*/ ctx[5].length);
+    			attr(a, "tabindex", "0");
+    			attr(a, "aria-labelledby", a_aria_labelledby_value = `search-result-${/*id*/ ctx[25]}-${/*i*/ ctx[34]}`);
+    			attr(a, "id", a_id_value = `result-index-${/*index*/ ctx[29] + /*i*/ ctx[34]}`);
     		},
     		m(target, anchor) {
-    			insert(target, li, anchor);
-    			append(li, a);
+    			insert(target, a, anchor);
     			append(a, span0);
     			append(span0, t0);
     			append(a, t1);
     			append(a, span1);
     			append(span1, t2);
-    			append(li, t3);
-    		},
-    		p(ctx, dirty) {
-    			if (dirty & /*resultsMembers*/ 4 && t0_value !== (t0_value = /*name*/ ctx[18] + "")) set_data(t0, t0_value);
-    			if (dirty & /*resultsMembers*/ 4 && t2_value !== (t2_value = /*role*/ ctx[20] + "")) set_data(t2, t2_value);
+    			append(a, t3);
 
-    			if (dirty & /*resultsMembers*/ 4 && a_href_value !== (a_href_value = "/" + /*slug*/ ctx[19])) {
+    			if (!mounted) {
+    				dispose = [
+    					listen(a, "blur", /*blur_handler*/ ctx[16]),
+    					listen(a, "focus", focus_handler),
+    					listen(a, "keydown", /*handleKeyDownResult*/ ctx[9])
+    				];
+
+    				mounted = true;
+    			}
+    		},
+    		p(new_ctx, dirty) {
+    			ctx = new_ctx;
+    			if (dirty[0] & /*resultsTotal*/ 16 && t0_value !== (t0_value = get_1(/*result*/ ctx[32], /*title*/ ctx[27]) + "")) set_data(t0, t0_value);
+
+    			if (dirty[0] & /*resultsTotal*/ 16 && span0_id_value !== (span0_id_value = `search-result-${/*id*/ ctx[25]}-${/*i*/ ctx[34]}`)) {
+    				attr(span0, "id", span0_id_value);
+    			}
+
+    			if (dirty[0] & /*resultsTotal*/ 16 && t2_value !== (t2_value = get_1(/*result*/ ctx[32], /*subtitle*/ ctx[28]) + "")) set_data(t2, t2_value);
+
+    			if (dirty[0] & /*resultsTotal*/ 16 && a_href_value !== (a_href_value = "/" + get_1(/*result*/ ctx[32], 'slug'))) {
     				attr(a, "href", a_href_value);
+    			}
+
+    			if (dirty[0] & /*resultsTotal*/ 16 && a_aria_setsize_value !== (a_aria_setsize_value = /*results*/ ctx[5].length)) {
+    				attr(a, "aria-setsize", a_aria_setsize_value);
+    			}
+
+    			if (dirty[0] & /*resultsTotal*/ 16 && a_aria_labelledby_value !== (a_aria_labelledby_value = `search-result-${/*id*/ ctx[25]}-${/*i*/ ctx[34]}`)) {
+    				attr(a, "aria-labelledby", a_aria_labelledby_value);
+    			}
+
+    			if (dirty[0] & /*resultsTotal*/ 16 && a_id_value !== (a_id_value = `result-index-${/*index*/ ctx[29] + /*i*/ ctx[34]}`)) {
+    				attr(a, "id", a_id_value);
     			}
     		},
     		d(detaching) {
-    			if (detaching) detach(li);
+    			if (detaching) detach(a);
+    			mounted = false;
+    			run_all(dispose);
+    		}
+    	};
+    }
+
+    // (162:2) {#each resultsTotal as [id, results, noun, title, subtitle, index]}
+    function create_each_block(ctx) {
+    	let if_block_anchor;
+    	let if_block = /*results*/ ctx[5].length && create_if_block(ctx);
+
+    	return {
+    		c() {
+    			if (if_block) if_block.c();
+    			if_block_anchor = empty();
+    		},
+    		m(target, anchor) {
+    			if (if_block) if_block.m(target, anchor);
+    			insert(target, if_block_anchor, anchor);
+    		},
+    		p(ctx, dirty) {
+    			if (/*results*/ ctx[5].length) {
+    				if (if_block) {
+    					if_block.p(ctx, dirty);
+    				} else {
+    					if_block = create_if_block(ctx);
+    					if_block.c();
+    					if_block.m(if_block_anchor.parentNode, if_block_anchor);
+    				}
+    			} else if (if_block) {
+    				if_block.d(1);
+    				if_block = null;
+    			}
+    		},
+    		d(detaching) {
+    			if (if_block) if_block.d(detaching);
+    			if (detaching) detach(if_block_anchor);
     		}
     	};
     }
@@ -3553,13 +4106,14 @@
     	let t1;
     	let div1;
     	let div0;
-    	let t2;
-    	let t3;
     	let mounted;
     	let dispose;
-    	let if_block0 = /*resultsProjects*/ ctx[4].length && create_if_block_2(ctx);
-    	let if_block1 = /*resultsEvents*/ ctx[3].length && create_if_block_1(ctx);
-    	let if_block2 = /*resultsMembers*/ ctx[2].length && create_if_block(ctx);
+    	let each_value = /*resultsTotal*/ ctx[4];
+    	let each_blocks = [];
+
+    	for (let i = 0; i < each_value.length; i += 1) {
+    		each_blocks[i] = create_each_block(get_each_context(ctx, each_value, i));
+    	}
 
     	return {
     		c() {
@@ -3575,17 +4129,17 @@
     			t1 = space();
     			div1 = element("div");
     			div0 = element("div");
-    			if (if_block0) if_block0.c();
-    			t2 = space();
-    			if (if_block1) if_block1.c();
-    			t3 = space();
-    			if (if_block2) if_block2.c();
+
+    			for (let i = 0; i < each_blocks.length; i += 1) {
+    				each_blocks[i].c();
+    			}
+
     			attr(input_1, "type", "search");
     			attr(input_1, "id", "page-search-input");
     			attr(input_1, "placeholder", "Type to search…");
     			attr(input_1, "role", "search");
-    			attr(input_1, "aria-hidden", input_1_aria_hidden_value = !/*isOpen*/ ctx[6]);
-    			toggle_class(input_1, "hasTerm", /*hasTerm*/ ctx[5]);
+    			attr(input_1, "aria-hidden", input_1_aria_hidden_value = Boolean(!/*isOpen*/ ctx[2]));
+    			toggle_class(input_1, "hasTerm", /*hasTerm*/ ctx[1]);
     			attr(path, "stroke", "none");
     			attr(path, "d", "M0 0h24v24H0z");
     			attr(path, "fill", "none");
@@ -3618,17 +4172,17 @@
     			attr(svg, "fill", "none");
     			attr(svg, "stroke-linecap", "round");
     			attr(svg, "stroke-linejoin", "round");
-    			toggle_class(svg, "isOpen", /*isOpen*/ ctx[6]);
+    			toggle_class(svg, "isOpen", /*isOpen*/ ctx[2]);
     			attr(button, "class", "search-trigger");
     			attr(button, "id", "search-trigger");
-    			attr(button, "title", button_title_value = `Click to ${/*isOpen*/ ctx[6] ? 'close' : 'open'} the search field`);
+    			attr(button, "title", button_title_value = `Click to ${/*isOpen*/ ctx[2] ? 'close' : 'open'} the search field`);
     			attr(div0, "class", "grid-wide");
     			attr(div1, "class", "search-results grid");
-    			toggle_class(div1, "hasTerm", /*hasTerm*/ ctx[5]);
+    			toggle_class(div1, "hasTerm", /*hasTerm*/ ctx[1]);
     		},
     		m(target, anchor) {
     			insert(target, input_1, anchor);
-    			/*input_1_binding*/ ctx[11](input_1);
+    			/*input_1_binding*/ ctx[15](input_1);
     			insert(target, t0, anchor);
     			insert(target, button, anchor);
     			append(button, svg);
@@ -3640,97 +4194,80 @@
     			insert(target, t1, anchor);
     			insert(target, div1, anchor);
     			append(div1, div0);
-    			if (if_block0) if_block0.m(div0, null);
-    			append(div0, t2);
-    			if (if_block1) if_block1.m(div0, null);
-    			append(div0, t3);
-    			if (if_block2) if_block2.m(div0, null);
-    			/*div1_binding*/ ctx[12](div1);
+
+    			for (let i = 0; i < each_blocks.length; i += 1) {
+    				each_blocks[i].m(div0, null);
+    			}
+
+    			/*div1_binding*/ ctx[18](div1);
 
     			if (!mounted) {
     				dispose = [
-    					listen(window, "keydown", /*handleKeyDown*/ ctx[8]),
-    					listen(input_1, "input", /*handleInput*/ ctx[7]),
-    					listen(input_1, "blur", /*handleBlur*/ ctx[10]),
-    					listen(button, "click", /*handleTriggerClick*/ ctx[9])
+    					listen(window, "keydown", /*handleKeyDown*/ ctx[7]),
+    					listen(input_1, "input", /*handleInput*/ ctx[6]),
+    					listen(input_1, "keydown", /*handleKeyDownInput*/ ctx[8]),
+    					listen(input_1, "blur", /*handleBlur*/ ctx[11]),
+    					listen(button, "click", /*handleTriggerClick*/ ctx[10])
     				];
 
     				mounted = true;
     			}
     		},
-    		p(ctx, [dirty]) {
-    			if (dirty & /*isOpen*/ 64 && input_1_aria_hidden_value !== (input_1_aria_hidden_value = !/*isOpen*/ ctx[6])) {
+    		p(ctx, dirty) {
+    			if (dirty[0] & /*isOpen*/ 4 && input_1_aria_hidden_value !== (input_1_aria_hidden_value = Boolean(!/*isOpen*/ ctx[2]))) {
     				attr(input_1, "aria-hidden", input_1_aria_hidden_value);
     			}
 
-    			if (dirty & /*hasTerm*/ 32) {
-    				toggle_class(input_1, "hasTerm", /*hasTerm*/ ctx[5]);
+    			if (dirty[0] & /*hasTerm*/ 2) {
+    				toggle_class(input_1, "hasTerm", /*hasTerm*/ ctx[1]);
     			}
 
-    			if (dirty & /*isOpen*/ 64) {
-    				toggle_class(svg, "isOpen", /*isOpen*/ ctx[6]);
+    			if (dirty[0] & /*isOpen*/ 4) {
+    				toggle_class(svg, "isOpen", /*isOpen*/ ctx[2]);
     			}
 
-    			if (dirty & /*isOpen*/ 64 && button_title_value !== (button_title_value = `Click to ${/*isOpen*/ ctx[6] ? 'close' : 'open'} the search field`)) {
+    			if (dirty[0] & /*isOpen*/ 4 && button_title_value !== (button_title_value = `Click to ${/*isOpen*/ ctx[2] ? 'close' : 'open'} the search field`)) {
     				attr(button, "title", button_title_value);
     			}
 
-    			if (/*resultsProjects*/ ctx[4].length) {
-    				if (if_block0) {
-    					if_block0.p(ctx, dirty);
-    				} else {
-    					if_block0 = create_if_block_2(ctx);
-    					if_block0.c();
-    					if_block0.m(div0, t2);
+    			if (dirty[0] & /*resultsTotal, tabIndex, handleKeyDownResult*/ 536) {
+    				each_value = /*resultsTotal*/ ctx[4];
+    				let i;
+
+    				for (i = 0; i < each_value.length; i += 1) {
+    					const child_ctx = get_each_context(ctx, each_value, i);
+
+    					if (each_blocks[i]) {
+    						each_blocks[i].p(child_ctx, dirty);
+    					} else {
+    						each_blocks[i] = create_each_block(child_ctx);
+    						each_blocks[i].c();
+    						each_blocks[i].m(div0, null);
+    					}
     				}
-    			} else if (if_block0) {
-    				if_block0.d(1);
-    				if_block0 = null;
+
+    				for (; i < each_blocks.length; i += 1) {
+    					each_blocks[i].d(1);
+    				}
+
+    				each_blocks.length = each_value.length;
     			}
 
-    			if (/*resultsEvents*/ ctx[3].length) {
-    				if (if_block1) {
-    					if_block1.p(ctx, dirty);
-    				} else {
-    					if_block1 = create_if_block_1(ctx);
-    					if_block1.c();
-    					if_block1.m(div0, t3);
-    				}
-    			} else if (if_block1) {
-    				if_block1.d(1);
-    				if_block1 = null;
-    			}
-
-    			if (/*resultsMembers*/ ctx[2].length) {
-    				if (if_block2) {
-    					if_block2.p(ctx, dirty);
-    				} else {
-    					if_block2 = create_if_block(ctx);
-    					if_block2.c();
-    					if_block2.m(div0, null);
-    				}
-    			} else if (if_block2) {
-    				if_block2.d(1);
-    				if_block2 = null;
-    			}
-
-    			if (dirty & /*hasTerm*/ 32) {
-    				toggle_class(div1, "hasTerm", /*hasTerm*/ ctx[5]);
+    			if (dirty[0] & /*hasTerm*/ 2) {
+    				toggle_class(div1, "hasTerm", /*hasTerm*/ ctx[1]);
     			}
     		},
     		i: noop$1,
     		o: noop$1,
     		d(detaching) {
     			if (detaching) detach(input_1);
-    			/*input_1_binding*/ ctx[11](null);
+    			/*input_1_binding*/ ctx[15](null);
     			if (detaching) detach(t0);
     			if (detaching) detach(button);
     			if (detaching) detach(t1);
     			if (detaching) detach(div1);
-    			if (if_block0) if_block0.d();
-    			if (if_block1) if_block1.d();
-    			if (if_block2) if_block2.d();
-    			/*div1_binding*/ ctx[12](null);
+    			destroy_each(each_blocks, detaching);
+    			/*div1_binding*/ ctx[18](null);
     			mounted = false;
     			run_all(dispose);
     		}
@@ -3738,6 +4275,7 @@
     }
 
     function instance($$self, $$props, $$invalidate) {
+    	let resultsTotal;
     	let input; // Input field
     	let results; // Input field
     	let resultsMembers = []; // Filtered items
@@ -3748,20 +4286,21 @@
     	let fuseProjects; // Fuse instance
     	let hasTerm = false;
     	let isOpen = false;
+    	let tabIndex = 0;
 
     	function handleInput() {
     		const term = trim_1(input.value);
-    		$$invalidate(5, hasTerm = Boolean(term.length));
+    		$$invalidate(1, hasTerm = Boolean(term.length));
 
     		if (hasTerm && fuseMembers && fuseEvents && fuseEvents) {
-    			$$invalidate(2, resultsMembers = fuseMembers.search(term).map(d => d.item));
-    			$$invalidate(3, resultsEvents = fuseEvents.search(term).map(d => d.item));
-    			$$invalidate(4, resultsProjects = fuseProjects.search(term).map(d => d.item));
+    			$$invalidate(12, resultsMembers = fuseMembers.search(term).map(d => d.item));
+    			$$invalidate(13, resultsEvents = fuseEvents.search(term).map(d => d.item));
+    			$$invalidate(14, resultsProjects = fuseProjects.search(term).map(d => d.item));
     			disableBodyScroll(results);
     		} else {
-    			$$invalidate(2, resultsMembers = []);
-    			$$invalidate(3, resultsEvents = []);
-    			$$invalidate(4, resultsProjects = []);
+    			$$invalidate(12, resultsMembers = []);
+    			$$invalidate(13, resultsEvents = []);
+    			$$invalidate(14, resultsProjects = []);
     			enableBodyScroll(results);
     		}
     	}
@@ -3806,7 +4345,7 @@
     		input.blur();
     		$$invalidate(0, input.value = '', input);
     		handleInput();
-    		$$invalidate(6, isOpen = false);
+    		$$invalidate(2, isOpen = false);
     	}
 
     	function handleKeyDown(event) {
@@ -3817,12 +4356,44 @@
     		}
     	}
 
+    	function handleKeyDownInput(event) {
+    		// console.log({ event })
+    		const { key, target, keyCode } = event;
+
+    		if (trim_1(input.value)) {
+    			if (keyCode === 40) {
+    				document.getElementById(`result-index-${tabIndex}`).focus();
+    			} // event.preventDefault();
+    		} else {
+    			if (key === 'Tab') {
+    				closeSearch();
+    			}
+    		}
+    	}
+
+    	function handleKeyDownResult(event) {
+    		const { keyCode } = event;
+
+    		if (keyCode === 40 || keyCode === 38) {
+    			// event.preventDefault();
+    			if (keyCode === 40) {
+    				document.getElementById(`result-index-${tabIndex + 1}`).focus();
+    			} else {
+    				if (tabIndex === 0) {
+    					input.focus();
+    				} else {
+    					document.getElementById(`result-index-${tabIndex - 1}`).focus();
+    				}
+    			}
+    		}
+    	}
+
     	function handleTriggerClick() {
     		if (isOpen) {
     			closeSearch();
     		} else {
     			input.focus();
-    			$$invalidate(6, isOpen = true);
+    			$$invalidate(2, isOpen = true);
     		}
     	}
 
@@ -3830,7 +4401,7 @@
     		setTimeout(
     			() => {
     				if (document.activeElement.id !== 'search-trigger' && !hasTerm) {
-    					$$invalidate(6, isOpen = false);
+    					$$invalidate(2, isOpen = false);
     				}
     			},
     			0
@@ -3844,26 +4415,63 @@
     		});
     	}
 
+    	const blur_handler = () => $$invalidate(3, tabIndex = 0);
+    	const focus_handler = (index, i) => $$invalidate(3, tabIndex = index + i);
+
     	function div1_binding($$value) {
     		binding_callbacks[$$value ? 'unshift' : 'push'](() => {
     			results = $$value;
-    			$$invalidate(1, results);
+    			$$invalidate(5, results);
     		});
     	}
 
+    	$$self.$$.update = () => {
+    		if ($$self.$$.dirty[0] & /*resultsMembers, resultsEvents, resultsProjects*/ 28672) {
+    			resultsMembers.length + resultsEvents.length + resultsProjects.length;
+    		}
+
+    		if ($$self.$$.dirty[0] & /*resultsProjects, resultsEvents, resultsMembers*/ 28672) {
+    			$$invalidate(4, resultsTotal = [
+    				['project', resultsProjects, 'Projects', 'title', 'intro', 0],
+    				[
+    					'event',
+    					resultsEvents,
+    					'Events',
+    					'title',
+    					'intro',
+    					resultsProjects.length
+    				],
+    				[
+    					'member',
+    					resultsMembers,
+    					'Members',
+    					'name',
+    					'role',
+    					resultsProjects.length + resultsEvents.length
+    				]
+    			]);
+    		}
+    	};
+
     	return [
     		input,
+    		hasTerm,
+    		isOpen,
+    		tabIndex,
+    		resultsTotal,
     		results,
+    		handleInput,
+    		handleKeyDown,
+    		handleKeyDownInput,
+    		handleKeyDownResult,
+    		handleTriggerClick,
+    		handleBlur,
     		resultsMembers,
     		resultsEvents,
     		resultsProjects,
-    		hasTerm,
-    		isOpen,
-    		handleInput,
-    		handleKeyDown,
-    		handleTriggerClick,
-    		handleBlur,
     		input_1_binding,
+    		blur_handler,
+    		focus_handler,
     		div1_binding
     	];
     }
@@ -3871,7 +4479,7 @@
     class Search extends SvelteComponent {
     	constructor(options) {
     		super();
-    		init(this, options, instance, create_fragment, safe_not_equal, {});
+    		init(this, options, instance, create_fragment, safe_not_equal, {}, null, [-1, -1]);
     	}
     }
 

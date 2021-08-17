@@ -4,6 +4,7 @@
 	import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
 	import trim from 'lodash/trim';
 	import uniq from 'lodash/uniq';
+	import get from 'lodash/get';
 
 	let input; // Input field
 	let results; // Input field
@@ -16,6 +17,15 @@
 	let hasTerm = false;
 	let pageHeader;
 	let isOpen = false;
+	let tabIndex = 0;
+
+	$: resultsTotalLength = resultsMembers.length + resultsEvents.length + resultsProjects.length
+
+	$: resultsTotal = [
+		['project', resultsProjects, 'Projects', 'title', 'intro', 0],
+		['event', resultsEvents, 'Events', 'title', 'intro', resultsProjects.length],
+		['member', resultsMembers, 'Members', 'name', 'role', resultsProjects.length + resultsEvents.length]
+	]
 
 	function handleInput () {
 		const term = trim(input.value)
@@ -58,6 +68,38 @@
 		}
 	}
 
+	function handleKeyDownInput (event) {
+		// console.log({ event })
+		const { key, target, keyCode } = event;
+		if (trim(input.value)) {
+			if (keyCode === 40) {
+				document.getElementById(`result-index-${tabIndex}`).focus();
+				// event.preventDefault();
+			}
+		} else {
+			if (key === 'Tab') {
+				closeSearch();
+			}
+		}
+	}
+
+	function handleKeyDownResult (event) {
+		const { keyCode } = event;
+		if (keyCode === 40 || keyCode === 38) {
+			// event.preventDefault();
+
+			if (keyCode === 40) {
+				document.getElementById(`result-index-${tabIndex + 1}`).focus();
+			} else {
+				if (tabIndex === 0) {
+					input.focus();
+				} else {
+					document.getElementById(`result-index-${tabIndex - 1}`).focus();
+				}
+			}
+		}
+	}
+
 	function handleTriggerClick () {
 		if (isOpen) {
 			closeSearch();
@@ -84,10 +126,11 @@
 	placeholder="Type to search…"
 	bind:this={input}
 	on:input={handleInput}
+	on:keydown={handleKeyDownInput}
 	on:blur={handleBlur}
 	role="search"
 	class:hasTerm={hasTerm}
-	aria-hidden={!isOpen}>
+	aria-hidden={Boolean(!isOpen)}>
 
 <button
 	class="search-trigger"
@@ -116,44 +159,30 @@
 
 <div class="search-results grid" class:hasTerm={hasTerm} bind:this={results}>
 	<div class="grid-wide">
-		{#if resultsProjects.length}
-		<h2>Projects ({ resultsProjects.length })</h2>
-		<ul class="plain" role="feed">
-			{#each resultsProjects as { title, slug, intro }}
-			<li>
-				<a href="/{ slug }">
-					<span class="result-title">{ title }</span>
-					<span class="result-subtitle">{ intro }</span>
+		{#each resultsTotal as [id, results, noun, title, subtitle, index]}
+		{#if results.length}
+		<section>
+			<h2 id="{`results-${id}`}" aria-label={`Search results for ${noun}`}>{ noun } <small class="search-result-counter">{ results.length }</small></h2>
+			<div role="feed" aria-busy="false" aria-labelledby="results-projects">
+				{#each results as result, i}
+				<a
+					role="article"
+					href="/{ get(result, 'slug') }"
+					aria-posinset="{ i + 1 }"
+					aria-setsize="{ results.length }"
+					tabindex="0"
+					aria-labelledby="{ `search-result-${id}-${i}` }"
+					id={`result-index-${index + i}`}
+					on:blur={ () => tabIndex = 0 }
+					on:focus={ () => tabIndex = index + i }
+					on:keydown={handleKeyDownResult}>
+					<span class="result-title" id={ `search-result-${id}-${i}` }>{ get(result, title) }</span>
+					<span class="result-subtitle">{ get(result, subtitle) }</span>
 				</a>
-			</li>
-			{/each}
-		</ul>
+				{/each}
+			</div>
+		</section>
 		{/if}
-		{#if resultsEvents.length}
-		<h2>Events ({ resultsEvents.length })</h2>
-		<ul class="plain" role="feed">
-			{#each resultsEvents as { title, slug, intro }}
-			<li>
-				<a href="/{ slug }">
-					<span class="result-title">{ title }</span>
-					<span class="result-subtitle">{ intro }</span>
-				</a>
-			</li>
-			{/each}
-		</ul>
-		{/if}
-		{#if resultsMembers.length}
-		<h2>Members ({ resultsMembers.length })</h2>
-		<ul class="plain" role="feed">
-			{#each resultsMembers as { name, slug, role }}
-			<li>
-				<a href="/{ slug }">
-					<span class="result-title">{ name }</span>
-					<span class="result-subtitle">{ role }</span>
-				</a>
-			</li>
-			{/each}
-		</ul>
-		{/if}
+		{/each}
 	</div>
 </div>

@@ -1,12 +1,12 @@
 {{ $membersScratch := newScratch }}
 {{- $membersScratch.Set "members" slice -}}
-{{- range $index, $element := (where .Site.Pages "Section" "members") -}}
+{{- range $index, $element := (where .Site.RegularPages "Section" "members") -}}
   {{- $membersScratch.Add "members" (dict "type" "member" "name" $element.Params.Name "role" $element.Params.Role_string "slug" $element.Slug) -}}
 {{- end -}}
 
 {{ $eventsScratch := newScratch }}
 {{- $eventsScratch.Set "events" slice -}}
-{{- range $index, $element := (where .Site.Pages "Section" "events") -}}
+{{- range $index, $element := (where .Site.RegularPages "Section" "events") -}}
   {{ $relatedMembers := newScratch }}
   {{- range $member := $element.Params.Members -}}
     {{- $relatedMembers.Add "members" (slice $member.name) -}}
@@ -16,7 +16,7 @@
 
 {{ $projectsScratch := newScratch }}
 {{- $projectsScratch.Set "projects" slice -}}
-{{- range $index, $element := (where .Site.Pages "Section" "projects") -}}
+{{- range $index, $element := (where .Site.RegularPages "Section" "projects") -}}
   {{ $relatedMembers := newScratch }}
   {{- range $member := $element.Params.Members -}}
     {{- $relatedMembers.Add "members" (slice $member.name) -}}

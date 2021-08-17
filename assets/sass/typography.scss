@@ -140,6 +140,10 @@ ul {
     margin-bottom: var(--spacing-1);
     display: block;
 
+    &:focus {
+      outline: none;
+    }
+
     .result-title {
       font-size: var(--size-3);
       font-weight: $font-weight-bold;
