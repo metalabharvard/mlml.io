@@ -430,9 +430,7 @@ picture img {
     }
 
     &:not(.isActive):hover {
-      background-image: linear-gradient(90deg, #FF4800, #FFB600);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
+      @include gradient-text();
     }
   }
 

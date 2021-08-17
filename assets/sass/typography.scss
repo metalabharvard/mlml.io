@@ -24,12 +24,33 @@
   text-align: center;
 }
 
-a {
+.footer-social a .icon {
+  stroke: $color-white;
+}
+
+a, button {
   color: $color-default;
   text-decoration: underline;
 
+  .icon {
+    fill: none;
+    stroke: $color-default;
+  }
+
   &:hover, &:focus {
+    // @include gradient-text();
     color: $color-accent;
+
+    .icon {
+      stroke: url("#img-dotted-gradient");
+    }
+  }
+}
+
+a:not(.preview-link) {
+  &:hover, &:focus {
+    @include gradient-text();
+    text-decoration: none;
   }
 }
 
