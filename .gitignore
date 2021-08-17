@@ -117,3 +117,7 @@ build
 
 # Hugo
 resources
+
+# Svelte
+assets/js/svelte.js
+assets/js/svelte.js.map
