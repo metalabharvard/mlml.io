@@ -12,6 +12,7 @@ website: http://cssh.northeastern.edu/people/faculty/dietmar-offenhuber/
 lastmod: "2021-08-16T14:15:51.475Z"
 date: "2021-07-29T15:10:24.398Z"
 slug: dietmar-offenhuber
+noindex: false
 picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122114/dietmar_d647a16002.jpg
     width: 555

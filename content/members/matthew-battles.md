@@ -16,6 +16,7 @@ start: "2021-06-17"
 lastmod: "2021-08-16T14:11:17.759Z"
 date: "2021-06-17T15:01:18.624Z"
 slug: matthew-battles
+noindex: false
 projects:
     - title: futureSTAGE
       slug: futurestage

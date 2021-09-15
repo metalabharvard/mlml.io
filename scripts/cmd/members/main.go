@@ -70,6 +70,7 @@ type Response struct {
   Lastmod string `yaml:"lastmod"`
   Date string `yaml:"date"`
   Slug string `yaml:"slug"`
+  NoIndex bool `yaml:noindex,omitempty`
   Events []Event `yaml:"events,omitempty"`
   Projects []Project `yaml:"projects,omitempty"`
   Picture Picture `yaml:"picture,omitempty"`
@@ -175,6 +176,10 @@ func main() {
 
     element.Created_at = ""
     element.Updated_at = ""
+
+    if element.IsAlumnus {
+      element.NoIndex = true
+    }
 
     file, _ := yaml.Marshal(element)
     _ = ioutil.WriteFile(fmt.Sprintf("content/%s/%s.md", getPath(element.IsAlumnus), element.Slug), []byte(fmt.Sprintf("---\n%s\n---\n%s", file, content)), 0644)

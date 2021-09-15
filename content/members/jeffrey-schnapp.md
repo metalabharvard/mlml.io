@@ -18,6 +18,7 @@ start: "2021-06-17"
 lastmod: "2021-08-16T14:11:08.254Z"
 date: "2021-06-16T16:34:22.247Z"
 slug: jeffrey-schnapp
+noindex: false
 projects:
     - title: futureSTAGE
       slug: futurestage

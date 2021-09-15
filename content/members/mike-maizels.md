@@ -8,6 +8,7 @@ instagram: time_value_of_art
 lastmod: "2021-08-16T14:39:07.314Z"
 date: "2021-08-16T14:39:05.694Z"
 slug: mike-maizels
+noindex: false
 picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122136/mike_f8b77d28f5.jpg
     width: 4107

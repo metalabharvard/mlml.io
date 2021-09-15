@@ -17,6 +17,7 @@ start: "2021-06-17"
 lastmod: "2021-08-16T14:11:32.299Z"
 date: "2021-06-17T15:03:05.077Z"
 slug: sarah-newman
+noindex: false
 events:
     - title: Virtual Creative Spring Workshops 2021
       slug: virtual-creative-spring-workshops-2021

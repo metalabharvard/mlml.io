@@ -12,6 +12,7 @@ website: http://https//camd.northeastern.edu/faculty/paolo-ciuccarelli/
 lastmod: "2021-08-16T14:12:52.938Z"
 date: "2021-07-29T15:14:36.806Z"
 slug: paolo-ciuccarelli
+noindex: false
 picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122125/paolo_81e6c08fc8.jpg
     width: 231

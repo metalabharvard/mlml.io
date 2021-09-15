@@ -13,6 +13,7 @@ instagram: heather_kapplow
 lastmod: "2021-08-16T14:38:07.998Z"
 date: "2021-08-16T14:38:06.259Z"
 slug: heather-kapplow
+noindex: false
 picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122125/heather_262a613934.jpg
     width: 2806

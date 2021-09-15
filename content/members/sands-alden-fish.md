@@ -9,6 +9,7 @@ instagram: sandsfish
 lastmod: "2021-08-16T14:36:30.122Z"
 date: "2021-08-16T14:36:18.284Z"
 slug: sands-alden-fish
+noindex: false
 picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122117/sands_0bfb3a717e.jpg
     width: 850

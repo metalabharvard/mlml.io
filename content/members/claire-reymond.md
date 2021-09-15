@@ -10,6 +10,7 @@ role_string: Affiliate
 lastmod: "2021-08-16T14:13:03.864Z"
 date: "2021-07-29T15:09:54.933Z"
 slug: claire-reymond
+noindex: false
 picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122112/claire_9e5557d676.jpg
     width: 683

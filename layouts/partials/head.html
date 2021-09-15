@@ -4,19 +4,33 @@
   <title>{{ if and .Title (not .IsHome) }}{{ .Title }} – {{ end }}{{ .Site.Title }}</title>
   {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
   {{ with .Site.Params.keywords }}<meta name="keywords" content="{{ . }}">{{ end }}
+  {{ if .Params.noindex -}}
+  <meta name="robots" content="noindex" />
+  {{ else -}}
   <meta name="robots" content="index,follow">
+  {{- end }}
 
-  {{ $defines := dict "process.env.NODE_ENV" `"production"` }}
-  {{ $js := resources.Get "js/index.js" | js.Build (dict "minify" true "defines" $defines) | fingerprint }}
+  {{- $defines := dict "process.env.NODE_ENV" `"production"` -}}
+  {{- $js := resources.Get "js/index.js" | js.Build (dict "minify" true "defines" $defines) | fingerprint }}
   <script type="text/javascript" src="{{ $js.Permalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
 
-  {{ $svelte := resources.Get "/js/svelte.js" | js.Build (dict "minify" true) | fingerprint }}
+  {{- $svelte := resources.Get "/js/svelte.js" | js.Build (dict "minify" true) | fingerprint }}
   <script type="text/javascript" src="{{ $svelte.Permalink }}" integrity="{{ $svelte.Data.Integrity }}" defer></script>
 
-  {{ $style := resources.Get "sass/main.scss" | toCSS | minify | fingerprint }}
+  {{- $style := resources.Get "sass/main.scss" | toCSS | minify | fingerprint }}
   <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}">
 
-  {{ with .Page.OutputFormats.Get "rss" -}}
-    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
-  {{ end -}}
+  {{- with .Page.OutputFormats.Get "rss" -}}
+  {{- printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML -}}
+  {{- end }}
+  {{ if eq .Section "projects" -}}
+  <link rel="index" href="{{ "projects" | absURL }}">
+  {{- else if eq .Section "members" -}}
+  <link rel="index" href="{{ "members" | absURL }}">
+  {{- else if eq .Section "events" -}}
+  <link rel="index" href="{{ "events" | absURL }}">
+  {{- else if eq .Section "alumni" -}}
+  <link rel="index" href="{{ "members" | absURL }}">
+  {{- end }}
+  <link rel="canonical" href="{{ .Permalink }}" />
 </head>

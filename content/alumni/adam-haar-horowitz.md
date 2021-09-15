@@ -6,6 +6,7 @@ rank: 9.999
 lastmod: "2021-08-03T10:24:12.890Z"
 date: "2021-07-29T16:03:43.462Z"
 slug: adam-haar-horowitz
+noindex: true
 events:
     - title: Virtual Creative Spring Workshops 2021
       slug: virtual-creative-spring-workshops-2021

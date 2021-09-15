@@ -12,6 +12,7 @@ instagram: linsderry
 lastmod: "2021-08-16T14:15:39.907Z"
 date: "2021-07-29T15:08:54.522Z"
 slug: lins-derry
+noindex: false
 picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122128/lins_927dfa0458.jpg
     width: 800

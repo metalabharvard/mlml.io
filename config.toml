@@ -11,6 +11,7 @@ theme = ["hugo-cloak-email"]
   projects = "/:slug/"
   members = "/:slug/"
   events = "/:slug/"
+  alumni = "/:slug/"
 
 [markup.goldmark.renderer]
   hardWraps = true

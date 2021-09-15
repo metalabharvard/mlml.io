@@ -13,6 +13,7 @@ instagram: minneatairu
 lastmod: "2021-08-16T14:14:46.886Z"
 date: "2021-07-29T15:12:06.887Z"
 slug: minne-atairu
+noindex: false
 picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122129/minne_615aa5b77a.jpg
     width: 432

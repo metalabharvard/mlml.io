@@ -12,6 +12,7 @@ instagram: annettejaellehmann
 lastmod: "2021-08-16T14:11:45.820Z"
 date: "2021-07-29T15:09:27.781Z"
 slug: annette-jael-lehmann
+noindex: false
 picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122112/annette_b0bfbbd583.jpg
     width: 480

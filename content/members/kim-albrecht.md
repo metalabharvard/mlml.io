@@ -13,6 +13,7 @@ instagram: kimfalbrecht
 lastmod: "2021-08-16T14:15:28.572Z"
 date: "2021-07-29T15:08:03.432Z"
 slug: kim-albrecht
+noindex: false
 events:
     - title: Virtual Creative Spring Workshops 2021
       slug: virtual-creative-spring-workshops-2021
