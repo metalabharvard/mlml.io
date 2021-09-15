@@ -7,8 +7,8 @@
       {{ if .Params.Start_time }}
       <div class="timezone-tabs">
         <nav role="tablist" aria-label="Timezone selection">
-          <button class="event-timezone btn-tab" role="tab" aria-controls="panel-boston" id="tab-boston" aria-selected="true" tabindex="0">Boston</button>
-          <button class="event-timezone btn-tab" role="tab" aria-controls="panel-berlin" id="tab-berlin" aria-selected="false" tabindex="-1">Berlin</button>
+          <button class="event-timezone btn-tab" role="tab" aria-controls="panel-boston" id="tab-boston" aria-selected="true" tabindex="0">{{ .Site.Params.timezoneBostonLabel }}</button>
+          <button class="event-timezone btn-tab" role="tab" aria-controls="panel-berlin" id="tab-berlin" aria-selected="false" tabindex="-1">{{ .Site.Params.timezoneBerlinLabel }}</button>
         </nav>
         <div class="timezone-content">
           <time
@@ -20,7 +20,7 @@
             property="startDate"
             content="{{ dateFormat "2006-01-02T15:04:05-0700" .Params.Start_time_locations.New_York }}"
             datetime="{{ dateFormat "2006-01-02T15:04:05-0700" .Params.Start_time_locations.New_York }}">
-            {{- dateFormat "Monday, 2 January 3:04 pm" .Params.Start_time_locations.New_York }} EDT</time>
+            {{- dateFormat "Monday, 2 January 3:04 pm" .Params.Start_time_locations.New_York }} {{ .Site.Params.timezoneBoston }}</time>
           <time
             class="event-time"
             role="tabpanel"
@@ -31,7 +31,7 @@
             property="startDate"
             content="{{ dateFormat "2006-01-02T15:04:05-0700" .Params.Start_time_locations.Berlin }}"
             datetime="{{ dateFormat "2006-01-02T15:04:05-0700" .Params.Start_time_locations.Berlin }}">
-            {{- dateFormat "Monday, 2 January 3:04 pm" .Params.Start_time_locations.Berlin }} CEST</time>
+            {{- dateFormat "Monday, 2 January 3:04 pm" .Params.Start_time_locations.Berlin }} {{ .Site.Params.timezoneBerlin }}</time>
         </div>
       </div>
       {{ end }}

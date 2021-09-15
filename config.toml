@@ -6,6 +6,10 @@ theme = ["hugo-cloak-email"]
 
 [params]
   contentTypes = ["projects", "members", "events"]
+  timezoneBoston = "EDT"
+  timezoneBostonLabel = "Boston"
+  timezoneBerlin = "CEST"
+  timezoneBerlinLabel = "Berlin"
 
 [permalinks]
   projects = "/:slug/"
