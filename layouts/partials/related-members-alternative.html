@@ -1,0 +1,25 @@
+{{ $term := .term }}
+{{ with .members }}
+{{ $active := where . "isAlumnus" false }}
+{{ with len $active }}
+<section>
+  <h2 class="related-members">{{ $term }} {{ cond (eq (len $active) 1) "member" "members" }}</h2>
+  <ul>
+  {{ range sort $active "slug" }}
+    <li class="related-member"><a href="{{ .slug | absURL }}" ref="author">{{ .name }}</a></li>
+  {{ end }}
+  </ul>
+</section>
+{{ end }}
+{{ $alumni := where . "isAlumnus" true }}
+{{ with len $alumni }}
+<section>
+  <h2 class="related-members">{{ $term }} {{ cond (eq (len $active) 1) "alumnus" "alumni" }}</h2>
+  <ul>
+  {{ range sort $alumni "name" }}
+    <li class="related-member">{{ .name }}</li>
+  {{ end }}
+  </ul>
+</section>
+{{ end }}
+{{ end }}

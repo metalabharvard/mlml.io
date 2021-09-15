@@ -263,24 +263,20 @@ ul {
 }
 
 .related-events, .related-projects, .related-members {
-  font-size: var(--size-3);
+  font-size: var(--size-5);
   font-weight: $font-weight-bold;
   line-height: 1.1;
   display: block;
 }
 
 .related-event, .related-project, .related-member {
-  font-size: var(--size-4);
+  font-size: var(--size-6);
   font-weight: $font-weight-medium;
   line-height: 1.1;
   display: block;
 
   a {
     text-decoration: none;
-  }
-
-  &:not(:last-child) {
-    margin-bottom: var(--spacing-05);
   }
 }
 

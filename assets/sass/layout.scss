@@ -45,7 +45,15 @@ picture img {
   grid-column-gap: $size-gap;
 
   &.grid-v-default {
-    grid-row-gap: var(--spacing-4);
+    grid-row-gap: var(--spacing-2);
+
+    @include query($narrow) {
+      grid-row-gap: var(--spacing-2);
+    }
+
+    @include query($medium) {
+      grid-row-gap: var(--spacing-4);
+    }
   }
 
   .grid-full {
@@ -773,17 +781,28 @@ picture, img {
   }
 }
 
-.related-events, .related-projects, .related-members {
+.event-relations {
   border-top: 1px solid $color-gray;
+  border-bottom: 1px solid $color-gray;
   padding-top: var(--spacing-2);
-  padding-bottom: var(--spacing-05);
+  padding-bottom: var(--spacing-2);
+
+  @include query($narrow) {
+    padding-top: var(--spacing-1);
+    padding-bottom: var(--spacing-1);
+  }
 }
 
-.related-event, .related-project, .rellated-member {
+.related-events, .related-projects, .related-members {
+  // border-top: 1px solid $color-gray;
+  // padding-top: var(--spacing-2);
+  margin-bottom: var(--spacing-05);
+}
+
+.related-event, .related-project, .related-member {
   &:not(:last-child) {
-    padding-bottom: var(--spacing-05);
+    margin-bottom: var(--spacing-05);
   }
-  // padding-bottom: var(--spacing-05);
 }
 
 .page-footer {

@@ -1,11 +1,11 @@
 {{ $term := .term }}
 {{ with .events }}
-<div class="grid-wide">
+<section>
   <h2 class="related-events">{{ $term }} {{ cond (eq (len .) 1) "event" "events" }}</h2>
   <ul>
   {{ range sort . "Slug" }}
     <li class="related-event"><a href="{{ .Slug | absURL }}">{{ .Title }}</a></li>
   {{ end }}
   </ul>
-</div>
+</section>
 {{ end }}

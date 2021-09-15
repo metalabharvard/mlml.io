@@ -20,7 +20,7 @@
             property="startDate"
             content="{{ dateFormat "2006-01-02T15:04:05-0700" .Params.Start_time_locations.New_York }}"
             datetime="{{ dateFormat "2006-01-02T15:04:05-0700" .Params.Start_time_locations.New_York }}">
-            {{- dateFormat "Monday, 2 January 3:04 pm" .Params.Start_time_locations.New_York }} {{ .Site.Params.timezoneBoston }}</time>
+            {{- (dateFormat "Monday, 2 January 3:04&thinsp;pm" .Params.Start_time_locations.New_York) | safeHTML }} {{ .Site.Params.timezoneBoston }}</time>
           <time
             class="event-time"
             role="tabpanel"
@@ -31,11 +31,38 @@
             property="startDate"
             content="{{ dateFormat "2006-01-02T15:04:05-0700" .Params.Start_time_locations.Berlin }}"
             datetime="{{ dateFormat "2006-01-02T15:04:05-0700" .Params.Start_time_locations.Berlin }}">
-            {{- dateFormat "Monday, 2 January 3:04 pm" .Params.Start_time_locations.Berlin }} {{ .Site.Params.timezoneBerlin }}</time>
+            {{- (dateFormat "Monday, 2 January 3:04&thinsp;pm" .Params.Start_time_locations.Berlin) | safeHTML }} {{ .Site.Params.timezoneBerlin }}</time>
         </div>
       </div>
       {{ end }}
     </header>
+    {{ $.Scratch.Set "counter" 0 }}
+    {{ with .Params.Members }}
+    {{ if len . }}
+    {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+    {{ end }}
+    {{ end }}
+
+    {{ with .Params.Projects }}
+    {{ if len . }}
+    {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+    {{ end }}
+    {{ end }}
+
+    {{ $events := where (where (where .Site.RegularPages "Permalink" "ne" .Permalink) "Section" "events") "Params.topicids" "intersect" .Params.topicids }}
+    {{ with $events }}
+    {{ if len . }}
+    {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+    {{ end }}
+    {{ end }}
+
+    {{ if gt ($.Scratch.Get "counter") 0 }}
+    <aside class="event-relations grid-wide grid grid-v-default {{ if eq ($.Scratch.Get "counter") 3 }}third{{ else if eq ($.Scratch.Get "counter") 2 }}half{{ end }}{{ if eq ($.Scratch.Get "counter") 1 }}full{{ end }}">
+      {{ partial "related-members.html" (dict "members" .Params.Members "term" "Involved") }}
+      {{ partial "related-projects.html" (dict "projects" .Params.Projects "term" "Related") }}
+      {{ partial "related-events.html" (dict "events" $events "term" "Related") }}
+    </aside>
+    {{ end }}
     <aside class="event-aside grid-narrow-right-aside">
       {{ partial "span-host.html" (dict "host" .Params.host "type" "event") }}
       <a href="{{ (printf `%s.ics` .Slug) | absURL }}">iCal</a>
@@ -58,9 +85,5 @@
       </ul>
     </div>
     {{ end }}
-    {{ partial "related-members.html" (dict "members" .Params.Members "term" "Involved") }}
-    {{ partial "related-projects.html" (dict "projects" .Params.Projects "term" "Related") }}
-    {{ $events := where (where (where .Site.RegularPages "Permalink" "ne" .Permalink) "Section" "events") "Params.topicids" "intersect" .Params.topicids }}
-    {{ partial "related-events.html" (dict "events" $events "term" "Related") }}
   </section>
 {{ end }}
