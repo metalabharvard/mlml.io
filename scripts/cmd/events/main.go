@@ -110,6 +110,7 @@ func getTopicIDs(topics []Topic) []string {
 }
 
 func main() {
+  println("Requesting events")
   response, err := http.Get("https://metalab-strapi.herokuapp.com/events")
 
   var Lastmod time.Time;
@@ -206,4 +207,5 @@ func main() {
   meta.Lastmod = Lastmod.Format(time.RFC3339)
   file, _ := yaml.Marshal(meta)
   _ = ioutil.WriteFile("content/events/_index.md", []byte(fmt.Sprintf("---\n%s---", file)), 0644)
+  println("Requesting events finished")
 }
