@@ -122,7 +122,7 @@ resources
 assets/js/svelte.js
 assets/js/svelte.js.map
 
-content/alumni/*
-content/events/*
-content/members/*
-content/projects/*
+content/alumni/*.md
+content/events/*.md
+content/members/*.md
+content/projects/*.md
