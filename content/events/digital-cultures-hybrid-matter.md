@@ -1,0 +1,45 @@
+---
+title: Digital Cultures – Hybrid Matter
+outputs:
+    - HTML
+    - Calendar
+time: ""
+start_time: "2018-09-22T12:00:00Z"
+start_time_utc: 20180922T120000Z
+start_time_locations:
+    berlin: "2018-09-22T14:00:00+02:00"
+    new_york: "2018-09-22T08:00:00-04:00"
+    london: "2018-09-22T13:00:00+01:00"
+    los_angeles: "2018-09-22T05:00:00-07:00"
+end_time: "2018-09-25T12:00:00.000Z"
+end_time_utc: 20180922T140000Z
+end_time_locations:
+    berlin: ""
+    new_york: ""
+    london: ""
+    los_angeles: ""
+timezone: UTC
+tzid: UTC
+intro: ""
+location: Warsaw, Poland
+host: ""
+category: ""
+link: ""
+isFeatured: false
+isOngoing: false
+lastmod: "2021-09-16T09:49:46.457Z"
+date: "2018-09-22T12:00:00Z"
+slug: digital-cultures-hybrid-matter
+links:
+    - text: ""
+      url: http://digitalcultures.pl/en
+---
+Held September 22-25, 2018 in Warsaw, Poland, the Digital Cultures conference is a program of interdisciplinary debates and presentations that explore the ways digital media technologies are transforming contemporary culture, society, and the economy. The participants included researchers, scholars, and artists from a wide range of disciplines, and among the presenters were metaLAB at Harvard’s Sarah Newman and Kim Albrecht.
+
+Newman gave a talk entitled "Understanding Ourselves and AI through Art" and was a panelist for the discussion of cultural impacts of artificial intelligence. Traditionally, we’ve viewed technology as lens through which to see the world, but in her talk, Newman said technology could be a lens to see ourselves—as a way to make us more self-reflective, and maybe more self-critical. Her installation at the conference was The Future of Secrets, which explores the intersection of opaque technologies and psychology, showing how we project logic and intelligence on things we don’t understand—in this case, algorithms and AI. Flipping the common narrative, Newman’s installation shows, as she said, how "technology brings out our own human-ness." Her other installation she discussed, Moral Labyrinth, asks how we ensure that AI systems of the future act in accordance with human values.
+
+In a similar take but from a different angle, Kim Albrecht spoke about his visualizations of machine intelligence with Alek Tarkowski of Poland’s Centrum Cyfrowe, in a discussion titled "Humans vs. Machines." During the talk, Albrecht explained the idea behind his work Artificial Senses was to create an interface that offers an alternative to how we normally operate our smart phones and laptops, by rendering interactive images that represent how these machines perceive the world through the sensors we give them. Usually, interfaces are humanized, so we understand them, but Albrecht has (re)computerized them, showing how the machines understand them; that is, reversing the process to show us how these machines operate. These curious experimentations reveal many interesting things; for example, how machines are often guessing, whereas we assume they know.
+
+At Digital Cultures, both Newman and Albrecht exposed how there’s a lot going on behind the technology we’re seeing emerge and so quickly become an intrinsic part in our lives. "At metaLAB," Albrecht said, "we’re very much aware of, discussing, and thinking about how we can communicate this in a way that people can understand what’s going on, giving them something that explains it to them in quick and easy ways that are not too technical, but also don’t eliminate the complexities."
+
+When asked to speak more about metaLAB, Albrecht went on: "When technology today is captured by capitalistic structures—the systems are set up to make money and generate profit—it’s great to have institutions that allow for approaching the systems more critically, not operating within it to make a profit but to reflect on it, and to understand what it means for society and how this is influencing us. And metaLAB is a place that allows for that."

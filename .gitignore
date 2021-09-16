@@ -123,6 +123,6 @@ assets/js/svelte.js
 assets/js/svelte.js.map
 
 content/alumni/*.md
-content/events/*.md
+# content/events/*.md
 content/members/*.md
 content/projects/*.md
