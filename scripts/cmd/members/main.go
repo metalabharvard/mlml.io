@@ -119,6 +119,7 @@ func (a ByRole) Less(i, j int) bool { return a[i].Position < a[j].Position }
 func (a ByRole) Swap(i, j int)      { a[i], a[j] = a[j], a[i] }
 
 func main() {
+  println("Requesting members")
   response, err := http.Get("https://metalab-strapi.herokuapp.com/members")
 
   var Lastmod time.Time;
@@ -133,17 +134,17 @@ func main() {
     log.Fatal(err)
   }
 
-  err = os.RemoveAll("../content/members/")
+  err = os.RemoveAll("content/members/")
   if err != nil {
     log.Fatal(err)
   }
-  os.MkdirAll("../content/members/", 0777)
+  os.MkdirAll("content/members/", 0777)
 
-  err = os.RemoveAll("../content/alumni/")
+  err = os.RemoveAll("content/alumni/")
   if err != nil {
     log.Fatal(err)
   }
-  os.MkdirAll("../content/alumni/", 0777)
+  os.MkdirAll("content/alumni/", 0777)
 
   var responseObject []Response
   json.Unmarshal(responseData, &responseObject)
@@ -189,4 +190,6 @@ func main() {
   meta.Lastmod = Lastmod.Format(time.RFC3339)
   file, _ := yaml.Marshal(meta)
   _ = ioutil.WriteFile("content/members/_index.md", []byte(fmt.Sprintf("---\n%s---", file)), 0644)
+  println(fmt.Sprintf("%d elements added", len(responseObject)))
+  println("Requesting members finished")
 }

@@ -1,5 +1,5 @@
 ---
-title: 2021 Virtual Creative Spring Workshops
+title: 2021 Virtual Creative Spring Workshops 2
 outputs:
     - HTML
     - Calendar
@@ -27,7 +27,7 @@ category: ""
 link: ""
 isFeatured: false
 isOngoing: false
-lastmod: "2021-09-16T09:49:46.698Z"
+lastmod: "2021-09-16T11:27:32.211Z"
 date: "2021-06-06T12:00:00Z"
 slug: 2021-virtual-creative-spring-workshops
 ---
