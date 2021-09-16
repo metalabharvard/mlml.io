@@ -1,4 +1,4 @@
-baseURL = "https://jovial-noether-d4ee9f.netlify.app"
+baseURL = "https://metalab.netlify.app/"
 languageCode = "en-us"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 uglyURLs = true
