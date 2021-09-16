@@ -12,6 +12,11 @@ externalLink: ""
 lastmod: "2021-09-15T18:01:05.259Z"
 date: "2020-12-01"
 slug: mahindra-humanities-center-transmedia-arts-seminar
+projects:
+    - title: Hypercam
+      slug: hypercam
+    - title: A Flitting Atlas of the Human Gaze
+      slug: a-flitting-atlas-of-the-human-gaze
 cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686081/Mahindra_Transmedia_Center_ea57b542d1.jpg
     width: 2550
@@ -37,8 +42,6 @@ cover:
             ext: .jpg
             width: 121
             height: 156
-topicIDs:
-    - Mahindra Humanities Center
 
 ---
 metaLAB is partnering with the Mahindra Humanities Center to sponsor the [Transmedia Arts Seminar](https://mahindrahumanities.fas.harvard.edu/transmedia-arts), chaired by [Magda Romanska](https://mahindrahumanities.fas.harvard.edu/people/magda-romanska) and [Hana Worthen](https://mahindrahumanities.fas.harvard.edu/people/hana-worthen). The seminar considers the intersection of contemporary art/theatre and new media technologies, taking up immersive, multisite, and networked modes of transmedia storytelling, performances instrumentalizing a range of live and digital platforms and formats, including social media, augmented and virtual reality, haptic and digital technology, visual and audio mapping, human/AI interaction, algorithms, and bodily and sensory enhancements.

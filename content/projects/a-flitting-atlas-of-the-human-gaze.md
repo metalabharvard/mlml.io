@@ -9,12 +9,17 @@ mediation: mixed_media
 category: project
 isFeatured: false
 externalLink: ""
-lastmod: "2021-09-16T09:49:44.231Z"
+lastmod: "2021-09-16T14:16:55.296Z"
 date: "2021-01-01"
 slug: a-flitting-atlas-of-the-human-gaze
 collaborators:
     - name: ""
       url: ""
+projects:
+    - title: Hypercam
+      slug: hypercam
+    - title: 'Mahindra Humanities Center: Transmedia Arts Seminar'
+      slug: mahindra-humanities-center-transmedia-arts-seminar
 
 ---
 <iframe src="https://metalabharvard.github.io/ars-flittingatlasofthegaze/" width="100%" height="800" frameborder="0" title="A Flitting Atlas of the Human Gaze"></iframe><br />

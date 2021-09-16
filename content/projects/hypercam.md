@@ -9,9 +9,21 @@ mediation: web
 category: ""
 isFeatured: false
 externalLink: ""
-lastmod: "2021-09-15T13:28:28.326Z"
+lastmod: "2021-09-16T14:16:48.616Z"
 date: "2021-08-11T13:04:33.103Z"
 slug: hypercam
+events:
+    - title: 2021 Virtual Creative Spring Workshops 2
+      slug: 2021-virtual-creative-spring-workshops
+members:
+    - name: Kim Albrecht
+      slug: kim-albrecht
+      isAlumnus: false
+projects:
+    - title: A Flitting Atlas of the Human Gaze
+      slug: a-flitting-atlas-of-the-human-gaze
+    - title: 'Mahindra Humanities Center: Transmedia Arts Seminar'
+      slug: mahindra-humanities-center-transmedia-arts-seminar
 cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628687063/hypercam_5052cf8738.jpg
     width: 622

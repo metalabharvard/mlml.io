@@ -36,30 +36,14 @@
       </div>
       {{ end }}
     </header>
-    {{ $.Scratch.Set "counter" 0 }}
-    {{ with .Params.Members }}
-    {{ if len . }}
-    {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
-    {{ end }}
-    {{ end }}
-
-    {{ with .Params.Projects }}
-    {{ if len . }}
-    {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
-    {{ end }}
-    {{ end }}
-
-    {{ $events := where (where (where .Site.RegularPages "Permalink" "ne" .Permalink) "Section" "events") "Params.topicids" "intersect" .Params.topicids }}
-    {{ with $events }}
-    {{ if len . }}
-    {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
-    {{ end }}
-    {{ end }}
-
-    {{ if gt ($.Scratch.Get "counter") 0 }}
-    <aside class="event-relations grid-wide grid grid-v-default {{ if eq ($.Scratch.Get "counter") 3 }}third{{ else if eq ($.Scratch.Get "counter") 2 }}half{{ end }}{{ if eq ($.Scratch.Get "counter") 1 }}full{{ end }}">
-      {{ partial "related-members.html" (dict "members" .Params.Members "term" "Involved") }}
-      {{ partial "related-projects.html" (dict "projects" .Params.Projects "term" "Related") }}
+    {{ $events := .Params.Events }}
+    {{ $members := .Params.Members }}
+    {{ $projects := .Params.Projects }}
+    {{ $count := partial "columnCount.html" (dict "list" (slice $members $projects $events)) }}
+    {{ if gt $count 0 }}
+    <aside class="event-relations grid-wide grid grid-v-default half">
+      {{ partial "related-members.html" (dict "members" $members "term" "Involved") }}
+      {{ partial "related-projects.html" (dict "projects" $projects "term" "Related") }}
       {{ partial "related-events.html" (dict "events" $events "term" "Related") }}
     </aside>
     {{ end }}

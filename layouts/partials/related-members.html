@@ -3,7 +3,7 @@
 <section>
   <h2 class="related-members">{{ $term }} {{ cond (eq (len .) 1) "member" "members" }}</h2>
   <ul>
-  {{ range sort . "slug" -}}
+  {{ range sort . "Slug" -}}
     <li class="related-member">
       {{- if .isAlumnus -}}
       {{- .name -}}

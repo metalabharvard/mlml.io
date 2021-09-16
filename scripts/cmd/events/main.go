@@ -23,6 +23,11 @@ type Member struct {
   IsAlumnus bool `yaml:"isAlumnus"`
 }
 
+type Event struct {
+  Title string `yaml:"title"`
+  Slug string `yaml:"slug"`
+}
+
 type Link struct {
   Text string `yaml:"text"`
   Url string `yaml:"url"`
@@ -89,6 +94,7 @@ type Response struct {
   Slug string `yaml:"slug"`
   Members []Member `yaml:"members,omitempty"`
   Projects []Project `yaml:"projects,omitempty"`
+  Events []Event `yaml:"events,omitempty"`
   Cover Cover `yaml:"cover,omitempty"`
   YouTube string `yaml:"youtube,omitempty"`
   Vimeo string `yaml:"vimeo,omitempty"`
@@ -101,12 +107,29 @@ type Index struct {
   Lastmod string `yaml:"lastmod"`
 }
 
-func getTopicIDs(topics []Topic) []string {
-  vsm := make([]string, len(topics))
-  for i, v := range topics {
-    vsm[i] = v.Topic
+// func getTopicIDs(topics []Topic) []string {
+//   vsm := make([]string, len(topics))
+//   for i, v := range topics {
+//     vsm[i] = v.Topic
+//   }
+//   return vsm
+// }
+
+func getRelatedEvents(topics []Topic, allEvents []Response, slug string) []Event {
+  var list []Event
+  for _, t := range topics {
+    // println(fmt.Sprintf("%s looking for events", t.Topic))
+    for _, a := range allEvents {
+      for _, s := range a.Topics {
+        if s.Topic == t.Topic && a.Slug != slug {
+          // println(fmt.Sprintf("%s found in %s", t.Topic, a.Title))
+          // fmt.Println(Event{a.Title, a.Slug})
+          list = append(list, (Event{a.Title, a.Slug}))
+        }
+      }
+    }
   }
-  return vsm
+  return list
 }
 
 func main() {
@@ -124,7 +147,6 @@ func main() {
   if err != nil {
     log.Fatal(err)
   }
-
 
   FOLDER := "content/events/"
 
@@ -208,7 +230,7 @@ func main() {
 
     element.Outputs = [2]string{"HTML", "Calendar"}
 
-    element.TopicIDs = getTopicIDs(element.Topics)
+    element.Events = getRelatedEvents(element.Topics, responseObject, element.Slug)
 
     element.Topics = nil
 

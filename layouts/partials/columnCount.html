@@ -1,0 +1,11 @@
+{{ $counter := newScratch }}
+{{ $counter.Set "counter" 0 }}
+{{ range .list }}
+  {{ with . }}
+    {{ if len . }}
+      {{ $counter.Set "counter" (add ($counter.Get "counter") 1) }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ return ($counter.Get "counter") }}
+

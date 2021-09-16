@@ -14,6 +14,9 @@ lastmod: "2021-09-16T10:53:04.851Z"
 date: "2021-09-16T10:51:45.402Z"
 slug: kim-albrecht
 noindex: false
+projects:
+    - title: Hypercam
+      slug: hypercam
 picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122126/kim_7989e0da77.jpg
     width: 500

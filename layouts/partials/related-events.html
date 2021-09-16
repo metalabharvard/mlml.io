@@ -4,7 +4,7 @@
   <h2 class="related-events">{{ $term }} {{ cond (eq (len .) 1) "event" "events" }}</h2>
   <ul>
   {{ range sort . "Slug" }}
-    <li class="related-event"><a href="{{ .Slug | absURL }}">{{ .Title }}</a></li>
+    <li class="related-event"><a href="{{ .slug | absURL }}">{{ .title }}</a></li>
   {{ end }}
   </ul>
 </section>

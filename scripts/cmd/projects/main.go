@@ -37,6 +37,12 @@ type Event struct {
   Slug string `yaml:"slug"`
 }
 
+type Project struct {
+  Title string `yaml:"title"`
+  Slug string `yaml:"slug"`
+}
+
+
 type Format struct {
   Url string `yaml:"url,omitempty"`
   Ext string `yaml:"ext,omitempty"`
@@ -87,21 +93,38 @@ type Response struct {
   Links []Link `yaml:"links,omitempty"`
   Events []Event `yaml:"events,omitempty"`
   Members []Member `yaml:"members,omitempty"`
+  Projects []Project `yaml:"projects,omitempty"`
   Cover Cover `yaml:"cover,omitempty"`
   Topics []Topic `yaml:"topics,omitempty"`
-  TopicIDs []string `yaml:"topicIDs,omitempty"`
 }
 
 type Index struct {
   Lastmod string `yaml:"lastmod"`
 }
 
-func getTopicIDs(topics []Topic) []string {
-  vsm := make([]string, len(topics))
-  for i, v := range topics {
-    vsm[i] = v.Topic
+// func getTopicIDs(topics []Topic) []string {
+//   vsm := make([]string, len(topics))
+//   for i, v := range topics {
+//     vsm[i] = v.Topic
+//   }
+//   return vsm
+// }
+
+func getRelatedProjects(topics []Topic, allProjects []Response, slug string) []Project {
+  var list []Project
+  for _, t := range topics {
+    // println(fmt.Sprintf("%s looking for topics", t.Topic))
+    for _, a := range allProjects {
+      for _, s := range a.Topics {
+        if s.Topic == t.Topic && a.Slug != slug {
+          // println(fmt.Sprintf("%s found in %s", t.Topic, a.Title))
+          // fmt.Println(Project{a.Title, a.Slug})
+          list = append(list, (Project{a.Title, a.Slug}))
+        }
+      }
+    }
   }
-  return vsm
+  return list
 }
 
 func main() {
@@ -158,8 +181,7 @@ func main() {
     element.Updated_at = ""
     element.Published_at = ""
 
-    element.TopicIDs = getTopicIDs(element.Topics)
-
+    element.Projects = getRelatedProjects(element.Topics, responseObject, element.Slug)
     element.Topics = nil
 
     file, _ := yaml.Marshal(element)

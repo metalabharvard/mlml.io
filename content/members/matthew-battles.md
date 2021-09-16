@@ -15,6 +15,9 @@ lastmod: "2021-09-16T10:58:53.979Z"
 date: "2021-09-16T10:51:45.422Z"
 slug: matthew-battles
 noindex: false
+events:
+    - title: 2021 Virtual Creative Spring Workshops 2
+      slug: 2021-virtual-creative-spring-workshops
 picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122131/matthew_18c95f4abd.jpg
     width: 850

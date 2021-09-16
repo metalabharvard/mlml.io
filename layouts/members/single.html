@@ -27,7 +27,14 @@
       {{ end }}
     </div>
     {{ end }}
-    {{ partial "related-projects.html" (dict "projects" .Params.Projects "term" "Involved") }}
-    {{ partial "related-events.html" (dict "events" .Params.Events "term" "Involved") }}
+    {{ $events := .Params.Events }}
+    {{ $projects := .Params.Projects }}
+    {{ $count := partial "columnCount.html" (dict "list" (slice $projects $events)) }}
+    {{ if gt $count 0 }}
+    <aside class="member-relations grid-wide grid grid-v-default half">
+      {{ partial "related-projects.html" (dict "projects" $projects "term" "Involved") }}
+      {{ partial "related-events.html" (dict "events" $events "term" "Involved") }}
+    </aside>
+    {{ end }}
   </section>
 {{ end }}

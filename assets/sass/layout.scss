@@ -52,7 +52,7 @@ picture img {
     }
 
     @include query($medium) {
-      grid-row-gap: var(--spacing-4);
+      grid-row-gap: var(--spacing-1);
     }
   }
 
@@ -781,7 +781,7 @@ picture, img {
   }
 }
 
-.event-relations {
+.event-relations, .project-relations, .member-relations {
   border-top: 1px solid $color-gray;
   border-bottom: 1px solid $color-gray;
   padding-top: var(--spacing-2);

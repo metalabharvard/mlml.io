@@ -4,6 +4,17 @@
       <h1 class="project-name" property="name">{{ .Params.Title }}</h1>
       {{ with .Params.Intro }}<span class="project-intro">{{ . | markdownify }}</span>{{ end }}
     </header>
+    {{ $events := .Params.Events }}
+    {{ $members := .Params.Members }}
+    {{ $projects := .Params.Projects }}
+    {{ $count := partial "columnCount.html" (dict "list" (slice $members $projects $events)) }}
+    {{ if gt $count 0 }}
+    <aside class="project-relations grid-wide grid grid-v-default half">
+      {{ partial "related-members.html" (dict "members" $members "term" "Involved") }}
+      {{ partial "related-projects.html" (dict "projects" $projects "term" "Related") }}
+      {{ partial "related-events.html" (dict "events" $events "term" "Related") }}
+    </aside>
+    {{ end }}
     <aside class="project-aside grid-narrow-right-aside">
       {{ with .Params.Category }}<span class="project-type">{{ title . }}</span>{{ end }}
       {{ partial "span-timespan.html" (dict "start" .Params.Start "end" .Params.End) }}
@@ -48,9 +59,5 @@
       </ul>
     </div>
     {{ end }}
-    {{ partial "related-members.html" (dict "members" .Params.Members "term" "Involved") }}
-    {{ partial "related-events.html" (dict "events" .Params.Events "term" "Related") }}
-    {{ $projects := where (where (where .Site.RegularPages "Permalink" "ne" .Permalink) "Section" "projects") "Params.topicids" "intersect" .Params.topicids }}
-    {{ partial "related-projects.html" (dict "projects" $projects "term" "Related") }}
   </section>
 {{ end }}
