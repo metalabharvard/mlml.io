@@ -125,6 +125,19 @@ func main() {
     log.Fatal(err)
   }
 
+
+  FOLDER := "content/events/"
+
+  err = os.RemoveAll(FOLDER)
+  if err != nil {
+    log.Fatal(err)
+  }
+
+  err = os.Mkdir(FOLDER, 0755)
+  if err != nil {
+    log.Fatal(err)
+  }
+
   var responseObject []Response
   json.Unmarshal(responseData, &responseObject)
 
@@ -200,13 +213,13 @@ func main() {
     element.Topics = nil
 
     file, _ := yaml.Marshal(element)
-    _ = ioutil.WriteFile(fmt.Sprintf("content/events/%s.md", element.Slug), []byte(fmt.Sprintf("---\n%s---\n%s", file, content)), 0644)
+    _ = ioutil.WriteFile(fmt.Sprintf("%s/%s.md", FOLDER, element.Slug), []byte(fmt.Sprintf("---\n%s---\n%s", file, content)), 0644)
   }
 
   var meta Index
   meta.Lastmod = Lastmod.Format(time.RFC3339)
   file, _ := yaml.Marshal(meta)
-  _ = ioutil.WriteFile("content/events/_index.md", []byte(fmt.Sprintf("---\n%s---", file)), 0644)
+  _ = ioutil.WriteFile(fmt.Sprintf("%s/_index.md", FOLDER), []byte(fmt.Sprintf("---\n%s---", file)), 0644)
   println(fmt.Sprintf("%d elements added", len(responseObject)))
   println("Requesting events finished")
 }
