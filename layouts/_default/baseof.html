@@ -10,10 +10,10 @@
         <nav class="page-menu-list" id="page-menu-list">
           <ul class="page-menu-items">
             <li class="header until-medium"><a href="{{ "/" | absURL }}" {{ if .IsHome }}class="isActive"{{ end }}><span>metalab</span></a></li>
-            <li><a href="{{ "about" | absURL }}" {{ if eq .RelPermalink "/about/" }}class="isActive"{{ end }}><span>About</span></a></li>
             <li><a href="{{ "projects" | absURL }}" {{ if eq .Section "projects" }}class="isActive"{{ end }}><span>Projects</span></a></li>
-            <li><a href="{{ "members" | absURL }}" {{ if eq .Section "members" }}class="isActive"{{ end }}><span>Members</span></a></li>
             <li><a href="{{ "events" | absURL }}" {{ if eq .Section "events" }}class="isActive"{{ end }}><span>Events</span></a></li>
+            <li><a href="{{ "members" | absURL }}" {{ if eq .Section "members" }}class="isActive"{{ end }}><span>Members</span></a></li>
+            <li><a href="{{ "about" | absURL }}" {{ if eq .RelPermalink "/about/" }}class="isActive"{{ end }}><span>About</span></a></li>
             <li class="social until-medium">{{ partial "footer-social.html" . }}</li>
           </ul>
         </nav>
@@ -63,5 +63,22 @@
         </span>
       </div>
     </footer>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="0"
+      height="0"
+      viewBox="0 0 24 24"
+      stroke-width="2"
+      stroke="currentColor"
+      fill="none"
+      stroke-linecap="round"
+      stroke-linejoin="round">
+      <defs>
+        <linearGradient id="img-dotted-gradient">
+          <stop offset="0%" stop-color="#FF4800"></stop>
+          <stop offset="100%" stop-color="#FFB600"></stop>
+        </linearGradient>
+      </defs>
+    </svg>
   </body>
 </html>
