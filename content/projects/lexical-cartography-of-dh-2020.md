@@ -6,10 +6,10 @@ end: ""
 location: ""
 host: harvard
 mediation: ""
-category: ""
+category: project
 isFeatured: false
 externalLink: https://rodighiero.github.io/DH2020/
-lastmod: "2021-08-11T14:47:48.589Z"
+lastmod: "2021-09-15T18:00:30.164Z"
 date: "2021-08-11T12:59:25.825Z"
 slug: lexical-cartography-of-dh-2020
 cover:

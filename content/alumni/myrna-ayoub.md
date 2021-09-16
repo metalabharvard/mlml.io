@@ -3,8 +3,8 @@ name: Myrna Ayoub
 title: Myrna Ayoub
 isAlumnus: true
 rank: 9.999
-lastmod: "2021-08-16T15:15:41.780Z"
-date: "2021-08-16T15:15:40.252Z"
+lastmod: "2021-09-16T10:51:45.311Z"
+date: "2021-09-16T10:51:45.311Z"
 slug: myrna-ayoub
 noindex: true
 

@@ -3,61 +3,40 @@ title: 'Mahindra Seminar: The Future of Transmedia Performance'
 outputs:
     - HTML
     - Calendar
-time: "2021-05-28T17:00:00.000Z"
-start_time: ""
-start_time_utc: ""
+time: ""
+start_time: "2020-05-14T12:00:00Z"
+start_time_utc: 20200514T120000Z
 start_time_locations:
-    berlin: ""
-    new_york: ""
-    london: ""
-    los_angeles: ""
-end_time: ""
-end_time_utc: ""
+    berlin: "2020-05-14T14:00:00+02:00"
+    new_york: "2020-05-14T08:00:00-04:00"
+    london: "2020-05-14T13:00:00+01:00"
+    los_angeles: "2020-05-14T05:00:00-07:00"
+end_time: "2020-01-01T12:00:00.000Z"
+end_time_utc: 20200514T140000Z
 end_time_locations:
     berlin: ""
     new_york: ""
     london: ""
     los_angeles: ""
-timezone: ""
-tzid: ""
-intro: The future of transmedia performance
+timezone: UTC
+tzid: UTC
+intro: Exploring the impact of pandemic on experimental transmedia theatre and performance.
 location: Cambridge, MA
 host: ""
 category: ""
-link: https://mahindrahumanities.fas.harvard.edu/transmedia-arts
+link: ""
 isFeatured: false
 isOngoing: false
-lastmod: "2021-08-06T16:41:42.468Z"
-date: "2021-07-30T13:23:55.212Z"
+lastmod: "2021-09-16T09:49:45.064Z"
+date: "2020-05-14T12:00:00Z"
 slug: mahindra-seminar-the-future-of-transmedia-performance
-cover:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1627651421/transmediafuture_4c658abf60.jpg
-    width: 1631
-    height: 1885
-    formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1627651422/large_transmediafuture_4c658abf60.jpg
-            ext: .jpg
-            width: 865
-            height: 1000
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1627651423/medium_transmediafuture_4c658abf60.jpg
-            ext: .jpg
-            width: 649
-            height: 750
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1627651423/small_transmediafuture_4c658abf60.jpg
-            ext: .jpg
-            width: 433
-            height: 500
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1627651422/thumbnail_transmediafuture_4c658abf60.jpg
-            ext: .jpg
-            width: 135
-            height: 156
-topicIDs:
-    - Mahindra Humanities Center
 ---
+**THE FUTURE OF TRANSMEDIA PERFORFORMANCE**
+
+**ONLINE
+DATE: MAY 14
+TIME: 5 PM EST**
+
 **[CLICK HERE TO REGISTER](https://harvard.zoom.us/webinar/register/WN_eeQ8KbEiS16OX0yAIRIDdg)**
 
 
@@ -81,5 +60,4 @@ PANELISTS:
 [Igor Golyak (USA/Russia),Artistic Director at Zero Gravity Virtual Theatre Lab](https://www.arlekinplayers.com/zero-g-virtual-theater-lab/)
 
 
-[Wang Chong (China): Artistic Director of Théâtre du Rêve Expérimental](https://www.theatrere.org/) 
-
+[Wang Chong (China): Artistic Director of Théâtre du Rêve Expérimental](https://www.theatrere.org/)

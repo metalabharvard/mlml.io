@@ -1,25 +1,25 @@
 ---
-title: 'Mahindra Transmedia Arts Seminar: Jenn Parker-Starbuck, Animals In The Machine: Robotic Animal Agents'
+title: 'MAHINDRA TRANSMEDIA ARTS SEMINAR: Jenn Parker-Starbuck, Animals in the Machine: Robotic Animal Agents'
 outputs:
     - HTML
     - Calendar
 time: ""
-start_time: "2021-04-15T17:00:00-04:00"
-start_time_utc: 20210415T170000Z
+start_time: "2021-04-15T12:00:00Z"
+start_time_utc: 20210415T120000Z
 start_time_locations:
-    berlin: "2021-04-15T23:00:00+02:00"
-    new_york: "2021-04-15T17:00:00-04:00"
-    london: "2021-04-15T22:00:00+01:00"
-    los_angeles: "2021-04-15T14:00:00-07:00"
-end_time: ""
-end_time_utc: 20210415T190000Z
+    berlin: "2021-04-15T14:00:00+02:00"
+    new_york: "2021-04-15T08:00:00-04:00"
+    london: "2021-04-15T13:00:00+01:00"
+    los_angeles: "2021-04-15T05:00:00-07:00"
+end_time: "2021-01-01T12:00:00.000Z"
+end_time_utc: 20210415T140000Z
 end_time_locations:
     berlin: ""
     new_york: ""
     london: ""
     los_angeles: ""
-timezone: EDT
-tzid: America/New_York
+timezone: UTC
+tzid: UTC
 intro: How mechanized animals might produce a disturbance that provokes possibility.
 location: Cambridge, MA
 host: ""
@@ -27,36 +27,9 @@ category: ""
 link: ""
 isFeatured: false
 isOngoing: false
-lastmod: "2021-08-11T13:14:39.319Z"
-date: "2021-04-15T17:00:00-04:00"
+lastmod: "2021-09-16T09:49:46.095Z"
+date: "2021-04-15T12:00:00Z"
 slug: mahindra-transmedia-arts-seminar-jenn-parker-starbuck-animals-in-the-machine-robotic-animal-agents
-cover:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628687672/Mahindra_Center_title_card_for_Animal_Agents_talk_7b25027a3f.jpg
-    width: 1000
-    height: 1294
-    formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628687673/large_Mahindra_Center_title_card_for_Animal_Agents_talk_7b25027a3f.jpg
-            ext: .jpg
-            width: 773
-            height: 1000
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628687673/medium_Mahindra_Center_title_card_for_Animal_Agents_talk_7b25027a3f.jpg
-            ext: .jpg
-            width: 580
-            height: 750
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628687674/small_Mahindra_Center_title_card_for_Animal_Agents_talk_7b25027a3f.jpg
-            ext: .jpg
-            width: 386
-            height: 500
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628687672/thumbnail_Mahindra_Center_title_card_for_Animal_Agents_talk_7b25027a3f.jpg
-            ext: .jpg
-            width: 121
-            height: 156
-topicIDs:
-    - Mahindra Humanities Center
 ---
 Jenn Parker-Starbuck, Royal Holloway, University of London. April 15, 5pm EST.
 **Animals in the Machine: Robotic Animal Agents**

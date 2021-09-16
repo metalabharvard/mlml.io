@@ -5,17 +5,13 @@ start: "2017-06-01"
 end: "2017-12-01"
 location: ""
 host: both
-mediation: ""
+mediation: web
 category: ""
 isFeatured: false
 externalLink: https://artificial-senses.kimalbrecht.com/
-lastmod: "2021-08-11T14:46:48.592Z"
+lastmod: "2021-09-15T13:26:01.257Z"
 date: "2017-06-01"
 slug: artificial-senses
-members:
-    - name: Kim Albrecht
-      slug: kim-albrecht
-      isAlumnus: false
 cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628173929/img1_017c9cba83.gif
     width: 120

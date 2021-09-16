@@ -12,16 +12,6 @@ externalLink: ""
 lastmod: "2021-08-11T14:47:29.931Z"
 date: "2021-06-16"
 slug: futurestage
-events:
-    - title: Virtual Creative Spring Workshops 2021
-      slug: virtual-creative-spring-workshops-2021
-members:
-    - name: Jeffrey Schnapp
-      slug: jeffrey-schnapp
-      isAlumnus: false
-    - name: Matthew Battles
-      slug: matthew-battles
-      isAlumnus: false
 cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1623942726/futurestage_5eaed577d1.jpg
     width: 2550

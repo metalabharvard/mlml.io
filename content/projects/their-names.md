@@ -6,16 +6,12 @@ end: ""
 location: ""
 host: harvard
 mediation: ""
-category: ""
+category: project
 isFeatured: false
 externalLink: ""
-lastmod: "2021-08-11T14:48:07.223Z"
+lastmod: "2021-09-15T18:01:33.606Z"
 date: "2021-08-11T12:57:09.359Z"
 slug: their-names
-members:
-    - name: Kim Albrecht
-      slug: kim-albrecht
-      isAlumnus: false
 cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686618/their_names_fcc869a829.jpg
     width: 925

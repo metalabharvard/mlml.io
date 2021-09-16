@@ -5,17 +5,13 @@ start: ""
 end: ""
 location: ""
 host: harvard
-mediation: ""
+mediation: web
 category: ""
 isFeatured: false
 externalLink: ""
-lastmod: "2021-08-11T14:46:34.878Z"
+lastmod: "2021-09-15T13:28:28.326Z"
 date: "2021-08-11T13:04:33.103Z"
 slug: hypercam
-members:
-    - name: Kim Albrecht
-      slug: kim-albrecht
-      isAlumnus: false
 cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628687063/hypercam_5052cf8738.jpg
     width: 622

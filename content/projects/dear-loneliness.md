@@ -6,10 +6,10 @@ end: ""
 location: ""
 host: harvard
 mediation: ""
-category: ""
+category: project
 isFeatured: false
 externalLink: ""
-lastmod: "2021-08-11T14:47:13.731Z"
+lastmod: "2021-09-15T17:59:13.776Z"
 date: "2020-11-01"
 slug: dear-loneliness
 cover:

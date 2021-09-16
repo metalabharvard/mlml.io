@@ -6,10 +6,10 @@ end: ""
 location: ""
 host: harvard
 mediation: ""
-category: ""
+category: project
 isFeatured: false
 externalLink: ""
-lastmod: "2021-08-17T16:21:22.648Z"
+lastmod: "2021-09-15T18:01:05.259Z"
 date: "2020-12-01"
 slug: mahindra-humanities-center-transmedia-arts-seminar
 cover:

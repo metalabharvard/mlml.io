@@ -3,8 +3,8 @@ name: Alex Horak
 title: Alex Horak
 isAlumnus: true
 rank: 9.999
-lastmod: "2021-08-03T10:24:19.812Z"
-date: "2021-07-29T16:04:33.545Z"
+lastmod: "2021-09-16T10:51:44.495Z"
+date: "2021-09-16T10:51:44.495Z"
 slug: alex-horak
 noindex: true
 

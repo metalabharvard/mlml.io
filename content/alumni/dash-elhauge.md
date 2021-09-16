@@ -3,8 +3,8 @@ name: Dash Elhauge
 title: Dash Elhauge
 isAlumnus: true
 rank: 9.999
-lastmod: "2021-08-03T10:23:16.644Z"
-date: "2021-08-02T16:38:21.714Z"
+lastmod: "2021-09-16T10:51:45.060Z"
+date: "2021-09-16T10:51:45.060Z"
 slug: dash-elhauge
 noindex: true
 

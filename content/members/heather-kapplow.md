@@ -1,43 +1,21 @@
 ---
 name: Heather Kapplow
 title: Heather Kapplow
-roles:
-    - role: Affiliate
-      position: 4
 isAlumnus: false
-rank: 4.999
-role_string: Affiliate
+rank: 9.999
 twitter: hkapplow
 website: http://heatherkapplow.com/
 instagram: heather_kapplow
-lastmod: "2021-08-16T14:38:07.998Z"
-date: "2021-08-16T14:38:06.259Z"
+lastmod: "2021-09-16T10:51:44.686Z"
+date: "2021-09-16T10:51:44.686Z"
 slug: heather-kapplow
 noindex: false
-picture:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122125/heather_262a613934.jpg
-    width: 2806
-    height: 3102
-    formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122127/large_heather_262a613934.jpg
-            ext: .jpg
-            width: 905
-            height: 1000
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122127/medium_heather_262a613934.jpg
-            ext: .jpg
-            width: 678
-            height: 750
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122127/small_heather_262a613934.jpg
-            ext: .jpg
-            width: 452
-            height: 500
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122126/thumbnail_heather_262a613934.jpg
-            ext: .jpg
-            width: 141
-            height: 156
 
 ---
+Heather Kapplow (no gender pronoun preference) is a self-trained conceptual artist based in the United States. Kapplow creates participatory experiences that elicit unexpected intimacies using objects, alternative interpretations of existing environments, installation, performance, writing, audio and video. 
+
+Kapplow's work has received government (BY, CH, DK, ES, FI, US) and private (Barr Foundation, Berwick Research Institute, LEF Foundation, MassMOCA, New England Foundation for The Arts, Robert Flaherty Foundation, Tanne Foundation, Womens' Studio Workshop) grants, and has been commissioned for galleries, film and performance festivals (Ann Arbor Film Festival, ANTI-Festival, AREA Code Art Fair, Datscha Radio Festival, Flesh Crisis Performance Festival, Independent Film Festival of Boston, Illuminus Boston, ISEA International, Kulturmødet Mors Festival, Meetings Festival, MEM Experimental Art Festival, Open Engagement Conference) in the US and internationally. 
+
+As a part of ensemble projects, Kapplow has performed at the AroS Aarhus Kunstmuseum (DK), Guggenheim Museum (US), Institute of Contemporary Art (US), Isabella Stewart Gardner Museum (US), Museo Arte Moderno (MX), Museum of Fine Arts Boston (US), and the Queens Museum (US), and within works by La Pocha Nostra, Paul Ramirez Jonas, and On Kawara. Kapplow is also an active member of two art communities that produce work collectively: Flux Factory and Mobius Artists Group.
+
+In addition to artmaking, Kapplow writes about art and culture for Hyperallergic, Dig Boston and others; teaches experimental art at Montserrat College of Art; and is currently developing a project called Warmth that uses tech-driven, participatory public art to engage a city’s most vulnerable populations in civic dialogue.

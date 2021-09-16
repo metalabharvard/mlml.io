@@ -22,22 +22,6 @@ links:
       url: https://metalabharvard.github.io/projects/curatorial-aigents/secondlook/
     - text: Watching Machines Loving Grace
       url: https://metalabharvard.github.io/projects/curatorial-aigents/thelovinggrace/
-events:
-    - title: Virtual Creative Spring Workshops 2021
-      slug: virtual-creative-spring-workshops-2021
-members:
-    - name: Jeffrey Schnapp
-      slug: jeffrey-schnapp
-      isAlumnus: false
-    - name: Matthew Battles
-      slug: matthew-battles
-      isAlumnus: false
-    - name: Sarah Newman
-      slug: sarah-newman
-      isAlumnus: false
-    - name: Kim Albrecht
-      slug: kim-albrecht
-      isAlumnus: false
 cover:
     alternativeText: Curatiorial A(i)gents Cover
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1623943307/agents_ce7bfadd93.jpg
