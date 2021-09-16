@@ -37,22 +37,31 @@ a, button {
     stroke: $color-default;
   }
 
-  &:hover, &:focus {
-    // @include gradient-text();
-    color: $color-accent;
-
-    .icon {
-      stroke: url("#img-dotted-gradient");
+  &:not(.preview-link) {
+    &:hover, &:focus {
+      @include gradient-text();
+      text-decoration: none;
     }
   }
+
+  // &:not(.preview-link)
+  // &:hover, &:focus {
+  //   // @include gradient-text();
+  //   color: $color-accent;
+
+  //   .icon {
+  //     stroke: url("#img-dotted-gradient");
+  //   }
+  // }
 }
 
-a:not(.preview-link) {
-  &:hover, &:focus {
-    @include gradient-text();
-    text-decoration: none;
-  }
-}
+// a
+
+// a.preview-link {
+//   &:hover, &:focus {
+
+//   }
+// }
 
 h1 {
   font-size: var(--font-size-l);
@@ -281,10 +290,6 @@ ul {
 }
 
 .project-preview, .event-preview {
-  &:not(:last-child) {
-    border-bottom: 1px solid $color-gray;
-  }
-
   a {
     text-decoration: none;
   }

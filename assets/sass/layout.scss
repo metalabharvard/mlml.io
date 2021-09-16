@@ -535,12 +535,53 @@ picture img {
 }
 
 .project-preview, .event-preview {
-  padding: var(--spacing-025) 0;
-  margin: var(--spacing-05) 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
-  footer {
-    display: flex;
-    justify-content: space-between;
+  &:not(:last-child) {
+    border-bottom: 1px solid $color-gray;
+  }
+
+  &:not(:first-child) .preview-link {
+    padding-bottom: var(--spacing-05);
+  }
+
+  .preview-link {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    padding: var(--spacing-05) 0 var(--spacing-025);
+
+    .preview-image {
+      opacity: 0;
+      position: absolute;
+      left: 0;
+      // top: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 100%;
+      height: auto;
+    }
+
+    & > * {
+      transition: opacity 0s;
+    }
+
+    footer {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &.hasImage:hover {
+      & > * {
+        opacity: 0;
+      }
+
+      .preview-image {
+        opacity: 1;
+      }
+    }
   }
 }
 
