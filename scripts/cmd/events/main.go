@@ -207,5 +207,6 @@ func main() {
   meta.Lastmod = Lastmod.Format(time.RFC3339)
   file, _ := yaml.Marshal(meta)
   _ = ioutil.WriteFile("content/events/_index.md", []byte(fmt.Sprintf("---\n%s---", file)), 0644)
+  println(fmt.Sprintf("%d elements added", len(responseObject)))
   println("Requesting events finished")
 }
