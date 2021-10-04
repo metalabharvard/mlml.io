@@ -161,6 +161,7 @@ function changeLogo () {
   if (currentLogoVariant === logoVariants.length) {
     currentLogoVariant = 0;
     clearInterval(logoInterval);
+    logoInterval = setInterval(changeLogo, Math.random()*15000);
   }
   pageLogo.innerHTML = logoVariants[currentLogoVariant]
 }
