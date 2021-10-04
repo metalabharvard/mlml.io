@@ -63,8 +63,8 @@
     <div class="event-links grid-narrow-right">
       <h2 class="related-links">{{ cond (eq (len .) 1) "Link" "Links" }}</h2>
       <ul>
-      {{ range sort . "text" }}
-        {{ partial "list-item.html" (dict "url" .url "text" .text "class" "link") }}
+      {{ range sort . "label" }}
+        {{ partial "list-item.html" (dict "url" .url "label" .label "class" "link") }}
       {{ end }}
       </ul>
     </div>

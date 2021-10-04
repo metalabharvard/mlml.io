@@ -12,17 +12,17 @@ import (
 )
 
 type Collaborator struct {
-  Name string `yaml:"name"`
+  Label string `yaml:"label"`
   Url string `yaml:"url"`
 }
 
 type PressArticle struct {
-  Text string `yaml:"text"`
+  Label string `yaml:"label"`
   Url string `yaml:"url"`
 }
 
 type Link struct {
-  Text string `yaml:"text"`
+  Label string `yaml:"label"`
   Url string `yaml:"url"`
 }
 
@@ -41,7 +41,6 @@ type Project struct {
   Title string `yaml:"title"`
   Slug string `yaml:"slug"`
 }
-
 
 type Format struct {
   Url string `yaml:"url,omitempty"`
@@ -96,6 +95,7 @@ type Response struct {
   Projects []Project `yaml:"projects,omitempty"`
   Cover Cover `yaml:"cover,omitempty"`
   Topics []Topic `yaml:"topics,omitempty"`
+  Gallery []Cover `yaml:"gallery,omitempty"`
 }
 
 type Index struct {
