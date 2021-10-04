@@ -21,8 +21,24 @@
 }
 
 @font-face {
-  font-family: 'Epicene-Display-Black';
+  font-family: 'Epicene-Text';
+  src: url('../fonts/test-epicene-text-regular.woff2') format('woff2');
+       font-weight: 400;
+       font-display: swap;
+       font-style: normal;
+}
+
+@font-face {
+  font-family: 'Epicene-Text';
   src: url('../fonts/test-epicene-text-medium.woff2') format('woff2');
+       font-weight: 500;
+       font-display: swap;
+       font-style: normal;
+}
+
+@font-face {
+  font-family: 'Epicene-Text';
+  src: url('../fonts/test-epicene-text-bold.woff2') format('woff2');
        font-weight: 800;
        font-display: swap;
        font-style: normal;
