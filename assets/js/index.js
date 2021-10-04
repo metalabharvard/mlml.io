@@ -150,17 +150,19 @@ function changeTabs(e) {
 
 const pageLogo = document.getElementById('page-logo');
 
-const logoVariants = ['metalab', 'metala3', 'metal4b', 'metal@b', 'meta/ab', 'metaläb'];
+const logoVariants = ['metaL&#1051B', 'metaLA&#1026', 'metaLAB', 'meta/AB', 'metaLA&#1026', 'meta&#1027A&#1026', 'metaL&#1237B', 'metaL&#1051B', 'metaL&#1236B', 'metaL&#1051B'];
 let currentLogoVariant = 0;
+let logoInterval;
 
 function changeLogo () {
   currentLogoVariant += 1;
   if (currentLogoVariant === logoVariants.length) {
     currentLogoVariant = 0;
+    clearInterval(logoInterval);
   }
   pageLogo.innerHTML = logoVariants[currentLogoVariant]
 }
 
 if (pageLogo) {
-  setInterval(changeLogo, 500);
+  logoInterval = setInterval(changeLogo, 100);
 }
