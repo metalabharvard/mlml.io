@@ -37,7 +37,7 @@ a, button {
     stroke: $color-default;
   }
 
-  &:not(.preview-link) {
+  &:not(.preview-link):not(.isActive) {
     &:hover, &:focus {
       @include gradient-text();
       text-decoration: none;
@@ -146,7 +146,7 @@ ul {
   }
 }
 
-.page-menu-items, .page-logo, .page-current-section {
+.page-menu-items, .page-current-section {
   font-size: var(--size-2);
   font-weight: $font-weight-medium;
 
@@ -157,6 +157,16 @@ ul {
 
   a {
     text-decoration: none;
+  }
+}
+
+.page-logo a {
+  text-decoration: none;
+  font-family: $font-family-serif;
+  font-size: var(--size-1);
+
+  @include query($medium) {
+    font-size: var(--size-5);
   }
 }
 
