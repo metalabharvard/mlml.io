@@ -4,14 +4,23 @@ intro: Artificial Senses visualizes sensor data of the machines that surround us
 start: "2017-06-01"
 end: "2017-12-01"
 location: ""
-host: both
+host: harvard
 mediation: web
-category: ""
+category: project
 isFeatured: false
 externalLink: https://artificial-senses.kimalbrecht.com/
-lastmod: "2021-09-15T13:26:01.257Z"
+lastmod: "2021-09-29T09:20:10.423Z"
 date: "2017-06-01"
 slug: artificial-senses
+events:
+    - title: MACHINE EXPERIENCE II
+      slug: machine-experience-ii
+    - title: MACHINE EXPERIENCE
+      slug: machine-experience
+members:
+    - name: Kim Albrecht
+      slug: kim-albrecht
+      isAlumnus: false
 cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628173929/img1_017c9cba83.gif
     width: 120

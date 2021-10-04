@@ -18,6 +18,9 @@ noindex: false
 events:
     - title: 2021 Virtual Creative Spring Workshops 2
       slug: 2021-virtual-creative-spring-workshops
+projects:
+    - title: Their Names
+      slug: their-names
 picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122131/matthew_18c95f4abd.jpg
     width: 850

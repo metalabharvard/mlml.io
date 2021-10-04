@@ -16,8 +16,6 @@ collaborators:
     - name: ""
       url: ""
 projects:
-    - title: Hypercam
-      slug: hypercam
     - title: 'Mahindra Humanities Center: Transmedia Arts Seminar'
       slug: mahindra-humanities-center-transmedia-arts-seminar
 

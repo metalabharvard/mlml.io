@@ -15,6 +15,10 @@ date: "2021-09-16T10:51:45.402Z"
 slug: kim-albrecht
 noindex: false
 projects:
+    - title: Artificial Senses
+      slug: artificial-senses
+    - title: Their Names
+      slug: their-names
     - title: Hypercam
       slug: hypercam
 picture:

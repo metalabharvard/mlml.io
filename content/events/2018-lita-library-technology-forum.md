@@ -31,8 +31,6 @@ lastmod: "2021-09-16T14:03:11.531Z"
 date: "2018-11-08T12:00:00Z"
 slug: 2018-lita-library-technology-forum
 events:
-    - title: 2018 LITA Library Technology Forum
-      slug: 2018-lita-library-technology-forum
     - title: 2021 Virtual Creative Spring Workshops 2
       slug: 2021-virtual-creative-spring-workshops
 links:

@@ -1,20 +1,24 @@
 ---
 title: Their Names
-intro: ""
-start: ""
-end: ""
+intro: This page visualizes the names of over 28,000 fatal encounters with police nationwide, from 2000 until the death of George Floyd. It treats the victims as individual persons, highlighting the often sad and disturbing stories behind each datapoint. Beyond listing first names and initials, the site makes available the news and police reports from which the data are taken. It draws on data compiled by Fatal Encounters, a nonprofit, led by journalist and researcher D. Brian Burghart, committed to gathering data on police-related deaths across the United States.
+start: "2020-06-01"
+end: "2020-06-30"
 location: ""
 host: harvard
-mediation: ""
+mediation: web
 category: project
 isFeatured: false
-externalLink: ""
-lastmod: "2021-09-15T18:01:33.606Z"
-date: "2021-08-11T12:57:09.359Z"
+externalLink: https://theirnames.org/
+lastmod: "2021-09-29T09:26:11.594Z"
+date: "2020-06-01"
 slug: their-names
-events:
-    - title: 2021 Virtual Creative Spring Workshops 2
-      slug: 2021-virtual-creative-spring-workshops
+members:
+    - name: Matthew Battles
+      slug: matthew-battles
+      isAlumnus: false
+    - name: Kim Albrecht
+      slug: kim-albrecht
+      isAlumnus: false
 cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686618/their_names_fcc869a829.jpg
     width: 925
@@ -37,12 +41,10 @@ cover:
             height: 156
 
 ---
-**[TheirNames.org](http://theirnames.org/)**
-
-
 We live in a world of systemic racism and systemic violence. The two are inextricably intertwined. This violence tears at victims' families, communities, and everyone involved in fatal encounters with law enforcement. Its effects fall disproportionately on communities of color and Black communities, families, and lives in particular. 
 
-This page visualizes the names of over 28,000 fatal encounters with police nationwide, from 2000 until the death of George Floyd. It treats the victims as individual persons, highlighting the often sad and disturbing stories behind each datapoint. Beyond listing first names and initials, the site makes available the news and police reports from which the data are taken. It draws on data compiled by [Fatal Encounters](https://fatalencounters.org/), a nonprofit, led by journalist and researcher D. Brian Burghart, committed to gathering data on police-related deaths across the United States. 
+This page visualizes the names of over 28,000 fatal encounters with police nationwide, from 2000 until the death of George Floyd. It treats the victims as individual persons, highlighting the often sad and disturbing stories behind each datapoint. Beyond listing first names and initials, the site makes available the news and police reports from which the data are taken. It draws on data compiled by [Fatal Encounters](https://fatalencounters.org/), a nonprofit, led by journalist and researcher D. Brian Burghart, committed to gathering data on police-related deaths across the United States.
+
 Not all of the mortalities documented here come directly at police hands; deaths include suicides, accidents, and civilian homicides that occur during police interventions. The causes of any individual fatal encounter are complex; brutality is not only a factor in policing, but infiltrates our schools, our housing and planning mechanisms, and our public health systems. This systemic violence, which falls disproportionately and distinctly on African Americans, is deep-rooted, pervasive, and resistant to incremental reform.
 Alongside the complexity of mortal interactions, we're struck by the sheer scale of death associated with policing in American communities. As white American and international researchers, our perception of the ensuing trauma is partial and limited. But we must bear witness to this vast system of violence, which exacts a toll on everyone it touches, from the victims, to their bereaved loved ones, to the police who wield this fatal power, to the communities who must contend with the ensuing trauma. We are compelled to acknowledge, as residents of and visitors to American cities, counties, and states, how much violence is done in our name.
 

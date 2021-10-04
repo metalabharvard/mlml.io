@@ -13,8 +13,6 @@ lastmod: "2021-09-15T18:01:05.259Z"
 date: "2020-12-01"
 slug: mahindra-humanities-center-transmedia-arts-seminar
 projects:
-    - title: Hypercam
-      slug: hypercam
     - title: A Flitting Atlas of the Human Gaze
       slug: a-flitting-atlas-of-the-human-gaze
 cover:

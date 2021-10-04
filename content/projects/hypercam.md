@@ -1,29 +1,28 @@
 ---
 title: Hypercam
-intro: ""
-start: ""
-end: ""
+intro: During the first months of 2020, human relationships turned virtual. Once a bounded practice, a backup for otherwise face-to-face encounters, video conferencing became the normative mode of interaction for work meetings, friendships, education, love relationships and family gatherings on both the local and global scales. Hypercam enacts a gesture of visual resistance to the squared-off talking heads that we have all become; it converts the interface flatland into a multidimensional space of play.
+start: "2020-04-01"
+end: "2020-05-31"
 location: ""
 host: harvard
 mediation: web
 category: ""
 isFeatured: false
-externalLink: ""
-lastmod: "2021-09-16T14:16:48.616Z"
-date: "2021-08-11T13:04:33.103Z"
+externalLink: https://hypercam.kimalbrecht.com/
+lastmod: "2021-09-29T09:34:47.643Z"
+date: "2020-04-01"
 slug: hypercam
-events:
-    - title: 2021 Virtual Creative Spring Workshops 2
-      slug: 2021-virtual-creative-spring-workshops
+links:
+    - text: ""
+      url: https://zkm.de/de/ausstellung/2020/10/berechenbar-unberechenbar
+    - text: ""
+      url: https://digitalekunsthalle.zdf.de/zkm_en/index.html#tp125
+    - text: ""
+      url: ""
 members:
     - name: Kim Albrecht
       slug: kim-albrecht
       isAlumnus: false
-projects:
-    - title: A Flitting Atlas of the Human Gaze
-      slug: a-flitting-atlas-of-the-human-gaze
-    - title: 'Mahindra Humanities Center: Transmedia Arts Seminar'
-      slug: mahindra-humanities-center-transmedia-arts-seminar
 cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628687063/hypercam_5052cf8738.jpg
     width: 622
@@ -41,9 +40,6 @@ cover:
             height: 156
 
 ---
-**[VISIT HYPERCAM](https://hypercam.kimalbrecht.com/)**
-
-
 During the first months of 2020, human relationships turned virtual. Once a bounded practice, a backup for otherwise face-to-face encounters, video conferencing became the normative mode of interaction for work meetings, friendships, education, love relationships and family gatherings on both the local and global scales. Hypercam enacts a gesture of visual resistance to the squared-off talking heads that we have all become; it converts the interface flatland into a multidimensional space of play.<br /><br />
 
   <iframe width="100%" height="300" src="https://hypercam.kimalbrecht.com/video/hypercam-low.mp4" frameborder="0" allowfullscreen></iframe>

@@ -30,6 +30,9 @@ isOngoing: false
 lastmod: "2021-09-16T09:49:45.848Z"
 date: "2017-08-08T12:00:00Z"
 slug: machine-experience
+projects:
+    - title: Artificial Senses
+      slug: artificial-senses
 ---
 **MACHINE EXPERIENCE**
 

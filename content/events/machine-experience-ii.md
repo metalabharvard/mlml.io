@@ -30,6 +30,9 @@ isOngoing: false
 lastmod: "2021-09-16T09:49:46.370Z"
 date: "2018-01-19T12:00:00Z"
 slug: machine-experience-ii
+projects:
+    - title: Artificial Senses
+      slug: artificial-senses
 ---
 **January 19 - February 4**<br />
 **Rainbow Unicorn**<br />
