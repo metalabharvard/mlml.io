@@ -13,10 +13,10 @@ lastmod: "2021-09-16T09:49:44.597Z"
 date: "2011-01-01"
 slug: digital-archive-of-japans-2011-disasters
 collaborators:
-    - name: ""
+    - label: Reischauer Institute of Japanese Studies
       url: ""
 links:
-    - text: ""
+    - label: Japan Disasters Digital Archive
       url: http://jdarchive.org/
 
 ---

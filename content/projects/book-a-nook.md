@@ -13,16 +13,16 @@ lastmod: "2021-09-16T09:49:46.378Z"
 date: "2016-01-01"
 slug: book-a-nook
 collaborators:
-    - name: ""
+    - label: The Berkman Klein Center
       url: ""
-    - name: ""
+    - label: The Knight Foundation
       url: ""
 links:
-    - text: ""
+    - label: GitHub Repository
       url: http://github.com/berkmancenter/bookanook
-    - text: ""
+    - label: bookanook.org
       url: http://www.bookanook.org
-    - text: ""
+    - label: Knight Foundation
       url: http://www.knightfoundation.org/grants/201450220/
 
 ---

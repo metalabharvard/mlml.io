@@ -13,10 +13,10 @@ lastmod: "2021-09-16T09:49:44.698Z"
 date: "2012-01-01"
 slug: sensate-journal
 collaborators:
-    - name: ""
+    - label: Sensory Ethnography Lab
       url: ""
 links:
-    - text: ""
+    - label: Sensate
       url: http://sensatejournal.com/
 
 ---

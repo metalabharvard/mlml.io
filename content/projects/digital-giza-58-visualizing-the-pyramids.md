@@ -13,13 +13,13 @@ lastmod: "2021-09-16T09:49:44.589Z"
 date: "2016-01-01"
 slug: digital-giza-58-visualizing-the-pyramids
 links:
-    - text: ""
+    - label: Peter Der Manuelian's Harvard Faculty Profile
       url: http://nelc.fas.harvard.edu/people/peter-der-manuelian
-    - text: ""
+    - label: MFA Boston Giza Archives
       url: http://www.gizapyramids.org/
-    - text: ""
+    - label: Giza3D
       url: http://giza3d.3ds.com/
-    - text: ""
+    - label: Giza 3D&#58; Harvard's Journey to Ancient Egypt
       url: https://www.youtube.com/watch?v=8-YJbEtABU0&feature=youtu.be
 
 ---

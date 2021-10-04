@@ -13,7 +13,7 @@ lastmod: "2021-09-16T09:49:44.261Z"
 date: "2019-01-01"
 slug: the-archive-of-now
 collaborators:
-    - name: ""
+    - label: Harvard Libraries
       url: ""
 
 ---

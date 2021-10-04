@@ -13,12 +13,12 @@ lastmod: "2021-09-16T09:49:45.465Z"
 date: "2016-01-01"
 slug: curarium
 collaborators:
-    - name: ""
+    - label: The Berkman Klein Center
       url: ""
-    - name: ""
+    - label: Villa I Tatti
       url: ""
 links:
-    - text: ""
+    - label: curarium.com
       url: https://curarium.com/
 
 ---

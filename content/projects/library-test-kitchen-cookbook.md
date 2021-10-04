@@ -13,7 +13,7 @@ lastmod: "2021-09-16T09:49:46.465Z"
 date: "2018-01-01"
 slug: library-test-kitchen-cookbook
 links:
-    - text: ""
+    - label: LTK Cookbook
       url: http://www.librarytestkitchen.org
 
 ---

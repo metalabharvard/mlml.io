@@ -13,7 +13,7 @@ lastmod: "2021-09-16T09:49:44.816Z"
 date: "2021-01-01"
 slug: this-recommendation-system-is-broken
 collaborators:
-    - name: ""
+    - label: Harvard Art Museums
       url: ""
 
 ---

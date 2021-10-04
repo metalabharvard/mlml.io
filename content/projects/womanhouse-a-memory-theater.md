@@ -4,12 +4,12 @@ intro: Memory traces of “the daydreams that women have as they wash, bake, coo
 start: "2019-08-30"
 end: "2019-11-10"
 location: Hannover, Germany
-host: harvard
-mediation: mixed_media
+host: berlin
+mediation: exhibition
 category: project
 isFeatured: false
 externalLink: ""
-lastmod: "2021-09-16T09:49:45.070Z"
+lastmod: "2021-10-04T13:43:43.128Z"
 date: "2019-08-30"
 slug: womanhouse-a-memory-theater
 

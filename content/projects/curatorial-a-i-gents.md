@@ -13,14 +13,14 @@ lastmod: "2021-08-11T14:47:02.527Z"
 date: "2021-06-17"
 slug: curatorial-a-i-gents
 collaborators:
-    - name: Harvard Art Museums
+    - label: ""
       url: ""
 links:
-    - text: Sympoietic System
+    - label: ""
       url: https://metalabharvard.github.io/projects/curatorial-aigents/sympoieticsystem/
-    - text: Second Look
+    - label: ""
       url: https://metalabharvard.github.io/projects/curatorial-aigents/secondlook/
-    - text: Watching Machines Loving Grace
+    - label: ""
       url: https://metalabharvard.github.io/projects/curatorial-aigents/thelovinggrace/
 cover:
     alternativeText: Curatiorial A(i)gents Cover

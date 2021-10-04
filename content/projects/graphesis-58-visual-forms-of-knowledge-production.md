@@ -13,9 +13,9 @@ lastmod: "2021-09-16T09:49:46.565Z"
 date: "2014-01-01"
 slug: graphesis-58-visual-forms-of-knowledge-production
 links:
-    - text: ""
+    - label: Johanna Drucker
       url: http://www.johannadrucker.net/
-    - text: ""
+    - label: Graphesis&#58; Visual Forms of Knowledge Production
       url: https://lecture2go.uni-hamburg.de/l2go/-/get/v/19272
 
 ---

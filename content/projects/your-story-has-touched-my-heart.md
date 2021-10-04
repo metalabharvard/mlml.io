@@ -13,14 +13,14 @@ lastmod: "2021-09-16T09:49:45.064Z"
 date: "2016-01-01"
 slug: your-story-has-touched-my-heart
 collaborators:
-    - name: ""
+    - label: Harvard Art Museums
       url: ""
-    - name: ""
+    - label: Harvard Art Museums Archive
       url: ""
 links:
-    - text: ""
+    - label: Exhibition at Harvard Art Museums
       url: http://www.harvardartmuseums.org/visit/calendar/your-story-has-touched-my-heart
-    - text: ""
+    - label: Harvard Wintersession Course
       url: http://mlhplayground.org/appc/
 
 ---

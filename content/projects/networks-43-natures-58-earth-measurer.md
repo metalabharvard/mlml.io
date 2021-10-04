@@ -13,9 +13,9 @@ lastmod: "2021-09-16T09:49:44.653Z"
 date: "2018-01-01"
 slug: networks-43-natures-58-earth-measurer
 links:
-    - text: ""
+    - label: Dark pictures, thrones, poems that take a thousand years to die&#58; algorithms, butterflies, and enigmas of extinction (Medium post)
       url: https://medium.com/@matthewbattles/dark-pictures-thrones-poems-that-take-a-thousand-years-to-die-algorithms-butterflies-and-a85a7e56065b
-    - text: ""
+    - label: Shadows of Undiscovered Moths (Twitter bot)
       url: https://twitter.com/mumbrage
 
 ---

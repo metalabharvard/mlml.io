@@ -13,16 +13,16 @@ lastmod: "2021-09-16T09:49:46.433Z"
 date: "2014-01-01"
 slug: the-library-beyond-the-book
 collaborators:
-    - name: ""
+    - label: Library Test Kitchen
       url: ""
 links:
-    - text: ""
+    - label: Library Beyond the Book
       url: http://librarybeyondthebook.org/
-    - text: ""
+    - label: Jeffrey Schnapp
       url: http://jeffreyschnapp.com/
-    - text: ""
+    - label: Harvard Bookstore presentation via WGBH Forum
       url: https://www.youtube.com/watch?v=wavkInyJGfw
-    - text: ""
+    - label: Serious Science presentation
       url: https://www.youtube.com/watch?v=c_l45lGeFRE
 
 ---

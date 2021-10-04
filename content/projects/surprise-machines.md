@@ -13,7 +13,7 @@ lastmod: "2021-09-16T09:49:45.065Z"
 date: "2021-01-01"
 slug: surprise-machines
 collaborators:
-    - name: ""
+    - label: Harvard Art Museums
       url: ""
 
 ---

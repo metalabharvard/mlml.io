@@ -13,11 +13,11 @@ lastmod: "2021-09-16T09:49:45.512Z"
 date: "2016-01-01"
 slug: networks-43-natures-58-feral-trees
 links:
-    - text: ""
+    - label: Feral Trees (video
       url: https://vimeo.com/130915730
-    - text: ""
+    - label: Tree (M. Battles, Bloomsbury 2017)
       url: http://www.bloomsbury.com/us/tree-9781628920536/
-    - text: ""
+    - label: The Life and Death of Data (Y. Loukissas, 2014)
       url: http://lifeanddeathofdata.org/
 
 ---
