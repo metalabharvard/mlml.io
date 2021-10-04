@@ -147,3 +147,20 @@ function changeTabs(e) {
     .querySelector(`#${target.getAttribute('aria-controls')}`)
     .removeAttribute('hidden');
 }
+
+const pageLogo = document.getElementById('page-logo');
+
+const logoVariants = ['metalab', 'metala3', 'metal4b', 'metal@b', 'meta/ab', 'metaläb'];
+let currentLogoVariant = 0;
+
+function changeLogo () {
+  currentLogoVariant += 1;
+  if (currentLogoVariant === logoVariants.length) {
+    currentLogoVariant = 0;
+  }
+  pageLogo.innerHTML = logoVariants[currentLogoVariant]
+}
+
+if (pageLogo) {
+  setInterval(changeLogo, 500);
+}
