@@ -13,7 +13,7 @@ lastmod: "2021-09-16T09:49:46.599Z"
 date: "2016-01-01"
 slug: dictionnaire-apollinaire
 collaborators:
-    - name: ""
+    - label: The Observatory of Literary Life (OBVIL)
       url: ""
 
 ---

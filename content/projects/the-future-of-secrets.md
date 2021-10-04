@@ -13,9 +13,9 @@ lastmod: "2021-09-16T09:49:46.035Z"
 date: "2018-01-01"
 slug: the-future-of-secrets
 links:
-    - text: ""
+    - label: TRUST (the presence of secrets) at mfaNOW, Museum of Fine Arts Boston, 2016
       url: http://www.mfa.org/programs/series/mfanow-overnights
-    - text: ""
+    - label: The Future of Secrets talk at MIT's Open Documentary Lab, 2017
       url: http://opendoclab.mit.edu/feb-21-harvard-metalabs-sarah-newman-jessica-yurkofsky-matthew-battles-visit-open-documentary-lab
 
 ---

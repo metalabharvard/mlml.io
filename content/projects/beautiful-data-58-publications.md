@@ -13,9 +13,9 @@ lastmod: "2021-09-16T09:49:46.788Z"
 date: "2015-01-01"
 slug: beautiful-data-58-publications
 links:
-    - text: ""
+    - label: Beautiful Data I
       url: https://metalabharvard.github.io/beautifuldata/2014/publications.html
-    - text: ""
+    - label: Beautiful Data II
       url: https://metalabharvard.github.io/beautifuldata/2015/
 
 ---

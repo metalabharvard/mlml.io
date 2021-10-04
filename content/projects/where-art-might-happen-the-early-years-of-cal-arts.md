@@ -3,15 +3,25 @@ title: 'Where Art Might Happen: The Early Years of CalArts'
 intro: Memory traces of “the daydreams that women have as they wash, bake, cook, sew, clean and iron their lives away ... taken to fantasy proportions” (30/1/1970-28/2/1970)
 start: "2020-03-13"
 end: "2020-06-07"
-location: ""
-host: harvard
-mediation: ""
+location: Kunsthaus Graz
+host: berlin
+mediation: exhibition
 category: ""
 isFeatured: false
 externalLink: ""
-lastmod: "2021-08-11T14:48:16.971Z"
+lastmod: "2021-10-04T13:52:33.185Z"
 date: "2020-03-13"
 slug: where-art-might-happen-the-early-years-of-cal-arts
+members:
+    - name: Jeffrey Schnapp
+      slug: jeffrey-schnapp
+      isAlumnus: false
+    - name: Annette Jael Lehmann
+      slug: annette-jael-lehmann
+      isAlumnus: false
+    - name: Kim Albrecht
+      slug: kim-albrecht
+      isAlumnus: false
 cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686495/where_art_might_happen_the_early_years_of_cal_arts_4b18fd7f74.jpg
     width: 704

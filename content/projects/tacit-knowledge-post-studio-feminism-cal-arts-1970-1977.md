@@ -4,12 +4,12 @@ intro: ""
 start: "2019-01-01"
 end: "2019-01-01"
 location: ""
-host: harvard
-mediation: mixed_media
+host: berlin
+mediation: print
 category: publication
 isFeatured: false
 externalLink: ""
-lastmod: "2021-09-16T09:49:45.822Z"
+lastmod: "2021-10-04T13:44:06.038Z"
 date: "2019-01-01"
 slug: tacit-knowledge-post-studio-feminism-cal-arts-1970-1977
 

@@ -166,7 +166,7 @@ ul {
   font-size: var(--size-1);
 
   @include query($medium) {
-    font-size: var(--size-5);
+    font-size: var(--size-4);
   }
 }
 
@@ -213,6 +213,7 @@ ul {
 
 .intro, .about-intro {
   font-family: $font-family-serif;
+  font-weight: $font-weight-medium;
   font-size: var(--size-2);
   text-align: center;
   line-height: 1.2;
@@ -307,6 +308,8 @@ ul {
   .project-title, .event-title {
     font-size: var(--size-1);
     line-height: 1.1;
+    font-family: $font-family-serif;
+    font-weight: $font-weight-medium;
   }
 
   .project-tag, .event-tag {
@@ -325,6 +328,8 @@ ul {
   .project-name {
     font-size: var(--size-1);
     line-height: 1.05;
+    // font-family: $font-family-serif;
+    // font-weight: $font-weight-medium;
   }
 
   .project-intro {

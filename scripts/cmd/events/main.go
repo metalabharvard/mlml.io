@@ -29,7 +29,7 @@ type Event struct {
 }
 
 type Link struct {
-  Text string `yaml:"text"`
+  Label string `yaml:"label"`
   Url string `yaml:"url"`
 }
 

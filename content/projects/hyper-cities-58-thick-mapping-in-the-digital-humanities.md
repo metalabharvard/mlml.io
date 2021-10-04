@@ -13,13 +13,13 @@ lastmod: "2021-09-16T09:49:45.687Z"
 date: "2014-01-01"
 slug: hyper-cities-58-thick-mapping-in-the-digital-humanities
 links:
-    - text: ""
+    - label: Book's Online Component
       url: http://www.hypercities.com/
-    - text: ""
+    - label: Todd Presner's Website
       url: http://www.toddpresner.com/
-    - text: ""
+    - label: David Shepard's HASTAC content
       url: https://www.hastac.org/u/david-shepard
-    - text: ""
+    - label: Yoh Kawano Vimeo
       url: https://vimeo.com/yohman
 
 ---

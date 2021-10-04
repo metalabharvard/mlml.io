@@ -13,9 +13,9 @@ lastmod: "2021-09-16T09:49:46.109Z"
 date: "2016-01-01"
 slug: blueprint-for-counter-education-58-expanded-reprint
 links:
-    - text: ""
+    - label: blueprintforcountereducation.com
       url: http://blueprintforcountereducation.com
-    - text: ""
+    - label: 2016 Reprint Edition (Inventory Press)
       url: http://www.inventorypress.com/product/blueprint-for-counter-education
 
 ---

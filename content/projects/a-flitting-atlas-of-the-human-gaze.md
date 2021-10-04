@@ -13,7 +13,7 @@ lastmod: "2021-09-16T14:16:55.296Z"
 date: "2021-01-01"
 slug: a-flitting-atlas-of-the-human-gaze
 collaborators:
-    - name: ""
+    - label: Harvard Art Museums
       url: ""
 projects:
     - title: 'Mahindra Humanities Center: Transmedia Arts Seminar'

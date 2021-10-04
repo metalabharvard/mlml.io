@@ -13,7 +13,7 @@ lastmod: "2021-09-16T09:49:46.200Z"
 date: "2021-01-01"
 slug: second-look-gender-and-sentiment-on-show
 collaborators:
-    - name: ""
+    - label: Harvard Art Museums
       url: ""
 
 ---

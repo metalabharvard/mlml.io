@@ -13,11 +13,11 @@ lastmod: "2021-09-16T09:49:45.784Z"
 date: "2015-01-01"
 slug: cold-storage
 links:
-    - text: ""
+    - label: Cold Storage web doc
       url: http://www.librarybeyondthebook.org/cold_storage/
-    - text: ""
+    - label: Library Beyond the Book
       url: http://www.librarybeyondthebook.org
-    - text: ""
+    - label: Teaser trailer
       url: https://www.youtube.com/watch?v=7QuzrF5BYcI
 
 ---

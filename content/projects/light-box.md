@@ -13,10 +13,10 @@ lastmod: "2021-09-16T09:49:46.862Z"
 date: "2016-01-01"
 slug: light-box
 collaborators:
-    - name: ""
+    - label: Harvard Art Museums
       url: ""
 links:
-    - text: ""
+    - label: Lightbox Gallery programming (Harvard Art Museums)
       url: http://www.harvardartmuseums.org/search-results?q=Lightbox
 
 ---

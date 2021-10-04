@@ -15,6 +15,33 @@
       {{ partial "related-events.html" (dict "events" $events "term" "Related") }}
     </aside>
     {{ end }}
+    {{ with .Params.gallery -}}
+    <div class="project-gallery grid-full gallery">
+      <figure class="siema full carousel" id="siema-carousel" data-amount="{{ len . }}">
+        {{ range . }}
+          <figure>
+          {{ partial "picture.html" (dict "p" . "title" .alternativeText "isHalf" false) }}
+          <figcaption class="medium">
+            {{- .caption -}}
+          </figcaption>
+          </figure>
+        {{ end }}
+      </figure>
+      <button id="btnPrev" class="btn-blank" aria-label="Previous image">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="18" height="24" viewBox="0 0 18 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h18v24H0z" fill="none"></path>
+          <polyline points="15 6 9 12 15 18"></polyline>
+        </svg>
+      </button>
+      <button id="btnNext" class="btn-blank" aria-label="Next image">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right" width="18" height="24" viewBox="0 0 18 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h18v24H0z" fill="none"></path>
+          <polyline points="3 6 9 12 3 18"></polyline>
+        </svg>
+      </button>
+    </div>
+    <span class="counter" id="counter"></span>
+    {{ end }}
     <aside class="project-aside grid-narrow-right-aside">
       {{ with .Params.Category }}<span class="project-type">{{ title . }}</span>{{ end }}
       {{ partial "span-timespan.html" (dict "start" .Params.Start "end" .Params.End) }}
@@ -33,8 +60,8 @@
     <div class="project-collaborators grid-narrow-right">
       <h2 class="related-collaborators">{{ cond (eq (len .) 1) "Collaborator" "Collaborators" }}</h2>
       <ul>
-      {{ range sort . "name" }}
-        {{ partial "list-item.html" (dict "url" .url "text" .name "class" "collaborator") }}
+      {{ range sort . "label" }}
+        {{ partial "list-item.html" (dict "url" .url "label" .label "class" "collaborator") }}
       {{ end }}
       </ul>
     </div>
@@ -43,8 +70,8 @@
     <div class="project-articles grid-narrow-right">
       <h2 class="related-articles">{{ cond (eq (len .) 1) "Press article" "Press articles" }}</h2>
       <ul>
-      {{ range sort . "text" }}
-        {{ partial "list-item.html" (dict "url" .url "text" .text "class" "article") }}
+      {{ range sort . "label" }}
+        {{ partial "list-item.html" (dict "url" .url "label" .label "class" "article") }}
       {{ end }}
       </ul>
     </div>
@@ -53,8 +80,8 @@
     <div class="project-links grid-narrow-right">
       <h2 class="related-links">{{ cond (eq (len .) 1) "Link" "Links" }}</h2>
       <ul>
-      {{ range sort . "text" }}
-        {{ partial "list-item.html" (dict "url" .url "text" .text "class" "link") }}
+      {{ range sort . "label" }}
+        {{ partial "list-item.html" (dict "url" .url "label" .label "class" "link") }}
       {{ end }}
       </ul>
     </div>

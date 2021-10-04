@@ -13,9 +13,9 @@ lastmod: "2021-09-16T09:49:45.477Z"
 date: "2018-01-01"
 slug: networks-and-natures
 links:
-    - text: ""
+    - label: TREE (Matthew Battles, photographs by Sarah W. Newman)
       url: http://www.bloomsbury.com/us/tree-9781628920536/
-    - text: ""
+    - label: Life and Death of Data (Yanni Loukissas with Krystelle Denis, 2014)
       url: http://lifeanddeathofdata.com
 
 ---

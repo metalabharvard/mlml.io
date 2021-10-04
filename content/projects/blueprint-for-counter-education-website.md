@@ -13,11 +13,11 @@ lastmod: "2021-09-16T09:49:45.571Z"
 date: "2016-01-01"
 slug: blueprint-for-counter-education-website
 links:
-    - text: ""
+    - label: Github repo
       url: https://github.com/metalabharvard/blueprint
-    - text: ""
+    - label: blueprintforcountereducation.com
       url: http://blueprintforcountereducation.com
-    - text: ""
+    - label: 2016 Reprint Edition (Inventory Press)
       url: http://www.inventorypress.com/product/blueprint-for-counter-education
 
 ---

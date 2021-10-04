@@ -9,7 +9,7 @@ mediation: web
 category: project
 isFeatured: false
 externalLink: https://artificial-senses.kimalbrecht.com/
-lastmod: "2021-09-29T09:20:10.423Z"
+lastmod: "2021-10-04T13:50:44.999Z"
 date: "2017-06-01"
 slug: artificial-senses
 events:
@@ -25,6 +25,250 @@ cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628173929/img1_017c9cba83.gif
     width: 120
     height: 120
+gallery:
+    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628173929/img1_017c9cba83.gif
+      width: 120
+      height: 120
+    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628173929/img2_2cb5706ba6.jpg
+      width: 1335
+      height: 1000
+      formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628173930/large_img2_2cb5706ba6.jpg
+            ext: .jpg
+            width: 1000
+            height: 749
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628173931/medium_img2_2cb5706ba6.jpg
+            ext: .jpg
+            width: 750
+            height: 562
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628173931/small_img2_2cb5706ba6.jpg
+            ext: .jpg
+            width: 500
+            height: 375
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628173929/thumbnail_img2_2cb5706ba6.jpg
+            ext: .jpg
+            width: 208
+            height: 156
+    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355386/moving_2000px_kim_albrecht_ai_senses_e11604c7cd.jpg
+      width: 2000
+      height: 2000
+      formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355387/large_moving_2000px_kim_albrecht_ai_senses_e11604c7cd.jpg
+            ext: .jpg
+            width: 1000
+            height: 1000
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355388/medium_moving_2000px_kim_albrecht_ai_senses_e11604c7cd.jpg
+            ext: .jpg
+            width: 750
+            height: 750
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355388/small_moving_2000px_kim_albrecht_ai_senses_e11604c7cd.jpg
+            ext: .jpg
+            width: 500
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355387/thumbnail_moving_2000px_kim_albrecht_ai_senses_e11604c7cd.jpg
+            ext: .jpg
+            width: 156
+            height: 156
+    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355387/hearing_2000px_kim_albrecht_ai_senses_54f9c600e4.jpg
+      width: 2000
+      height: 2000
+      formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355388/large_hearing_2000px_kim_albrecht_ai_senses_54f9c600e4.jpg
+            ext: .jpg
+            width: 1000
+            height: 1000
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355388/medium_hearing_2000px_kim_albrecht_ai_senses_54f9c600e4.jpg
+            ext: .jpg
+            width: 750
+            height: 750
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355388/small_hearing_2000px_kim_albrecht_ai_senses_54f9c600e4.jpg
+            ext: .jpg
+            width: 500
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355387/thumbnail_hearing_2000px_kim_albrecht_ai_senses_54f9c600e4.jpg
+            ext: .jpg
+            width: 156
+            height: 156
+    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355386/touching_2000px_kim_albrecht_ai_senses_7d6b9b432c.jpg
+      width: 2000
+      height: 2000
+      formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355387/large_touching_2000px_kim_albrecht_ai_senses_7d6b9b432c.jpg
+            ext: .jpg
+            width: 1000
+            height: 1000
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355388/medium_touching_2000px_kim_albrecht_ai_senses_7d6b9b432c.jpg
+            ext: .jpg
+            width: 750
+            height: 750
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355388/small_touching_2000px_kim_albrecht_ai_senses_7d6b9b432c.jpg
+            ext: .jpg
+            width: 500
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355387/thumbnail_touching_2000px_kim_albrecht_ai_senses_7d6b9b432c.jpg
+            ext: .jpg
+            width: 156
+            height: 156
+    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355388/locating_2000px_kim_albrecht_ai_senses_d4079bcf58.jpg
+      width: 2000
+      height: 2000
+      formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355389/large_locating_2000px_kim_albrecht_ai_senses_d4079bcf58.jpg
+            ext: .jpg
+            width: 1000
+            height: 1000
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355389/medium_locating_2000px_kim_albrecht_ai_senses_d4079bcf58.jpg
+            ext: .jpg
+            width: 750
+            height: 750
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355390/small_locating_2000px_kim_albrecht_ai_senses_d4079bcf58.jpg
+            ext: .jpg
+            width: 500
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355388/thumbnail_locating_2000px_kim_albrecht_ai_senses_d4079bcf58.jpg
+            ext: .jpg
+            width: 156
+            height: 156
+    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355388/orienting_2000px_kim_albrecht_ai_senses_7e9ff339c5.jpg
+      width: 2000
+      height: 2000
+      formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355389/large_orienting_2000px_kim_albrecht_ai_senses_7e9ff339c5.jpg
+            ext: .jpg
+            width: 1000
+            height: 1000
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355390/medium_orienting_2000px_kim_albrecht_ai_senses_7e9ff339c5.jpg
+            ext: .jpg
+            width: 750
+            height: 750
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355390/small_orienting_2000px_kim_albrecht_ai_senses_7e9ff339c5.jpg
+            ext: .jpg
+            width: 500
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355388/thumbnail_orienting_2000px_kim_albrecht_ai_senses_7e9ff339c5.jpg
+            ext: .jpg
+            width: 156
+            height: 156
+    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355390/seeing_2000px_kim_albrecht_ai_senses_319a996252.jpg
+      width: 2000
+      height: 2000
+      formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355391/large_seeing_2000px_kim_albrecht_ai_senses_319a996252.jpg
+            ext: .jpg
+            width: 1000
+            height: 1000
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355392/medium_seeing_2000px_kim_albrecht_ai_senses_319a996252.jpg
+            ext: .jpg
+            width: 750
+            height: 750
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355392/small_seeing_2000px_kim_albrecht_ai_senses_319a996252.jpg
+            ext: .jpg
+            width: 500
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355390/thumbnail_seeing_2000px_kim_albrecht_ai_senses_319a996252.jpg
+            ext: .jpg
+            width: 156
+            height: 156
+    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355431/AI_Senses_Exhibit_Images_7_60d2b913a0.jpg
+      width: 5472
+      height: 3648
+      formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355433/large_AI_Senses_Exhibit_Images_7_60d2b913a0.jpg
+            ext: .jpg
+            width: 1000
+            height: 667
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355433/medium_AI_Senses_Exhibit_Images_7_60d2b913a0.jpg
+            ext: .jpg
+            width: 750
+            height: 500
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355433/small_AI_Senses_Exhibit_Images_7_60d2b913a0.jpg
+            ext: .jpg
+            width: 500
+            height: 333
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355432/thumbnail_AI_Senses_Exhibit_Images_7_60d2b913a0.jpg
+            ext: .jpg
+            width: 234
+            height: 156
+    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355432/AI_Senses_Exhibit_Images_1_ed222efeac.jpg
+      width: 3562
+      height: 4263
+      formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355433/large_AI_Senses_Exhibit_Images_1_ed222efeac.jpg
+            ext: .jpg
+            width: 836
+            height: 1000
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355434/medium_AI_Senses_Exhibit_Images_1_ed222efeac.jpg
+            ext: .jpg
+            width: 627
+            height: 750
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355434/small_AI_Senses_Exhibit_Images_1_ed222efeac.jpg
+            ext: .jpg
+            width: 418
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355433/thumbnail_AI_Senses_Exhibit_Images_1_ed222efeac.jpg
+            ext: .jpg
+            width: 130
+            height: 156
+    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355435/AI_Senses_Exhibit_Images_6_bb1cda00bd.jpg
+      width: 5346
+      height: 3516
+      formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355437/large_AI_Senses_Exhibit_Images_6_bb1cda00bd.jpg
+            ext: .jpg
+            width: 1000
+            height: 658
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355437/medium_AI_Senses_Exhibit_Images_6_bb1cda00bd.jpg
+            ext: .jpg
+            width: 750
+            height: 493
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355437/small_AI_Senses_Exhibit_Images_6_bb1cda00bd.jpg
+            ext: .jpg
+            width: 500
+            height: 329
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355436/thumbnail_AI_Senses_Exhibit_Images_6_bb1cda00bd.jpg
+            ext: .jpg
+            width: 237
+            height: 156
 
 ---
 Contemporary culture is unimaginable without the machines that surround us every day. Our knowledge depends on Google search results, our music taste on the mixes Spotify creates for us and our consumption on Amazon recommendations. This strange new world became part of our reality in a very short timeframe. Interface design creates this natural feeling. But if we want to live with these devices and understand them, we cannot just rely on the machines becoming something easily understandable to us. We need to develop an understanding of how these devices experience our world.

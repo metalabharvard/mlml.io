@@ -1,0 +1,16 @@
+{{ $original := .p }}
+{{ $large := .p.formats.large }}
+{{ $medium := .p.formats.medium }}
+{{ $small := .p.formats.small }}
+{{ $thumbnail := .p.formats.thumbnail }}
+{{ $margin := "max(2vw + 0.5vmin, 2px) * 4" }}
+{{ if and $original.width $original.height }}
+<picture style="aspect-ratio: {{ $original.width }}/{{ $original.height }};">
+  <img
+    src="{{ $original.url }}"
+    alt="{{ .title }}"
+    height="{{ $original.height }}px"
+    width="{{ $original.width }}px"
+    loading="lazy">
+</picture>
+{{ end }}

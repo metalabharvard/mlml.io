@@ -1,7 +1,7 @@
 @import "./mixins";
 
 $font-family-default: 'Helvetica Neue', Helvetica, system-ui, sans-serif;
-$font-family-serif: 'Epicene-Display-Black', serif;
+$font-family-serif: 'Epicene-Text', serif;
 $font-weight-default: 400 !default;
 $font-weight-medium:  500 !default;
 $font-weight-bold:    800 !default;
@@ -28,6 +28,9 @@ $size-gap: 30px;
 $size-column: ($size-wrapper - $size-gap * ($columns - 1)) / $columns;
 $wide-margin: $size-column * 2 + $size-gap * 2;
 
+$z-index-gallery: 1;
+$z-index-btn: 2;
+$z-index-counter: 3;
 $z-index-search-input: 999;
 $z-index-search-results: 999;
 $z-index-page-menu: 2;

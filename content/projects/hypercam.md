@@ -1,6 +1,6 @@
 ---
 title: Hypercam
-intro: During the first months of 2020, human relationships turned virtual. Once a bounded practice, a backup for otherwise face-to-face encounters, video conferencing became the normative mode of interaction for work meetings, friendships, education, love relationships and family gatherings on both the local and global scales. Hypercam enacts a gesture of visual resistance to the squared-off talking heads that we have all become; it converts the interface flatland into a multidimensional space of play.
+intro: Hypercam enacts a gesture of visual resistance to the squared-off talking heads that we have all become; it converts the interface flatland into a multidimensional space of play.
 start: "2020-04-01"
 end: "2020-05-31"
 location: ""
@@ -9,16 +9,14 @@ mediation: web
 category: ""
 isFeatured: false
 externalLink: https://hypercam.kimalbrecht.com/
-lastmod: "2021-09-29T09:34:47.643Z"
+lastmod: "2021-10-04T13:56:50.388Z"
 date: "2020-04-01"
 slug: hypercam
 links:
-    - text: ""
+    - label: ZKM Exhibition
       url: https://zkm.de/de/ausstellung/2020/10/berechenbar-unberechenbar
-    - text: ""
+    - label: ZDF Digitale Kunsthalle
       url: https://digitalekunsthalle.zdf.de/zkm_en/index.html#tp125
-    - text: ""
-      url: ""
 members:
     - name: Kim Albrecht
       slug: kim-albrecht
@@ -38,6 +36,127 @@ cover:
             ext: .jpg
             width: 136
             height: 156
+gallery:
+    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355149/hypercam_visualization_kim_albrecht_metalab_15_1b84e81cb8.jpg
+      width: 1700
+      height: 1700
+      formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355150/large_hypercam_visualization_kim_albrecht_metalab_15_1b84e81cb8.jpg
+            ext: .jpg
+            width: 1000
+            height: 1000
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355150/medium_hypercam_visualization_kim_albrecht_metalab_15_1b84e81cb8.jpg
+            ext: .jpg
+            width: 750
+            height: 750
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355151/small_hypercam_visualization_kim_albrecht_metalab_15_1b84e81cb8.jpg
+            ext: .jpg
+            width: 500
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355149/thumbnail_hypercam_visualization_kim_albrecht_metalab_15_1b84e81cb8.jpg
+            ext: .jpg
+            width: 156
+            height: 156
+    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355150/hypercam_visualization_kim_albrecht_metalab_11_c84be0e6fc.jpg
+      width: 2256
+      height: 1862
+      formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355151/large_hypercam_visualization_kim_albrecht_metalab_11_c84be0e6fc.jpg
+            ext: .jpeg
+            width: 1000
+            height: 825
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355151/medium_hypercam_visualization_kim_albrecht_metalab_11_c84be0e6fc.jpg
+            ext: .jpeg
+            width: 750
+            height: 619
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355152/small_hypercam_visualization_kim_albrecht_metalab_11_c84be0e6fc.jpg
+            ext: .jpeg
+            width: 500
+            height: 413
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355150/thumbnail_hypercam_visualization_kim_albrecht_metalab_11_c84be0e6fc.jpg
+            ext: .jpeg
+            width: 189
+            height: 156
+    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355150/hypercam_visualization_kim_albrecht_metalab_17_9b7425f899.jpg
+      width: 1700
+      height: 1700
+      formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355151/large_hypercam_visualization_kim_albrecht_metalab_17_9b7425f899.jpg
+            ext: .jpeg
+            width: 1000
+            height: 1000
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355152/medium_hypercam_visualization_kim_albrecht_metalab_17_9b7425f899.jpg
+            ext: .jpeg
+            width: 750
+            height: 750
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355152/small_hypercam_visualization_kim_albrecht_metalab_17_9b7425f899.jpg
+            ext: .jpeg
+            width: 500
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355151/thumbnail_hypercam_visualization_kim_albrecht_metalab_17_9b7425f899.jpg
+            ext: .jpeg
+            width: 156
+            height: 156
+    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355150/hypercam_visualization_kim_albrecht_metalab_2_3a13add296.jpg
+      width: 3360
+      height: 1862
+      formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355151/large_hypercam_visualization_kim_albrecht_metalab_2_3a13add296.jpg
+            ext: .jpg
+            width: 1000
+            height: 554
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355152/medium_hypercam_visualization_kim_albrecht_metalab_2_3a13add296.jpg
+            ext: .jpg
+            width: 750
+            height: 416
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355152/small_hypercam_visualization_kim_albrecht_metalab_2_3a13add296.jpg
+            ext: .jpg
+            width: 500
+            height: 277
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355151/thumbnail_hypercam_visualization_kim_albrecht_metalab_2_3a13add296.jpg
+            ext: .jpg
+            width: 245
+            height: 136
+    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355152/hypercam_visualization_kim_albrecht_metalab_4_562aeb778c.jpg
+      width: 3360
+      height: 1862
+      formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355153/large_hypercam_visualization_kim_albrecht_metalab_4_562aeb778c.jpg
+            ext: .jpg
+            width: 1000
+            height: 554
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355153/medium_hypercam_visualization_kim_albrecht_metalab_4_562aeb778c.jpg
+            ext: .jpg
+            width: 750
+            height: 416
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355153/small_hypercam_visualization_kim_albrecht_metalab_4_562aeb778c.jpg
+            ext: .jpg
+            width: 500
+            height: 277
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355152/thumbnail_hypercam_visualization_kim_albrecht_metalab_4_562aeb778c.jpg
+            ext: .jpg
+            width: 245
+            height: 136
 
 ---
 During the first months of 2020, human relationships turned virtual. Once a bounded practice, a backup for otherwise face-to-face encounters, video conferencing became the normative mode of interaction for work meetings, friendships, education, love relationships and family gatherings on both the local and global scales. Hypercam enacts a gesture of visual resistance to the squared-off talking heads that we have all become; it converts the interface flatland into a multidimensional space of play.<br /><br />

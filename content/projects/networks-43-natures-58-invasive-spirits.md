@@ -13,14 +13,14 @@ lastmod: "2021-09-16T09:49:45.709Z"
 date: "2018-01-01"
 slug: networks-43-natures-58-invasive-spirits
 collaborators:
-    - name: ""
+    - label: Keith Hartwig
       url: ""
 links:
-    - text: ""
+    - label: Invasive Spirits solstice banquet (photographs
       url: https://www.instagram.com/p/BVpjXGuBPqm/?taken-by=metalabharvard
-    - text: ""
+    - label: Tree (M. Battles, Bloomsbury 2017)
       url: http://www.bloomsbury.com/us/tree-9781628920536/
-    - text: ""
+    - label: ""
       url: ""
 
 ---

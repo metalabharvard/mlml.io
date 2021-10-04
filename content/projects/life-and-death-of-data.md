@@ -13,10 +13,10 @@ lastmod: "2021-09-16T09:49:46.753Z"
 date: "2013-01-01"
 slug: life-and-death-of-data
 collaborators:
-    - name: ""
+    - label: Yanni Loukissas
       url: ""
 links:
-    - text: ""
+    - label: lifeanddeathofdata.org
       url: http://lifeanddeathofdata.org/
 
 ---

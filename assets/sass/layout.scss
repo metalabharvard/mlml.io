@@ -889,3 +889,98 @@ picture, img {
     }
   }
 }
+
+.counter {
+  position: absolute;
+  opacity: 0;
+  display: none;
+  transition: opacity var(--transition) ease;
+  pointer-events: none;
+  white-space: nowrap;
+  z-index: $z-index-counter;
+}
+
+.gallery {
+  position: relative;
+  z-index: $z-index-gallery;
+  overflow-x: hidden;
+
+  @media (hover) {
+    &:hover + .counter {
+      opacity: 1;
+      display: block;
+    }
+  }
+
+  .carousel-nav {
+    position: relative;
+    top: 0;
+  }
+
+  $btn-width: 6rem;
+  $btn-height: 10rem;
+
+  .btn-blank {
+    text-decoration: none;
+    color: var(--color-fg);
+    transition: color var(--transition) ease;
+    padding: var(--spacing-025) var(--spacing-05);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+    &:hover, &:focus {
+      color: var(--color-interactive);
+    }
+    position: absolute;
+    top: calc(50% - #{$btn-width});
+    z-index: $z-index-btn;
+    transition: opacity var(--transition) ease;
+
+    &:disabled {
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    svg {
+      width: $btn-width;
+      height: $btn-height;
+
+      polyline {
+        stroke-width: 2px;
+        vector-effect: non-scaling-stroke;
+      }
+    }
+  }
+
+  #btnPrev {
+    left: calc((#{$btn-height} - 4rem) / 2 * -1);
+
+    @include query($narrow) {
+      left: calc(#{$btn-height} / 2 * -1);
+    }
+  }
+
+  #btnNext {
+    right: calc((#{$btn-height} - 4rem) / 2 * -1);
+
+    @include query($narrow) {
+      right: calc(#{$btn-height} / 2 * -1);
+    }
+  }
+}
+
+.carousel {
+  cursor: grab;
+
+  img {
+    width: 100%;
+    height: auto;
+    border: 1px solid var(--color-outline);
+    vertical-align: middle;
+  }
+
+  figcaption {
+    margin-top: var(--spacing-025);
+  }
+}

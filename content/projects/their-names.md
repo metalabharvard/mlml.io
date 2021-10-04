@@ -9,7 +9,7 @@ mediation: web
 category: project
 isFeatured: false
 externalLink: https://theirnames.org/
-lastmod: "2021-09-29T09:26:11.594Z"
+lastmod: "2021-10-04T13:49:13.136Z"
 date: "2020-06-01"
 slug: their-names
 members:
@@ -39,6 +39,82 @@ cover:
             ext: .jpg
             width: 191
             height: 156
+gallery:
+    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355345/Their_Names_Police_Violence_Visualization_Kim_Albrecht_Animation_458c013b8d.gif
+      width: 1012
+      height: 1200
+    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355345/Their_Names_Police_Violence_Visualization_Kim_Albrecht_min_aae3bbeea5.png
+      width: 1200
+      height: 630
+      formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355346/large_Their_Names_Police_Violence_Visualization_Kim_Albrecht_min_aae3bbeea5.png
+            ext: .png
+            width: 1000
+            height: 525
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355346/medium_Their_Names_Police_Violence_Visualization_Kim_Albrecht_min_aae3bbeea5.png
+            ext: .png
+            width: 750
+            height: 394
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355347/small_Their_Names_Police_Violence_Visualization_Kim_Albrecht_min_aae3bbeea5.png
+            ext: .png
+            width: 500
+            height: 263
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355345/thumbnail_Their_Names_Police_Violence_Visualization_Kim_Albrecht_min_aae3bbeea5.png
+            ext: .png
+            width: 245
+            height: 129
+    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355344/Their_Names_Police_Violence_Visualization_Kim_Albrecht_Abstract_dfc62d561b.png
+      width: 3266
+      height: 1420
+      formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355346/large_Their_Names_Police_Violence_Visualization_Kim_Albrecht_Abstract_dfc62d561b.png
+            ext: .png
+            width: 1000
+            height: 435
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355346/medium_Their_Names_Police_Violence_Visualization_Kim_Albrecht_Abstract_dfc62d561b.png
+            ext: .png
+            width: 750
+            height: 326
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355347/small_Their_Names_Police_Violence_Visualization_Kim_Albrecht_Abstract_dfc62d561b.png
+            ext: .png
+            width: 500
+            height: 217
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355345/thumbnail_Their_Names_Police_Violence_Visualization_Kim_Albrecht_Abstract_dfc62d561b.png
+            ext: .png
+            width: 245
+            height: 107
+    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355345/Their_Names_Police_Violence_Visualization_Kim_Albrecht_9e1e469469.png
+      width: 2772
+      height: 1146
+      formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355347/large_Their_Names_Police_Violence_Visualization_Kim_Albrecht_9e1e469469.png
+            ext: .png
+            width: 1000
+            height: 413
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355348/medium_Their_Names_Police_Violence_Visualization_Kim_Albrecht_9e1e469469.png
+            ext: .png
+            width: 750
+            height: 310
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355348/small_Their_Names_Police_Violence_Visualization_Kim_Albrecht_9e1e469469.png
+            ext: .png
+            width: 500
+            height: 207
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355346/thumbnail_Their_Names_Police_Violence_Visualization_Kim_Albrecht_9e1e469469.png
+            ext: .png
+            width: 245
+            height: 101
 
 ---
 We live in a world of systemic racism and systemic violence. The two are inextricably intertwined. This violence tears at victims' families, communities, and everyone involved in fatal encounters with law enforcement. Its effects fall disproportionately on communities of color and Black communities, families, and lives in particular. 
