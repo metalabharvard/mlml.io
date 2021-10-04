@@ -4,7 +4,7 @@
     <a href="{{ "about" | absURL }}" class="btn">Learn more</a>
   </div>
   <div class="grid-wide home-projects">
-    <h3>Recent projects and events</h3>
+    <!-- <h3>Recent projects and events</h3> -->
     <ul>
     {{ range (where .Site.RegularPages "Section" "in" (slice "projects" "events")) }}
       {{ if eq .Section "events" }}
