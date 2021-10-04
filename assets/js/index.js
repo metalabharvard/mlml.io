@@ -3,6 +3,7 @@ import { render } from 'timeago.js';
 import chroma from "chroma-js";
 import tippy from 'tippy.js';
 import Siema from 'siema';
+import { shuffle } from 'lodash';
 
 const tags = document.getElementsByClassName('project-tag');
 
@@ -151,7 +152,7 @@ function changeTabs(e) {
 
 const pageLogo = document.getElementById('page-logo');
 
-const logoVariants = ['metaL&#1051B', 'metaLA&#1026', 'metaLAB', 'meta/AB', 'metaLA&#1026', 'meta&#1027A&#1026', 'metaL&#1237B', 'metaL&#1051B', 'metaL&#1236B', 'metaL&#1051B'];
+const logoVariants = shuffle(['metaL&#1051B', 'metaLA&#1026', 'metaLAB', 'meta/AB', 'metaLA&#1026', 'meta&#1027A&#1026', 'metaL&#1237B', 'metaL&#1051B', 'metaL&#1236B', 'metaL&#1051B']);
 let currentLogoVariant = 0;
 let logoInterval;
 
