@@ -644,6 +644,14 @@ picture, img {
   max-width: 100%;
 }
 
+.member-list-header, .alumni-list-header {
+  margin-bottom: var(--spacing-1);
+}
+
+.homepage-alumni-list {
+  margin-top: var(--spacing-2);
+}
+
 .member-list {
   row-gap: var(--spacing-1);
 
@@ -693,16 +701,18 @@ picture, img {
     }
   }
 
+  $member-header-end: 3;
+
   .member-image {
     grid-row-start: 1;
-    grid-row-end: 3;
+    grid-row-end: $member-header-end;
     grid-column-start: 1;
     grid-column-end: 5;
     margin-bottom: var(--spacing-05); // This is used to have a min height of the block
 
     @include query($medium) {
       grid-row-start: 1;
-      grid-row-end: 3;
+      grid-row-end: $member-header-end;
       grid-column-start: 2;
       grid-column-end: 4;
     }
@@ -716,7 +726,14 @@ picture, img {
     // margin-top: var(--spacing-0125);
     text-align: center;
     display: grid;
-    grid-auto-flow: column;
+    grid-auto-flow: row;
+    grid-row-start: $member-header-end;
+    align-self: start;
+  }
+
+  .member-description {
+    grid-row-start: $member-header-end;
+    align-self: start;
   }
 
   // .member-role {

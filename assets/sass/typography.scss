@@ -38,6 +38,8 @@ a, button {
   }
 
   &:not(.preview-link):not(.isActive) {
+    // display: block;
+
     &:hover, &:focus {
       @include gradient-text();
       text-decoration: none;
@@ -242,11 +244,16 @@ ul {
   }
 }
 
-.alumni-name {
-  font-size: var(--size-6);
-  font-weight: $font-weight-medium;
-  line-height: 1.1;
+.alumni-preview {
+  text-decoration: none;
   display: block;
+
+  .alumni-name {
+    font-size: var(--size-6);
+    font-weight: $font-weight-medium;
+    line-height: 1.1;
+    display: block;
+  }
 }
 
 .homepage-member {

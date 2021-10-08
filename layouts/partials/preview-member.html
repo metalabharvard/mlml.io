@@ -1,5 +1,5 @@
-<li>
-  <a href="{{ .member.Slug | absURL }}" class="member-preview vcard" role="listitem">
+<li role="listitem">
+  <a href="{{ .member.Slug | absURL }}" class="member-preview vcard">
     {{ $name := .member.Params.Name }}
     {{ with .member.Params.Picture }}{{ partial "image.html" (dict "picture" . "alt" (printf "Profile picture of %s" $name)) }}{{ end }}
     <strong class="member-name fn p-name">{{ $name }}</strong>
