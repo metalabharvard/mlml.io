@@ -31,7 +31,7 @@ lastmod: "2021-09-16T09:49:46.715Z"
 date: "2019-03-01T12:00:00Z"
 slug: alterspace-at-cambridge-public-library
 links:
-    - text: ""
+    - label: Alterspace
       url: http://alterspace.github.io
 ---
 **An immersive library experience that gives visitors control over light, color, sound, and space to create the ideal environment for whatever brings them through the library's doors.**

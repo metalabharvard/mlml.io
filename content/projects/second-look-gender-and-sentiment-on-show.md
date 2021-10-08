@@ -9,12 +9,19 @@ mediation: mixed_media
 category: project
 isFeatured: false
 externalLink: ""
-lastmod: "2021-09-16T09:49:46.200Z"
+lastmod: "2021-10-04T15:19:42.863Z"
 date: "2021-01-01"
 slug: second-look-gender-and-sentiment-on-show
 collaborators:
     - label: Harvard Art Museums
       url: ""
+projects:
+    - title: Ocean Amplification
+      slug: ocean-amplification
+    - title: Surprise Machines
+      slug: surprise-machines
+    - title: Watching Machines Loving Grace
+      slug: watching-machines-loving-grace
 
 ---
 <iframe src="https://linsderry.github.io/SecondLook/" width="100%" height="800" frameborder="0" title="Second Look"></iframe>

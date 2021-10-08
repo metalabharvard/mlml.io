@@ -19,6 +19,8 @@ events:
     - title: 2021 Virtual Creative Spring Workshops 2
       slug: 2021-virtual-creative-spring-workshops
 projects:
+    - title: Curricle Lens
+      slug: curricle-lens
     - title: Their Names
       slug: their-names
 picture:

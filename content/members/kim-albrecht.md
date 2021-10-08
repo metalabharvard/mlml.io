@@ -15,8 +15,16 @@ date: "2021-09-16T10:51:45.402Z"
 slug: kim-albrecht
 noindex: false
 projects:
+    - title: Curricle Lens
+      slug: curricle-lens
+    - title: 'Where Art Might Happen: The Early Years of CalArts'
+      slug: where-art-might-happen-the-early-years-of-cal-arts
+    - title: Womanhouse (a memory theater)
+      slug: womanhouse-a-memory-theater
     - title: Artificial Senses
       slug: artificial-senses
+    - title: Watching Machines Loving Grace
+      slug: watching-machines-loving-grace
     - title: Their Names
       slug: their-names
     - title: Hypercam

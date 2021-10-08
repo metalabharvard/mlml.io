@@ -31,7 +31,7 @@ lastmod: "2021-09-16T09:49:46.028Z"
 date: "2017-01-01T12:00:00Z"
 slug: knowledge-design-seminar
 links:
-    - text: ""
+    - label: Knowledge Design - Jeffrey T. Schnapp
       url: http://jeffreyschnapp.com/wp-content/uploads/2011/06/HH_lectures_Schnapp_01.pdf
 ---
 <p>This Humanities Studio seminar will be run by the metaLAB (at) Harvard team. It will explore the shapes and forms that experimental scholarship is assuming in an array of arts and humanities disciplines, from media studies to digital humanities to cultural analytics. It will also explore emergent models of knowledge production and publication within and across media. Open to advanced undergrad and graduate students, and to students from the Graduate School of Design.</p>

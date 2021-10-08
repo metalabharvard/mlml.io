@@ -9,6 +9,9 @@ lastmod: "2021-09-16T10:51:44.527Z"
 date: "2021-09-16T10:51:44.527Z"
 slug: dario-rodighiero
 noindex: false
+projects:
+    - title: Lexical Cartography of DH2020
+      slug: lexical-cartography-of-dh-2020
 
 ---
 Dario Rodighiero is a postdoctoral associate at MIT Comparative Media Studies and a researcher at Harvard metaLAB. He combines humanities and technology by practicing design at the intersection of architecture, data visualization, social science, graphic and interaction design. The Swiss National Science Foundation is currently financing his position.

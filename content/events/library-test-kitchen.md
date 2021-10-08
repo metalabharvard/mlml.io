@@ -31,7 +31,7 @@ lastmod: "2021-09-16T09:49:46.846Z"
 date: "2016-01-01T12:00:00Z"
 slug: library-test-kitchen
 links:
-    - text: ""
+    - label: github
       url: https://github.com/library-test-kitchen
 ---
 Begun at Harvard's Graduate School of Design in 2011, Library Test Kitchen has taken a multitude of forms over the years. For a semester, it was a pop-up space in Harvard Square called LABRARY.  

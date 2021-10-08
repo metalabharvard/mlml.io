@@ -31,7 +31,7 @@ lastmod: "2021-09-16T09:49:46.252Z"
 date: "2017-05-11T12:00:00Z"
 slug: dialogues-with-data-at-infovis
 links:
-    - text: ""
+    - label: information&#43;visualization
       url: http://infovis.fh-potsdam.de/
 ---
 <a href="http://infovis.fh-potsdam.de" target="_blank">information+visualization public talk series at Fachhochschule Potsdam - University of Applied Sciences</a>

@@ -9,9 +9,22 @@ mediation: exhibition
 category: project
 isFeatured: false
 externalLink: ""
-lastmod: "2021-10-04T13:43:43.128Z"
+lastmod: "2021-10-04T13:58:07.745Z"
 date: "2019-08-30"
 slug: womanhouse-a-memory-theater
+members:
+    - name: Chiara Fauda Pichet
+      slug: chiara-fauda-pichet
+      isAlumnus: true
+    - name: Annette Jael Lehmann
+      slug: annette-jael-lehmann
+      isAlumnus: false
+    - name: Kim Albrecht
+      slug: kim-albrecht
+      isAlumnus: false
+    - name: Jeffrey Schnapp
+      slug: jeffrey-schnapp
+      isAlumnus: false
 
 ---
 **This exhibit has moved to [Kunsthaus Graz](../womanhouse_graz).**

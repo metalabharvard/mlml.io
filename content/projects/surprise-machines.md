@@ -9,12 +9,19 @@ mediation: mixed_media
 category: project
 isFeatured: false
 externalLink: ""
-lastmod: "2021-09-16T09:49:45.065Z"
+lastmod: "2021-10-04T15:21:32.243Z"
 date: "2021-01-01"
 slug: surprise-machines
 collaborators:
     - label: Harvard Art Museums
       url: ""
+projects:
+    - title: 'Second Look: Gender and Sentiment on Show'
+      slug: second-look-gender-and-sentiment-on-show
+    - title: Ocean Amplification
+      slug: ocean-amplification
+    - title: Watching Machines Loving Grace
+      slug: watching-machines-loving-grace
 
 ---
 <iframe src="https://rodighiero.github.io/Surprise-Machines/" width="100%" height="500" frameborder="0" title="Surprise Machines"></iframe>

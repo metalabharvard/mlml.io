@@ -23,13 +23,18 @@ tzid: UTC
 intro: How mechanized animals might produce a disturbance that provokes possibility.
 location: Cambridge, MA
 host: ""
-category: ""
+category: seminar
 link: ""
 isFeatured: false
 isOngoing: false
-lastmod: "2021-09-16T09:49:46.095Z"
+lastmod: "2021-10-04T15:35:08.384Z"
 date: "2021-04-15T12:00:00Z"
 slug: mahindra-transmedia-arts-seminar-jenn-parker-starbuck-animals-in-the-machine-robotic-animal-agents
+events:
+    - title: 2018 LITA Library Technology Forum
+      slug: 2018-lita-library-technology-forum
+    - title: 2021 Virtual Creative Spring Workshops 2
+      slug: 2021-virtual-creative-spring-workshops
 ---
 Jenn Parker-Starbuck, Royal Holloway, University of London. April 15, 5pm EST.
 **Animals in the Machine: Robotic Animal Agents**

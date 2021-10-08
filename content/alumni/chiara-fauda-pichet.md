@@ -9,6 +9,9 @@ lastmod: "2021-09-16T10:51:45.331Z"
 date: "2021-09-16T10:51:45.331Z"
 slug: chiara-fauda-pichet
 noindex: true
+projects:
+    - title: Womanhouse (a memory theater)
+      slug: womanhouse-a-memory-theater
 
 ---
 Chiara Fauda Pichet is an interior designer and Ph.d. Candidate in Design Politecnico di Milano. As a researcher, she is studying the history of design and its relationship with contemporary art and architecture.

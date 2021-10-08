@@ -1,17 +1,21 @@
 ---
 title: Lexical Cartography of DH2020
 intro: A map to navigate scientific conferences through their speakers, arranged in a network visualization according to their lexical similarity.
-start: ""
-end: ""
+start: "2020-03-01"
+end: "2020-09-30"
 location: ""
 host: harvard
-mediation: ""
+mediation: web
 category: project
 isFeatured: false
 externalLink: https://rodighiero.github.io/DH2020/
-lastmod: "2021-09-15T18:00:30.164Z"
-date: "2021-08-11T12:59:25.825Z"
+lastmod: "2021-10-04T15:15:20.700Z"
+date: "2020-03-01"
 slug: lexical-cartography-of-dh-2020
+members:
+    - name: Dario Rodighiero
+      slug: dario-rodighiero
+      isAlumnus: false
 cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686754/lexicalcarto_686c2c0761.jpg
     width: 3072

@@ -5,16 +5,53 @@ start: "2021-01-01"
 end: "2021-01-01"
 location: ""
 host: harvard
-mediation: mixed_media
+mediation: web
 category: project
 isFeatured: false
 externalLink: ""
-lastmod: "2021-09-16T09:49:46.132Z"
+lastmod: "2021-10-04T15:26:12.471Z"
 date: "2021-01-01"
 slug: watching-machines-loving-grace
 collaborators:
     - label: Harvard Art Museums
       url: ""
+members:
+    - name: Kim Albrecht
+      slug: kim-albrecht
+      isAlumnus: false
+projects:
+    - title: 'Second Look: Gender and Sentiment on Show'
+      slug: second-look-gender-and-sentiment-on-show
+    - title: Ocean Amplification
+      slug: ocean-amplification
+    - title: Surprise Machines
+      slug: surprise-machines
+cover:
+    alternativeText: Watching Machines Interface Example. Overlayed images with cutout faces.
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633360980/watching_machines_kim_albrecht_harvard_art_museums_min_1be7c7efa8.png
+    width: 1200
+    height: 758
+    formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633360981/large_watching_machines_kim_albrecht_harvard_art_museums_min_1be7c7efa8.png
+            ext: .png
+            width: 1000
+            height: 632
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633360982/medium_watching_machines_kim_albrecht_harvard_art_museums_min_1be7c7efa8.png
+            ext: .png
+            width: 750
+            height: 474
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633360982/small_watching_machines_kim_albrecht_harvard_art_museums_min_1be7c7efa8.png
+            ext: .png
+            width: 500
+            height: 316
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633360980/thumbnail_watching_machines_kim_albrecht_harvard_art_museums_min_1be7c7efa8.png
+            ext: .png
+            width: 245
+            height: 155
 
 ---
 <iframe src="https://watching-machines.kimalbrecht.com/" width="100%" height="500px" frameborder="0" title="Watching Machines Loving Grace"></iframe><br />

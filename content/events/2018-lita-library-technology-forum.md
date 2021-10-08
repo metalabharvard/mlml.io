@@ -31,10 +31,12 @@ lastmod: "2021-09-16T14:03:11.531Z"
 date: "2018-11-08T12:00:00Z"
 slug: 2018-lita-library-technology-forum
 events:
+    - title: 'MAHINDRA TRANSMEDIA ARTS SEMINAR: Jenn Parker-Starbuck, Animals in the Machine: Robotic Animal Agents'
+      slug: mahindra-transmedia-arts-seminar-jenn-parker-starbuck-animals-in-the-machine-robotic-animal-agents
     - title: 2021 Virtual Creative Spring Workshops 2
       slug: 2021-virtual-creative-spring-workshops
 links:
-    - text: ""
+    - label: LITA Forum
       url: https://forum.lita.org/
 ---
 Wifi-proof booths; study carrels for napping; digital campfires for charging devices convivially—in the *Library Test Kitchen* seminar at the Graduate School of Design, metaLAB (at) Harvard has been exploring participatory innovation for libraries through fun, creative, improvisatory projects. And what's a test kitchen without recipes? In this session, members of metaLAB will be on hand to demo their new platform for sharing such "recipes" for playful innovation in libraries—and to invite participants to contribute recipes of their own.

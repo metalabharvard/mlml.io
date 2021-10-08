@@ -37,6 +37,8 @@ members:
 events:
     - title: 2018 LITA Library Technology Forum
       slug: 2018-lita-library-technology-forum
+    - title: 'MAHINDRA TRANSMEDIA ARTS SEMINAR: Jenn Parker-Starbuck, Animals in the Machine: Robotic Animal Agents'
+      slug: mahindra-transmedia-arts-seminar-jenn-parker-starbuck-animals-in-the-machine-robotic-animal-agents
 ---
 metaLAB’s experimental, materials-based creative workshops bring together hybrid formats that include design thinking exercises, group discussion, and physical prototyping (yes, even on zoom!) to think through pressing questions and work toward possible reformulations, new metaphors—and maybe, some solutions.  
 
