@@ -396,6 +396,11 @@ ul {
   }
 }
 
+.project-footer, .event-footer {
+  font-size: var(--size-7);
+  color: $color-gray-dark;
+}
+
 .start-time-list {
   display: grid;
   grid-template-columns: repeat(2, auto);
