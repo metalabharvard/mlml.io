@@ -20,6 +20,8 @@ type Meta struct {
   Vimeo string `json:"vimeo"`
   Youtube string `json:"youtube"`
   Soundcloud string `json:"soundcloud"`
+  Facebook string `json:"facebook"`
+  Linkedin string `json:"linkedin"`
   Instagram string `json:"instagram"`
   ErrorTitle string `json:"error_title"`
   ErrorText string `json:"error_text"`
@@ -35,6 +37,8 @@ type Params struct {
   Vimeo string `json:"vimeo"`
   Youtube string `json:"youtube"`
   Soundcloud string `json:"soundcloud"`
+  Facebook string `json:"facebook"`
+  Linkedin string `json:"linkedin"`
   Instagram string `json:"instagram"`
   ErrorTitle string `json:"error_title"`
   ErrorText string `json:"error_text"`
@@ -73,6 +77,8 @@ func main() {
       Vimeo: responseObject.Vimeo,
       Youtube: responseObject.Youtube,
       Soundcloud: responseObject.Soundcloud,
+      Facebook: responseObject.Facebook,
+      Linkedin: responseObject.Linkedin,
       Instagram: responseObject.Instagram,
       ErrorTitle: responseObject.ErrorTitle,
       ErrorText: responseObject.ErrorText,
