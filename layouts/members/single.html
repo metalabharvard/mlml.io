@@ -36,5 +36,8 @@
       {{ partial "related-events.html" (dict "events" $events "term" "Involved") }}
     </aside>
     {{ end }}
+    <footer class="member-footer grid-wide" role="contentinfo">
+      <span>Page published on <time datetime="{{ .PublishDate.Format "2006-01-02T15:04:05Z07:00" }}">{{ .PublishDate.Format "2 January 2006" }}</time>{{ if not (eq (.PublishDate.Format "2 January 2006") (.Lastmod.Format "2 January 2006"))}} and last edited on <time class="article-date" datetime="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Lastmod.Format "2 January 2006" }}</time>{{ end }}.</span>
+    </footer>
   </section>
 {{ end }}
