@@ -1,31 +1,86 @@
 {{ $membersScratch := newScratch }}
 {{- $membersScratch.Set "members" slice -}}
 {{- range $index, $element := (where .Site.RegularPages "Section" "members") -}}
-  {{- $membersScratch.Add "members" (dict "type" "member" "name" $element.Params.Name "role" $element.Params.Role_string "slug" $element.Slug) -}}
+  {{ $relatedItems := newScratch }}
+  {{ $events := $element.Params.Events }}
+  {{ $relatedItems.Set "events" (slice) }}
+  {{ with $events }}
+    {{- range $event := . -}}
+      {{- $relatedItems.Add "events" (dict "label" $event.title "id" $event.slug) -}}
+    {{- end -}}
+  {{- end -}}
+  {{ $relatedItems.Set "projects" (slice) }}
+  {{- range $project := $element.Params.Projects -}}
+    {{- $relatedItems.Add "projects" (dict "label" $project.title "id" $project.slug) -}}
+  {{- end -}}
+  {{- $membersScratch.Add "members" (dict "type" "member" "name" $element.Params.Name "role" $element.Params.Role_string "events" ($relatedItems.Get "events") "projects" ($relatedItems.Get "projects") "id" $element.Slug) -}}
+{{- end -}}
+
+{{ $alumniScratch := newScratch }}
+{{- $alumniScratch.Set "alumni" slice -}}
+{{- range $index, $element := (where .Site.RegularPages "Section" "alumni") -}}
+  {{ $relatedItems := newScratch }}
+  {{ $events := $element.Params.Events }}
+  {{ $relatedItems.Set "events" (slice) }}
+  {{ with $events }}
+    {{- range $event := . -}}
+      {{- $relatedItems.Add "events" (dict "label" $event.title "id" $event.slug) -}}
+    {{- end -}}
+  {{- end -}}
+  {{ $relatedItems.Set "projects" (slice) }}
+  {{- range $project := $element.Params.Projects -}}
+    {{- $relatedItems.Add "projects" (dict "label" $project.title "id" $project.slug) -}}
+  {{- end -}}
+  {{- $alumniScratch.Add "alumni" (dict "type" "alumnus" "name" $element.Params.Name "events" ($relatedItems.Get "events") "projects" ($relatedItems.Get "projects") "id" $element.Slug) -}}
 {{- end -}}
 
 {{ $eventsScratch := newScratch }}
 {{- $eventsScratch.Set "events" slice -}}
 {{- range $index, $element := (where .Site.RegularPages "Section" "events") -}}
-  {{ $relatedMembers := newScratch }}
+  {{ $relatedItems := newScratch }}
+  {{ $relatedItems.Set "members" (slice) }}
   {{- range $member := $element.Params.Members -}}
-    {{- $relatedMembers.Add "members" (slice $member.name) -}}
+    {{- $relatedItems.Add "members" (dict "label" $member.name "id" $member.slug) -}}
   {{- end -}}
-  {{- $eventsScratch.Add "events" (dict "type" "event" "title" $element.Title "intro" (plainify ($element.Params.Intro | markdownify)) "description" (replace (safeHTMLAttr (safeJS (plainify ($element.Params.Description | markdownify)))) "\n" " ") "members" ($relatedMembers.Get "members") "slug" $element.Slug) -}}
+  {{ $events := $element.Params.Events }}
+  {{ $relatedItems.Set "events" (slice) }}
+  {{ with $events }}
+    {{- range $event := . -}}
+      {{- $relatedItems.Add "events" (dict "label" $event.title "id" $event.slug) -}}
+    {{- end -}}
+  {{- end -}}
+  {{ $relatedItems.Set "projects" (slice) }}
+  {{- range $project := $element.Params.Projects -}}
+    {{- $relatedItems.Add "projects" (dict "label" $project.title "id" $project.slug) -}}
+  {{- end -}}
+  {{- $eventsScratch.Add "events" (dict "type" "event" "title" $element.Title "location" $element.Params.Location "intro" (plainify ($element.Params.Intro | markdownify)) "description" (replace (safeHTMLAttr (safeJS (plainify ($element.Params.Description | markdownify)))) "\n" " ") "members" ($relatedItems.Get "members") "events" ($relatedItems.Get "events") "projects" ($relatedItems.Get "projects") "id" $element.Slug) -}}
 {{- end -}}
 
 {{ $projectsScratch := newScratch }}
 {{- $projectsScratch.Set "projects" slice -}}
 {{- range $index, $element := (where .Site.RegularPages "Section" "projects") -}}
-  {{ $relatedMembers := newScratch }}
+  {{ $relatedItems := newScratch }}
+  {{ $relatedItems.Set "members" (slice) }}
   {{- range $member := $element.Params.Members -}}
-    {{- $relatedMembers.Add "members" (slice $member.name) -}}
+    {{- $relatedItems.Add "members" (dict "label" $member.name "id" $member.slug) -}}
   {{- end -}}
-  {{- $projectsScratch.Add "projects" (dict "type" "event" "title" $element.Title "intro" (plainify ($element.Params.Intro | markdownify)) "description" (replace (safeHTMLAttr (safeJS (plainify ($element.Params.Description | markdownify)))) "\n" " ") "members" ($relatedMembers.Get "members") "slug" $element.Slug) -}}
+  {{ $events := $element.Params.Events }}
+  {{ $relatedItems.Set "events" (slice) }}
+  {{ with $events }}
+    {{- range $event := . -}}
+      {{- $relatedItems.Add "events" (dict "label" $event.title "id" $event.slug) -}}
+    {{- end -}}
+  {{- end -}}
+  {{ $relatedItems.Set "projects" (slice) }}
+  {{- range $project := $element.Params.Projects -}}
+    {{- $relatedItems.Add "projects" (dict "label" $project.title "id" $project.slug) -}}
+  {{- end -}}
+  {{- $projectsScratch.Add "projects" (dict "type" "event" "title" $element.Title "intro" (plainify ($element.Params.Intro | markdownify)) "description" (replace (safeHTMLAttr (safeJS (plainify ($element.Params.Description | markdownify)))) "\n" " ") "members" ($relatedItems.Get "members") "events" ($relatedItems.Get "events") "projects" ($relatedItems.Get "projects") "id" $element.Slug) -}}
 {{- end -}}
 
 {{ $content := newScratch }}
 {{ $content.SetInMap "list" "projects" ($projectsScratch.Get "projects") }}
-{{ $content.SetInMap "list" "members" ($membersScratch.Get "members") }}
 {{ $content.SetInMap "list" "events" ($eventsScratch.Get "events") }}
+{{ $content.SetInMap "list" "members" ($membersScratch.Get "members") }}
+{{ $content.SetInMap "list" "alumni" ($alumniScratch.Get "alumni") }}
 {{- $content.Get "list" | jsonify -}}
