@@ -16,11 +16,21 @@ date: "2021-09-16T10:51:45.422Z"
 slug: matthew-battles
 noindex: false
 events:
-    - title: 2021 Virtual Creative Spring Workshops 2
-      slug: 2021-virtual-creative-spring-workshops
+    - title: metaLAB + friends openLAB
+      slug: meta-lab-friends-open-lab
+    - title: 'Overflow: Inexplicable Parts of the Intimate'
+      slug: overflow-inexplicable-parts-of-the-intimate
+    - title: MACHINE EXPERIENCE
+      slug: machine-experience
+    - title: Dialogues with Data [at] Infovis
+      slug: dialogues-with-data-at-infovis
+    - title: CURATORIAL A(I)GENTS at ARS ELECTRONICA 2020
+      slug: curatorial-a-i-gents-at-ars-electronica-2020
 projects:
     - title: Curricle Lens
       slug: curricle-lens
+    - title: Curricle
+      slug: curricle
     - title: Their Names
       slug: their-names
 picture:

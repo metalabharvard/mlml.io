@@ -33,8 +33,6 @@ slug: mahindra-transmedia-arts-seminar-jenn-parker-starbuck-animals-in-the-machi
 events:
     - title: 2018 LITA Library Technology Forum
       slug: 2018-lita-library-technology-forum
-    - title: 2021 Virtual Creative Spring Workshops 2
-      slug: 2021-virtual-creative-spring-workshops
 ---
 Jenn Parker-Starbuck, Royal Holloway, University of London. April 15, 5pm EST.
 **Animals in the Machine: Robotic Animal Agents**

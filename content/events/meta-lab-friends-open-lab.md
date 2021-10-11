@@ -27,9 +27,31 @@ category: ""
 link: ""
 isFeatured: false
 isOngoing: false
-lastmod: "2021-09-16T09:49:46.488Z"
+lastmod: "2021-10-10T16:12:31.796Z"
 date: "2018-03-06T12:00:00Z"
 slug: meta-lab-friends-open-lab
+members:
+    - name: Adam Haar Horowitz
+      slug: adam-haar-horowitz
+      isAlumnus: true
+    - name: Sarah Newman
+      slug: sarah-newman
+      isAlumnus: false
+    - name: Kim Albrecht
+      slug: kim-albrecht
+      isAlumnus: false
+    - name: Matthew Battles
+      slug: matthew-battles
+      isAlumnus: false
+    - name: Jessica Yurkofsky
+      slug: jessica-yurkofsky
+      isAlumnus: true
+    - name: Pip Mothersill
+      slug: pip-mothersill
+      isAlumnus: true
+    - name: Jeffrey Schnapp
+      slug: jeffrey-schnapp
+      isAlumnus: false
 ---
 **metaLAB + friends openLAB**<br />
 **March 6, 5:30-7:30**<br />

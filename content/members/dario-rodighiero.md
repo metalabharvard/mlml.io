@@ -9,6 +9,9 @@ lastmod: "2021-09-16T10:51:44.527Z"
 date: "2021-09-16T10:51:44.527Z"
 slug: dario-rodighiero
 noindex: false
+events:
+    - title: CURATORIAL A(I)GENTS at ARS ELECTRONICA 2020
+      slug: curatorial-a-i-gents-at-ars-electronica-2020
 projects:
     - title: Lexical Cartography of DH2020
       slug: lexical-cartography-of-dh-2020

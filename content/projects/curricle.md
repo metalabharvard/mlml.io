@@ -9,9 +9,28 @@ mediation: mixed_media
 category: project
 isFeatured: false
 externalLink: ""
-lastmod: "2021-09-16T09:49:46.478Z"
+lastmod: "2021-10-10T17:03:31.419Z"
 date: "2019-01-01"
 slug: curricle
+members:
+    - name: Oliver Luo
+      slug: oliver-luo
+      isAlumnus: true
+    - name: Jeffrey Schnapp
+      slug: jeffrey-schnapp
+      isAlumnus: false
+    - name: Matthew Battles
+      slug: matthew-battles
+      isAlumnus: false
+    - name: Kim Albrecht
+      slug: kim-albrecht
+      isAlumnus: false
+    - name: Jessica Yurkofsky
+      slug: jessica-yurkofsky
+      isAlumnus: true
+    - name: Alexandra Dolan-Mescal
+      slug: alexandra-dolan-mescal
+      isAlumnus: true
 
 ---
 **Try it out at [curricle.berkman.harvard.edu](http://curricle.berkman.harvard.edu) (advanced beta)<br />

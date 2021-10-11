@@ -9,9 +9,16 @@ mediation: mixed_media
 category: project
 isFeatured: false
 externalLink: ""
-lastmod: "2021-09-16T09:49:46.464Z"
+lastmod: "2021-10-10T17:05:36.180Z"
 date: "2019-01-01"
 slug: distinction-machine
+events:
+    - title: 'Ars Electronica: Error – The Art of Imperfection'
+      slug: ars-electronica-error-the-art-of-imperfection
+members:
+    - name: Kim Albrecht
+      slug: kim-albrecht
+      isAlumnus: false
 
 ---
 **Distinction Machine**

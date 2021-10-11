@@ -27,9 +27,13 @@ category: ""
 link: ""
 isFeatured: false
 isOngoing: false
-lastmod: "2021-09-16T09:49:46.703Z"
+lastmod: "2021-10-10T16:03:46.721Z"
 date: "2017-08-11T12:00:00Z"
 slug: color-rx
+members:
+    - name: Maia Suazo-Maler
+      slug: maia-suazo-maler
+      isAlumnus: true
 ---
 **Color Rx**
 <br />Maia Leandra

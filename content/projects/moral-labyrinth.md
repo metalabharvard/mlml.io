@@ -9,9 +9,13 @@ mediation: mixed_media
 category: project
 isFeatured: false
 externalLink: ""
-lastmod: "2021-09-16T09:49:46.226Z"
+lastmod: "2021-10-10T17:05:11.314Z"
 date: "2019-01-01"
 slug: moral-labyrinth
+members:
+    - name: Sarah Newman
+      slug: sarah-newman
+      isAlumnus: false
 
 ---
 **[Visit the Moral Labyrinth website](https://morallabyrinth.com)**

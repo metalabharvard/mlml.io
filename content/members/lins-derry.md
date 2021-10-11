@@ -13,6 +13,9 @@ lastmod: "2021-09-16T10:57:53.304Z"
 date: "2021-09-16T10:51:45.177Z"
 slug: lins-derry
 noindex: false
+events:
+    - title: CURATORIAL A(I)GENTS at ARS ELECTRONICA 2020
+      slug: curatorial-a-i-gents-at-ars-electronica-2020
 
 ---
 Lins Derry is a designer and artist working at the intersection of embodied interaction, data visualization/physicalization, and choreography. The body is often her site for investigation and intervention in the realms of design and performance. Her current work explores how choreographic interfaces can increase the kinetic and spatial interactivity between humans and technological systems. Her thesis is that by integrating choreography models into interface design, the subsequent user interactions, or body movement, can help to amplify embodied cognition in digital settings. With metaLAB, Lins researches how choreographic interfaces can be developed toward both functional and aesthetic ends, as exemplified in the lab's prototype for [Curatorial A(i)gents](https://metalabharvard.github.io/projects/curatorial-aigents/). 

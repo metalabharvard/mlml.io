@@ -27,9 +27,22 @@ category: ""
 link: ""
 isFeatured: false
 isOngoing: false
-lastmod: "2021-09-16T09:49:46.252Z"
+lastmod: "2021-10-10T16:06:17.622Z"
 date: "2017-05-11T12:00:00Z"
 slug: dialogues-with-data-at-infovis
+members:
+    - name: Jessica Yurkofsky
+      slug: jessica-yurkofsky
+      isAlumnus: true
+    - name: Jeffrey Schnapp
+      slug: jeffrey-schnapp
+      isAlumnus: false
+    - name: Matthew Battles
+      slug: matthew-battles
+      isAlumnus: false
+    - name: Sarah Newman
+      slug: sarah-newman
+      isAlumnus: false
 links:
     - label: information&#43;visualization
       url: http://infovis.fh-potsdam.de/

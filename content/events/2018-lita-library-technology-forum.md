@@ -33,8 +33,6 @@ slug: 2018-lita-library-technology-forum
 events:
     - title: 'MAHINDRA TRANSMEDIA ARTS SEMINAR: Jenn Parker-Starbuck, Animals in the Machine: Robotic Animal Agents'
       slug: mahindra-transmedia-arts-seminar-jenn-parker-starbuck-animals-in-the-machine-robotic-animal-agents
-    - title: 2021 Virtual Creative Spring Workshops 2
-      slug: 2021-virtual-creative-spring-workshops
 links:
     - label: LITA Forum
       url: https://forum.lita.org/

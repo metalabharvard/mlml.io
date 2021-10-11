@@ -9,10 +9,13 @@ mediation: exhibition
 category: project
 isFeatured: false
 externalLink: ""
-lastmod: "2021-10-04T13:58:07.745Z"
+lastmod: "2021-10-10T17:01:33.456Z"
 date: "2019-08-30"
 slug: womanhouse-a-memory-theater
 members:
+    - name: Mindy Seu
+      slug: mindy-seu
+      isAlumnus: true
     - name: Chiara Fauda Pichet
       slug: chiara-fauda-pichet
       isAlumnus: true

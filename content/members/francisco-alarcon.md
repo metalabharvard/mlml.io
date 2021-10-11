@@ -10,6 +10,9 @@ lastmod: "2021-09-16T10:51:44.690Z"
 date: "2021-09-16T10:51:44.690Z"
 slug: francisco-alarcon
 noindex: false
+events:
+    - title: CURATORIAL A(I)GENTS at ARS ELECTRONICA 2020
+      slug: curatorial-a-i-gents-at-ars-electronica-2020
 
 ---
 Francisco Alarcon is an artist and engineer working on the intersection of visual arts and technology. Alarcon’s research focus is on the material history of computer-generated graphics and how the interface informs the construction of cultural techniques. He is intrigued by the importance of the technical specificity of postphotographic image production in the contemporary visual culture—a topic that is often misunderstood. Alarcon’s approach to digital imaging is multifaceted, on a historical level, and also conceptually, and his research intends to demystify technical processes and philosophical perspectives on media operations. 

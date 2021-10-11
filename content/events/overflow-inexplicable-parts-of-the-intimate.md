@@ -27,9 +27,16 @@ category: ""
 link: ""
 isFeatured: false
 isOngoing: false
-lastmod: "2021-09-16T09:49:46.611Z"
+lastmod: "2021-10-10T16:03:01.037Z"
 date: "2019-01-19T12:00:00Z"
 slug: overflow-inexplicable-parts-of-the-intimate
+members:
+    - name: Kim Albrecht
+      slug: kim-albrecht
+      isAlumnus: false
+    - name: Matthew Battles
+      slug: matthew-battles
+      isAlumnus: false
 ---
 **[OVERFLOW: INEXPLICABLE PARTS OF THE INTIMATE](https://rainbow-unicorn.com/#gallery)**
 

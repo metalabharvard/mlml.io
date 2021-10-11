@@ -1,5 +1,5 @@
 ---
-title: 2021 Virtual Creative Spring Workshops 2
+title: 2021 Virtual Creative Spring Workshops
 outputs:
     - HTML
     - Calendar
@@ -27,18 +27,9 @@ category: ""
 link: ""
 isFeatured: false
 isOngoing: false
-lastmod: "2021-09-16T14:03:05.908Z"
+lastmod: "2021-10-08T17:21:42.923Z"
 date: "2021-06-06T12:00:00Z"
 slug: 2021-virtual-creative-spring-workshops
-members:
-    - name: Matthew Battles
-      slug: matthew-battles
-      isAlumnus: false
-events:
-    - title: 2018 LITA Library Technology Forum
-      slug: 2018-lita-library-technology-forum
-    - title: 'MAHINDRA TRANSMEDIA ARTS SEMINAR: Jenn Parker-Starbuck, Animals in the Machine: Robotic Animal Agents'
-      slug: mahindra-transmedia-arts-seminar-jenn-parker-starbuck-animals-in-the-machine-robotic-animal-agents
 ---
 metaLAB’s experimental, materials-based creative workshops bring together hybrid formats that include design thinking exercises, group discussion, and physical prototyping (yes, even on zoom!) to think through pressing questions and work toward possible reformulations, new metaphors—and maybe, some solutions.  
 

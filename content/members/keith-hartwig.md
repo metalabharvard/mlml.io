@@ -8,6 +8,9 @@ lastmod: "2021-09-16T10:51:45.465Z"
 date: "2021-09-16T10:51:45.465Z"
 slug: keith-hartwig
 noindex: false
+events:
+    - title: CURATORIAL A(I)GENTS at ARS ELECTRONICA 2020
+      slug: curatorial-a-i-gents-at-ars-electronica-2020
 
 ---
 Keith Hartwig is an artist, designer and researcher working in the fields of Science and Technology Studies, Media and Spatial Practice. His practice explores the spatial, cultural and civic dimensions of environmental and technological networks. Keith graduated from the Harvard Graduate School of Design in 2018 with a Master of Design Studies in Art, Design and the Public Domain. Prior to graduate studies, he taught in the department of Visual Studies at Temple University and the College of Architecture and the Built Environment at Philadelphia University.

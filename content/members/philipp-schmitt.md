@@ -10,6 +10,9 @@ lastmod: "2021-09-16T10:51:45.508Z"
 date: "2021-09-16T10:51:45.508Z"
 slug: philipp-schmitt
 noindex: false
+events:
+    - title: CURATORIAL A(I)GENTS at ARS ELECTRONICA 2020
+      slug: curatorial-a-i-gents-at-ars-electronica-2020
 
 ---
 Philipp Schmitt (b. 1993, Germany) is an artist, designer, and researcher based in Brooklyn, NY, USA.

@@ -27,9 +27,43 @@ category: ""
 link: ""
 isFeatured: false
 isOngoing: false
-lastmod: "2021-09-16T09:49:46.611Z"
+lastmod: "2021-10-10T16:15:52.498Z"
 date: "2020-09-11T12:00:00Z"
 slug: curatorial-a-i-gents-at-ars-electronica-2020
+members:
+    - name: Matthew Battles
+      slug: matthew-battles
+      isAlumnus: false
+    - name: Philipp Schmitt
+      slug: philipp-schmitt
+      isAlumnus: false
+    - name: Lins Derry
+      slug: lins-derry
+      isAlumnus: false
+    - name: Jeffrey Schnapp
+      slug: jeffrey-schnapp
+      isAlumnus: false
+    - name: Dario Rodighiero
+      slug: dario-rodighiero
+      isAlumnus: false
+    - name: Dietmar Offenhuber
+      slug: dietmar-offenhuber
+      isAlumnus: false
+    - name: Eveline Wandl-Vogt
+      slug: eveline-wandl-vogt
+      isAlumnus: false
+    - name: Kim Albrecht
+      slug: kim-albrecht
+      isAlumnus: false
+    - name: Francisco Alarcon
+      slug: francisco-alarcon
+      isAlumnus: false
+    - name: Yue Chelsea Qiu
+      slug: yue-chelsea-qiu
+      isAlumnus: true
+    - name: Keith Hartwig
+      slug: keith-hartwig
+      isAlumnus: false
 ---
 **ONLINE<br />
 Friday, September 11<br />

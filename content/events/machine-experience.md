@@ -27,9 +27,25 @@ category: ""
 link: ""
 isFeatured: false
 isOngoing: false
-lastmod: "2021-09-16T09:49:45.848Z"
+lastmod: "2021-10-10T16:05:06.150Z"
 date: "2017-08-08T12:00:00Z"
 slug: machine-experience
+members:
+    - name: Kim Albrecht
+      slug: kim-albrecht
+      isAlumnus: false
+    - name: Rachel Kalmar
+      slug: rachel-kalmar
+      isAlumnus: true
+    - name: Jonathan Sun
+      slug: jonathan-sun
+      isAlumnus: true
+    - name: Sarah Newman
+      slug: sarah-newman
+      isAlumnus: false
+    - name: Matthew Battles
+      slug: matthew-battles
+      isAlumnus: false
 projects:
     - title: Artificial Senses
       slug: artificial-senses

@@ -10,6 +10,9 @@ lastmod: "2021-09-16T10:51:44.527Z"
 date: "2021-09-16T10:51:44.527Z"
 slug: alexandra-dolan-mescal
 noindex: true
+projects:
+    - title: Curricle
+      slug: curricle
 
 ---
 Alexandra is an artist, archivist, and user experience designer whose works
