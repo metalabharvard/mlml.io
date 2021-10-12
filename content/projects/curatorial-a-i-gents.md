@@ -9,12 +9,9 @@ mediation: ""
 category: project
 isFeatured: false
 externalLink: https://metalabharvard.github.io/
-lastmod: "2021-08-11T14:47:02.527Z"
+lastmod: "2021-10-12T05:56:43.754Z"
 date: "2021-06-17"
 slug: curatorial-a-i-gents
-collaborators:
-    - label: ""
-      url: ""
 links:
     - label: ""
       url: https://metalabharvard.github.io/projects/curatorial-aigents/sympoieticsystem/
@@ -22,6 +19,10 @@ links:
       url: https://metalabharvard.github.io/projects/curatorial-aigents/secondlook/
     - label: ""
       url: https://metalabharvard.github.io/projects/curatorial-aigents/thelovinggrace/
+members:
+    - name: Jeffrey Schnapp
+      slug: jeffrey-schnapp
+      isAlumnus: false
 cover:
     alternativeText: Curatiorial A(i)gents Cover
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1623943307/agents_ce7bfadd93.jpg

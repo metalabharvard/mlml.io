@@ -27,6 +27,8 @@ projects:
       slug: curricle
     - title: Womanhouse (a memory theater)
       slug: womanhouse-a-memory-theater
+    - title: Curatorial A(i)gents
+      slug: curatorial-a-i-gents
     - title: 'Tacit Knowledge: Post Studio/Feminism – CalArts 1970-1977'
       slug: tacit-knowledge-post-studio-feminism-cal-arts-1970-1977
     - title: 'Where Art Might Happen: The Early Years of CalArts'
