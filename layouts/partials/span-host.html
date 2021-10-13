@@ -1,11 +1,11 @@
 <span class="{{ .type }}-host p-location">
 {{- if .host -}}
 {{- if eq .host "both" -}}
-Harvard and Berlin
+{{ .Site.Params.Label.HostsBoth }}
 {{- else -}}
 {{- title .host }}
 {{- end -}}
 {{- else -}}
-Harvard
+{{ .Site.Params.Label.HostsDefault }}
 {{- end -}}
 </span>

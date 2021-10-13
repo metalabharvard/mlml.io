@@ -12,6 +12,22 @@ disableKinds = ["taxonomyTerm"]
   timezoneBoston = "EDT"
   timezoneBerlin = "CEST"
 
+[params.label]
+  hostsBoth = "Harvard and Berlin"
+  hostsDefault = "Harvard"
+  hostsHeadline = "Projects hosted by %s"
+  socialFacebookTitle = "Follow %s on Facebook"
+  socialGithubTitle = "Follow %s on Github"
+  socialHomepageTitle = "Visit %s’s website"
+  socialInstagramTitle = "Follow %s on Instagram"
+  socialLinkedinTitle = "Follow %s on LinkedIn"
+  socialEmailTitle = "Contact %s via mail"
+  socialSoundcloudTitle = "Follow %s on Soundcloud"
+  socialTwitterTitle = "Follow %s on Twitter"
+  socialVimeoTitle = "Follow %s on Vimeo"
+  socialYouTubeTitle = "Follow %s on YouTube"
+  socialMetalabSelf = "us"
+
 [permalinks]
   projects = "/:slug/"
   members = "/:slug/"

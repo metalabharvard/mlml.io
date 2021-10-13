@@ -1,6 +1,6 @@
 {{ define "main" }}
   <section class="homepage-projects-list grid-wide">
-    <h1>Projects hosted by {{ title .Title }}</h1>
+    <h1>{{ printf .Site.Params.Label.HostsHeadline (title .Title) }}</h1>
     <ul role="list">
     {{ range (where (where .RegularPages "Section" "eq" "projects") "Params.host" "in" (slice .Title "both")) }}
       {{ partial "project-preview.html" (dict "project" . )}}
