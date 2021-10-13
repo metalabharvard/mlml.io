@@ -1,21 +1,23 @@
 baseURL = "https://metalab.netlify.app/"
 languageCode = "en-us"
-disableKinds = ["taxonomy", "taxonomyTerm"]
 uglyURLs = true
 theme = ["hugo-cloak-email"]
+disableKinds = ["taxonomyTerm"]
+
+[taxonomies]
+  host = "host"
 
 [params]
   contentTypes = ["projects", "members", "events"]
   timezoneBoston = "EDT"
-  timezoneBostonLabel = "Boston"
   timezoneBerlin = "CEST"
-  timezoneBerlinLabel = "Berlin"
 
 [permalinks]
   projects = "/:slug/"
   members = "/:slug/"
   events = "/:slug/"
   alumni = "/:slug/"
+  host = "/:slug/"
 
 [markup.goldmark.renderer]
   hardWraps = true

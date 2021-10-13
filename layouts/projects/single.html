@@ -45,7 +45,7 @@
     <aside class="project-aside grid-narrow-right-aside">
       {{ with .Params.Category }}<span class="project-type">{{ title . }}</span>{{ end }}
       {{ partial "span-timespan.html" (dict "start" .Params.Start "end" .Params.End) }}
-      {{ partial "span-host.html" (dict "host" .Params.host "type" "project") }}
+      {{ partial "span-host-link.html" (dict "host" .Params.host "type" "project") }}
       {{ with .Params.location }}<span class="project-location">{{ . }}</span>{{ end }}
     </aside>
     {{ with .Params.ExternalLink }}

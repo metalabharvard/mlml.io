@@ -1,0 +1,11 @@
+<span class="{{ .type }}-host p-location">
+{{- if .host -}}
+{{- if eq .host "both" -}}
+Harvard and Berlin
+{{- else -}}
+<a href="{{ .host | absURL }}">{{- title .host }}</a>
+{{- end -}}
+{{- else -}}
+<a href="{{ "harvard" | absURL }}">Harvard</a>
+{{- end -}}
+</span>
