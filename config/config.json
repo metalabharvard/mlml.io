@@ -1,19 +1,24 @@
 {
  "title": "metalab(at)harvard",
+ "baseURL": "https://metalab.netlify.app/",
  "params": {
+  "title": "metalab(at)harvard",
   "description": "We are an idea foundry, knowledge-design lab, and production studio experimenting in the networked arts and humanities.",
-  "keywords": "networked arts humanities",
-  "footer_text": "Metalab is a …Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.",
-  "twitter": "metalabharvard",
-  "github": "metalabharvard",
-  "email": "info@metalab.harvard.edu",
-  "vimeo": "",
-  "youtube": "",
-  "soundcloud": "",
-  "facebook": "",
-  "linkedin": "",
-  "instagram": "metalabharvard",
-  "error_title": "404: Page could not be found",
-  "error_text": "Please use the page search to find what you are looking for."
+  "keywords": "idea foundry knowledge-design lab production studio networked arts humanities",
+  "contact": {
+   "twitter": "metalabharvard",
+   "github": "metalabharvard",
+   "email": "info@metalab.harvard.edu",
+   "facebook": "metalabharvard",
+   "instagram": "metalabharvard"
+  },
+  "label": {
+   "error_title": "404: Page could not be found",
+   "error_text": "Please use the page search to find what you are looking for.",
+   "footer_text": "Metalab is a …Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.",
+   "label_timezone_boston": "Boston",
+   "label_timezone_berlin": "Berlin",
+   "label_alumni_update": "The pages of our alumni members are no longer updated. Content may no longer be valid."
+  }
  }
 }

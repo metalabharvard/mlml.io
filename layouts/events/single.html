@@ -7,8 +7,8 @@
       {{ if .Params.Start_time }}
       <div class="timezone-tabs">
         <nav role="tablist" aria-label="Timezone selection">
-          <button class="event-timezone btn-tab" role="tab" aria-controls="panel-boston" id="tab-boston" aria-selected="true" tabindex="0">{{ .Site.Params.timezoneBostonLabel }}</button>
-          <button class="event-timezone btn-tab" role="tab" aria-controls="panel-berlin" id="tab-berlin" aria-selected="false" tabindex="-1">{{ .Site.Params.timezoneBerlinLabel }}</button>
+          <button class="event-timezone btn-tab" role="tab" aria-controls="panel-boston" id="tab-boston" aria-selected="true" tabindex="0">{{ .Site.Params.Label.label_timezone_boston }}</button>
+          <button class="event-timezone btn-tab" role="tab" aria-controls="panel-berlin" id="tab-berlin" aria-selected="false" tabindex="-1">{{ .Site.Params.Label.label_timezone_berlin }}</button>
         </nav>
         <div class="timezone-content">
           <time
