@@ -27,10 +27,49 @@ category: ""
 link: ""
 isFeatured: false
 isOngoing: false
-lastmod: "2021-09-16T09:49:46.370Z"
+lastmod: "2021-10-13T09:28:54.170Z"
 date: "2018-01-19T12:00:00Z"
 slug: machine-experience-ii
+members:
+    - name: Kim Albrecht
+      slug: kim-albrecht
+      isAlumnus: false
+    - name: Matthew Battles
+      slug: matthew-battles
+      isAlumnus: false
+    - name: Mindy Seu
+      slug: mindy-seu
+      isAlumnus: true
+    - name: Adam Haar Horowitz
+      slug: adam-haar-horowitz
+      isAlumnus: true
+    - name: Jessica Yurkofsky
+      slug: jessica-yurkofsky
+      isAlumnus: true
+    - name: Joanne Cheung
+      slug: joanne-cheung
+      isAlumnus: true
+    - name: Sarah Newman
+      slug: sarah-newman
+      isAlumnus: false
+    - name: Maia Suazo-Maler
+      slug: maia-suazo-maler
+      isAlumnus: true
+    - name: Sands Alden Fish
+      slug: sands-alden-fish
+      isAlumnus: false
+    - name: Hannah Davis
+      slug: hannah-davis
+      isAlumnus: false
+    - name: Jie Qi
+      slug: jie-qi
+      isAlumnus: true
+    - name: Rachel Kalmar
+      slug: rachel-kalmar
+      isAlumnus: true
 projects:
+    - title: Moral Labyrinth
+      slug: moral-labyrinth
     - title: Artificial Senses
       slug: artificial-senses
 ---

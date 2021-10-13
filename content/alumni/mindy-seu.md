@@ -9,6 +9,9 @@ lastmod: "2021-09-16T10:51:45.245Z"
 date: "2021-09-16T10:51:45.245Z"
 slug: mindy-seu
 noindex: true
+events:
+    - title: MACHINE EXPERIENCE II
+      slug: machine-experience-ii
 projects:
     - title: Womanhouse (a memory theater)
       slug: womanhouse-a-memory-theater

@@ -11,6 +11,9 @@ lastmod: "2021-09-16T10:51:44.817Z"
 date: "2021-09-16T10:51:44.817Z"
 slug: sands-alden-fish
 noindex: false
+events:
+    - title: MACHINE EXPERIENCE II
+      slug: machine-experience-ii
 
 ---
 Sands Fish is a designer, artist, and futurist based in Boston, USA. Previously at the MIT Media Lab and Harvard's Berkman Center, he runs a design firm for humans in space, working in collaboration with the Media Lab Space Exploration Initiative. In his creative practice, he uses the language of interfaces and devices as a medium, exploring how humans will create and interact with their tools and how those tools will be implicated in creating our future.

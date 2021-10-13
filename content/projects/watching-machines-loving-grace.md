@@ -9,12 +9,15 @@ mediation: web
 category: project
 isFeatured: false
 externalLink: ""
-lastmod: "2021-10-04T15:26:12.471Z"
+lastmod: "2021-10-13T08:16:48.622Z"
 date: "2021-01-01"
 slug: watching-machines-loving-grace
 collaborators:
     - label: Harvard Art Museums
       url: ""
+events:
+    - title: CURATORIAL A(I)GENTS at ARS ELECTRONICA 2020
+      slug: curatorial-a-i-gents-at-ars-electronica-2020
 members:
     - name: Kim Albrecht
       slug: kim-albrecht

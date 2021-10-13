@@ -64,6 +64,9 @@ members:
     - name: Keith Hartwig
       slug: keith-hartwig
       isAlumnus: false
+projects:
+    - title: Watching Machines Loving Grace
+      slug: watching-machines-loving-grace
 ---
 **ONLINE<br />
 Friday, September 11<br />

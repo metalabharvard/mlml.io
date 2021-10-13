@@ -23,6 +23,8 @@ events:
       slug: meta-lab-friends-open-lab
     - title: CURATORIAL A(I)GENTS at ARS ELECTRONICA 2020
       slug: curatorial-a-i-gents-at-ars-electronica-2020
+    - title: MACHINE EXPERIENCE II
+      slug: machine-experience-ii
     - title: 'Overflow: Inexplicable Parts of the Intimate'
       slug: overflow-inexplicable-parts-of-the-intimate
 projects:
@@ -32,8 +34,6 @@ projects:
       slug: where-art-might-happen-the-early-years-of-cal-arts
     - title: Artificial Senses
       slug: artificial-senses
-    - title: Watching Machines Loving Grace
-      slug: watching-machines-loving-grace
     - title: Their Names
       slug: their-names
     - title: 'Tacit Knowledge: Post Studio/Feminism – CalArts 1970-1977'
@@ -44,6 +44,8 @@ projects:
       slug: curricle
     - title: Hypercam
       slug: hypercam
+    - title: Watching Machines Loving Grace
+      slug: watching-machines-loving-grace
     - title: Distinction Machine
       slug: distinction-machine
 picture:

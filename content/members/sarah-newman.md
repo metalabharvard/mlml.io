@@ -15,6 +15,8 @@ date: "2021-09-16T10:51:45.313Z"
 slug: sarah-newman
 noindex: false
 events:
+    - title: MACHINE EXPERIENCE II
+      slug: machine-experience-ii
     - title: MACHINE EXPERIENCE
       slug: machine-experience
     - title: If By Water [at] re:publica 17

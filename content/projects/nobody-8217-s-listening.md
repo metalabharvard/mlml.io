@@ -15,6 +15,9 @@ slug: nobody-8217-s-listening
 collaborators:
     - label: Rachel Kalmar
       url: ""
+events:
+    - title: MACHINE EXPERIENCE
+      slug: machine-experience
 
 ---
 **Nobody's Listening**

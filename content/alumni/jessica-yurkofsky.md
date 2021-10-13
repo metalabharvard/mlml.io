@@ -14,6 +14,8 @@ events:
       slug: meta-lab-friends-open-lab
     - title: Dialogues with Data [at] Infovis
       slug: dialogues-with-data-at-infovis
+    - title: MACHINE EXPERIENCE II
+      slug: machine-experience-ii
 projects:
     - title: Curricle
       slug: curricle

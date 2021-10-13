@@ -10,5 +10,7 @@ noindex: true
 events:
     - title: MACHINE EXPERIENCE
       slug: machine-experience
+    - title: MACHINE EXPERIENCE II
+      slug: machine-experience-ii
 
 ---

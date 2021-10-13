@@ -9,5 +9,8 @@ lastmod: "2021-09-16T10:51:45.020Z"
 date: "2021-09-16T10:51:45.020Z"
 slug: jie-qi
 noindex: true
+events:
+    - title: MACHINE EXPERIENCE II
+      slug: machine-experience-ii
 
 ---

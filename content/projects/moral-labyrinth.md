@@ -12,6 +12,9 @@ externalLink: ""
 lastmod: "2021-10-10T17:05:11.314Z"
 date: "2019-01-01"
 slug: moral-labyrinth
+events:
+    - title: MACHINE EXPERIENCE II
+      slug: machine-experience-ii
 members:
     - name: Sarah Newman
       slug: sarah-newman

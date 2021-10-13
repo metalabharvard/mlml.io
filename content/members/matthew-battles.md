@@ -20,10 +20,12 @@ events:
       slug: meta-lab-friends-open-lab
     - title: 'Overflow: Inexplicable Parts of the Intimate'
       slug: overflow-inexplicable-parts-of-the-intimate
-    - title: MACHINE EXPERIENCE
-      slug: machine-experience
     - title: Dialogues with Data [at] Infovis
       slug: dialogues-with-data-at-infovis
+    - title: MACHINE EXPERIENCE II
+      slug: machine-experience-ii
+    - title: MACHINE EXPERIENCE
+      slug: machine-experience
     - title: CURATORIAL A(I)GENTS at ARS ELECTRONICA 2020
       slug: curatorial-a-i-gents-at-ars-electronica-2020
 projects:

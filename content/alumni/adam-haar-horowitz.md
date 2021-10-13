@@ -10,6 +10,8 @@ date: "2021-09-16T10:51:44.563Z"
 slug: adam-haar-horowitz
 noindex: true
 events:
+    - title: MACHINE EXPERIENCE II
+      slug: machine-experience-ii
     - title: metaLAB + friends openLAB
       slug: meta-lab-friends-open-lab
 
