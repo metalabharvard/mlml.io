@@ -27,6 +27,12 @@ disableKinds = ["taxonomyTerm"]
   socialVimeoTitle = "Follow %s on Vimeo"
   socialYouTubeTitle = "Follow %s on YouTube"
   socialMetalabSelf = "us"
+  relatedMembers = "Involved"
+  relatedProjects = "Related"
+  relatedEvents = "Related"
+  relatedLabelMembers = "member"
+  relatedLabelProjects = "project"
+  relatedLabelEvents = "event"
 
 [permalinks]
   projects = "/:slug/"

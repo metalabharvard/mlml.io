@@ -303,17 +303,19 @@ ul {
 }
 
 .related-events, .related-projects, .related-members {
-  font-size: var(--size-5);
-  font-weight: $font-weight-bold;
-  line-height: 1.1;
-  display: block;
+  line-height: 1;
+
+  .title {
+    font-size: var(--size-5);
+    font-weight: $font-weight-bold;
+    display: block;
+  }
 }
 
-.related-event, .related-project, .related-member {
+.related-events-list, .related-projects-list, .related-members-list {
   font-size: var(--size-6);
   font-weight: $font-weight-medium;
-  line-height: 1.1;
-  display: block;
+  line-height: 1.6;
 
   a {
     text-decoration: none;

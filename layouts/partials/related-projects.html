@@ -1,11 +1,12 @@
 {{ $term := .term }}
+{{ $label := .label }}
 {{ with .projects }}
-<section>
-  <h2 class="related-projects">{{ $term }} {{ cond (eq (len .) 1) "project" "projects" }}</h2>
-  <ul>
-  {{ range sort . "Slug" }}
-    <li class="related-project"><a href="{{ .slug | absURL }}">{{ .title }}</a></li>
-  {{ end }}
-  </ul>
+<section class="related-projects">
+  <h2 class="title">{{ $term }} {{ cond (eq (len .) 1) ($label) ($label | pluralize) }}</h2>
+  <div class="related-projects-list" role="list">
+    {{- range $key, $value := (sort . "Slug") -}}
+    {{- if $key }}, {{ end -}}<a class="related-project" href="{{ $value.slug | absURL }}" role="listitem">{{ $value.title }}</a>
+    {{- end -}}
+  </div>
 </section>
 {{ end }}

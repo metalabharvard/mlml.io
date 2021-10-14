@@ -1,17 +1,12 @@
 {{ $term := .term }}
+{{ $label := .label }}
 {{ with .members }}
-<section>
-  <h2 class="related-members">{{ $term }} {{ cond (eq (len .) 1) "member" "members" }}</h2>
-  <ul>
-  {{ range sort . "Slug" -}}
-    <li class="related-member">
-      {{- if .isAlumnus -}}
-      {{- .name -}}
-      {{- else -}}
-      <a href="{{ .slug | absURL }}" ref="author">{{ .name }}</a>
-      {{- end -}}
-    </li>
-  {{ end -}}
-  </ul>
+<section class="related-members">
+  <h2 class="title">{{ $term }} {{ cond (eq (len .) 1) ($label) ($label | pluralize) }}</h2>
+  <div class="related-members-list" role="list">
+    {{- range $key, $value := (sort . "Slug") -}}
+    {{- if $key }}, {{ end -}}<a class="related-member" href="{{ $value.slug | absURL }}" ref="author" role="listitem">{{ $value.name }}</a>
+    {{- end -}}
+  </div>
 </section>
 {{ end }}

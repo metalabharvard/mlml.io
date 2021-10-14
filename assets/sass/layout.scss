@@ -855,12 +855,16 @@ picture, img {
   // border-top: 1px solid $color-gray;
   // padding-top: var(--spacing-2);
   margin-bottom: var(--spacing-05);
+
+  .title {
+    margin-bottom: var(--spacing-025);
+  }
 }
 
 .related-event, .related-project, .related-member {
-  &:not(:last-child) {
-    margin-bottom: var(--spacing-05);
-  }
+  // &:not(:last-child) {
+  //   margin-bottom: var(--spacing-05);
+  // }
 }
 
 .page-footer {

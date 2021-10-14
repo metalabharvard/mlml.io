@@ -10,9 +10,9 @@
     {{ $count := partial "columnCount.html" (dict "list" (slice $members $projects $events)) }}
     {{ if gt $count 0 }}
     <aside class="project-relations grid-wide grid grid-v-default half">
-      {{ partial "related-members.html" (dict "members" $members "term" "Involved") }}
-      {{ partial "related-projects.html" (dict "projects" $projects "term" "Related") }}
-      {{ partial "related-events.html" (dict "events" $events "term" "Related") }}
+      {{ partial "related-members.html" (dict "members" $members "term" .Site.Params.Label.RelatedMembers "label" .Site.Params.Label.RelatedLabelMembers) }}
+      {{ partial "related-projects.html" (dict "projects" $projects "term" .Site.Params.Label.RelatedProjects "label" .Site.Params.Label.RelatedLabelProjects) }}
+      {{ partial "related-events.html" (dict "events" $events "term" .Site.Params.Label.RelatedEvents "label" .Site.Params.Label.RelatedLabelEvents) }}
     </aside>
     {{ end }}
     {{ with .Params.gallery -}}
