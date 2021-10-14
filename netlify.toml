@@ -10,6 +10,3 @@ HUGO_ENABLEGITINFO = "true"
   for = "/content.json"
     [headers.values]
     Access-Control-Allow-Origin = "*"
-  for = "/*"
-    [headers.values]
-    Permissions-Policy = "interest-cohort=()"
