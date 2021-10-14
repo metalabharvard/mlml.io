@@ -15,12 +15,12 @@ import (
 )
 
 type Project struct {
-  Title string `yaml:"title"`
+  Title string `yaml:"label"`
   Slug string `yaml:"slug"`
 }
 
 type Event struct {
-  Title string `yaml:"title"`
+  Title string `yaml:"label"`
   Slug string `yaml:"slug"`
 }
 

@@ -6,12 +6,12 @@
   {{ $relatedItems.Set "events" (slice) }}
   {{ with $events }}
     {{- range $event := . -}}
-      {{- $relatedItems.Add "events" $event.title -}}
+      {{- $relatedItems.Add "events" $event.label -}}
     {{- end -}}
   {{- end -}}
   {{ $relatedItems.Set "projects" (slice) }}
   {{- range $project := $element.Params.Projects -}}
-    {{- $relatedItems.Add "projects" $project.title -}}
+    {{- $relatedItems.Add "projects" $project.label -}}
   {{- end -}}
   {{- $membersScratch.Add "members" (dict "label" $element.Params.Name "role" $element.Params.Role_string "events" ($relatedItems.Get "events") "projects" ($relatedItems.Get "projects") "id" $element.Slug) -}}
 {{- end -}}
@@ -24,12 +24,12 @@
   {{ $relatedItems.Set "events" (slice) }}
   {{ with $events }}
     {{- range $event := . -}}
-      {{- $relatedItems.Add "events" $event.title -}}
+      {{- $relatedItems.Add "events" $event.label -}}
     {{- end -}}
   {{- end -}}
   {{ $relatedItems.Set "projects" (slice) }}
   {{- range $project := $element.Params.Projects -}}
-    {{- $relatedItems.Add "projects" $project.title -}}
+    {{- $relatedItems.Add "projects" $project.label -}}
   {{- end -}}
   {{- $alumniScratch.Add "alumni" (dict "label" $element.Params.Name "events" ($relatedItems.Get "events") "projects" ($relatedItems.Get "projects") "id" $element.Slug) -}}
 {{- end -}}
@@ -40,18 +40,18 @@
   {{ $relatedItems := newScratch }}
   {{ $relatedItems.Set "members" (slice) }}
   {{- range $member := $element.Params.Members -}}
-    {{- $relatedItems.Add "members" $member.name -}}
+    {{- $relatedItems.Add "members" $member.label -}}
   {{- end -}}
   {{ $events := $element.Params.Events }}
   {{ $relatedItems.Set "events" (slice) }}
   {{ with $events }}
     {{- range $event := . -}}
-      {{- $relatedItems.Add "events" $event.title -}}
+      {{- $relatedItems.Add "events" $event.label -}}
     {{- end -}}
   {{- end -}}
   {{ $relatedItems.Set "projects" (slice) }}
   {{- range $project := $element.Params.Projects -}}
-    {{- $relatedItems.Add "projects" $project.title -}}
+    {{- $relatedItems.Add "projects" $project.label -}}
   {{- end -}}
   {{ $links := $element.Params.Links }}
   {{ $relatedItems.Set "links" (slice) }}
@@ -80,18 +80,18 @@
   {{ $relatedItems := newScratch }}
   {{ $relatedItems.Set "members" (slice) }}
   {{- range $member := $element.Params.Members -}}
-    {{- $relatedItems.Add "members" $member.name -}}
+    {{- $relatedItems.Add "members" $member.label -}}
   {{- end -}}
   {{ $events := $element.Params.Events }}
   {{ $relatedItems.Set "events" (slice) }}
   {{ with $events }}
     {{- range $event := . -}}
-      {{- $relatedItems.Add "events" $event.title -}}
+      {{- $relatedItems.Add "events" $event.label -}}
     {{- end -}}
   {{- end -}}
   {{ $relatedItems.Set "projects" (slice) }}
   {{- range $project := $element.Params.Projects -}}
-    {{- $relatedItems.Add "projects" $project.title -}}
+    {{- $relatedItems.Add "projects" $project.label -}}
   {{- end -}}
   {{ $links := $element.Params.Links }}
   {{ $relatedItems.Set "links" (slice) }}

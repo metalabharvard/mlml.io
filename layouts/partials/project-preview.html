@@ -11,7 +11,7 @@
       {{ partial "span-mediation.html" (dict "mediation" .project.Params.Mediation) }}
       {{ end }}
       {{ partial "span-timespan.html" (dict "start" .project.Params.Start "end" .project.Params.End) }}
-      {{ partial "span-host.html" (dict "host" .project.Params.host "type" "project") }}
+      {{ partial "span-host.html" (dict "host" .project.Params.host "type" "project" "default" .defaultHost) }}
     </footer>
   </a>
 </li>

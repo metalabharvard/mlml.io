@@ -13,18 +13,17 @@ import (
 )
 
 type Project struct {
-  Title string `yaml:"title"`
+  Title string `yaml:"label"`
   Slug string `yaml:"slug"`
 }
 
 type Member struct {
-  Name string `yaml:"name"`
+  Name string `yaml:"label"`
   Slug string `yaml:"slug"`
-  IsAlumnus bool `yaml:"isAlumnus"`
 }
 
 type Event struct {
-  Title string `yaml:"title"`
+  Title string `yaml:"label"`
   Slug string `yaml:"slug"`
 }
 

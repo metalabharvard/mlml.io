@@ -851,13 +851,13 @@ picture, img {
   }
 }
 
-.related-events, .related-projects, .related-members {
+.related-events, .related-projects, .related-members, .related-links, .related-collaborators {
   // border-top: 1px solid $color-gray;
   // padding-top: var(--spacing-2);
-  margin-bottom: var(--spacing-05);
+  // margin-bottom: var(--spacing-05);
 
   .title {
-    margin-bottom: var(--spacing-025);
+    margin-bottom: var(--spacing-0125);
   }
 }
 

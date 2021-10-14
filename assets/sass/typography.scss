@@ -24,6 +24,7 @@
   font-size: var(--size-8);
   text-transform: uppercase;
   color: $color-gray-dark;
+  font-weight: $font-weight-medium;
   letter-spacing: 0.1em;
 }
 
@@ -302,20 +303,30 @@ ul {
   }
 }
 
-.related-events, .related-projects, .related-members {
+.related-events, .related-projects, .related-members, .box-item, .related-links, .related-collaborators {
   line-height: 1;
 
   .title {
-    font-size: var(--size-5);
-    font-weight: $font-weight-bold;
+    // font-size: var(--size-5);
+    // font-weight: $font-weight-bold;
     display: block;
+    @include text-footer();
   }
 }
 
-.related-events-list, .related-projects-list, .related-members-list {
+.related-events-list, .related-projects-list, .related-members-list, .box-item .text, .related-links-list, .related-collaborators-list {
   font-size: var(--size-6);
   font-weight: $font-weight-medium;
   line-height: 1.6;
+
+  dd:not(.related-links) {
+    display: inline;
+  }
+
+  dd.related-links {
+    margin-bottom: var(--spacing-05);
+    line-height: 1.2;
+  }
 
   a {
     text-decoration: none;

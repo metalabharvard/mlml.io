@@ -27,18 +27,17 @@ type Link struct {
 }
 
 type Member struct {
-  Name string `yaml:"name"`
+  Name string `yaml:"label"` // Careful: We are renaming the key here
   Slug string `yaml:"slug"`
-  IsAlumnus bool `yaml:"isAlumnus"`
 }
 
 type Event struct {
-  Title string `yaml:"title"`
+  Title string `yaml:"label"` // Careful: We are renaming the key here
   Slug string `yaml:"slug"`
 }
 
 type Project struct {
-  Title string `yaml:"title"`
+  Title string `yaml:"label"` // Careful: We are renaming the key here
   Slug string `yaml:"slug"`
 }
 

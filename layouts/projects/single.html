@@ -7,14 +7,37 @@
     {{ $events := .Params.Events }}
     {{ $members := .Params.Members }}
     {{ $projects := .Params.Projects }}
-    {{ $count := partial "columnCount.html" (dict "list" (slice $members $projects $events)) }}
-    {{ if gt $count 0 }}
-    <aside class="project-relations grid-wide grid grid-v-default half">
-      {{ partial "related-members.html" (dict "members" $members "term" .Site.Params.Label.RelatedMembers "label" .Site.Params.Label.RelatedLabelMembers) }}
-      {{ partial "related-projects.html" (dict "projects" $projects "term" .Site.Params.Label.RelatedProjects "label" .Site.Params.Label.RelatedLabelProjects) }}
-      {{ partial "related-events.html" (dict "events" $events "term" .Site.Params.Label.RelatedEvents "label" .Site.Params.Label.RelatedLabelEvents) }}
-    </aside>
-    {{ end }}
+    {{ $collaborators := .Params.Collaborators }}
+    <dl class="project-relations grid-wide grid grid-v-default half">
+      {{ $title := .Site.Params.Label.BoxType }}
+      {{ with .Params.Category }}
+      <div class="box-item">
+        <dt class="title">{{ $title }}</dt>
+        <dd class="text project-type">{{ title . }}</dd>
+      </div>
+      {{ end }}
+      {{ $title := .Site.Params.Label.BoxTime }}
+      <div class="box-item">
+        <dt class="title">{{ $title }}</dt>
+        <dd class="text">{{ partial "span-timespan.html" (dict "start" .Params.Start "end" .Params.End) }}</dd>
+      </div>
+      {{ $title := .Site.Params.Label.BoxHost }}
+      <div class="box-item">
+        <dt class="title">{{ $title }}</dt>
+        <dd class="text">{{ partial "span-host-link.html" (dict "host" .Params.host "type" "project" "default" .Site.Params.Label.HostsDefault) }}</dd>
+      </div>
+      {{ $title = .Site.Params.Label.BoxLocation }}
+      {{ with .Params.location }}
+      <div class="box-item">
+        <dt class="title">{{ $title }}</dt>
+        <dd class="text project-location">{{ . }}</dd>
+      </div>
+      {{ end }}
+      {{ partial "related-items.html" (dict "items" $members "term" .Site.Params.Label.RelatedMembers "label" .Site.Params.Label.RelatedLabelMembers "class" "member") }}
+      {{ partial "related-collaborators.html" (dict "items" $collaborators "label" .Site.Params.Label.boxCollaborator "class" "collaborator") }}
+      {{ partial "related-items.html" (dict "items" $projects "term" .Site.Params.Label.RelatedProjects "label" .Site.Params.Label.RelatedLabelProjects "class" "project") }}
+      {{ partial "related-items.html" (dict "items" $events "term" .Site.Params.Label.RelatedEvents "label" .Site.Params.Label.RelatedLabelEvents "class" "event") }}
+    </dl>
     {{ with .Params.gallery -}}
     <div class="project-gallery grid-full gallery">
       <figure class="siema full carousel" id="siema-carousel" data-amount="{{ len . }}">
@@ -42,12 +65,6 @@
     </div>
     <span class="counter" id="counter"></span>
     {{ end }}
-    <aside class="project-aside grid-narrow-right-aside">
-      {{ with .Params.Category }}<span class="project-type">{{ title . }}</span>{{ end }}
-      {{ partial "span-timespan.html" (dict "start" .Params.Start "end" .Params.End) }}
-      {{ partial "span-host-link.html" (dict "host" .Params.host "type" "project") }}
-      {{ with .Params.location }}<span class="project-location">{{ . }}</span>{{ end }}
-    </aside>
     {{ with .Params.ExternalLink }}
     <a class="project-link" href="{{ . }}" rel="noopener noreferrer external" target="_blank"><span>Visit project</span></a>
     {{ end }}
@@ -56,36 +73,8 @@
       {{ . }}
     </div>
     {{ end }}
-    {{ with .Params.Collaborators }}
-    <div class="project-collaborators grid-narrow-right">
-      <h2 class="related-collaborators">{{ cond (eq (len .) 1) "Collaborator" "Collaborators" }}</h2>
-      <ul>
-      {{ range sort . "label" }}
-        {{ partial "list-item.html" (dict "url" .url "label" .label "class" "collaborator") }}
-      {{ end }}
-      </ul>
-    </div>
-    {{ end }}
-    {{ with .Params.Press_articles }}
-    <div class="project-articles grid-narrow-right">
-      <h2 class="related-articles">{{ cond (eq (len .) 1) "Press article" "Press articles" }}</h2>
-      <ul>
-      {{ range sort . "label" }}
-        {{ partial "list-item.html" (dict "url" .url "label" .label "class" "article") }}
-      {{ end }}
-      </ul>
-    </div>
-    {{ end }}
-    {{ with .Params.Links }}
-    <div class="project-links grid-narrow-right">
-      <h2 class="related-links">{{ cond (eq (len .) 1) "Link" "Links" }}</h2>
-      <ul>
-      {{ range sort . "label" }}
-        {{ partial "list-item.html" (dict "url" .url "label" .label "class" "link") }}
-      {{ end }}
-      </ul>
-    </div>
-    {{ end }}
+    {{ partial "related-list.html" (dict "items" .Params.Links "label" .Site.Params.Label.relatedLabelLinks "class" "links") }}
+    {{ partial "related-list.html" (dict "items" .Params.Press_articles "label" .Site.Params.Label.relatedLabelPressArticles "class" "article") }}
     <footer class="project-footer grid-narrow-right" role="contentinfo">
       <span>Page published on <time datetime="{{ .PublishDate.Format "2006-01-02T15:04:05Z07:00" }}">{{ .PublishDate.Format "2 January 2006" }}</time>{{ if not (eq (.PublishDate.Format "2 January 2006") (.Lastmod.Format "2 January 2006"))}} and last edited on <time class="article-date" datetime="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Lastmod.Format "2 January 2006" }}</time>{{ end }}.</span>
     </footer>

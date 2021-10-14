@@ -33,6 +33,13 @@ disableKinds = ["taxonomyTerm"]
   relatedLabelMembers = "member"
   relatedLabelProjects = "project"
   relatedLabelEvents = "event"
+  boxCollaborator = "Collaborator"
+  boxTime = "Time"
+  boxHost = "Host"
+  boxLocation = "Location"
+  boxType = "Type"
+  relatedLabelLinks = "Link"
+  relatedLabelPressArticles = "Press article"
 
 [permalinks]
   projects = "/:slug/"

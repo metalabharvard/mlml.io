@@ -1,0 +1,13 @@
+{{ $label := .label }}
+{{ $class := .class }}
+{{ with .items }}
+<div {{ printf `class="related-%s"` ($class | pluralize) | safeHTMLAttr }}>
+  <dt class="title">{{ cond (eq (len .) 1) ($label) ($label | pluralize) }}</dt>
+  <div {{ printf `class="related-%s-list"` ($class | pluralize) | safeHTMLAttr }} role="list">
+    {{- range $key, $value := (sort . "Slug") -}}
+    {{- if $key }}, {{ end -}}
+    {{ partial "list-item.html" (dict "url" $value.url "label" $value.label "class" $class) }}
+    {{- end -}}
+  </div>
+</div>
+{{ end }}

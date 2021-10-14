@@ -6,6 +6,6 @@
 <a href="{{ .host | absURL }}">{{- title .host }}</a>
 {{- end -}}
 {{- else -}}
-{{ .Site.Params.Label.HostsDefault }}
+{{ .default }}
 {{- end -}}
 </span>

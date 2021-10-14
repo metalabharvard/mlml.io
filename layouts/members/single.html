@@ -32,8 +32,8 @@
     {{ $count := partial "columnCount.html" (dict "list" (slice $projects $events)) }}
     {{ if gt $count 0 }}
     <aside class="member-relations grid-wide grid grid-v-default half">
-      {{ partial "related-projects.html" (dict "projects" $projects "term" .Site.Params.Label.RelatedMembers "label" .Site.Params.Label.RelatedLabelProjects) }}
-      {{ partial "related-events.html" (dict "events" $events "term" .Site.Params.Label.RelatedMembers "label" .Site.Params.Label.RelatedLabelEvents) }}
+      {{ partial "related-items.html" (dict "items" $projects "term" .Site.Params.Label.RelatedProjects "label" .Site.Params.Label.RelatedLabelProjects "class" "project") }}
+      {{ partial "related-items.html" (dict "items" $events "term" .Site.Params.Label.RelatedEvents "label" .Site.Params.Label.RelatedLabelEvents "class" "event") }}
     </aside>
     {{ end }}
     <footer class="member-footer grid-wide" role="contentinfo">

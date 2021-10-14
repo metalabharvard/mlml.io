@@ -1,4 +1,4 @@
-<li class="related-link {{ with .class }}related-{{ . }}{{ end }}">
+<dd class="related-link {{ with .class }}related-{{ . }}{{ end }}" role="listitem">
   {{ if and .url .label }}
   <a href="{{ .url }}" rel="noopener noreferrer external" target="_blank">{{ .label }}</a>
   {{ else if .label }}
@@ -6,4 +6,4 @@
   {{ else }}
   <a href="{{ .url }}" rel="noopener noreferrer external" target="_blank">{{ .url }}</a>
   {{ end }}
-</li>
+</dd>
