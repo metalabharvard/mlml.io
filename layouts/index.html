@@ -3,15 +3,10 @@
     <h2 class="intro">{{ .Site.Params.description }}</h2>
     <a href="{{ "about" | absURL }}" class="btn">Learn more</a>
   </div>
-  <div class="grid-wide home-projects">
-    <!-- <h3>Recent projects and events</h3> -->
+  <div class="grid-full home-projects">
     <ul>
-    {{ range (where .Site.RegularPages "Section" "in" (slice "projects" "events")) }}
-      {{ if eq .Section "events" }}
-      {{ partial "event-preview.html" (dict "event" . "type" "event")}}
-      {{ else }}
-      {{ partial "project-preview.html" (dict "project" . "type" "project" )}}
-      {{ end }}
+    {{ range (where (where .Site.RegularPages "Section" "in" (slice "projects")) "Params.isfeatured" true) }}
+      {{ partial "project-feature.html" (dict "project" . "type" "project" )}}
     {{ end }}
     </ul>
   </div>

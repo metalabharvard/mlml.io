@@ -7,9 +7,9 @@ location: ""
 host: harvard
 mediation: ""
 category: project
-isFeatured: true
+isFeatured: false
 externalLink: ""
-lastmod: "2021-08-11T14:47:29.931Z"
+lastmod: "2021-10-14T16:41:58.910Z"
 date: "2021-06-16"
 slug: futurestage
 cover:

@@ -6,7 +6,7 @@
     <span class="project-title p-name">{{ .project.Params.Title }}</span><span class="project-tag">{{ .CurrentSection }}</span>
     <footer>
       {{ if .type }}
-      <span class="project-type p-category">{{ .type }}</span>
+      <span class="project-type p-category">{{ .type | title  }}</span>
       {{ else }}
       {{ partial "span-mediation.html" (dict "mediation" .project.Params.Mediation) }}
       {{ end }}

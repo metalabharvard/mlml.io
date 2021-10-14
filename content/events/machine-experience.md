@@ -44,10 +44,10 @@ members:
     - label: Matthew Battles
       slug: matthew-battles
 projects:
-    - label: Artificial Senses
-      slug: artificial-senses
     - label: Turing&#39;s Mill
       slug: turing-39-s-mill
+    - label: Artificial Senses
+      slug: artificial-senses
     - label: Nobody&#8217;s Listening
       slug: nobody-8217-s-listening
 ---

@@ -56,7 +56,7 @@ a, button {
     stroke: $color-default;
   }
 
-  &:not(.preview-link):not(.isActive) {
+  &:not(.preview-link):not(.feature-link):not(.isActive) { // Fix
     // display: block;
 
     &:hover, &:focus {
@@ -269,17 +269,17 @@ ul {
   }
 }
 
-.alumni-preview {
-  text-decoration: none;
-  display: block;
+// .alumni-preview {
+//   text-decoration: none;
+//   display: block;
 
-  .alumni-name {
-    font-size: var(--size-6);
-    font-weight: $font-weight-medium;
-    line-height: 1.1;
-    display: block;
-  }
-}
+//   .alumni-name {
+//     font-size: var(--size-6);
+//     font-weight: $font-weight-medium;
+//     line-height: 1.1;
+//     display: block;
+//   }
+// }
 
 .homepage-member {
   .member-name {
@@ -344,6 +344,37 @@ ul {
   }
 }
 
+.project-feature {
+  .feature-link {
+    text-decoration: none;
+    color: #fff;
+
+    &:hover {
+      color: #000;
+
+      footer {
+        color: #000;
+      }
+    }
+  }
+
+  .project-title {
+    font-size: var(--size-1);
+    line-height: 1.05;
+    font-weight: $font-weight-bold;
+  }
+
+  footer {
+    margin-top: var(--spacing-025);
+    @include text-footer();
+    color: #fff;
+
+    span {
+      margin-left: var(--spacing-025);
+    }
+  }
+}
+
 .project-preview, .event-preview {
   a {
     text-decoration: none;
@@ -369,6 +400,7 @@ ul {
   .project-name {
     font-size: var(--size-1);
     line-height: 1.05;
+    font-weight: $font-weight-bold;
     // font-family: $font-family-serif;
     // font-weight: $font-weight-medium;
   }

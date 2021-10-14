@@ -33,18 +33,18 @@ projects:
       slug: where-art-might-happen-the-early-years-of-cal-arts
     - label: Curatorial A(i)gents
       slug: curatorial-a-i-gents
-    - label: Artificial Senses
-      slug: artificial-senses
     - label: Their Names
       slug: their-names
     - label: 'Tacit Knowledge: Post Studio/Feminism – CalArts 1970-1977'
       slug: tacit-knowledge-post-studio-feminism-cal-arts-1970-1977
+    - label: Artificial Senses
+      slug: artificial-senses
     - label: Womanhouse (a memory theater)
       slug: womanhouse-a-memory-theater
-    - label: Curricle
-      slug: curricle
     - label: Hypercam
       slug: hypercam
+    - label: Curricle
+      slug: curricle
     - label: Watching Machines Loving Grace
       slug: watching-machines-loving-grace
     - label: Distinction Machine

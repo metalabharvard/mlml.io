@@ -7,9 +7,9 @@ location: ""
 host: harvard
 mediation: web
 category: ""
-isFeatured: false
+isFeatured: true
 externalLink: https://hypercam.kimalbrecht.com/
-lastmod: "2021-10-04T13:56:50.388Z"
+lastmod: "2021-10-14T16:15:38.666Z"
 date: "2020-04-01"
 slug: hypercam
 links:
