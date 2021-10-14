@@ -26,7 +26,7 @@
     {{ if or (or .Params.Intro .Content) .Params.isAlumnus }}
     <div class="member-description grid-narrow-left note">
       {{ if .Params.isAlumnus }}
-      <span>{{ .Site.Params.Label.label_alumni_update }}</span>
+      <span role="alert">{{ .Site.Params.Label.label_alumni_update }}</span>
       {{ end }}
       {{ with .Params.Intro }}
       <h2 class="member-intro">{{ . }}</h2>
