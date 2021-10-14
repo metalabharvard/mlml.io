@@ -31,7 +31,7 @@ lastmod: "2021-10-04T15:35:08.384Z"
 date: "2021-04-15T12:00:00Z"
 slug: mahindra-transmedia-arts-seminar-jenn-parker-starbuck-animals-in-the-machine-robotic-animal-agents
 events:
-    - title: 2018 LITA Library Technology Forum
+    - label: 2018 LITA Library Technology Forum
       slug: 2018-lita-library-technology-forum
 ---
 Jenn Parker-Starbuck, Royal Holloway, University of London. April 15, 5pm EST.

@@ -27,31 +27,28 @@ category: ""
 link: ""
 isFeatured: false
 isOngoing: false
-lastmod: "2021-10-13T09:32:21.539Z"
+lastmod: "2021-10-13T17:40:21.545Z"
 date: "2017-08-08T12:00:00Z"
 slug: machine-experience
 members:
-    - name: Kim Albrecht
+    - label: Maia Suazo-Maler
+      slug: maia-suazo-maler
+    - label: Kim Albrecht
       slug: kim-albrecht
-      isAlumnus: false
-    - name: Rachel Kalmar
+    - label: Rachel Kalmar
       slug: rachel-kalmar
-      isAlumnus: true
-    - name: Jonathan Sun
+    - label: Jonathan Sun
       slug: jonathan-sun
-      isAlumnus: true
-    - name: Sarah Newman
+    - label: Sarah Newman
       slug: sarah-newman
-      isAlumnus: false
-    - name: Matthew Battles
+    - label: Matthew Battles
       slug: matthew-battles
-      isAlumnus: false
 projects:
-    - title: Artificial Senses
+    - label: Artificial Senses
       slug: artificial-senses
-    - title: Turing&#39;s Mill
+    - label: Turing&#39;s Mill
       slug: turing-39-s-mill
-    - title: Nobody&#8217;s Listening
+    - label: Nobody&#8217;s Listening
       slug: nobody-8217-s-listening
 ---
 **MACHINE EXPERIENCE**

@@ -10,9 +10,11 @@ date: "2021-09-16T10:51:45.473Z"
 slug: maia-suazo-maler
 noindex: true
 events:
-    - title: Color Rx
+    - label: MACHINE EXPERIENCE
+      slug: machine-experience
+    - label: Color Rx
       slug: color-rx
-    - title: MACHINE EXPERIENCE II
+    - label: MACHINE EXPERIENCE II
       slug: machine-experience-ii
 
 ---

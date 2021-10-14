@@ -13,15 +13,12 @@ lastmod: "2021-10-04T13:52:33.185Z"
 date: "2020-03-13"
 slug: where-art-might-happen-the-early-years-of-cal-arts
 members:
-    - name: Jeffrey Schnapp
+    - label: Jeffrey Schnapp
       slug: jeffrey-schnapp
-      isAlumnus: false
-    - name: Annette Jael Lehmann
+    - label: Annette Jael Lehmann
       slug: annette-jael-lehmann
-      isAlumnus: false
-    - name: Kim Albrecht
+    - label: Kim Albrecht
       slug: kim-albrecht
-      isAlumnus: false
 cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686495/where_art_might_happen_the_early_years_of_cal_arts_4b18fd7f74.jpg
     width: 704

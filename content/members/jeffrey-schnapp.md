@@ -16,22 +16,22 @@ date: "2021-09-16T10:51:45.518Z"
 slug: jeffrey-schnapp
 noindex: false
 events:
-    - title: Dialogues with Data [at] Infovis
+    - label: Dialogues with Data [at] Infovis
       slug: dialogues-with-data-at-infovis
-    - title: metaLAB + friends openLAB
+    - label: metaLAB + friends openLAB
       slug: meta-lab-friends-open-lab
-    - title: CURATORIAL A(I)GENTS at ARS ELECTRONICA 2020
+    - label: CURATORIAL A(I)GENTS at ARS ELECTRONICA 2020
       slug: curatorial-a-i-gents-at-ars-electronica-2020
 projects:
-    - title: Curricle
-      slug: curricle
-    - title: Womanhouse (a memory theater)
-      slug: womanhouse-a-memory-theater
-    - title: Curatorial A(i)gents
+    - label: Curatorial A(i)gents
       slug: curatorial-a-i-gents
-    - title: 'Tacit Knowledge: Post Studio/Feminism – CalArts 1970-1977'
+    - label: Curricle
+      slug: curricle
+    - label: Womanhouse (a memory theater)
+      slug: womanhouse-a-memory-theater
+    - label: 'Tacit Knowledge: Post Studio/Feminism – CalArts 1970-1977'
       slug: tacit-knowledge-post-studio-feminism-cal-arts-1970-1977
-    - title: 'Where Art Might Happen: The Early Years of CalArts'
+    - label: 'Where Art Might Happen: The Early Years of CalArts'
       slug: where-art-might-happen-the-early-years-of-cal-arts
 picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122118/jeffrey_c976257763.jpg

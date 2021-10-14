@@ -31,41 +31,30 @@ lastmod: "2021-10-10T16:15:52.498Z"
 date: "2020-09-11T12:00:00Z"
 slug: curatorial-a-i-gents-at-ars-electronica-2020
 members:
-    - name: Matthew Battles
+    - label: Matthew Battles
       slug: matthew-battles
-      isAlumnus: false
-    - name: Philipp Schmitt
+    - label: Philipp Schmitt
       slug: philipp-schmitt
-      isAlumnus: false
-    - name: Lins Derry
+    - label: Lins Derry
       slug: lins-derry
-      isAlumnus: false
-    - name: Jeffrey Schnapp
+    - label: Jeffrey Schnapp
       slug: jeffrey-schnapp
-      isAlumnus: false
-    - name: Dario Rodighiero
+    - label: Dario Rodighiero
       slug: dario-rodighiero
-      isAlumnus: false
-    - name: Dietmar Offenhuber
+    - label: Dietmar Offenhuber
       slug: dietmar-offenhuber
-      isAlumnus: false
-    - name: Eveline Wandl-Vogt
+    - label: Eveline Wandl-Vogt
       slug: eveline-wandl-vogt
-      isAlumnus: false
-    - name: Kim Albrecht
+    - label: Kim Albrecht
       slug: kim-albrecht
-      isAlumnus: false
-    - name: Francisco Alarcon
+    - label: Francisco Alarcon
       slug: francisco-alarcon
-      isAlumnus: false
-    - name: Yue Chelsea Qiu
+    - label: Yue Chelsea Qiu
       slug: yue-chelsea-qiu
-      isAlumnus: true
-    - name: Keith Hartwig
+    - label: Keith Hartwig
       slug: keith-hartwig
-      isAlumnus: false
 projects:
-    - title: Watching Machines Loving Grace
+    - label: Watching Machines Loving Grace
       slug: watching-machines-loving-grace
 ---
 **ONLINE<br />

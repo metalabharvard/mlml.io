@@ -10,7 +10,7 @@ date: "2021-09-16T10:51:45.105Z"
 slug: pip-mothersill
 noindex: true
 events:
-    - title: metaLAB + friends openLAB
+    - label: metaLAB + friends openLAB
       slug: meta-lab-friends-open-lab
 
 ---

@@ -16,7 +16,7 @@ collaborators:
     - label: Harvard Art Museums
       url: ""
 projects:
-    - title: 'Mahindra Humanities Center: Transmedia Arts Seminar'
+    - label: 'Mahindra Humanities Center: Transmedia Arts Seminar'
       slug: mahindra-humanities-center-transmedia-arts-seminar
 
 ---

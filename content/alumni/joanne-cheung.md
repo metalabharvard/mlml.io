@@ -12,7 +12,7 @@ date: "2021-09-16T10:51:45.213Z"
 slug: joanne-cheung
 noindex: true
 events:
-    - title: MACHINE EXPERIENCE II
+    - label: MACHINE EXPERIENCE II
       slug: machine-experience-ii
 
 ---

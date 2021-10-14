@@ -13,9 +13,8 @@ lastmod: "2021-10-04T15:15:20.700Z"
 date: "2020-03-01"
 slug: lexical-cartography-of-dh-2020
 members:
-    - name: Dario Rodighiero
+    - label: Dario Rodighiero
       slug: dario-rodighiero
-      isAlumnus: false
 cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686754/lexicalcarto_686c2c0761.jpg
     width: 3072

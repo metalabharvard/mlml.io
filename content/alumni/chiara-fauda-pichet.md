@@ -10,7 +10,7 @@ date: "2021-09-16T10:51:45.331Z"
 slug: chiara-fauda-pichet
 noindex: true
 projects:
-    - title: Womanhouse (a memory theater)
+    - label: Womanhouse (a memory theater)
       slug: womanhouse-a-memory-theater
 
 ---

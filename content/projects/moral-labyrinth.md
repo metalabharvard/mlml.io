@@ -13,12 +13,11 @@ lastmod: "2021-10-10T17:05:11.314Z"
 date: "2019-01-01"
 slug: moral-labyrinth
 events:
-    - title: MACHINE EXPERIENCE II
+    - label: MACHINE EXPERIENCE II
       slug: machine-experience-ii
 members:
-    - name: Sarah Newman
+    - label: Sarah Newman
       slug: sarah-newman
-      isAlumnus: false
 
 ---
 **[Visit the Moral Labyrinth website](https://morallabyrinth.com)**

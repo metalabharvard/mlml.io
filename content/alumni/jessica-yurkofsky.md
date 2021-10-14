@@ -10,14 +10,14 @@ date: "2021-09-16T10:51:45.452Z"
 slug: jessica-yurkofsky
 noindex: true
 events:
-    - title: metaLAB + friends openLAB
+    - label: metaLAB + friends openLAB
       slug: meta-lab-friends-open-lab
-    - title: Dialogues with Data [at] Infovis
+    - label: Dialogues with Data [at] Infovis
       slug: dialogues-with-data-at-infovis
-    - title: MACHINE EXPERIENCE II
+    - label: MACHINE EXPERIENCE II
       slug: machine-experience-ii
 projects:
-    - title: Curricle
+    - label: Curricle
       slug: curricle
 
 ---

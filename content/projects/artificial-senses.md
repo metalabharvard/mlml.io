@@ -13,14 +13,13 @@ lastmod: "2021-10-04T13:50:44.999Z"
 date: "2017-06-01"
 slug: artificial-senses
 events:
-    - title: MACHINE EXPERIENCE II
+    - label: MACHINE EXPERIENCE II
       slug: machine-experience-ii
-    - title: MACHINE EXPERIENCE
+    - label: MACHINE EXPERIENCE
       slug: machine-experience
 members:
-    - name: Kim Albrecht
+    - label: Kim Albrecht
       slug: kim-albrecht
-      isAlumnus: false
 cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628173929/img1_017c9cba83.gif
     width: 120

@@ -16,7 +16,7 @@ collaborators:
     - label: Rachel Kalmar
       url: ""
 events:
-    - title: MACHINE EXPERIENCE
+    - label: MACHINE EXPERIENCE
       slug: machine-experience
 
 ---

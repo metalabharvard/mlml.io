@@ -12,7 +12,7 @@ date: "2021-09-16T10:51:44.817Z"
 slug: sands-alden-fish
 noindex: false
 events:
-    - title: MACHINE EXPERIENCE II
+    - label: MACHINE EXPERIENCE II
       slug: machine-experience-ii
 
 ---

@@ -13,7 +13,7 @@ lastmod: "2021-09-16T09:49:45.957Z"
 date: "2017-08-09"
 slug: turing-39-s-mill
 events:
-    - title: MACHINE EXPERIENCE
+    - label: MACHINE EXPERIENCE
       slug: machine-experience
 
 ---

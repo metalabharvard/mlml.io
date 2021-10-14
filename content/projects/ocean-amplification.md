@@ -16,11 +16,11 @@ collaborators:
     - label: Harvard Art Museums
       url: ""
 projects:
-    - title: 'Second Look: Gender and Sentiment on Show'
+    - label: 'Second Look: Gender and Sentiment on Show'
       slug: second-look-gender-and-sentiment-on-show
-    - title: Surprise Machines
+    - label: Surprise Machines
       slug: surprise-machines
-    - title: Watching Machines Loving Grace
+    - label: Watching Machines Loving Grace
       slug: watching-machines-loving-grace
 
 ---

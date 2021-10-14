@@ -13,7 +13,7 @@ lastmod: "2021-09-15T18:01:05.259Z"
 date: "2020-12-01"
 slug: mahindra-humanities-center-transmedia-arts-seminar
 projects:
-    - title: A Flitting Atlas of the Human Gaze
+    - label: A Flitting Atlas of the Human Gaze
       slug: a-flitting-atlas-of-the-human-gaze
 cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686081/Mahindra_Transmedia_Center_ea57b542d1.jpg

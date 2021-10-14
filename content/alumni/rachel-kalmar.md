@@ -8,9 +8,9 @@ date: "2021-09-16T10:51:45.177Z"
 slug: rachel-kalmar
 noindex: true
 events:
-    - title: MACHINE EXPERIENCE
+    - label: MACHINE EXPERIENCE
       slug: machine-experience
-    - title: MACHINE EXPERIENCE II
+    - label: MACHINE EXPERIENCE II
       slug: machine-experience-ii
 
 ---

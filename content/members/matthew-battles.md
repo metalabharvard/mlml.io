@@ -16,24 +16,24 @@ date: "2021-09-16T10:51:45.422Z"
 slug: matthew-battles
 noindex: false
 events:
-    - title: metaLAB + friends openLAB
+    - label: metaLAB + friends openLAB
       slug: meta-lab-friends-open-lab
-    - title: 'Overflow: Inexplicable Parts of the Intimate'
+    - label: 'Overflow: Inexplicable Parts of the Intimate'
       slug: overflow-inexplicable-parts-of-the-intimate
-    - title: Dialogues with Data [at] Infovis
+    - label: Dialogues with Data [at] Infovis
       slug: dialogues-with-data-at-infovis
-    - title: MACHINE EXPERIENCE II
+    - label: MACHINE EXPERIENCE II
       slug: machine-experience-ii
-    - title: MACHINE EXPERIENCE
+    - label: MACHINE EXPERIENCE
       slug: machine-experience
-    - title: CURATORIAL A(I)GENTS at ARS ELECTRONICA 2020
+    - label: CURATORIAL A(I)GENTS at ARS ELECTRONICA 2020
       slug: curatorial-a-i-gents-at-ars-electronica-2020
 projects:
-    - title: Curricle Lens
+    - label: Curricle Lens
       slug: curricle-lens
-    - title: Curricle
+    - label: Curricle
       slug: curricle
-    - title: Their Names
+    - label: Their Names
       slug: their-names
 picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122131/matthew_18c95f4abd.jpg

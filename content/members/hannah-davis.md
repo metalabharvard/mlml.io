@@ -8,7 +8,7 @@ date: "2021-09-16T10:51:44.564Z"
 slug: hannah-davis
 noindex: false
 events:
-    - title: MACHINE EXPERIENCE II
+    - label: MACHINE EXPERIENCE II
       slug: machine-experience-ii
 
 ---

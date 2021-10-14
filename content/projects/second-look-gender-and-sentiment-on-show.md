@@ -16,11 +16,11 @@ collaborators:
     - label: Harvard Art Museums
       url: ""
 projects:
-    - title: Ocean Amplification
+    - label: Ocean Amplification
       slug: ocean-amplification
-    - title: Surprise Machines
+    - label: Surprise Machines
       slug: surprise-machines
-    - title: Watching Machines Loving Grace
+    - label: Watching Machines Loving Grace
       slug: watching-machines-loving-grace
 
 ---

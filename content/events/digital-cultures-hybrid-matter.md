@@ -31,12 +31,10 @@ lastmod: "2021-10-10T16:03:28.303Z"
 date: "2018-09-22T12:00:00Z"
 slug: digital-cultures-hybrid-matter
 members:
-    - name: Kim Albrecht
+    - label: Kim Albrecht
       slug: kim-albrecht
-      isAlumnus: false
-    - name: Sarah Newman
+    - label: Sarah Newman
       slug: sarah-newman
-      isAlumnus: false
 links:
     - label: 'Digital Cultures 2018: Hybrid Matter'
       url: http://digitalcultures.pl/en

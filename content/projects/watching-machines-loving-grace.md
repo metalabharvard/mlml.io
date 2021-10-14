@@ -16,18 +16,17 @@ collaborators:
     - label: Harvard Art Museums
       url: ""
 events:
-    - title: CURATORIAL A(I)GENTS at ARS ELECTRONICA 2020
+    - label: CURATORIAL A(I)GENTS at ARS ELECTRONICA 2020
       slug: curatorial-a-i-gents-at-ars-electronica-2020
 members:
-    - name: Kim Albrecht
+    - label: Kim Albrecht
       slug: kim-albrecht
-      isAlumnus: false
 projects:
-    - title: 'Second Look: Gender and Sentiment on Show'
+    - label: 'Second Look: Gender and Sentiment on Show'
       slug: second-look-gender-and-sentiment-on-show
-    - title: Ocean Amplification
+    - label: Ocean Amplification
       slug: ocean-amplification
-    - title: Surprise Machines
+    - label: Surprise Machines
       slug: surprise-machines
 cover:
     alternativeText: Watching Machines Interface Example. Overlayed images with cutout faces.

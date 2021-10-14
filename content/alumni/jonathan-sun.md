@@ -11,7 +11,7 @@ date: "2021-09-16T10:51:44.686Z"
 slug: jonathan-sun
 noindex: true
 events:
-    - title: MACHINE EXPERIENCE
+    - label: MACHINE EXPERIENCE
       slug: machine-experience
 
 ---

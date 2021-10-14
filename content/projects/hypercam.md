@@ -18,9 +18,8 @@ links:
     - label: ZDF Digitale Kunsthalle
       url: https://digitalekunsthalle.zdf.de/zkm_en/index.html#tp125
 members:
-    - name: Kim Albrecht
+    - label: Kim Albrecht
       slug: kim-albrecht
-      isAlumnus: false
 cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628687063/hypercam_5052cf8738.jpg
     width: 622

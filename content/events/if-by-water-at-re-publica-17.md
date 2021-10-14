@@ -31,9 +31,8 @@ lastmod: "2021-10-10T16:05:26.173Z"
 date: "2017-05-08T12:00:00Z"
 slug: if-by-water-at-re-publica-17
 members:
-    - name: Sarah Newman
+    - label: Sarah Newman
       slug: sarah-newman
-      isAlumnus: false
 ---
 <a href="https://re-publica.com/en/17/session/if-water" target="_blank">re:publica 2017 installation website</a>
 

@@ -13,12 +13,10 @@ lastmod: "2021-10-04T13:49:13.136Z"
 date: "2020-06-01"
 slug: their-names
 members:
-    - name: Matthew Battles
+    - label: Matthew Battles
       slug: matthew-battles
-      isAlumnus: false
-    - name: Kim Albrecht
+    - label: Kim Albrecht
       slug: kim-albrecht
-      isAlumnus: false
 cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686618/their_names_fcc869a829.jpg
     width: 925

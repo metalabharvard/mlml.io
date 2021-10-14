@@ -31,46 +31,34 @@ lastmod: "2021-10-13T09:28:54.170Z"
 date: "2018-01-19T12:00:00Z"
 slug: machine-experience-ii
 members:
-    - name: Kim Albrecht
+    - label: Kim Albrecht
       slug: kim-albrecht
-      isAlumnus: false
-    - name: Matthew Battles
+    - label: Matthew Battles
       slug: matthew-battles
-      isAlumnus: false
-    - name: Mindy Seu
+    - label: Mindy Seu
       slug: mindy-seu
-      isAlumnus: true
-    - name: Adam Haar Horowitz
+    - label: Adam Haar Horowitz
       slug: adam-haar-horowitz
-      isAlumnus: true
-    - name: Jessica Yurkofsky
+    - label: Jessica Yurkofsky
       slug: jessica-yurkofsky
-      isAlumnus: true
-    - name: Joanne Cheung
+    - label: Joanne Cheung
       slug: joanne-cheung
-      isAlumnus: true
-    - name: Sarah Newman
+    - label: Sarah Newman
       slug: sarah-newman
-      isAlumnus: false
-    - name: Maia Suazo-Maler
+    - label: Maia Suazo-Maler
       slug: maia-suazo-maler
-      isAlumnus: true
-    - name: Sands Alden Fish
+    - label: Sands Alden Fish
       slug: sands-alden-fish
-      isAlumnus: false
-    - name: Hannah Davis
+    - label: Hannah Davis
       slug: hannah-davis
-      isAlumnus: false
-    - name: Jie Qi
+    - label: Jie Qi
       slug: jie-qi
-      isAlumnus: true
-    - name: Rachel Kalmar
+    - label: Rachel Kalmar
       slug: rachel-kalmar
-      isAlumnus: true
 projects:
-    - title: Moral Labyrinth
+    - label: Moral Labyrinth
       slug: moral-labyrinth
-    - title: Artificial Senses
+    - label: Artificial Senses
       slug: artificial-senses
 ---
 **January 19 - February 4**<br />

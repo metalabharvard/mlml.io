@@ -31,7 +31,7 @@ lastmod: "2021-09-16T09:49:46.095Z"
 date: "2018-09-06T12:00:00Z"
 slug: ars-electronica-error-the-art-of-imperfection
 projects:
-    - title: Distinction Machine
+    - label: Distinction Machine
       slug: distinction-machine
 links:
     - label: The 2018 Ars Electronica Festival

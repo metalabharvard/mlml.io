@@ -9,6 +9,9 @@ lastmod: "2021-09-16T10:51:45.331Z"
 date: "2021-09-16T10:51:45.331Z"
 slug: giulia-taurino
 noindex: false
+projects:
+    - label: Curatorial A(i)gents
+      slug: curatorial-a-i-gents
 
 ---
 Giulia Taurino is a Visiting Research Fellow at Brown University’s Virtual Humanities Lab, where she works on a data visualization project of the IMDb funded by MITACS. Since September 2019, she is an affiliate at Harvard metaLAB, exploring the intersection between AI and curatorial practices.

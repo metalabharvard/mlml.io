@@ -13,21 +13,16 @@ lastmod: "2021-10-10T17:01:33.456Z"
 date: "2019-08-30"
 slug: womanhouse-a-memory-theater
 members:
-    - name: Mindy Seu
+    - label: Mindy Seu
       slug: mindy-seu
-      isAlumnus: true
-    - name: Chiara Fauda Pichet
+    - label: Chiara Fauda Pichet
       slug: chiara-fauda-pichet
-      isAlumnus: true
-    - name: Annette Jael Lehmann
+    - label: Annette Jael Lehmann
       slug: annette-jael-lehmann
-      isAlumnus: false
-    - name: Kim Albrecht
+    - label: Kim Albrecht
       slug: kim-albrecht
-      isAlumnus: false
-    - name: Jeffrey Schnapp
+    - label: Jeffrey Schnapp
       slug: jeffrey-schnapp
-      isAlumnus: false
 
 ---
 **This exhibit has moved to [Kunsthaus Graz](../womanhouse_graz).**

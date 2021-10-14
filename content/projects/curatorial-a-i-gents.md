@@ -9,7 +9,7 @@ mediation: ""
 category: project
 isFeatured: false
 externalLink: https://metalabharvard.github.io/
-lastmod: "2021-10-12T05:56:43.754Z"
+lastmod: "2021-10-13T16:27:06.925Z"
 date: "2021-06-17"
 slug: curatorial-a-i-gents
 links:
@@ -20,9 +20,26 @@ links:
     - label: ""
       url: https://metalabharvard.github.io/projects/curatorial-aigents/thelovinggrace/
 members:
-    - name: Jeffrey Schnapp
+    - label: Dario Rodighiero
+      slug: dario-rodighiero
+    - label: Philipp Schmitt
+      slug: philipp-schmitt
+    - label: Lins Derry
+      slug: lins-derry
+    - label: Francisco Alarcon
+      slug: francisco-alarcon
+    - label: Giulia Taurino
+      slug: giulia-taurino
+    - label: Yue Chelsea Qiu
+      slug: yue-chelsea-qiu
+    - label: Kim Albrecht
+      slug: kim-albrecht
+    - label: Jeffrey Schnapp
       slug: jeffrey-schnapp
-      isAlumnus: false
+    - label: Dietmar Offenhuber
+      slug: dietmar-offenhuber
+    - label: Keith Hartwig
+      slug: keith-hartwig
 cover:
     alternativeText: Curatiorial A(i)gents Cover
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1623943307/agents_ce7bfadd93.jpg

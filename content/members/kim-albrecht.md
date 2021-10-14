@@ -15,38 +15,40 @@ date: "2021-09-16T10:51:45.402Z"
 slug: kim-albrecht
 noindex: false
 events:
-    - title: MACHINE EXPERIENCE
+    - label: MACHINE EXPERIENCE
       slug: machine-experience
-    - title: Digital Cultures – Hybrid Matter
+    - label: Digital Cultures – Hybrid Matter
       slug: digital-cultures-hybrid-matter
-    - title: metaLAB + friends openLAB
+    - label: metaLAB + friends openLAB
       slug: meta-lab-friends-open-lab
-    - title: CURATORIAL A(I)GENTS at ARS ELECTRONICA 2020
+    - label: CURATORIAL A(I)GENTS at ARS ELECTRONICA 2020
       slug: curatorial-a-i-gents-at-ars-electronica-2020
-    - title: MACHINE EXPERIENCE II
+    - label: MACHINE EXPERIENCE II
       slug: machine-experience-ii
-    - title: 'Overflow: Inexplicable Parts of the Intimate'
+    - label: 'Overflow: Inexplicable Parts of the Intimate'
       slug: overflow-inexplicable-parts-of-the-intimate
 projects:
-    - title: Curricle Lens
+    - label: Curricle Lens
       slug: curricle-lens
-    - title: 'Where Art Might Happen: The Early Years of CalArts'
+    - label: 'Where Art Might Happen: The Early Years of CalArts'
       slug: where-art-might-happen-the-early-years-of-cal-arts
-    - title: Artificial Senses
+    - label: Curatorial A(i)gents
+      slug: curatorial-a-i-gents
+    - label: Artificial Senses
       slug: artificial-senses
-    - title: Their Names
+    - label: Their Names
       slug: their-names
-    - title: 'Tacit Knowledge: Post Studio/Feminism – CalArts 1970-1977'
+    - label: 'Tacit Knowledge: Post Studio/Feminism – CalArts 1970-1977'
       slug: tacit-knowledge-post-studio-feminism-cal-arts-1970-1977
-    - title: Womanhouse (a memory theater)
+    - label: Womanhouse (a memory theater)
       slug: womanhouse-a-memory-theater
-    - title: Curricle
+    - label: Curricle
       slug: curricle
-    - title: Hypercam
+    - label: Hypercam
       slug: hypercam
-    - title: Watching Machines Loving Grace
+    - label: Watching Machines Loving Grace
       slug: watching-machines-loving-grace
-    - title: Distinction Machine
+    - label: Distinction Machine
       slug: distinction-machine
 picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122126/kim_7989e0da77.jpg

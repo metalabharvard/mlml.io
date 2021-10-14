@@ -11,7 +11,7 @@ date: "2021-09-16T10:51:44.527Z"
 slug: alexandra-dolan-mescal
 noindex: true
 projects:
-    - title: Curricle
+    - label: Curricle
       slug: curricle
 
 ---

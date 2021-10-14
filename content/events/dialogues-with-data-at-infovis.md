@@ -31,18 +31,14 @@ lastmod: "2021-10-10T16:06:17.622Z"
 date: "2017-05-11T12:00:00Z"
 slug: dialogues-with-data-at-infovis
 members:
-    - name: Jessica Yurkofsky
+    - label: Jessica Yurkofsky
       slug: jessica-yurkofsky
-      isAlumnus: true
-    - name: Jeffrey Schnapp
+    - label: Jeffrey Schnapp
       slug: jeffrey-schnapp
-      isAlumnus: false
-    - name: Matthew Battles
+    - label: Matthew Battles
       slug: matthew-battles
-      isAlumnus: false
-    - name: Sarah Newman
+    - label: Sarah Newman
       slug: sarah-newman
-      isAlumnus: false
 links:
     - label: information&#43;visualization
       url: http://infovis.fh-potsdam.de/

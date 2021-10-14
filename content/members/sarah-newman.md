@@ -15,20 +15,20 @@ date: "2021-09-16T10:51:45.313Z"
 slug: sarah-newman
 noindex: false
 events:
-    - title: MACHINE EXPERIENCE II
+    - label: MACHINE EXPERIENCE II
       slug: machine-experience-ii
-    - title: MACHINE EXPERIENCE
+    - label: MACHINE EXPERIENCE
       slug: machine-experience
-    - title: If By Water [at] re:publica 17
+    - label: If By Water [at] re:publica 17
       slug: if-by-water-at-re-publica-17
-    - title: Dialogues with Data [at] Infovis
+    - label: Dialogues with Data [at] Infovis
       slug: dialogues-with-data-at-infovis
-    - title: Digital Cultures – Hybrid Matter
+    - label: Digital Cultures – Hybrid Matter
       slug: digital-cultures-hybrid-matter
-    - title: metaLAB + friends openLAB
+    - label: metaLAB + friends openLAB
       slug: meta-lab-friends-open-lab
 projects:
-    - title: Moral Labyrinth
+    - label: Moral Labyrinth
       slug: moral-labyrinth
 picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122129/newman_268d9cfd9e.jpg

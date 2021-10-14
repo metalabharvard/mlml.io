@@ -10,7 +10,7 @@ date: "2021-09-16T10:51:45.316Z"
 slug: oliver-luo
 noindex: true
 projects:
-    - title: Curricle
+    - label: Curricle
       slug: curricle
 
 ---
