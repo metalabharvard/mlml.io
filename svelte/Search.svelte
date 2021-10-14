@@ -1,46 +1,85 @@
 <script>
   import { onMount } from 'svelte';
-  import Fuse from 'fuse.js';
+  import MiniSearch from 'minisearch';
   import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
   import trim from 'lodash/trim';
   import uniq from 'lodash/uniq';
   import get from 'lodash/get';
+  import truncate from 'lodash/truncate';
 
   let input; // Input field
   let results; // Input field
   let resultsMembers = []; // Filtered items
   let resultsEvents = []; // Filtered items
   let resultsProjects = []; // Filtered items
-  let fuseMembers; // Fuse instance
-  let fuseEvents; // Fuse instance
-  let fuseProjects; // Fuse instance
   let hasTerm = false;
   let pageHeader;
   let isOpen = false;
   let tabIndex = 0;
+  let isSearchBusy = false;
+
+  const idField = 'id';
+
+  const searchOptions = {
+    fuzzy: 0.1,
+    prefix: true,
+    boost: { label: 2 }
+  };
+
+  const searchMembers = new MiniSearch({
+    idField,
+    storeFields: [idField, 'role', 'label'],
+    fields: ['label', 'role', 'events', 'projects'],
+    searchOptions
+  });
+
+  const searchProjects = new MiniSearch({
+    idField,
+    storeFields: [idField, 'intro', 'label', 'date'],
+    fields: ['label', 'intro', 'links', 'members', 'projects', 'events', 'location', 'date', 'collaborators'],
+    searchOptions
+  });
+
+  const searchEvents = new MiniSearch({
+    idField,
+    storeFields: [idField, 'intro', 'label', 'date'],
+    fields: ['label', 'intro', 'links', 'members', 'projects', 'events', 'location', 'date', 'collaborators'],
+    searchOptions
+  });
 
   $: resultsTotalLength = resultsMembers.length + resultsEvents.length + resultsProjects.length
 
   $: resultsTotal = [
-    ['project', resultsProjects, 'Projects', 'title', 'intro', 0],
-    ['event', resultsEvents, 'Events', 'title', 'intro', resultsProjects.length],
-    ['member', resultsMembers, 'Members', 'name', 'role', resultsProjects.length + resultsEvents.length]
+    ['project', resultsProjects, 'Projects', 'label', 'intro', 'date', 0],
+    ['event', resultsEvents, 'Events', 'label', 'intro', 'date', resultsProjects.length],
+    ['member', resultsMembers, 'Members', 'label', 'role', false, resultsProjects.length + resultsEvents.length]
   ]
 
   function handleInput () {
+    isSearchBusy = true;
     const term = trim(input.value)
     hasTerm = Boolean(term.length);
-    if (hasTerm && fuseMembers && fuseEvents && fuseEvents) {
-      resultsMembers = fuseMembers.search(term).map((d) => d.item);
-      resultsEvents = fuseEvents.search(term).map((d) => d.item);
-      resultsProjects = fuseProjects.search(term).map((d) => d.item);
+    if (hasTerm && searchMembers.documentCount && searchEvents.documentCount && searchProjects.documentCount) {
+      resultsMembers = searchMembers.search(term)
+      resultsEvents = searchEvents.search(term)
+      resultsProjects = searchProjects.search(term)
       disableBodyScroll(results);
+      isSearchBusy = false;
     } else {
       resultsMembers = [];
       resultsEvents = [];
       resultsProjects = [];
       enableBodyScroll(results);
+      isSearchBusy = false;
     }
+  }
+
+  function formatSubtitle (str) {
+    return truncate(str, { length: 180, separator: ' ' })
+  }
+
+  function formatTitle (str) {
+    return truncate(str, { length: 60, separator: ' ' })
   }
 
   onMount (async () => {
@@ -48,9 +87,9 @@
       .then(res => res.json())
       .then(data => {
         const { members, events, projects } = data;
-        fuseMembers = new Fuse(members, { threshold: 0.4, keys: [{ name: 'name', weight: 2 }, 'role', 'slug'] });
-        fuseEvents = new Fuse(events, { threshold: 0.4, keys: [{ name: 'title', weight: 2 }, { name: 'intro', weight: 1.5 }, 'description', 'members', 'slug'] });
-        fuseProjects = new Fuse(projects, { threshold: 0.4, keys: [{ name: 'title', weight: 2 }, { name: 'intro', weight: 1.5 }, 'description', 'members', 'slug'] });
+        searchMembers.addAll(members);
+        searchProjects.addAll(projects);
+        searchEvents.addAll(events);
       });
   })
 
@@ -159,15 +198,15 @@
 
 <div class="search-results grid" class:hasTerm={hasTerm} bind:this={results}>
   <div class="grid-wide">
-    {#each resultsTotal as [id, results, noun, title, subtitle, index]}
+    {#each resultsTotal as [id, results, noun, title, subtitle, footer, index]}
     {#if results.length}
     <section>
       <h2 id="{`results-${id}`}" aria-label={`Search results for ${noun}`}>{ noun } <small class="search-result-counter">{ results.length }</small></h2>
-      <div role="feed" aria-busy="false" aria-labelledby="results-projects">
+      <div role="feed" aria-busy="{ isSearchBusy }" aria-labelledby="results-projects">
         {#each results as result, i}
         <a
           role="article"
-          href="/{ get(result, 'slug') }"
+          href="/{ get(result, 'id') }"
           aria-posinset="{ i + 1 }"
           aria-setsize="{ results.length }"
           tabindex="0"
@@ -176,8 +215,9 @@
           on:blur={ () => tabIndex = 0 }
           on:focus={ () => tabIndex = index + i }
           on:keydown={handleKeyDownResult}>
-          <span class="result-title" id={ `search-result-${id}-${i}` }>{ get(result, title) }</span>
-          <span class="result-subtitle">{ get(result, subtitle) }</span>
+          <span class="result-title" id={ `search-result-${id}-${i}` }>{ formatTitle(get(result, title)) }</span>
+          <span class="result-subtitle">{ formatSubtitle(get(result, subtitle)) }</span>
+          <span class="result-footer">{ get(result, footer) || '' }</span>
         </a>
         {/each}
       </div>

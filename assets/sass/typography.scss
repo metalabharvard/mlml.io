@@ -20,6 +20,13 @@
   letter-spacing: 0.1em;
 }
 
+@mixin text-footer () {
+  font-size: var(--size-8);
+  text-transform: uppercase;
+  color: $color-gray-dark;
+  letter-spacing: 0.1em;
+}
+
 .text-center {
   text-align: center;
 }
@@ -200,6 +207,12 @@ ul {
       line-height: 1.3;
       display: block;
     }
+
+    .result-footer {
+      @include text-footer();
+      display: block;
+      margin-top: var(--spacing-025);
+    }
   }
 }
 
@@ -324,10 +337,7 @@ ul {
   }
 
   footer {
-    font-size: var(--size-8);
-    text-transform: uppercase;
-    color: $color-gray-dark;
-    letter-spacing: 0.1em;
+    @include text-footer();
   }
 }
 

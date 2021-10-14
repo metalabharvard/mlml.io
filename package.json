@@ -14,8 +14,8 @@
   "dependencies": {
     "body-scroll-lock": "^3.1.5",
     "chroma-js": "^2.1.2",
-    "fuse.js": "^6.4.6",
     "lodash": "^4.17.21",
+    "minisearch": "^3.1.0",
     "siema": "^1.5.1",
     "timeago.js": "^4.0.2",
     "tippy.js": "^6.3.1"
