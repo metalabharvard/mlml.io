@@ -7,9 +7,9 @@ HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
 
 [[headers]]
+  for = "/content.json"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
   for = "/*"
   [headers.values]
     Permissions-Policy = "interest-cohort=()"
-  for = "/content.json"
-    [headers.values]
-    Access-Control-Allow-Origin = "*"
