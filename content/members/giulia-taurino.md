@@ -8,7 +8,6 @@ website: http://linkedin.com/in/giulia-taurino-12811b33/en
 lastmod: "2021-09-16T10:51:45.331Z"
 date: "2021-09-16T10:51:45.331Z"
 slug: giulia-taurino
-noindex: false
 projects:
     - label: Curatorial A(i)gents
       slug: curatorial-a-i-gents

@@ -8,7 +8,6 @@ website: http://cssh.northeastern.edu/people/faculty/dietmar-offenhuber/
 lastmod: "2021-09-16T10:51:45.327Z"
 date: "2021-09-16T10:51:45.327Z"
 slug: dietmar-offenhuber
-noindex: false
 events:
     - label: CURATORIAL A(I)GENTS at ARS ELECTRONICA 2020
       slug: curatorial-a-i-gents-at-ars-electronica-2020

@@ -14,7 +14,6 @@ instagram: mbattles
 lastmod: "2021-09-16T10:58:53.979Z"
 date: "2021-09-16T10:51:45.422Z"
 slug: matthew-battles
-noindex: false
 events:
     - label: metaLAB + friends openLAB
       slug: meta-lab-friends-open-lab

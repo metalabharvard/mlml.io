@@ -14,7 +14,6 @@ instagram: jschnapp
 lastmod: "2021-09-16T10:58:29.329Z"
 date: "2021-09-16T10:51:45.518Z"
 slug: jeffrey-schnapp
-noindex: false
 events:
     - label: Dialogues with Data [at] Infovis
       slug: dialogues-with-data-at-infovis

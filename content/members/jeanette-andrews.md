@@ -8,7 +8,6 @@ instagram: JeanetteAndrewsMagic
 lastmod: "2021-09-16T10:51:45.331Z"
 date: "2021-09-16T10:51:45.331Z"
 slug: jeanette-andrews
-noindex: false
 
 ---
 Jeanette Andrews is an artist, magician and researcher. Her practice seeks to create, and create access to wondrous things. Andrews’ work focuses on the development of interactive magic and sensory illusions via performance, sculpture, installation and audio.   

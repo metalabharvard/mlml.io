@@ -13,7 +13,6 @@ instagram: kimfalbrecht
 lastmod: "2021-09-16T10:53:04.851Z"
 date: "2021-09-16T10:51:45.402Z"
 slug: kim-albrecht
-noindex: false
 events:
     - label: MACHINE EXPERIENCE
       slug: machine-experience

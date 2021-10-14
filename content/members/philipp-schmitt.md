@@ -9,7 +9,6 @@ instagram: phlpschmt
 lastmod: "2021-09-16T10:51:45.508Z"
 date: "2021-09-16T10:51:45.508Z"
 slug: philipp-schmitt
-noindex: false
 events:
     - label: CURATORIAL A(I)GENTS at ARS ELECTRONICA 2020
       slug: curatorial-a-i-gents-at-ars-electronica-2020

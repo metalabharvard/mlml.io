@@ -56,7 +56,7 @@ type Response struct {
   Title string
   Roles []Role `yaml:"roles,omitempty"`
   IsAlumnus bool `yaml:"isAlumnus"`
-  Rank float64 `yaml:"rank"`
+  Rank float64 `yaml:"rank,omitempty"`
   RoleString string `yaml:"role_string,omitempty"`
   Intro string `yaml:"intro,omitempty"`
   Twitter string `yaml:"twitter,omitempty"`
@@ -70,7 +70,6 @@ type Response struct {
   Lastmod string `yaml:"lastmod"`
   Date string `yaml:"date"`
   Slug string `yaml:"slug"`
-  NoIndex bool `yaml:noindex,omitempty`
   Events []Event `yaml:"events,omitempty"`
   Projects []Project `yaml:"projects,omitempty"`
   Picture Picture `yaml:"picture,omitempty"`
@@ -162,8 +161,12 @@ func main() {
 
     sort.Sort(ByRole(element.Roles))
     // fmt.Println(element.Roles)
-    element.Rank = calculateRoleRank(element.Roles)
-    element.RoleString = createRoleString(element.Roles)
+    if !element.IsAlumnus {
+      element.Rank = calculateRoleRank(element.Roles)
+      element.RoleString = createRoleString(element.Roles)
+    } else {
+      element.RoleString = "Alumnus"
+    }
     
     element.Name = strings.TrimSpace(element.Name)
     element.Title = strings.TrimSpace(element.Name)
@@ -178,12 +181,12 @@ func main() {
     element.Created_at = ""
     element.Updated_at = ""
 
-    if element.IsAlumnus {
-      element.NoIndex = true
-    }
+    // if element.IsAlumnus {
+    //   element.NoIndex = true
+    // }
 
     file, _ := yaml.Marshal(element)
-    _ = ioutil.WriteFile(fmt.Sprintf("content/%s/%s.md", getPath(element.IsAlumnus), element.Slug), []byte(fmt.Sprintf("---\n%s\n---\n%s", file, content)), 0644)
+    _ = ioutil.WriteFile(fmt.Sprintf("content/members/%s.md", element.Slug), []byte(fmt.Sprintf("---\n%s\n---\n%s", file, content)), 0644)
   }
 
   var meta Index

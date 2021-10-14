@@ -3,7 +3,13 @@
   <section class="homepage-member grid-full grid vcard" vocab="https://schema.org/" typeof="Person">
     <header class="member-header grid-wide">
       <h1 class="member-name fn" property="name">{{ .Params.Name }}</h1>
-      <span class="member-role role" property="jobTitle">{{ .Params.Role_string }}</span>
+      <span class="member-role role" property="jobTitle">
+      {{- if .Params.isAlumnus -}}
+      {{- .Site.Params.Label.MemberAlumnus -}}
+      {{- else -}}
+      {{- .Params.Role_string -}}
+      {{- end -}}
+      </span>
     </header>
     {{ $name := .Params.name }}
     {{ with .Params.picture }}<div class="member-image" property="image">{{ partial "image.html" (dict "picture" . "alt" (printf "Profile picture of %s" $name)) }}</div>{{ end }}
@@ -17,8 +23,11 @@
       {{ partial "icon-youtube.html" (dict "handle" .Params.Youtube "name" $name "template" .Site.Params.Label.SocialYouTubeTitle) }}
       {{ partial "icon-vimeo.html" (dict "handle" .Params.Vimeo "name" $name "template" .Site.Params.Label.SocialVimeoTitle) }}
     </aside>
-    {{ if or .Params.Intro .Content }}
+    {{ if or (or .Params.Intro .Content) .Params.isAlumnus }}
     <div class="member-description grid-narrow-left note">
+      {{ if .Params.isAlumnus }}
+      <span>{{ .Site.Params.Label.label_alumni_update }}</span>
+      {{ end }}
       {{ with .Params.Intro }}
       <h2 class="member-intro">{{ . }}</h2>
       {{ end }}
@@ -32,8 +41,8 @@
     {{ $count := partial "columnCount.html" (dict "list" (slice $projects $events)) }}
     {{ if gt $count 0 }}
     <aside class="member-relations grid-wide grid grid-v-default half">
-      {{ partial "related-items.html" (dict "items" $projects "term" .Site.Params.Label.RelatedProjects "label" .Site.Params.Label.RelatedLabelProjects "class" "project") }}
-      {{ partial "related-items.html" (dict "items" $events "term" .Site.Params.Label.RelatedEvents "label" .Site.Params.Label.RelatedLabelEvents "class" "event") }}
+      {{ partial "related-items.html" (dict "items" $projects "term" .Site.Params.Label.RelatedMembers "label" .Site.Params.Label.RelatedLabelProjects "class" "project") }}
+      {{ partial "related-items.html" (dict "items" $events "term" .Site.Params.Label.RelatedMembers "label" .Site.Params.Label.RelatedLabelEvents "class" "event") }}
     </aside>
     {{ end }}
     <footer class="member-footer grid-wide" role="contentinfo">

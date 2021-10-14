@@ -8,7 +8,6 @@ instagram: annettejaellehmann
 lastmod: "2021-09-16T10:51:44.527Z"
 date: "2021-09-16T10:51:44.527Z"
 slug: annette-jael-lehmann
-noindex: false
 projects:
     - label: Womanhouse (a memory theater)
       slug: womanhouse-a-memory-theater

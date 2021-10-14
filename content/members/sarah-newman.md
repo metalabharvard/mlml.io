@@ -13,7 +13,6 @@ instagram: sarahwnewman
 lastmod: "2021-09-16T10:58:45.319Z"
 date: "2021-09-16T10:51:45.313Z"
 slug: sarah-newman
-noindex: false
 events:
     - label: MACHINE EXPERIENCE II
       slug: machine-experience-ii

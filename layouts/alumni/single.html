@@ -1,7 +1,40 @@
 {{ define "main" }}
-  <div class="grid-full grid">
-    <h1 class="grid-full">{{ .Params.Name }}.</h1>
-    <h2>{{ .Site.Params.Label.label_alumni_update }}</h2>
+  {{ $name := .Params.name }}
+  <section class="homepage-member grid-full grid vcard" vocab="https://schema.org/" typeof="Person">
+    <header class="member-header grid-wide">
+      <h1 class="member-name fn" property="name">{{ $name }}</h1>
+      <span class="member-role role" property="jobTitle">{{ .Params.Role_string }}</span>
+    </header>
+    <aside class="member-aside grid-narrow-left-aside">
+      {{ partial "icon-website.html" (dict "link" .Params.Website "name" $name "template" .Site.Params.Label.SocialHomepageTitle) }}
+      {{ partial "icon-mail.html" (dict "mail" .Params.Email "name" $name "template" .Site.Params.Label.SocialEmailTitle) }}
+      {{ partial "icon-twitter.html" (dict "handle" .Params.Twitter "name" $name "template" .Site.Params.Label.SocialTwitterTitle) }}
+      {{ partial "icon-instagram.html" (dict "handle" .Params.Instagram "name" $name "template" .Site.Params.Label.SocialInstagramTitle) }}
+      {{ partial "icon-github.html" (dict "handle" .Params.Github "name" $name "template" .Site.Params.Label.SocialGithubTitle) }}
+      {{ partial "icon-soundcloud.html" (dict "handle" .Params.Soundcloud "name" $name "template" .Site.Params.Label.SocialSoundcloudTitle) }}
+      {{ partial "icon-youtube.html" (dict "handle" .Params.Youtube "name" $name "template" .Site.Params.Label.SocialYouTubeTitle) }}
+      {{ partial "icon-vimeo.html" (dict "handle" .Params.Vimeo "name" $name "template" .Site.Params.Label.SocialVimeoTitle) }}
+    </aside>
+    {{ if or .Params.Intro .Content }}
+    <div class="member-description grid-narrow-left note">
+      <span>{{ .Site.Params.Label.label_alumni_update }}</span>
+      {{ with .Params.Intro }}
+      <h2 class="member-intro">{{ . }}</h2>
+      {{ end }}
+      {{ with .Content }}
+      {{ . }}
+      {{ end }}
+    </div>
+    {{ end }}
+    {{ $events := .Params.Events }}
+    {{ $projects := .Params.Projects }}
+    {{ $count := partial "columnCount.html" (dict "list" (slice $projects $events)) }}
+    {{ if gt $count 0 }}
+    <aside class="member-relations grid-wide grid grid-v-default half">
+      {{ partial "related-items.html" (dict "items" $projects "term" .Site.Params.Label.RelatedMembers "label" .Site.Params.Label.RelatedLabelProjects "class" "project") }}
+      {{ partial "related-items.html" (dict "items" $events "term" .Site.Params.Label.RelatedMembers "label" .Site.Params.Label.RelatedLabelEvents "class" "event") }}
+    </aside>
+    {{ end }}
     <footer class="alumni-footer grid-wide" role="contentinfo">
       <span>Page published on <time datetime="{{ .PublishDate.Format "2006-01-02T15:04:05Z07:00" }}">{{ .PublishDate.Format "2 January 2006" }}</time>{{ if not (eq (.PublishDate.Format "2 January 2006") (.Lastmod.Format "2 January 2006"))}} and last edited on <time class="article-date" datetime="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Lastmod.Format "2 January 2006" }}</time>{{ end }}.</span>
     </footer>

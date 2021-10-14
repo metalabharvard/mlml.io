@@ -10,7 +10,6 @@ instagram: sandsfish
 lastmod: "2021-09-16T10:51:44.817Z"
 date: "2021-09-16T10:51:44.817Z"
 slug: sands-alden-fish
-noindex: false
 events:
     - label: MACHINE EXPERIENCE II
       slug: machine-experience-ii

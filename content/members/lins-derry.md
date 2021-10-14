@@ -12,7 +12,6 @@ instagram: linsderry
 lastmod: "2021-09-16T10:57:53.304Z"
 date: "2021-09-16T10:51:45.177Z"
 slug: lins-derry
-noindex: false
 events:
     - label: CURATORIAL A(I)GENTS at ARS ELECTRONICA 2020
       slug: curatorial-a-i-gents-at-ars-electronica-2020

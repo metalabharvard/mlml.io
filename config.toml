@@ -40,6 +40,7 @@ disableKinds = ["taxonomyTerm"]
   boxType = "Type"
   relatedLabelLinks = "Link"
   relatedLabelPressArticles = "Press article"
+  memberAlumnus = "Alumnus"
 
 [permalinks]
   projects = "/:slug/"

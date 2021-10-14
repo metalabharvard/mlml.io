@@ -9,7 +9,6 @@ instagram: franciscoalarconruiz
 lastmod: "2021-09-16T10:51:44.690Z"
 date: "2021-09-16T10:51:44.690Z"
 slug: francisco-alarcon
-noindex: false
 events:
     - label: CURATORIAL A(I)GENTS at ARS ELECTRONICA 2020
       slug: curatorial-a-i-gents-at-ars-electronica-2020

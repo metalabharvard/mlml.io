@@ -16,24 +16,6 @@
   {{- $membersScratch.Add "members" (dict "label" $element.Params.Name "role" $element.Params.Role_string "events" ($relatedItems.Get "events") "projects" ($relatedItems.Get "projects") "id" $element.Slug) -}}
 {{- end -}}
 
-{{ $alumniScratch := newScratch }}
-{{- $alumniScratch.Set "alumni" slice -}}
-{{- range $index, $element := (where .Site.RegularPages "Section" "alumni") -}}
-  {{ $relatedItems := newScratch }}
-  {{ $events := $element.Params.Events }}
-  {{ $relatedItems.Set "events" (slice) }}
-  {{ with $events }}
-    {{- range $event := . -}}
-      {{- $relatedItems.Add "events" $event.label -}}
-    {{- end -}}
-  {{- end -}}
-  {{ $relatedItems.Set "projects" (slice) }}
-  {{- range $project := $element.Params.Projects -}}
-    {{- $relatedItems.Add "projects" $project.label -}}
-  {{- end -}}
-  {{- $alumniScratch.Add "alumni" (dict "label" $element.Params.Name "events" ($relatedItems.Get "events") "projects" ($relatedItems.Get "projects") "id" $element.Slug) -}}
-{{- end -}}
-
 {{ $eventsScratch := newScratch }}
 {{- $eventsScratch.Set "events" slice -}}
 {{- range $index, $element := (where .Site.RegularPages "Section" "events") -}}
@@ -118,5 +100,4 @@
 {{ $content.SetInMap "list" "projects" ($projectsScratch.Get "projects") }}
 {{ $content.SetInMap "list" "events" ($eventsScratch.Get "events") }}
 {{ $content.SetInMap "list" "members" ($membersScratch.Get "members") }}
-{{ $content.SetInMap "list" "alumni" ($alumniScratch.Get "alumni") }}
 {{- $content.Get "list" | jsonify -}}

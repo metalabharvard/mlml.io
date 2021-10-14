@@ -9,7 +9,6 @@ instagram: heather_kapplow
 lastmod: "2021-09-16T10:51:44.686Z"
 date: "2021-09-16T10:51:44.686Z"
 slug: heather-kapplow
-noindex: false
 
 ---
 Heather Kapplow (no gender pronoun preference) is a self-trained conceptual artist based in the United States. Kapplow creates participatory experiences that elicit unexpected intimacies using objects, alternative interpretations of existing environments, installation, performance, writing, audio and video. 

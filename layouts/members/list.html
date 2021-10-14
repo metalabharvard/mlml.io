@@ -2,10 +2,10 @@
   <section class="homepage-members-list grid-full">
     <h1 id="members" class="member-list-header">Members</h1>
     <ul class="grid member-list" role="list">
-      {{ range (sort (where .Pages "Params.picture" "!=" nil) "Params.rank" "asc") }}
+      {{ range (sort (where (where .Pages "Params.picture" "!=" nil) "Params.isalumnus" false) "Params.rank" "asc") }}
         {{ partial "preview-member.html" (dict "member" .) }}
       {{ end }}
-      {{ range (sort (where .Pages "Params.picture" "==" nil) "Params.rank" "asc") }}
+      {{ range (sort (where (where .Pages "Params.picture" "==" nil) "Params.isalumnus" false) "Params.rank" "asc") }}
         {{ partial "preview-member.html" (dict "member" .) }}
       {{ end }}
     </ul>
@@ -13,7 +13,7 @@
   <section class="homepage-alumni-list grid-full">
     <h1 id="community" class="alumni-list-header">Community</h1>
     <ul class="grid alumni-list" role="list">
-    {{ range (sort (where .Site.RegularPages "Section" "alumni") "Params.name") }}
+    {{ range where (sort .Pages "Params.name") "Params.isalumnus" true }}
       <li role="listitem">
         <a href="{{ .Params.Slug | absURL }}" class="alumni-preview vcard" vocab="https://schema.org/" typeof="Person">
           <strong class="alumni-name fn p-name" property="name">{{ .Params.Name }}</strong>

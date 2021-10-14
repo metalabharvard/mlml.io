@@ -7,7 +7,6 @@ website: http://keithhartwig.com/
 lastmod: "2021-09-16T10:51:45.465Z"
 date: "2021-09-16T10:51:45.465Z"
 slug: keith-hartwig
-noindex: false
 events:
     - label: CURATORIAL A(I)GENTS at ARS ELECTRONICA 2020
       slug: curatorial-a-i-gents-at-ars-electronica-2020
