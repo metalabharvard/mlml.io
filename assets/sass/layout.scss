@@ -44,8 +44,8 @@ picture img {
   grid-template-columns: repeat($columns, 1fr);
   grid-column-gap: $size-gap;
 
-  & > * {
-    overflow: hidden; // The titles might be wider than the content, so we cut it off. This might happen when words are too long.
+  & > .homepage-projects-list, & > .homepage-events-list {
+    overflow-x: hidden; // The titles might be wider than the content, so we cut it off. This might happen when words are too long.
   }
 
   &.grid-v-default {
