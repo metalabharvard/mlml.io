@@ -8,8 +8,8 @@ HUGO_ENABLEGITINFO = "true"
 
 [[headers]]
   for = "/content.json"
-  [headers.values]
+    [headers.values]
     Access-Control-Allow-Origin = "*"
   for = "/*"
-  [headers.values]
+    [headers.values]
     Permissions-Policy = "interest-cohort=()"
