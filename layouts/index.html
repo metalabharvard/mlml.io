@@ -1,9 +1,7 @@
 {{ define "main" }}
   <div class="grid-full home-intro">
     <h2 class="intro">{{ .Site.Params.description }}</h2>
-    {{ $var := "Kim" }}
-    {{ $temp := "combinedd_%s" }}
-    <a href="{{ "about" | absURL }}" class="btn" title="{{ (printf $temp $var) | safeHTMLAttr }}">{{ printf $temp $var }}</a>
+    <a href="{{ "about" | absURL }}" class="btn">Learn more</a>
   </div>
   <div class="grid-wide home-projects">
     <!-- <h3>Recent projects and events</h3> -->
