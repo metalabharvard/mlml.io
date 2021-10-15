@@ -29,6 +29,34 @@ type Meta struct {
   LabelAlumniUpdate string `json:"label_alumni_update"`
   ErrorTitle string `json:"error_title"`
   ErrorText string `json:"error_text"`
+  HostsBoth string `json:"hostsBoth"`
+  HostsDefault string `json:"hostsDefault"`
+  HostsHeadline string `json:"hostsHeadline"`
+  SocialFacebookTitle string `json:"socialFacebookTitle"`
+  SocialGithubTitle string `json:"socialGithubTitle"`
+  SocialHomepageTitle string `json:"socialHomepageTitle"`
+  SocialInstagramTitle string `json:"socialInstagramTitle"`
+  SocialLinkedinTitle string `json:"socialLinkedinTitle"`
+  SocialEmailTitle string `json:"socialEmailTitle"`
+  SocialSoundcloudTitle string `json:"socialSoundcloudTitle"`
+  SocialTwitterTitle string `json:"socialTwitterTitle"`
+  SocialVimeoTitle string `json:"socialVimeoTitle"`
+  SocialYouTubeTitle string `json:"socialYouTubeTitle"`
+  SocialMetalabSelf string `json:"socialMetalabSelf"`
+  RelatedMembers string `json:"relatedMembers"`
+  RelatedProjects string `json:"relatedProjects"`
+  RelatedEvents string `json:"relatedEvents"`
+  RelatedLabelMembers string `json:"relatedLabelMembers"`
+  RelatedLabelProjects string `json:"relatedLabelProjects"`
+  RelatedLabelEvents string `json:"relatedLabelEvents"`
+  BoxCollaborator string `json:"boxCollaborator"`
+  BoxTime string `json:"boxTime"`
+  BoxHost string `json:"boxHost"`
+  BoxLocation string `json:"boxLocation"`
+  BoxType string `json:"boxType"`
+  RelatedLabelLinks string `json:"relatedLabelLinks"`
+  RelatedLabelPressArticles string `json:"relatedLabelPressArticles"`
+  MemberAlumnus string `json:"memberAlumnus"`
 }
 
 type Params struct {
@@ -58,6 +86,34 @@ type Label struct {
   TimezoneLabelBoston string `json:"label_timezone_boston,omitempty"`
   TimezoneLabelBerlin string `json:"label_timezone_berlin,omitempty"`
   AlumniUpdate string `json:"label_alumni_update,omitempty"`
+  HostsBoth string `json:"hostsBoth"`
+  HostsDefault string `json:"hostsDefault"`
+  HostsHeadline string `json:"hostsHeadline"`
+  SocialFacebookTitle string `json:"socialFacebookTitle"`
+  SocialGithubTitle string `json:"socialGithubTitle"`
+  SocialHomepageTitle string `json:"socialHomepageTitle"`
+  SocialInstagramTitle string `json:"socialInstagramTitle"`
+  SocialLinkedinTitle string `json:"socialLinkedinTitle"`
+  SocialEmailTitle string `json:"socialEmailTitle"`
+  SocialSoundcloudTitle string `json:"socialSoundcloudTitle"`
+  SocialTwitterTitle string `json:"socialTwitterTitle"`
+  SocialVimeoTitle string `json:"socialVimeoTitle"`
+  SocialYouTubeTitle string `json:"socialYouTubeTitle"`
+  SocialMetalabSelf string `json:"socialMetalabSelf"`
+  RelatedMembers string `json:"relatedMembers"`
+  RelatedProjects string `json:"relatedProjects"`
+  RelatedEvents string `json:"relatedEvents"`
+  RelatedLabelMembers string `json:"relatedLabelMembers"`
+  RelatedLabelProjects string `json:"relatedLabelProjects"`
+  RelatedLabelEvents string `json:"relatedLabelEvents"`
+  BoxCollaborator string `json:"boxCollaborator"`
+  BoxTime string `json:"boxTime"`
+  BoxHost string `json:"boxHost"`
+  BoxLocation string `json:"boxLocation"`
+  BoxType string `json:"boxType"`
+  RelatedLabelLinks string `json:"relatedLabelLinks"`
+  RelatedLabelPressArticles string `json:"relatedLabelPressArticles"`
+  MemberAlumnus string `json:"memberAlumnus"`
 }
 
 type Config struct {
@@ -107,6 +163,34 @@ func main() {
         TimezoneLabelBoston: responseObject.LabelTimezoneBoston,
         TimezoneLabelBerlin: responseObject.LabelTimezoneBerlin,
         AlumniUpdate: responseObject.LabelAlumniUpdate,
+        HostsBoth: responseObject.HostsBoth,
+        HostsDefault: responseObject.HostsDefault,
+        HostsHeadline: responseObject.HostsHeadline,
+        SocialFacebookTitle: responseObject.SocialFacebookTitle,
+        SocialGithubTitle: responseObject.SocialGithubTitle,
+        SocialHomepageTitle: responseObject.SocialHomepageTitle,
+        SocialInstagramTitle: responseObject.SocialInstagramTitle,
+        SocialLinkedinTitle: responseObject.SocialLinkedinTitle,
+        SocialEmailTitle: responseObject.SocialEmailTitle,
+        SocialSoundcloudTitle: responseObject.SocialSoundcloudTitle,
+        SocialTwitterTitle: responseObject.SocialTwitterTitle,
+        SocialVimeoTitle: responseObject.SocialVimeoTitle,
+        SocialYouTubeTitle: responseObject.SocialYouTubeTitle,
+        SocialMetalabSelf: responseObject.SocialMetalabSelf,
+        RelatedMembers: responseObject.RelatedMembers,
+        RelatedProjects: responseObject.RelatedProjects,
+        RelatedEvents: responseObject.RelatedEvents,
+        RelatedLabelMembers: responseObject.RelatedLabelMembers,
+        RelatedLabelProjects: responseObject.RelatedLabelProjects,
+        RelatedLabelEvents: responseObject.RelatedLabelEvents,
+        BoxCollaborator: responseObject.BoxCollaborator,
+        BoxTime: responseObject.BoxTime,
+        BoxHost: responseObject.BoxHost,
+        BoxLocation: responseObject.BoxLocation,
+        BoxType: responseObject.BoxType,
+        RelatedLabelLinks: responseObject.RelatedLabelLinks,
+        RelatedLabelPressArticles: responseObject.RelatedLabelPressArticles,
+        MemberAlumnus: responseObject.MemberAlumnus,
       },
     },
   }
