@@ -79,7 +79,6 @@ type Response struct {
   TimezoneID string `yaml:"tzid,omitempty"`
   Intro string `yaml:"intro,omitempty"`
   Location string `yaml:"location,omitempty"`
-  Host string `yaml:"host,omitempty"`
   Category string `yaml:"category,omitempty"`
   Link string `yaml:"externalLink,omitempty"`
   Description string `yaml:"description,omitempty"`

@@ -6,6 +6,6 @@
 <a href="{{ .host | absURL }}">{{- title .host }}</a>
 {{- end -}}
 {{- else -}}
-{{ .default }}
+<a href="{{ lower .default | absURL }}">{{ .default }}</a>
 {{- end -}}
 </span>
