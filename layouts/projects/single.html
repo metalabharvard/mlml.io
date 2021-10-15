@@ -3,6 +3,14 @@
     <header class="project-header grid-wide">
       <h1 class="project-name" property="name">{{ .Params.Title }}</h1>
       {{ with .Params.Intro }}<span class="project-intro">{{ . | markdownify }}</span>{{ end }}
+      {{ $label := .Site.Params.Label.ExternalProject }}
+      {{ with .Params.ExternalLink -}}
+      <div class="project-header-bar">
+        <div class="project-link">
+          <a class="btn" href="{{ . }}" rel="noopener noreferrer external" target="_blank">{{ $label }}</a>
+        </div>
+      </div>
+      {{- end }}
     </header>
     {{ $events := .Params.Events }}
     {{ $members := .Params.Members }}
@@ -64,9 +72,6 @@
       </button>
     </div>
     <span class="counter" id="counter"></span>
-    {{ end }}
-    {{ with .Params.ExternalLink }}
-    <a class="project-link" href="{{ . }}" rel="noopener noreferrer external" target="_blank"><span>Visit project</span></a>
     {{ end }}
     {{ with .Content }}
     <div class="project-description grid-narrow-right">

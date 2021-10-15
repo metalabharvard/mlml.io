@@ -12,6 +12,10 @@ disableKinds = ["taxonomyTerm"]
   timezoneBoston = "EDT"
   timezoneBerlin = "CEST"
 
+[params.label]
+  externalProject = "Visit project"
+  externalEvent = "Visit event"
+
 [permalinks]
   projects = "/:slug/"
   members = "/:slug/"

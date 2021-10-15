@@ -4,35 +4,45 @@
       {{ with .Params.Start_time }}<span class="event-timeago timeago" datetime="{{ dateFormat "2006-01-02 03:04:05 UTC" . }}"></span>{{ end }}
       <h1 class="event-name p-name" property="name">{{ .Params.Title }}</h1>
       {{ with .Params.Intro }}<span class="event-intro p-summary">{{ . | markdownify }}</span>{{ end }}
-      {{ if .Params.Start_time }}
-      <div class="timezone-tabs">
-        <nav role="tablist" aria-label="Timezone selection">
-          <button class="event-timezone btn-tab" role="tab" aria-controls="panel-boston" id="tab-boston" aria-selected="true" tabindex="0">{{ .Site.Params.Label.label_timezone_boston }}</button>
-          <button class="event-timezone btn-tab" role="tab" aria-controls="panel-berlin" id="tab-berlin" aria-selected="false" tabindex="-1">{{ .Site.Params.Label.label_timezone_berlin }}</button>
-        </nav>
-        <div class="timezone-content">
-          <time
-            class="event-time"
-            role="tabpanel"
-            id="panel-boston"
-            tabindex="0"
-            aria-labelledby="tab-boston"
-            property="startDate"
-            content="{{ dateFormat "2006-01-02T15:04:05-0700" .Params.Start_time_locations.New_York }}"
-            datetime="{{ dateFormat "2006-01-02T15:04:05-0700" .Params.Start_time_locations.New_York }}">
-            {{- (dateFormat "Monday, 2 January 2006 3:04&thinsp;pm" .Params.Start_time_locations.New_York) | safeHTML }} {{ .Site.Params.timezoneBoston }}</time>
-          <time
-            class="event-time"
-            role="tabpanel"
-            id="panel-berlin"
-            tabindex="-1"
-            aria-labelledby="tab-berlin"
-            hidden
-            property="startDate"
-            content="{{ dateFormat "2006-01-02T15:04:05-0700" .Params.Start_time_locations.Berlin }}"
-            datetime="{{ dateFormat "2006-01-02T15:04:05-0700" .Params.Start_time_locations.Berlin }}">
-            {{- (dateFormat "Monday, 2 January 2006 3:04&thinsp;pm" .Params.Start_time_locations.Berlin) | safeHTML }} {{ .Site.Params.timezoneBerlin }}</time>
+      {{ if or (.Params.Start_time) (.Params.ExternalLink) }}
+      <div class="event-header-bar">
+        {{ if .Params.Start_time }}
+        <div class="timezone-tabs">
+          <nav role="tablist" aria-label="Timezone selection">
+            <button class="event-timezone btn-tab" role="tab" aria-controls="panel-boston" id="tab-boston" aria-selected="true" tabindex="0">{{ .Site.Params.Label.label_timezone_boston }}</button>
+            <button class="event-timezone btn-tab" role="tab" aria-controls="panel-berlin" id="tab-berlin" aria-selected="false" tabindex="-1">{{ .Site.Params.Label.label_timezone_berlin }}</button>
+          </nav>
+          <div class="timezone-content">
+            <time
+              class="event-time"
+              role="tabpanel"
+              id="panel-boston"
+              tabindex="0"
+              aria-labelledby="tab-boston"
+              property="startDate"
+              content="{{ dateFormat "2006-01-02T15:04:05-0700" .Params.Start_time_locations.New_York }}"
+              datetime="{{ dateFormat "2006-01-02T15:04:05-0700" .Params.Start_time_locations.New_York }}">
+              {{- (dateFormat "Monday, 2 January 2006 3:04&thinsp;pm" .Params.Start_time_locations.New_York) | safeHTML }} {{ .Site.Params.timezoneBoston }}</time>
+            <time
+              class="event-time"
+              role="tabpanel"
+              id="panel-berlin"
+              tabindex="-1"
+              aria-labelledby="tab-berlin"
+              hidden
+              property="startDate"
+              content="{{ dateFormat "2006-01-02T15:04:05-0700" .Params.Start_time_locations.Berlin }}"
+              datetime="{{ dateFormat "2006-01-02T15:04:05-0700" .Params.Start_time_locations.Berlin }}">
+              {{- (dateFormat "Monday, 2 January 2006 3:04&thinsp;pm" .Params.Start_time_locations.Berlin) | safeHTML }} {{ .Site.Params.timezoneBerlin }}</time>
+          </div>
         </div>
+        {{ end }}
+        {{ $label := .Site.Params.Label.ExternalEvent }}
+        {{ with .Params.ExternalLink -}}
+        <div class="event-link">
+          <a class="btn" href="{{ . }}" rel="noopener noreferrer external" target="_blank">{{ $label }}</a>
+        </div>
+        {{ end }}
       </div>
       {{ end }}
     </header>

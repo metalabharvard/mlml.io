@@ -72,7 +72,6 @@ type Response struct {
   Intro string `yaml:"intro"`
   Start string `yaml:"start"`
   End string `yaml:"end"`
-  Link string `yaml:"link,omitempty"`
   Description string `yaml:"description,omitempty"`
   Location string `yaml:"location"`
   Host string `yaml:"host"`
