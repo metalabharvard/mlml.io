@@ -3,7 +3,6 @@ title: Is A.I Laughing at us?
 outputs:
     - HTML
     - Calendar
-time: ""
 start_time: "2019-02-04T12:00:00Z"
 start_time_utc: 20190204T120000Z
 start_time_locations:
@@ -13,18 +12,10 @@ start_time_locations:
     los_angeles: "2019-02-04T04:00:00-08:00"
 end_time: "2019-01-01T12:00:00.000Z"
 end_time_utc: 20190204T140000Z
-end_time_locations:
-    berlin: ""
-    new_york: ""
-    london: ""
-    los_angeles: ""
 timezone: UTC
 tzid: UTC
 intro: Is A.I. Laughing at us?<br /> A conversation with Jessica Fjeld, Jon Orwant, and Nikhil Dharmaraj
 location: Cambridge, MA
-host: ""
-category: ""
-link: ""
 isFeatured: false
 isOngoing: false
 lastmod: "2021-09-16T09:49:44.261Z"

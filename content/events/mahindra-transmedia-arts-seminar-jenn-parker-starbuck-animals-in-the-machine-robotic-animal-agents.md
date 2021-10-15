@@ -3,7 +3,6 @@ title: 'MAHINDRA TRANSMEDIA ARTS SEMINAR: Jenn Parker-Starbuck, Animals in the M
 outputs:
     - HTML
     - Calendar
-time: ""
 start_time: "2021-04-15T12:00:00Z"
 start_time_utc: 20210415T120000Z
 start_time_locations:
@@ -13,18 +12,11 @@ start_time_locations:
     los_angeles: "2021-04-15T05:00:00-07:00"
 end_time: "2021-01-01T12:00:00.000Z"
 end_time_utc: 20210415T140000Z
-end_time_locations:
-    berlin: ""
-    new_york: ""
-    london: ""
-    los_angeles: ""
 timezone: UTC
 tzid: UTC
 intro: How mechanized animals might produce a disturbance that provokes possibility.
 location: Cambridge, MA
-host: ""
 category: seminar
-link: ""
 isFeatured: false
 isOngoing: false
 lastmod: "2021-10-04T15:35:08.384Z"

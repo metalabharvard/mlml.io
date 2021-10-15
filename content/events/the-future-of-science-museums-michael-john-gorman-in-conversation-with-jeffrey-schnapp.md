@@ -3,7 +3,6 @@ title: 'The Future of Science Museums: Michael John Gorman in conversation with 
 outputs:
     - HTML
     - Calendar
-time: ""
 start_time: "2020-12-10T12:00:00Z"
 start_time_utc: 20201210T120000Z
 start_time_locations:
@@ -13,18 +12,10 @@ start_time_locations:
     los_angeles: "2020-12-10T04:00:00-08:00"
 end_time: "2020-01-01T12:00:00.000Z"
 end_time_utc: 20201210T140000Z
-end_time_locations:
-    berlin: ""
-    new_york: ""
-    london: ""
-    los_angeles: ""
 timezone: UTC
 tzid: UTC
 intro: Exploring the future of science museums with Michael John Gorman, founder of Biotopia and Science Gallery International.
 location: Cambridge, MA
-host: ""
-category: ""
-link: ""
 isFeatured: false
 isOngoing: false
 lastmod: "2021-09-16T09:49:45.667Z"

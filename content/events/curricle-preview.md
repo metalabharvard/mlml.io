@@ -3,7 +3,6 @@ title: Curricle Preview
 outputs:
     - HTML
     - Calendar
-time: ""
 start_time: "2018-08-02T12:00:00Z"
 start_time_utc: 20180802T120000Z
 start_time_locations:
@@ -13,18 +12,9 @@ start_time_locations:
     los_angeles: "2018-08-02T05:00:00-07:00"
 end_time: "2018-01-01T12:00:00.000Z"
 end_time_utc: 20180802T140000Z
-end_time_locations:
-    berlin: ""
-    new_york: ""
-    london: ""
-    los_angeles: ""
 timezone: UTC
 tzid: UTC
-intro: ""
 location: Gund Hall 121
-host: ""
-category: ""
-link: ""
 isFeatured: false
 isOngoing: false
 lastmod: "2021-09-16T09:49:46.486Z"

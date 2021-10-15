@@ -3,7 +3,6 @@ title: 'EVERY BODY: a conversation with SARA HENDREN & ELIZABETH GUFFEY'
 outputs:
     - HTML
     - Calendar
-time: ""
 start_time: "2020-10-08T12:00:00Z"
 start_time_utc: 20201008T120000Z
 start_time_locations:
@@ -13,18 +12,10 @@ start_time_locations:
     los_angeles: "2020-10-08T05:00:00-07:00"
 end_time: "2020-01-01T12:00:00.000Z"
 end_time_utc: 20201008T140000Z
-end_time_locations:
-    berlin: ""
-    new_york: ""
-    london: ""
-    los_angeles: ""
 timezone: UTC
 tzid: UTC
 intro: Celebrating the arrival of two books that question hidden assumptions about ability, the body, and roles for design and technology in defining shared worlds.
 location: Cambridge, MA
-host: ""
-category: ""
-link: ""
 isFeatured: false
 isOngoing: false
 lastmod: "2021-09-16T09:49:45.465Z"

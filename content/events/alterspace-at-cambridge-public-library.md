@@ -3,7 +3,6 @@ title: Alterspace at Cambridge Public Library
 outputs:
     - HTML
     - Calendar
-time: ""
 start_time: "2019-03-01T12:00:00Z"
 start_time_utc: 20190301T120000Z
 start_time_locations:
@@ -13,18 +12,10 @@ start_time_locations:
     los_angeles: "2019-03-01T04:00:00-08:00"
 end_time: "2019-03-04T12:00:00.000Z"
 end_time_utc: 20190301T140000Z
-end_time_locations:
-    berlin: ""
-    new_york: ""
-    london: ""
-    los_angeles: ""
 timezone: UTC
 tzid: UTC
 intro: <i>Alterspace:</i> libraries, digital placemaking, and emancipatory design
 location: Cambridge, MA
-host: ""
-category: ""
-link: ""
 isFeatured: false
 isOngoing: false
 lastmod: "2021-09-16T09:49:46.715Z"

@@ -3,7 +3,6 @@ title: If By Water [at] re:publica 17
 outputs:
     - HTML
     - Calendar
-time: ""
 start_time: "2017-05-08T12:00:00Z"
 start_time_utc: 20170508T120000Z
 start_time_locations:
@@ -13,18 +12,9 @@ start_time_locations:
     los_angeles: "2017-05-08T05:00:00-07:00"
 end_time: "2017-05-10T12:00:00.000Z"
 end_time_utc: 20170508T140000Z
-end_time_locations:
-    berlin: ""
-    new_york: ""
-    london: ""
-    los_angeles: ""
 timezone: UTC
 tzid: UTC
-intro: ""
 location: Berlin, Germany
-host: ""
-category: ""
-link: ""
 isFeatured: false
 isOngoing: false
 lastmod: "2021-10-10T16:05:26.173Z"

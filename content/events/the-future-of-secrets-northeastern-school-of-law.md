@@ -3,7 +3,6 @@ title: The Future of Secrets @ Northeastern School of Law
 outputs:
     - HTML
     - Calendar
-time: ""
 start_time: "2019-09-17T12:00:00Z"
 start_time_utc: 20190917T120000Z
 start_time_locations:
@@ -13,18 +12,10 @@ start_time_locations:
     los_angeles: "2019-09-17T05:00:00-07:00"
 end_time: "2019-01-01T12:00:00.000Z"
 end_time_utc: 20190917T140000Z
-end_time_locations:
-    berlin: ""
-    new_york: ""
-    london: ""
-    los_angeles: ""
 timezone: UTC
 tzid: UTC
 intro: Are secrets uniquely human? Our private lives are mediated and recorded by digital devices. Where are our secrets now? How will intelligent systems of the future process the data we leave behind? What kind of relationships do we have with these systems, and why do we trust them with our most private information?
 location: Boston, MA
-host: ""
-category: ""
-link: ""
 isFeatured: false
 isOngoing: false
 lastmod: "2021-09-16T09:49:46.056Z"

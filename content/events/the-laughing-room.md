@@ -3,7 +3,6 @@ title: The Laughing Room
 outputs:
     - HTML
     - Calendar
-time: ""
 start_time: "2018-11-16T12:00:00Z"
 start_time_utc: 20181116T120000Z
 start_time_locations:
@@ -13,18 +12,9 @@ start_time_locations:
     los_angeles: "2018-11-16T04:00:00-08:00"
 end_time: "2018-11-18T12:00:00.000Z"
 end_time_utc: 20181116T140000Z
-end_time_locations:
-    berlin: ""
-    new_york: ""
-    london: ""
-    los_angeles: ""
 timezone: UTC
 tzid: UTC
-intro: ""
 location: Cambridge, MA
-host: ""
-category: ""
-link: ""
 isFeatured: false
 isOngoing: false
 lastmod: "2021-09-16T09:49:46.737Z"

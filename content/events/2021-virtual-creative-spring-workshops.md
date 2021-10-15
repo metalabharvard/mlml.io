@@ -3,7 +3,6 @@ title: 2021 Virtual Creative Spring Workshops
 outputs:
     - HTML
     - Calendar
-time: ""
 start_time: "2021-06-06T12:00:00Z"
 start_time_utc: 20210606T120000Z
 start_time_locations:
@@ -13,18 +12,10 @@ start_time_locations:
     los_angeles: "2021-06-06T05:00:00-07:00"
 end_time: "2021-01-01T12:00:00.000Z"
 end_time_utc: 20210606T140000Z
-end_time_locations:
-    berlin: ""
-    new_york: ""
-    london: ""
-    los_angeles: ""
 timezone: UTC
 tzid: UTC
 intro: “Upcoming creative workshops exploring AI, time, and the future of communication”
 location: Online
-host: ""
-category: ""
-link: ""
 isFeatured: false
 isOngoing: false
 lastmod: "2021-10-08T17:21:42.923Z"

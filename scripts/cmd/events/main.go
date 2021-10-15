@@ -68,19 +68,19 @@ type Topic struct {
 type Response struct {
   Title string `yaml:"title"`
   Outputs [2]string `yaml:outputs` // Added by this script
-  Time string `yaml:"time"` // TODO: Delete this?
-  Start_Time string `yaml:"start_time"`
-  Start_TimeUTC string `yaml:"start_time_utc"`
-  Start_TimeLocations Times `yaml:"start_time_locations"`
-  End_Time string `yaml:"end_time"`
-  End_TimeUTC string `yaml:"end_time_utc"`
-  End_TimeLocations Times `yaml:"end_time_locations"`
-  Timezone string `yaml:"timezone"`
-  TimezoneID string `yaml:"tzid"`
-  Intro string `yaml:"intro"`
-  Location string `yaml:"location"`
-  Host string `yaml:"host"`
-  Category string `yaml:"category"`
+  Time string `yaml:"time,omitempty"` // TODO: Delete this?
+  Start_Time string `yaml:"start_time,omitempty"`
+  Start_TimeUTC string `yaml:"start_time_utc,omitempty"`
+  Start_TimeLocations Times `yaml:"start_time_locations,omitempty"`
+  End_Time string `yaml:"end_time,omitempty"`
+  End_TimeUTC string `yaml:"end_time_utc,omitempty"`
+  End_TimeLocations Times `yaml:"end_time_locations,omitempty"`
+  Timezone string `yaml:"timezone,omitempty"`
+  TimezoneID string `yaml:"tzid,omitempty"`
+  Intro string `yaml:"intro,omitempty"`
+  Location string `yaml:"location,omitempty"`
+  Host string `yaml:"host,omitempty"`
+  Category string `yaml:"category,omitempty"`
   Link string `yaml:"externalLink,omitempty"`
   Description string `yaml:"description,omitempty"`
   IsFeatured bool `yaml:"isFeatured"`

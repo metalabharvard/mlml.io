@@ -3,7 +3,6 @@ title: Workshops
 outputs:
     - HTML
     - Calendar
-time: ""
 start_time: "2020-01-01T12:00:00Z"
 start_time_utc: 20200101T120000Z
 start_time_locations:
@@ -13,18 +12,9 @@ start_time_locations:
     los_angeles: "2020-01-01T04:00:00-08:00"
 end_time: "2020-01-01T12:00:00.000Z"
 end_time_utc: 20200101T140000Z
-end_time_locations:
-    berlin: ""
-    new_york: ""
-    london: ""
-    los_angeles: ""
 timezone: UTC
 tzid: UTC
 intro: I learned that questions are not indicative of incompleteness, but rather the questions themselves can be the practice.
-location: ""
-host: ""
-category: ""
-link: ""
 isFeatured: false
 isOngoing: false
 lastmod: "2021-09-16T09:49:45.064Z"

@@ -3,7 +3,6 @@ title: MACHINE EXPERIENCE II
 outputs:
     - HTML
     - Calendar
-time: ""
 start_time: "2018-01-19T12:00:00Z"
 start_time_utc: 20180119T120000Z
 start_time_locations:
@@ -13,18 +12,10 @@ start_time_locations:
     los_angeles: "2018-01-19T04:00:00-08:00"
 end_time: "2018-02-04T12:00:00.000Z"
 end_time_utc: 20180119T140000Z
-end_time_locations:
-    berlin: ""
-    new_york: ""
-    london: ""
-    los_angeles: ""
 timezone: UTC
 tzid: UTC
 intro: MACHINE EXPERIENCE II&#58; Art Perspectives on Artificial Intelligence
 location: Berlin
-host: ""
-category: ""
-link: ""
 isFeatured: false
 isOngoing: false
 lastmod: "2021-10-13T09:28:54.170Z"

@@ -3,7 +3,6 @@ title: Color Rx
 outputs:
     - HTML
     - Calendar
-time: ""
 start_time: "2017-08-11T12:00:00Z"
 start_time_utc: 20170811T120000Z
 start_time_locations:
@@ -13,18 +12,9 @@ start_time_locations:
     los_angeles: "2017-08-11T05:00:00-07:00"
 end_time: "2017-01-01T12:00:00.000Z"
 end_time_utc: 20170811T140000Z
-end_time_locations:
-    berlin: ""
-    new_york: ""
-    london: ""
-    los_angeles: ""
 timezone: UTC
 tzid: UTC
-intro: ""
 location: Cambridge, MA
-host: ""
-category: ""
-link: ""
 isFeatured: false
 isOngoing: false
 lastmod: "2021-10-10T16:03:46.721Z"

@@ -3,7 +3,6 @@ title: 'MAHINDRA TRANSMEDIA ARTS SEMINAR: ''Playable Theatre'': on Gaming and Ae
 outputs:
     - HTML
     - Calendar
-time: ""
 start_time: "2021-03-23T12:00:00Z"
 start_time_utc: 20210323T120000Z
 start_time_locations:
@@ -13,18 +12,10 @@ start_time_locations:
     los_angeles: "2021-03-23T05:00:00-07:00"
 end_time: "2021-01-01T12:00:00.000Z"
 end_time_utc: 20210323T140000Z
-end_time_locations:
-    berlin: ""
-    new_york: ""
-    london: ""
-    los_angeles: ""
 timezone: UTC
 tzid: UTC
 intro: Theorizing the enhancements and constraints that gaming brings to theatre.
 location: Cambridge, MA
-host: ""
-category: ""
-link: ""
 isFeatured: false
 isOngoing: false
 lastmod: "2021-09-16T09:49:46.572Z"
