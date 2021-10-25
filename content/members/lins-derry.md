@@ -9,7 +9,7 @@ rank: 2.999
 role_string: Principal
 twitter: linsderry
 instagram: linsderry
-lastmod: "2021-09-16T10:57:53.304Z"
+lastmod: "2021-10-22T10:17:17.532Z"
 date: "2021-09-16T10:51:45.177Z"
 slug: lins-derry
 events:
@@ -18,6 +18,16 @@ events:
 projects:
     - label: Curatorial A(i)gents
       slug: curatorial-a-i-gents
+picture:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1634897825/lins_ac5067553c.jpg
+    width: 500
+    height: 500
+    formats:
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1634897826/thumbnail_lins_ac5067553c.jpg
+            ext: .jpg
+            width: 156
+            height: 156
 
 ---
 Lins Derry is a designer and artist working at the intersection of embodied interaction, data visualization/physicalization, and choreography. The body is often her site for investigation and intervention in the realms of design and performance. Her current work explores how choreographic interfaces can increase the kinetic and spatial interactivity between humans and technological systems. Her thesis is that by integrating choreography models into interface design, the subsequent user interactions, or body movement, can help to amplify embodied cognition in digital settings. With metaLAB, Lins researches how choreographic interfaces can be developed toward both functional and aesthetic ends, as exemplified in the lab's prototype for [Curatorial A(i)gents](https://metalabharvard.github.io/projects/curatorial-aigents/). 

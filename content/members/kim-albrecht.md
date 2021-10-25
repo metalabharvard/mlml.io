@@ -31,14 +31,14 @@ projects:
       slug: curricle-lens
     - label: 'Where Art Might Happen: The Early Years of CalArts'
       slug: where-art-might-happen-the-early-years-of-cal-arts
-    - label: Curatorial A(i)gents
-      slug: curatorial-a-i-gents
     - label: Their Names
       slug: their-names
     - label: 'Tacit Knowledge: Post Studio/Feminism – CalArts 1970-1977'
       slug: tacit-knowledge-post-studio-feminism-cal-arts-1970-1977
     - label: Artificial Senses
       slug: artificial-senses
+    - label: Curatorial A(i)gents
+      slug: curatorial-a-i-gents
     - label: Womanhouse (a memory theater)
       slug: womanhouse-a-memory-theater
     - label: Hypercam

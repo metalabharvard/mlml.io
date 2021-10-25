@@ -9,7 +9,7 @@ mediation: mixed_media
 category: project
 isFeatured: false
 externalLink: ""
-lastmod: "2021-09-16T09:49:44.918Z"
+lastmod: "2021-10-19T18:55:34.293Z"
 date: "2021-01-01"
 slug: sympoietic-system
 collaborators:
@@ -20,7 +20,7 @@ collaborators:
 <!---
 <iframe src="https://philippschmitt.com/sympoietic-system/" width="100%" height="300" frameborder="0" title="A Flitting Atlas of the Human Gaze"></iframe><br />
 -->
-[**Sympoietic System**](https://philippschmitt.com/sympoietic-system/)
+[Sympoietic System](https://philippschmitt.com/sympoietic-system/)
 
 Expectations of artificial intelligence are typically drawn from expectations of ourselves as autonomous, thinking agents. However, humans are social as well as cognitive beings; they make worlds by interacting with one another, with objects, and with systems. Dempster and Haraway have called this phenomenon "sympoiesis," or "making-together." Here, the observed weather becomes the curator of an exhibition. 
 

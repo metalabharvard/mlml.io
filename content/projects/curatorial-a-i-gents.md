@@ -9,7 +9,7 @@ mediation: ""
 category: project
 isFeatured: false
 externalLink: https://metalabharvard.github.io/
-lastmod: "2021-10-13T16:27:06.925Z"
+lastmod: "2021-10-19T18:55:52.326Z"
 date: "2021-06-17"
 slug: curatorial-a-i-gents
 links:
@@ -22,22 +22,22 @@ links:
 members:
     - label: Dario Rodighiero
       slug: dario-rodighiero
+    - label: Dietmar Offenhuber
+      slug: dietmar-offenhuber
     - label: Philipp Schmitt
       slug: philipp-schmitt
-    - label: Lins Derry
-      slug: lins-derry
     - label: Francisco Alarcon
       slug: francisco-alarcon
     - label: Giulia Taurino
       slug: giulia-taurino
     - label: Yue Chelsea Qiu
       slug: yue-chelsea-qiu
+    - label: Lins Derry
+      slug: lins-derry
     - label: Kim Albrecht
       slug: kim-albrecht
     - label: Jeffrey Schnapp
       slug: jeffrey-schnapp
-    - label: Dietmar Offenhuber
-      slug: dietmar-offenhuber
     - label: Keith Hartwig
       slug: keith-hartwig
 cover:
@@ -71,13 +71,14 @@ cover:
 *Curatorial A(i)gents* presents a series of machine-learning-based experiments with museum collections and data developed by members and affiliates of [metaLAB (at) Harvard](https://metalabharvard.github.io/), a creative research group working in the networked arts and humanities. 
 
 Long before computers came to pervade every aspect of modern life, museums were collecting, organizing, and storing data. The art museum is a kind of vast machine for making all kinds of objects interoperable, from bronze-age figurines to Renaissance paintings to contemporary performance-art works. Like our digital machines, museums engender wonderful experiences—and they’re also engines of bias, power, and invisibility. 
+
 The term “machine learning” represents a family of systems that use algorithms to find patterns in data inferentially, without explicit instructions. Artists and media makers are experimenting with machine-learning tools to create new kinds of artworks. But roles for machine learning in the art museum are still rare in practice. Presented in the Lightbox Gallery, metaLAB’s projects explore emerging possibilities for machine-learning systems while exploring vital issues at the intersection of technology and culture. Variously playful, analytic, and critical, metaLAB’s experiments use the museums’ own data to expressive ends. The names and dates of works and their makers; curatorial descriptions and histories of exhibitions; colors and dimensions; images of objects themselves—encountering such data as these, algorithms chart invisible relations, forge new connections, and breed monsters. 
 
-Some projects are playful: in [*Sympoietic System*](https://metalabharvard.github.io/projects/curatorial-aigents/sympoieticsystem/), Philipp Schmitt uses machine vision to connect paintings and prints with current weather conditions outside the museum; Dan Newman, Keith Hartwig and Kevin Brewster’s [*Aixquisite Corpse*](https://metalabharvard.github.io/projects/curatorial-aigents/aixquisitecorpse/) identifies body-like images in the collections, inviting visitors to construct their own strange hybrid beings; Dario Rodighiero restages Alan Turing's "imitation game," with computing pioneer Ada Lovelace as foil, in [*Surprise Machines*](https://metalabharvard.github.io/projects/curatorial-aigents/surprisemachines/). 
+Some projects are playful: in [Sympoietic System](https://metalab.netlify.app/sympoietic-system/), Philipp Schmitt uses machine vision to connect paintings and prints with current weather conditions outside the museum; Dan Newman, Keith Hartwig and Kevin Brewster’s [Aixquisite Corpse](https://metalabharvard.github.io/projects/curatorial-aigents/aixquisitecorpse/) identifies body-like images in the collections, inviting visitors to construct their own strange hybrid beings; Dario Rodighiero restages Alan Turing's "imitation game," with computing pioneer Ada Lovelace as foil, in [Surprise Machines](https://metalabharvard.github.io/projects/curatorial-aigents/surprisemachines/). 
 
-Other projects in the series are analytic: through algorithms and visualization, Lins Derry’s [*Second Look*](https://metalabharvard.github.io/projects/curatorial-aigents/secondlook/) reveals vital assumptions about gender and sentiment at play in art history; in [*Watching Machines Loving Grace*](https://metalabharvard.github.io/projects/curatorial-aigents/thelovinggrace/), designer Kim Albrecht critically reflects upon commercial facial recognition systems; and in [*A Flitting Atlas of the Human Gaze*](https://metalabharvard.github.io/projects/curatorial-aigents/aflittingatlas/), metaLAB founder Jeffrey Schnapp, working with Dietmar Offenhuber, Todd Linkner, and Kevin Brewster, uses machine vision to chart the ocular politics—who is looking at whom—across the museum’s coin, print, photo, and painting collections. 
+Other projects in the series are analytic: through algorithms and visualization, Lins Derry’s [Second Look](https://metalabharvard.github.io/projects/curatorial-aigents/secondlook/) reveals vital assumptions about gender and sentiment at play in art history; in [Watching Machines Loving Grace](https://metalabharvard.github.io/projects/curatorial-aigents/thelovinggrace/), designer Kim Albrecht critically reflects upon commercial facial recognition systems; and in [A Flitting Atlas of the Human Gaze](https://metalabharvard.github.io/projects/curatorial-aigents/aflittingatlas/), metaLAB founder Jeffrey Schnapp, working with Dietmar Offenhuber, Todd Linkner, and Kevin Brewster, uses machine vision to chart the ocular politics—who is looking at whom—across the museum’s coin, print, photo, and painting collections. 
 
-Additionally, there are projects that take a critical perspective: riffing on the shopping systems found in streaming media and online markets in [*This Recommendation System is Broken*](https://metalabharvard.github.io/projects/curatorial-aigents/thisrecommendationsystem/), Giulia Taurino plays with our museum-going expectations as consumers and viewers; in [*Ocean Amplification*](https://metalabharvard.github.io/projects/curatorial-aigents/oceanamplification/), Francisco Alarcón (in collaboration with MIT’s Stefan Helmreich) infuses sublime experience with questions about the environmental costs of computation. 
+Additionally, there are projects that take a critical perspective: riffing on the shopping systems found in streaming media and online markets in [This Recommendation System is Broken](https://metalabharvard.github.io/projects/curatorial-aigents/thisrecommendationsystem/), Giulia Taurino plays with our museum-going expectations as consumers and viewers; in [Ocean Amplification](https://metalabharvard.github.io/projects/curatorial-aigents/oceanamplification/), Francisco Alarcón (in collaboration with MIT’s Stefan Helmreich) infuses sublime experience with questions about the environmental costs of computation. 
 
 The program for Curatorial A(i)gents is scheduled to run as part of an extended metaLAB residency during the Spring 2022 term in the Harvard Art Museums' Lightbox Gallery. In the meantime, project teams continue to explore and refine their work, their learning deepening about relations between algorithms and curatorial enterprise. 
 

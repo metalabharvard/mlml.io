@@ -1,13 +1,27 @@
 ---
 name: Jeanette Andrews
 title: Jeanette Andrews
+roles:
+    - role: Affiliate
+      position: 4
 isAlumnus: false
-rank: 9.999
+rank: 4.999
+role_string: Affiliate
 website: http://jeanette-andrews.com/
 instagram: JeanetteAndrewsMagic
-lastmod: "2021-09-16T10:51:45.331Z"
+lastmod: "2021-10-22T10:43:57.648Z"
 date: "2021-09-16T10:51:45.331Z"
 slug: jeanette-andrews
+picture:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1634898362/jeanette_5e34f05496.jpg
+    width: 300
+    height: 460
+    formats:
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1634898362/thumbnail_jeanette_5e34f05496.jpg
+            ext: .jpg
+            width: 102
+            height: 156
 
 ---
 Jeanette Andrews is an artist, magician and researcher. Her practice seeks to create, and create access to wondrous things. Andrews’ work focuses on the development of interactive magic and sensory illusions via performance, sculpture, installation and audio.   

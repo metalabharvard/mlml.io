@@ -22,10 +22,10 @@ events:
     - label: CURATORIAL A(I)GENTS at ARS ELECTRONICA 2020
       slug: curatorial-a-i-gents-at-ars-electronica-2020
 projects:
-    - label: Curatorial A(i)gents
-      slug: curatorial-a-i-gents
     - label: Curricle
       slug: curricle
+    - label: Curatorial A(i)gents
+      slug: curatorial-a-i-gents
     - label: 'Where Art Might Happen: The Early Years of CalArts'
       slug: where-art-might-happen-the-early-years-of-cal-arts
     - label: Womanhouse (a memory theater)
