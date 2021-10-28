@@ -27,6 +27,8 @@ events:
     - label: metaLAB + friends openLAB
       slug: meta-lab-friends-open-lab
 projects:
+    - label: 'Networks + Natures: Feral Trees'
+      slug: networks-natures-feral-trees
     - label: Moral Labyrinth
       slug: moral-labyrinth
 picture:

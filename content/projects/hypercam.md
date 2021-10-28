@@ -9,7 +9,7 @@ mediation: web
 category: ""
 isFeatured: true
 externalLink: https://hypercam.kimalbrecht.com/
-lastmod: "2021-10-14T16:15:38.666Z"
+lastmod: "2021-10-27T15:24:14.556Z"
 date: "2020-04-01"
 slug: hypercam
 links:
@@ -21,20 +21,30 @@ members:
     - label: Kim Albrecht
       slug: kim-albrecht
 cover:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628687063/hypercam_5052cf8738.jpg
-    width: 622
-    height: 712
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348173/hypercam_5052cf8738.jpg
+    width: 3360
+    height: 1862
     formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348174/large_hypercam_5052cf8738.jpg
+            ext: .jpg
+            width: 1000
+            height: 554
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348174/medium_hypercam_5052cf8738.jpg
+            ext: .jpg
+            width: 750
+            height: 416
         small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628687064/small_hypercam_5052cf8738.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348175/small_hypercam_5052cf8738.jpg
             ext: .jpg
-            width: 437
-            height: 500
+            width: 500
+            height: 277
         thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628687064/thumbnail_hypercam_5052cf8738.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348174/thumbnail_hypercam_5052cf8738.jpg
             ext: .jpg
-            width: 136
-            height: 156
+            width: 245
+            height: 136
 gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355149/hypercam_visualization_kim_albrecht_metalab_15_1b84e81cb8.jpg
       width: 1700
@@ -129,30 +139,6 @@ gallery:
             height: 277
         thumbnail:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355151/thumbnail_hypercam_visualization_kim_albrecht_metalab_2_3a13add296.jpg
-            ext: .jpg
-            width: 245
-            height: 136
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355152/hypercam_visualization_kim_albrecht_metalab_4_562aeb778c.jpg
-      width: 3360
-      height: 1862
-      formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355153/large_hypercam_visualization_kim_albrecht_metalab_4_562aeb778c.jpg
-            ext: .jpg
-            width: 1000
-            height: 554
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355153/medium_hypercam_visualization_kim_albrecht_metalab_4_562aeb778c.jpg
-            ext: .jpg
-            width: 750
-            height: 416
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355153/small_hypercam_visualization_kim_albrecht_metalab_4_562aeb778c.jpg
-            ext: .jpg
-            width: 500
-            height: 277
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355152/thumbnail_hypercam_visualization_kim_albrecht_metalab_4_562aeb778c.jpg
             ext: .jpg
             width: 245
             height: 136

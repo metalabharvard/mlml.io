@@ -7,9 +7,9 @@ location: Kunsthaus Graz
 host: berlin
 mediation: exhibition
 category: ""
-isFeatured: true
+isFeatured: false
 externalLink: ""
-lastmod: "2021-10-14T16:16:29.783Z"
+lastmod: "2021-10-27T15:24:53.975Z"
 date: "2020-03-13"
 slug: where-art-might-happen-the-early-years-of-cal-arts
 members:

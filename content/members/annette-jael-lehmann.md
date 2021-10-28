@@ -9,10 +9,10 @@ lastmod: "2021-09-16T10:51:44.527Z"
 date: "2021-09-16T10:51:44.527Z"
 slug: annette-jael-lehmann
 projects:
-    - label: Womanhouse (a memory theater)
-      slug: womanhouse-a-memory-theater
     - label: 'Where Art Might Happen: The Early Years of CalArts'
       slug: where-art-might-happen-the-early-years-of-cal-arts
+    - label: Womanhouse (a memory theater)
+      slug: womanhouse-a-memory-theater
     - label: 'Tacit Knowledge: Post Studio/Feminism – CalArts 1970-1977'
       slug: tacit-knowledge-post-studio-feminism-cal-arts-1970-1977
 

@@ -22,16 +22,18 @@ events:
     - label: CURATORIAL A(I)GENTS at ARS ELECTRONICA 2020
       slug: curatorial-a-i-gents-at-ars-electronica-2020
 projects:
+    - label: Womanhouse (a memory theater)
+      slug: womanhouse-a-memory-theater
     - label: Curricle
       slug: curricle
     - label: Curatorial A(i)gents
       slug: curatorial-a-i-gents
-    - label: 'Where Art Might Happen: The Early Years of CalArts'
-      slug: where-art-might-happen-the-early-years-of-cal-arts
-    - label: Womanhouse (a memory theater)
-      slug: womanhouse-a-memory-theater
     - label: 'Tacit Knowledge: Post Studio/Feminism – CalArts 1970-1977'
       slug: tacit-knowledge-post-studio-feminism-cal-arts-1970-1977
+    - label: 'Where Art Might Happen: The Early Years of CalArts'
+      slug: where-art-might-happen-the-early-years-of-cal-arts
+    - label: futureSTAGE
+      slug: futurestage
 picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122118/jeffrey_c976257763.jpg
     width: 850

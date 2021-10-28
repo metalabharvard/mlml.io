@@ -7,9 +7,9 @@ location: Hannover, Germany
 host: berlin
 mediation: exhibition
 category: project
-isFeatured: false
+isFeatured: true
 externalLink: ""
-lastmod: "2021-10-10T17:01:33.456Z"
+lastmod: "2021-10-27T15:31:04.746Z"
 date: "2019-08-30"
 slug: womanhouse-a-memory-theater
 members:
@@ -23,6 +23,200 @@ members:
       slug: kim-albrecht
     - label: Jeffrey Schnapp
       slug: jeffrey-schnapp
+cover:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348356/DSC_01126_03ddc9c55c.jpg
+    width: 5458
+    height: 2537
+    formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348359/large_DSC_01126_03ddc9c55c.jpg
+            ext: .jpg
+            width: 1000
+            height: 465
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348360/medium_DSC_01126_03ddc9c55c.jpg
+            ext: .jpg
+            width: 750
+            height: 349
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348360/small_DSC_01126_03ddc9c55c.jpg
+            ext: .jpg
+            width: 500
+            height: 232
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348358/thumbnail_DSC_01126_03ddc9c55c.jpg
+            ext: .jpg
+            width: 245
+            height: 114
+gallery:
+    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348556/DSC_01111_4f4e846735.jpg
+      width: 5472
+      height: 3648
+      formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348560/large_DSC_01111_4f4e846735.jpg
+            ext: .jpg
+            width: 1000
+            height: 667
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348561/medium_DSC_01111_4f4e846735.jpg
+            ext: .jpg
+            width: 750
+            height: 500
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348562/small_DSC_01111_4f4e846735.jpg
+            ext: .jpg
+            width: 500
+            height: 333
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348558/thumbnail_DSC_01111_4f4e846735.jpg
+            ext: .jpg
+            width: 234
+            height: 156
+    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348558/DSC_01128_56004a109d.jpg
+      width: 3615
+      height: 5070
+      formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348563/large_DSC_01128_56004a109d.jpg
+            ext: .jpg
+            width: 713
+            height: 1000
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348563/medium_DSC_01128_56004a109d.jpg
+            ext: .jpg
+            width: 535
+            height: 750
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348565/small_DSC_01128_56004a109d.jpg
+            ext: .jpg
+            width: 357
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348560/thumbnail_DSC_01128_56004a109d.jpg
+            ext: .jpg
+            width: 111
+            height: 156
+    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348557/DSC_01117_8443c76e0e.jpg
+      width: 3648
+      height: 4633
+      formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348564/large_DSC_01117_8443c76e0e.jpg
+            ext: .jpg
+            width: 787
+            height: 1000
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348564/medium_DSC_01117_8443c76e0e.jpg
+            ext: .jpg
+            width: 591
+            height: 750
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348565/small_DSC_01117_8443c76e0e.jpg
+            ext: .jpg
+            width: 394
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348561/thumbnail_DSC_01117_8443c76e0e.jpg
+            ext: .jpg
+            width: 123
+            height: 156
+    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348645/DSC_01109_e25b099bde.jpg
+      width: 3152
+      height: 5379
+      formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348648/large_DSC_01109_e25b099bde.jpg
+            ext: .jpg
+            width: 586
+            height: 1000
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348648/medium_DSC_01109_e25b099bde.jpg
+            ext: .jpg
+            width: 439
+            height: 750
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348649/small_DSC_01109_e25b099bde.jpg
+            ext: .jpg
+            width: 293
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348647/thumbnail_DSC_01109_e25b099bde.jpg
+            ext: .jpg
+            width: 91
+            height: 156
+    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348646/DSC_01120_6bbe23c6be.jpg
+      width: 3212
+      height: 5472
+      formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348649/large_DSC_01120_6bbe23c6be.jpg
+            ext: .jpg
+            width: 587
+            height: 1000
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348650/medium_DSC_01120_6bbe23c6be.jpg
+            ext: .jpg
+            width: 440
+            height: 750
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348651/small_DSC_01120_6bbe23c6be.jpg
+            ext: .jpg
+            width: 293
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348648/thumbnail_DSC_01120_6bbe23c6be.jpg
+            ext: .jpg
+            width: 92
+            height: 156
+    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348649/DSC_01121_a09f017e7f.jpg
+      width: 5467
+      height: 2025
+      formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348651/large_DSC_01121_a09f017e7f.jpg
+            ext: .jpg
+            width: 1000
+            height: 370
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348651/medium_DSC_01121_a09f017e7f.jpg
+            ext: .jpg
+            width: 750
+            height: 278
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348651/small_DSC_01121_a09f017e7f.jpg
+            ext: .jpg
+            width: 500
+            height: 185
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348650/thumbnail_DSC_01121_a09f017e7f.jpg
+            ext: .jpg
+            width: 245
+            height: 91
+    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348654/DSC_01118_f188042850.jpg
+      width: 3648
+      height: 5472
+      formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348657/large_DSC_01118_f188042850.jpg
+            ext: .jpg
+            width: 667
+            height: 1000
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348657/medium_DSC_01118_f188042850.jpg
+            ext: .jpg
+            width: 500
+            height: 750
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348658/small_DSC_01118_f188042850.jpg
+            ext: .jpg
+            width: 333
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348655/thumbnail_DSC_01118_f188042850.jpg
+            ext: .jpg
+            width: 104
+            height: 156
 
 ---
 **This exhibit has moved to [Kunsthaus Graz](../womanhouse_graz).**

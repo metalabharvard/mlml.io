@@ -9,6 +9,9 @@ instagram: paolopetrocelli
 lastmod: "2021-09-16T10:51:45.546Z"
 date: "2021-09-16T10:51:45.546Z"
 slug: paolo-petrocelli
+projects:
+    - label: futureSTAGE
+      slug: futurestage
 
 ---
 Paolo Petrocelli, PhD-EMBA, is a senior performing arts manager, university professor, journalist, musicologist and violinist driven by the belief that culture, arts and education are a major force for growth, development and change globally.
