@@ -117,6 +117,18 @@ func (a ByRole) Len() int           { return len(a) }
 func (a ByRole) Less(i, j int) bool { return a[i].Position < a[j].Position }
 func (a ByRole) Swap(i, j int)      { a[i], a[j] = a[j], a[i] }
 
+type ProjectsByName []Project
+
+func (a ProjectsByName) Len() int           { return len(a) }
+func (a ProjectsByName) Less(i, j int) bool { return a[i].Title < a[j].Title }
+func (a ProjectsByName) Swap(i, j int)      { a[i], a[j] = a[j], a[i] }
+
+type EventsByName []Event
+
+func (a EventsByName) Len() int           { return len(a) }
+func (a EventsByName) Less(i, j int) bool { return a[i].Title < a[j].Title }
+func (a EventsByName) Swap(i, j int)      { a[i], a[j] = a[j], a[i] }
+
 func main() {
   println("Requesting members")
   response, err := http.Get("https://metalab-strapi.herokuapp.com/members")
@@ -180,6 +192,9 @@ func main() {
 
     element.Created_at = ""
     element.Updated_at = ""
+
+    sort.Sort(ProjectsByName(element.Projects))
+    sort.Sort(EventsByName(element.Events))
 
     // if element.IsAlumnus {
     //   element.NoIndex = true

@@ -13,18 +13,18 @@ lastmod: "2021-10-10T17:03:31.419Z"
 date: "2019-01-01"
 slug: curricle
 members:
-    - label: Oliver Luo
-      slug: oliver-luo
-    - label: Jeffrey Schnapp
-      slug: jeffrey-schnapp
-    - label: Matthew Battles
-      slug: matthew-battles
-    - label: Kim Albrecht
-      slug: kim-albrecht
-    - label: Jessica Yurkofsky
-      slug: jessica-yurkofsky
     - label: Alexandra Dolan-Mescal
       slug: alexandra-dolan-mescal
+    - label: Jeffrey Schnapp
+      slug: jeffrey-schnapp
+    - label: Jessica Yurkofsky
+      slug: jessica-yurkofsky
+    - label: Kim Albrecht
+      slug: kim-albrecht
+    - label: Matthew Battles
+      slug: matthew-battles
+    - label: Oliver Luo
+      slug: oliver-luo
 
 ---
 **Try it out at [curricle.berkman.harvard.edu](http://curricle.berkman.harvard.edu) (advanced beta)<br />

@@ -9,12 +9,12 @@ lastmod: "2021-09-16T10:51:45.452Z"
 date: "2021-09-16T10:51:45.452Z"
 slug: jessica-yurkofsky
 events:
-    - label: metaLAB + friends openLAB
-      slug: meta-lab-friends-open-lab
     - label: Dialogues with Data [at] Infovis
       slug: dialogues-with-data-at-infovis
     - label: MACHINE EXPERIENCE II
       slug: machine-experience-ii
+    - label: metaLAB + friends openLAB
+      slug: meta-lab-friends-open-lab
 projects:
     - label: Curricle
       slug: curricle

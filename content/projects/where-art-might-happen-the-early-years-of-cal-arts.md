@@ -13,10 +13,10 @@ lastmod: "2021-10-27T15:24:53.975Z"
 date: "2020-03-13"
 slug: where-art-might-happen-the-early-years-of-cal-arts
 members:
-    - label: Jeffrey Schnapp
-      slug: jeffrey-schnapp
     - label: Annette Jael Lehmann
       slug: annette-jael-lehmann
+    - label: Jeffrey Schnapp
+      slug: jeffrey-schnapp
     - label: Kim Albrecht
       slug: kim-albrecht
 cover:

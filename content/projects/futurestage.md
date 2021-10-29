@@ -13,10 +13,10 @@ lastmod: "2021-10-26T16:23:45.968Z"
 date: "2021-06-16"
 slug: futurestage
 members:
-    - label: Paolo Petrocelli
-      slug: paolo-petrocelli
     - label: Jeffrey Schnapp
       slug: jeffrey-schnapp
+    - label: Paolo Petrocelli
+      slug: paolo-petrocelli
 cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1623942726/futurestage_5eaed577d1.jpg
     width: 2550

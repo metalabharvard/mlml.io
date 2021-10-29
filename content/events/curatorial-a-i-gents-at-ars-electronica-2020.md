@@ -21,28 +21,28 @@ lastmod: "2021-10-10T16:15:52.498Z"
 date: "2020-09-11T12:00:00Z"
 slug: curatorial-a-i-gents-at-ars-electronica-2020
 members:
+    - label: Dario Rodighiero
+      slug: dario-rodighiero
+    - label: Dietmar Offenhuber
+      slug: dietmar-offenhuber
+    - label: Eveline Wandl-Vogt
+      slug: eveline-wandl-vogt
+    - label: Francisco Alarcon
+      slug: francisco-alarcon
+    - label: Jeffrey Schnapp
+      slug: jeffrey-schnapp
+    - label: Keith Hartwig
+      slug: keith-hartwig
+    - label: Kim Albrecht
+      slug: kim-albrecht
     - label: Lins Derry
       slug: lins-derry
     - label: Matthew Battles
       slug: matthew-battles
     - label: Philipp Schmitt
       slug: philipp-schmitt
-    - label: Jeffrey Schnapp
-      slug: jeffrey-schnapp
-    - label: Dario Rodighiero
-      slug: dario-rodighiero
-    - label: Eveline Wandl-Vogt
-      slug: eveline-wandl-vogt
-    - label: Kim Albrecht
-      slug: kim-albrecht
-    - label: Francisco Alarcon
-      slug: francisco-alarcon
     - label: Yue Chelsea Qiu
       slug: yue-chelsea-qiu
-    - label: Dietmar Offenhuber
-      slug: dietmar-offenhuber
-    - label: Keith Hartwig
-      slug: keith-hartwig
 projects:
     - label: Watching Machines Loving Grace
       slug: watching-machines-loving-grace

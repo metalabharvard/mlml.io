@@ -22,25 +22,25 @@ lastmod: "2021-10-13T17:40:21.545Z"
 date: "2017-08-08T12:00:00Z"
 slug: machine-experience
 members:
-    - label: Maia Suazo-Maler
-      slug: maia-suazo-maler
-    - label: Kim Albrecht
-      slug: kim-albrecht
-    - label: Rachel Kalmar
-      slug: rachel-kalmar
     - label: Jonathan Sun
       slug: jonathan-sun
-    - label: Sarah Newman
-      slug: sarah-newman
+    - label: Kim Albrecht
+      slug: kim-albrecht
+    - label: Maia Suazo-Maler
+      slug: maia-suazo-maler
     - label: Matthew Battles
       slug: matthew-battles
+    - label: Rachel Kalmar
+      slug: rachel-kalmar
+    - label: Sarah Newman
+      slug: sarah-newman
 projects:
-    - label: Turing&#39;s Mill
-      slug: turing-39-s-mill
     - label: Artificial Senses
       slug: artificial-senses
     - label: Nobody&#8217;s Listening
       slug: nobody-8217-s-listening
+    - label: Turing&#39;s Mill
+      slug: turing-39-s-mill
 ---
 **MACHINE EXPERIENCE**
 

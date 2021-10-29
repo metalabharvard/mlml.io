@@ -15,23 +15,23 @@ lastmod: "2021-09-16T10:58:53.979Z"
 date: "2021-09-16T10:51:45.422Z"
 slug: matthew-battles
 events:
-    - label: metaLAB + friends openLAB
-      slug: meta-lab-friends-open-lab
-    - label: 'Overflow: Inexplicable Parts of the Intimate'
-      slug: overflow-inexplicable-parts-of-the-intimate
-    - label: Dialogues with Data [at] Infovis
-      slug: dialogues-with-data-at-infovis
-    - label: MACHINE EXPERIENCE II
-      slug: machine-experience-ii
-    - label: MACHINE EXPERIENCE
-      slug: machine-experience
     - label: CURATORIAL A(I)GENTS at ARS ELECTRONICA 2020
       slug: curatorial-a-i-gents-at-ars-electronica-2020
+    - label: Dialogues with Data [at] Infovis
+      slug: dialogues-with-data-at-infovis
+    - label: MACHINE EXPERIENCE
+      slug: machine-experience
+    - label: MACHINE EXPERIENCE II
+      slug: machine-experience-ii
+    - label: 'Overflow: Inexplicable Parts of the Intimate'
+      slug: overflow-inexplicable-parts-of-the-intimate
+    - label: metaLAB + friends openLAB
+      slug: meta-lab-friends-open-lab
 projects:
-    - label: Curricle Lens
-      slug: curricle-lens
     - label: Curricle
       slug: curricle
+    - label: Curricle Lens
+      slug: curricle-lens
     - label: Their Names
       slug: their-names
 picture:

@@ -19,10 +19,10 @@ links:
     - label: curricle.net
       url: https://curricle.net/
 members:
-    - label: Matthew Battles
-      slug: matthew-battles
     - label: Kim Albrecht
       slug: kim-albrecht
+    - label: Matthew Battles
+      slug: matthew-battles
 gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355708/curricle_lens_computer_science_low_d469c6b8d6.gif
       width: 768

@@ -1,12 +1,8 @@
 ---
 name: Alice Cai
 title: Alice Cai
-roles:
-    - role: Research Assistant
-      position: 8
 isAlumnus: false
-rank: 8.999
-role_string: Research Assistant
+rank: 9.999
 website: https://alicecai.com
 instagram: alicexcai
 lastmod: "2021-10-22T10:43:08.940Z"

@@ -9,14 +9,14 @@ mediation: web
 category: project
 isFeatured: false
 externalLink: https://theirnames.org/
-lastmod: "2021-10-04T13:49:13.136Z"
+lastmod: "2021-10-29T15:11:11.774Z"
 date: "2020-06-01"
 slug: their-names
 members:
-    - label: Matthew Battles
-      slug: matthew-battles
     - label: Kim Albrecht
       slug: kim-albrecht
+    - label: Matthew Battles
+      slug: matthew-battles
 cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686618/their_names_fcc869a829.jpg
     width: 925
@@ -122,7 +122,7 @@ This page visualizes the names of over 28,000 fatal encounters with police natio
 Not all of the mortalities documented here come directly at police hands; deaths include suicides, accidents, and civilian homicides that occur during police interventions. The causes of any individual fatal encounter are complex; brutality is not only a factor in policing, but infiltrates our schools, our housing and planning mechanisms, and our public health systems. This systemic violence, which falls disproportionately and distinctly on African Americans, is deep-rooted, pervasive, and resistant to incremental reform.
 Alongside the complexity of mortal interactions, we're struck by the sheer scale of death associated with policing in American communities. As white American and international researchers, our perception of the ensuing trauma is partial and limited. But we must bear witness to this vast system of violence, which exacts a toll on everyone it touches, from the victims, to their bereaved loved ones, to the police who wield this fatal power, to the communities who must contend with the ensuing trauma. We are compelled to acknowledge, as residents of and visitors to American cities, counties, and states, how much violence is done in our name.
 
-The effects of this violence are hard to see and trace at scale, as police departments are not required to make a transparent accounting of these government-sanctioned deaths. Although the 1994 Violent Crime and Law Enforcement Act required the Department of Justice to compile use-of-force statistics, these collection efforts remain partial and spotty, with separate registries for arrest-related fatalities, excessive-force complaints, and attacks on officers (a listing of these Bureau of Justice registries may be found [here](https://www.bjs.gov/index.cfm?ty=tp&tid=84)). The federal mandate for the collection of data on deaths in custody was renewed in the Death in Custody Reporting Act of 2013. But—astonishingly—as the 2015 [*Final Report on the President's Task Force on 21st-Century Policing*](https://cops.usdoj.gov/pdf/taskforce/TaskForce_FinalReport.pdf) points out, reporting is *voluntary* for local police organizations. The federal government only collects data that are made available to them. 
+The effects of this violence are hard to see and trace at scale, as police departments are not required to make a transparent accounting of these government-sanctioned deaths. Although the 1994 Violent Crime and Law Enforcement Act required the Department of Justice to compile use-of-force statistics, these collection efforts remain partial and spotty, with separate registries for arrest-related fatalities, excessive-force complaints, and attacks on officers (a listing of these Bureau of Justice registries may be found [here](https://www.bjs.gov/index.cfm?ty=tp&tid=84)). The federal mandate for the collection of data on deaths in custody was renewed in the Death in Custody Reporting Act of 2013. But—astonishingly—as the 2015 *[Final Report on the President's Task Force on 21st-Century Policing](https://cops.usdoj.gov/pdf/taskforce/TaskForce_FinalReport.pdf)* points out, reporting is *voluntary* for local police organizations. The federal government only collects data that are made available to them. 
 
 To address this lack, Burghardt started Fatal Encounters project in 2012. Visualizations and analysis at fatalencounters.org develop some of the lines of research and reporting these data suggest, tracking police-involved fatalities historically, demographically, and in distribution across the American landscape of race, class, and region. Working with an interdisciplinary team at the University of Southern California, Burghart and his collaborators have made their data available to the public. In conjunction with researchers at USC, their work to compile, collate, and analyze these data is ongoing; the culmination of three years of the USC team's work is about to be made available to the public.
 

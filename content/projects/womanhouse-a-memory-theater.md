@@ -13,16 +13,16 @@ lastmod: "2021-10-27T15:31:04.746Z"
 date: "2019-08-30"
 slug: womanhouse-a-memory-theater
 members:
-    - label: Mindy Seu
-      slug: mindy-seu
-    - label: Chiara Fauda Pichet
-      slug: chiara-fauda-pichet
     - label: Annette Jael Lehmann
       slug: annette-jael-lehmann
-    - label: Kim Albrecht
-      slug: kim-albrecht
+    - label: Chiara Fauda Pichet
+      slug: chiara-fauda-pichet
     - label: Jeffrey Schnapp
       slug: jeffrey-schnapp
+    - label: Kim Albrecht
+      slug: kim-albrecht
+    - label: Mindy Seu
+      slug: mindy-seu
 cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348356/DSC_01126_03ddc9c55c.jpg
     width: 5458

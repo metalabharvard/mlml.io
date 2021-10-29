@@ -15,23 +15,23 @@ lastmod: "2021-09-16T10:58:29.329Z"
 date: "2021-09-16T10:51:45.518Z"
 slug: jeffrey-schnapp
 events:
+    - label: CURATORIAL A(I)GENTS at ARS ELECTRONICA 2020
+      slug: curatorial-a-i-gents-at-ars-electronica-2020
     - label: Dialogues with Data [at] Infovis
       slug: dialogues-with-data-at-infovis
     - label: metaLAB + friends openLAB
       slug: meta-lab-friends-open-lab
-    - label: CURATORIAL A(I)GENTS at ARS ELECTRONICA 2020
-      slug: curatorial-a-i-gents-at-ars-electronica-2020
 projects:
-    - label: Womanhouse (a memory theater)
-      slug: womanhouse-a-memory-theater
-    - label: Curricle
-      slug: curricle
     - label: Curatorial A(i)gents
       slug: curatorial-a-i-gents
+    - label: Curricle
+      slug: curricle
     - label: 'Tacit Knowledge: Post Studio/Feminism – CalArts 1970-1977'
       slug: tacit-knowledge-post-studio-feminism-cal-arts-1970-1977
     - label: 'Where Art Might Happen: The Early Years of CalArts'
       slug: where-art-might-happen-the-early-years-of-cal-arts
+    - label: Womanhouse (a memory theater)
+      slug: womanhouse-a-memory-theater
     - label: futureSTAGE
       slug: futurestage
 picture:

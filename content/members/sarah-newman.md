@@ -14,23 +14,23 @@ lastmod: "2021-09-16T10:58:45.319Z"
 date: "2021-09-16T10:51:45.313Z"
 slug: sarah-newman
 events:
-    - label: MACHINE EXPERIENCE II
-      slug: machine-experience-ii
-    - label: MACHINE EXPERIENCE
-      slug: machine-experience
-    - label: If By Water [at] re:publica 17
-      slug: if-by-water-at-re-publica-17
     - label: Dialogues with Data [at] Infovis
       slug: dialogues-with-data-at-infovis
     - label: Digital Cultures – Hybrid Matter
       slug: digital-cultures-hybrid-matter
+    - label: If By Water [at] re:publica 17
+      slug: if-by-water-at-re-publica-17
+    - label: MACHINE EXPERIENCE
+      slug: machine-experience
+    - label: MACHINE EXPERIENCE II
+      slug: machine-experience-ii
     - label: metaLAB + friends openLAB
       slug: meta-lab-friends-open-lab
 projects:
-    - label: 'Networks + Natures: Feral Trees'
-      slug: networks-natures-feral-trees
     - label: Moral Labyrinth
       slug: moral-labyrinth
+    - label: 'Networks + Natures: Feral Trees'
+      slug: networks-natures-feral-trees
 picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122129/newman_268d9cfd9e.jpg
     width: 800

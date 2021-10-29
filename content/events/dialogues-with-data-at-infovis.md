@@ -22,10 +22,10 @@ lastmod: "2021-10-10T16:06:17.622Z"
 date: "2017-05-11T12:00:00Z"
 slug: dialogues-with-data-at-infovis
 members:
-    - label: Jessica Yurkofsky
-      slug: jessica-yurkofsky
     - label: Jeffrey Schnapp
       slug: jeffrey-schnapp
+    - label: Jessica Yurkofsky
+      slug: jessica-yurkofsky
     - label: Matthew Battles
       slug: matthew-battles
     - label: Sarah Newman

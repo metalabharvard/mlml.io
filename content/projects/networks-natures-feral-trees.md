@@ -23,14 +23,14 @@ links:
     - label: The Life and Death of Data (Y. Loukissas, 2014)
       url: http://lifeanddeathofdata.org/
 members:
-    - label: Sarah Newman
-      slug: sarah-newman
     - label: Cristoforo Magliozzi
       slug: cristoforo-magliozzi
-    - label: Yanni Loukissas
-      slug: yanni-loukissas
     - label: Kyle Parry
       slug: kyle-parry
+    - label: Sarah Newman
+      slug: sarah-newman
+    - label: Yanni Loukissas
+      slug: yanni-loukissas
 cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635188502/img0_28d1a9b527.jpg
     width: 1920

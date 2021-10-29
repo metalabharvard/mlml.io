@@ -9,7 +9,7 @@ mediation: ""
 category: project
 isFeatured: false
 externalLink: https://metalabharvard.github.io/
-lastmod: "2021-10-19T18:55:52.326Z"
+lastmod: "2021-10-29T15:07:51.642Z"
 date: "2021-06-17"
 slug: curatorial-a-i-gents
 links:
@@ -24,22 +24,22 @@ members:
       slug: dario-rodighiero
     - label: Dietmar Offenhuber
       slug: dietmar-offenhuber
-    - label: Philipp Schmitt
-      slug: philipp-schmitt
     - label: Francisco Alarcon
       slug: francisco-alarcon
     - label: Giulia Taurino
       slug: giulia-taurino
-    - label: Yue Chelsea Qiu
-      slug: yue-chelsea-qiu
-    - label: Lins Derry
-      slug: lins-derry
-    - label: Kim Albrecht
-      slug: kim-albrecht
     - label: Jeffrey Schnapp
       slug: jeffrey-schnapp
     - label: Keith Hartwig
       slug: keith-hartwig
+    - label: Kim Albrecht
+      slug: kim-albrecht
+    - label: Lins Derry
+      slug: lins-derry
+    - label: Philipp Schmitt
+      slug: philipp-schmitt
+    - label: Yue Chelsea Qiu
+      slug: yue-chelsea-qiu
 cover:
     alternativeText: Curatiorial A(i)gents Cover
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1623943307/agents_ce7bfadd93.jpg
@@ -88,6 +88,6 @@ Emerging from that process, the program's accompanying publication is not a cata
 
 This beautiful poster is now [available for purchase via Printed Matter](https://www.printedmatter.org/catalog/57243), the world’s leading non-profit organization dedicated to the dissemination, understanding and appreciation of artists’ books.
 
-More than our schedule and publication strategy has changed, however. The combination of pandemic, economic and institutional distress, and cries for justice and equity in an election year, have challenged us to think about the precarity and resilience in our community. In a sense, the university is a collection—of courses, buildings, and research efforts; like the museum or the archive, the collective choices comprising it build a reality, even as they obscure alternative possibilities. As an added project, the Curatorial A(i)gents team is putting its tools in mapping, design, and analysis to work tracking the impact of emergent crises on the university as collection and community. Called [*Hindsight 20/21*](https://metalabharvard.github.io/projects/curatorial-aigents/hindsight2021/), the project will visualize effects of pandemic and unrest on the curriculum and wellbeing. Conducted with a growing consortium of student researchers, the project will culminate in a suite of interactive visualizations and conversations, to be staged in the Harvard Art Museums in the Spring of 2021.
+More than our schedule and publication strategy has changed, however. The combination of pandemic, economic and institutional distress, and cries for justice and equity in an election year, have challenged us to think about the precarity and resilience in our community. In a sense, the university is a collection—of courses, buildings, and research efforts; like the museum or the archive, the collective choices comprising it build a reality, even as they obscure alternative possibilities. As an added project, the Curatorial A(i)gents team is putting its tools in mapping, design, and analysis to work tracking the impact of emergent crises on the university as collection and community. Called *[Hindsight 20/21](https://metalabharvard.github.io/projects/curatorial-aigents/hindsight2021/)*, the project will visualize effects of pandemic and unrest on the curriculum and wellbeing. Conducted with a growing consortium of student researchers, the project will culminate in a suite of interactive visualizations and conversations, to be staged in the Harvard Art Museums in the Spring of 2021.
 
 A collective headquartered at Harvard’s Berkman Klein Center for Internet and Society, metaLAB explores the digital arts and humanities through research, experimentation, tool building, teaching, through publications in print and online, and via exhibition, performance, and social practice. Here at the Harvard Art Museums, as with partners across the university, and in the world at large, metaLAB’s work infuses traditional modes of academic inquiry with an enterprising spirit of hacking, making, and creative research.

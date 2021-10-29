@@ -9,10 +9,10 @@ lastmod: "2021-09-16T10:51:45.473Z"
 date: "2021-09-16T10:51:45.473Z"
 slug: maia-suazo-maler
 events:
-    - label: MACHINE EXPERIENCE
-      slug: machine-experience
     - label: Color Rx
       slug: color-rx
+    - label: MACHINE EXPERIENCE
+      slug: machine-experience
     - label: MACHINE EXPERIENCE II
       slug: machine-experience-ii
 

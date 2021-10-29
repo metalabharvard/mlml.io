@@ -14,41 +14,41 @@ lastmod: "2021-09-16T10:53:04.851Z"
 date: "2021-09-16T10:51:45.402Z"
 slug: kim-albrecht
 events:
-    - label: MACHINE EXPERIENCE
-      slug: machine-experience
-    - label: Digital Cultures – Hybrid Matter
-      slug: digital-cultures-hybrid-matter
-    - label: metaLAB + friends openLAB
-      slug: meta-lab-friends-open-lab
     - label: CURATORIAL A(I)GENTS at ARS ELECTRONICA 2020
       slug: curatorial-a-i-gents-at-ars-electronica-2020
+    - label: Digital Cultures – Hybrid Matter
+      slug: digital-cultures-hybrid-matter
+    - label: MACHINE EXPERIENCE
+      slug: machine-experience
     - label: MACHINE EXPERIENCE II
       slug: machine-experience-ii
     - label: 'Overflow: Inexplicable Parts of the Intimate'
       slug: overflow-inexplicable-parts-of-the-intimate
+    - label: metaLAB + friends openLAB
+      slug: meta-lab-friends-open-lab
 projects:
-    - label: Curricle Lens
-      slug: curricle-lens
-    - label: Their Names
-      slug: their-names
-    - label: Womanhouse (a memory theater)
-      slug: womanhouse-a-memory-theater
-    - label: 'Tacit Knowledge: Post Studio/Feminism – CalArts 1970-1977'
-      slug: tacit-knowledge-post-studio-feminism-cal-arts-1970-1977
     - label: Artificial Senses
       slug: artificial-senses
-    - label: Hypercam
-      slug: hypercam
     - label: Curatorial A(i)gents
       slug: curatorial-a-i-gents
     - label: Curricle
       slug: curricle
+    - label: Curricle Lens
+      slug: curricle-lens
+    - label: Distinction Machine
+      slug: distinction-machine
+    - label: Hypercam
+      slug: hypercam
+    - label: 'Tacit Knowledge: Post Studio/Feminism – CalArts 1970-1977'
+      slug: tacit-knowledge-post-studio-feminism-cal-arts-1970-1977
+    - label: Their Names
+      slug: their-names
     - label: Watching Machines Loving Grace
       slug: watching-machines-loving-grace
     - label: 'Where Art Might Happen: The Early Years of CalArts'
       slug: where-art-might-happen-the-early-years-of-cal-arts
-    - label: Distinction Machine
-      slug: distinction-machine
+    - label: Womanhouse (a memory theater)
+      slug: womanhouse-a-memory-theater
 picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122126/kim_7989e0da77.jpg
     width: 500

@@ -13,10 +13,10 @@ lastmod: "2021-10-14T16:16:05.715Z"
 date: "2017-06-01"
 slug: artificial-senses
 events:
-    - label: MACHINE EXPERIENCE II
-      slug: machine-experience-ii
     - label: MACHINE EXPERIENCE
       slug: machine-experience
+    - label: MACHINE EXPERIENCE II
+      slug: machine-experience-ii
 members:
     - label: Kim Albrecht
       slug: kim-albrecht

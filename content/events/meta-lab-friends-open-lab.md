@@ -23,18 +23,18 @@ slug: meta-lab-friends-open-lab
 members:
     - label: Adam Haar Horowitz
       slug: adam-haar-horowitz
-    - label: Sarah Newman
-      slug: sarah-newman
+    - label: Jeffrey Schnapp
+      slug: jeffrey-schnapp
+    - label: Jessica Yurkofsky
+      slug: jessica-yurkofsky
     - label: Kim Albrecht
       slug: kim-albrecht
     - label: Matthew Battles
       slug: matthew-battles
-    - label: Jessica Yurkofsky
-      slug: jessica-yurkofsky
     - label: Pip Mothersill
       slug: pip-mothersill
-    - label: Jeffrey Schnapp
-      slug: jeffrey-schnapp
+    - label: Sarah Newman
+      slug: sarah-newman
 ---
 **metaLAB + friends openLAB**<br />
 **March 6, 5:30-7:30**<br />

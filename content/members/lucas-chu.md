@@ -1,12 +1,8 @@
 ---
 name: Lucas Chu
 title: Lucas Chu
-roles:
-    - role: Research Assistant
-      position: 8
 isAlumnus: false
-rank: 8.999
-role_string: Research Assistant
+rank: 9.999
 lastmod: "2021-10-22T10:43:35.336Z"
 date: "2021-09-16T10:51:45.331Z"
 slug: lucas-chu
