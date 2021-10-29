@@ -5,7 +5,7 @@
 <div {{ printf `class="related-%s"` ($class | pluralize) | safeHTMLAttr }}>
   <dt class="title">{{ $term }} {{ cond (eq (len .) 1) ($label) ($label | pluralize) }}</dt>
   <div {{ printf `class="related-%s-list"` ($class | pluralize) | safeHTMLAttr }} role="list">
-    {{- range $key, $value := (sort . "Slug") -}}
+    {{- range $key, $value := (sort . "label") -}}
     {{- if $key }},&ensp;{{ end -}}
     <dd role="listitem"><a {{ printf `class="related-%s"` $class | safeHTMLAttr }} href="{{ $value.slug | absURL }}">{{ $value.label }}</a></dd>
     {{- end -}}
