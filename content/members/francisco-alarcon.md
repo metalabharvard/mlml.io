@@ -15,6 +15,8 @@ events:
 projects:
     - label: Curatorial A(i)gents
       slug: curatorial-a-i-gents
+    - label: Ocean Amplification
+      slug: ocean-amplification
 
 ---
 Francisco Alarcon is an artist and engineer working on the intersection of visual arts and technology. Alarcon’s research focus is on the material history of computer-generated graphics and how the interface informs the construction of cultural techniques. He is intrigued by the importance of the technical specificity of postphotographic image production in the contemporary visual culture—a topic that is often misunderstood. Alarcon’s approach to digital imaging is multifaceted, on a historical level, and also conceptually, and his research intends to demystify technical processes and philosophical perspectives on media operations. 

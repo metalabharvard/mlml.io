@@ -18,7 +18,7 @@ intro: A one-week exhibition at the Harvard Art Museums’ Lightbox Gallery asks
 location: Cambridge, MA
 isFeatured: false
 isOngoing: false
-lastmod: "2021-10-13T17:40:21.545Z"
+lastmod: "2021-11-02T11:11:07.905Z"
 date: "2017-08-08T12:00:00Z"
 slug: machine-experience
 members:
@@ -54,22 +54,22 @@ Works featured in the program were the product of emerging and ongoing research,
 
 **Exhibition schedule:**
 
-[***Nobody’s Listening,***](../lb_nobodyslistening) by Sarah Newman & Rachel Kalmar<br />
+***[Nobody’s Listening,](../lb_nobodyslistening)*** by Sarah Newman & Rachel Kalmar<br />
 Video installation with sound, 2017<br />
 **Tuesday, August 8,** 10 am-5 pm; [Gallery talk 3 pm](http://www.harvardartmuseums.org/visit/calendar/lightbox-gallery-talk-artificial-intelligence-in-art-and-design-2)
 
-[***Turing's Mill,***](../lb_turingsmill) by Matthew Battles<br />
+***[Turing's Mill,](../lb_turingsmill)*** by Matthew Battles<br />
 Multi-channel video installation, 2017<br />
 **Wednesday, August 9,** 10 am-5 pm; [Gallery talk 3 pm](http://www.harvardartmuseums.org/visit/calendar/lightbox-gallery-talk-artificial-intelligence-in-art-and-design-1)
 
-[***Sherlock,***](../lb_sherlock) by Jonathan Sun<br />
+***[Sherlock,](../lb_sherlock)*** by Jonathan Sun<br />
 Interactive chatbot, 2017<br />
 **Thursday, August 10,** 10 am-5 pm
 
-[***Color Rx,***](../lb_colorrx) by Maia Leandra<br />
+***[Color Rx,](../lb_colorrx)*** by Maia Leandra<br />
 Interactive Installation with color prescriptions, 2017<br />
 **Friday, August 11,** 10-4 pm; [Gallery talk 3 pm](http://www.harvardartmuseums.org/visit/calendar/lightbox-gallery-talk-artificial-intelligence-in-art-and-design-3)
 
-[***AI Senses,***](../lb_aisenses) by Kim Albrecht<br />
+***[AI Senses,](../lb_aisenses)*** by Kim Albrecht<br />
 Multi-channel video installation, 2017<br />
 **Saturday August 12 - Sunday August 13,** 10 am-5 pm; [Gallery talk Sat Aug 12, 3 pm](http://www.harvardartmuseums.org/visit/calendar/lightbox-gallery-talk-artificial-intelligence-in-art-and-design)

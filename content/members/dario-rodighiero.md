@@ -16,6 +16,8 @@ projects:
       slug: curatorial-a-i-gents
     - label: Lexical Cartography of DH2020
       slug: lexical-cartography-of-dh-2020
+    - label: Surprise Machines
+      slug: surprise-machines
 
 ---
 Dario Rodighiero is a postdoctoral associate at MIT Comparative Media Studies and a researcher at Harvard metaLAB. He combines humanities and technology by practicing design at the intersection of architecture, data visualization, social science, graphic and interaction design. The Swiss National Science Foundation is currently financing his position.

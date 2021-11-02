@@ -3,15 +3,34 @@ title: Curatorial A(i)gents
 intro: A metaLAB series of interactive projects exploring machine learning in, around, and about the Harvard Art Museums
 start: "2021-06-17"
 end: "2021-08-03"
-location: ""
+location: Harvard Art Museums
 host: harvard
-mediation: ""
+mediation: mixed_media
 category: project
 isFeatured: false
 externalLink: https://metalabharvard.github.io/
-lastmod: "2021-10-29T15:07:51.642Z"
+lastmod: "2021-11-02T02:57:52.309Z"
 date: "2021-06-17"
 slug: curatorial-a-i-gents
+collaborators:
+    - label: Harvard Art Museums
+      url: https://harvardartmuseums.org/
+    - label: Dan Newman
+      url: ""
+    - label: Kevin Brewster
+      url: ""
+    - label: Todd Linkner
+      url: ""
+    - label: Stefan Helmreich
+      url: ""
+    - label: Wendy Chun
+      url: ""
+    - label: Tim Schneider
+      url: ""
+    - label: David Joselit
+      url: ""
+    - label: Shannon Mattern
+      url: ""
 links:
     - label: ""
       url: https://metalabharvard.github.io/projects/curatorial-aigents/sympoieticsystem/
@@ -19,6 +38,9 @@ links:
       url: https://metalabharvard.github.io/projects/curatorial-aigents/secondlook/
     - label: ""
       url: https://metalabharvard.github.io/projects/curatorial-aigents/thelovinggrace/
+events:
+    - label: CURATORIAL A(I)GENTS at ARS ELECTRONICA 2020
+      slug: curatorial-a-i-gents-at-ars-electronica-2020
 members:
     - label: Dario Rodighiero
       slug: dario-rodighiero

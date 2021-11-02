@@ -18,6 +18,10 @@ events:
 projects:
     - label: Curatorial A(i)gents
       slug: curatorial-a-i-gents
+    - label: 'Second Look: Gender and Sentiment on Show'
+      slug: second-look-gender-and-sentiment-on-show
+    - label: futureSTAGE
+      slug: futurestage
 picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1634897825/lins_ac5067553c.jpg
     width: 500

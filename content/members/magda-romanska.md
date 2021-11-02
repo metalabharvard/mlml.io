@@ -8,6 +8,9 @@ website: http://magdaromanska.com/
 lastmod: "2021-09-16T10:51:45.235Z"
 date: "2021-09-16T10:51:45.235Z"
 slug: magda-romanska
+projects:
+    - label: futureSTAGE
+      slug: futurestage
 
 ---
 Magda Romanska is a writer, dramaturg and theatre, performance and media scholar. She researches issues on the intersection of theatre, media, and technology, including multiplatform dramaturgy, human/AI interaction in performance, the ethics and representation of human enhancements, and posthuman theatre and performance. 

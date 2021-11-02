@@ -3,20 +3,61 @@ title: futureSTAGE
 intro: An international research collaborative mapping opportunities for performance spaces in a hyperconnected world
 start: "2021-06-16"
 end: "2021-08-10"
-location: ""
+location: global
 host: harvard
-mediation: ""
+mediation: performance
 category: project
 isFeatured: false
 externalLink: ""
-lastmod: "2021-10-26T16:23:45.968Z"
+lastmod: "2021-11-02T03:09:58.272Z"
 date: "2021-06-16"
 slug: futurestage
+collaborators:
+    - label: Cathie Boyd
+      url: ""
+    - label: Marc Brickman
+      url: ""
+    - label: Wesley Cornwell
+      url: ""
+    - label: 'Mariana Ibañez '
+      url: ""
+    - label: Simone Kim
+      url: ""
+    - label: Mohammed Obaidullah
+      url: ""
+    - label: Jay Pather
+      url: ""
+    - label: Cui Qiao
+      url: ""
+    - label: Adama Sanneh
+      url: ""
+    - label: Anthony Sargent
+      url: ""
+    - label: Shain Sapiro
+      url: ""
+    - label: Jean-Philippe thiellay
+      url: ""
+    - label: Shahrokh Yadegari
+      url: ""
+    - label: Paolo Ciuccarelli
+      url: ""
+    - label: Evenlyn Ficarra
+      url: ""
 members:
+    - label: Eveline Wandl-Vogt
+      slug: eveline-wandl-vogt
     - label: Jeffrey Schnapp
       slug: jeffrey-schnapp
+    - label: Lins Derry
+      slug: lins-derry
+    - label: Magda Romanska
+      slug: magda-romanska
+    - label: Matthew Battles
+      slug: matthew-battles
     - label: Paolo Petrocelli
       slug: paolo-petrocelli
+    - label: Sydney Skybetter
+      slug: sydney-skybetter
 cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1623942726/futurestage_5eaed577d1.jpg
     width: 2550

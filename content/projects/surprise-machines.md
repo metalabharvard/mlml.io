@@ -3,18 +3,21 @@ title: Surprise Machines
 intro: Surprise Machines sets out to visualize the universe of Harvard Art Museums' collections, opening up unexpected vistas on the objects that make them up.
 start: "2021-01-01"
 end: "2021-01-01"
-location: ""
+location: Harvard Art Museums
 host: harvard
 mediation: mixed_media
 category: project
 isFeatured: false
 externalLink: ""
-lastmod: "2021-10-29T15:11:11.242Z"
+lastmod: "2021-11-02T03:35:44.226Z"
 date: "2021-01-01"
 slug: surprise-machines
 collaborators:
     - label: Harvard Art Museums
       url: ""
+members:
+    - label: Dario Rodighiero
+      slug: dario-rodighiero
 projects:
     - label: Ocean Amplification
       slug: ocean-amplification
@@ -22,6 +25,31 @@ projects:
       slug: watching-machines-loving-grace
     - label: 'Second Look: Gender and Sentiment on Show'
       slug: second-look-gender-and-sentiment-on-show
+cover:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635823994/surprisemachines_061c847690.jpg
+    width: 1175
+    height: 1520
+    formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635823996/large_surprisemachines_061c847690.jpg
+            ext: .jpeg
+            width: 773
+            height: 1000
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635823996/medium_surprisemachines_061c847690.jpg
+            ext: .jpeg
+            width: 580
+            height: 750
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635823996/small_surprisemachines_061c847690.jpg
+            ext: .jpeg
+            width: 387
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635823995/thumbnail_surprisemachines_061c847690.jpg
+            ext: .jpeg
+            width: 121
+            height: 156
 
 ---
 <iframe src="https://rodighiero.github.io/Surprise-Machines/" width="100%" height="500" frameborder="0" title="Surprise Machines"></iframe>

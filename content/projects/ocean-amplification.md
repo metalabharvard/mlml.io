@@ -9,12 +9,15 @@ mediation: mixed_media
 category: project
 isFeatured: false
 externalLink: ""
-lastmod: "2021-10-29T15:11:11.419Z"
+lastmod: "2021-11-02T03:40:58.688Z"
 date: "2021-01-01"
 slug: ocean-amplification
 collaborators:
     - label: Harvard Art Museums
       url: ""
+members:
+    - label: Francisco Alarcon
+      slug: francisco-alarcon
 projects:
     - label: Surprise Machines
       slug: surprise-machines
@@ -22,6 +25,65 @@ projects:
       slug: watching-machines-loving-grace
     - label: 'Second Look: Gender and Sentiment on Show'
       slug: second-look-gender-and-sentiment-on-show
+cover:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635824415/oceanamp1_f35c571b42.jpg
+    width: 800
+    height: 450
+    formats:
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635824417/medium_oceanamp1_f35c571b42.jpg
+            ext: .jpeg
+            width: 750
+            height: 422
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635824418/small_oceanamp1_f35c571b42.jpg
+            ext: .jpeg
+            width: 500
+            height: 281
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635824416/thumbnail_oceanamp1_f35c571b42.jpg
+            ext: .jpeg
+            width: 245
+            height: 138
+gallery:
+    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635824415/oceanamp2_db9a75e42d.jpg
+      width: 800
+      height: 419
+      formats:
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635824417/medium_oceanamp2_db9a75e42d.jpg
+            ext: .jpeg
+            width: 750
+            height: 393
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635824419/small_oceanamp2_db9a75e42d.jpg
+            ext: .jpeg
+            width: 500
+            height: 262
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635824417/thumbnail_oceanamp2_db9a75e42d.jpg
+            ext: .jpeg
+            width: 245
+            height: 128
+    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635824415/oceanamp3_803ca6b902.jpg
+      width: 800
+      height: 435
+      formats:
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635824417/medium_oceanamp3_803ca6b902.jpg
+            ext: .jpeg
+            width: 750
+            height: 408
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635824418/small_oceanamp3_803ca6b902.jpg
+            ext: .jpeg
+            width: 500
+            height: 272
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635824416/thumbnail_oceanamp3_803ca6b902.jpg
+            ext: .jpeg
+            width: 245
+            height: 133
 
 ---
 The shape of the world’s oceans is changing. According to a 2019 report in the journal *Science*, wind speed increases in the Earth’s southernmost oceans induced by ocean warming have led over the last thirty or so years to an .25% surge in the wave height of the largest 10 percent of waves. As such, the wave emerges as a key symbol of ocean transformation: of the material effects of climate change, alongside intensified storms, sea-level rise, and increasing temperatures. The present project explores visualizations and simulations of rising waves, read as avatars of a hybrid human-inhuman political ecology.

@@ -12,6 +12,9 @@ slug: eveline-wandl-vogt
 events:
     - label: CURATORIAL A(I)GENTS at ARS ELECTRONICA 2020
       slug: curatorial-a-i-gents-at-ars-electronica-2020
+projects:
+    - label: futureSTAGE
+      slug: futurestage
 
 ---
 Eveline Wandl-Vogt is experimentalist, foundress and senior director of one of the two first Ars Electronica Research Institutes, namely [knowledge for humanity](https://ars.electronica.art/futurelab/initiative/ars-electronica-research-institute-for-knowledge-for-humanity/) (k4h+) at [Ars Electronica](https://ars.electronica.art/news/). The research institute is an antidisciplinary approach to apply human centered design and open innovation methods and practices to contribute to invent the future.
