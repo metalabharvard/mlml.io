@@ -1,16 +1,17 @@
 @import "./global";
 
 ::selection {
-  color: $color-white;
-  background-color: $color-default;
+  color: var(--color-text-invert);
+  background-color: var(--color-text);
   text-shadow: none;
   -webkit-text-stroke: 0;
 }
 
-:root {
-  --font-size-s: min(max(0.8rem, 12px), 14px);
-  --font-size-m: min(max(1rem, 14px), 17px);
-  --font-size-l: min(max(1.3rem, 16px), 27px);
+.page-footer {
+  ::selection {
+    color: var(--color-text);
+    background-color: var(--color-bg);
+  }
 }
 
 @mixin text-tag () {
@@ -23,17 +24,17 @@
 @mixin text-footer () {
   font-size: var(--size-8);
   text-transform: uppercase;
-  color: $color-gray-dark;
+  color: var(--color-mute);
   font-weight: $font-weight-medium;
   letter-spacing: 0.1em;
 }
 
 *[role=alert] {
   font-size: var(--size-6);
-  color: $color-gray-dark;
+  color: var(--color-mute);
   font-weight: $font-weight-medium;
-  border-bottom: 1px solid $color-gray;
-  border-top: 1px solid $color-gray;
+  border-bottom: 1px solid var(--color-border);
+  border-top: 1px solid var(--color-border);
   padding: var(--spacing-05) 0;
   margin-bottom: var(--spacing-05);
   display: block;
@@ -44,45 +45,29 @@
 }
 
 .footer-social a .icon {
-  stroke: $color-white;
+  stroke: var(--color-text-invert);
 }
 
 a, button {
-  color: $color-default;
+  color: var(--color-text);
   text-decoration: underline;
 
   .icon {
     fill: none;
-    stroke: $color-default;
+    stroke: var(--color-text);
   }
 
   &:not(.preview-link):not(.feature-link):not(.isActive):not(.btn-tab) { // Fix
-    // display: block;
-
     &:hover, &:focus {
       @include gradient-text();
       text-decoration: none;
+
+      &::selection {
+        background: none;
+      }
     }
   }
-
-  // &:not(.preview-link)
-  // &:hover, &:focus {
-  //   // @include gradient-text();
-  //   color: $color-accent;
-
-  //   .icon {
-  //     stroke: url("#img-dotted-gradient");
-  //   }
-  // }
 }
-
-// a
-
-// a.preview-link {
-//   &:hover, &:focus {
-
-//   }
-// }
 
 h1 {
   font-size: var(--font-size-l);
@@ -145,7 +130,7 @@ ul {
   background-color: transparent;
 
   &:hover, &:focus {
-    color: $color-default;
+    color: var(--color-text);
   }
 }
 
@@ -163,8 +148,8 @@ ul {
   }
 
   &:hover, &:focus {
-    color: #000;
-    border-bottom-color: $color-default;
+    color: var(--color-text);
+    border-bottom-color: var(--color-text);
   }
 }
 
@@ -235,7 +220,7 @@ ul {
 
   &::placeholder {
     font-weight: $font-weight-medium;
-    color: $color-gray-dark;
+    color: var(--color-mute);
   }
 }
 
@@ -346,15 +331,16 @@ ul {
 }
 
 .project-feature {
+  // Feature on the homepage
   .feature-link {
     text-decoration: none;
-    color: #fff;
+    color: #fff; // TODO
 
     &:hover {
-      color: #000;
+      color: #000; // TODO
 
       footer {
-        color: #000;
+        color: #000; // TODO
       }
     }
   }
@@ -368,7 +354,7 @@ ul {
   footer {
     margin-top: var(--spacing-025);
     @include text-footer();
-    color: #fff;
+    color: #fff; // TODO
 
     span {
       margin-left: var(--spacing-025);
@@ -472,7 +458,7 @@ ul {
 
 .project-footer, .event-footer, .member-footer, .alumni-footer {
   font-size: var(--size-7);
-  color: $color-gray-dark;
+  color: var(--color-mute);
 }
 
 .start-time-list {

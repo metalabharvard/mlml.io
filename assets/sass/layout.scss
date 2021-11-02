@@ -12,10 +12,6 @@
   --spacing-5: calc(var(--margin) * 5);
   --spacing-6: calc(var(--margin) * 6);
   --spacing-8: calc(var(--margin) * 8);
-  --border-area: 1px solid var(--color-fg);
-  --border-area--side: 10px solid var(--color-fg);
-  --border-area--top: 5px solid var(--color-fg);
-  --border-link: 1px solid var(--color-fg);
 }
 
 #main {
@@ -152,7 +148,7 @@ picture img {
 
     &.page-search, &.page-logo {
       @include query($medium) {
-        border-bottom: 1px solid $color-gray;
+        border-bottom: 1px solid var(--color-border);
       }
     }
   }
@@ -224,7 +220,7 @@ picture img {
       bottom: var(--spacing-2);
       right: auto;
       top: auto;
-      background-color: #fff;
+      background-color: var(--color-bg);
       border-radius: 50%;
       width: var(--trigger-size);
       height: var(--trigger-size);
@@ -260,14 +256,13 @@ picture img {
       border: none;
       height: calc(100% + 2px);
       outline: none;
-      border-bottom: 1px solid $color-gray;
-      border-left: 1px solid $color-gray;
+      border-bottom: 1px solid var(--color-border);
+      border-left: 1px solid var(--color-border);
       z-index: $z-index-search-input;
       text-indent: var(--spacing-1);
 
       &:focus, &.hasTerm {
         width: calc(var(--size-column) * 8 + var(--size-gap) * 7 + 1px);
-        // border-bottom-color: var(--color-bg-black);
       }
 
       &::-webkit-search-decoration,
@@ -281,7 +276,7 @@ picture img {
     .search-results {
       position: absolute;
       z-index: $z-index-search-results;
-      background-color: #fff;
+      background-color: var(--color-bg);
       width: 100vw;
       height: calc(100vh - var(--header-height) - 1px);
       right: 0;
@@ -319,7 +314,7 @@ picture img {
     top: 0;
     right: 0;
     bottom: 0;
-    background-color: #fff;
+    background-color: var(--color-bg);
     z-index: $z-index-page-menu-list;
     width: 100vw;
     height: 100vh;
@@ -357,10 +352,10 @@ picture img {
         height: 100%;
 
         &:not(.social) a {
-          border-bottom: 1px solid $color-gray;
+          border-bottom: 1px solid var(--color-border);
 
           @include query($medium) {
-            border-right: 1px solid $color-gray;
+            border-right: 1px solid var(--color-border);
           }
         }
 
@@ -377,7 +372,7 @@ picture img {
 
         @include query($medium) {
           &:first-child a {
-            border-left: 1px solid $color-gray;
+            border-left: 1px solid var(--color-border);
           }
         }
       }
@@ -390,7 +385,7 @@ picture img {
     bottom: var(--spacing-2);
     left: auto;
     top: auto;
-    background-color: #fff;
+    background-color: var(--color-bg);
     border-radius: 50%;
     width: var(--spacing-6);
     height: var(--spacing-6);
@@ -402,7 +397,7 @@ picture img {
       background-color: red;
 
       svg {
-        color: #fff;
+        color: #fff; // TODO
       }
     }
   }
@@ -429,7 +424,7 @@ picture img {
 
       @include query($medium) {
         &::after {
-          background-color: black;
+          background-color: var(--color-bg-secondary);
           content: '';
           position: absolute;
           height: calc(100% + 1px);
@@ -454,16 +449,16 @@ picture img {
 
     @include query($medium) {
       &:not(.isActive) {
-        border-right: 1px solid $color-gray;
+        border-right: 1px solid var(--color-border);
       }
     }
 
     &.isActive {
       @include query($medium) {
-        color: #fff;
+        color: var(--color-text-invert);
 
         &::after {
-          background-color: black;
+          background-color: var(--color-bg-secondary);
           content: '';
           position: absolute;
           height: calc(100% + 1px);
@@ -481,7 +476,7 @@ picture img {
     background-color: var(--color-bg);
 
     &.isActive {
-      color: #fff;
+      color: var(--color-text-invert);
 
       span {
         position: relative;
@@ -489,7 +484,7 @@ picture img {
       }
 
       &::after {
-        background-color: black;
+        background-color: var(--color-bg-secondary);
         content: '';
         position: absolute;
         right: 0;
@@ -586,7 +581,7 @@ picture img {
   // background-size: cover;
 
   &:not(:last-child) {
-    border-bottom: 1px solid $color-gray;
+    border-bottom: 1px solid var(--color-border);
   }
 
   &:not(:first-child) .preview-link {
@@ -904,8 +899,8 @@ picture, img {
 }
 
 .event-relations, .project-relations, .member-relations {
-  border-top: 1px solid $color-gray;
-  border-bottom: 1px solid $color-gray;
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
   padding-top: var(--spacing-2);
   padding-bottom: var(--spacing-2);
 
@@ -916,7 +911,7 @@ picture, img {
 }
 
 .related-events, .related-projects, .related-members, .related-links, .related-collaborators {
-  // border-top: 1px solid $color-gray;
+  // border-top: 1px solid var(--color-border);
   // padding-top: var(--spacing-2);
   // margin-bottom: var(--spacing-05);
 
@@ -934,8 +929,8 @@ picture, img {
 .page-footer {
   margin-top: var(--spacing-2);
   padding: var(--spacing-2) 0;
-  background-color: var(--color-bg-black);
-  color: #fff;
+  background-color: var(--color-bg-secondary);
+  color: var(--color-text-invert);
   width: 100vw;
   // display: grid;
   // grid-template-columns: 1fr calc(var(--size-column) * 8 + var(--size-gap) * 7) 1fr;
