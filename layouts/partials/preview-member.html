@@ -1,4 +1,4 @@
-<li role="listitem">
+<li role="listitem" {{ printf "data-id=%q" .member.Slug | safeHTMLAttr }}>
   <a href="{{ .member.Slug | absURL }}" class="member-preview vcard">
     {{ $name := .member.Params.Name }}
     {{ with .member.Params.Picture }}{{ partial "image.html" (dict "picture" . "alt" (printf "Profile picture of %s" $name)) }}{{ end }}
