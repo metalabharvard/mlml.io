@@ -135,7 +135,7 @@ picture img {
   display: grid;
   grid-template-columns: 1fr repeat(2, calc(var(--size-wrapper) / 2)) 1fr;
   height: var(--header-height);
-  @include gradient-border-bottom(3.5px);
+  @include gradient-border-bottom(var(--gradient-border-width));
 
   @include query($medium) {
     border-bottom: 0;
@@ -819,14 +819,24 @@ picture, img {
     // margin-top: var(--spacing-0125);
     text-align: center;
     display: grid;
-    grid-auto-flow: row;
+    grid-auto-flow: column;
     grid-row-start: $member-header-end;
     align-self: start;
+    justify-content: end;
+    column-gap: var(--spacing-2);
+
+    @include query($medium) {
+      grid-auto-flow: row;
+    }
   }
 
   .member-description {
-    grid-row-start: $member-header-end;
+    grid-row-start: calc(#{$member-header-end} + 1);
     align-self: start;
+
+    @include query($medium) {
+      grid-row-start: $member-header-end;
+    }
   }
 
   // .member-role {
@@ -850,7 +860,7 @@ picture, img {
     // height: 100%;
     border: 10px solid;
     border-image-slice: 1;
-    border-width: 3px;
+    border-width: var(--gradient-border-width);
     z-index: $z-index-member-header-before;
     --angle: 90deg;
     border-image-source: linear-gradient(var(--angle), #FFB600 0%, #FF4800 100%);

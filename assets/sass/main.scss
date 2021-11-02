@@ -37,6 +37,14 @@
   --font-size-s: min(max(0.8rem, 12px), 14px);
   --font-size-m: min(max(1rem, 14px), 17px);
   --font-size-l: min(max(1.3rem, 16px), 27px);
+
+  --gradient-border-width: 2px;
+}
+
+@include query($medium) {
+  :root {
+    --gradient-border-width: 3px;
+  }
 }
 
 html {
