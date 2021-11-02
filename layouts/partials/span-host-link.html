@@ -1,11 +1,11 @@
 <span class="{{ .type }}-host p-location">
 {{- if .host -}}
 {{- if eq .host "both" -}}
-<a href="{{ "projects" | absURL }}">{{ .Site.Params.Label.HostsBoth }}</a>
+<a href="{{ "projects" | absURL }}" rel="tag">{{ .Site.Params.Label.HostsBoth }}</a>
 {{- else -}}
-<a href="{{ .host | absURL }}">{{- title .host }}</a>
+<a href="{{ .host | absURL }}" rel="tag">{{- title .host }}</a>
 {{- end -}}
 {{- else -}}
-<a href="{{ lower .default | absURL }}">{{ .default }}</a>
+<a href="{{ lower .default | absURL }}" rel="tag">{{ .default }}</a>
 {{- end -}}
 </span>
