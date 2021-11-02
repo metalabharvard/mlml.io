@@ -1,5 +1,5 @@
 ---
-title: Nobody&#8217;s Listening
+title: Nobody’s Listening
 intro: ""
 start: "2017-08-08"
 end: "2017-01-01"
@@ -9,7 +9,7 @@ mediation: mixed_media
 category: project
 isFeatured: false
 externalLink: ""
-lastmod: "2021-09-16T09:49:45.957Z"
+lastmod: "2021-11-02T16:58:11.742Z"
 date: "2017-08-08"
 slug: nobody-8217-s-listening
 collaborators:

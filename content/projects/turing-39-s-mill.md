@@ -1,5 +1,5 @@
 ---
-title: Turing&#39;s Mill
+title: Turing’s Mill
 intro: ""
 start: "2017-08-09"
 end: "2017-01-01"
@@ -9,7 +9,7 @@ mediation: mixed_media
 category: project
 isFeatured: false
 externalLink: ""
-lastmod: "2021-09-16T09:49:45.957Z"
+lastmod: "2021-11-02T16:59:57.011Z"
 date: "2017-08-09"
 slug: turing-39-s-mill
 events:

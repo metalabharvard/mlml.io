@@ -37,9 +37,9 @@ members:
 projects:
     - label: Artificial Senses
       slug: artificial-senses
-    - label: Nobody&#8217;s Listening
+    - label: Nobody’s Listening
       slug: nobody-8217-s-listening
-    - label: Turing&#39;s Mill
+    - label: Turing’s Mill
       slug: turing-39-s-mill
 ---
 **MACHINE EXPERIENCE**

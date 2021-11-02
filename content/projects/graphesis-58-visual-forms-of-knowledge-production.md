@@ -1,5 +1,5 @@
 ---
-title: Graphesis&#58; Visual Forms of Knowledge Production
+title: 'Graphesis: Visual Forms of Knowledge Production'
 intro: Graphesis provides a descriptive critical language for the analysis of graphical knowledge.
 start: "2014-01-01"
 end: "2014-01-01"
@@ -9,7 +9,7 @@ mediation: mixed_media
 category: publication
 isFeatured: false
 externalLink: ""
-lastmod: "2021-09-16T09:49:46.565Z"
+lastmod: "2021-11-02T16:57:07.352Z"
 date: "2014-01-01"
 slug: graphesis-58-visual-forms-of-knowledge-production
 links:

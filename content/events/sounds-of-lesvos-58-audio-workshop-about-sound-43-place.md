@@ -1,5 +1,5 @@
 ---
-title: Sounds of Lesvos&#58; Audio Workshop About Sound &#43; Place
+title: 'Sounds of Lesvos: Audio Workshop About Sound + Place'
 outputs:
     - HTML
     - Calendar
@@ -17,7 +17,7 @@ tzid: UTC
 location: Lesvos, Greece
 isFeatured: false
 isOngoing: false
-lastmod: "2021-09-16T09:49:45.529Z"
+lastmod: "2021-11-02T17:00:41.133Z"
 date: "2017-05-16T12:00:00Z"
 slug: sounds-of-lesvos-58-audio-workshop-about-sound-43-place
 ---

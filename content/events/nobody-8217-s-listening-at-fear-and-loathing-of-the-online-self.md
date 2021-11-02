@@ -1,5 +1,5 @@
 ---
-title: Nobody&#8217;s Listening [at] Fear and Loathing of the Online Self
+title: Nobody’s Listening [at] Fear and Loathing of the Online Self
 outputs:
     - HTML
     - Calendar
@@ -17,7 +17,7 @@ tzid: UTC
 location: Rome, Italy
 isFeatured: false
 isOngoing: false
-lastmod: "2021-09-16T09:49:46.220Z"
+lastmod: "2021-11-02T17:00:40.466Z"
 date: "2017-05-23T12:00:00Z"
 slug: nobody-8217-s-listening-at-fear-and-loathing-of-the-online-self
 ---
