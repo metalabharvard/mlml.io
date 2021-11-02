@@ -9,7 +9,7 @@ mediation: mixed_media
 category: project
 isFeatured: false
 externalLink: ""
-lastmod: "2021-10-29T15:11:11.686Z"
+lastmod: "2021-11-02T12:14:04.735Z"
 date: "2021-01-01"
 slug: a-ixquisite-corpse
 collaborators:
@@ -30,4 +30,4 @@ Images of the objects that museums collect are increasingly analyzed by algorith
 In the case of *Aixquisite Corpse*, images from the Harvard Art Museum’s database have been analyzed, yielding automated descriptive metadata, as well as indications of the presence of human figures. The latter subset of images has been further parsed to extract heads, torsos, and legs, and their associated metadata, so as to then allow visitors to recompose the figures using this very metadata as a guide. The result is a machine for generating fantastic pairings of heads, torsos, and legs that expose the conjunctions and disjunctions between computer vision and human ways of making sense of the world. (Kevin Brewster, Keith Hartwig, Daniel Newman)
 
 <iframe width="100%" height="300" src="https://www.youtube.com/embed/VFLV3ZnbsGs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br /><br />
-*[Curatorial A(i)gents](https://metalabharvard.github.io/projects/curatorial-aigents/)* presents a series of machine-learning-based experiments with museum collections and data developed by members and affiliates of [metaLAB (at) Harvard](https://metalabharvard.github.io/), a creative research group working in the networked arts and humanities.
+*{{< link "curatorial-aigents/" >}}Curatorial A(i)gents{{< /link >}}* presents a series of machine-learning-based experiments with museum collections and data developed by members and affiliates of {{< link "" >}}metaLAB (at) Harvard{{< /link >}}, a creative research group working in the networked arts and humanities.

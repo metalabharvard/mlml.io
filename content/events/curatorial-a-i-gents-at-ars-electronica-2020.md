@@ -17,7 +17,7 @@ tzid: UTC
 location: Cambridge, MA
 isFeatured: false
 isOngoing: false
-lastmod: "2021-11-02T11:11:07.884Z"
+lastmod: "2021-11-02T12:17:41.618Z"
 date: "2020-09-11T12:00:00Z"
 slug: curatorial-a-i-gents-at-ars-electronica-2020
 members:
@@ -55,7 +55,7 @@ Friday, September 11<br />
 
 Click through for **[LIVESTREAM EVENT REGISTRATION](https://zoom.us/webinar/register/WN_1OqrxWZWT6WhPXxFD8ScTQ)**.
 
-In partnership with the Austrian Academy of Sciences, metaLAB is bringing [Curatorial A(i)gents](https://metalabharvard.github.io/projects/curatorial-aigents/) to the [Ars Electronica 2020 festival](https://ars.electronica.art/keplersgardens/en/), happening 9–13 September in Linz, Austria and, virtually, around the world. 
+In partnership with the Austrian Academy of Sciences, metaLAB is bringing {{< link "curatorial-aigents/" >}}Curatorial A(i)gents{{< /link >}} to the [Ars Electronica 2020 festival](https://ars.electronica.art/keplersgardens/en/), happening 9–13 September in Linz, Austria and, virtually, around the world. 
 
 The theme for this year's festival, "Kepler's Gardens," highlights the tenuous connections binding the world together in this critical time, with attention to two binaries in particular: AUTONOMY vs. DEMOCRACY and TECHNOLOGY vs. ECOLOGY. The projects in Curatorial A(i)gents cut across these binaries with wit and great pertinence, and we're excited to bring them to Ars Electronica's worldwide audience.
 

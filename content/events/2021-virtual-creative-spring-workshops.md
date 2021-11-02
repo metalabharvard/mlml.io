@@ -18,7 +18,7 @@ intro: “Upcoming creative workshops exploring AI, time, and the future of comm
 location: Online
 isFeatured: false
 isOngoing: false
-lastmod: "2021-10-08T17:21:42.923Z"
+lastmod: "2021-11-02T12:17:40.454Z"
 date: "2021-06-06T12:00:00Z"
 slug: 2021-virtual-creative-spring-workshops
 ---
@@ -59,5 +59,5 @@ Fri 6.25, 3-4:15 PM EDT
 **Additional nuts and bolts:** 
 Ten minutes of pre-work will be required for each workshop. In the interest of extending the opportunity as broadly as possible, we are allowing individuals to sign up for one workshop (feel free to join the waitlist for others). **Attendance for the full 75 minutes is expected.** Since it is interactive and quite intense, it is not a drop in/out kind of thing! If you sign up and realize you cannot attend, just let us know and we will open up a spot from the waitlist. Thank you! Looking forward to it!
 
-[Learn more about our workshops here.](https://metalabharvard.github.io/projects/workshops/)   
+{{< link "workshops/" >}}Learn more about our workshops here.{{< /link >}}   
 With additional questions, please contact Newman: [sarahnewmanstudio@gmail.com](mailto:sarahnewmanstudio@gmail.com)
