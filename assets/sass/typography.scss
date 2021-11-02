@@ -232,17 +232,17 @@ ul {
   line-height: 1.2;
 }
 
-.member-preview {
+.member-preview, .alumni-preview {
   text-decoration: none;
 
-  .member-name {
+  .member-name, .alumni-name {
     font-size: var(--size-5);
     font-weight: $font-weight-medium;
     line-height: 1.1;
     display: block;
   }
 
-  .member-role {
+  .member-role, .alumni-role {
     font-size: var(--size-6);
     font-weight: $font-weight-medium;
     line-height: 1.1;

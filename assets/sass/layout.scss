@@ -708,8 +708,6 @@ picture, img {
     display: inline-block;
 
     .member-preview {
-      display: block;
-
       img {
         --width-preview: 160px;
         width: var(--width-preview);
@@ -733,6 +731,12 @@ picture, img {
   & > * {
     grid-column: auto / span 3;
     display: inline-block;
+  }
+}
+
+.member-list, .alumni-list {
+  .member-preview, .alumni-preview {
+    display: block; // Necessary for gradient effect
   }
 }
 
