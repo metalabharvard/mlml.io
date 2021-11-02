@@ -189,10 +189,9 @@
     stroke-linejoin="round"
     class:isOpen={isOpen}>
     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-    <circle cx="10" cy="10" r="7" class="s0"></circle>
-    <line x1="21" y1="21" x2="15" y2="15" class="s0"></line>
-    <line x1="18" y1="6" x2="6" y2="18" class="s1"></line>
-    <line x1="6" y1="6" x2="18" y2="18" class="s1"></line>
+    <circle cx="10" cy="10" r="7" class="s0"/>
+    <path class="s0" d="m21 21-6-6"/>
+    <path class="s1" d="M18 6 6 18M6 6l12 12"/>
   </svg>
 </button>
 

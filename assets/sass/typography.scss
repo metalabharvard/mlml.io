@@ -67,6 +67,12 @@ a, button {
       }
     }
   }
+
+  &:hover, &:focus {
+    .icon {
+      stroke: url("#icon-gradient");
+    }
+  }
 }
 
 h1 {

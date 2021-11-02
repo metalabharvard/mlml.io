@@ -12,6 +12,8 @@
   --color-white: #ffffff;
   --color-border: #ebebeb;
   --color-mute: #979797;
+  --color-gradient-a: #FF4800;
+  --color-gradient-o: #FFB600;
 
   --color-fg: var(--color-text);
   --color-bg: var(--color-white);
@@ -77,6 +79,16 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+#icon-gradient {
+  .gradient-stop-a {
+    stop-color: var(--color-gradient-a);
+  }
+
+  .gradient-stop-o {
+    stop-color: var(--color-gradient-o);
+  }
 }
 
 @include query($narrow) {
