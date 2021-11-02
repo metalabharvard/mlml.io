@@ -32,7 +32,7 @@
       {{ $title := .Site.Params.Label.BoxHost }}
       <div class="box-item">
         <dt class="title">{{ $title }}</dt>
-        <dd class="text">{{ partial "span-host-link.html" (dict "host" .Params.host "type" "project" "default" .Site.Params.Label.HostsDefault) }}</dd>
+        <dd class="text">{{ partial "span-host-link.html" (dict "host" .Params.host "type" "project" "default" .Site.Params.Label.HostsDefault "slug" .Site.Params.SlugHost "both" .Site.Params.Label.HostsBoth) }}</dd>
       </div>
       {{ $title = .Site.Params.Label.BoxLocation }}
       {{ with .Params.location }}

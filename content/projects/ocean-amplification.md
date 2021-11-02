@@ -19,12 +19,12 @@ members:
     - label: Francisco Alarcon
       slug: francisco-alarcon
 projects:
+    - label: 'Second Look: Gender and Sentiment on Show'
+      slug: second-look-gender-and-sentiment-on-show
     - label: Surprise Machines
       slug: surprise-machines
     - label: Watching Machines Loving Grace
       slug: watching-machines-loving-grace
-    - label: 'Second Look: Gender and Sentiment on Show'
-      slug: second-look-gender-and-sentiment-on-show
 cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635824415/oceanamp1_f35c571b42.jpg
     width: 800

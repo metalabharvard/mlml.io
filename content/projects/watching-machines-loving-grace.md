@@ -24,10 +24,10 @@ members:
 projects:
     - label: Ocean Amplification
       slug: ocean-amplification
-    - label: Surprise Machines
-      slug: surprise-machines
     - label: 'Second Look: Gender and Sentiment on Show'
       slug: second-look-gender-and-sentiment-on-show
+    - label: Surprise Machines
+      slug: surprise-machines
 cover:
     alternativeText: Watching Machines Interface Example. Overlayed images with cutout faces.
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633360980/watching_machines_kim_albrecht_harvard_art_museums_min_1be7c7efa8.png

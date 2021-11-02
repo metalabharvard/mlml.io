@@ -7,7 +7,14 @@ import (
   "log"
   "net/http"
   "os"
+  "gopkg.in/yaml.v3"
+  "strings"
 )
+
+type Index struct {
+  Title string `yaml:"title"`
+  Slug string `yaml:"slug"`
+}
 
 type Meta struct {
   Url string `json:"url"`
@@ -63,11 +70,10 @@ type Params struct {
   Title string `json:"title"`
   Description string `json:"description,omitempty"`
   Keywords string `json:"keywords,omitempty"`
-  Contact Contact `json:"contact"`
   Label Label `json:"label"`
 }
 
-type Contact struct {
+type Social struct {
   Twitter string `json:"twitter,omitempty"`
   Github string `json:"github,omitempty"`
   Email string `json:"email,omitempty"`
@@ -88,7 +94,7 @@ type Label struct {
   AlumniUpdate string `json:"label_alumni_update,omitempty"`
   HostsBoth string `json:"hostsBoth"`
   HostsDefault string `json:"hostsDefault"`
-  HostsHeadline string `json:"hostsHeadline"`
+  // HostsHeadline string `json:"hostsHeadline"`
   SocialFacebookTitle string `json:"socialFacebookTitle"`
   SocialGithubTitle string `json:"socialGithubTitle"`
   SocialHomepageTitle string `json:"socialHomepageTitle"`
@@ -120,6 +126,15 @@ type Config struct {
   Title string `json:"title"`
   Url string `json:"baseURL"`
   Params Params `json:"params"`
+  Social Social `json:"social"`
+}
+
+func addIndexPage(id string, str string) {
+  var meta Index
+  meta.Title = fmt.Sprintf(str, strings.Title(id))
+  meta.Slug = id
+  file, _ := yaml.Marshal(meta)
+  _ = ioutil.WriteFile(fmt.Sprintf("content/host/%s/_index.md", id), []byte(fmt.Sprintf("---\n%s---", file)), 0644)
 }
 
 func main() {
@@ -141,21 +156,21 @@ func main() {
   config := Config{
     Title: responseObject.Title,
     Url: responseObject.Url,
+    Social: Social{
+      Twitter: responseObject.Twitter,
+      Github: responseObject.Github,
+      Email: responseObject.Email,
+      Vimeo: responseObject.Vimeo,
+      Youtube: responseObject.Youtube,
+      Soundcloud: responseObject.Soundcloud,
+      Facebook: responseObject.Facebook,
+      Linkedin: responseObject.Linkedin,
+      Instagram: responseObject.Instagram,
+    },
     Params: Params{
       Title: responseObject.Title,
       Description: responseObject.Description,
       Keywords: responseObject.Keywords,
-      Contact: Contact{
-        Twitter: responseObject.Twitter,
-        Github: responseObject.Github,
-        Email: responseObject.Email,
-        Vimeo: responseObject.Vimeo,
-        Youtube: responseObject.Youtube,
-        Soundcloud: responseObject.Soundcloud,
-        Facebook: responseObject.Facebook,
-        Linkedin: responseObject.Linkedin,
-        Instagram: responseObject.Instagram,
-      },
       Label: Label{
         ErrorTitle: responseObject.ErrorTitle,
         ErrorText: responseObject.ErrorText,
@@ -165,7 +180,7 @@ func main() {
         AlumniUpdate: responseObject.LabelAlumniUpdate,
         HostsBoth: responseObject.HostsBoth,
         HostsDefault: responseObject.HostsDefault,
-        HostsHeadline: responseObject.HostsHeadline,
+        // HostsHeadline: responseObject.HostsHeadline,
         SocialFacebookTitle: responseObject.SocialFacebookTitle,
         SocialGithubTitle: responseObject.SocialGithubTitle,
         SocialHomepageTitle: responseObject.SocialHomepageTitle,
@@ -198,4 +213,7 @@ func main() {
   file, _ := json.MarshalIndent(config, "", " ")
 
   _ = ioutil.WriteFile("config/config.json", file, 0644)
+
+  addIndexPage("berlin", responseObject.HostsHeadline)
+  addIndexPage("harvard", responseObject.HostsHeadline)
 }

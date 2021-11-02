@@ -118,6 +118,12 @@ func (a MembersByName) Len() int           { return len(a) }
 func (a MembersByName) Less(i, j int) bool { return a[i].Name < a[j].Name }
 func (a MembersByName) Swap(i, j int)      { a[i], a[j] = a[j], a[i] }
 
+type EventsByName []Event
+
+func (a EventsByName) Len() int           { return len(a) }
+func (a EventsByName) Less(i, j int) bool { return a[i].Title < a[j].Title }
+func (a EventsByName) Swap(i, j int)      { a[i], a[j] = a[j], a[i] }
+
 // func getTopicIDs(topics []Topic) []string {
 //   vsm := make([]string, len(topics))
 //   for i, v := range topics {
@@ -247,6 +253,7 @@ func main() {
 
     sort.Sort(MembersByName(element.Members))
     sort.Sort(ProjectsByName(element.Projects))
+    sort.Sort(EventsByName(element.Events))
 
     file, _ := yaml.Marshal(element)
     _ = ioutil.WriteFile(fmt.Sprintf("%s/%s.md", FOLDER, element.Slug), []byte(fmt.Sprintf("---\n%s---\n%s", file, content)), 0644)

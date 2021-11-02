@@ -1,8 +1,8 @@
 {{ define "main" }}
   <section class="homepage-projects-list grid-wide">
-    <h1>{{ printf .Site.Params.Label.HostsHeadline (title .Title) }}</h1>
+    <h1>{{ .Title }}</h1>
     <ul role="list">
-    {{ range (where (where .RegularPages "Section" "eq" "projects") "Params.host" "in" (slice .Title "both")) }}
+    {{ range (where (where .RegularPages "Section" "eq" "projects") "Params.host" "in" (slice .Slug "both")) }}
       {{ partial "project-preview.html" (dict "project" . )}}
     {{ end }}
     </ul>

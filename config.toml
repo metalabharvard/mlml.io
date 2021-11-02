@@ -11,6 +11,7 @@ disableKinds = ["taxonomyTerm"]
   contentTypes = ["projects", "members", "events"]
   timezoneBoston = "EDT"
   timezoneBerlin = "CEST"
+  slugHost = "host"
 
 [params.label]
   externalProject = "Visit project"
@@ -21,7 +22,6 @@ disableKinds = ["taxonomyTerm"]
   members = "/:slug/"
   events = "/:slug/"
   alumni = "/:slug/"
-  host = "/:slug/"
 
 [markup.goldmark.renderer]
   hardWraps = true

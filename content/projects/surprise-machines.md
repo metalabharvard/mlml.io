@@ -21,10 +21,10 @@ members:
 projects:
     - label: Ocean Amplification
       slug: ocean-amplification
-    - label: Watching Machines Loving Grace
-      slug: watching-machines-loving-grace
     - label: 'Second Look: Gender and Sentiment on Show'
       slug: second-look-gender-and-sentiment-on-show
+    - label: Watching Machines Loving Grace
+      slug: watching-machines-loving-grace
 cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635823994/surprisemachines_061c847690.jpg
     width: 1175
