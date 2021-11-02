@@ -13,7 +13,7 @@ events:
       slug: curatorial-a-i-gents-at-ars-electronica-2020
 projects:
     - label: Curatorial A(i)gents
-      slug: curatorial-a-i-gents
+      slug: curatorial-aigents
 picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1634898422/dietmar_ddec27646c.jpg
     width: 555

@@ -30,7 +30,7 @@ projects:
     - label: Artificial Senses
       slug: artificial-senses
     - label: Curatorial A(i)gents
-      slug: curatorial-a-i-gents
+      slug: curatorial-aigents
     - label: Curricle
       slug: curricle
     - label: Curricle Lens

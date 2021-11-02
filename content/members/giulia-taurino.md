@@ -10,7 +10,7 @@ date: "2021-09-16T10:51:45.331Z"
 slug: giulia-taurino
 projects:
     - label: Curatorial A(i)gents
-      slug: curatorial-a-i-gents
+      slug: curatorial-aigents
 picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1634897540/giulia_6f9209b93d.jpg
     width: 757

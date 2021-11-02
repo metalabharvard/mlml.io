@@ -9,9 +9,9 @@ mediation: mixed_media
 category: project
 isFeatured: false
 externalLink: https://metalabharvard.github.io/
-lastmod: "2021-11-02T12:14:05.760Z"
+lastmod: "2021-11-02T12:24:20.508Z"
 date: "2021-06-17"
-slug: curatorial-a-i-gents
+slug: curatorial-aigents
 collaborators:
     - label: Harvard Art Museums
       url: https://harvardartmuseums.org/

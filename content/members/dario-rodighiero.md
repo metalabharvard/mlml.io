@@ -13,7 +13,7 @@ events:
       slug: curatorial-a-i-gents-at-ars-electronica-2020
 projects:
     - label: Curatorial A(i)gents
-      slug: curatorial-a-i-gents
+      slug: curatorial-aigents
     - label: Lexical Cartography of DH2020
       slug: lexical-cartography-of-dh-2020
     - label: Surprise Machines

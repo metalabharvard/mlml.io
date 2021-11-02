@@ -23,7 +23,7 @@ events:
       slug: meta-lab-friends-open-lab
 projects:
     - label: Curatorial A(i)gents
-      slug: curatorial-a-i-gents
+      slug: curatorial-aigents
     - label: Curricle
       slug: curricle
     - label: 'Tacit Knowledge: Post Studio/Feminism – CalArts 1970-1977'

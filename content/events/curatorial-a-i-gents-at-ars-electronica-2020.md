@@ -45,7 +45,7 @@ members:
       slug: yue-chelsea-qiu
 projects:
     - label: Curatorial A(i)gents
-      slug: curatorial-a-i-gents
+      slug: curatorial-aigents
     - label: Watching Machines Loving Grace
       slug: watching-machines-loving-grace
 ---

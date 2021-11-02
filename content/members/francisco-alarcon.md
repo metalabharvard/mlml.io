@@ -14,7 +14,7 @@ events:
       slug: curatorial-a-i-gents-at-ars-electronica-2020
 projects:
     - label: Curatorial A(i)gents
-      slug: curatorial-a-i-gents
+      slug: curatorial-aigents
     - label: Ocean Amplification
       slug: ocean-amplification
 
