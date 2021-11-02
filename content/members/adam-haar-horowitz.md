@@ -3,9 +3,9 @@ name: Adam Haar Horowitz
 title: Adam Haar Horowitz
 isAlumnus: true
 role_string: Alumnus
-intro: In her murky gut, the wood-feeding termite harbors the secret of life. What is it? A community becomes an individual. The arithmetic of the living. One plus one is one &#45;Professor Lynn Margulis
+intro: In her murky gut, the wood-feeding termite harbors the secret of life. What is it? A community becomes an individual. The arithmetic of the living. One plus one is one -Professor Lynn Margulis
 website: http://adamjhh.com/
-lastmod: "2021-09-16T10:51:44.563Z"
+lastmod: "2021-11-02T17:04:56.190Z"
 date: "2021-09-16T10:51:44.563Z"
 slug: adam-haar-horowitz
 events:

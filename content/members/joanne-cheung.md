@@ -3,11 +3,11 @@ name: Joanne Cheung
 title: Joanne Cheung
 isAlumnus: true
 role_string: Alumnus
-intro: Obsessed, bewildered &#47; By the shipwreck &#47; Of the singular &#47; We have chosen the meaning &#47; Of being numerous. &#45;George Oppen
+intro: Obsessed, bewildered / By the shipwreck / Of the singular / We have chosen the meaning / Of being numerous. -George Oppen
 twitter: joannekcheung
 website: http://joannekcheung.com/
 instagram: joannekcheung
-lastmod: "2021-09-16T10:51:45.213Z"
+lastmod: "2021-11-02T17:07:29.430Z"
 date: "2021-09-16T10:51:45.213Z"
 slug: joanne-cheung
 events:

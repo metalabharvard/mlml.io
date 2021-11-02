@@ -2,7 +2,7 @@
 // This script goes through all projects, allows you to edit for example the description and pushes these edits to Strapi again.
 const axios = require('axios');
 
-const FOLDER = 'events'; // Change this to projects, members or events.
+const FOLDER = 'projects'; // Change this to projects, members or events.
 
 axios
   .get(`https://metalab-strapi.herokuapp.com/${FOLDER}/`)
@@ -28,14 +28,14 @@ axios
         // https://regex101.com/r/ToEPoI/2
         // description = description.replace(/\[(.{2,}?)\]\(https*:\/\/metalabharvard\.github\.io\/*\)/gm, '{{< link "" >}}$1{{< /link >}}')
 
-        title = title.replace("&#43;", "+");
-        title = title.replace("&#45;", "-");
-        title = title.replace("&#39;", "’");
-        title = title.replace("&#58;", ":");
-        title = title.replace("&#8217;", "’");
-        title = title.replace("&#47;", "/");
-        title = title.replace("&#8220;", "“");
-        title = title.replace("&#8221;", "”");
+        title = title.replace(/&#43;/g, "+");
+        title = title.replace(/&#45;/g, "-");
+        title = title.replace(/&#39;/g, "’");
+        title = title.replace(/&#58;/g, ":");
+        title = title.replace(/&#8217;/g, "’");
+        title = title.replace(/&#47;/g, "/");
+        title = title.replace(/&#8220;/, "“");
+        title = title.replace(/&#8221;/, "”");
 
         axios.put(`https://metalab-strapi.herokuapp.com/${FOLDER}/${id}`, { title })
       }
