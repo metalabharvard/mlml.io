@@ -6,9 +6,34 @@ role_string: Alumnus
 twitter: artBoffin
 website: http://areben.com/
 instagram: artBoffin
-lastmod: "2021-09-16T10:51:44.469Z"
+lastmod: "2021-11-02T18:38:05.668Z"
 date: "2021-09-16T10:51:44.469Z"
 slug: alexander-reben
+picture:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122111/alexander_5d5278090b.jpg
+    width: 720
+    height: 1080
+    formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122112/large_alexander_5d5278090b.jpg
+            ext: .jpg
+            width: 667
+            height: 1000
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122113/medium_alexander_5d5278090b.jpg
+            ext: .jpg
+            width: 500
+            height: 750
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122113/small_alexander_5d5278090b.jpg
+            ext: .jpg
+            width: 333
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122112/thumbnail_alexander_5d5278090b.jpg
+            ext: .jpg
+            width: 104
+            height: 156
 
 ---
 Alexander Reben’s work probes the inherently human nature of the artificial. Using tools such as artificial philosophy, synthetic psychology, perceptual manipulation and technological magic, he brings to light our inseparable evolutionary entanglement to invention which has unarguably shaped our way of being. This is done to not only help understand who we are, but to consider who we will become in our continued codevelopment with our artificial creations.

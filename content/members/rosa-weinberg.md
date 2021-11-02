@@ -6,9 +6,19 @@ rank: 9.999
 twitter: rosaweinberg
 website: http://leahrosaweinberg.com/
 instagram: leahrosaw
-lastmod: "2021-09-16T10:51:44.871Z"
+lastmod: "2021-11-02T18:33:43.249Z"
 date: "2021-09-16T10:51:44.871Z"
 slug: rosa-weinberg
+picture:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122118/rosa_de3699f2c8.jpg
+    width: 493
+    height: 493
+    formats:
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122119/thumbnail_rosa_de3699f2c8.jpg
+            ext: .jpg
+            width: 156
+            height: 156
 
 ---
 Rosa Weinberg is a Cambridge, Massachusetts-based design educator and artist trained as an architect. Her [creative practice](http://www.leahrosaweinberg.com/work) and [teaching](http://www.leahrosaweinberg.com/teaching-portfolio) focus on the body through the design and fabrication of sculptural wearables, assistive devices for people with disabilities, and speculative prosthetics. She uses design as a critical practice by conducting research and interviews to question the status quo and see beyond dominant narratives. Her teaching work has led her to write about teaching and learning in design education. She is highly skilled in digital fabrication and the associated software.

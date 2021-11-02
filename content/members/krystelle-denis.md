@@ -6,9 +6,29 @@ role_string: Alumnus
 twitter: _kdenis
 website: http://kdenis.co/
 instagram: _kdenis
-lastmod: "2021-09-16T10:51:45.479Z"
+lastmod: "2021-11-02T18:29:44.783Z"
 date: "2021-09-16T10:51:45.479Z"
 slug: krystelle-denis
+picture:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122126/krystelle_af83499e74.jpg
+    width: 850
+    height: 850
+    formats:
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122127/medium_krystelle_af83499e74.jpg
+            ext: .jpg
+            width: 750
+            height: 750
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122127/small_krystelle_af83499e74.jpg
+            ext: .jpg
+            width: 500
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122126/thumbnail_krystelle_af83499e74.jpg
+            ext: .jpg
+            width: 156
+            height: 156
 
 ---
 Krystelle Denis is a designer, technologist, and researcher interested in creating visual frameworks and data-driven narratives to represent and organize material and digital abundance. Graduate work included a critical look at smart cities and

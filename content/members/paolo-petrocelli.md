@@ -6,12 +6,32 @@ rank: 9.999
 twitter: paolopetrocelli
 website: http://www.paolopetrocelli.com/
 instagram: paolopetrocelli
-lastmod: "2021-09-16T10:51:45.546Z"
+lastmod: "2021-11-02T18:30:04.476Z"
 date: "2021-09-16T10:51:45.546Z"
 slug: paolo-petrocelli
 projects:
     - label: futureSTAGE
       slug: futurestage
+picture:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122126/paolo_petrocelli_372e50e116.jpg
+    width: 796
+    height: 786
+    formats:
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122127/medium_paolo_petrocelli_372e50e116.jpg
+            ext: .jpg
+            width: 750
+            height: 741
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122127/small_paolo_petrocelli_372e50e116.jpg
+            ext: .jpg
+            width: 500
+            height: 494
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122126/thumbnail_paolo_petrocelli_372e50e116.jpg
+            ext: .jpg
+            width: 158
+            height: 156
 
 ---
 Paolo Petrocelli, PhD-EMBA, is a senior performing arts manager, university professor, journalist, musicologist and violinist driven by the belief that culture, arts and education are a major force for growth, development and change globally.

@@ -5,9 +5,29 @@ isAlumnus: true
 role_string: Alumnus
 twitter: nikdharmaraj
 instagram: nikhil.dharmaraj
-lastmod: "2021-09-16T10:51:45.213Z"
+lastmod: "2021-11-02T18:31:30.898Z"
 date: "2021-09-16T10:51:45.213Z"
 slug: nikhil-dharmaraj
+picture:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122127/nikhil_a9de0b2319.jpg
+    width: 800
+    height: 852
+    formats:
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122129/medium_nikhil_a9de0b2319.jpg
+            ext: .jpg
+            width: 704
+            height: 750
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122129/small_nikhil_a9de0b2319.jpg
+            ext: .jpg
+            width: 469
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122128/thumbnail_nikhil_a9de0b2319.jpg
+            ext: .jpg
+            width: 146
+            height: 156
 
 ---
 Nikhil Dharmaraj is a senior at The Harker School in sunny San Jose, California who is fascinated by the intersection of technology and the humanities. Through post-AP Computer Science coursework, extra-curricular courses, hackathons, and research internships at CMU and MIT, Nikhil has developed a deep passion for software engineering, and specifically, artificial intelligence. However, as a strong proponent of interdisciplinary study, Nikhil has delved deeply into the liberal arts too: he is a nationally-ranked speech competitor in Original Oratory, an avid student of the Classics (and vice president of his school's JCL chapter), and a current Mitra Family Foundation scholar researching Lucretius and Charles Darwin. Now, Nikhil hopes to make use of cutting-edge technology to better understand the timeless human experience.

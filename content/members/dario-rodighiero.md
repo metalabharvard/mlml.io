@@ -5,7 +5,7 @@ isAlumnus: false
 rank: 9.999
 twitter: dariorodighiero
 website: http://dariorodighiero.com/
-lastmod: "2021-09-16T10:51:44.527Z"
+lastmod: "2021-11-02T18:36:59.117Z"
 date: "2021-09-16T10:51:44.527Z"
 slug: dario-rodighiero
 events:
@@ -18,6 +18,31 @@ projects:
       slug: lexical-cartography-of-dh-2020
     - label: Surprise Machines
       slug: surprise-machines
+picture:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122112/dario_ea88134bd4.jpg
+    width: 800
+    height: 1067
+    formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122114/large_dario_ea88134bd4.jpg
+            ext: .jpg
+            width: 750
+            height: 1000
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122114/medium_dario_ea88134bd4.jpg
+            ext: .jpg
+            width: 562
+            height: 750
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122115/small_dario_ea88134bd4.jpg
+            ext: .jpg
+            width: 375
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122113/thumbnail_dario_ea88134bd4.jpg
+            ext: .jpg
+            width: 117
+            height: 156
 
 ---
 Dario Rodighiero is a postdoctoral associate at MIT Comparative Media Studies and a researcher at Harvard metaLAB. He combines humanities and technology by practicing design at the intersection of architecture, data visualization, social science, graphic and interaction design. The Swiss National Science Foundation is currently financing his position.

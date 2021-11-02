@@ -5,12 +5,22 @@ isAlumnus: false
 rank: 9.999
 twitter: MagdaRomanska
 website: http://magdaromanska.com/
-lastmod: "2021-11-02T11:14:31.683Z"
+lastmod: "2021-11-02T18:30:56.544Z"
 date: "2021-09-16T10:51:45.235Z"
 slug: magda-romanska
 projects:
     - label: futureSTAGE
       slug: futurestage
+picture:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122128/magda_e930e14e79.jpg
+    width: 300
+    height: 398
+    formats:
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122129/thumbnail_magda_e930e14e79.jpg
+            ext: .jpg
+            width: 118
+            height: 156
 
 ---
 Magda Romanska is a writer, dramaturg and theatre, performance and media scholar. She researches issues on the intersection of theatre, media, and technology, including multiplatform dramaturgy, human/AI interaction in performance, the ethics and representation of human enhancements, and posthuman theatre and performance. 

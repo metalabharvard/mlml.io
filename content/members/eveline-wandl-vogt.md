@@ -6,7 +6,7 @@ rank: 9.999
 twitter: caissarl
 website: http://www.oeaw.ac.at/acdh/team/current-team/eveline-wandl-vogt/
 instagram: caisserl
-lastmod: "2021-09-16T10:51:44.648Z"
+lastmod: "2021-11-02T18:36:10.739Z"
 date: "2021-09-16T10:51:44.648Z"
 slug: eveline-wandl-vogt
 events:
@@ -15,6 +15,16 @@ events:
 projects:
     - label: futureSTAGE
       slug: futurestage
+picture:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122115/eveline_2d3eddbe9e.jpg
+    width: 374
+    height: 376
+    formats:
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122115/thumbnail_eveline_2d3eddbe9e.jpg
+            ext: .jpg
+            width: 155
+            height: 156
 
 ---
 Eveline Wandl-Vogt is experimentalist, foundress and senior director of one of the two first Ars Electronica Research Institutes, namely [knowledge for humanity](https://ars.electronica.art/futurelab/initiative/ars-electronica-research-institute-for-knowledge-for-humanity/) (k4h+) at [Ars Electronica](https://ars.electronica.art/news/). The research institute is an antidisciplinary approach to apply human centered design and open innovation methods and practices to contribute to invent the future.

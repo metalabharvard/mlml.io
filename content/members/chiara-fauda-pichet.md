@@ -5,12 +5,32 @@ isAlumnus: true
 role_string: Alumnus
 twitter: chiarafauda
 instagram: chiarafauda
-lastmod: "2021-09-16T10:51:45.331Z"
+lastmod: "2021-11-02T18:37:15.708Z"
 date: "2021-09-16T10:51:45.331Z"
 slug: chiara-fauda-pichet
 projects:
     - label: Womanhouse (a memory theater)
       slug: womanhouse-a-memory-theater
+picture:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122112/chiara_52b06372bc.jpg
+    width: 800
+    height: 805
+    formats:
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122113/medium_chiara_52b06372bc.jpg
+            ext: .jpg
+            width: 745
+            height: 750
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122114/small_chiara_52b06372bc.jpg
+            ext: .jpg
+            width: 497
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122113/thumbnail_chiara_52b06372bc.jpg
+            ext: .jpg
+            width: 155
+            height: 156
 
 ---
 Chiara Fauda Pichet is an interior designer and Ph.d. Candidate in Design Politecnico di Milano. As a researcher, she is studying the history of design and its relationship with contemporary art and architecture.

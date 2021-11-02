@@ -6,7 +6,7 @@ rank: 9.999
 twitter: philippschmitt
 website: http://philippschmitt.com/
 instagram: phlpschmt
-lastmod: "2021-09-16T10:51:45.508Z"
+lastmod: "2021-11-02T18:28:07.583Z"
 date: "2021-09-16T10:51:45.508Z"
 slug: philipp-schmitt
 events:
@@ -15,6 +15,21 @@ events:
 projects:
     - label: Curatorial A(i)gents
       slug: curatorial-aigents
+picture:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122123/philipp_b9bb3f6b65.jpg
+    width: 460
+    height: 598
+    formats:
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122125/small_philipp_b9bb3f6b65.jpg
+            ext: .jpg
+            width: 385
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122124/thumbnail_philipp_b9bb3f6b65.jpg
+            ext: .jpg
+            width: 120
+            height: 156
 
 ---
 Philipp Schmitt (b. 1993, Germany) is an artist, designer, and researcher based in Brooklyn, NY, USA.
