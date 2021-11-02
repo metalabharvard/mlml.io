@@ -2,10 +2,10 @@
   <section class="homepage-members-list grid-full">
     <h1 id="members" class="member-list-header">Members</h1>
     <ul class="grid member-list" role="list">
-      {{ range (sort (where (where .Pages "Params.picture" "!=" nil) "Params.isalumnus" false) "Params.rank" "asc") }}
+      {{ range ((where (where .Pages "Params.picture" "!=" nil) "Params.isalumnus" false).ByParam "Name").ByParam "rank" }}
         {{ partial "preview-member.html" (dict "member" .) }}
       {{ end }}
-      {{ range (sort (where (where .Pages "Params.picture" "==" nil) "Params.isalumnus" false) "Params.rank" "asc") }}
+      {{ range ((where (where .Pages "Params.picture" "==" nil) "Params.isalumnus" false).ByParam "Name").ByParam "rank" }}
         {{ partial "preview-member.html" (dict "member" .) }}
       {{ end }}
     </ul>
