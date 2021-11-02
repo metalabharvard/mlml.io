@@ -332,7 +332,7 @@ ul {
   line-height: 1.6;
 
   dd:not(.related-links) {
-    display: inline;
+    display: inline-block;
   }
 
   dd.related-links {
