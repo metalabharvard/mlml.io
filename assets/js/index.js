@@ -245,3 +245,18 @@ if (element !== null) {
   // }
 }
 
+const links = document.getElementsByClassName('preview-link hasImage');
+
+for (let i = 0; i < links.length; i++) {
+  const link = links[i];
+
+  const image = link.getElementsByClassName('preview-image')[0]
+  
+  const onMouseMove = (e) =>{
+    // image.style.left = `calc(max(60vw, ${e.pageX}px`;
+    image.style.left = `${e.pageX}px`;
+    image.style.top = e.pageY + 'px';
+  }
+
+  link.addEventListener('mousemove', onMouseMove);
+}
