@@ -10,29 +10,29 @@ lastmod: "2021-11-02T18:31:11.627Z"
 date: "2021-09-16T10:51:44.785Z"
 slug: leo-saenger
 picture:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122127/leo_59a4801978.jpg
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122127/leo_59a4801978.jpg
     width: 800
     height: 1067
     ext: .jpg
     mime: image/jpeg
     formats:
         large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122128/large_leo_59a4801978.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122128/large_leo_59a4801978.jpg
             ext: .jpg
             width: 750
             height: 1000
         medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122128/medium_leo_59a4801978.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122128/medium_leo_59a4801978.jpg
             ext: .jpg
             width: 562
             height: 750
         small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122129/small_leo_59a4801978.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122129/small_leo_59a4801978.jpg
             ext: .jpg
             width: 375
             height: 500
         thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122127/thumbnail_leo_59a4801978.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122127/thumbnail_leo_59a4801978.jpg
             ext: .jpg
             width: 117
             height: 156

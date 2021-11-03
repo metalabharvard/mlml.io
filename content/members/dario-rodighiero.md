@@ -19,29 +19,29 @@ projects:
     - label: Surprise Machines
       slug: surprise-machines
 picture:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122112/dario_ea88134bd4.jpg
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122112/dario_ea88134bd4.jpg
     width: 800
     height: 1067
     ext: .jpg
     mime: image/jpeg
     formats:
         large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122114/large_dario_ea88134bd4.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122114/large_dario_ea88134bd4.jpg
             ext: .jpg
             width: 750
             height: 1000
         medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122114/medium_dario_ea88134bd4.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122114/medium_dario_ea88134bd4.jpg
             ext: .jpg
             width: 562
             height: 750
         small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122115/small_dario_ea88134bd4.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122115/small_dario_ea88134bd4.jpg
             ext: .jpg
             width: 375
             height: 500
         thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122113/thumbnail_dario_ea88134bd4.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122113/thumbnail_dario_ea88134bd4.jpg
             ext: .jpg
             width: 117
             height: 156

@@ -9,24 +9,24 @@ lastmod: "2021-11-02T18:31:30.898Z"
 date: "2021-09-16T10:51:45.213Z"
 slug: nikhil-dharmaraj
 picture:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122127/nikhil_a9de0b2319.jpg
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122127/nikhil_a9de0b2319.jpg
     width: 800
     height: 852
     ext: .jpg
     mime: image/jpeg
     formats:
         medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122129/medium_nikhil_a9de0b2319.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122129/medium_nikhil_a9de0b2319.jpg
             ext: .jpg
             width: 704
             height: 750
         small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122129/small_nikhil_a9de0b2319.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122129/small_nikhil_a9de0b2319.jpg
             ext: .jpg
             width: 469
             height: 500
         thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122128/thumbnail_nikhil_a9de0b2319.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122128/thumbnail_nikhil_a9de0b2319.jpg
             ext: .jpg
             width: 146
             height: 156

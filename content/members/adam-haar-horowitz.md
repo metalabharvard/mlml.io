@@ -14,19 +14,19 @@ events:
     - label: metaLAB + friends openLAB
       slug: meta-lab-friends-open-lab
 picture:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122111/adam_98e3f556e4.jpg
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122111/adam_98e3f556e4.jpg
     width: 720
     height: 480
     ext: .jpg
     mime: image/jpeg
     formats:
         small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122112/small_adam_98e3f556e4.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122112/small_adam_98e3f556e4.jpg
             ext: .jpg
             width: 500
             height: 333
         thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122112/thumbnail_adam_98e3f556e4.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122112/thumbnail_adam_98e3f556e4.jpg
             ext: .jpg
             width: 234
             height: 156

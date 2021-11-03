@@ -16,6 +16,7 @@ disableKinds = ["taxonomyTerm"]
 [params.label]
   externalProject = "Visit project"
   externalEvent = "Visit event"
+  profilePicture = "Profile picture of %s"
 
 [permalinks]
   projects = "/:slug/"

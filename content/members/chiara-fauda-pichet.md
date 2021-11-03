@@ -12,24 +12,24 @@ projects:
     - label: Womanhouse (a memory theater)
       slug: womanhouse-a-memory-theater
 picture:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122112/chiara_52b06372bc.jpg
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122112/chiara_52b06372bc.jpg
     width: 800
     height: 805
     ext: .jpg
     mime: image/jpeg
     formats:
         medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122113/medium_chiara_52b06372bc.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122113/medium_chiara_52b06372bc.jpg
             ext: .jpg
             width: 745
             height: 750
         small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122114/small_chiara_52b06372bc.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122114/small_chiara_52b06372bc.jpg
             ext: .jpg
             width: 497
             height: 500
         thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122113/thumbnail_chiara_52b06372bc.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122113/thumbnail_chiara_52b06372bc.jpg
             ext: .jpg
             width: 155
             height: 156

@@ -13,14 +13,14 @@ lastmod: "2021-10-22T10:43:57.648Z"
 date: "2021-09-16T10:51:45.331Z"
 slug: jeanette-andrews
 picture:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1634898362/jeanette_5e34f05496.jpg
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1634898362/jeanette_5e34f05496.jpg
     width: 300
     height: 460
     ext: .jpg
     mime: image/jpeg
     formats:
         thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1634898362/thumbnail_jeanette_5e34f05496.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1634898362/thumbnail_jeanette_5e34f05496.jpg
             ext: .jpg
             width: 102
             height: 156

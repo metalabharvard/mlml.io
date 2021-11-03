@@ -18,14 +18,14 @@ projects:
     - label: Ocean Amplification
       slug: ocean-amplification
 picture:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122115/francisco_db4834b143.jpg
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122115/francisco_db4834b143.jpg
     width: 376
     height: 376
     ext: .jpg
     mime: image/jpeg
     formats:
         thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122116/thumbnail_francisco_db4834b143.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122116/thumbnail_francisco_db4834b143.jpg
             ext: .jpg
             width: 156
             height: 156

@@ -12,24 +12,24 @@ projects:
     - label: Curatorial A(i)gents
       slug: curatorial-aigents
 picture:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1634897540/giulia_6f9209b93d.jpg
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1634897540/giulia_6f9209b93d.jpg
     width: 757
     height: 900
     ext: .jpg
     mime: image/jpeg
     formats:
         medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1634897541/medium_giulia_6f9209b93d.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1634897541/medium_giulia_6f9209b93d.jpg
             ext: .jpg
             width: 631
             height: 750
         small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1634897542/small_giulia_6f9209b93d.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1634897542/small_giulia_6f9209b93d.jpg
             ext: .jpg
             width: 421
             height: 500
         thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1634897541/thumbnail_giulia_6f9209b93d.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1634897541/thumbnail_giulia_6f9209b93d.jpg
             ext: .jpg
             width: 131
             height: 156

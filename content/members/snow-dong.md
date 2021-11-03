@@ -9,24 +9,24 @@ lastmod: "2021-11-02T18:35:04.626Z"
 date: "2021-09-16T10:51:44.958Z"
 slug: snow-dong
 picture:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122115/snow_6f84cb16a3.jpg
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122115/snow_6f84cb16a3.jpg
     width: 850
     height: 812
     ext: .jpg
     mime: image/jpeg
     formats:
         medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122116/medium_snow_6f84cb16a3.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122116/medium_snow_6f84cb16a3.jpg
             ext: .jpg
             width: 750
             height: 716
         small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122117/small_snow_6f84cb16a3.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122117/small_snow_6f84cb16a3.jpg
             ext: .jpg
             width: 500
             height: 478
         thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122115/thumbnail_snow_6f84cb16a3.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122115/thumbnail_snow_6f84cb16a3.jpg
             ext: .jpg
             width: 163
             height: 156

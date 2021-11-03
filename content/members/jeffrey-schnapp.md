@@ -35,24 +35,24 @@ projects:
     - label: futureSTAGE
       slug: futurestage
 picture:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122118/jeffrey_c976257763.jpg
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122118/jeffrey_c976257763.jpg
     width: 850
     height: 850
     ext: .jpg
     mime: image/jpeg
     formats:
         medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122120/medium_jeffrey_c976257763.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122120/medium_jeffrey_c976257763.jpg
             ext: .jpg
             width: 750
             height: 750
         small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122120/small_jeffrey_c976257763.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122120/small_jeffrey_c976257763.jpg
             ext: .jpg
             width: 500
             height: 500
         thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122119/thumbnail_jeffrey_c976257763.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122119/thumbnail_jeffrey_c976257763.jpg
             ext: .jpg
             width: 156
             height: 156

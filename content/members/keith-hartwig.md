@@ -14,24 +14,24 @@ projects:
     - label: Curatorial A(i)gents
       slug: curatorial-aigents
 picture:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122123/keith_bbbb2d5d7b.jpg
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122123/keith_bbbb2d5d7b.jpg
     width: 850
     height: 680
     ext: .jpg
     mime: image/jpeg
     formats:
         medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122125/medium_keith_bbbb2d5d7b.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122125/medium_keith_bbbb2d5d7b.jpg
             ext: .jpg
             width: 750
             height: 600
         small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122126/small_keith_bbbb2d5d7b.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122126/small_keith_bbbb2d5d7b.jpg
             ext: .jpg
             width: 500
             height: 400
         thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122125/thumbnail_keith_bbbb2d5d7b.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122125/thumbnail_keith_bbbb2d5d7b.jpg
             ext: .jpg
             width: 195
             height: 156

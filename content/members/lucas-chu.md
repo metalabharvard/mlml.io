@@ -7,14 +7,14 @@ lastmod: "2021-10-22T10:43:35.336Z"
 date: "2021-09-16T10:51:45.331Z"
 slug: lucas-chu
 picture:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1634898960/lucas_a60431186b.jpg
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1634898960/lucas_a60431186b.jpg
     width: 250
     height: 333
     ext: .jpg
     mime: image/jpeg
     formats:
         thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1634898960/thumbnail_lucas_a60431186b.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1634898960/thumbnail_lucas_a60431186b.jpg
             ext: .jpg
             width: 117
             height: 156

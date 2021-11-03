@@ -16,19 +16,19 @@ projects:
     - label: Womanhouse (a memory theater)
       slug: womanhouse-a-memory-theater
 picture:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122112/annette_b0bfbbd583.jpg
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122112/annette_b0bfbbd583.jpg
     width: 480
     height: 640
     ext: .jpg
     mime: image/jpeg
     formats:
         small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122115/small_annette_b0bfbbd583.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122115/small_annette_b0bfbbd583.jpg
             ext: .jpg
             width: 375
             height: 500
         thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122113/thumbnail_annette_b0bfbbd583.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122113/thumbnail_annette_b0bfbbd583.jpg
             ext: .jpg
             width: 117
             height: 156

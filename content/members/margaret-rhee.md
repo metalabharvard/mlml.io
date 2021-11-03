@@ -8,29 +8,29 @@ lastmod: "2021-11-02T18:32:34.877Z"
 date: "2021-09-16T10:51:45.530Z"
 slug: margaret-rhee
 picture:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122130/margaret_7feaa382e4.jpg
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122130/margaret_7feaa382e4.jpg
     width: 800
     height: 1067
     ext: .jpg
     mime: image/jpeg
     formats:
         large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122131/large_margaret_7feaa382e4.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122131/large_margaret_7feaa382e4.jpg
             ext: .jpg
             width: 750
             height: 1000
         medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122131/medium_margaret_7feaa382e4.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122131/medium_margaret_7feaa382e4.jpg
             ext: .jpg
             width: 562
             height: 750
         small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122131/small_margaret_7feaa382e4.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122131/small_margaret_7feaa382e4.jpg
             ext: .jpg
             width: 375
             height: 500
         thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122130/thumbnail_margaret_7feaa382e4.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122130/thumbnail_margaret_7feaa382e4.jpg
             ext: .jpg
             width: 117
             height: 156

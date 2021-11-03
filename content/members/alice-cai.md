@@ -9,24 +9,24 @@ lastmod: "2021-10-22T10:43:08.940Z"
 date: "2021-10-22T10:40:16.975Z"
 slug: alice-cai
 picture:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1634899211/alice_1b83d85ed8.jpg
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1634899211/alice_1b83d85ed8.jpg
     width: 600
     height: 798
     ext: .jpg
     mime: image/jpeg
     formats:
         medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1634899212/medium_alice_1b83d85ed8.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1634899212/medium_alice_1b83d85ed8.jpg
             ext: .jpg
             width: 564
             height: 750
         small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1634899212/small_alice_1b83d85ed8.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1634899212/small_alice_1b83d85ed8.jpg
             ext: .jpg
             width: 376
             height: 500
         thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1634899211/thumbnail_alice_1b83d85ed8.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1634899211/thumbnail_alice_1b83d85ed8.jpg
             ext: .jpg
             width: 117
             height: 156

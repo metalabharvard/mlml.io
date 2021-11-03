@@ -9,14 +9,16 @@ lastmod: "2021-11-02T18:28:44.918Z"
 date: "2021-09-16T10:51:45.071Z"
 slug: paolo-ciuccarelli
 picture:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122125/paolo_81e6c08fc8.jpg
+    alternativeText: Profile picture of Paolo
+    caption: The picture shows Paolo in a shirt. He has black hair and a beard.
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122125/paolo_81e6c08fc8.jpg
     width: 231
     height: 330
     ext: .jpg
     mime: image/jpeg
     formats:
         thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122126/thumbnail_paolo_81e6c08fc8.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122126/thumbnail_paolo_81e6c08fc8.jpg
             ext: .jpg
             width: 109
             height: 156

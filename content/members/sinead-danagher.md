@@ -9,29 +9,29 @@ lastmod: "2021-11-02T18:33:30.079Z"
 date: "2021-09-16T10:51:44.951Z"
 slug: sinead-danagher
 picture:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122117/sinead_0db4ba8033.jpg
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122117/sinead_0db4ba8033.jpg
     width: 850
     height: 1134
     ext: .jpg
     mime: image/jpeg
     formats:
         large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122118/large_sinead_0db4ba8033.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122118/large_sinead_0db4ba8033.jpg
             ext: .jpg
             width: 750
             height: 1000
         medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122119/medium_sinead_0db4ba8033.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122119/medium_sinead_0db4ba8033.jpg
             ext: .jpg
             width: 562
             height: 750
         small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122119/small_sinead_0db4ba8033.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122119/small_sinead_0db4ba8033.jpg
             ext: .jpg
             width: 375
             height: 500
         thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122117/thumbnail_sinead_0db4ba8033.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122117/thumbnail_sinead_0db4ba8033.jpg
             ext: .jpg
             width: 117
             height: 156

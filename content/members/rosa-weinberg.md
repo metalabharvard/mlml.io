@@ -10,14 +10,14 @@ lastmod: "2021-11-02T18:33:43.249Z"
 date: "2021-09-16T10:51:44.871Z"
 slug: rosa-weinberg
 picture:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122118/rosa_de3699f2c8.jpg
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122118/rosa_de3699f2c8.jpg
     width: 493
     height: 493
     ext: .jpg
     mime: image/jpeg
     formats:
         thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122119/thumbnail_rosa_de3699f2c8.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122119/thumbnail_rosa_de3699f2c8.jpg
             ext: .jpg
             width: 156
             height: 156

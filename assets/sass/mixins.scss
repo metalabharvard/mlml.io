@@ -15,24 +15,24 @@
   grid-column-end: 13;
 
   &.grid, .grid {
-    grid-template-columns: repeat($columns, 1fr);
-    grid-column-gap: $size-gap;
+    grid-template-columns: repeat(var(--columns), 1fr);
+    grid-column-gap: var(--size-gap);
 
     &.full {
       & > * {
-        grid-column-end: span $columns;
+        grid-column-end: span var(--columns);
       }
     }
 
     &.half {
       & > * {
-        grid-column-end: span $columns;
+        grid-column-end: span var(--columns);
       }
     }
 
     &.third {
       & > * {
-        grid-column-end: span $columns;
+        grid-column-end: span var(--columns);
       }
     }
   }
@@ -64,7 +64,7 @@
 
   &.grid, .grid {
     grid-template-columns: repeat(10, 1fr);
-    grid-column-gap: $size-gap;
+    grid-column-gap: var(--size-gap);
 
     &.full {
       & > * {
@@ -92,7 +92,7 @@
 
   &.grid, .grid {
     grid-template-columns: repeat(8, 1fr);
-    grid-column-gap: $size-gap;
+    grid-column-gap: var(--size-gap);
 
     &.full {
       & > * {
@@ -121,7 +121,7 @@
 
   &.grid, .grid {
     grid-template-columns: repeat(6, 1fr);
-    grid-column-gap: $size-gap;
+    grid-column-gap: var(--size-gap);
 
     &.half {
       & > * {

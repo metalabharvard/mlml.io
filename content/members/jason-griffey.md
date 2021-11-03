@@ -9,24 +9,24 @@ lastmod: "2021-11-02T18:34:34.470Z"
 date: "2021-09-16T10:51:45.465Z"
 slug: jason-griffey
 picture:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122117/jason_9d418e4152.jpg
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122117/jason_9d418e4152.jpg
     width: 850
     height: 850
     ext: .jpg
     mime: image/jpeg
     formats:
         medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122118/medium_jason_9d418e4152.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122118/medium_jason_9d418e4152.jpg
             ext: .jpg
             width: 750
             height: 750
         small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122118/small_jason_9d418e4152.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122118/small_jason_9d418e4152.jpg
             ext: .jpg
             width: 500
             height: 500
         thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122117/thumbnail_jason_9d418e4152.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122117/thumbnail_jason_9d418e4152.jpg
             ext: .jpg
             width: 156
             height: 156

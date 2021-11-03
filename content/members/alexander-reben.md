@@ -10,29 +10,29 @@ lastmod: "2021-11-02T18:38:05.668Z"
 date: "2021-09-16T10:51:44.469Z"
 slug: alexander-reben
 picture:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122111/alexander_5d5278090b.jpg
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122111/alexander_5d5278090b.jpg
     width: 720
     height: 1080
     ext: .jpg
     mime: image/jpeg
     formats:
         large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122112/large_alexander_5d5278090b.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122112/large_alexander_5d5278090b.jpg
             ext: .jpg
             width: 667
             height: 1000
         medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122113/medium_alexander_5d5278090b.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122113/medium_alexander_5d5278090b.jpg
             ext: .jpg
             width: 500
             height: 750
         small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122113/small_alexander_5d5278090b.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122113/small_alexander_5d5278090b.jpg
             ext: .jpg
             width: 333
             height: 500
         thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122112/thumbnail_alexander_5d5278090b.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122112/thumbnail_alexander_5d5278090b.jpg
             ext: .jpg
             width: 104
             height: 156

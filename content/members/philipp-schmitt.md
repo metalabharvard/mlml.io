@@ -16,19 +16,19 @@ projects:
     - label: Curatorial A(i)gents
       slug: curatorial-aigents
 picture:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122123/philipp_b9bb3f6b65.jpg
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122123/philipp_b9bb3f6b65.jpg
     width: 460
     height: 598
     ext: .jpg
     mime: image/jpeg
     formats:
         small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122125/small_philipp_b9bb3f6b65.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122125/small_philipp_b9bb3f6b65.jpg
             ext: .jpg
             width: 385
             height: 500
         thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122124/thumbnail_philipp_b9bb3f6b65.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122124/thumbnail_philipp_b9bb3f6b65.jpg
             ext: .jpg
             width: 120
             height: 156

@@ -12,7 +12,12 @@
       </span>
     </header>
     {{ $name := .Params.name }}
-    {{ with .Params.picture }}<div class="member-image" property="image">{{ partial "image.html" (dict "picture" . "alt" (printf "Profile picture of %s" $name)) }}</div>{{ end }}
+    {{ $defaultLabel := string (printf .Site.Params.Label.ProfilePicture $name) }}
+    {{ with .Params.picture -}}
+    <div class="member-image" property="image">
+      {{- partial "image-member.html" (dict "picture" . "alt" $defaultLabel "title" $defaultLabel) -}}
+    </div>
+    {{- end }}
     <aside class="member-aside grid-narrow-left-aside">
       {{ partial "icon-website.html" (dict "link" .Params.Website "name" $name "template" .Site.Params.Label.SocialHomepageTitle) }}
       {{ partial "icon-mail.html" (dict "mail" .Params.Email "name" $name "template" .Site.Params.Label.SocialEmailTitle) }}

@@ -10,24 +10,24 @@ lastmod: "2021-11-02T18:29:44.783Z"
 date: "2021-09-16T10:51:45.479Z"
 slug: krystelle-denis
 picture:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122126/krystelle_af83499e74.jpg
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122126/krystelle_af83499e74.jpg
     width: 850
     height: 850
     ext: .jpg
     mime: image/jpeg
     formats:
         medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122127/medium_krystelle_af83499e74.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122127/medium_krystelle_af83499e74.jpg
             ext: .jpg
             width: 750
             height: 750
         small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122127/small_krystelle_af83499e74.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122127/small_krystelle_af83499e74.jpg
             ext: .jpg
             width: 500
             height: 500
         thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122126/thumbnail_krystelle_af83499e74.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122126/thumbnail_krystelle_af83499e74.jpg
             ext: .jpg
             width: 156
             height: 156

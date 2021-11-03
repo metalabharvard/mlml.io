@@ -15,24 +15,24 @@ projects:
     - label: Womanhouse (a memory theater)
       slug: womanhouse-a-memory-theater
 picture:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122129/mindy_a641d744c3.jpg
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122129/mindy_a641d744c3.jpg
     width: 850
     height: 850
     ext: .jpg
     mime: image/jpeg
     formats:
         medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122130/medium_mindy_a641d744c3.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122130/medium_mindy_a641d744c3.jpg
             ext: .jpg
             width: 750
             height: 750
         small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122131/small_mindy_a641d744c3.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122131/small_mindy_a641d744c3.jpg
             ext: .jpg
             width: 500
             height: 500
         thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122130/thumbnail_mindy_a641d744c3.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122130/thumbnail_mindy_a641d744c3.jpg
             ext: .jpg
             width: 156
             height: 156

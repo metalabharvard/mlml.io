@@ -37,8 +37,8 @@ picture img {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat($columns, 1fr);
-  grid-column-gap: $size-gap;
+  grid-template-columns: repeat(var(--columns), 1fr);
+  grid-column-gap: var(--size-gap);
 
   & > .homepage-projects-list, & > .homepage-events-list {
     overflow-x: hidden; // The titles might be wider than the content, so we cut it off. This might happen when words are too long.
@@ -802,6 +802,7 @@ picture, img {
     grid-column-start: 1;
     grid-column-end: 5;
     margin-bottom: var(--spacing-05); // This is used to have a min height of the block
+    z-index: $z-index-member-header;
 
     @include query($medium) {
       grid-row-start: 1;
@@ -810,9 +811,9 @@ picture, img {
       grid-column-end: 4;
     }
 
-    img {
-      filter: grayscale(100%);
-    }
+    // img {
+    //   filter: grayscale(100%);
+    // }
   }
 
   .member-aside {

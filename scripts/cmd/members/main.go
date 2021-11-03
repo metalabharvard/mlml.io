@@ -45,9 +45,12 @@ type Formats struct {
 
 type Picture struct {
   AlternativeText string `yaml:"alternativeText,omitempty"`
+  Caption string `yaml:"caption,omitempty"`
   Url string `yaml:"url,omitempty"`
   Width int `yaml:"width,omitempty"`
   Height int `yaml:"height,omitempty"`
+  Ext string `yaml:"ext,omitempty"`
+  Mime string `yaml:"mime,omitempty"`
   Formats Formats `yaml:"formats,omitempty"`
 }
 
@@ -85,6 +88,10 @@ func getPath(isAlumnus bool) string {
   } else {
     return "members"
   }
+}
+
+func convertToGrayscale(url string) string {
+  return strings.Replace(url, "upload/", "upload/e_grayscale/", 1)
 }
 
 func calculateRoleRank(roles []Role) float64 {
@@ -195,6 +202,24 @@ func main() {
 
     sort.Sort(ProjectsByName(element.Projects))
     sort.Sort(EventsByName(element.Events))
+
+    // println(element.Picture.Url)
+
+    if element.Picture.Url != "" {
+      element.Picture.Url = convertToGrayscale(element.Picture.Url)
+    }
+    if element.Picture.Formats.Thumbnail.Url != "" {
+      element.Picture.Formats.Thumbnail.Url = convertToGrayscale(element.Picture.Formats.Thumbnail.Url)
+    }
+    if element.Picture.Formats.Small.Url != "" {
+      element.Picture.Formats.Small.Url = convertToGrayscale(element.Picture.Formats.Small.Url)
+    }
+    if element.Picture.Formats.Medium.Url != "" {
+      element.Picture.Formats.Medium.Url = convertToGrayscale(element.Picture.Formats.Medium.Url)
+    }
+    if element.Picture.Formats.Large.Url != "" {
+      element.Picture.Formats.Large.Url = convertToGrayscale(element.Picture.Formats.Large.Url)
+    }
 
     // if element.IsAlumnus {
     //   element.NoIndex = true

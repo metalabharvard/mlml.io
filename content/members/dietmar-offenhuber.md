@@ -15,19 +15,19 @@ projects:
     - label: Curatorial A(i)gents
       slug: curatorial-aigents
 picture:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1634898422/dietmar_ddec27646c.jpg
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1634898422/dietmar_ddec27646c.jpg
     width: 555
     height: 532
     ext: .jpg
     mime: image/jpeg
     formats:
         small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1634898423/small_dietmar_ddec27646c.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1634898423/small_dietmar_ddec27646c.jpg
             ext: .jpg
             width: 500
             height: 479
         thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1634898422/thumbnail_dietmar_ddec27646c.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1634898422/thumbnail_dietmar_ddec27646c.jpg
             ext: .jpg
             width: 163
             height: 156

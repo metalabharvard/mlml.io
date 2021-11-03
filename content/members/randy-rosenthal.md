@@ -9,19 +9,19 @@ lastmod: "2021-11-02T18:26:32.315Z"
 date: "2021-09-16T10:51:45.558Z"
 slug: randy-rosenthal
 picture:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122120/randy_e3e481b6d5.jpg
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122120/randy_e3e481b6d5.jpg
     width: 685
     height: 718
     ext: .jpg
     mime: image/jpeg
     formats:
         small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122121/small_randy_e3e481b6d5.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122121/small_randy_e3e481b6d5.jpg
             ext: .jpg
             width: 477
             height: 500
         thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122120/thumbnail_randy_e3e481b6d5.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122120/thumbnail_randy_e3e481b6d5.jpg
             ext: .jpg
             width: 149
             height: 156

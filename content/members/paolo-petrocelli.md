@@ -13,24 +13,24 @@ projects:
     - label: futureSTAGE
       slug: futurestage
 picture:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122126/paolo_petrocelli_372e50e116.jpg
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122126/paolo_petrocelli_372e50e116.jpg
     width: 796
     height: 786
     ext: .jpg
     mime: image/jpeg
     formats:
         medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122127/medium_paolo_petrocelli_372e50e116.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122127/medium_paolo_petrocelli_372e50e116.jpg
             ext: .jpg
             width: 750
             height: 741
         small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122127/small_paolo_petrocelli_372e50e116.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122127/small_paolo_petrocelli_372e50e116.jpg
             ext: .jpg
             width: 500
             height: 494
         thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122126/thumbnail_paolo_petrocelli_372e50e116.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122126/thumbnail_paolo_petrocelli_372e50e116.jpg
             ext: .jpg
             width: 158
             height: 156

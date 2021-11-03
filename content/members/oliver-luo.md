@@ -12,19 +12,19 @@ projects:
     - label: Curricle
       slug: curricle
 picture:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122127/oliver_d76c6d4720.jpg
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122127/oliver_d76c6d4720.jpg
     width: 550
     height: 744
     ext: .jpg
     mime: image/jpeg
     formats:
         small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122127/small_oliver_d76c6d4720.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122127/small_oliver_d76c6d4720.jpg
             ext: .jpg
             width: 370
             height: 500
         thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122127/thumbnail_oliver_d76c6d4720.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122127/thumbnail_oliver_d76c6d4720.jpg
             ext: .jpg
             width: 115
             height: 156

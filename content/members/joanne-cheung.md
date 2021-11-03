@@ -14,19 +14,19 @@ events:
     - label: MACHINE EXPERIENCE II
       slug: machine-experience-ii
 picture:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122120/joanne_d77c82dd7a.jpg
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122120/joanne_d77c82dd7a.jpg
     width: 480
     height: 640
     ext: .jpg
     mime: image/jpeg
     formats:
         small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122122/small_joanne_d77c82dd7a.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122122/small_joanne_d77c82dd7a.jpg
             ext: .jpg
             width: 375
             height: 500
         thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122121/thumbnail_joanne_d77c82dd7a.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122121/thumbnail_joanne_d77c82dd7a.jpg
             ext: .jpg
             width: 117
             height: 156

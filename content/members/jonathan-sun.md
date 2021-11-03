@@ -13,29 +13,29 @@ events:
     - label: MACHINE EXPERIENCE
       slug: machine-experience
 picture:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122125/jonathan_2a654b1e92.jpg
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122125/jonathan_2a654b1e92.jpg
     width: 850
     height: 1275
     ext: .jpg
     mime: image/jpeg
     formats:
         large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122127/large_jonathan_2a654b1e92.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122127/large_jonathan_2a654b1e92.jpg
             ext: .jpg
             width: 667
             height: 1000
         medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122127/medium_jonathan_2a654b1e92.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122127/medium_jonathan_2a654b1e92.jpg
             ext: .jpg
             width: 500
             height: 750
         small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122128/small_jonathan_2a654b1e92.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122128/small_jonathan_2a654b1e92.jpg
             ext: .jpg
             width: 333
             height: 500
         thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122126/thumbnail_jonathan_2a654b1e92.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122126/thumbnail_jonathan_2a654b1e92.jpg
             ext: .jpg
             width: 104
             height: 156

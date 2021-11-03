@@ -50,19 +50,19 @@ projects:
     - label: Womanhouse (a memory theater)
       slug: womanhouse-a-memory-theater
 picture:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122126/kim_7989e0da77.jpg
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122126/kim_7989e0da77.jpg
     width: 500
     height: 700
     ext: .jpg
     mime: image/jpeg
     formats:
         small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122127/small_kim_7989e0da77.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122127/small_kim_7989e0da77.jpg
             ext: .jpg
             width: 357
             height: 500
         thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122127/thumbnail_kim_7989e0da77.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122127/thumbnail_kim_7989e0da77.jpg
             ext: .jpg
             width: 111
             height: 156

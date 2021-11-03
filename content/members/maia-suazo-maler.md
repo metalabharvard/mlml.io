@@ -16,24 +16,24 @@ events:
     - label: MACHINE EXPERIENCE II
       slug: machine-experience-ii
 picture:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122129/maia_0bf4d55c3b.jpg
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122129/maia_0bf4d55c3b.jpg
     width: 850
     height: 567
     ext: .jpg
     mime: image/jpeg
     formats:
         medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122130/medium_maia_0bf4d55c3b.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122130/medium_maia_0bf4d55c3b.jpg
             ext: .jpg
             width: 750
             height: 500
         small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122130/small_maia_0bf4d55c3b.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122130/small_maia_0bf4d55c3b.jpg
             ext: .jpg
             width: 500
             height: 334
         thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122130/thumbnail_maia_0bf4d55c3b.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122130/thumbnail_maia_0bf4d55c3b.jpg
             ext: .jpg
             width: 234
             height: 156

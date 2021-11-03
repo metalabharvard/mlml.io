@@ -12,24 +12,24 @@ events:
     - label: metaLAB + friends openLAB
       slug: meta-lab-friends-open-lab
 picture:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122121/pip_dabd241b66.jpg
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122121/pip_dabd241b66.jpg
     width: 800
     height: 800
     ext: .jpg
     mime: image/jpeg
     formats:
         medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122123/medium_pip_dabd241b66.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122123/medium_pip_dabd241b66.jpg
             ext: .jpg
             width: 750
             height: 750
         small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122123/small_pip_dabd241b66.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122123/small_pip_dabd241b66.jpg
             ext: .jpg
             width: 500
             height: 500
         thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122121/thumbnail_pip_dabd241b66.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122121/thumbnail_pip_dabd241b66.jpg
             ext: .jpg
             width: 156
             height: 156

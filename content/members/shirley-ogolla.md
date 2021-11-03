@@ -9,19 +9,19 @@ lastmod: "2021-11-02T18:34:50.731Z"
 date: "2021-09-16T10:51:44.877Z"
 slug: shirley-ogolla
 picture:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122117/shirley_216cdc32cf.jpg
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122117/shirley_216cdc32cf.jpg
     width: 522
     height: 717
     ext: .jpg
     mime: image/jpeg
     formats:
         small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122117/small_shirley_216cdc32cf.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122117/small_shirley_216cdc32cf.jpg
             ext: .jpg
             width: 364
             height: 500
         thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122117/thumbnail_shirley_216cdc32cf.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122117/thumbnail_shirley_216cdc32cf.jpg
             ext: .jpg
             width: 114
             height: 156

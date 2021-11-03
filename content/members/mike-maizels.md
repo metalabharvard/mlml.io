@@ -9,29 +9,29 @@ lastmod: "2021-11-02T18:33:17.001Z"
 date: "2021-09-16T10:51:45.402Z"
 slug: mike-maizels
 picture:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122136/mike_f8b77d28f5.jpg
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122136/mike_f8b77d28f5.jpg
     width: 4107
     height: 6160
     ext: .jpg
     mime: image/jpeg
     formats:
         large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122138/large_mike_f8b77d28f5.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122138/large_mike_f8b77d28f5.jpg
             ext: .jpg
             width: 667
             height: 1000
         medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122138/medium_mike_f8b77d28f5.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122138/medium_mike_f8b77d28f5.jpg
             ext: .jpg
             width: 500
             height: 750
         small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122138/small_mike_f8b77d28f5.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122138/small_mike_f8b77d28f5.jpg
             ext: .jpg
             width: 333
             height: 500
         thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122137/thumbnail_mike_f8b77d28f5.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122137/thumbnail_mike_f8b77d28f5.jpg
             ext: .jpg
             width: 104
             height: 156

@@ -15,24 +15,24 @@ projects:
     - label: Curatorial A(i)gents
       slug: curatorial-aigents
 picture:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122113/chelsea_58001980d3.jpg
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122113/chelsea_58001980d3.jpg
     width: 800
     height: 872
     ext: .jpg
     mime: image/jpeg
     formats:
         medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122115/medium_chelsea_58001980d3.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122115/medium_chelsea_58001980d3.jpg
             ext: .jpg
             width: 688
             height: 750
         small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122115/small_chelsea_58001980d3.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122115/small_chelsea_58001980d3.jpg
             ext: .jpg
             width: 459
             height: 500
         thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122114/thumbnail_chelsea_58001980d3.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122114/thumbnail_chelsea_58001980d3.jpg
             ext: .jpg
             width: 143
             height: 156

@@ -12,14 +12,14 @@ projects:
     - label: futureSTAGE
       slug: futurestage
 picture:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122128/magda_e930e14e79.jpg
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122128/magda_e930e14e79.jpg
     width: 300
     height: 398
     ext: .jpg
     mime: image/jpeg
     formats:
         thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122129/thumbnail_magda_e930e14e79.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122129/thumbnail_magda_e930e14e79.jpg
             ext: .jpg
             width: 118
             height: 156

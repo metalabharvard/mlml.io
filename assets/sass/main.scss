@@ -5,7 +5,7 @@
 :root {
   --columns: 12;
   --size-wrapper: min(90vw, 1280px);
-  --size-gap: 30px;
+  --size-gap: min(2vw, 30px);
   --size-column: calc(((var(--size-wrapper) - var(--size-gap) * (var(--columns) - 1)) / var(--columns)));
 
   --color-text: #282828;

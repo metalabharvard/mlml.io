@@ -9,29 +9,29 @@ lastmod: "2021-11-02T18:29:22.088Z"
 date: "2021-09-16T10:51:45.070Z"
 slug: piera-riccio
 picture:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122123/piera_3aaf5ff10e.jpg
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122123/piera_3aaf5ff10e.jpg
     width: 800
     height: 1200
     ext: .jpg
     mime: image/jpeg
     formats:
         large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122125/large_piera_3aaf5ff10e.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122125/large_piera_3aaf5ff10e.jpg
             ext: .jpg
             width: 667
             height: 1000
         medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122125/medium_piera_3aaf5ff10e.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122125/medium_piera_3aaf5ff10e.jpg
             ext: .jpg
             width: 500
             height: 750
         small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122126/small_piera_3aaf5ff10e.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122126/small_piera_3aaf5ff10e.jpg
             ext: .jpg
             width: 333
             height: 500
         thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122123/thumbnail_piera_3aaf5ff10e.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122123/thumbnail_piera_3aaf5ff10e.jpg
             ext: .jpg
             width: 104
             height: 156

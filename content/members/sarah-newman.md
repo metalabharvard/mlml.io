@@ -32,29 +32,29 @@ projects:
     - label: 'Networks + Natures: Feral Trees'
       slug: networks-natures-feral-trees
 picture:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122129/newman_268d9cfd9e.jpg
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122129/newman_268d9cfd9e.jpg
     width: 800
     height: 1055
     ext: .jpg
     mime: image/jpeg
     formats:
         large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122131/large_newman_268d9cfd9e.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122131/large_newman_268d9cfd9e.jpg
             ext: .jpg
             width: 758
             height: 1000
         medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122131/medium_newman_268d9cfd9e.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122131/medium_newman_268d9cfd9e.jpg
             ext: .jpg
             width: 569
             height: 750
         small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122131/small_newman_268d9cfd9e.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122131/small_newman_268d9cfd9e.jpg
             ext: .jpg
             width: 379
             height: 500
         thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122130/thumbnail_newman_268d9cfd9e.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122130/thumbnail_newman_268d9cfd9e.jpg
             ext: .jpg
             width: 118
             height: 156
