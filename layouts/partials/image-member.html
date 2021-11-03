@@ -1,3 +1,4 @@
+{{ $isPreview := .isPreview }}
 {{ $original := .picture }}
 {{ $large := .picture.formats.large }}
 {{ $medium := .picture.formats.medium }}
@@ -20,11 +21,17 @@
       {{ replace $large.url $large.ext ".webp" }} {{ $large.width }}w{{- end -}}{{- if and $original.url (gt $original.width $large.width) -}},
       {{ replace $original.url $original.ext ".webp" }} {{ $original.width }}w{{ end }}
     "
-    {{/* These are the different sizes the member picture can have on the single member page */}}
     sizes="
+      {{ if $isPreview }}
+      {{/* These are the different sizes the member picture can have on the single member page */}}
       (min-width: 900px) calc(min({{ $column }} * 2, 20vw)),
       (min-width: 1200px) calc(min({{ $column }} * 3, 20vw)),
       calc(min({{ $column }} * 4, 20vw))
+      {{ else }}
+      (min-width: 900px) 160px,
+      (min-width: 1200px) 120px,
+      80px
+      {{ end }}
     "
     />
   {{ end }}
@@ -38,11 +45,17 @@
       {{ $large.url }} {{ $large.width }}w{{- end -}}{{- if and $original.url (gt $original.width $large.width) -}},
       {{ $original.url }} {{ $original.width }}w{{ end }}
     "
-    {{/* These are the different sizes the member picture can have on the single member page */}}
     sizes="
+      {{ if $isPreview }}
+      {{/* These are the different sizes the member picture can have on the single member page */}}
       (min-width: 900px) calc(min({{ $column }} * 2, 20vw)),
       (min-width: 1200px) calc(min({{ $column }} * 3, 20vw)),
       calc(min({{ $column }} * 4, 20vw))
+      {{ else }}
+      (min-width: 900px) 160px,
+      (min-width: 1200px) 120px,
+      80px
+      {{ end }}
     "
     />
   {{ if .picture.url }}

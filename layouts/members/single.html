@@ -15,7 +15,7 @@
     {{ $defaultLabel := string (printf .Site.Params.Label.ProfilePicture $name) }}
     {{ with .Params.picture -}}
     <div class="member-image" property="image">
-      {{- partial "image-member.html" (dict "picture" . "alt" $defaultLabel "title" $defaultLabel) -}}
+      {{- partial "image-member.html" (dict "picture" . "alt" $defaultLabel "title" $defaultLabel "isPreview" false) -}}
     </div>
     {{- end }}
     <aside class="member-aside grid-narrow-left-aside">
