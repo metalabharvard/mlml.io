@@ -11,6 +11,7 @@ picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122130/margaret_7feaa382e4.jpg
     width: 800
     height: 1067
+    ext: .jpg
     formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122131/large_margaret_7feaa382e4.jpg

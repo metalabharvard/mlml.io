@@ -15,6 +15,7 @@ picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1634897540/giulia_6f9209b93d.jpg
     width: 757
     height: 900
+    ext: .jpg
     formats:
         medium:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1634897541/medium_giulia_6f9209b93d.jpg

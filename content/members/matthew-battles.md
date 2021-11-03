@@ -40,6 +40,7 @@ picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122131/matthew_18c95f4abd.jpg
     width: 850
     height: 850
+    ext: .jpg
     formats:
         medium:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122131/medium_matthew_18c95f4abd.jpg

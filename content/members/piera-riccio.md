@@ -12,6 +12,7 @@ picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122123/piera_3aaf5ff10e.jpg
     width: 800
     height: 1200
+    ext: .jpg
     formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122125/large_piera_3aaf5ff10e.jpg

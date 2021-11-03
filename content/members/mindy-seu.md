@@ -18,6 +18,7 @@ picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122129/mindy_a641d744c3.jpg
     width: 850
     height: 850
+    ext: .jpg
     formats:
         medium:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122130/medium_mindy_a641d744c3.jpg

@@ -15,6 +15,7 @@ picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122112/chiara_52b06372bc.jpg
     width: 800
     height: 805
+    ext: .jpg
     formats:
         medium:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122113/medium_chiara_52b06372bc.jpg

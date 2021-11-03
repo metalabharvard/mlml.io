@@ -12,6 +12,7 @@ picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122136/mike_f8b77d28f5.jpg
     width: 4107
     height: 6160
+    ext: .jpg
     formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122138/large_mike_f8b77d28f5.jpg

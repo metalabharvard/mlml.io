@@ -12,6 +12,7 @@ picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122117/jason_9d418e4152.jpg
     width: 850
     height: 850
+    ext: .jpg
     formats:
         medium:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122118/medium_jason_9d418e4152.jpg

@@ -18,6 +18,7 @@ picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122113/chelsea_58001980d3.jpg
     width: 800
     height: 872
+    ext: .jpg
     formats:
         medium:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122115/medium_chelsea_58001980d3.jpg

@@ -38,6 +38,7 @@ picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122118/jeffrey_c976257763.jpg
     width: 850
     height: 850
+    ext: .jpg
     formats:
         medium:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122120/medium_jeffrey_c976257763.jpg

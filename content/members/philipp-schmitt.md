@@ -19,6 +19,7 @@ picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122123/philipp_b9bb3f6b65.jpg
     width: 460
     height: 598
+    ext: .jpg
     formats:
         small:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122125/small_philipp_b9bb3f6b65.jpg

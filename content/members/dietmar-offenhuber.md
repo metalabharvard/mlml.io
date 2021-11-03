@@ -18,6 +18,7 @@ picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1634898422/dietmar_ddec27646c.jpg
     width: 555
     height: 532
+    ext: .jpg
     formats:
         small:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1634898423/small_dietmar_ddec27646c.jpg

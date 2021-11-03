@@ -10,6 +10,7 @@ picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122115/stephanie_a64d57dcab.jpg
     width: 850
     height: 521
+    ext: .jpg
     formats:
         medium:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122117/medium_stephanie_a64d57dcab.jpg

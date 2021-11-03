@@ -16,6 +16,7 @@ picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122126/paolo_petrocelli_372e50e116.jpg
     width: 796
     height: 786
+    ext: .jpg
     formats:
         medium:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122127/medium_paolo_petrocelli_372e50e116.jpg

@@ -15,6 +15,7 @@ picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122121/pip_dabd241b66.jpg
     width: 800
     height: 800
+    ext: .jpg
     formats:
         medium:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122123/medium_pip_dabd241b66.jpg

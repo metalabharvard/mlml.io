@@ -12,6 +12,7 @@ picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122117/shirley_216cdc32cf.jpg
     width: 522
     height: 717
+    ext: .jpg
     formats:
         small:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122117/small_shirley_216cdc32cf.jpg

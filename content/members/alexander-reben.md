@@ -13,6 +13,7 @@ picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122111/alexander_5d5278090b.jpg
     width: 720
     height: 1080
+    ext: .jpg
     formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122112/large_alexander_5d5278090b.jpg

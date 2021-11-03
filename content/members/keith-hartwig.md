@@ -17,6 +17,7 @@ picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122123/keith_bbbb2d5d7b.jpg
     width: 850
     height: 680
+    ext: .jpg
     formats:
         medium:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122125/medium_keith_bbbb2d5d7b.jpg

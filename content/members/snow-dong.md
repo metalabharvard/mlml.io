@@ -12,6 +12,7 @@ picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122115/snow_6f84cb16a3.jpg
     width: 850
     height: 812
+    ext: .jpg
     formats:
         medium:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122116/medium_snow_6f84cb16a3.jpg

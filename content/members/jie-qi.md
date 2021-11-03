@@ -15,6 +15,7 @@ picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122121/jie_86dc5daa52.jpg
     width: 850
     height: 1275
+    ext: .jpg
     formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122123/large_jie_86dc5daa52.jpg

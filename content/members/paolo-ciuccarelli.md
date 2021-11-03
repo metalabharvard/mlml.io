@@ -12,6 +12,7 @@ picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122125/paolo_81e6c08fc8.jpg
     width: 231
     height: 330
+    ext: .jpg
     formats:
         thumbnail:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122126/thumbnail_paolo_81e6c08fc8.jpg

@@ -15,6 +15,7 @@ picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122127/oliver_d76c6d4720.jpg
     width: 550
     height: 744
+    ext: .jpg
     formats:
         small:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122127/small_oliver_d76c6d4720.jpg

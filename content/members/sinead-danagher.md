@@ -12,6 +12,7 @@ picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122117/sinead_0db4ba8033.jpg
     width: 850
     height: 1134
+    ext: .jpg
     formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122118/large_sinead_0db4ba8033.jpg

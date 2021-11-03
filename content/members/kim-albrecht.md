@@ -53,6 +53,7 @@ picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122126/kim_7989e0da77.jpg
     width: 500
     height: 700
+    ext: .jpg
     formats:
         small:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122127/small_kim_7989e0da77.jpg

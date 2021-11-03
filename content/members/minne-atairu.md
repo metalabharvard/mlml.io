@@ -13,6 +13,7 @@ picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122129/minne_615aa5b77a.jpg
     width: 432
     height: 549
+    ext: .jpg
     formats:
         small:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122130/small_minne_615aa5b77a.jpg

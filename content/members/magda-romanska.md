@@ -15,6 +15,7 @@ picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122128/magda_e930e14e79.jpg
     width: 300
     height: 398
+    ext: .jpg
     formats:
         thumbnail:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122129/thumbnail_magda_e930e14e79.jpg

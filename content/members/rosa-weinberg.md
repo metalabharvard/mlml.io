@@ -13,6 +13,7 @@ picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122118/rosa_de3699f2c8.jpg
     width: 493
     height: 493
+    ext: .jpg
     formats:
         thumbnail:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122119/thumbnail_rosa_de3699f2c8.jpg

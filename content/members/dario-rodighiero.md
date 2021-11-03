@@ -22,6 +22,7 @@ picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122112/dario_ea88134bd4.jpg
     width: 800
     height: 1067
+    ext: .jpg
     formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122114/large_dario_ea88134bd4.jpg

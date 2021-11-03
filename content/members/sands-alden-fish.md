@@ -17,6 +17,7 @@ picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122117/sands_0bfb3a717e.jpg
     width: 850
     height: 850
+    ext: .jpg
     formats:
         medium:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122118/medium_sands_0bfb3a717e.jpg

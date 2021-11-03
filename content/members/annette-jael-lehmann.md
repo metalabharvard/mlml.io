@@ -19,6 +19,7 @@ picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122112/annette_b0bfbbd583.jpg
     width: 480
     height: 640
+    ext: .jpg
     formats:
         small:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122115/small_annette_b0bfbbd583.jpg

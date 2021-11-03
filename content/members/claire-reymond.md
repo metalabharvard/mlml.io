@@ -10,6 +10,7 @@ picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122112/claire_9e5557d676.jpg
     width: 683
     height: 945
+    ext: .jpg
     formats:
         medium:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122113/medium_claire_9e5557d676.jpg

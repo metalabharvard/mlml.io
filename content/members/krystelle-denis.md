@@ -13,6 +13,7 @@ picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122126/krystelle_af83499e74.jpg
     width: 850
     height: 850
+    ext: .jpg
     formats:
         medium:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122127/medium_krystelle_af83499e74.jpg
