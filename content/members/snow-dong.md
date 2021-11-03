@@ -13,6 +13,7 @@ picture:
     width: 850
     height: 812
     ext: .jpg
+    mime: image/jpeg
     formats:
         medium:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122116/medium_snow_6f84cb16a3.jpg

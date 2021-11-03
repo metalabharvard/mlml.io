@@ -20,6 +20,7 @@ picture:
     width: 374
     height: 376
     ext: .jpg
+    mime: image/jpeg
     formats:
         thumbnail:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122115/thumbnail_eveline_2d3eddbe9e.jpg

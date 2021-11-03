@@ -14,6 +14,7 @@ picture:
     width: 850
     height: 850
     ext: .jpg
+    mime: image/jpeg
     formats:
         medium:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122127/medium_krystelle_af83499e74.jpg

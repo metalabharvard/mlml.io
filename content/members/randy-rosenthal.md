@@ -13,6 +13,7 @@ picture:
     width: 685
     height: 718
     ext: .jpg
+    mime: image/jpeg
     formats:
         small:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122121/small_randy_e3e481b6d5.jpg

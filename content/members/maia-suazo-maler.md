@@ -20,6 +20,7 @@ picture:
     width: 850
     height: 567
     ext: .jpg
+    mime: image/jpeg
     formats:
         medium:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122130/medium_maia_0bf4d55c3b.jpg

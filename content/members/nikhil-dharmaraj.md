@@ -13,6 +13,7 @@ picture:
     width: 800
     height: 852
     ext: .jpg
+    mime: image/jpeg
     formats:
         medium:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122129/medium_nikhil_a9de0b2319.jpg

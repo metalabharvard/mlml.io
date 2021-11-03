@@ -19,6 +19,7 @@ picture:
     width: 800
     height: 872
     ext: .jpg
+    mime: image/jpeg
     formats:
         medium:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122115/medium_chelsea_58001980d3.jpg

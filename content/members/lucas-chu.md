@@ -11,6 +11,7 @@ picture:
     width: 250
     height: 333
     ext: .jpg
+    mime: image/jpeg
     formats:
         thumbnail:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1634898960/thumbnail_lucas_a60431186b.jpg

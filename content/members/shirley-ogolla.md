@@ -13,6 +13,7 @@ picture:
     width: 522
     height: 717
     ext: .jpg
+    mime: image/jpeg
     formats:
         small:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122117/small_shirley_216cdc32cf.jpg

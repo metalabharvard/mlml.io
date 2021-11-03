@@ -20,6 +20,7 @@ picture:
     width: 460
     height: 598
     ext: .jpg
+    mime: image/jpeg
     formats:
         small:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122125/small_philipp_b9bb3f6b65.jpg

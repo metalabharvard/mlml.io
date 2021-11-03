@@ -36,6 +36,7 @@ picture:
     width: 800
     height: 1055
     ext: .jpg
+    mime: image/jpeg
     formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122131/large_newman_268d9cfd9e.jpg

@@ -22,6 +22,7 @@ picture:
     width: 376
     height: 376
     ext: .jpg
+    mime: image/jpeg
     formats:
         thumbnail:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122116/thumbnail_francisco_db4834b143.jpg

@@ -13,6 +13,7 @@ picture:
     width: 4107
     height: 6160
     ext: .jpg
+    mime: image/jpeg
     formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122138/large_mike_f8b77d28f5.jpg

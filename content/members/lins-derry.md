@@ -27,6 +27,7 @@ picture:
     width: 500
     height: 500
     ext: .jpg
+    mime: image/jpeg
     formats:
         thumbnail:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1634897826/thumbnail_lins_ac5067553c.jpg

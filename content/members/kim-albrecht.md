@@ -54,6 +54,7 @@ picture:
     width: 500
     height: 700
     ext: .jpg
+    mime: image/jpeg
     formats:
         small:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122127/small_kim_7989e0da77.jpg

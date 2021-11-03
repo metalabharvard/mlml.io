@@ -18,6 +18,7 @@ picture:
     width: 480
     height: 640
     ext: .jpg
+    mime: image/jpeg
     formats:
         small:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122122/small_joanne_d77c82dd7a.jpg

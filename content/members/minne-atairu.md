@@ -14,6 +14,7 @@ picture:
     width: 432
     height: 549
     ext: .jpg
+    mime: image/jpeg
     formats:
         small:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122130/small_minne_615aa5b77a.jpg

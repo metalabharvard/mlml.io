@@ -18,6 +18,7 @@ picture:
     width: 850
     height: 680
     ext: .jpg
+    mime: image/jpeg
     formats:
         medium:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122125/medium_keith_bbbb2d5d7b.jpg

@@ -18,6 +18,7 @@ picture:
     width: 850
     height: 850
     ext: .jpg
+    mime: image/jpeg
     formats:
         medium:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122118/medium_sands_0bfb3a717e.jpg

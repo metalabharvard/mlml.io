@@ -17,6 +17,7 @@ picture:
     width: 850
     height: 1275
     ext: .jpg
+    mime: image/jpeg
     formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122127/large_jonathan_2a654b1e92.jpg

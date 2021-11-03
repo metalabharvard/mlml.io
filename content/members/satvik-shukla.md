@@ -14,6 +14,7 @@ picture:
     width: 800
     height: 1355
     ext: .jpg
+    mime: image/jpeg
     formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122122/large_satvik_3b13e81965.jpg

@@ -23,6 +23,7 @@ picture:
     width: 800
     height: 1067
     ext: .jpg
+    mime: image/jpeg
     formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122114/large_dario_ea88134bd4.jpg

@@ -13,6 +13,7 @@ picture:
     width: 720
     height: 960
     ext: .jpg
+    mime: image/jpeg
     formats:
         medium:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122113/medium_antonio_58ae3bf75b.jpg

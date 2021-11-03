@@ -14,6 +14,7 @@ picture:
     width: 800
     height: 1067
     ext: .jpg
+    mime: image/jpeg
     formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122128/large_leo_59a4801978.jpg

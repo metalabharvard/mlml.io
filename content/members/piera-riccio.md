@@ -13,6 +13,7 @@ picture:
     width: 800
     height: 1200
     ext: .jpg
+    mime: image/jpeg
     formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122125/large_piera_3aaf5ff10e.jpg

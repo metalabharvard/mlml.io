@@ -16,6 +16,7 @@ picture:
     width: 800
     height: 800
     ext: .jpg
+    mime: image/jpeg
     formats:
         medium:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122123/medium_pip_dabd241b66.jpg

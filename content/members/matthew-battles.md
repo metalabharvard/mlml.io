@@ -41,6 +41,7 @@ picture:
     width: 850
     height: 850
     ext: .jpg
+    mime: image/jpeg
     formats:
         medium:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122131/medium_matthew_18c95f4abd.jpg

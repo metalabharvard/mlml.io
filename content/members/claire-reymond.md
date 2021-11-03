@@ -11,6 +11,7 @@ picture:
     width: 683
     height: 945
     ext: .jpg
+    mime: image/jpeg
     formats:
         medium:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122113/medium_claire_9e5557d676.jpg

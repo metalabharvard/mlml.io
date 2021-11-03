@@ -14,6 +14,7 @@ picture:
     width: 493
     height: 493
     ext: .jpg
+    mime: image/jpeg
     formats:
         thumbnail:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122119/thumbnail_rosa_de3699f2c8.jpg

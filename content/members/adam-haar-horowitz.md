@@ -18,6 +18,7 @@ picture:
     width: 720
     height: 480
     ext: .jpg
+    mime: image/jpeg
     formats:
         small:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122112/small_adam_98e3f556e4.jpg

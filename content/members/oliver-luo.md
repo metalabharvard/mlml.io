@@ -16,6 +16,7 @@ picture:
     width: 550
     height: 744
     ext: .jpg
+    mime: image/jpeg
     formats:
         small:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1629122127/small_oliver_d76c6d4720.jpg

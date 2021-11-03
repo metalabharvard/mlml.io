@@ -17,6 +17,7 @@ picture:
     width: 300
     height: 460
     ext: .jpg
+    mime: image/jpeg
     formats:
         thumbnail:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1634898362/thumbnail_jeanette_5e34f05496.jpg
