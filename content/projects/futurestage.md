@@ -9,7 +9,7 @@ mediation: performance
 category: project
 isFeatured: true
 externalLink: ""
-lastmod: "2021-11-02T16:24:37.262Z"
+lastmod: "2021-11-03T16:54:24.150Z"
 date: "2021-06-16"
 slug: futurestage
 collaborators:
@@ -310,45 +310,25 @@ The project is coordinated by Jeffrey Schnapp and Paolo Petrocelli.
 
 Members of Research Group:
 
-Matthew Battles (USA) Director of Scholarly Initiatives, metaLAB (at) Harvard
-
-Cathie Boyd (Ireland/Scotland) Founder & Artistic Director, Cryptic
-
-Marc Brickman (USA) Managing Director, Tactical Manoeuvre
-
-Paolo Ciuccarelli (Italy/USA) Founding Director, Center for Design, Northeastern University, Boston
-
-Wesley Cornwell (USA) Harvard Graduate School of Design
-
-Lins Derry (USA) Prinicipal, metaLAB (at) Harvard
-
-Evenlyn Ficarra (UK) Associate Director, Centre for Research in Opera and Music Theatre, University of Sussex
-
-Mariana Ibañez (Argentina/USA) Chair and Associate Professor, Architecture and Urban Design, UCLA; Co-founder, Ibañez Kim
-
-Simone Kim (USA) Director, Immersive Kinematics Research Group; Co-founder, Ibañez Kim
-
-Mohammed Obaidullah (Saudi Arabia) Producer
-
-Jay Pather (South Africa) Director, Institute for Creative Arts, University of Cape Town
-
-Paolo Petrocelli (Italy) Research Affiliate, metaLAB at Harvard
-
-Cui Qiao (China) President, Beijing Contemporary Art Foundation
-
-Magda Romanska (USA) Associate Professor of Theatre Studies and Dramaturgy, Emerson College; Executive Director and Editor-in-Chief, TheTheatreTimes.com
-
-Adama Sanneh (ITA) Co-Founder and CEO, Moleskine Foundation
-
-Anthony Sargent (UK) International Cultural Consultant
-
-Jeffrey Schnapp (USA) Faculty Director, metaLAB (at) Harvard
-
-Shain Shapiro (UK) Founder & CEO, Sound Diplomacy
-
-Sydney Skybetter (USA) Founder, Conference for Research on Choreographic Interfaces
-
-Jean-Philippe Thiellay (France) President, Centre national de la musique
-
-Shahrokh Yadegari (USA) Director, Sonic Arts Research and Development group at the University of California San Diego; Director, Initiative for Digital Exploration of Arts and Sciences at the Qualcomm Institute
+- Matthew Battles (USA) Director of Scholarly Initiatives, metaLAB (at) Harvard
+- Cathie Boyd (Ireland/Scotland) Founder & Artistic Director, Cryptic
+- Marc Brickman (USA) Managing Director, Tactical Manoeuvre
+- Paolo Ciuccarelli (Italy/USA) Founding Director, Center for Design, Northeastern University, Boston
+- Wesley Cornwell (USA) Harvard Graduate School of Design
+- Lins Derry (USA) Prinicipal, metaLAB (at) Harvard
+- Evenlyn Ficarra (UK) Associate Director, Centre for Research in Opera and Music Theatre, University of Sussex
+- Mariana Ibañez (Argentina/USA) Chair and Associate Professor, Architecture and Urban Design, UCLA; Co-founder, Ibañez Kim
+- Simone Kim (USA) Director, Immersive Kinematics Research Group; Co-founder, Ibañez Kim
+- Mohammed Obaidullah (Saudi Arabia) Producer
+- Jay Pather (South Africa) Director, Institute for Creative Arts, University of Cape Town
+- Paolo Petrocelli (Italy) Research Affiliate, metaLAB at Harvard
+- Cui Qiao (China) President, Beijing Contemporary Art Foundation
+- Magda Romanska (USA) Associate Professor of Theatre Studies and Dramaturgy, Emerson College; Executive Director and Editor-in-Chief, TheTheatreTimes.com
+- Adama Sanneh (ITA) Co-Founder and CEO, Moleskine Foundation
+- Anthony Sargent (UK) International Cultural Consultant
+- Jeffrey Schnapp (USA) Faculty Director, metaLAB (at) Harvard
+- Shain Shapiro (UK) Founder & CEO, Sound Diplomacy
+- Sydney Skybetter (USA) Founder, Conference for Research on Choreographic Interfaces
+- Jean-Philippe Thiellay (France) President, Centre national de la musique
+- Shahrokh Yadegari (USA) Director, Sonic Arts Research and Development group at the University of California San Diego; Director, Initiative for Digital Exploration of Arts and Sciences at the Qualcomm Institute
 

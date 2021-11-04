@@ -7,9 +7,9 @@ location: ""
 host: harvard
 mediation: web
 category: project
-isFeatured: true
+isFeatured: false
 externalLink: https://artificial-senses.kimalbrecht.com/
-lastmod: "2021-10-14T16:16:05.715Z"
+lastmod: "2021-11-02T17:15:14.285Z"
 date: "2017-06-01"
 slug: artificial-senses
 events:

@@ -1,11 +1,15 @@
 ---
 name: Annette Jael Lehmann
 title: Annette Jael Lehmann
+roles:
+    - role: Founder
+      position: 1
 isAlumnus: false
-rank: 9.999
+rank: 1.999
+role_string: Founder
 website: http://annette-jael-lehmann.de/
 instagram: annettejaellehmann
-lastmod: "2021-11-02T18:36:41.561Z"
+lastmod: "2021-11-03T16:57:06.852Z"
 date: "2021-09-16T10:51:44.527Z"
 slug: annette-jael-lehmann
 projects:
