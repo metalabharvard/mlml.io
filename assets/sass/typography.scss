@@ -475,6 +475,8 @@ ul {
 }
 
 .project-description, .member-description, .event-description {
+  min-width: 0; // https://css-tricks.com/preventing-a-grid-blowout/
+
   p + p {
     margin-top: var(--spacing-05);
   }
@@ -483,18 +485,101 @@ ul {
     margin-top: var(--spacing-05);
   }
 
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    line-height: 1.1;
+    text-transform: none;
+    font-weight: $font-weight-bold;
+    letter-spacing: 0;
+    margin-bottom: var(--spacing-025);
+    margin-top: var(--spacing-1);
+  }
+
+  h1 {
+    font-size: var(--size-1);
+  }
+
+  h2 {
+    font-size: var(--size-2);
+  }
+
+  h3 {
+    font-size: var(--size-3);
+  }
+
+  h4 {
+    font-size: var(--size-4);
+  }
+
+  h5 {
+    font-size: var(--size-4);
+    font-weight: $font-weight-medium;
+  }
+
+  h6 {
+    font-size: var(--size-5);
+  }
+
   ul, ol {
     margin-top: var(--spacing-05);
     margin-bottom: var(--spacing-05);
 
     li {
-      padding-left: var(--spacing-05);
-      margin-left: var(--spacing-1);
+      padding-left: var(--spacing-1);
+      // margin-left: var(--spacing-1);
+
+      // padding: 0.2em $spacing 0.2em 1.6em;
+      position: relative;
+      // line-height: 1.5em;
+      display: block;
+
+      &:before {
+        content: "—";
+        @include gradient-text();
+        position: absolute;
+        left: 0;
+      }
     }
   }
 
   p, ul, ol {
     @include text-default();
+  }
+
+  pre, code {
+    font-size: var(--font-size-s);
+    font-weight: 400;
+    letter-spacing: .32px;
+    line-height: 1.33333;
+  }
+
+  p code {
+    background-color: var(--color-border);
+    border-radius: 2px;
+    color: var(--color-text);
+    display: inline;
+    padding: 0 var(--spacing-0125);
+  }
+
+  pre {
+    background-color: var(--color-bg-secondary);
+    color: var(--color-text-invert);
+    font-size: var(--font-size-s);
+    padding: var(--spacing-0125);
+    overflow-x: auto;
+  }
+
+  blockquote {
+    p {
+      font-style: italic;
+      font-size: var(--size-3);
+      font-weight: $font-weight-medium;
+      line-height: 1.3;
+    }
+
+    margin: var(--spacing-1) 0;
+    padding-left: var(--spacing-1);
+    @include gradient-border-left(var(--gradient-border-width));
   }
 }
 
