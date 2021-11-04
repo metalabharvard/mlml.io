@@ -43,6 +43,17 @@
   --gradient-border-width: 2px;
 }
 
+@media screen and (-ms-high-contrast: active),
+  (forced-colors: active),
+  (prefers-contrast),
+  (prefers-contrast: more) {
+
+  --color-text: #000000;
+  --color-border: #000000;
+  --color-mute: #000000;
+  --color-gradient-o: #FF4800;
+}
+
 @include query($medium) {
   :root {
     --gradient-border-width: 3px;
