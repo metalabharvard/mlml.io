@@ -1,6 +1,5 @@
 name: Rebuild website
-on: 
-  push:
+on:
   schedule:
     - cron:  '0 4 * * *' # https://crontab.guru/#0_4_*_*_*
 jobs:
