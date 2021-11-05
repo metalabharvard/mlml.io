@@ -542,6 +542,20 @@ ul {
     }
   }
 
+  ol {
+    counter-reset: counter;
+
+    li {
+      counter-increment: counter;
+
+      &:before {
+        content: counter(counter) ". ";
+        font-size: var(--font-size-s);
+        top: 3px;
+      }
+    }
+  }
+
   p, ul, ol {
     @include text-default();
   }
@@ -567,6 +581,7 @@ ul {
     font-size: var(--font-size-s);
     padding: var(--spacing-0125);
     overflow-x: auto;
+    margin: var(--spacing-1) 0;
   }
 
   blockquote {
