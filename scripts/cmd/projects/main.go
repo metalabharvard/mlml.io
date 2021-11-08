@@ -10,6 +10,7 @@ import (
   "os"
   "time"
   "gopkg.in/yaml.v3"
+  "strings"
 )
 
 type Collaborator struct {
@@ -87,7 +88,7 @@ type Response struct {
   Date string `yaml:"date"`
   Slug string `yaml:"slug"`
   Collaborators []Collaborator `yaml:"collaborators,omitempty"`
-  PressArticle []PressArticle `yaml:"press_articles,omitempty"`
+  PressArticles []PressArticle `yaml:"press_articles,omitempty"`
   Links []Link `yaml:"links,omitempty"`
   Events []Event `yaml:"events,omitempty"`
   Members []Member `yaml:"members,omitempty"`
@@ -140,6 +141,34 @@ func getRelatedProjects(topics []Topic, allProjects []Response, slug string) []P
         }
       }
     }
+  }
+  return list
+}
+
+func trim(str string) string {
+  return strings.Trim(str, " ")
+}
+
+func cleanCollaborators(collaborators []Collaborator) []Collaborator {
+  var list []Collaborator
+  for _, c := range collaborators {
+    list = append(list, (Collaborator{trim(c.Label), trim(c.Url)}))
+  }
+  return list
+}
+
+func cleanLinks(Links []Link) []Link {
+  var list []Link
+  for _, c := range Links {
+    list = append(list, (Link{trim(c.Label), trim(c.Url)}))
+  }
+  return list
+}
+
+func cleanPressArticles(PressArticles []PressArticle) []PressArticle {
+  var list []PressArticle
+  for _, c := range PressArticles {
+    list = append(list, (PressArticle{trim(c.Label), trim(c.Url)}))
   }
   return list
 }
@@ -200,6 +229,12 @@ func main() {
 
     element.Projects = getRelatedProjects(element.Topics, responseObject, element.Slug)
     element.Topics = nil
+
+    element.Collaborators = cleanCollaborators(element.Collaborators)
+    element.Links = cleanLinks(element.Links)
+    element.PressArticles = cleanPressArticles(element.PressArticles)
+
+    element.Host = trim(element.Host)
 
     sort.Sort(MembersByName(element.Members))
     sort.Sort(EventsByName(element.Events))

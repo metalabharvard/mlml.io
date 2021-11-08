@@ -136,6 +136,10 @@ func (a EventsByName) Len() int           { return len(a) }
 func (a EventsByName) Less(i, j int) bool { return a[i].Title < a[j].Title }
 func (a EventsByName) Swap(i, j int)      { a[i], a[j] = a[j], a[i] }
 
+func trim(str string) string {
+  return strings.Trim(str, " ")
+}
+
 func main() {
   println("Requesting members")
   response, err := http.Get("https://metalab-strapi.herokuapp.com/members")
@@ -220,6 +224,11 @@ func main() {
     if element.Picture.Formats.Large.Url != "" {
       element.Picture.Formats.Large.Url = convertToGrayscale(element.Picture.Formats.Large.Url)
     }
+
+    element.Name = trim(element.Name)
+    element.Mail = trim(element.Mail)
+    element.Website = trim(element.Website)
+    element.Instagram = trim(element.Instagram)
 
     // if element.IsAlumnus {
     //   element.NoIndex = true

@@ -9,7 +9,7 @@ mediation: performance
 category: project
 isFeatured: true
 externalLink: ""
-lastmod: "2021-11-03T16:54:24.150Z"
+lastmod: "2021-11-05T10:26:31.361Z"
 date: "2021-06-16"
 slug: futurestage
 collaborators:
@@ -19,7 +19,7 @@ collaborators:
       url: ""
     - label: Wesley Cornwell
       url: ""
-    - label: 'Mariana Ibañez '
+    - label: Mariana Ibañez
       url: ""
     - label: Simone Kim
       url: ""

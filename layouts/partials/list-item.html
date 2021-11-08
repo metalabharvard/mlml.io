@@ -1,9 +1,9 @@
 <dd class="related-link {{ with .class }}related-{{ . }}{{ end }}" role="listitem">
-  {{ if and .url .label }}
+  {{- if and .url .label -}}
   <a href="{{ .url }}" rel="noopener noreferrer external" target="_blank">{{ .label }}</a>
-  {{ else if .label }}
+  {{- else if .label -}}
   <span>{{ .label }}</span>
-  {{ else }}
+  {{- else -}}
   <a href="{{ .url }}" rel="noopener noreferrer external" target="_blank">{{ .url }}</a>
-  {{ end }}
+  {{- end -}}
 </dd>

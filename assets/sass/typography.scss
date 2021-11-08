@@ -322,11 +322,27 @@ ul {
   font-weight: $font-weight-medium;
   line-height: 1.6;
 
-  dd:not(.related-links) {
-    display: inline-block;
+  dd:not(.related-links) { // These are the lists at the top of an event or project
+    display: inline;
+
+    &::after {
+      content: ", ";
+    }
+
+    &:last-of-type::after {
+      content: "";
+    }
+
+    &:nth-last-of-type(2)::after {
+      content: " and ";
+    }
+
+    &:first-of-type:nth-last-of-type(2)::after {
+      content: " and ";
+    }
   }
 
-  dd.related-links {
+  dd.related-links { // These are the links at the end of an event or project
     margin-bottom: var(--spacing-05);
     line-height: 1.2;
   }
