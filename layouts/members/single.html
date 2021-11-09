@@ -1,9 +1,9 @@
 {{ define "main" }}
   {{ $name := .Params.Name }}
-  <section class="homepage-member grid-full grid vcard" vocab="https://schema.org/" typeof="Person">
+  <section class="homepage-member grid-full grid vcard" itemscope itemtype="https://schema.org/Person">
     <header class="member-header grid-wide">
-      <h1 class="member-name fn" property="name">{{ .Params.Name }}</h1>
-      <span class="member-role role" property="jobTitle">
+      <h1 class="member-name fn" itemprop="name">{{ .Params.Name }}</h1>
+      <span class="member-role role" itemprop="jobTitle" >
       {{- if .Params.isAlumnus -}}
       {{- .Site.Params.Label.MemberAlumnus -}}
       {{- else -}}
@@ -14,7 +14,7 @@
     {{ $name := .Params.name }}
     {{ $defaultLabel := string (printf .Site.Params.Label.ProfilePicture $name) }}
     {{ with .Params.picture -}}
-    <div class="member-image" property="image">
+    <div class="member-image" itemprop="image">
       {{- partial "image-member.html" (dict "picture" . "alt" $defaultLabel "title" $defaultLabel "isPreview" false) -}}
     </div>
     {{- end }}
@@ -29,7 +29,7 @@
       {{ partial "icon-vimeo.html" (dict "handle" .Params.Vimeo "name" $name "template" .Site.Params.Label.SocialVimeoTitle) }}
     </aside>
     {{ if or (or .Params.Intro .Content) .Params.isAlumnus }}
-    <div class="member-description grid-narrow-left note">
+    <div class="member-description grid-narrow-left note" itemprop="description">
       {{ if .Params.isAlumnus }}
       <span role="alert">{{ .Site.Params.Label.label_alumni_update }}</span>
       {{ end }}
