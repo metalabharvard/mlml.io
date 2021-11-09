@@ -6,11 +6,11 @@ end: "2020-01-01"
 datestring: January 2020
 location: ""
 host: harvard
-mediation: mixed_media
+mediation: web
 category: publication
 isFeatured: false
 externalLink: ""
-lastmod: "2021-10-04T13:57:04.576Z"
+lastmod: "2021-11-09T18:26:09.035Z"
 date: "2020-01-01"
 slug: curricle-lens
 collaborators:
@@ -26,6 +26,31 @@ members:
     - label: Matthew Battles
       slug: matthew-battles
       twitter: matthewbattles
+cover:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355812/curricle_lens_crop_01_b9255616ab.png
+    width: 2880
+    height: 1800
+    formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355815/large_curricle_lens_crop_01_b9255616ab.png
+            ext: .png
+            width: 1000
+            height: 625
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355815/medium_curricle_lens_crop_01_b9255616ab.png
+            ext: .png
+            width: 750
+            height: 469
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355816/small_curricle_lens_crop_01_b9255616ab.png
+            ext: .png
+            width: 500
+            height: 313
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355813/thumbnail_curricle_lens_crop_01_b9255616ab.png
+            ext: .png
+            width: 245
+            height: 153
 gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355708/curricle_lens_computer_science_low_d469c6b8d6.gif
       width: 768

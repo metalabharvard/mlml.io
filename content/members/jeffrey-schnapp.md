@@ -2,16 +2,18 @@
 name: Jeffrey Schnapp
 title: Jeffrey Schnapp
 roles:
+    - role: Founder
+      position: 1
     - role: Principal
       position: 2
 isAlumnus: false
-rank: 2.999
-role_string: Principal
+rank: 1.299
+role_string: Founder and Principal
 intro: Eventually everything connects.
 twitter: jaytiesse
 website: http://jeffreyschnapp.com/
 instagram: jschnapp
-lastmod: "2021-09-16T10:58:29.329Z"
+lastmod: "2021-11-09T18:35:13.174Z"
 date: "2021-09-16T10:51:45.518Z"
 slug: jeffrey-schnapp
 events:
