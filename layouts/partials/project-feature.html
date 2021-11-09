@@ -4,16 +4,18 @@
     <img {{ printf "src=%q" . | safeHTMLAttr }} class="feature-image" />
     {{ end }}
     <div class="feature-title">
-      <span class="project-title p-name">{{ .project.Params.Title }}</span>
-      <footer>
-        {{ if .type }}
-        <span class="project-type p-category">{{ .type | title }}</span>
-        {{ else }}
-        {{ partial "span-mediation.html" (dict "mediation" .project.Params.Mediation) }}
-        {{ end }}
-        {{ partial "span-timespan.html" (dict "start" .project.Params.Start "end" .project.Params.End) }}
-        {{ partial "span-host.html" (dict "host" .project.Params.host "type" "project" "default" .defaultHost) }}
-      </footer>
+      <div class="feature-frame">
+        <span class="project-title p-name">{{ .project.Params.Title }}</span>
+        <footer>
+          {{ if .type }}
+          <span class="project-type p-category">{{ .type | title }}</span>
+          {{ else }}
+          {{ partial "span-mediation.html" (dict "mediation" .project.Params.Mediation) }}
+          {{ end }}
+          {{ partial "span-timespan.html" (dict "start" .project.Params.Start "end" .project.Params.End) }}
+          {{ partial "span-host.html" (dict "host" .project.Params.host "type" "project" "default" .defaultHost) }}
+        </footer>
+      </div>
     </div>
   </a>
 </li>

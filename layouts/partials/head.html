@@ -36,5 +36,7 @@
   {{- else if eq .Section "alumni" -}}
   <link rel="index" href="{{ "members" | absURL }}">
   {{- end }}
+  <link rel="icon" href="{{ "favicon.svg" | absURL }}" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="{{ "apple-touch-icon.png" | absURL }}"/>
   <link rel="canonical" href="{{ .Permalink }}" />
 </head>

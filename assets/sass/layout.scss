@@ -196,7 +196,15 @@ picture img {
       grid-column-start: auto;
 
       a {
-        @include center();
+        @include center(); // TODO
+        align-items: flex-start;
+        flex-direction: column;
+        text-align: left;
+
+        div {
+          // transform: translateX(30%);
+          margin-left: var(--spacing-1);
+        }
       }
     }
   }
@@ -407,9 +415,13 @@ picture img {
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     position: relative;
     background-color: var(--color-bg);
+
+    & > * {
+      margin-left: var(--spacing-1);
+    }
   }
 
   .page-logo a, .page-menu-items *:not(.header) a {
@@ -417,7 +429,7 @@ picture img {
     background-color: var(--color-bg);
 
     &.isActive {
-      span {
+      strong, span, small {
         position: relative;
         z-index: $z-index-header-items;
       }
@@ -557,8 +569,15 @@ picture img {
     justify-content: flex-start;
     text-align: right;
 
+    .feature-frame {
+      background-color: #fff;
+      padding: var(--spacing-05) var(--spacing-1) var(--spacing-05) var(--spacing-1);
+      border: 3px solid #000;
+      max-width: 50%;
+    }
+
     .project-title {
-      width: 80%;
+      // width: 80%;
     }
   }
 
@@ -667,7 +686,7 @@ picture img {
     border-width: 3px;
     z-index: $z-index-about-header;
     --angle: 90deg;
-    border-image-source: linear-gradient(90deg, #FFB600 0%, #FF4800 100%);
+    border-image-source: linear-gradient(90deg, #FFB600 0%, #FF4800 100%); // TODO
     // border-image-source: linear-gradient(90deg, #FFB600 0%, #FF4800 100%);
     // animation: 20s rotate linear infinite;
     // border-image-source: radial-gradient(circle, #FFB600 60%, #FF4800 100%);
@@ -682,23 +701,28 @@ picture img {
     }
   }
 
-  @property --angle {
-    syntax: '<angle>';
-    initial-value: 0deg;
-    inherits: false;
-  }
+  // @property --angle {
+  //   syntax: '<angle>';
+  //   initial-value: 0deg;
+  //   inherits: false;
+  // }
 
-  @keyframes rotate {
-    to {
-      --angle: 360deg;
-    }
-  }
+  // @keyframes rotate {
+  //   to {
+  //     --angle: 360deg;
+  //   }
+  // }
 
   .about-intro {
     grid-row-start: 1;
     grid-row-end: 2;
     padding: var(--spacing-2) 0;
     z-index: $z-index-about-intro;
+
+    span {
+      background-color: var(--color-white);
+      padding: var(--outline-spacing-high) 0;
+    }
   }
 }
 
@@ -804,7 +828,7 @@ picture, img {
     z-index: $z-index-member-header;
 
     .member-role {
-      margin-top: var(--spacing-05);
+      margin-top: var(--spacing-025);
     }
   }
 
@@ -825,9 +849,10 @@ picture, img {
       grid-column-end: 4;
     }
 
-    // img {
-    //   filter: grayscale(100%);
-    // }
+    img {
+      border: var(--outline-spacing-high) solid var(--color-white);
+      background-color: var(--color-white);
+    }
   }
 
   .member-aside {
@@ -952,6 +977,8 @@ picture, img {
     .project-link, .event-link {
       grid-column-start: 2;
       justify-self: end;
+      display: flex; // This is needed for the button. Should fix that.
+      align-items: flex-start;
     }
   }
 }
@@ -1012,7 +1039,7 @@ picture, img {
     grid-template-areas:
       "logos logos logos logos info info info info info info info info"
       "sitemap sitemap sitemap sitemap social social update update update update update update";
-    
+
     .footer-logos {
       grid-area: logos;
     }

@@ -9,37 +9,80 @@
 //   src: url('../fonts/CheltenhamStdBook.woff') format('woff');
 // }
 
-
 @font-face {
-  font-family: 'Neco-Medium';
-  src: url('../fonts/Neco-Medium.woff2') format('woff2'),
-       url('../fonts/Neco-Medium.woff') format('woff'),
-       url('../fonts/Neco-Medium.ttf') format('truetype');
-       font-weight: 500;
-       font-display: swap;
-       font-style: normal;
+  font-family: 'Inter';
+  src: url('../fonts/Inter-Bold.woff2') format('woff2'),
+      url('../fonts/Inter-Bold.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-  font-family: 'Epicene-Text';
-  src: url('../fonts/test-epicene-text-regular.woff2') format('woff2');
-       font-weight: 400;
-       font-display: swap;
-       font-style: normal;
+  font-family: 'Inter';
+  src: url('../fonts/Inter-SemiBold.woff2') format('woff2'),
+      url('../fonts/Inter-SemiBold.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-  font-family: 'Epicene-Text';
-  src: url('../fonts/test-epicene-text-light.woff2') format('woff2');
-       font-weight: 500;
-       font-display: swap;
-       font-style: normal;
+  font-family: 'Inter';
+  src: url('../fonts/Inter-Medium-subset.woff2') format('woff2'),
+      url('../fonts/Inter-Medium-subset.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-  font-family: 'Epicene-Text';
-  src: url('../fonts/test-epicene-text-bold.woff2') format('woff2');
-       font-weight: 800;
-       font-display: swap;
-       font-style: normal;
+  font-family: 'Heuristica';
+  src: url('../fonts/Heuristica-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
+
+@font-face {
+  font-family: 'Heuristica';
+  src: url('../fonts/Heuristica-Italic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+
+// @font-face {
+//   font-family: 'Neco-Medium';
+//   src: url('../fonts/Neco-Medium.woff2') format('woff2'),
+//        url('../fonts/Neco-Medium.woff') format('woff'),
+//        url('../fonts/Neco-Medium.ttf') format('truetype');
+//        font-weight: 500;
+//        font-display: swap;
+//        font-style: normal;
+// }
+
+// @font-face {
+//   font-family: 'Epicene-Text';
+//   src: url('../fonts/test-epicene-text-regular.woff2') format('woff2');
+//        font-weight: 400;
+//        font-display: swap;
+//        font-style: normal;
+// }
+
+// @font-face {
+//   font-family: 'Epicene-Text';
+//   src: url('../fonts/test-epicene-text-light.woff2') format('woff2');
+//        font-weight: 500;
+//        font-display: swap;
+//        font-style: normal;
+// }
+
+// @font-face {
+//   font-family: 'Epicene-Text';
+//   src: url('../fonts/test-epicene-text-bold.woff2') format('woff2');
+//        font-weight: 800;
+//        font-display: swap;
+//        font-style: normal;
+// }

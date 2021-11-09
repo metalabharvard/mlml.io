@@ -7,7 +7,7 @@
       {{ with .Params.ExternalLink -}}
       <div class="project-header-bar">
         <div class="project-link">
-          <a class="btn" href="{{ . }}" rel="noopener noreferrer external" target="_blank">{{ $label }}</a>
+          <a class="btn" href="{{ . }}" rel="noopener noreferrer external" target="_blank"><span>{{ $label }}</span></a>
         </div>
       </div>
       {{- end }}

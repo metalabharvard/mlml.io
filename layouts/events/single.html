@@ -40,7 +40,7 @@
         {{ $label := .Site.Params.Label.ExternalEvent }}
         {{ with .Params.ExternalLink -}}
         <div class="event-link">
-          <a class="btn" href="{{ . }}" rel="noopener noreferrer external" target="_blank">{{ $label }}</a>
+          <a class="btn" href="{{ . }}" rel="noopener noreferrer external" target="_blank"><span>{{ $label }}</span></a>
         </div>
         {{ end }}
       </div>
