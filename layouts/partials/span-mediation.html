@@ -1,7 +1,7 @@
 <span class="project-mediation p-category">
 {{- if .mediation -}}
-	{{- title .mediation -}}
+	{{- title (replace .mediation "_" " ") -}}
 {{- else -}}
-	Mixed media
+	Mixed Media
 {{- end -}}
 </span>

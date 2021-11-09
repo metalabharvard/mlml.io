@@ -55,6 +55,13 @@
         <dt class="title">TODO</dt>
         <dd class="text"><a href="{{ (printf `%s.ics` .Slug) | absURL }}">iCal</a></dd>
       </div>
+      {{ $title := .Site.Params.Label.BoxType }}
+      {{ with .Params.Category }}
+      <div class="box-item">
+        <dt class="title">{{ $title }}</dt>
+        <dd class="text event-type">{{ title (replace . "_" " ") }}</dd>
+      </div>
+      {{ end }}
       {{ $title := .Site.Params.Label.BoxLocation }}
       {{ with .Params.location }}
       <div class="box-item">
