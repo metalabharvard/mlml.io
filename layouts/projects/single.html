@@ -2,12 +2,12 @@
   <section class="homepage-project grid-full grid" vocab="https://schema.org/" typeof="CreativeWork">
     <header class="project-header grid-wide">
       <h1 class="project-name" property="name">{{ .Params.Title }}</h1>
-      {{ with .Params.Intro }}<span class="project-intro">{{ . | markdownify }}</span>{{ end }}
+      {{ with .Params.Intro }}<span class="project-intro" itemprop="abstract">{{ . | markdownify }}</span>{{ end }}
       {{ $label := .Site.Params.Label.ExternalProject }}
       {{ with .Params.ExternalLink -}}
       <div class="project-header-bar">
         <div class="project-link">
-          <a class="btn" href="{{ . }}" rel="noopener noreferrer external" target="_blank"><span>{{ $label }}</span></a>
+          <a class="btn" href="{{ . }}" rel="noopener noreferrer external" target="_blank" itemprop="url"><span>{{ $label }}</span></a>
         </div>
       </div>
       {{- end }}
@@ -27,7 +27,7 @@
       {{ $title := .Site.Params.Label.BoxTime }}
       <div class="box-item">
         <dt class="title">{{ $title }}</dt>
-        <dd class="text">{{ partial "span-timespan.html" (dict "start" .Params.Start "end" .Params.End) }}</dd>
+        <dd class="text" itemprop="dateCreated">{{ partial "span-timespan.html" (dict "start" .Params.Start "end" .Params.End) }}</dd>
       </div>
       {{ $title := .Site.Params.Label.BoxHost }}
       <div class="box-item">
@@ -38,10 +38,10 @@
       {{ with .Params.location }}
       <div class="box-item">
         <dt class="title">{{ $title }}</dt>
-        <dd class="text project-location">{{ . }}</dd>
+        <dd class="text project-location" itemprop="locationCreated">{{ . }}</dd>
       </div>
       {{ end }}
-      {{ partial "related-items.html" (dict "items" $members "term" .Site.Params.Label.RelatedMembers "label" .Site.Params.Label.RelatedLabelMembers "class" "member") }}
+      {{ partial "related-items.html" (dict "items" $members "term" .Site.Params.Label.RelatedMembers "label" .Site.Params.Label.RelatedLabelMembers "class" "member" "root" "project") }}
       {{ partial "related-collaborators.html" (dict "items" $collaborators "label" .Site.Params.Label.boxCollaborator "class" "collaborator") }}
       {{ partial "related-items.html" (dict "items" $projects "term" .Site.Params.Label.RelatedProjects "label" .Site.Params.Label.RelatedLabelProjects "class" "project") }}
       {{ partial "related-items.html" (dict "items" $events "term" .Site.Params.Label.RelatedEvents "label" .Site.Params.Label.RelatedLabelEvents "class" "event") }}

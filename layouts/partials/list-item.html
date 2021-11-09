@@ -1,4 +1,4 @@
-<dd class="related-link {{ with .class }}related-{{ . }}{{ end }}" role="listitem">
+<dd class="related-link {{ with .class }}related-{{ . }}{{ end }}" role="listitem" {{ if eq .class "collaborator" }}itemprop="contributor"{{ end }}>
   {{- if and .url .label -}}
   <a href="{{ .url }}" rel="noopener noreferrer external" target="_blank">{{ .label }}</a>
   {{- else if .label -}}

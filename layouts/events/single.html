@@ -55,7 +55,14 @@
         <dt class="title">TODO</dt>
         <dd class="text"><a href="{{ (printf `%s.ics` .Slug) | absURL }}">iCal</a></dd>
       </div>
-      {{ partial "related-items.html" (dict "items" $members "term" .Site.Params.Label.RelatedMembers "label" .Site.Params.Label.RelatedLabelMembers "class" "member") }}
+      {{ $title := .Site.Params.Label.BoxLocation }}
+      {{ with .Params.location }}
+      <div class="box-item">
+        <dt class="title">{{ $title }}</dt>
+        <dd class="text event-location" itemprop="location">{{ . }}</dd>
+      </div>
+      {{ end }}
+      {{ partial "related-items.html" (dict "items" $members "term" .Site.Params.Label.RelatedMembers "label" .Site.Params.Label.RelatedLabelMembers "class" "member" "root" "event") }}
       {{ partial "related-collaborators.html" (dict "items" $collaborators "label" .Site.Params.Label.boxCollaborator "class" "collaborator") }}
       {{ partial "related-items.html" (dict "items" $projects "term" .Site.Params.Label.RelatedProjects "label" .Site.Params.Label.RelatedLabelProjects "class" "project") }}
       {{ partial "related-items.html" (dict "items" $events "term" .Site.Params.Label.RelatedEvents "label" .Site.Params.Label.RelatedLabelEvents "class" "event") }}
