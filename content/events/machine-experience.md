@@ -24,16 +24,22 @@ slug: machine-experience
 members:
     - label: Jonathan Sun
       slug: jonathan-sun
+      twitter: jonnysun
     - label: Kim Albrecht
       slug: kim-albrecht
+      twitter: kimay
     - label: Maia Suazo-Maler
       slug: maia-suazo-maler
+      twitter: ""
     - label: Matthew Battles
       slug: matthew-battles
+      twitter: matthewbattles
     - label: Rachel Kalmar
       slug: rachel-kalmar
+      twitter: ""
     - label: Sarah Newman
       slug: sarah-newman
+      twitter: sarahwnewman
 projects:
     - label: Artificial Senses
       slug: artificial-senses
@@ -41,6 +47,11 @@ projects:
       slug: nobody-8217-s-listening
     - label: Turing’s Mill
       slug: turing-39-s-mill
+members_twitter:
+    - jonnysun
+    - kimay
+    - matthewbattles
+    - sarahwnewman
 ---
 **MACHINE EXPERIENCE**
 

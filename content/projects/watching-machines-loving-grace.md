@@ -22,6 +22,7 @@ events:
 members:
     - label: Kim Albrecht
       slug: kim-albrecht
+      twitter: kimay
 projects:
     - label: Ocean Amplification
       slug: ocean-amplification
@@ -55,6 +56,8 @@ cover:
             ext: .png
             width: 245
             height: 155
+members_twitter:
+    - kimay
 
 ---
 <iframe src="https://watching-machines.kimalbrecht.com/" width="100%" height="500px" frameborder="0" title="Watching Machines Loving Grace"></iframe><br />

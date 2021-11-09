@@ -31,6 +31,7 @@ type Link struct {
 type Member struct {
   Name string `yaml:"label"` // Careful: We are renaming the key here
   Slug string `yaml:"slug"`
+  Twitter string `yaml:"twitter"`
 }
 
 type Event struct {
@@ -97,6 +98,7 @@ type Response struct {
   Cover Cover `yaml:"cover,omitempty"`
   Topics []Topic `yaml:"topics,omitempty"`
   Gallery []Cover `yaml:"gallery,omitempty"`
+  MembersTwitter []string `yaml:"members_twitter,omitempty"`
 }
 
 type Index struct {
@@ -197,6 +199,16 @@ func trim(str string) string {
   return strings.Trim(str, " ")
 }
 
+func getMembersTwitter(members []Member) []string {
+  var list []string
+  for _, c := range members {
+    if c.Twitter != "" {
+      list = append(list, c.Twitter)
+    }
+  }
+  return list
+}
+
 func cleanCollaborators(collaborators []Collaborator) []Collaborator {
   var list []Collaborator
   for _, c := range collaborators {
@@ -289,6 +301,8 @@ func main() {
     sort.Sort(ProjectsByName(element.Projects))
 
     element.DateString = createTimeString(element.Start, element.End)
+
+    element.MembersTwitter = getMembersTwitter(element.Members)
 
     file, _ := yaml.Marshal(element)
     _ = ioutil.WriteFile(fmt.Sprintf("%s/%s.md", FOLDER, element.Slug), []byte(fmt.Sprintf("---\n%s\n---\n%s", file, content)), 0644)

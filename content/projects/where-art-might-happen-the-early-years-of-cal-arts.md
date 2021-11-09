@@ -16,10 +16,13 @@ slug: where-art-might-happen-the-early-years-of-cal-arts
 members:
     - label: Annette Jael Lehmann
       slug: annette-jael-lehmann
+      twitter: ""
     - label: Jeffrey Schnapp
       slug: jeffrey-schnapp
+      twitter: jaytiesse
     - label: Kim Albrecht
       slug: kim-albrecht
+      twitter: kimay
 cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686495/where_art_might_happen_the_early_years_of_cal_arts_4b18fd7f74.jpg
     width: 704
@@ -35,6 +38,9 @@ cover:
             ext: .jpg
             width: 229
             height: 156
+members_twitter:
+    - jaytiesse
+    - kimay
 
 ---
 **This exhibit is an installation of [Womanhouse (a memory theater)](../womanhouse).**

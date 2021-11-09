@@ -23,31 +23,52 @@ slug: curatorial-a-i-gents-at-ars-electronica-2020
 members:
     - label: Dario Rodighiero
       slug: dario-rodighiero
+      twitter: dariorodighiero
     - label: Dietmar Offenhuber
       slug: dietmar-offenhuber
+      twitter: dietoff
     - label: Eveline Wandl-Vogt
       slug: eveline-wandl-vogt
+      twitter: caissarl
     - label: Francisco Alarcon
       slug: francisco-alarcon
+      twitter: alarconbits
     - label: Jeffrey Schnapp
       slug: jeffrey-schnapp
+      twitter: jaytiesse
     - label: Keith Hartwig
       slug: keith-hartwig
+      twitter: ""
     - label: Kim Albrecht
       slug: kim-albrecht
+      twitter: kimay
     - label: Lins Derry
       slug: lins-derry
+      twitter: linsderry
     - label: Matthew Battles
       slug: matthew-battles
+      twitter: matthewbattles
     - label: Philipp Schmitt
       slug: philipp-schmitt
+      twitter: philippschmitt
     - label: Yue Chelsea Qiu
       slug: yue-chelsea-qiu
+      twitter: ""
 projects:
     - label: Curatorial A(i)gents
       slug: curatorial-aigents
     - label: Watching Machines Loving Grace
       slug: watching-machines-loving-grace
+members_twitter:
+    - dariorodighiero
+    - dietoff
+    - caissarl
+    - alarconbits
+    - jaytiesse
+    - kimay
+    - linsderry
+    - matthewbattles
+    - philippschmitt
 ---
 **ONLINE<br />
 Friday, September 11<br />

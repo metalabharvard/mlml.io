@@ -19,6 +19,7 @@ collaborators:
 members:
     - label: Francisco Alarcon
       slug: francisco-alarcon
+      twitter: alarconbits
 projects:
     - label: 'Second Look: Gender and Sentiment on Show'
       slug: second-look-gender-and-sentiment-on-show
@@ -85,6 +86,8 @@ gallery:
             ext: .jpeg
             width: 245
             height: 133
+members_twitter:
+    - alarconbits
 
 ---
 The shape of the world’s oceans is changing. According to a 2019 report in the journal *Science*, wind speed increases in the Earth’s southernmost oceans induced by ocean warming have led over the last thirty or so years to an .25% surge in the wave height of the largest 10 percent of waves. As such, the wave emerges as a key symbol of ocean transformation: of the material effects of climate change, alongside intensified storms, sea-level rise, and increasing temperatures. The present project explores visualizations and simulations of rising waves, read as avatars of a hybrid human-inhuman political ecology.

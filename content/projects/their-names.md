@@ -16,8 +16,10 @@ slug: their-names
 members:
     - label: Kim Albrecht
       slug: kim-albrecht
+      twitter: kimay
     - label: Matthew Battles
       slug: matthew-battles
+      twitter: matthewbattles
 cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686618/their_names_fcc869a829.jpg
     width: 925
@@ -114,6 +116,9 @@ gallery:
             ext: .png
             width: 245
             height: 101
+members_twitter:
+    - kimay
+    - matthewbattles
 
 ---
 We live in a world of systemic racism and systemic violence. The two are inextricably intertwined. This violence tears at victims' families, communities, and everyone involved in fatal encounters with law enforcement. Its effects fall disproportionately on communities of color and Black communities, families, and lives in particular. 

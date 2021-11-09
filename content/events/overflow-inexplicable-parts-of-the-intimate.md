@@ -23,8 +23,13 @@ slug: overflow-inexplicable-parts-of-the-intimate
 members:
     - label: Kim Albrecht
       slug: kim-albrecht
+      twitter: kimay
     - label: Matthew Battles
       slug: matthew-battles
+      twitter: matthewbattles
+members_twitter:
+    - kimay
+    - matthewbattles
 ---
 **[OVERFLOW: INEXPLICABLE PARTS OF THE INTIMATE](https://rainbow-unicorn.com/#gallery)**
 

@@ -24,33 +24,53 @@ slug: machine-experience-ii
 members:
     - label: Adam Haar Horowitz
       slug: adam-haar-horowitz
+      twitter: ""
     - label: Hannah Davis
       slug: hannah-davis
+      twitter: ""
     - label: Jessica Yurkofsky
       slug: jessica-yurkofsky
+      twitter: ""
     - label: Jie Qi
       slug: jie-qi
+      twitter: qijie
     - label: Joanne Cheung
       slug: joanne-cheung
+      twitter: joannekcheung
     - label: Kim Albrecht
       slug: kim-albrecht
+      twitter: kimay
     - label: Maia Suazo-Maler
       slug: maia-suazo-maler
+      twitter: ""
     - label: Matthew Battles
       slug: matthew-battles
+      twitter: matthewbattles
     - label: Mindy Seu
       slug: mindy-seu
+      twitter: mind_seu
     - label: Rachel Kalmar
       slug: rachel-kalmar
+      twitter: ""
     - label: Sands Alden Fish
       slug: sands-alden-fish
+      twitter: sandsfish
     - label: Sarah Newman
       slug: sarah-newman
+      twitter: sarahwnewman
 projects:
     - label: Artificial Senses
       slug: artificial-senses
     - label: Moral Labyrinth
       slug: moral-labyrinth
+members_twitter:
+    - qijie
+    - joannekcheung
+    - kimay
+    - matthewbattles
+    - mind_seu
+    - sandsfish
+    - sarahwnewman
 ---
 **January 19 - February 4**<br />
 **Rainbow Unicorn**<br />

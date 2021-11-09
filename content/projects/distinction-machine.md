@@ -19,6 +19,9 @@ events:
 members:
     - label: Kim Albrecht
       slug: kim-albrecht
+      twitter: kimay
+members_twitter:
+    - kimay
 
 ---
 **Distinction Machine**

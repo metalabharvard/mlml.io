@@ -16,14 +16,19 @@ slug: womanhouse-a-memory-theater
 members:
     - label: Annette Jael Lehmann
       slug: annette-jael-lehmann
+      twitter: ""
     - label: Chiara Fauda Pichet
       slug: chiara-fauda-pichet
+      twitter: chiarafauda
     - label: Jeffrey Schnapp
       slug: jeffrey-schnapp
+      twitter: jaytiesse
     - label: Kim Albrecht
       slug: kim-albrecht
+      twitter: kimay
     - label: Mindy Seu
       slug: mindy-seu
+      twitter: mind_seu
 cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348356/DSC_01126_03ddc9c55c.jpg
     width: 5458
@@ -218,6 +223,11 @@ gallery:
             ext: .jpg
             width: 104
             height: 156
+members_twitter:
+    - chiarafauda
+    - jaytiesse
+    - kimay
+    - mind_seu
 
 ---
 **This exhibit has moved to [Kunsthaus Graz](../womanhouse_graz).**

@@ -16,16 +16,27 @@ slug: curricle
 members:
     - label: Alexandra Dolan-Mescal
       slug: alexandra-dolan-mescal
+      twitter: fromadmwithlove
     - label: Jeffrey Schnapp
       slug: jeffrey-schnapp
+      twitter: jaytiesse
     - label: Jessica Yurkofsky
       slug: jessica-yurkofsky
+      twitter: ""
     - label: Kim Albrecht
       slug: kim-albrecht
+      twitter: kimay
     - label: Matthew Battles
       slug: matthew-battles
+      twitter: matthewbattles
     - label: Oliver Luo
       slug: oliver-luo
+      twitter: ""
+members_twitter:
+    - fromadmwithlove
+    - jaytiesse
+    - kimay
+    - matthewbattles
 
 ---
 **Try it out at [curricle.berkman.harvard.edu](http://curricle.berkman.harvard.edu) (advanced beta)<br />

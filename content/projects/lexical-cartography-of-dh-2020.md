@@ -16,6 +16,7 @@ slug: lexical-cartography-of-dh-2020
 members:
     - label: Dario Rodighiero
       slug: dario-rodighiero
+      twitter: dariorodighiero
 cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686754/lexicalcarto_686c2c0761.jpg
     width: 3072
@@ -41,6 +42,8 @@ cover:
             ext: .jpg
             width: 245
             height: 153
+members_twitter:
+    - dariorodighiero
 
 ---
 The moment public events went online, scholars felt the need for new instruments to orientate themselves in scientific conferences. The lexical cartography is a visual method that combines network visualization and Natural Language Processing (NLP) to create a map. Such a map display conference speakers according to their lexical similarity: the more two speakers are close in the space, the more their subject matters are related. Using a visual representation that recalls the cartographic imaginary, speakers are situated on a topographical terrain characterized by mountains, valleys, and wide plains.

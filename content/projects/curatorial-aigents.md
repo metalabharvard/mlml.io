@@ -45,24 +45,34 @@ events:
 members:
     - label: Dario Rodighiero
       slug: dario-rodighiero
+      twitter: dariorodighiero
     - label: Dietmar Offenhuber
       slug: dietmar-offenhuber
+      twitter: dietoff
     - label: Francisco Alarcon
       slug: francisco-alarcon
+      twitter: alarconbits
     - label: Giulia Taurino
       slug: giulia-taurino
+      twitter: giulia_taurino
     - label: Jeffrey Schnapp
       slug: jeffrey-schnapp
+      twitter: jaytiesse
     - label: Keith Hartwig
       slug: keith-hartwig
+      twitter: ""
     - label: Kim Albrecht
       slug: kim-albrecht
+      twitter: kimay
     - label: Lins Derry
       slug: lins-derry
+      twitter: linsderry
     - label: Philipp Schmitt
       slug: philipp-schmitt
+      twitter: philippschmitt
     - label: Yue Chelsea Qiu
       slug: yue-chelsea-qiu
+      twitter: ""
 cover:
     alternativeText: Curatiorial A(i)gents Cover
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1623943307/agents_ce7bfadd93.jpg
@@ -89,6 +99,15 @@ cover:
             ext: .jpg
             width: 124
             height: 156
+members_twitter:
+    - dariorodighiero
+    - dietoff
+    - alarconbits
+    - giulia_taurino
+    - jaytiesse
+    - kimay
+    - linsderry
+    - philippschmitt
 
 ---
 *Curatorial A(i)gents* presents a series of machine-learning-based experiments with museum collections and data developed by members and affiliates of {{< link "" >}}metaLAB (at) Harvard{{< /link >}}, a creative research group working in the networked arts and humanities. 

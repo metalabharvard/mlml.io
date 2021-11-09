@@ -23,6 +23,9 @@ slug: if-by-water-at-re-publica-17
 members:
     - label: Sarah Newman
       slug: sarah-newman
+      twitter: sarahwnewman
+members_twitter:
+    - sarahwnewman
 ---
 <a href="https://re-publica.com/en/17/session/if-water" target="_blank">re:publica 2017 installation website</a>
 

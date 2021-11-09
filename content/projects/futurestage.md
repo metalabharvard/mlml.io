@@ -47,18 +47,25 @@ collaborators:
 members:
     - label: Eveline Wandl-Vogt
       slug: eveline-wandl-vogt
+      twitter: caissarl
     - label: Jeffrey Schnapp
       slug: jeffrey-schnapp
+      twitter: jaytiesse
     - label: Lins Derry
       slug: lins-derry
+      twitter: linsderry
     - label: Magda Romanska
       slug: magda-romanska
+      twitter: MagdaRomanska
     - label: Matthew Battles
       slug: matthew-battles
+      twitter: matthewbattles
     - label: Paolo Petrocelli
       slug: paolo-petrocelli
+      twitter: paolopetrocelli
     - label: Sydney Skybetter
       slug: sydney-skybetter
+      twitter: sydneyskybetter
 cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870255/Futurstage_Instagram_posts3_6793ab50d5.png
     width: 2250
@@ -301,6 +308,14 @@ gallery:
             ext: .png
             width: 156
             height: 156
+members_twitter:
+    - caissarl
+    - jaytiesse
+    - linsderry
+    - MagdaRomanska
+    - matthewbattles
+    - paolopetrocelli
+    - sydneyskybetter
 
 ---
 FutureSTAGE is a global research project dedicated to investigating current challenges and future prospects for the development of opera houses, theatres, and performing arts centers.

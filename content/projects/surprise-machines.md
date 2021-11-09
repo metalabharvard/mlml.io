@@ -19,6 +19,7 @@ collaborators:
 members:
     - label: Dario Rodighiero
       slug: dario-rodighiero
+      twitter: dariorodighiero
 projects:
     - label: Ocean Amplification
       slug: ocean-amplification
@@ -51,6 +52,8 @@ cover:
             ext: .jpeg
             width: 121
             height: 156
+members_twitter:
+    - dariorodighiero
 
 ---
 <iframe src="https://rodighiero.github.io/Surprise-Machines/" width="100%" height="500" frameborder="0" title="Surprise Machines"></iframe>

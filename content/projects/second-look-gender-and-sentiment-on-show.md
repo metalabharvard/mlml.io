@@ -19,6 +19,7 @@ collaborators:
 members:
     - label: Lins Derry
       slug: lins-derry
+      twitter: linsderry
 projects:
     - label: Ocean Amplification
       slug: ocean-amplification
@@ -66,6 +67,8 @@ gallery:
             ext: .jpeg
             width: 205
             height: 156
+members_twitter:
+    - linsderry
 
 ---
 <iframe src="https://linsderry.github.io/SecondLook/" width="100%" height="800" frameborder="0" title="Second Look"></iframe>

@@ -24,15 +24,23 @@ slug: dialogues-with-data-at-infovis
 members:
     - label: Jeffrey Schnapp
       slug: jeffrey-schnapp
+      twitter: jaytiesse
     - label: Jessica Yurkofsky
       slug: jessica-yurkofsky
+      twitter: ""
     - label: Matthew Battles
       slug: matthew-battles
+      twitter: matthewbattles
     - label: Sarah Newman
       slug: sarah-newman
+      twitter: sarahwnewman
 links:
     - label: information&#43;visualization
       url: http://infovis.fh-potsdam.de/
+members_twitter:
+    - jaytiesse
+    - matthewbattles
+    - sarahwnewman
 ---
 <a href="http://infovis.fh-potsdam.de" target="_blank">information+visualization public talk series at Fachhochschule Potsdam - University of Applied Sciences</a>
 

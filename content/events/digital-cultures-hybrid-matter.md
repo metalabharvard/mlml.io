@@ -23,11 +23,16 @@ slug: digital-cultures-hybrid-matter
 members:
     - label: Kim Albrecht
       slug: kim-albrecht
+      twitter: kimay
     - label: Sarah Newman
       slug: sarah-newman
+      twitter: sarahwnewman
 links:
     - label: 'Digital Cultures 2018: Hybrid Matter'
       url: http://digitalcultures.pl/en
+members_twitter:
+    - kimay
+    - sarahwnewman
 ---
 Held September 22-25, 2018 in Warsaw, Poland, the Digital Cultures conference is a program of interdisciplinary debates and presentations that explore the ways digital media technologies are transforming contemporary culture, society, and the economy. The participants included researchers, scholars, and artists from a wide range of disciplines, and among the presenters were metaLAB at Harvard’s Sarah Newman and Kim Albrecht.
 

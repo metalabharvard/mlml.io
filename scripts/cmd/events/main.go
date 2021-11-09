@@ -21,6 +21,7 @@ type Project struct {
 type Member struct {
   Name string `yaml:"label"`
   Slug string `yaml:"slug"`
+  Twitter string `yaml:"twitter"`
 }
 
 type Event struct {
@@ -100,6 +101,7 @@ type Response struct {
   Links []Link `yaml:"links,omitempty"`
   Topics []Topic `yaml:"topics,omitempty"`
   TopicIDs []string `yaml:"topicIDs,omitempty"`
+  MembersTwitter []string `yaml:"members_twitter,omitempty"`
 }
 
 type Index struct {
@@ -131,6 +133,17 @@ func (a EventsByName) Swap(i, j int)      { a[i], a[j] = a[j], a[i] }
 //   }
 //   return vsm
 // }
+
+func getMembersTwitter(members []Member) []string {
+  var list []string
+  for _, c := range members {
+    if c.Twitter != "" {
+      list = append(list, c.Twitter)
+    }
+  }
+  return list
+}
+
 
 func getRelatedEvents(topics []Topic, allEvents []Response, slug string) []Event {
   var list []Event
@@ -254,6 +267,8 @@ func main() {
     sort.Sort(MembersByName(element.Members))
     sort.Sort(ProjectsByName(element.Projects))
     sort.Sort(EventsByName(element.Events))
+
+    element.MembersTwitter = getMembersTwitter(element.Members)
 
     file, _ := yaml.Marshal(element)
     _ = ioutil.WriteFile(fmt.Sprintf("%s/%s.md", FOLDER, element.Slug), []byte(fmt.Sprintf("---\n%s---\n%s", file, content)), 0644)

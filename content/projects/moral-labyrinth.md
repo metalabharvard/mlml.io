@@ -19,6 +19,9 @@ events:
 members:
     - label: Sarah Newman
       slug: sarah-newman
+      twitter: sarahwnewman
+members_twitter:
+    - sarahwnewman
 
 ---
 **[Visit the Moral Labyrinth website](https://morallabyrinth.com)**
