@@ -17,6 +17,8 @@ disableKinds = ["taxonomyTerm"]
   externalProject = "Visit project"
   externalEvent = "Visit event"
   profilePicture = "Profile picture of %s"
+  aria_timezone_boston = "Click to change timezone to Boston"
+  aria_timezone_berlin = "Click to change timezone to Berlin"
 
 [permalinks]
   projects = "/:slug/"
