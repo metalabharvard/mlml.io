@@ -3,6 +3,7 @@ title: Curricle Lens
 intro: 'Visualized, annotated, connected: Curricle Lens uses data narratives to explore the historical nature of the college curriculum, leveraging data and design in a post-disciplinary era.'
 start: "2020-01-01"
 end: "2020-01-01"
+datestring: January 2020
 location: ""
 host: harvard
 mediation: mixed_media

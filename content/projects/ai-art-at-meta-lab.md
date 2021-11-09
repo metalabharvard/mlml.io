@@ -3,6 +3,7 @@ title: AI + Art at metaLAB
 intro: metaLAB projects in this area explore the psychological and philosophical realms of electronic systems, reflect on the long history of human fascination with thinking machines, and consider our uncertain moral reckoning with the agency and autonomy of computers.
 start: "2019-01-01"
 end: "2019-01-01"
+datestring: January 2019
 location: ""
 host: harvard
 mediation: mixed_media

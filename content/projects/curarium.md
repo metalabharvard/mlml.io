@@ -3,6 +3,7 @@ title: Curarium
 intro: Curarium is a collection of collections, an &#8220;animated archive&#8221; crowdsourcing annotation, curation, and augmentation of works within and beyond their respective collections.
 start: "2016-01-01"
 end: "2016-01-01"
+datestring: January 2016
 location: ""
 host: harvard
 mediation: mixed_media

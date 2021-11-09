@@ -4,6 +4,7 @@
   {{- if (eq (dateFormat "January 2006" .start) (dateFormat "January 2006" .end)) -}}
   <time datetime="{{ dateFormat "2006-01-02" .end }}" class="project-start project-end" itemprop="endDate" content="{{ dateFormat "2006-01-02" .end }}">
   {{- dateFormat "January 2006" .start -}}
+  </time>
   {{- else -}}
   <time datetime="{{ dateFormat "2006-01-02" .start }}" class="project-start" itemprop="startDate" content="{{ dateFormat "2006-01-02" .start }}">
     {{- dateFormat "January" .start -}}

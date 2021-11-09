@@ -3,6 +3,7 @@ title: Light Prop
 intro: "metaLAB is developing a model for the multimedia “thick description” of a cultural object\t&#58; <em>Light Prop for an Electric Stage</em>, the work of László Moholy-Nagy (1895-1946) and an early example of light and kinetic art."
 start: "2016-01-01"
 end: "2016-01-01"
+datestring: January 2016
 location: ""
 host: harvard
 mediation: mixed_media

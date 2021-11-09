@@ -3,6 +3,7 @@ title: Blueprint for Counter Education website
 intro: ""
 start: "2016-01-01"
 end: "2016-01-01"
+datestring: January 2016
 location: ""
 host: harvard
 mediation: mixed_media

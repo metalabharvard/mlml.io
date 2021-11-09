@@ -3,6 +3,7 @@ title: 'Where Art Might Happen: The Early Years of CalArts'
 intro: Memory traces of “the daydreams that women have as they wash, bake, cook, sew, clean and iron their lives away ... taken to fantasy proportions” (30/1/1970-28/2/1970)
 start: "2020-03-13"
 end: "2020-06-07"
+datestring: March&ensp;–&ensp;June 2020
 location: Kunsthaus Graz
 host: berlin
 mediation: exhibition

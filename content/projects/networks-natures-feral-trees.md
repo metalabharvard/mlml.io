@@ -3,6 +3,7 @@ title: 'Networks + Natures: Feral Trees'
 intro: How can we expose our perceptions of nature, landscape, and the city as not natural but constructed? What perspectives on the contested biopolitics of the city are offered by invasive species and urban wilds?
 start: "2016-01-01"
 end: "2016-01-01"
+datestring: January 2016
 location: ""
 host: harvard
 mediation: mixed_media

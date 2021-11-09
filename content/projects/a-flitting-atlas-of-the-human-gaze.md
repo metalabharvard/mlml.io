@@ -3,6 +3,7 @@ title: A Flitting Atlas of the Human Gaze
 intro: Using AI-based extraction and analysis, A Flitting Atlas of the Human Gaze allows the visitor to explore the museum through the eyes of the subjects of artworks.
 start: "2021-01-01"
 end: "2021-01-01"
+datestring: January 2021
 location: ""
 host: harvard
 mediation: mixed_media

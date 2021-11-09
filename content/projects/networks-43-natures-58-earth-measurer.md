@@ -3,6 +3,7 @@ title: 'Networks + Natures: Earth Measurer'
 intro: Using machine learning not analytically but playfully, not predictively but expressively, to explore the enormity of biodiversity loss in the Anthropocene.
 start: "2018-01-01"
 end: "2018-01-01"
+datestring: January 2018
 location: ""
 host: harvard
 mediation: mixed_media

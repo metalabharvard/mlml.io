@@ -3,6 +3,7 @@ title: 'Networks + Natures: Invasive Spirits'
 intro: Combining Matthew Battles's work on feral and invasive species in the city with designer and graduate researcher Keith Hartwig's practice in brewing, placemaking, and beer production, Invasive Spirits takes a multisensory approach to urbanism—using our noses & palates as well as eyes & analytic minds—to produce knowledge that's fun, flavorful, & transformative.
 start: "2018-01-01"
 end: "2018-01-01"
+datestring: January 2018
 location: ""
 host: harvard
 mediation: mixed_media

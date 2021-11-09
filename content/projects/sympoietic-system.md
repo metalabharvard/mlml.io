@@ -3,6 +3,7 @@ title: Sympoietic System
 intro: Using weather data, algorithms, and a camera feed of the sky, Sympoietic System makes the weather a curator.
 start: "2021-01-01"
 end: "2021-01-01"
+datestring: January 2021
 location: ""
 host: harvard
 mediation: mixed_media

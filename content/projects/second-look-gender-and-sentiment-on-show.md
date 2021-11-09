@@ -3,6 +3,7 @@ title: 'Second Look: Gender and Sentiment on Show'
 intro: Second Look calls attention to the circularity of how an artificial intelligence 'sees' and 'knows' by asking it to infer gender and sentiment in paintings from the Harvard Art Museums.
 start: "2021-01-01"
 end: "2021-01-01"
+datestring: January 2021
 location: Harvard Art Museums
 host: harvard
 mediation: mixed_media

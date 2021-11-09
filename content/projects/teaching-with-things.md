@@ -3,6 +3,7 @@ title: Teaching with Things
 intro: ""
 start: "2012-01-01"
 end: "2012-01-01"
+datestring: January 2012
 location: ""
 host: harvard
 mediation: mixed_media

@@ -3,6 +3,7 @@ title: Womanhouse (a memory theater)
 intro: Memory traces of “the daydreams that women have as they wash, bake, cook, sew, clean and iron their lives away ... taken to fantasy proportions” (30/1/1970-28/2/1970)
 start: "2019-08-30"
 end: "2019-11-10"
+datestring: August&ensp;–&ensp;November 2019
 location: Hannover, Germany
 host: berlin
 mediation: exhibition

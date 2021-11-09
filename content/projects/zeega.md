@@ -3,6 +3,7 @@ title: Zeega
 intro: ""
 start: "2014-01-01"
 end: "2014-01-01"
+datestring: January 2014
 location: ""
 host: harvard
 mediation: mixed_media

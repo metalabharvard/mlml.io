@@ -3,6 +3,7 @@ title: Hypercam
 intro: Hypercam enacts a gesture of visual resistance to the squared-off talking heads that we have all become; it converts the interface flatland into a multidimensional space of play.
 start: "2020-04-01"
 end: "2020-05-31"
+datestring: April&ensp;–&ensp;May 2020
 location: ""
 host: harvard
 mediation: web

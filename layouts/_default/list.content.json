@@ -93,7 +93,7 @@
       {{- end -}}
     {{- end -}}
   {{- end -}}
-  {{- $projectsScratch.Add "projects" (dict "label" $element.Title "intro" (htmlUnescape ($element.Params.Intro | markdownify)) "location" $element.Params.Location "date" (dateFormat "2 January 2006" $element.Params.Start) "members" ($relatedItems.Get "members") "events" ($relatedItems.Get "events") "projects" ($relatedItems.Get "projects") "links" ($relatedItems.Get "links") "collaborators" ($relatedItems.Get "collaborators") "id" $element.Slug) -}}
+  {{- $projectsScratch.Add "projects" (dict "label" $element.Title "intro" (htmlUnescape ($element.Params.Intro | markdownify)) "location" $element.Params.Location "date" (dateFormat "2 January 2006" $element.Params.Start) "dateString" (htmlUnescape $element.Params.DateString) "members" ($relatedItems.Get "members") "events" ($relatedItems.Get "events") "projects" ($relatedItems.Get "projects") "links" ($relatedItems.Get "links") "collaborators" ($relatedItems.Get "collaborators") "id" $element.Slug) -}}
 {{- end -}}
 
 {{ $content := newScratch }}

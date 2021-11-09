@@ -74,6 +74,7 @@ type Response struct {
   Intro string `yaml:"intro"`
   Start string `yaml:"start"`
   End string `yaml:"end"`
+  DateString string `yaml:"datestring"`
   Description string `yaml:"description,omitempty"`
   Location string `yaml:"location"`
   Host string `yaml:"host"`
@@ -143,6 +144,53 @@ func getRelatedProjects(topics []Topic, allProjects []Response, slug string) []P
     }
   }
   return list
+}
+
+func getDateYear(date time.Time) string {
+  return date.Format("2006")
+}
+
+func getDateMonth(date time.Time) string {
+  return date.Format("Jan")
+}
+
+func getDateFull(date time.Time) string {
+  return date.Format("2006-Jan")
+}
+
+func getDatePrint(date time.Time) string {
+  return date.Format("January 2006")
+}
+
+func getDateMonthPrint(date time.Time) string {
+  return date.Format("January")
+}
+
+const shortForm = "2006-01-02"
+
+func createTimeString(start string, end string) string {
+  if (start != "" && end != "") {
+    s, _ := time.Parse(shortForm, start)
+    e, _ := time.Parse(shortForm, end)
+    if getDateFull(s) == getDateFull(e) {
+      return getDatePrint(s)
+    } else {
+      if (getDateYear(s) == getDateYear(e)) {
+        return fmt.Sprintf("%s&ensp;–&ensp;%s", getDateMonthPrint(s), getDatePrint(e))
+      } else {
+        return fmt.Sprintf("%s&ensp;–&ensp;%s", getDatePrint(s), getDatePrint(e))
+      }
+    }
+    return shortForm
+  } else if (start != "") {
+    s, _ := time.Parse(shortForm, start)
+    return fmt.Sprintf("Since %s", getDatePrint(s))
+  } else if (end != "") {
+    e, _ := time.Parse(shortForm, end)
+    return getDatePrint(e)
+  } else {
+    return ""
+  }
 }
 
 func trim(str string) string {
@@ -239,6 +287,8 @@ func main() {
     sort.Sort(MembersByName(element.Members))
     sort.Sort(EventsByName(element.Events))
     sort.Sort(ProjectsByName(element.Projects))
+
+    element.DateString = createTimeString(element.Start, element.End)
 
     file, _ := yaml.Marshal(element)
     _ = ioutil.WriteFile(fmt.Sprintf("%s/%s.md", FOLDER, element.Slug), []byte(fmt.Sprintf("---\n%s\n---\n%s", file, content)), 0644)

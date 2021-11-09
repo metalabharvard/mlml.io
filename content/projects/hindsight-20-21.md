@@ -3,6 +3,7 @@ title: Hindsight 20/21
 intro: Hindsight 20/21 asks how the university is changing across its collections, communities, and curricula.
 start: "2021-01-01"
 end: "2021-01-01"
+datestring: January 2021
 location: ""
 host: harvard
 mediation: mixed_media

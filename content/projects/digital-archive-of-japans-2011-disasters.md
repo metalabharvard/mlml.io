@@ -3,6 +3,7 @@ title: Digital Archive of Japan’s 2011 Disasters
 intro: ""
 start: "2011-01-01"
 end: "2011-01-01"
+datestring: January 2011
 location: ""
 host: harvard
 mediation: mixed_media

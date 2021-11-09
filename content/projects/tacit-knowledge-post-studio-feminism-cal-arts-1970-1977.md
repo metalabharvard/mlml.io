@@ -3,6 +3,7 @@ title: 'Tacit Knowledge: Post Studio/Feminism – CalArts 1970-1977'
 intro: ""
 start: "2019-01-01"
 end: "2019-01-01"
+datestring: January 2019
 location: ""
 host: berlin
 mediation: print

@@ -3,6 +3,7 @@ title: Book Biography Machine
 intro: ""
 start: "2015-01-01"
 end: "2015-01-01"
+datestring: January 2015
 location: ""
 host: harvard
 mediation: mixed_media

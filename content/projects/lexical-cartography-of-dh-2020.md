@@ -3,6 +3,7 @@ title: Lexical Cartography of DH2020
 intro: A map to navigate scientific conferences through their speakers, arranged in a network visualization according to their lexical similarity.
 start: "2020-03-01"
 end: "2020-09-30"
+datestring: March&ensp;–&ensp;September 2020
 location: ""
 host: harvard
 mediation: web

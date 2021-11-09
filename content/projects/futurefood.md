@@ -3,6 +3,7 @@ title: FUTUREFOOD
 intro: ""
 start: "2019-01-01"
 end: "2019-01-01"
+datestring: January 2019
 location: ""
 host: harvard
 mediation: mixed_media

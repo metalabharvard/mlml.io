@@ -35,8 +35,8 @@
 
   const searchProjects = new MiniSearch({
     idField,
-    storeFields: [idField, 'intro', 'label', 'date'],
-    fields: ['label', 'intro', 'links', 'members', 'projects', 'events', 'location', 'date', 'collaborators'],
+    storeFields: [idField, 'intro', 'label', 'dateString'],
+    fields: ['label', 'intro', 'links', 'members', 'projects', 'events', 'location', 'dateString', 'collaborators'],
     searchOptions
   });
 
@@ -50,7 +50,7 @@
   $: resultsTotalLength = resultsMembers.length + resultsEvents.length + resultsProjects.length
 
   $: resultsTotal = [
-    ['project', resultsProjects, 'Projects', 'label', 'intro', 'date', 0],
+    ['project', resultsProjects, 'Projects', 'label', 'intro', 'dateString', 0],
     ['event', resultsEvents, 'Events', 'label', 'intro', 'date', resultsProjects.length],
     ['member', resultsMembers, 'Members', 'label', 'role', false, resultsProjects.length + resultsEvents.length]
   ]

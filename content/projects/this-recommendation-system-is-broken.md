@@ -3,6 +3,7 @@ title: This Recommendation System is Broken
 intro: Through randomization, This Recommendation System is Broken decenters the viewer and reimagines the role of norms in collections.
 start: "2021-01-01"
 end: "2021-01-01"
+datestring: January 2021
 location: ""
 host: harvard
 mediation: mixed_media

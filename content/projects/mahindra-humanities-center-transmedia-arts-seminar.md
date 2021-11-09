@@ -3,6 +3,7 @@ title: 'Mahindra Humanities Center: Transmedia Arts Seminar'
 intro: The intersection of contemporary art/theatre and new media technologies in immersive, multisite, and networked modes of transmedia storytelling.
 start: "2020-12-01"
 end: ""
+datestring: Since December 2020
 location: ""
 host: harvard
 mediation: ""

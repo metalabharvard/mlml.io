@@ -3,6 +3,7 @@ title: Surprise Machines
 intro: Surprise Machines sets out to visualize the universe of Harvard Art Museums' collections, opening up unexpected vistas on the objects that make them up.
 start: "2021-01-01"
 end: "2021-01-01"
+datestring: January 2021
 location: Harvard Art Museums
 host: harvard
 mediation: mixed_media

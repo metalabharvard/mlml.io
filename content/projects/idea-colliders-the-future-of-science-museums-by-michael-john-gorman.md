@@ -3,6 +3,7 @@ title: 'Idea Colliders: The Future of Science Museums, by Michael John Gorman'
 intro: A provocative call for the transformation of science museums into “idea colliders” that spark creative collaborations and connections.
 start: "2020-01-01"
 end: "2020-01-01"
+datestring: January 2020
 location: ""
 host: harvard
 mediation: mixed_media

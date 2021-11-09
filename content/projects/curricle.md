@@ -3,6 +3,7 @@ title: Curricle
 intro: Visualized, annotated, connected&#58; what should the course catalog look like in the 21st century? Leveraging data and design in a post-disciplinary era.
 start: "2019-01-01"
 end: "2019-01-01"
+datestring: January 2019
 location: ""
 host: harvard
 mediation: mixed_media

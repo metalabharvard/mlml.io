@@ -3,6 +3,7 @@ title: Nobody’s Listening
 intro: ""
 start: "2017-08-08"
 end: "2017-01-01"
+datestring: August&ensp;–&ensp;January 2017
 location: Cambridge, MA
 host: harvard
 mediation: mixed_media

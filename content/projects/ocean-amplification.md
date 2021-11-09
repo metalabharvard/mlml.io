@@ -3,6 +3,7 @@ title: Ocean Amplification
 intro: Ocean Amplification simulates images of waves to visualize the effects of climate change—and the energy demands of computation.
 start: "2021-01-01"
 end: "2021-01-01"
+datestring: January 2021
 location: ""
 host: harvard
 mediation: mixed_media
