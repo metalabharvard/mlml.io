@@ -36,6 +36,7 @@
    "boxHost": "Host",
    "boxLocation": "Location",
    "boxType": "Type",
+   "boxFunder": "Funder",
    "relatedLabelLinks": "Link",
    "relatedLabelPressArticles": "Press article",
    "memberAlumnus": "Alumnus",
@@ -48,7 +49,10 @@
    "defaultEventCategory": "Event",
    "projectRSS": "Projects RSS",
    "eventRSS": "Events RSS"
-  }
+  },
+  "Images": [
+   "https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1636557077/preview_Zeichenflaeche_1_255ffe8aba.png"
+  ]
  },
  "social": {
   "twitter": "metalabharvard",

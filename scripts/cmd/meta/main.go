@@ -16,6 +16,10 @@ type Index struct {
   Slug string `yaml:"slug"`
 }
 
+type Preview struct {
+  Url string `yaml:"url,omitempty"`
+}
+
 type Meta struct {
   Url string `json:"url"`
   Title string `json:"header_title"`
@@ -61,6 +65,7 @@ type Meta struct {
   BoxHost string `json:"boxHost"`
   BoxLocation string `json:"boxLocation"`
   BoxType string `json:"boxType"`
+  BoxFunder string `json:"boxFunder"`
   RelatedLabelLinks string `json:"relatedLabelLinks"`
   RelatedLabelPressArticles string `json:"relatedLabelPressArticles"`
   MemberAlumnus string `json:"memberAlumnus"`
@@ -73,6 +78,8 @@ type Meta struct {
   DefaultEventCategory string `json:"defaultEventCategory"`
   ProjectRSS string `json:"projectRSS"`
   EventRSS string `json:"eventRSS"`
+  Preview Preview `yaml:"preview,omitempty"`
+  Images []string `yaml:"images,omitempty"`
 }
 
 type Params struct {
@@ -80,6 +87,7 @@ type Params struct {
   Description string `json:"description,omitempty"`
   Keywords string `json:"keywords,omitempty"`
   Label Label `json:"label"`
+  Images []string `yaml:"images,omitempty"`
 }
 
 type Social struct {
@@ -126,6 +134,7 @@ type Label struct {
   BoxHost string `json:"boxHost"`
   BoxLocation string `json:"boxLocation"`
   BoxType string `json:"boxType"`
+  BoxFunder string `json:"boxFunder"`
   RelatedLabelLinks string `json:"relatedLabelLinks"`
   RelatedLabelPressArticles string `json:"relatedLabelPressArticles"`
   MemberAlumnus string `json:"memberAlumnus"`
@@ -145,6 +154,12 @@ type Config struct {
   Url string `json:"baseURL"`
   Params Params `json:"params"`
   Social Social `json:"social"`
+}
+
+func convertToPreviewImage(url string) string {
+  var str string = strings.Replace(url, "upload/", "upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/", 1)
+  str = strings.Replace(str, ".gif", ".jpg", 1)
+  return str
 }
 
 func addIndexPage(id string, str string) {
@@ -221,6 +236,7 @@ func main() {
         BoxHost: responseObject.BoxHost,
         BoxLocation: responseObject.BoxLocation,
         BoxType: responseObject.BoxType,
+        BoxFunder: responseObject.BoxFunder,
         RelatedLabelLinks: responseObject.RelatedLabelLinks,
         RelatedLabelPressArticles: responseObject.RelatedLabelPressArticles,
         MemberAlumnus: responseObject.MemberAlumnus,
@@ -235,6 +251,10 @@ func main() {
         EventRSS: responseObject.EventRSS,
       },
     },
+  }
+
+  if responseObject.Preview.Url != "" {
+    config.Params.Images = []string{convertToPreviewImage(responseObject.Preview.Url)}
   }
 
   file, _ := json.MarshalIndent(config, "", " ")

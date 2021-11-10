@@ -16,6 +16,7 @@
     {{ $members := .Params.Members }}
     {{ $projects := .Params.Projects }}
     {{ $collaborators := .Params.Collaborators }}
+    {{ $funders := .Params.Funders }}
     <dl class="project-relations grid-wide grid grid-v-default half">
       {{ $title := .Site.Params.Label.BoxType }}
       {{ with .Params.Mediation }}
@@ -43,6 +44,7 @@
       {{ end }}
       {{ partial "related-items.html" (dict "items" $members "term" .Site.Params.Label.RelatedMembers "label" .Site.Params.Label.RelatedLabelMembers "class" "member" "root" "project") }}
       {{ partial "related-collaborators.html" (dict "items" $collaborators "label" .Site.Params.Label.boxCollaborator "class" "collaborator") }}
+      {{ partial "related-collaborators.html" (dict "items" $funders "label" .Site.Params.Label.boxFunder "class" "funders") }}
       {{ partial "related-items.html" (dict "items" $projects "term" .Site.Params.Label.RelatedProjects "label" .Site.Params.Label.RelatedLabelProjects "class" "project") }}
       {{ partial "related-items.html" (dict "items" $events "term" .Site.Params.Label.RelatedEvents "label" .Site.Params.Label.RelatedLabelEvents "class" "event") }}
     </dl>

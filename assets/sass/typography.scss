@@ -376,7 +376,7 @@ ul {
   }
 }
 
-.related-events, .related-projects, .related-members, .box-item, .related-links, .related-collaborators {
+.related-events, .related-projects, .related-members, .box-item, .related-links, .related-collaborators, .related-funders {
   line-height: 1;
 
   .title {
@@ -387,7 +387,7 @@ ul {
   }
 }
 
-.related-events-list, .related-projects-list, .related-members-list, .box-item .text, .related-links-list, .related-collaborators-list {
+.related-events-list, .related-projects-list, .related-members-list, .box-item .text, .related-links-list, .related-collaborators-list, .related-funders-list {
   font-size: var(--size-6);
   font-weight: $font-weight-medium;
   line-height: 1.6;

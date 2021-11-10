@@ -11,7 +11,7 @@ mediation: exhibition
 category: project
 isFeatured: true
 externalLink: ""
-lastmod: "2021-11-10T13:25:06.607Z"
+lastmod: "2021-11-10T14:50:21.686Z"
 date: "2019-08-30"
 slug: womanhouse-a-memory-theater
 members:
@@ -224,6 +224,9 @@ gallery:
             ext: .jpg
             width: 104
             height: 156
+funders:
+    - label: Volkswagenstiftung
+      url: https://www.volkswagenstiftung.de/en/foundation
 members_twitter:
     - chiarafauda
     - jaytiesse
