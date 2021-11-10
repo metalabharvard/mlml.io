@@ -11,7 +11,7 @@ mediation: exhibition
 category: project
 isFeatured: true
 externalLink: ""
-lastmod: "2021-11-10T14:50:21.686Z"
+lastmod: "2021-11-10T17:05:22.703Z"
 date: "2019-08-30"
 slug: womanhouse-a-memory-theater
 members:
@@ -31,30 +31,30 @@ members:
       slug: mindy-seu
       twitter: mind_seu
 cover:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348356/DSC_01126_03ddc9c55c.jpg
-    width: 5458
-    height: 2537
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348649/DSC_01121_a09f017e7f.jpg
+    width: 5467
+    height: 2025
     formats:
         large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348359/large_DSC_01126_03ddc9c55c.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348651/large_DSC_01121_a09f017e7f.jpg
             ext: .jpg
             width: 1000
-            height: 465
+            height: 370
         medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348360/medium_DSC_01126_03ddc9c55c.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348651/medium_DSC_01121_a09f017e7f.jpg
             ext: .jpg
             width: 750
-            height: 349
+            height: 278
         small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348360/small_DSC_01126_03ddc9c55c.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348651/small_DSC_01121_a09f017e7f.jpg
             ext: .jpg
             width: 500
-            height: 232
+            height: 185
         thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348358/thumbnail_DSC_01126_03ddc9c55c.jpg
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348650/thumbnail_DSC_01121_a09f017e7f.jpg
             ext: .jpg
             width: 245
-            height: 114
+            height: 91
 gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348556/DSC_01111_4f4e846735.jpg
       width: 5472
@@ -233,11 +233,10 @@ members_twitter:
     - kimay
     - mind_seu
 images:
-    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1635348356/DSC_01126_03ddc9c55c.jpg
+    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1635348649/DSC_01121_a09f017e7f.jpg
 
 ---
 **This exhibit has moved to [Kunsthaus Graz](../womanhouse_graz).**
-
 
 Developed by Kim Albrecht and Jeffrey Schnapp with Chiara Fauda-Pichet and Mindy Seu, this room-sized installation is part of the exhibition *Wo Kunst geschehen kann – Die frühen Jahre des CalArts :: Where art might happen: The early years of CalArts*, which opened at the Kestnergesellschaft in Hannover, Germany on August 30. (The exhibition runs through November 10, 2019.)
  

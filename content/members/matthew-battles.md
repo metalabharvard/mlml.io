@@ -32,7 +32,7 @@ projects:
       slug: curricle
     - label: Curricle Lens
       slug: curricle-lens
-    - label: Networks + Natures
+    - label: Invasive Spirits
       slug: networks-43-natures-58-invasive-spirits
     - label: Their Names
       slug: their-names

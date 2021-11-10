@@ -28,6 +28,10 @@ events:
     - label: metaLAB + friends openLAB
       slug: meta-lab-friends-open-lab
 projects:
+    - label: Blueprint for Counter Education
+      slug: blueprint-for-counter-education-58-expanded-reprint
+    - label: Blueprint for Counter Education website
+      slug: blueprint-for-counter-education-website
     - label: Curatorial A(i)gents
       slug: curatorial-aigents
     - label: Curricle

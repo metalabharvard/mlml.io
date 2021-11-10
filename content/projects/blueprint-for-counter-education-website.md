@@ -7,11 +7,11 @@ end: "2016-01-01"
 datestring: January 2016
 location: ""
 host: harvard
-mediation: mixed_media
+mediation: web
 category: project
 isFeatured: false
-externalLink: ""
-lastmod: "2021-11-10T12:47:54.325Z"
+externalLink: http://www.blueprintforcountereducation.com
+lastmod: "2021-11-10T16:47:49.636Z"
 date: "2016-01-01"
 slug: blueprint-for-counter-education-website
 links:
@@ -21,13 +21,15 @@ links:
       url: http://blueprintforcountereducation.com
     - label: 2016 Reprint Edition (Inventory Press)
       url: http://www.inventorypress.com/product/blueprint-for-counter-education
+members:
+    - label: Jeffrey Schnapp
+      slug: jeffrey-schnapp
+      twitter: jaytiesse
+members_twitter:
+    - jaytiesse
 
 ---
-**[Launch the website](http://www.blueprintforcountereducation.com)**{:target="_blank"}
-
 Alongside the [expanded reprint](http://www.inventorypress.com/product/blueprint-for-counter-education) of Blueprint for Counter Education, we created a companion website that layers high resolution scans of the posters over the sketches that preceded them. Check out recent happenings and explore archival content, including original sketches and interviews with Maurice Stein.
-
-
 
 <br />
 

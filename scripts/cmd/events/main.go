@@ -108,6 +108,10 @@ type Response struct {
   Images []string `yaml:"images,omitempty"`
 }
 
+func trim(str string) string {
+  return strings.TrimSpace(str)
+}
+
 func convertToPreviewImage(url string) string {
   var str string = strings.Replace(url, "upload/", "upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/", 1)
   str = strings.Replace(str, ".gif", ".jpg", 1)
@@ -273,6 +277,8 @@ func main() {
     element.Events = getRelatedEvents(element.Topics, responseObject, element.Slug)
 
     element.Topics = nil
+
+    element.Link = trim(element.Link)
 
     sort.Sort(MembersByName(element.Members))
     sort.Sort(ProjectsByName(element.Projects))

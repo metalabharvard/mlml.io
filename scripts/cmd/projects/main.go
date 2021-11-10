@@ -205,7 +205,7 @@ func createTimeString(start string, end string) string {
 }
 
 func trim(str string) string {
-  return strings.Trim(str, " ")
+  return strings.TrimSpace(str)
 }
 
 func getMembersTwitter(members []Member) []string {
@@ -319,6 +319,7 @@ func main() {
     element.Funders = cleanFunders(element.Funders)
 
     element.Host = trim(element.Host)
+    element.ExternalLink = trim(element.ExternalLink)
 
     sort.Sort(MembersByName(element.Members))
     sort.Sort(EventsByName(element.Events))

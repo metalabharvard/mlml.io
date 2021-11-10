@@ -10,8 +10,8 @@ host: berlin
 mediation: exhibition
 category: ""
 isFeatured: false
-externalLink: ""
-lastmod: "2021-11-10T13:25:06.602Z"
+externalLink: https://www.museum-joanneum.at/en/kunsthaus-graz/exhibitions/exhibitions/events/event/8855/where-art-might-happen
+lastmod: "2021-11-10T17:03:06.043Z"
 date: "2020-03-13"
 slug: where-art-might-happen-the-early-years-of-cal-arts
 members:
