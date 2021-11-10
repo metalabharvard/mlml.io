@@ -23,6 +23,8 @@ events:
       slug: dialogues-with-data-at-infovis
     - label: The Future of Science Museums
       slug: the-future-of-science-museums-michael-john-gorman-in-conversation-with-jeffrey-schnapp
+    - label: 'futureStage Manifesto: New Scenarios for the Performing Arts'
+      slug: future-stage-manifesto-new-scenarios-for-the-performing-arts
     - label: metaLAB + friends openLAB
       slug: meta-lab-friends-open-lab
 projects:

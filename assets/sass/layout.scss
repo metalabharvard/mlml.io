@@ -1022,6 +1022,10 @@ picture, img {
 }
 
 .homepage-event {
+  .event-subtitle {
+    margin-top: var(--spacing-025);
+  }
+
   .event-intro {
     margin-top: var(--spacing-05);
   }

@@ -8,6 +8,9 @@ website: http://magdaromanska.com/
 lastmod: "2021-11-02T18:30:56.544Z"
 date: "2021-09-16T10:51:45.235Z"
 slug: magda-romanska
+events:
+    - label: 'futureStage Manifesto: New Scenarios for the Performing Arts'
+      slug: future-stage-manifesto-new-scenarios-for-the-performing-arts
 projects:
     - label: futureSTAGE
       slug: futurestage

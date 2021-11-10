@@ -1,7 +1,7 @@
 ---
 title: Blueprint for Counter Education
 subtitle: Expanded Reprint
-intro: '&#8220;This counter-university makes obsolete the traditional university process...&#8221;'
+intro: “This counter-university makes obsolete the traditional university process…”
 start: "2016-01-01"
 end: "2016-01-01"
 datestring: January 2016
@@ -11,7 +11,7 @@ mediation: mixed_media
 category: publication
 isFeatured: false
 externalLink: ""
-lastmod: "2021-11-10T12:52:36.638Z"
+lastmod: "2021-11-10T13:25:06.590Z"
 date: "2016-01-01"
 slug: blueprint-for-counter-education-58-expanded-reprint
 links:

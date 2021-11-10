@@ -29,6 +29,8 @@ events:
       slug: 2018-lita-library-technology-forum
     - label: Decentralized Storytelling
       slug: mahindra-transmedia-arts-seminar-lance-weiler-decentralized-storytelling-where-ai-the-blokchain-code-and-the-metaverse-connect
+    - label: 'futureStage Manifesto: New Scenarios for the Performing Arts'
+      slug: future-stage-manifesto-new-scenarios-for-the-performing-arts
 ---
 Jenn Parker-Starbuck, Royal Holloway, University of London. April 15, 5pm EST.
 **Animals in the Machine: Robotic Animal Agents**

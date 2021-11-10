@@ -3,6 +3,7 @@
     <header class="event-header grid-wide">
       {{ with .Params.Start_time }}<span class="event-timeago timeago" datetime="{{ dateFormat "2006-01-02 03:04:05 UTC" . }}"></span>{{ end }}
       <h1 class="event-name p-name" property="name">{{ .Params.Title }}</h1>
+      {{ with .Params.Subtitle }}<h2 class="event-subtitle p-name" property="name">{{ . }}</h2>{{ end }}
       {{ with .Params.Intro }}<span class="event-intro p-summary">{{ . | markdownify }}</span>{{ end }}
       {{ if or (.Params.Start_time) (.Params.ExternalLink) }}
       <div class="event-header-bar">

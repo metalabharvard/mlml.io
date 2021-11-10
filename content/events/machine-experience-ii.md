@@ -16,11 +16,11 @@ end_time: "2018-02-04T12:00:00.000Z"
 end_time_utc: 20180119T140000Z
 timezone: UTC
 tzid: UTC
-intro: MACHINE EXPERIENCE II&#58; Art Perspectives on Artificial Intelligence
+intro: 'Machine Experience II: Art Perspectives on Artificial Intelligence'
 location: Berlin
 isFeatured: false
 isOngoing: false
-lastmod: "2021-11-10T12:31:38.381Z"
+lastmod: "2021-11-10T13:20:56.498Z"
 date: "2018-01-19T12:00:00Z"
 slug: machine-experience-ii
 members:

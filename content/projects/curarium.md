@@ -1,7 +1,7 @@
 ---
 title: Curarium
 subtitle: ""
-intro: Curarium is a collection of collections, an &#8220;animated archive&#8221; crowdsourcing annotation, curation, and augmentation of works within and beyond their respective collections.
+intro: Curarium is a collection of collections, an “animated archive” crowdsourcing annotation, curation, and augmentation of works within and beyond their respective collections.
 start: "2016-01-01"
 end: "2016-01-01"
 datestring: January 2016
@@ -11,7 +11,7 @@ mediation: mixed_media
 category: project
 isFeatured: false
 externalLink: ""
-lastmod: "2021-11-10T12:47:54.387Z"
+lastmod: "2021-11-10T13:20:37.995Z"
 date: "2016-01-01"
 slug: curarium
 collaborators:

@@ -16,13 +16,13 @@ end_time: "2021-10-28T22:30:00.000Z"
 end_time_utc: 20211028T230000Z
 timezone: UTC
 tzid: UTC
-intro: 'MAHINDRA TRANSMEDIA ARTS SEMINAR: Lance Weiler, Director of the Columbia University School of the Arts’ Digital Storytelling Lab.  '
+intro: 'Mahindra Transmedia Arts Seminar: Lance Weiler, Director of the Columbia University School of the Arts’ Digital Storytelling Lab.  '
 location: online
 category: seminar
 externalLink: https://harvard.zoom.us/webinar/register/WN_yyN8-Xf-QSi-EQ78y7YwHw
 isFeatured: true
 isOngoing: false
-lastmod: "2021-11-10T12:27:37.466Z"
+lastmod: "2021-11-10T13:20:56.408Z"
 date: "2021-10-28T21:00:00Z"
 slug: mahindra-transmedia-arts-seminar-lance-weiler-decentralized-storytelling-where-ai-the-blokchain-code-and-the-metaverse-connect
 events:
@@ -30,6 +30,8 @@ events:
       slug: 2018-lita-library-technology-forum
     - label: 'Mahindra Transmedia Arts Seminar: Jenn Parker-Starbuck, Animals in the Machine: Robotic Animal Agents'
       slug: mahindra-transmedia-arts-seminar-jenn-parker-starbuck-animals-in-the-machine-robotic-animal-agents
+    - label: 'futureStage Manifesto: New Scenarios for the Performing Arts'
+      slug: future-stage-manifesto-new-scenarios-for-the-performing-arts
 cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1634901593/weiler_transmedia_cd91da1c84.jpg
     width: 2550

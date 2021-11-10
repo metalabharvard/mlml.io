@@ -8,6 +8,9 @@ website: http://www.skybetter.org/
 lastmod: "2021-09-16T10:51:44.935Z"
 date: "2021-09-16T10:51:44.935Z"
 slug: sydney-skybetter
+events:
+    - label: 'futureStage Manifesto: New Scenarios for the Performing Arts'
+      slug: future-stage-manifesto-new-scenarios-for-the-performing-arts
 projects:
     - label: futureSTAGE
       slug: futurestage

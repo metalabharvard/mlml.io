@@ -1,7 +1,7 @@
 ---
 title: Where Art Might Happen
 subtitle: The Early Years of CalArts
-intro: Memory traces of “the daydreams that women have as they wash, bake, cook, sew, clean and iron their lives away ... taken to fantasy proportions” (30/1/1970-28/2/1970)
+intro: Memory traces of “the daydreams that women have as they wash, bake, cook, sew, clean and iron their lives away … taken to fantasy proportions” (30/1/1970-28/2/1970)
 start: "2020-03-13"
 end: "2020-06-07"
 datestring: March&ensp;–&ensp;June 2020
@@ -11,7 +11,7 @@ mediation: exhibition
 category: ""
 isFeatured: false
 externalLink: ""
-lastmod: "2021-11-10T12:58:11.323Z"
+lastmod: "2021-11-10T13:25:06.602Z"
 date: "2020-03-13"
 slug: where-art-might-happen-the-early-years-of-cal-arts
 members:

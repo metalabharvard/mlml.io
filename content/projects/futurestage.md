@@ -45,6 +45,9 @@ collaborators:
       url: ""
     - label: Evenlyn Ficarra
       url: ""
+events:
+    - label: 'futureStage Manifesto: New Scenarios for the Performing Arts'
+      slug: future-stage-manifesto-new-scenarios-for-the-performing-arts
 members:
     - label: Eveline Wandl-Vogt
       slug: eveline-wandl-vogt
