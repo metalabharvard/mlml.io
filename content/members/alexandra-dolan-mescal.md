@@ -6,12 +6,24 @@ role_string: Alumnus
 twitter: fromadmwithlove
 website: http://dhalab.org/alexdm
 instagram: fromadmwithlove
-lastmod: "2021-09-16T10:51:44.527Z"
+lastmod: "2021-11-10T17:34:22.474Z"
 date: "2021-09-16T10:51:44.527Z"
 slug: alexandra-dolan-mescal
 projects:
     - label: Curricle
       slug: curricle
+picture:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1636565654/alexandra_1cf86d3e86.jpg
+    width: 386
+    height: 500
+    ext: .jpg
+    mime: image/jpeg
+    formats:
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1636565655/thumbnail_alexandra_1cf86d3e86.jpg
+            ext: .jpg
+            width: 120
+            height: 156
 
 ---
 Alexandra is an artist, archivist, and user experience designer whose works

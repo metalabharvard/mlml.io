@@ -5,7 +5,7 @@ isAlumnus: true
 role_string: Alumnus
 website: http://jessyurko.com/
 instagram: jyurko
-lastmod: "2021-09-16T10:51:45.452Z"
+lastmod: "2021-11-10T17:35:02.528Z"
 date: "2021-09-16T10:51:45.452Z"
 slug: jessica-yurkofsky
 events:
@@ -18,6 +18,18 @@ events:
 projects:
     - label: Curricle
       slug: curricle
+picture:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1636565697/jessica_67822e3b6d.jpg
+    width: 500
+    height: 500
+    ext: .jpg
+    mime: image/jpeg
+    formats:
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1636565698/thumbnail_jessica_67822e3b6d.jpg
+            ext: .jpg
+            width: 156
+            height: 156
 
 ---
 Jessica Yurkofsky is a designer with roots in computer science and place-making. She graduated from the urban planning program at Harvard GSD, writing her masters thesis on seniors’ use of social media as a means of accessing dispersed social spaces and community. She was subsequently part of the team behind Library Test Kitchen and LABRARY. Jessica’s interests include all kinds of libraries and generally building things.
