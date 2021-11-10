@@ -320,6 +320,8 @@ members_twitter:
     - matthewbattles
     - paolopetrocelli
     - sydneyskybetter
+images:
+    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1635870255/Futurstage_Instagram_posts3_6793ab50d5.png
 
 ---
 FutureSTAGE is a global research project dedicated to investigating current challenges and future prospects for the development of opera houses, theatres, and performing arts centers.

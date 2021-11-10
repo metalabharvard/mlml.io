@@ -64,6 +64,8 @@ cover:
             height: 138
 members_twitter:
     - sarahwnewman
+images:
+    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1635188502/img0_28d1a9b527.jpg
 
 ---
 Cities, nature, and knowledge itself: we often resolve  images of these things in the branching forms of trees. Rivers, traffic, bits and bytes: these things, too, run in networks. We often speak of technology as antithetical to the natural world—where technology reigns, nature retreats. And yet wherever we look in the world, natural and technical things meet and merge, find ways to enfold one another. What are technology's roles in our experience of the natural world? metaLAB is exploring this question through artistic provocations, field research, and the development of digital platforms for exploring urban ecology. A crucial partner in this exploration is Harvard Arnold Arboretum, where we continue to explore opportunities to bring data, media, and archival materials into dialogue about the natural and cultural dimensions of urban wilds. Future initiatives will include media documentation of botanical collecting, the development of platforms and provocations for encountering gardens and arboreta in new and nourishing ways, and convivial encounters with invasive plants species in food and drink.

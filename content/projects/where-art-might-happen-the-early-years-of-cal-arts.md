@@ -42,6 +42,8 @@ cover:
 members_twitter:
     - jaytiesse
     - kimay
+images:
+    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1628686495/where_art_might_happen_the_early_years_of_cal_arts_4b18fd7f74.jpg
 
 ---
 **This exhibit is an installation of [Womanhouse (a memory theater)](../womanhouse).**

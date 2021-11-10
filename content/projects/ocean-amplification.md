@@ -89,6 +89,8 @@ gallery:
             height: 133
 members_twitter:
     - alarconbits
+images:
+    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1635824415/oceanamp1_f35c571b42.jpg
 
 ---
 The shape of the world’s oceans is changing. According to a 2019 report in the journal *Science*, wind speed increases in the Earth’s southernmost oceans induced by ocean warming have led over the last thirty or so years to an .25% surge in the wave height of the largest 10 percent of waves. As such, the wave emerges as a key symbol of ocean transformation: of the material effects of climate change, alongside intensified storms, sea-level rise, and increasing temperatures. The present project explores visualizations and simulations of rising waves, read as avatars of a hybrid human-inhuman political ecology.

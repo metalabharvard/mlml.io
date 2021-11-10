@@ -39,6 +39,8 @@ cover:
             ext: .jpg
             width: 125
             height: 156
+images:
+    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1628686200/Dear_Loneliness_1b1650ed67.jpg
 
 ---
 [Over half of Americans](https://www.valuepenguin.com/coronavirus-loneliness-survey?utm_source=STAT+Newsletters&utm_campaign=f3e6bb82c2-MR_COPY_01&utm_medium=email&utm_term=0_8cab1d7961-f3e6bb82c2-152047705) say their mental health is suffering amid the COVID-19 outbreak, exacerbating the fact that one in five already reported feeling lonely before it. For BIPOC communities, the toll of both physical and psychological isolation has only been greater.

@@ -70,6 +70,8 @@ gallery:
             height: 156
 members_twitter:
     - linsderry
+images:
+    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1635823874/secondlook1_e086af259a.jpg
 
 ---
 <iframe src="https://linsderry.github.io/SecondLook/" width="100%" height="800" frameborder="0" title="Second Look"></iframe>

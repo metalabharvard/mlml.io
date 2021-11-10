@@ -59,6 +59,8 @@ cover:
             height: 155
 members_twitter:
     - kimay
+images:
+    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1633360980/watching_machines_kim_albrecht_harvard_art_museums_min_1be7c7efa8.png
 
 ---
 <iframe src="https://watching-machines.kimalbrecht.com/" width="100%" height="500px" frameborder="0" title="Watching Machines Loving Grace"></iframe><br />

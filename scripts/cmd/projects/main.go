@@ -107,6 +107,7 @@ type Response struct {
   Gallery []Cover `yaml:"gallery,omitempty"`
   Funders []Funder `yaml:"funders,omitempty"`
   MembersTwitter []string `yaml:"members_twitter,omitempty"`
+  Images []string `yaml:"images,omitempty"`
 }
 
 type Index struct {
@@ -249,6 +250,12 @@ func cleanFunders(Funders []Funder) []Funder {
   return list
 }
 
+func convertToPreviewImage(url string) string {
+  var str string = strings.Replace(url, "upload/", "upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/", 1)
+  str = strings.Replace(str, ".gif", ".jpg", 1)
+  return str
+}
+
 func main() {
   println("Requesting projects")
   response, err := http.Get("https://metalab-strapi.herokuapp.com/projects")
@@ -320,6 +327,13 @@ func main() {
     element.DateString = createTimeString(element.Start, element.End)
 
     element.MembersTwitter = getMembersTwitter(element.Members)
+
+    if element.Preview.Url != "" {
+      element.Images = []string{convertToPreviewImage(element.Preview.Url)}
+    } else if element.Cover.Url != "" {
+      element.Images = []string{convertToPreviewImage(element.Cover.Url)}
+    }
+    element.Preview = Cover{}
 
     file, _ := yaml.Marshal(element)
     _ = ioutil.WriteFile(fmt.Sprintf("%s/%s.md", FOLDER, element.Slug), []byte(fmt.Sprintf("---\n%s\n---\n%s", file, content)), 0644)

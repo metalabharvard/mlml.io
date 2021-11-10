@@ -55,6 +55,8 @@ cover:
             height: 156
 members_twitter:
     - dariorodighiero
+images:
+    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1635823994/surprisemachines_061c847690.jpg
 
 ---
 <iframe src="https://rodighiero.github.io/Surprise-Machines/" width="100%" height="500" frameborder="0" title="Surprise Machines"></iframe>

@@ -120,6 +120,8 @@ gallery:
 members_twitter:
     - kimay
     - matthewbattles
+images:
+    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1628686618/their_names_fcc869a829.jpg
 
 ---
 We live in a world of systemic racism and systemic violence. The two are inextricably intertwined. This violence tears at victims' families, communities, and everyone involved in fatal encounters with law enforcement. Its effects fall disproportionately on communities of color and Black communities, families, and lives in particular. 

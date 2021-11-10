@@ -229,6 +229,8 @@ members_twitter:
     - jaytiesse
     - kimay
     - mind_seu
+images:
+    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1635348356/DSC_01126_03ddc9c55c.jpg
 
 ---
 **This exhibit has moved to [Kunsthaus Graz](../womanhouse_graz).**

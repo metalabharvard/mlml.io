@@ -147,6 +147,8 @@ gallery:
             height: 136
 members_twitter:
     - kimay
+images:
+    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1635348173/hypercam_5052cf8738.jpg
 
 ---
 During the first months of 2020, human relationships turned virtual. Once a bounded practice, a backup for otherwise face-to-face encounters, video conferencing became the normative mode of interaction for work meetings, friendships, education, love relationships and family gatherings on both the local and global scales. Hypercam enacts a gesture of visual resistance to the squared-off talking heads that we have all become; it converts the interface flatland into a multidimensional space of play.<br /><br />

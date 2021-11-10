@@ -109,6 +109,8 @@ members_twitter:
     - kimay
     - linsderry
     - philippschmitt
+images:
+    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1623943307/agents_ce7bfadd93.jpg
 
 ---
 *Curatorial A(i)gents* presents a series of machine-learning-based experiments with museum collections and data developed by members and affiliates of {{< link "" >}}metaLAB (at) Harvard{{< /link >}}, a creative research group working in the networked arts and humanities. 
