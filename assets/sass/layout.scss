@@ -1022,6 +1022,13 @@ picture, img {
 }
 
 .homepage-event {
+  .title-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    column-gap: var(--spacing-1);
+  }
+
   .event-subtitle {
     margin-top: var(--spacing-025);
   }

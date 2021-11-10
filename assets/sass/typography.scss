@@ -508,6 +508,13 @@ ul {
 }
 
 .homepage-event {
+  .event-status {
+    font-size: var(--size-4);
+    font-weight: $font-weight-medium;
+    text-transform: uppercase;
+    @include gradient-text();
+  }
+
   .event-name {
     font-size: var(--size-1);
     line-height: 1.05;
