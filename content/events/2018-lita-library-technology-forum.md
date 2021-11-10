@@ -1,5 +1,7 @@
 ---
 title: 2018 LITA Library Technology Forum
+subtitle: ""
+status: ""
 outputs:
     - HTML
     - Calendar
@@ -21,9 +23,9 @@ lastmod: "2021-09-16T14:03:11.531Z"
 date: "2018-11-08T12:00:00Z"
 slug: 2018-lita-library-technology-forum
 events:
-    - label: Decentralized Storytelling — Where AI, the Blokchain, Code, and the Metaverse Connect
+    - label: Decentralized Storytelling
       slug: mahindra-transmedia-arts-seminar-lance-weiler-decentralized-storytelling-where-ai-the-blokchain-code-and-the-metaverse-connect
-    - label: 'MAHINDRA TRANSMEDIA ARTS SEMINAR: Jenn Parker-Starbuck, Animals in the Machine: Robotic Animal Agents'
+    - label: 'Mahindra Transmedia Arts Seminar: Jenn Parker-Starbuck, Animals in the Machine: Robotic Animal Agents'
       slug: mahindra-transmedia-arts-seminar-jenn-parker-starbuck-animals-in-the-machine-robotic-animal-agents
 links:
     - label: LITA Forum

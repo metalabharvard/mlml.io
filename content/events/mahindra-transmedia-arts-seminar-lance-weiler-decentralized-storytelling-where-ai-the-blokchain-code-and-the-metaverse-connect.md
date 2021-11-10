@@ -1,5 +1,7 @@
 ---
-title: Decentralized Storytelling — Where AI, the Blokchain, Code, and the Metaverse Connect
+title: Decentralized Storytelling
+subtitle: Where AI, the Blokchain, Code, and the Metaverse Connect
+status: ""
 outputs:
     - HTML
     - Calendar
@@ -20,13 +22,13 @@ category: seminar
 externalLink: https://harvard.zoom.us/webinar/register/WN_yyN8-Xf-QSi-EQ78y7YwHw
 isFeatured: true
 isOngoing: false
-lastmod: "2021-10-22T12:57:25.547Z"
+lastmod: "2021-11-10T12:27:37.466Z"
 date: "2021-10-28T21:00:00Z"
 slug: mahindra-transmedia-arts-seminar-lance-weiler-decentralized-storytelling-where-ai-the-blokchain-code-and-the-metaverse-connect
 events:
     - label: 2018 LITA Library Technology Forum
       slug: 2018-lita-library-technology-forum
-    - label: 'MAHINDRA TRANSMEDIA ARTS SEMINAR: Jenn Parker-Starbuck, Animals in the Machine: Robotic Animal Agents'
+    - label: 'Mahindra Transmedia Arts Seminar: Jenn Parker-Starbuck, Animals in the Machine: Robotic Animal Agents'
       slug: mahindra-transmedia-arts-seminar-jenn-parker-starbuck-animals-in-the-machine-robotic-animal-agents
 cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1634901593/weiler_transmedia_cd91da1c84.jpg

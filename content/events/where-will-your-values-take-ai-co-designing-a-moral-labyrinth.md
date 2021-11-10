@@ -1,5 +1,7 @@
 ---
 title: Where will your values take AI? Co-designing a Moral Labyrinth
+subtitle: ""
+status: ""
 outputs:
     - HTML
     - Calendar

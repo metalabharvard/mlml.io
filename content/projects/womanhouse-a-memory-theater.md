@@ -1,5 +1,6 @@
 ---
 title: Womanhouse (a memory theater)
+subtitle: ""
 intro: Memory traces of “the daydreams that women have as they wash, bake, cook, sew, clean and iron their lives away ... taken to fantasy proportions” (30/1/1970-28/2/1970)
 start: "2019-08-30"
 end: "2019-11-10"
@@ -10,7 +11,7 @@ mediation: exhibition
 category: project
 isFeatured: true
 externalLink: ""
-lastmod: "2021-10-27T15:31:04.746Z"
+lastmod: "2021-11-10T12:47:55.185Z"
 date: "2019-08-30"
 slug: womanhouse-a-memory-theater
 members:

@@ -1,5 +1,7 @@
 ---
 title: 'Open Session: Alterspace'
+subtitle: ""
+status: ""
 outputs:
     - HTML
     - Calendar
@@ -17,7 +19,7 @@ tzid: UTC
 location: Cambridge, MA
 isFeatured: false
 isOngoing: false
-lastmod: "2021-09-16T09:49:46.846Z"
+lastmod: "2021-11-10T12:43:12.400Z"
 date: "2019-03-06T12:00:00Z"
 slug: open-session-alterspace
 ---

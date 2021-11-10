@@ -1,5 +1,7 @@
 ---
-title: 'Earth Measurer: Regenerating Algorithms'
+title: Earth Measurer
+subtitle: Regenerating Algorithms
+status: ""
 outputs:
     - HTML
     - Calendar
@@ -17,7 +19,7 @@ tzid: UTC
 location: 4S, New Orleans
 isFeatured: false
 isOngoing: false
-lastmod: "2021-09-16T09:49:45.615Z"
+lastmod: "2021-11-10T12:37:59.765Z"
 date: "2019-09-07T12:00:00Z"
 slug: earth-measurer-regenerating-algorithms
 ---

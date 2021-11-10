@@ -1,5 +1,7 @@
 ---
-title: 'MAHINDRA TRANSMEDIA ARTS SEMINAR: Magda Romanska, Transmedia Dramaturgy of Pre- and Post-Pandemic Theatre'
+title: Mahindra Transmedia Arts Seminar
+subtitle: Magda Romanska, Transmedia Dramaturgy of Pre- and Post-Pandemic Theatre
+status: ""
 outputs:
     - HTML
     - Calendar
@@ -17,7 +19,7 @@ tzid: UTC
 location: Cambridge, MA
 isFeatured: false
 isOngoing: false
-lastmod: "2021-11-02T11:11:07.308Z"
+lastmod: "2021-11-10T12:41:23.685Z"
 date: "2020-10-08T12:00:00Z"
 slug: mahindra-transmedia-arts-seminar-magda-romanska-transmedia-dramaturgy-of-pre-and-post-pandemic-theatre
 ---

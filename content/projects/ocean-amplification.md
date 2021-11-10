@@ -1,5 +1,6 @@
 ---
 title: Ocean Amplification
+subtitle: ""
 intro: Ocean Amplification simulates images of waves to visualize the effects of climate change—and the energy demands of computation.
 start: "2021-01-01"
 end: "2021-01-01"
@@ -10,7 +11,7 @@ mediation: mixed_media
 category: project
 isFeatured: false
 externalLink: ""
-lastmod: "2021-11-02T12:17:29.112Z"
+lastmod: "2021-11-10T12:47:55.210Z"
 date: "2021-01-01"
 slug: ocean-amplification
 collaborators:
@@ -21,7 +22,7 @@ members:
       slug: francisco-alarcon
       twitter: alarconbits
 projects:
-    - label: 'Second Look: Gender and Sentiment on Show'
+    - label: Second Look
       slug: second-look-gender-and-sentiment-on-show
     - label: Surprise Machines
       slug: surprise-machines

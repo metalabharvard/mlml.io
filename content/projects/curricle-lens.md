@@ -1,5 +1,6 @@
 ---
 title: Curricle Lens
+subtitle: ""
 intro: 'Visualized, annotated, connected: Curricle Lens uses data narratives to explore the historical nature of the college curriculum, leveraging data and design in a post-disciplinary era.'
 start: "2020-01-01"
 end: "2020-01-01"
@@ -10,7 +11,7 @@ mediation: web
 category: publication
 isFeatured: false
 externalLink: ""
-lastmod: "2021-11-09T18:26:09.035Z"
+lastmod: "2021-11-10T12:47:55.572Z"
 date: "2020-01-01"
 slug: curricle-lens
 collaborators:

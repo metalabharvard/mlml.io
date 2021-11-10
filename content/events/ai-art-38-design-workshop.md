@@ -1,5 +1,7 @@
 ---
-title: AI Art &#38; Design Workshop
+title: AI Art & Design Workshop
+subtitle: ""
+status: ""
 outputs:
     - HTML
     - Calendar
@@ -17,7 +19,7 @@ tzid: UTC
 location: Cambridge, MA
 isFeatured: false
 isOngoing: false
-lastmod: "2021-09-16T09:49:44.231Z"
+lastmod: "2021-11-10T12:32:51.915Z"
 date: "2017-07-08T12:00:00Z"
 slug: ai-art-38-design-workshop
 ---

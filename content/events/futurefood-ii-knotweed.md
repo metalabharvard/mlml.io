@@ -1,5 +1,7 @@
 ---
-title: 'FUTUREFOOD II: KNOTWEED'
+title: Futurefood II
+subtitle: Knotweed
+status: ""
 outputs:
     - HTML
     - Calendar
@@ -17,7 +19,7 @@ tzid: UTC
 location: Cambridge, MA
 isFeatured: false
 isOngoing: false
-lastmod: "2021-09-16T09:49:45.784Z"
+lastmod: "2021-11-10T12:39:46.259Z"
 date: "2019-05-25T12:00:00Z"
 slug: futurefood-ii-knotweed
 ---

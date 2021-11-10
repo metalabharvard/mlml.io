@@ -1,5 +1,7 @@
 ---
-title: 'MAHINDRA TRANSMEDIA ARTS SEMINAR: Jenn Parker-Starbuck, Animals in the Machine: Robotic Animal Agents'
+title: 'Mahindra Transmedia Arts Seminar: Jenn Parker-Starbuck, Animals in the Machine: Robotic Animal Agents'
+subtitle: ""
+status: ""
 outputs:
     - HTML
     - Calendar
@@ -19,13 +21,13 @@ location: Cambridge, MA
 category: seminar
 isFeatured: false
 isOngoing: false
-lastmod: "2021-10-04T15:35:08.384Z"
+lastmod: "2021-11-10T12:29:36.120Z"
 date: "2021-04-15T12:00:00Z"
 slug: mahindra-transmedia-arts-seminar-jenn-parker-starbuck-animals-in-the-machine-robotic-animal-agents
 events:
     - label: 2018 LITA Library Technology Forum
       slug: 2018-lita-library-technology-forum
-    - label: Decentralized Storytelling — Where AI, the Blokchain, Code, and the Metaverse Connect
+    - label: Decentralized Storytelling
       slug: mahindra-transmedia-arts-seminar-lance-weiler-decentralized-storytelling-where-ai-the-blokchain-code-and-the-metaverse-connect
 ---
 Jenn Parker-Starbuck, Royal Holloway, University of London. April 15, 5pm EST.

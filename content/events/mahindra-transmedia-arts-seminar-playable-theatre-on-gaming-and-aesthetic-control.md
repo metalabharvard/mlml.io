@@ -1,5 +1,7 @@
 ---
-title: 'MAHINDRA TRANSMEDIA ARTS SEMINAR: ''Playable Theatre'': on Gaming and Aesthetic Control'
+title: 'Mahindra Transmedia Arts Seminar: ‘Playable Theatre’: on Gaming and Aesthetic Control'
+subtitle: ""
+status: ""
 outputs:
     - HTML
     - Calendar
@@ -18,7 +20,7 @@ intro: Theorizing the enhancements and constraints that gaming brings to theatre
 location: Cambridge, MA
 isFeatured: false
 isOngoing: false
-lastmod: "2021-09-16T09:49:46.572Z"
+lastmod: "2021-11-10T12:42:22.234Z"
 date: "2021-03-23T12:00:00Z"
 slug: mahindra-transmedia-arts-seminar-playable-theatre-on-gaming-and-aesthetic-control
 ---

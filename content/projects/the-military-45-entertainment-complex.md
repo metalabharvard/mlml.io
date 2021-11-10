@@ -1,5 +1,6 @@
 ---
 title: The Military-Entertainment Complex
+subtitle: ""
 intro: ""
 start: "2018-01-01"
 end: "2018-01-01"
@@ -10,7 +11,7 @@ mediation: mixed_media
 category: publication
 isFeatured: false
 externalLink: ""
-lastmod: "2021-11-02T16:59:55.967Z"
+lastmod: "2021-11-10T12:47:53.613Z"
 date: "2018-01-01"
 slug: the-military-45-entertainment-complex
 

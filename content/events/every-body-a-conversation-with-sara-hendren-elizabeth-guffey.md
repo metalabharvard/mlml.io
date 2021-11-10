@@ -1,5 +1,7 @@
 ---
-title: 'EVERY BODY: a conversation with SARA HENDREN & ELIZABETH GUFFEY'
+title: Every Body
+subtitle: A conversation with Sara Hendren & Elizabeth Guffey
+status: ""
 outputs:
     - HTML
     - Calendar
@@ -18,7 +20,7 @@ intro: Celebrating the arrival of two books that question hidden assumptions abo
 location: Cambridge, MA
 isFeatured: false
 isOngoing: false
-lastmod: "2021-11-02T11:11:07.231Z"
+lastmod: "2021-11-10T12:38:41.604Z"
 date: "2020-10-08T12:00:00Z"
 slug: every-body-a-conversation-with-sara-hendren-elizabeth-guffey
 ---

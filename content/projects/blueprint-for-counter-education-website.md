@@ -1,5 +1,6 @@
 ---
 title: Blueprint for Counter Education website
+subtitle: ""
 intro: ""
 start: "2016-01-01"
 end: "2016-01-01"
@@ -10,7 +11,7 @@ mediation: mixed_media
 category: project
 isFeatured: false
 externalLink: ""
-lastmod: "2021-10-29T15:11:11.410Z"
+lastmod: "2021-11-10T12:47:54.325Z"
 date: "2016-01-01"
 slug: blueprint-for-counter-education-website
 links:

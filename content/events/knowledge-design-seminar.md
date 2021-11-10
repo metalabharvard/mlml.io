@@ -1,5 +1,7 @@
 ---
 title: Knowledge Design Seminar
+subtitle: ""
+status: ""
 outputs:
     - HTML
     - Calendar

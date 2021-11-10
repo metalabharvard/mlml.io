@@ -1,5 +1,6 @@
 ---
 title: Life and Death of Data
+subtitle: ""
 intro: In collections of scientific and cultural history that are too big to see, metadata act as virtual handles for rare and delicate artifacts from the past.
 start: "2013-01-01"
 end: "2013-01-01"
@@ -10,7 +11,7 @@ mediation: mixed_media
 category: publication
 isFeatured: false
 externalLink: ""
-lastmod: "2021-09-16T09:49:46.753Z"
+lastmod: "2021-11-10T12:47:54.572Z"
 date: "2013-01-01"
 slug: life-and-death-of-data
 collaborators:

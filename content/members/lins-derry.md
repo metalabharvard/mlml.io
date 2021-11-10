@@ -18,7 +18,7 @@ events:
 projects:
     - label: Curatorial A(i)gents
       slug: curatorial-aigents
-    - label: 'Second Look: Gender and Sentiment on Show'
+    - label: Second Look
       slug: second-look-gender-and-sentiment-on-show
     - label: futureSTAGE
       slug: futurestage

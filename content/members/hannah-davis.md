@@ -7,7 +7,7 @@ lastmod: "2021-09-16T10:51:44.564Z"
 date: "2021-09-16T10:51:44.564Z"
 slug: hannah-davis
 events:
-    - label: MACHINE EXPERIENCE II
+    - label: Machine Experience II
       slug: machine-experience-ii
 
 ---

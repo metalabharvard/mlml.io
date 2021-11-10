@@ -1,5 +1,6 @@
 ---
 title: Watching Machines Loving Grace
+subtitle: ""
 intro: Observing the otherwise unwanted parts of facial recognition, Watching Machines Loving Grace visualizes the reductiveness of algorithmic visual sense-making.
 start: "2021-01-01"
 end: "2021-01-01"
@@ -10,7 +11,7 @@ mediation: web
 category: project
 isFeatured: false
 externalLink: ""
-lastmod: "2021-11-02T12:17:30.623Z"
+lastmod: "2021-11-10T12:47:55.203Z"
 date: "2021-01-01"
 slug: watching-machines-loving-grace
 collaborators:
@@ -26,7 +27,7 @@ members:
 projects:
     - label: Ocean Amplification
       slug: ocean-amplification
-    - label: 'Second Look: Gender and Sentiment on Show'
+    - label: Second Look
       slug: second-look-gender-and-sentiment-on-show
     - label: Surprise Machines
       slug: surprise-machines

@@ -9,7 +9,7 @@ lastmod: "2021-11-02T18:32:19.025Z"
 date: "2021-09-16T10:51:45.245Z"
 slug: mindy-seu
 events:
-    - label: MACHINE EXPERIENCE II
+    - label: Machine Experience II
       slug: machine-experience-ii
 projects:
     - label: Womanhouse (a memory theater)

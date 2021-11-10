@@ -1,5 +1,7 @@
 ---
 title: Digital Cultures – Hybrid Matter
+subtitle: ""
+status: ""
 outputs:
     - HTML
     - Calendar

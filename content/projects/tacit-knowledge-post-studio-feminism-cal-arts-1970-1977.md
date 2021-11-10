@@ -1,5 +1,6 @@
 ---
-title: 'Tacit Knowledge: Post Studio/Feminism – CalArts 1970-1977'
+title: Tacit Knowledge
+subtitle: Post Studio/Feminism – CalArts 1970-1977
 intro: ""
 start: "2019-01-01"
 end: "2019-01-01"
@@ -10,7 +11,7 @@ mediation: print
 category: publication
 isFeatured: false
 externalLink: ""
-lastmod: "2021-10-10T17:04:53.886Z"
+lastmod: "2021-11-10T12:57:39.313Z"
 date: "2019-01-01"
 slug: tacit-knowledge-post-studio-feminism-cal-arts-1970-1977
 members:

@@ -1,5 +1,7 @@
 ---
-title: MACHINE EXPERIENCE
+title: Machine Experience
+subtitle: ""
+status: ""
 outputs:
     - HTML
     - Calendar
@@ -18,7 +20,7 @@ intro: A one-week exhibition at the Harvard Art Museums’ Lightbox Gallery asks
 location: Cambridge, MA
 isFeatured: false
 isOngoing: false
-lastmod: "2021-11-02T11:11:07.905Z"
+lastmod: "2021-11-10T12:31:38.388Z"
 date: "2017-08-08T12:00:00Z"
 slug: machine-experience
 members:

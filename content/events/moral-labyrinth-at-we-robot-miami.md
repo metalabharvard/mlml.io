@@ -1,5 +1,7 @@
 ---
 title: Moral Labyrinth at WeRobot Miami
+subtitle: ""
+status: ""
 outputs:
     - HTML
     - Calendar

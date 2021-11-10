@@ -13,6 +13,11 @@ import (
   "strings"
 )
 
+type Funder struct {
+  Label string `yaml:"label"`
+  Url string `yaml:"url"`
+}
+
 type Collaborator struct {
   Label string `yaml:"label"`
   Url string `yaml:"url"`
@@ -72,6 +77,7 @@ type Topic struct {
 
 type Response struct {
   Title string `yaml:"title"`
+  Subtitle string `yaml:"subtitle"`
   Intro string `yaml:"intro"`
   Start string `yaml:"start"`
   End string `yaml:"end"`
@@ -96,8 +102,10 @@ type Response struct {
   Members []Member `yaml:"members,omitempty"`
   Projects []Project `yaml:"projects,omitempty"`
   Cover Cover `yaml:"cover,omitempty"`
+  Preview Cover `yaml:"preview,omitempty"`
   Topics []Topic `yaml:"topics,omitempty"`
   Gallery []Cover `yaml:"gallery,omitempty"`
+  Funders []Funder `yaml:"funders,omitempty"`
   MembersTwitter []string `yaml:"members_twitter,omitempty"`
 }
 
@@ -233,6 +241,14 @@ func cleanPressArticles(PressArticles []PressArticle) []PressArticle {
   return list
 }
 
+func cleanFunders(Funders []Funder) []Funder {
+  var list []Funder
+  for _, c := range Funders {
+    list = append(list, (Funder{trim(c.Label), trim(c.Url)}))
+  }
+  return list
+}
+
 func main() {
   println("Requesting projects")
   response, err := http.Get("https://metalab-strapi.herokuapp.com/projects")
@@ -293,6 +309,7 @@ func main() {
     element.Collaborators = cleanCollaborators(element.Collaborators)
     element.Links = cleanLinks(element.Links)
     element.PressArticles = cleanPressArticles(element.PressArticles)
+    element.Funders = cleanFunders(element.Funders)
 
     element.Host = trim(element.Host)
 

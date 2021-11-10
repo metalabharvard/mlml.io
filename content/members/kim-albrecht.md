@@ -18,11 +18,11 @@ events:
       slug: curatorial-a-i-gents-at-ars-electronica-2020
     - label: Digital Cultures – Hybrid Matter
       slug: digital-cultures-hybrid-matter
-    - label: MACHINE EXPERIENCE
+    - label: Machine Experience
       slug: machine-experience
-    - label: MACHINE EXPERIENCE II
+    - label: Machine Experience II
       slug: machine-experience-ii
-    - label: 'Overflow: Inexplicable Parts of the Intimate'
+    - label: Overflow
       slug: overflow-inexplicable-parts-of-the-intimate
     - label: metaLAB + friends openLAB
       slug: meta-lab-friends-open-lab
@@ -39,13 +39,13 @@ projects:
       slug: distinction-machine
     - label: Hypercam
       slug: hypercam
-    - label: 'Tacit Knowledge: Post Studio/Feminism – CalArts 1970-1977'
+    - label: Tacit Knowledge
       slug: tacit-knowledge-post-studio-feminism-cal-arts-1970-1977
     - label: Their Names
       slug: their-names
     - label: Watching Machines Loving Grace
       slug: watching-machines-loving-grace
-    - label: 'Where Art Might Happen: The Early Years of CalArts'
+    - label: Where Art Might Happen
       slug: where-art-might-happen-the-early-years-of-cal-arts
     - label: Womanhouse (a memory theater)
       slug: womanhouse-a-memory-theater

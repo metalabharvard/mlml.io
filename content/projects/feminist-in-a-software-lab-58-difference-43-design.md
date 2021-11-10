@@ -1,5 +1,6 @@
 ---
-title: 'Feminist in a Software Lab: Difference + Design'
+title: Feminist in a Software Lab
+subtitle: Difference + Design
 intro: ""
 start: "2018-01-01"
 end: "2018-01-01"
@@ -10,7 +11,7 @@ mediation: mixed_media
 category: publication
 isFeatured: false
 externalLink: ""
-lastmod: "2021-11-02T16:57:06.649Z"
+lastmod: "2021-11-10T12:53:32.978Z"
 date: "2018-01-01"
 slug: feminist-in-a-software-lab-58-difference-43-design
 

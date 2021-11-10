@@ -1,5 +1,6 @@
 ---
 title: Nobody’s Listening
+subtitle: ""
 intro: ""
 start: "2017-08-08"
 end: "2017-01-01"
@@ -10,14 +11,14 @@ mediation: mixed_media
 category: project
 isFeatured: false
 externalLink: ""
-lastmod: "2021-11-02T16:58:11.742Z"
+lastmod: "2021-11-10T12:47:55.327Z"
 date: "2017-08-08"
 slug: nobody-8217-s-listening
 collaborators:
     - label: Rachel Kalmar
       url: ""
 events:
-    - label: MACHINE EXPERIENCE
+    - label: Machine Experience
       slug: machine-experience
 
 ---

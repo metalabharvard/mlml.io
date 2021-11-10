@@ -9,7 +9,7 @@ lastmod: "2021-11-02T18:38:20.488Z"
 date: "2021-09-16T10:51:44.563Z"
 slug: adam-haar-horowitz
 events:
-    - label: MACHINE EXPERIENCE II
+    - label: Machine Experience II
       slug: machine-experience-ii
     - label: metaLAB + friends openLAB
       slug: meta-lab-friends-open-lab

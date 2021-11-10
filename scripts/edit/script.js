@@ -28,16 +28,29 @@ axios
         // https://regex101.com/r/ToEPoI/2
         // description = description.replace(/\[(.{2,}?)\]\(https*:\/\/metalabharvard\.github\.io\/*\)/gm, '{{< link "" >}}$1{{< /link >}}')
 
-        title = title.replace(/&#43;/g, "+");
-        title = title.replace(/&#45;/g, "-");
-        title = title.replace(/&#39;/g, "’");
-        title = title.replace(/&#58;/g, ":");
-        title = title.replace(/&#8217;/g, "’");
-        title = title.replace(/&#47;/g, "/");
-        title = title.replace(/&#8220;/, "“");
-        title = title.replace(/&#8221;/, "”");
+        // title = title.replace(/&#43;/g, "+");
+        // title = title.replace(/&#45;/g, "-");
+        // title = title.replace(/&#39;/g, "’");
+        // title = title.replace(/&#58;/g, ":");
+        // title = title.replace(/&#8217;/g, "’");
+        // title = title.replace(/&#47;/g, "/");
+        // title = title.replace(/&#8220;/, "“");
+        // title = title.replace(/&#8221;/, "”");
 
-        axios.put(`https://metalab-strapi.herokuapp.com/${FOLDER}/${id}`, { title })
+        // title = title.replace(/&#38;/, "&");
+
+        // title = title.replace("MAHINDRA TRANSMEDIA ARTS SEMINAR:", "Mahindra Transmedia Arts Seminar:");
+        // title = title.replace("FUTUREFOOD", "Futurefood");
+        // title = title.replace("MACHINE EXPERIENCE", "Machine Experience");
+
+        const parts = title.split(': ')
+        let subtitle = ''
+        if (parts.length === 2) {
+          title = parts[0].trim()
+          subtitle = parts[1].trim()
+        }
+
+        axios.put(`https://metalab-strapi.herokuapp.com/${FOLDER}/${id}`, { title, subtitle })
       }
     })
   })

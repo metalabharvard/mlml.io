@@ -1,5 +1,6 @@
 ---
 title: Moral Labyrinth
+subtitle: ""
 intro: ""
 start: "2019-01-01"
 end: "2019-01-01"
@@ -10,11 +11,11 @@ mediation: mixed_media
 category: project
 isFeatured: false
 externalLink: ""
-lastmod: "2021-10-10T17:05:11.314Z"
+lastmod: "2021-11-10T12:47:55.524Z"
 date: "2019-01-01"
 slug: moral-labyrinth
 events:
-    - label: MACHINE EXPERIENCE II
+    - label: Machine Experience II
       slug: machine-experience-ii
 members:
     - label: Sarah Newman

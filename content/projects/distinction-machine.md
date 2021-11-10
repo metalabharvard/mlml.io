@@ -1,5 +1,6 @@
 ---
 title: Distinction Machine
+subtitle: ""
 intro: Creating conflicts within the computer
 start: "2019-01-01"
 end: "2019-01-01"
@@ -10,11 +11,11 @@ mediation: mixed_media
 category: project
 isFeatured: false
 externalLink: ""
-lastmod: "2021-10-10T17:05:36.180Z"
+lastmod: "2021-11-10T12:47:55.492Z"
 date: "2019-01-01"
 slug: distinction-machine
 events:
-    - label: 'Ars Electronica: Error – The Art of Imperfection'
+    - label: Ars Electronica
       slug: ars-electronica-error-the-art-of-imperfection
 members:
     - label: Kim Albrecht

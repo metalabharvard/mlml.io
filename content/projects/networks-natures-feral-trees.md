@@ -1,5 +1,6 @@
 ---
-title: 'Networks + Natures: Feral Trees'
+title: Networks + Natures
+subtitle: Feral Trees
 intro: How can we expose our perceptions of nature, landscape, and the city as not natural but constructed? What perspectives on the contested biopolitics of the city are offered by invasive species and urban wilds?
 start: "2016-01-01"
 end: "2016-01-01"
@@ -10,7 +11,7 @@ mediation: mixed_media
 category: project
 isFeatured: false
 externalLink: ""
-lastmod: "2021-10-25T19:05:05.811Z"
+lastmod: "2021-11-10T12:56:34.117Z"
 date: "2016-01-01"
 slug: networks-natures-feral-trees
 collaborators:

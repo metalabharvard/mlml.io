@@ -1,5 +1,7 @@
 ---
 title: Alterspace at Cambridge Public Library
+subtitle: ""
+status: ""
 outputs:
     - HTML
     - Calendar

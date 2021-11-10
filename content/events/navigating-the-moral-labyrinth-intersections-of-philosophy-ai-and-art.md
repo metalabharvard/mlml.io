@@ -1,5 +1,7 @@
 ---
-title: 'Navigating the Moral Labyrinth: Intersections of Philosophy, AI, and Art'
+title: Navigating the Moral Labyrinth
+subtitle: Intersections of Philosophy, AI, and Art
+status: ""
 outputs:
     - HTML
     - Calendar
@@ -17,7 +19,7 @@ tzid: UTC
 location: Cambridge, MA
 isFeatured: false
 isOngoing: false
-lastmod: "2021-09-16T09:49:46.370Z"
+lastmod: "2021-11-10T12:42:43.820Z"
 date: "2019-05-13T12:00:00Z"
 slug: navigating-the-moral-labyrinth-intersections-of-philosophy-ai-and-art
 ---

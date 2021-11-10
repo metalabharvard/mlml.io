@@ -1,5 +1,6 @@
 ---
 title: Their Names
+subtitle: ""
 intro: This page visualizes the names of over 28,000 fatal encounters with police nationwide, from 2000 until the death of George Floyd. It treats the victims as individual persons, highlighting the often sad and disturbing stories behind each datapoint. Beyond listing first names and initials, the site makes available the news and police reports from which the data are taken. It draws on data compiled by Fatal Encounters, a nonprofit, led by journalist and researcher D. Brian Burghart, committed to gathering data on police-related deaths across the United States.
 start: "2020-06-01"
 end: "2020-06-30"
@@ -10,7 +11,7 @@ mediation: web
 category: project
 isFeatured: false
 externalLink: https://theirnames.org/
-lastmod: "2021-10-29T15:11:11.774Z"
+lastmod: "2021-11-10T12:47:55.228Z"
 date: "2020-06-01"
 slug: their-names
 members:

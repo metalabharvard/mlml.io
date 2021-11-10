@@ -9,7 +9,7 @@ lastmod: "2021-11-02T18:27:47.844Z"
 date: "2021-09-16T10:51:45.020Z"
 slug: jie-qi
 events:
-    - label: MACHINE EXPERIENCE II
+    - label: Machine Experience II
       slug: machine-experience-ii
 picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122121/jie_86dc5daa52.jpg

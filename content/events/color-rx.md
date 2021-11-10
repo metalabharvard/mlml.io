@@ -1,5 +1,7 @@
 ---
 title: Color Rx
+subtitle: ""
+status: ""
 outputs:
     - HTML
     - Calendar

@@ -1,5 +1,6 @@
 ---
 title: Artificial Senses
+subtitle: ""
 intro: Artificial Senses visualizes sensor data of the machines that surround us to develop an understanding how they experience the world.
 start: "2017-06-01"
 end: "2017-12-01"
@@ -10,13 +11,13 @@ mediation: web
 category: project
 isFeatured: false
 externalLink: https://artificial-senses.kimalbrecht.com/
-lastmod: "2021-11-02T17:15:14.285Z"
+lastmod: "2021-11-10T12:47:55.311Z"
 date: "2017-06-01"
 slug: artificial-senses
 events:
-    - label: MACHINE EXPERIENCE
+    - label: Machine Experience
       slug: machine-experience
-    - label: MACHINE EXPERIENCE II
+    - label: Machine Experience II
       slug: machine-experience-ii
 members:
     - label: Kim Albrecht

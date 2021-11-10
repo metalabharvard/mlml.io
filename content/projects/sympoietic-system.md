@@ -1,5 +1,6 @@
 ---
 title: Sympoietic System
+subtitle: ""
 intro: Using weather data, algorithms, and a camera feed of the sky, Sympoietic System makes the weather a curator.
 start: "2021-01-01"
 end: "2021-01-01"
@@ -10,7 +11,7 @@ mediation: mixed_media
 category: project
 isFeatured: false
 externalLink: ""
-lastmod: "2021-11-02T12:17:28.990Z"
+lastmod: "2021-11-10T12:47:54.325Z"
 date: "2021-01-01"
 slug: sympoietic-system
 collaborators:

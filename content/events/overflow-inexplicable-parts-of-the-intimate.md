@@ -1,5 +1,7 @@
 ---
-title: 'Overflow: Inexplicable Parts of the Intimate'
+title: Overflow
+subtitle: Inexplicable Parts of the Intimate
+status: ""
 outputs:
     - HTML
     - Calendar
@@ -17,7 +19,7 @@ tzid: UTC
 location: Cambridge, MA
 isFeatured: false
 isOngoing: false
-lastmod: "2021-10-10T16:03:01.037Z"
+lastmod: "2021-11-10T12:43:41.786Z"
 date: "2019-01-19T12:00:00Z"
 slug: overflow-inexplicable-parts-of-the-intimate
 members:

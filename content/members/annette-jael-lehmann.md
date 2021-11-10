@@ -13,9 +13,9 @@ lastmod: "2021-11-03T16:57:06.852Z"
 date: "2021-09-16T10:51:44.527Z"
 slug: annette-jael-lehmann
 projects:
-    - label: 'Tacit Knowledge: Post Studio/Feminism – CalArts 1970-1977'
+    - label: Tacit Knowledge
       slug: tacit-knowledge-post-studio-feminism-cal-arts-1970-1977
-    - label: 'Where Art Might Happen: The Early Years of CalArts'
+    - label: Where Art Might Happen
       slug: where-art-might-happen-the-early-years-of-cal-arts
     - label: Womanhouse (a memory theater)
       slug: womanhouse-a-memory-theater

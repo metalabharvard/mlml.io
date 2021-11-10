@@ -1,5 +1,6 @@
 ---
 title: A Flitting Atlas of the Human Gaze
+subtitle: ""
 intro: Using AI-based extraction and analysis, A Flitting Atlas of the Human Gaze allows the visitor to explore the museum through the eyes of the subjects of artworks.
 start: "2021-01-01"
 end: "2021-01-01"
@@ -10,14 +11,14 @@ mediation: mixed_media
 category: project
 isFeatured: false
 externalLink: ""
-lastmod: "2021-11-02T12:17:30.224Z"
+lastmod: "2021-11-10T12:47:54.387Z"
 date: "2021-01-01"
 slug: a-flitting-atlas-of-the-human-gaze
 collaborators:
     - label: Harvard Art Museums
       url: ""
 projects:
-    - label: 'Mahindra Humanities Center: Transmedia Arts Seminar'
+    - label: Mahindra Humanities Center
       slug: mahindra-humanities-center-transmedia-arts-seminar
 
 ---

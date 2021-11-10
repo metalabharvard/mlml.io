@@ -1,5 +1,6 @@
 ---
 title: Hypercam
+subtitle: ""
 intro: Hypercam enacts a gesture of visual resistance to the squared-off talking heads that we have all become; it converts the interface flatland into a multidimensional space of play.
 start: "2020-04-01"
 end: "2020-05-31"
@@ -10,7 +11,7 @@ mediation: web
 category: ""
 isFeatured: true
 externalLink: https://hypercam.kimalbrecht.com/
-lastmod: "2021-10-27T15:24:14.556Z"
+lastmod: "2021-11-10T12:47:55.081Z"
 date: "2020-04-01"
 slug: hypercam
 links:

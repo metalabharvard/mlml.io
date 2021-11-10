@@ -38,7 +38,16 @@
    "boxType": "Type",
    "relatedLabelLinks": "Link",
    "relatedLabelPressArticles": "Press article",
-   "memberAlumnus": "Alumnus"
+   "memberAlumnus": "Alumnus",
+   "ariaTimezoneBoston": "Click to change timezone to Boston",
+   "ariaTimezoneBerlin": "Click to change timezone to Berlin",
+   "ariaProfilePicture": "Profile picture of %s",
+   "externalProject": "Visit project",
+   "externalEvent": "Visit event",
+   "defaultMediation": "Mixed Media",
+   "defaultEventCategory": "Event",
+   "projectRSS": "Projects RSS",
+   "eventRSS": "Events RSS"
   }
  },
  "social": {

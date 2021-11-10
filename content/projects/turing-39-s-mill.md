@@ -1,5 +1,6 @@
 ---
 title: Turing’s Mill
+subtitle: ""
 intro: ""
 start: "2017-08-09"
 end: "2017-01-01"
@@ -10,11 +11,11 @@ mediation: mixed_media
 category: project
 isFeatured: false
 externalLink: ""
-lastmod: "2021-11-02T16:59:57.011Z"
+lastmod: "2021-11-10T12:47:55.366Z"
 date: "2017-08-09"
 slug: turing-39-s-mill
 events:
-    - label: MACHINE EXPERIENCE
+    - label: Machine Experience
       slug: machine-experience
 
 ---

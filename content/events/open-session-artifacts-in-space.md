@@ -1,5 +1,7 @@
 ---
 title: 'Open Session: Artifacts in Space'
+subtitle: ""
+status: ""
 outputs:
     - HTML
     - Calendar
@@ -17,7 +19,7 @@ tzid: UTC
 location: Cambridge, MA
 isFeatured: false
 isOngoing: false
-lastmod: "2021-09-16T09:49:45.426Z"
+lastmod: "2021-11-10T12:43:26.574Z"
 date: "2019-03-27T12:00:00Z"
 slug: open-session-artifacts-in-space
 ---

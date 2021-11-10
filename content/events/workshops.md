@@ -1,5 +1,7 @@
 ---
 title: Workshops
+subtitle: ""
+status: ""
 outputs:
     - HTML
     - Calendar

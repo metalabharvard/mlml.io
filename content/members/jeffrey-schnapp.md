@@ -21,6 +21,8 @@ events:
       slug: curatorial-a-i-gents-at-ars-electronica-2020
     - label: Dialogues with Data [at] Infovis
       slug: dialogues-with-data-at-infovis
+    - label: The Future of Science Museums
+      slug: the-future-of-science-museums-michael-john-gorman-in-conversation-with-jeffrey-schnapp
     - label: metaLAB + friends openLAB
       slug: meta-lab-friends-open-lab
 projects:
@@ -28,9 +30,9 @@ projects:
       slug: curatorial-aigents
     - label: Curricle
       slug: curricle
-    - label: 'Tacit Knowledge: Post Studio/Feminism – CalArts 1970-1977'
+    - label: Tacit Knowledge
       slug: tacit-knowledge-post-studio-feminism-cal-arts-1970-1977
-    - label: 'Where Art Might Happen: The Early Years of CalArts'
+    - label: Where Art Might Happen
       slug: where-art-might-happen-the-early-years-of-cal-arts
     - label: Womanhouse (a memory theater)
       slug: womanhouse-a-memory-theater

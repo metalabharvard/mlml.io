@@ -1,5 +1,7 @@
 ---
 title: Library Test Kitchen
+subtitle: ""
+status: ""
 outputs:
     - HTML
     - Calendar

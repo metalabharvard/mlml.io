@@ -1,5 +1,7 @@
 ---
 title: In Flux  Browsing the Collections
+subtitle: ""
+status: ""
 outputs:
     - HTML
     - Calendar

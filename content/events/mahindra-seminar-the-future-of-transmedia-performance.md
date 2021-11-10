@@ -1,5 +1,7 @@
 ---
-title: 'Mahindra Seminar: The Future of Transmedia Performance'
+title: Mahindra Seminar
+subtitle: The Future of Transmedia Performance
+status: ""
 outputs:
     - HTML
     - Calendar
@@ -18,7 +20,7 @@ intro: Exploring the impact of pandemic on experimental transmedia theatre and p
 location: Cambridge, MA
 isFeatured: false
 isOngoing: false
-lastmod: "2021-09-16T09:49:45.064Z"
+lastmod: "2021-11-10T12:40:45.347Z"
 date: "2020-05-14T12:00:00Z"
 slug: mahindra-seminar-the-future-of-transmedia-performance
 ---

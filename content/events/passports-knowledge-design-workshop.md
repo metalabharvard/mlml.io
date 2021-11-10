@@ -1,5 +1,7 @@
 ---
-title: 'Passports: Knowledge Design Workshop'
+title: Passports
+subtitle: Knowledge Design Workshop'
+status: ""
 outputs:
     - HTML
     - Calendar
@@ -17,7 +19,7 @@ tzid: UTC
 location: Houghton Library
 isFeatured: false
 isOngoing: false
-lastmod: "2021-09-16T09:49:45.953Z"
+lastmod: "2021-11-10T12:43:54.217Z"
 date: "2018-05-10T12:00:00Z"
 slug: passports-knowledge-design-workshop
 ---

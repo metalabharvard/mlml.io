@@ -1,5 +1,6 @@
 ---
 title: futureSTAGE
+subtitle: ""
 intro: An international research collaborative mapping opportunities for performance spaces in a hyperconnected world
 start: "2021-06-16"
 end: "2021-08-10"
@@ -10,7 +11,7 @@ mediation: performance
 category: project
 isFeatured: true
 externalLink: ""
-lastmod: "2021-11-05T10:26:31.361Z"
+lastmod: "2021-11-10T12:47:55.110Z"
 date: "2021-06-16"
 slug: futurestage
 collaborators:

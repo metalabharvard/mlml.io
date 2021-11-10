@@ -2,7 +2,7 @@
   <section class="homepage-events-list grid-wide">
     <ul role="list">
     {{ range .Pages }}
-      {{ partial "event-preview.html" (dict "event" . "defaultHost" .Site.Params.Label.HostsDefault )}}
+      {{ partial "event-preview.html" (dict "event" . "defaultHost" .Site.Params.Label.HostsDefault "defaultCategory" .Site.Params.Label.DefaultEventCategory)}}
     {{ end }}
     </ul>
   </section>

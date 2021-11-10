@@ -1,5 +1,6 @@
 ---
-title: 'metaLAB Portfolio: Projects and Provocations, 2011–2019'
+title: metaLAB Portfolio
+subtitle: Projects and Provocations, 2011–2019
 intro: ""
 start: "2019-01-01"
 end: "2019-01-01"
@@ -10,7 +11,7 @@ mediation: mixed_media
 category: publication
 isFeatured: false
 externalLink: ""
-lastmod: "2021-09-16T09:49:46.911Z"
+lastmod: "2021-11-10T12:55:11.873Z"
 date: "2019-01-01"
 slug: meta-lab-portfolio-projects-and-provocations-2011-2019
 

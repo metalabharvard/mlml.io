@@ -1,5 +1,7 @@
 ---
 title: The Future of Secrets @ Northeastern School of Law
+subtitle: ""
+status: ""
 outputs:
     - HTML
     - Calendar

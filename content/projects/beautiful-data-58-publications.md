@@ -1,5 +1,6 @@
 ---
-title: 'Beautiful Data: Publications'
+title: Beautiful Data
+subtitle: Publications
 intro: ""
 start: "2015-01-01"
 end: "2015-01-01"
@@ -10,7 +11,7 @@ mediation: mixed_media
 category: publication
 isFeatured: false
 externalLink: ""
-lastmod: "2021-11-02T16:57:06.676Z"
+lastmod: "2021-11-10T12:51:56.638Z"
 date: "2015-01-01"
 slug: beautiful-data-58-publications
 links:

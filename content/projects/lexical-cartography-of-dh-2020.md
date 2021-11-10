@@ -1,5 +1,6 @@
 ---
 title: Lexical Cartography of DH2020
+subtitle: ""
 intro: A map to navigate scientific conferences through their speakers, arranged in a network visualization according to their lexical similarity.
 start: "2020-03-01"
 end: "2020-09-30"
@@ -10,7 +11,7 @@ mediation: web
 category: project
 isFeatured: false
 externalLink: https://rodighiero.github.io/DH2020/
-lastmod: "2021-10-04T15:15:20.700Z"
+lastmod: "2021-11-10T12:47:55.082Z"
 date: "2020-03-01"
 slug: lexical-cartography-of-dh-2020
 members:

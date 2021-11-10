@@ -1,5 +1,7 @@
 ---
 title: Sherlock
+subtitle: ""
+status: ""
 outputs:
     - HTML
     - Calendar

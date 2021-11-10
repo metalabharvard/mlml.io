@@ -1,5 +1,7 @@
 ---
-title: 'The Future of Science Museums: Michael John Gorman in conversation with Jeffrey Schnapp'
+title: The Future of Science Museums
+subtitle: Michael John Gorman in conversation with Jeffrey Schnapp
+status: ""
 outputs:
     - HTML
     - Calendar
@@ -18,9 +20,15 @@ intro: Exploring the future of science museums with Michael John Gorman, founder
 location: Cambridge, MA
 isFeatured: false
 isOngoing: false
-lastmod: "2021-09-16T09:49:45.667Z"
+lastmod: "2021-11-10T12:45:40.719Z"
 date: "2020-12-10T12:00:00Z"
 slug: the-future-of-science-museums-michael-john-gorman-in-conversation-with-jeffrey-schnapp
+members:
+    - label: Jeffrey Schnapp
+      slug: jeffrey-schnapp
+      twitter: jaytiesse
+members_twitter:
+    - jaytiesse
 ---
 **ONLINE<br />
 Thursday, December 10

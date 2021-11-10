@@ -2,6 +2,6 @@
 {{- if .mediation -}}
 	{{- title (replace .mediation "_" " ") -}}
 {{- else -}}
-	Mixed Media
+	{{ .default }}
 {{- end -}}
 </span>

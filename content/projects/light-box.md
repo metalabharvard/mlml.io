@@ -1,5 +1,6 @@
 ---
 title: Light Box
+subtitle: ""
 intro: A venue for digital experiments and new media projects that respond to collections held at the Harvard Art Museums, where digital tools reveal connections between objects and play with traditions of display.
 start: "2016-01-01"
 end: "2016-01-01"
@@ -10,7 +11,7 @@ mediation: mixed_media
 category: project
 isFeatured: false
 externalLink: ""
-lastmod: "2021-09-16T09:49:46.862Z"
+lastmod: "2021-11-10T12:47:54.575Z"
 date: "2016-01-01"
 slug: light-box
 collaborators:

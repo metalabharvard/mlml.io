@@ -1,5 +1,7 @@
 ---
-title: 'Study Card to Playlist: the Social Life of the Course Catalog'
+title: Study Card to Playlist
+subtitle: The Social Life of the Course Catalog
+status: ""
 outputs:
     - HTML
     - Calendar
@@ -18,7 +20,7 @@ intro: What should the course catalog look like in the 21st century? A talk on l
 location: Lamont Forum Room, Harvard
 isFeatured: false
 isOngoing: false
-lastmod: "2021-09-16T09:49:44.741Z"
+lastmod: "2021-11-10T12:45:06.034Z"
 date: "2017-11-07T12:00:00Z"
 slug: study-card-to-playlist-the-social-life-of-the-course-catalog
 ---

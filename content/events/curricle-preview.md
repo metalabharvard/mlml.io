@@ -1,5 +1,7 @@
 ---
 title: Curricle Preview
+subtitle: ""
+status: ""
 outputs:
     - HTML
     - Calendar

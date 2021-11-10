@@ -7,7 +7,7 @@ lastmod: "2021-09-16T10:51:44.919Z"
 date: "2021-09-16T10:51:44.919Z"
 slug: yanni-loukissas
 projects:
-    - label: 'Networks + Natures: Feral Trees'
+    - label: Networks + Natures
       slug: networks-natures-feral-trees
 
 ---

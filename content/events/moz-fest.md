@@ -1,5 +1,7 @@
 ---
 title: MozFest
+subtitle: ""
+status: ""
 outputs:
     - HTML
     - Calendar

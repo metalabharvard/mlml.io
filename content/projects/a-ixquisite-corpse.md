@@ -1,5 +1,6 @@
 ---
 title: AIxquisite Corpse
+subtitle: ""
 intro: Aixquisite Corpse explores computational and traditional roles for images through a variant of the famed surrealist game.
 start: "2021-01-01"
 end: "2021-01-01"
@@ -10,7 +11,7 @@ mediation: mixed_media
 category: project
 isFeatured: false
 externalLink: ""
-lastmod: "2021-11-02T12:14:04.735Z"
+lastmod: "2021-11-10T12:47:54.697Z"
 date: "2021-01-01"
 slug: a-ixquisite-corpse
 collaborators:

@@ -1,5 +1,7 @@
 ---
 title: The Presence of Secrets [at] re:publica 17
+subtitle: ""
+status: ""
 outputs:
     - HTML
     - Calendar
@@ -17,7 +19,7 @@ tzid: UTC
 location: Berlin, Germany
 isFeatured: false
 isOngoing: false
-lastmod: "2021-09-16T09:49:46.363Z"
+lastmod: "2021-11-10T12:45:58.117Z"
 date: "2017-05-09T12:00:00Z"
 slug: the-presence-of-secrets-at-re-publica-17
 ---

@@ -1,5 +1,6 @@
 ---
 title: The Library Beyond the Book
+subtitle: ""
 intro: The Library Beyond the Book explains, speculates and provokes book culture for a world where the physical and the virtual blend with ever increasing intimacy.
 start: "2014-01-01"
 end: "2014-01-01"
@@ -10,7 +11,7 @@ mediation: mixed_media
 category: publication
 isFeatured: false
 externalLink: ""
-lastmod: "2021-09-16T09:49:46.433Z"
+lastmod: "2021-11-10T12:47:54.690Z"
 date: "2014-01-01"
 slug: the-library-beyond-the-book
 collaborators:

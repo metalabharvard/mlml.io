@@ -2,7 +2,7 @@
   <section class="homepage-members-list grid-full">
     <h1 id="members" class="member-list-header">Members</h1>
     <ul class="grid member-list" role="list">
-      {{ $templateLabel := .Site.Params.Label.ProfilePicture }}
+      {{ $templateLabel := .Site.Params.Label.AriaProfilePicture }}
       {{ range ((where (where .Pages "Params.picture" "!=" nil) "Params.isalumnus" false).ByParam "Name").ByParam "rank" }}
         {{ $defaultLabel := string (printf $templateLabel .Params.name) }}
         {{ partial "preview-member.html" (dict "member" . "defaultLabel" $defaultLabel) }}

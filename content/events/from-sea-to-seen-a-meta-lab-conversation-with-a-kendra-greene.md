@@ -1,5 +1,7 @@
 ---
-title: 'From Sea to Seen: a metaLAB conversation with A. Kendra Greene'
+title: From Sea to Seen
+subtitle: A metaLAB conversation with A. Kendra Greene
+status: ""
 outputs:
     - HTML
     - Calendar
@@ -18,7 +20,7 @@ intro: Exploring the varied museums of Iceland, and how we contend with memory a
 location: Cambridge, MA
 isFeatured: false
 isOngoing: false
-lastmod: "2021-11-02T11:11:07.309Z"
+lastmod: "2021-11-10T12:39:10.046Z"
 date: "2020-11-05T12:00:00Z"
 slug: from-sea-to-seen-a-meta-lab-conversation-with-a-kendra-greene
 ---

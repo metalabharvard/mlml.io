@@ -11,7 +11,7 @@ lastmod: "2021-11-02T18:34:03.962Z"
 date: "2021-09-16T10:51:44.817Z"
 slug: sands-alden-fish
 events:
-    - label: MACHINE EXPERIENCE II
+    - label: Machine Experience II
       slug: machine-experience-ii
 picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122117/sands_0bfb3a717e.jpg

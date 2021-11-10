@@ -1,5 +1,7 @@
 ---
-title: 'POSTPONED: Site Unscene: Medial Ideology and the Literary Interface'
+title: Site Unscene
+subtitle: Medial Ideology and the Literary Interface
+status: postponed
 outputs:
     - HTML
     - Calendar
@@ -17,7 +19,7 @@ tzid: UTC
 location: Cambridge, MA
 isFeatured: false
 isOngoing: false
-lastmod: "2021-09-16T09:49:46.370Z"
+lastmod: "2021-11-10T12:44:07.830Z"
 date: "2020-02-23T12:00:00Z"
 slug: postponed-site-unscene-medial-ideology-and-the-literary-interface
 ---

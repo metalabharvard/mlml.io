@@ -11,9 +11,9 @@ slug: maia-suazo-maler
 events:
     - label: Color Rx
       slug: color-rx
-    - label: MACHINE EXPERIENCE
+    - label: Machine Experience
       slug: machine-experience
-    - label: MACHINE EXPERIENCE II
+    - label: Machine Experience II
       slug: machine-experience-ii
 picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122129/maia_0bf4d55c3b.jpg

@@ -1,5 +1,7 @@
 ---
 title: Humanities Studios
+subtitle: ""
+status: ""
 outputs:
     - HTML
     - Calendar

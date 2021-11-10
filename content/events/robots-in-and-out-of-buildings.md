@@ -1,5 +1,7 @@
 ---
 title: Robots In and Out of Buildings
+subtitle: ""
+status: ""
 outputs:
     - HTML
     - Calendar

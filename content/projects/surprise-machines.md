@@ -1,5 +1,6 @@
 ---
 title: Surprise Machines
+subtitle: ""
 intro: Surprise Machines sets out to visualize the universe of Harvard Art Museums' collections, opening up unexpected vistas on the objects that make them up.
 start: "2021-01-01"
 end: "2021-01-01"
@@ -10,7 +11,7 @@ mediation: mixed_media
 category: project
 isFeatured: false
 externalLink: ""
-lastmod: "2021-11-02T12:17:29.086Z"
+lastmod: "2021-11-10T12:47:55.096Z"
 date: "2021-01-01"
 slug: surprise-machines
 collaborators:
@@ -23,7 +24,7 @@ members:
 projects:
     - label: Ocean Amplification
       slug: ocean-amplification
-    - label: 'Second Look: Gender and Sentiment on Show'
+    - label: Second Look
       slug: second-look-gender-and-sentiment-on-show
     - label: Watching Machines Loving Grace
       slug: watching-machines-loving-grace

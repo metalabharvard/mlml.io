@@ -1,5 +1,7 @@
 ---
-title: 'FUTUREFOOD I: KVASS'
+title: Futurefood I
+subtitle: Kvass
+status: ""
 outputs:
     - HTML
     - Calendar
@@ -17,7 +19,7 @@ tzid: UTC
 location: Cambridge, MA
 isFeatured: false
 isOngoing: false
-lastmod: "2021-09-16T09:49:45.783Z"
+lastmod: "2021-11-10T12:39:58.115Z"
 date: "2019-05-11T12:00:00Z"
 slug: futurefood-i-kvass
 ---

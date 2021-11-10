@@ -1,5 +1,7 @@
 ---
-title: 'Ars Electronica: Error – The Art of Imperfection'
+title: Ars Electronica
+subtitle: Error – The Art of Imperfection
+status: ""
 outputs:
     - HTML
     - Calendar
@@ -17,7 +19,7 @@ tzid: UTC
 location: Linz, Austria
 isFeatured: false
 isOngoing: false
-lastmod: "2021-09-16T09:49:46.095Z"
+lastmod: "2021-11-10T12:37:35.325Z"
 date: "2018-09-06T12:00:00Z"
 slug: ars-electronica-error-the-art-of-imperfection
 projects:

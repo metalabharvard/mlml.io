@@ -1,5 +1,7 @@
 ---
 title: metaLAB + friends openLAB
+subtitle: ""
+status: ""
 outputs:
     - HTML
     - Calendar

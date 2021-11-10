@@ -1,5 +1,7 @@
 ---
-title: 'Printed Matter: exploring metaLAB publications'
+title: Printed Matter
+subtitle: Exploring metaLAB publications
+status: ""
 outputs:
     - HTML
     - Calendar
@@ -18,7 +20,7 @@ intro: A discussion of metaLAB's singular publications now available from Printe
 location: online
 isFeatured: false
 isOngoing: false
-lastmod: "2021-11-02T11:11:07.429Z"
+lastmod: "2021-11-10T12:44:23.734Z"
 date: "2021-01-28T12:00:00Z"
 slug: printed-matter-exploring-meta-lab-publications
 ---

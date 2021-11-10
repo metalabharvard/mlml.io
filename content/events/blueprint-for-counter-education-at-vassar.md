@@ -1,5 +1,7 @@
 ---
 title: Blueprint for Counter Education at Vassar
+subtitle: ""
+status: ""
 outputs:
     - HTML
     - Calendar

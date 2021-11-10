@@ -20,16 +20,16 @@ events:
       slug: digital-cultures-hybrid-matter
     - label: If By Water [at] re:publica 17
       slug: if-by-water-at-re-publica-17
-    - label: MACHINE EXPERIENCE
+    - label: Machine Experience
       slug: machine-experience
-    - label: MACHINE EXPERIENCE II
+    - label: Machine Experience II
       slug: machine-experience-ii
     - label: metaLAB + friends openLAB
       slug: meta-lab-friends-open-lab
 projects:
     - label: Moral Labyrinth
       slug: moral-labyrinth
-    - label: 'Networks + Natures: Feral Trees'
+    - label: Networks + Natures
       slug: networks-natures-feral-trees
 picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122129/newman_268d9cfd9e.jpg

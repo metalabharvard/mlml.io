@@ -1,5 +1,6 @@
 ---
 title: The Future of Secrets
+subtitle: ""
 intro: An artistic research project that considers what might happen to our private digital correspondence in the future.
 start: "2018-01-01"
 end: "2018-01-01"
@@ -10,7 +11,7 @@ mediation: mixed_media
 category: project
 isFeatured: false
 externalLink: ""
-lastmod: "2021-09-16T09:49:46.035Z"
+lastmod: "2021-11-10T12:47:54.575Z"
 date: "2018-01-01"
 slug: the-future-of-secrets
 links:

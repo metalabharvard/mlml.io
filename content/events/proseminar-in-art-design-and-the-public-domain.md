@@ -1,5 +1,7 @@
 ---
 title: Proseminar in Art, Design and the Public Domain
+subtitle: ""
+status: ""
 outputs:
     - HTML
     - Calendar

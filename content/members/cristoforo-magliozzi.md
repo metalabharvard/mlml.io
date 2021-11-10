@@ -8,7 +8,7 @@ lastmod: "2021-09-16T10:51:45.013Z"
 date: "2021-09-16T10:51:45.013Z"
 slug: cristoforo-magliozzi
 projects:
-    - label: 'Networks + Natures: Feral Trees'
+    - label: Networks + Natures
       slug: networks-natures-feral-trees
 
 ---

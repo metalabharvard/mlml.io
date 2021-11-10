@@ -1,5 +1,6 @@
 ---
-title: Networks and Natures
+title: Networks + Natures
+subtitle: ""
 intro: Exploring digital effects on political, personal, and aesthetic experiences of nature.
 start: "2018-01-01"
 end: "2018-01-01"
@@ -10,7 +11,7 @@ mediation: mixed_media
 category: project
 isFeatured: false
 externalLink: ""
-lastmod: "2021-09-16T09:49:45.477Z"
+lastmod: "2021-11-10T12:56:50.143Z"
 date: "2018-01-01"
 slug: networks-and-natures
 links:

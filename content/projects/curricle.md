@@ -1,5 +1,6 @@
 ---
 title: Curricle
+subtitle: ""
 intro: Visualized, annotated, connected&#58; what should the course catalog look like in the 21st century? Leveraging data and design in a post-disciplinary era.
 start: "2019-01-01"
 end: "2019-01-01"
@@ -10,7 +11,7 @@ mediation: mixed_media
 category: project
 isFeatured: false
 externalLink: ""
-lastmod: "2021-10-10T17:03:31.419Z"
+lastmod: "2021-11-10T12:47:55.524Z"
 date: "2019-01-01"
 slug: curricle
 members:

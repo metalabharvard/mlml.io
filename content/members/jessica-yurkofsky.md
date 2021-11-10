@@ -11,7 +11,7 @@ slug: jessica-yurkofsky
 events:
     - label: Dialogues with Data [at] Infovis
       slug: dialogues-with-data-at-infovis
-    - label: MACHINE EXPERIENCE II
+    - label: Machine Experience II
       slug: machine-experience-ii
     - label: metaLAB + friends openLAB
       slug: meta-lab-friends-open-lab

@@ -1,5 +1,7 @@
 ---
 title: If By Water [at] re:publica 17
+subtitle: ""
+status: ""
 outputs:
     - HTML
     - Calendar
@@ -17,7 +19,7 @@ tzid: UTC
 location: Berlin, Germany
 isFeatured: false
 isOngoing: false
-lastmod: "2021-10-10T16:05:26.173Z"
+lastmod: "2021-11-10T12:40:15.627Z"
 date: "2017-05-08T12:00:00Z"
 slug: if-by-water-at-re-publica-17
 members:

@@ -1,5 +1,7 @@
 ---
 title: Dialogues with Data [at] Infovis
+subtitle: ""
+status: ""
 outputs:
     - HTML
     - Calendar

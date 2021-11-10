@@ -69,6 +69,8 @@ type Topic struct {
 
 type Response struct {
   Title string `yaml:"title"`
+  Subtitle string `yaml:"subtitle"`
+  Status string `yaml:"status"`
   Outputs [2]string `yaml:outputs` // Added by this script
   Time string `yaml:"time,omitempty"` // TODO: Delete this?
   Start_Time string `yaml:"start_time,omitempty"`
@@ -96,6 +98,7 @@ type Response struct {
   Projects []Project `yaml:"projects,omitempty"`
   Events []Event `yaml:"events,omitempty"`
   Cover Cover `yaml:"cover,omitempty"`
+  Preview Cover `yaml:"preview,omitempty"`
   YouTube string `yaml:"youtube,omitempty"`
   Vimeo string `yaml:"vimeo,omitempty"`
   Links []Link `yaml:"links,omitempty"`

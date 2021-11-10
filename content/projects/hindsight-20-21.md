@@ -1,5 +1,6 @@
 ---
 title: Hindsight 20/21
+subtitle: ""
 intro: Hindsight 20/21 asks how the university is changing across its collections, communities, and curricula.
 start: "2021-01-01"
 end: "2021-01-01"
@@ -10,7 +11,7 @@ mediation: mixed_media
 category: project
 isFeatured: false
 externalLink: ""
-lastmod: "2021-11-02T12:14:05.314Z"
+lastmod: "2021-11-10T12:47:54.690Z"
 date: "2021-01-01"
 slug: hindsight-20-21
 collaborators:

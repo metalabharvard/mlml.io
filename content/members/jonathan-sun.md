@@ -10,7 +10,7 @@ lastmod: "2021-11-02T18:30:38.425Z"
 date: "2021-09-16T10:51:44.686Z"
 slug: jonathan-sun
 events:
-    - label: MACHINE EXPERIENCE
+    - label: Machine Experience
       slug: machine-experience
 picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122125/jonathan_2a654b1e92.jpg

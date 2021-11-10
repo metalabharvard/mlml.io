@@ -1,5 +1,6 @@
 ---
 title: This Recommendation System is Broken
+subtitle: ""
 intro: Through randomization, This Recommendation System is Broken decenters the viewer and reimagines the role of norms in collections.
 start: "2021-01-01"
 end: "2021-01-01"
@@ -10,7 +11,7 @@ mediation: mixed_media
 category: project
 isFeatured: false
 externalLink: ""
-lastmod: "2021-11-02T12:17:29.099Z"
+lastmod: "2021-11-10T12:47:54.273Z"
 date: "2021-01-01"
 slug: this-recommendation-system-is-broken
 collaborators:

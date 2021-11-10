@@ -1,5 +1,7 @@
 ---
-title: 'AI, Big Ideas, & Shiny Objects: SXSW'
+title: AI, Big Ideas, & Shiny Objects
+subtitle: SXSW
+status: ""
 outputs:
     - HTML
     - Calendar
@@ -17,7 +19,7 @@ tzid: UTC
 location: Austin, TX
 isFeatured: false
 isOngoing: false
-lastmod: "2021-09-16T09:49:45.872Z"
+lastmod: "2021-11-10T12:37:01.926Z"
 date: "2019-03-12T12:00:00Z"
 slug: ai-big-ideas-shiny-objects-sxsw
 ---

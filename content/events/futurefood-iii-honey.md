@@ -1,5 +1,7 @@
 ---
-title: 'FUTUREFOOD III: HONEY'
+title: Futurefood III
+subtitle: Honey
+status: ""
 outputs:
     - HTML
     - Calendar
@@ -17,7 +19,7 @@ tzid: UTC
 location: Cambridge, MA
 isFeatured: false
 isOngoing: false
-lastmod: "2021-09-16T09:49:46.455Z"
+lastmod: "2021-11-10T12:39:52.078Z"
 date: "2019-06-15T12:00:00Z"
 slug: futurefood-iii-honey
 ---

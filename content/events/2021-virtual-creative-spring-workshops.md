@@ -1,5 +1,7 @@
 ---
 title: 2021 Virtual Creative Spring Workshops
+subtitle: ""
+status: ""
 outputs:
     - HTML
     - Calendar

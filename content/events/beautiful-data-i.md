@@ -1,5 +1,7 @@
 ---
 title: Beautiful Data I
+subtitle: ""
+status: ""
 outputs:
     - HTML
     - Calendar

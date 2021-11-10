@@ -1,5 +1,7 @@
 ---
 title: The Laughing Room
+subtitle: ""
+status: ""
 outputs:
     - HTML
     - Calendar

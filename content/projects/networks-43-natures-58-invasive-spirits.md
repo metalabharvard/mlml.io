@@ -1,5 +1,6 @@
 ---
-title: 'Networks + Natures: Invasive Spirits'
+title: Networks + Natures
+subtitle: Invasive Spirits
 intro: Combining Matthew Battles's work on feral and invasive species in the city with designer and graduate researcher Keith Hartwig's practice in brewing, placemaking, and beer production, Invasive Spirits takes a multisensory approach to urbanism—using our noses & palates as well as eyes & analytic minds—to produce knowledge that's fun, flavorful, & transformative.
 start: "2018-01-01"
 end: "2018-01-01"
@@ -10,7 +11,7 @@ mediation: mixed_media
 category: project
 isFeatured: false
 externalLink: ""
-lastmod: "2021-11-02T16:57:06.696Z"
+lastmod: "2021-11-10T12:56:18.153Z"
 date: "2018-01-01"
 slug: networks-43-natures-58-invasive-spirits
 collaborators:
@@ -23,6 +24,12 @@ links:
       url: http://www.bloomsbury.com/us/tree-9781628920536/
     - label: ""
       url: ""
+members:
+    - label: Matthew Battles
+      slug: matthew-battles
+      twitter: matthewbattles
+members_twitter:
+    - matthewbattles
 
 ---
 Invasive plants are treated with scorn, but they make the city green and provide a host of good things. Invasive Spirits explores the city's riot of invasive biodiversity, brewing, distilling, and making food with the cosmopolitan plants that share our urban worlds. While we're discovering sensational tastes, we're using our senses explore the city wild. By learning to appreciate the weedy world, can we share a richer relationship with nature in the city?

@@ -7,9 +7,9 @@ lastmod: "2021-09-16T10:51:45.177Z"
 date: "2021-09-16T10:51:45.177Z"
 slug: rachel-kalmar
 events:
-    - label: MACHINE EXPERIENCE
+    - label: Machine Experience
       slug: machine-experience
-    - label: MACHINE EXPERIENCE II
+    - label: Machine Experience II
       slug: machine-experience-ii
 
 ---

@@ -1,5 +1,7 @@
 ---
-title: MACHINE EXPERIENCE II
+title: Machine Experience II
+subtitle: ""
+status: ""
 outputs:
     - HTML
     - Calendar
@@ -18,7 +20,7 @@ intro: MACHINE EXPERIENCE II&#58; Art Perspectives on Artificial Intelligence
 location: Berlin
 isFeatured: false
 isOngoing: false
-lastmod: "2021-10-13T09:28:54.170Z"
+lastmod: "2021-11-10T12:31:38.381Z"
 date: "2018-01-19T12:00:00Z"
 slug: machine-experience-ii
 members:

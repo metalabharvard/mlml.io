@@ -9,6 +9,7 @@ rank: 4.999
 role_string: Affiliate
 twitter: zeto
 website: https://jonasparnow.com
+github: jnsprnw
 lastmod: "2021-11-09T16:51:51.655Z"
 date: "2021-11-09T16:51:24.692Z"
 slug: jonas-parnow

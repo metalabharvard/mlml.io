@@ -66,6 +66,10 @@ type Response struct {
   Mail string `yaml:"email,omitempty"`
   Website string `yaml:"website,omitempty"`
   Instagram string `yaml:"instagram,omitempty"`
+  Youtube string `yaml:"youtube,omitempty"`
+  Soundcloud string `yaml:"soundcloud,omitempty"`
+  Github string `yaml:"github,omitempty"`
+  Vimeo string `yaml:"vimeo,omitempty"`
   Start string `yaml:"start,omitempty"`
   Description string `yaml:"description,omitempty"`
   Updated_at string `yaml:"updated_at,omitempty"`

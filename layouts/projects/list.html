@@ -2,7 +2,7 @@
   <section class="homepage-projects-list grid-wide">
     <ul role="list">
     {{ range .Pages }}
-      {{ partial "project-preview.html" (dict "project" . "defaultHost" .Site.Params.Label.HostsDefault)}}
+      {{ partial "project-preview.html" (dict "project" . "defaultHost" .Site.Params.Label.HostsDefault "defaultMediation" .Site.Params.Label.DefaultMediation)}}
     {{ end }}
     </ul>
   </section>

@@ -1,5 +1,6 @@
 ---
 title: Digital Archive of Japan’s 2011 Disasters
+subtitle: ""
 intro: ""
 start: "2011-01-01"
 end: "2011-01-01"
@@ -10,7 +11,7 @@ mediation: mixed_media
 category: project
 isFeatured: false
 externalLink: ""
-lastmod: "2021-09-16T09:49:44.597Z"
+lastmod: "2021-11-10T12:47:54.578Z"
 date: "2011-01-01"
 slug: digital-archive-of-japans-2011-disasters
 collaborators:

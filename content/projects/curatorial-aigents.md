@@ -1,5 +1,6 @@
 ---
 title: Curatorial A(i)gents
+subtitle: ""
 intro: A metaLAB series of interactive projects exploring machine learning in, around, and about the Harvard Art Museums
 start: "2021-06-17"
 end: "2021-08-03"
@@ -10,7 +11,7 @@ mediation: mixed_media
 category: project
 isFeatured: false
 externalLink: https://metalabharvard.github.io/
-lastmod: "2021-11-02T12:24:20.508Z"
+lastmod: "2021-11-10T12:47:54.929Z"
 date: "2021-06-17"
 slug: curatorial-aigents
 collaborators:

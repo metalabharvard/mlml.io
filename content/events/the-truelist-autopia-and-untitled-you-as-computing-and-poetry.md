@@ -1,5 +1,7 @@
 ---
 title: The Truelist, Autopia, and Untitled [You] as Computing and Poetry
+subtitle: ""
+status: ""
 outputs:
     - HTML
     - Calendar

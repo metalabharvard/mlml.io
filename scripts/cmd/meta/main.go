@@ -64,6 +64,15 @@ type Meta struct {
   RelatedLabelLinks string `json:"relatedLabelLinks"`
   RelatedLabelPressArticles string `json:"relatedLabelPressArticles"`
   MemberAlumnus string `json:"memberAlumnus"`
+  AriaTimezoneBoston string `json:"ariaTimezoneBoston"`
+  AriaTimezoneBerlin string `json:"ariaTimezoneBerlin"`
+  AriaProfilePicture string `json:"ariaProfilePicture"`
+  ExternalProject string `json:"externalProject"`
+  ExternalEvent string `json:"externalEvent"`
+  DefaultMediation string `json:"defaultMediation"`
+  DefaultEventCategory string `json:"defaultEventCategory"`
+  ProjectRSS string `json:"projectRSS"`
+  EventRSS string `json:"eventRSS"`
 }
 
 type Params struct {
@@ -120,6 +129,15 @@ type Label struct {
   RelatedLabelLinks string `json:"relatedLabelLinks"`
   RelatedLabelPressArticles string `json:"relatedLabelPressArticles"`
   MemberAlumnus string `json:"memberAlumnus"`
+  AriaTimezoneBoston string `json:"ariaTimezoneBoston"`
+  AriaTimezoneBerlin string `json:"ariaTimezoneBerlin"`
+  AriaProfilePicture string `json:"ariaProfilePicture"`
+  ExternalProject string `json:"externalProject"`
+  ExternalEvent string `json:"externalEvent"`
+  DefaultMediation string `json:"defaultMediation"`
+  DefaultEventCategory string `json:"defaultEventCategory"`
+  ProjectRSS string `json:"projectRSS"`
+  EventRSS string `json:"eventRSS"`
 }
 
 type Config struct {
@@ -206,6 +224,15 @@ func main() {
         RelatedLabelLinks: responseObject.RelatedLabelLinks,
         RelatedLabelPressArticles: responseObject.RelatedLabelPressArticles,
         MemberAlumnus: responseObject.MemberAlumnus,
+        AriaTimezoneBoston: responseObject.AriaTimezoneBoston,
+        AriaTimezoneBerlin: responseObject.AriaTimezoneBerlin,
+        AriaProfilePicture: responseObject.AriaProfilePicture,
+        ExternalProject: responseObject.ExternalProject,
+        ExternalEvent: responseObject.ExternalEvent,
+        DefaultMediation: responseObject.DefaultMediation,
+        DefaultEventCategory: responseObject.DefaultEventCategory,
+        ProjectRSS: responseObject.ProjectRSS,
+        EventRSS: responseObject.EventRSS,
       },
     },
   }
