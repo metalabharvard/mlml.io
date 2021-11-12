@@ -1,6 +1,7 @@
 ---
 title: Nobody’s Listening
 subtitle: ""
+fulltitle: Nobody’s Listening
 intro: ""
 start: "2017-08-08"
 end: "2017-01-01"

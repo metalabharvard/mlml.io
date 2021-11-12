@@ -1,6 +1,7 @@
 ---
 title: Graphesis
 subtitle: Visual Forms of Knowledge Production
+fulltitle: 'Graphesis: Visual Forms of Knowledge Production'
 intro: Graphesis provides a descriptive critical language for the analysis of graphical knowledge.
 start: "2014-01-01"
 end: "2014-01-01"

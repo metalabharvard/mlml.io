@@ -55,10 +55,6 @@
     {{ $projects := .Params.Projects }}
     {{ $collaborators := .Params.Collaborators }}
     <aside class="event-relations grid-wide grid grid-v-default half">
-      <div class="box-item">
-        <dt class="title">TODO</dt>
-        <dd class="text"><a href="{{ (printf `%s.ics` .Slug) | absURL }}">iCal</a></dd>
-      </div>
       {{ $title := .Site.Params.Label.BoxType }}
       {{ with .Params.Category }}
       <div class="box-item">
@@ -77,6 +73,11 @@
       {{ partial "related-collaborators.html" (dict "items" $collaborators "label" .Site.Params.Label.boxCollaborator "class" "collaborator") }}
       {{ partial "related-items.html" (dict "items" $projects "term" .Site.Params.Label.RelatedProjects "label" .Site.Params.Label.RelatedLabelProjects "class" "project") }}
       {{ partial "related-items.html" (dict "items" $events "term" .Site.Params.Label.RelatedEvents "label" .Site.Params.Label.RelatedLabelEvents "class" "event") }}
+    </aside>
+    <aside class="event-share grid-narrow-right-aside">
+      {{ partial "icon-calendar.html" (dict "url" ((printf `%s.ics` .Slug) | absURL) "title" .Site.Params.Label.SocialYouTubeTitle) }}
+      {{ partial "share-twitter.html" (dict "url" .Permalink "text" .Params.Fulltitle "via" .Site.Social.twitter) }}
+      {{ partial "share-facebook.html" (dict "url" .Permalink "text" .Params.Fulltitle) }}
     </aside>
     {{ with .Params.Link }}
     <a class="event-link u-url" href="{{ . }}" rel="noopener noreferrer external" target="_blank"><span>Visit event</span></a>

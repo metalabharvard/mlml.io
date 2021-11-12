@@ -1,6 +1,7 @@
 ---
 title: Every Body
 subtitle: A conversation with Sara Hendren & Elizabeth Guffey
+fulltitle: 'Every Body: A conversation with Sara Hendren & Elizabeth Guffey'
 status: ""
 outputs:
     - HTML

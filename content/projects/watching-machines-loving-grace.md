@@ -1,6 +1,7 @@
 ---
 title: Watching Machines Loving Grace
 subtitle: ""
+fulltitle: Watching Machines Loving Grace
 intro: Observing the otherwise unwanted parts of facial recognition, Watching Machines Loving Grace visualizes the reductiveness of algorithmic visual sense-making.
 start: "2021-01-01"
 end: "2021-01-01"

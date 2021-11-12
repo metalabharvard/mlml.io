@@ -938,6 +938,11 @@ picture, img {
       display: block;
     }
   }
+
+  .project-share {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .homepage-member, .homepage-event, .homepage-project {
@@ -981,6 +986,11 @@ picture, img {
     .timezone-content {
       line-height: 1;
     }
+  }
+
+  .event-share {
+    display: flex;
+    flex-direction: column;
   }
 }
 

@@ -1,6 +1,7 @@
 ---
 title: The Library Beyond the Book
 subtitle: ""
+fulltitle: The Library Beyond the Book
 intro: The Library Beyond the Book explains, speculates and provokes book culture for a world where the physical and the virtual blend with ever increasing intimacy.
 start: "2014-01-01"
 end: "2014-01-01"

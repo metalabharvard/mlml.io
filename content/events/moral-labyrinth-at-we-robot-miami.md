@@ -1,6 +1,7 @@
 ---
 title: Moral Labyrinth at WeRobot Miami
 subtitle: ""
+fulltitle: Moral Labyrinth at WeRobot Miami
 status: ""
 outputs:
     - HTML

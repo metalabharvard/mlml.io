@@ -1,6 +1,7 @@
 ---
 title: Digital Archive of Japan’s 2011 Disasters
 subtitle: ""
+fulltitle: Digital Archive of Japan’s 2011 Disasters
 intro: ""
 start: "2011-01-01"
 end: "2011-01-01"

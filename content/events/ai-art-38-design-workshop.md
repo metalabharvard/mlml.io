@@ -1,6 +1,7 @@
 ---
 title: AI Art & Design Workshop
 subtitle: ""
+fulltitle: AI Art & Design Workshop
 status: ""
 outputs:
     - HTML

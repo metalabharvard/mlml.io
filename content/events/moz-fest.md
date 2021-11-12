@@ -1,6 +1,7 @@
 ---
 title: MozFest
 subtitle: ""
+fulltitle: MozFest
 status: ""
 outputs:
     - HTML

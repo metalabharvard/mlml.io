@@ -1,6 +1,7 @@
 ---
 title: 'Open Session: Artifacts in Space'
 subtitle: ""
+fulltitle: 'Open Session: Artifacts in Space'
 status: ""
 outputs:
     - HTML

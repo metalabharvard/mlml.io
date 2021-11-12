@@ -1,6 +1,7 @@
 ---
 title: Book a Nook
 subtitle: ""
+fulltitle: Book a Nook
 intro: An open-source tool to activate, connect, and experiment with community spaces.
 start: "2016-01-01"
 end: "2016-01-01"

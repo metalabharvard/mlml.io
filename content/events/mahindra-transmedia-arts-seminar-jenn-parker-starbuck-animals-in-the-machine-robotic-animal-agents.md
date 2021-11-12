@@ -1,6 +1,7 @@
 ---
 title: Jenn Parker-Starbuck, Animals in the Machine
 subtitle: 'Mahindra Transmedia Arts Seminar: Robotic Animal Agents'
+fulltitle: 'Jenn Parker-Starbuck, Animals in the Machine: Mahindra Transmedia Arts Seminar: Robotic Animal Agents'
 status: ""
 outputs:
     - HTML
@@ -28,7 +29,7 @@ events:
     - label: 2018 LITA Library Technology Forum
       slug: 2018-lita-library-technology-forum
     - label: Decentralized Storytelling
-      slug: mahindra-transmedia-arts-seminar-lance-weiler-decentralized-storytelling-where-ai-the-blokchain-code-and-the-metaverse-connect
+      slug: decentralized-storytelling
     - label: 'futureStage Manifesto: New Scenarios for the Performing Arts'
       slug: future-stage-manifesto-new-scenarios-for-the-performing-arts
 ---

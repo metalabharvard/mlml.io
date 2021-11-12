@@ -1,6 +1,7 @@
 ---
 title: Ocean Amplification
 subtitle: ""
+fulltitle: Ocean Amplification
 intro: Ocean Amplification simulates images of waves to visualize the effects of climate change—and the energy demands of computation.
 start: "2021-01-01"
 end: "2021-01-01"

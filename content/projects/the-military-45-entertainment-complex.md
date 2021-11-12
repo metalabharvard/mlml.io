@@ -1,6 +1,7 @@
 ---
 title: The Military-Entertainment Complex
 subtitle: ""
+fulltitle: The Military-Entertainment Complex
 intro: ""
 start: "2018-01-01"
 end: "2018-01-01"

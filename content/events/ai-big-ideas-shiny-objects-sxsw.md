@@ -1,6 +1,7 @@
 ---
 title: AI, Big Ideas, & Shiny Objects
 subtitle: SXSW
+fulltitle: 'AI, Big Ideas, & Shiny Objects: SXSW'
 status: ""
 outputs:
     - HTML

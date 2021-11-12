@@ -1,6 +1,7 @@
 ---
 title: Dictionnaire Apollinaire
 subtitle: ""
+fulltitle: Dictionnaire Apollinaire
 intro: ""
 start: "2016-01-01"
 end: "2016-01-01"

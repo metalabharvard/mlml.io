@@ -1,6 +1,7 @@
 ---
 title: Tacit Knowledge
 subtitle: Post Studio/Feminism – CalArts 1970-1977
+fulltitle: 'Tacit Knowledge: Post Studio/Feminism – CalArts 1970-1977'
 intro: ""
 start: "2019-01-01"
 end: "2019-01-01"

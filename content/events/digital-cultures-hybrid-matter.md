@@ -1,6 +1,7 @@
 ---
 title: Digital Cultures – Hybrid Matter
 subtitle: ""
+fulltitle: Digital Cultures – Hybrid Matter
 status: ""
 outputs:
     - HTML

@@ -1,6 +1,7 @@
 ---
 title: HyperCities
 subtitle: Thick Mapping in the Digital Humanities
+fulltitle: 'HyperCities: Thick Mapping in the Digital Humanities'
 intro: 'HyperCities describes thick mapping: the humanist project of participating and listening that transforms mapping into an ethical undertaking.'
 start: "2014-01-01"
 end: "2014-01-01"

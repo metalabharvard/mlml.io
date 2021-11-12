@@ -1,6 +1,7 @@
 ---
 title: Book Biography Machine
 subtitle: ""
+fulltitle: Book Biography Machine
 intro: ""
 start: "2015-01-01"
 end: "2015-01-01"

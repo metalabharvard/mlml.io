@@ -1,6 +1,7 @@
 ---
 title: Ars Electronica
 subtitle: Error – The Art of Imperfection
+fulltitle: 'Ars Electronica: Error – The Art of Imperfection'
 status: ""
 outputs:
     - HTML

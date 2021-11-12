@@ -1,6 +1,7 @@
 ---
 title: Nobody’s Listening [at] Fear and Loathing of the Online Self
 subtitle: ""
+fulltitle: Nobody’s Listening [at] Fear and Loathing of the Online Self
 status: ""
 outputs:
     - HTML

@@ -1,6 +1,7 @@
 ---
 title: Color Rx
 subtitle: ""
+fulltitle: Color Rx
 status: ""
 outputs:
     - HTML

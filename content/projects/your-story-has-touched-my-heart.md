@@ -1,6 +1,7 @@
 ---
 title: Your Story Has Touched My Heart
 subtitle: ""
+fulltitle: Your Story Has Touched My Heart
 intro: ""
 start: "2016-01-01"
 end: "2016-01-01"

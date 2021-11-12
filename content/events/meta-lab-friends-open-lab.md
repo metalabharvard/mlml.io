@@ -1,6 +1,7 @@
 ---
 title: metaLAB + friends openLAB
 subtitle: ""
+fulltitle: metaLAB + friends openLAB
 status: ""
 outputs:
     - HTML

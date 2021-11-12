@@ -1,6 +1,7 @@
 ---
 title: Sherlock
 subtitle: ""
+fulltitle: Sherlock
 status: ""
 outputs:
     - HTML

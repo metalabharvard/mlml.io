@@ -1,6 +1,7 @@
 ---
 title: The Future of Secrets
 subtitle: ""
+fulltitle: The Future of Secrets
 intro: An artistic research project that considers what might happen to our private digital correspondence in the future.
 start: "2018-01-01"
 end: "2018-01-01"

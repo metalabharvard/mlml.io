@@ -1,6 +1,7 @@
 ---
 title: The Truelist, Autopia, and Untitled [You] as Computing and Poetry
 subtitle: ""
+fulltitle: The Truelist, Autopia, and Untitled [You] as Computing and Poetry
 status: ""
 outputs:
     - HTML

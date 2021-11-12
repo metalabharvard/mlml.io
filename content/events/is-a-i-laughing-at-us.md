@@ -1,6 +1,7 @@
 ---
 title: Is A.I Laughing at us?
 subtitle: ""
+fulltitle: Is A.I Laughing at us?
 status: ""
 outputs:
     - HTML

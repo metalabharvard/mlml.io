@@ -1,6 +1,7 @@
 ---
 title: Overflow
 subtitle: Inexplicable Parts of the Intimate
+fulltitle: 'Overflow: Inexplicable Parts of the Intimate'
 status: ""
 outputs:
     - HTML

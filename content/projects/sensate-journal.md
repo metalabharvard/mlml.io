@@ -1,6 +1,7 @@
 ---
 title: Sensate Journal
 subtitle: ""
+fulltitle: Sensate Journal
 intro: ""
 start: "2012-01-01"
 end: "2012-01-01"

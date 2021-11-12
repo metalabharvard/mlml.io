@@ -1,6 +1,7 @@
 ---
 title: Library Test Kitchen
 subtitle: ""
+fulltitle: Library Test Kitchen
 status: ""
 outputs:
     - HTML

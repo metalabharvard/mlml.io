@@ -1,6 +1,7 @@
 ---
 title: Futurefood I
 subtitle: Kvass
+fulltitle: 'Futurefood I: Kvass'
 status: ""
 outputs:
     - HTML

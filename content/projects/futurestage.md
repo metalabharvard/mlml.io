@@ -1,6 +1,7 @@
 ---
 title: futureSTAGE
 subtitle: ""
+fulltitle: futureSTAGE
 intro: An international research collaborative mapping opportunities for performance spaces in a hyperconnected world
 start: "2021-06-16"
 end: "2021-08-10"

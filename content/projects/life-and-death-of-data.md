@@ -1,6 +1,7 @@
 ---
 title: Life and Death of Data
 subtitle: ""
+fulltitle: Life and Death of Data
 intro: In collections of scientific and cultural history that are too big to see, metadata act as virtual handles for rare and delicate artifacts from the past.
 start: "2013-01-01"
 end: "2013-01-01"

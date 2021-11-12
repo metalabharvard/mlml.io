@@ -1,6 +1,7 @@
 ---
 title: Mahindra Seminar
 subtitle: The Future of Transmedia Performance
+fulltitle: 'Mahindra Seminar: The Future of Transmedia Performance'
 status: ""
 outputs:
     - HTML

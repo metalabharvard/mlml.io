@@ -1,6 +1,7 @@
 ---
 title: Feminist in a Software Lab
 subtitle: Difference + Design
+fulltitle: 'Feminist in a Software Lab: Difference + Design'
 intro: ""
 start: "2018-01-01"
 end: "2018-01-01"

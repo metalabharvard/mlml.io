@@ -1,6 +1,7 @@
 ---
 title: Ascoltando la Corte
 subtitle: ""
+fulltitle: Ascoltando la Corte
 intro: Is it possible to have multi-sensorial museum experience through digital methods?
 start: "2019-01-01"
 end: "2019-01-01"

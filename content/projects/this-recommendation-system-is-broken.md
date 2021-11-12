@@ -1,6 +1,7 @@
 ---
 title: This Recommendation System is Broken
 subtitle: ""
+fulltitle: This Recommendation System is Broken
 intro: Through randomization, This Recommendation System is Broken decenters the viewer and reimagines the role of norms in collections.
 start: "2021-01-01"
 end: "2021-01-01"

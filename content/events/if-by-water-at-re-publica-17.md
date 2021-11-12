@@ -1,6 +1,7 @@
 ---
 title: If By Water [at] re:publica 17
 subtitle: ""
+fulltitle: If By Water [at] re:publica 17
 status: ""
 outputs:
     - HTML

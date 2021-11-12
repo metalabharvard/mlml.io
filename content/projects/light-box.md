@@ -1,6 +1,7 @@
 ---
 title: Light Box
 subtitle: ""
+fulltitle: Light Box
 intro: A venue for digital experiments and new media projects that respond to collections held at the Harvard Art Museums, where digital tools reveal connections between objects and play with traditions of display.
 start: "2016-01-01"
 end: "2016-01-01"

@@ -1,6 +1,7 @@
 ---
 title: 2018 LITA Library Technology Forum
 subtitle: ""
+fulltitle: 2018 LITA Library Technology Forum
 status: ""
 outputs:
     - HTML
@@ -24,7 +25,7 @@ date: "2018-11-08T12:00:00Z"
 slug: 2018-lita-library-technology-forum
 events:
     - label: Decentralized Storytelling
-      slug: mahindra-transmedia-arts-seminar-lance-weiler-decentralized-storytelling-where-ai-the-blokchain-code-and-the-metaverse-connect
+      slug: decentralized-storytelling
     - label: Jenn Parker-Starbuck, Animals in the Machine
       slug: mahindra-transmedia-arts-seminar-jenn-parker-starbuck-animals-in-the-machine-robotic-animal-agents
     - label: 'futureStage Manifesto: New Scenarios for the Performing Arts'

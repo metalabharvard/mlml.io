@@ -1,6 +1,7 @@
 ---
 title: Mahindra Transmedia Arts Seminar
 subtitle: Magda Romanska, Transmedia Dramaturgy of Pre- and Post-Pandemic Theatre
+fulltitle: 'Mahindra Transmedia Arts Seminar: Magda Romanska, Transmedia Dramaturgy of Pre- and Post-Pandemic Theatre'
 status: ""
 outputs:
     - HTML

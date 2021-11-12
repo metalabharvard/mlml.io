@@ -78,6 +78,7 @@ type Topic struct {
 type Response struct {
   Title string `yaml:"title"`
   Subtitle string `yaml:"subtitle"`
+  Fulltitle string `yaml:"fulltitle"`
   Intro string `yaml:"intro"`
   Start string `yaml:"start"`
   End string `yaml:"end"`
@@ -335,6 +336,12 @@ func main() {
       element.Images = []string{convertToPreviewImage(element.Cover.Url)}
     }
     element.Preview = Cover{}
+
+    if element.Subtitle == "" {
+      element.Fulltitle = element.Title
+    } else {
+      element.Fulltitle = fmt.Sprintf("%s: %s", element.Title, element.Subtitle)
+    }
 
     file, _ := yaml.Marshal(element)
     _ = ioutil.WriteFile(fmt.Sprintf("%s/%s.md", FOLDER, element.Slug), []byte(fmt.Sprintf("---\n%s\n---\n%s", file, content)), 0644)

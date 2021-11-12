@@ -1,6 +1,7 @@
 ---
 title: The Future of Secrets @ Northeastern School of Law
 subtitle: ""
+fulltitle: The Future of Secrets @ Northeastern School of Law
 status: ""
 outputs:
     - HTML

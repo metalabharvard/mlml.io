@@ -1,6 +1,7 @@
 ---
 title: Sounds of Lesvos
 subtitle: Audio Workshop About Sound + Place
+fulltitle: 'Sounds of Lesvos: Audio Workshop About Sound + Place'
 status: ""
 outputs:
     - HTML

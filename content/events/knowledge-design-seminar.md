@@ -1,6 +1,7 @@
 ---
 title: Knowledge Design Seminar
 subtitle: ""
+fulltitle: Knowledge Design Seminar
 status: ""
 outputs:
     - HTML

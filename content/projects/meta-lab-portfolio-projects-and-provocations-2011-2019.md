@@ -1,6 +1,7 @@
 ---
 title: metaLAB Portfolio
 subtitle: Projects and Provocations, 2011–2019
+fulltitle: 'metaLAB Portfolio: Projects and Provocations, 2011–2019'
 intro: ""
 start: "2019-01-01"
 end: "2019-01-01"

@@ -1,6 +1,7 @@
 ---
 title: 'futureStage Manifesto: New Scenarios for the Performing Arts'
 subtitle: ""
+fulltitle: 'futureStage Manifesto: New Scenarios for the Performing Arts'
 status: default
 outputs:
     - HTML
@@ -48,7 +49,7 @@ events:
     - label: 2018 LITA Library Technology Forum
       slug: 2018-lita-library-technology-forum
     - label: Decentralized Storytelling
-      slug: mahindra-transmedia-arts-seminar-lance-weiler-decentralized-storytelling-where-ai-the-blokchain-code-and-the-metaverse-connect
+      slug: decentralized-storytelling
     - label: Jenn Parker-Starbuck, Animals in the Machine
       slug: mahindra-transmedia-arts-seminar-jenn-parker-starbuck-animals-in-the-machine-robotic-animal-agents
 cover:

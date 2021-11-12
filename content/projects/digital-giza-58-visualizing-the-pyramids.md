@@ -1,6 +1,7 @@
 ---
 title: Digital Giza
 subtitle: Visualizing the Pyramids
+fulltitle: 'Digital Giza: Visualizing the Pyramids'
 intro: Digital Giza explores new approaches to “cataloging” the world's most famous archeological site, The Pyramids on the Giza Plateau, highlighting efforts at the Museum of Fine Arts Boston and Harvard University.
 start: "2016-01-01"
 end: "2016-01-01"

@@ -1,6 +1,7 @@
 ---
 title: The Laughing Room
 subtitle: ""
+fulltitle: The Laughing Room
 status: ""
 outputs:
     - HTML

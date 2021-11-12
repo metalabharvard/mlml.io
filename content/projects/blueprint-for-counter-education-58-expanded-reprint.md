@@ -1,6 +1,7 @@
 ---
 title: Blueprint for Counter Education
 subtitle: Expanded Reprint
+fulltitle: 'Blueprint for Counter Education: Expanded Reprint'
 intro: “This counter-university makes obsolete the traditional university process…”
 start: "2016-01-01"
 end: "2016-01-01"

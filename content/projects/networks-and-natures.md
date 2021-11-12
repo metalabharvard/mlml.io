@@ -1,6 +1,7 @@
 ---
 title: Networks + Natures
 subtitle: ""
+fulltitle: Networks + Natures
 intro: Exploring digital effects on political, personal, and aesthetic experiences of nature.
 start: "2018-01-01"
 end: "2018-01-01"

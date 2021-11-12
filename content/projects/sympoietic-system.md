@@ -1,6 +1,7 @@
 ---
 title: Sympoietic System
 subtitle: ""
+fulltitle: Sympoietic System
 intro: Using weather data, algorithms, and a camera feed of the sky, Sympoietic System makes the weather a curator.
 start: "2021-01-01"
 end: "2021-01-01"

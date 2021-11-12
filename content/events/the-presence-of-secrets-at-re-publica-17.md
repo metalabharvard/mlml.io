@@ -1,6 +1,7 @@
 ---
 title: The Presence of Secrets [at] re:publica 17
 subtitle: ""
+fulltitle: The Presence of Secrets [at] re:publica 17
 status: ""
 outputs:
     - HTML

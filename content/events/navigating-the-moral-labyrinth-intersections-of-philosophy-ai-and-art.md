@@ -1,6 +1,7 @@
 ---
 title: Navigating the Moral Labyrinth
 subtitle: Intersections of Philosophy, AI, and Art
+fulltitle: 'Navigating the Moral Labyrinth: Intersections of Philosophy, AI, and Art'
 status: ""
 outputs:
     - HTML

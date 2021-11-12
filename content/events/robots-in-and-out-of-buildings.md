@@ -1,6 +1,7 @@
 ---
 title: Robots In and Out of Buildings
 subtitle: ""
+fulltitle: Robots In and Out of Buildings
 status: ""
 outputs:
     - HTML

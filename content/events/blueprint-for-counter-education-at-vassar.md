@@ -1,6 +1,7 @@
 ---
 title: Blueprint for Counter Education at Vassar
 subtitle: ""
+fulltitle: Blueprint for Counter Education at Vassar
 status: ""
 outputs:
     - HTML

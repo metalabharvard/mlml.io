@@ -1,6 +1,7 @@
 ---
 title: Artificial Senses
 subtitle: ""
+fulltitle: Artificial Senses
 intro: Artificial Senses visualizes sensor data of the machines that surround us to develop an understanding how they experience the world.
 start: "2017-06-01"
 end: "2017-12-01"

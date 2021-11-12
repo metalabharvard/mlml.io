@@ -1,6 +1,7 @@
 ---
 title: Study Card to Playlist
 subtitle: The Social Life of the Course Catalog
+fulltitle: 'Study Card to Playlist: The Social Life of the Course Catalog'
 status: ""
 outputs:
     - HTML

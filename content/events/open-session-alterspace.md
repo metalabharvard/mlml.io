@@ -1,6 +1,7 @@
 ---
 title: 'Open Session: Alterspace'
 subtitle: ""
+fulltitle: 'Open Session: Alterspace'
 status: ""
 outputs:
     - HTML

@@ -1,6 +1,7 @@
 ---
 title: Beautiful Data
 subtitle: Publications
+fulltitle: 'Beautiful Data: Publications'
 intro: ""
 start: "2015-01-01"
 end: "2015-01-01"

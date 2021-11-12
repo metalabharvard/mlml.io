@@ -1,6 +1,7 @@
 ---
 title: '‘Playable Theatre’: on Gaming and Aesthetic Control'
 subtitle: Mahindra Transmedia Arts Seminar
+fulltitle: '‘Playable Theatre’: on Gaming and Aesthetic Control: Mahindra Transmedia Arts Seminar'
 status: ""
 outputs:
     - HTML

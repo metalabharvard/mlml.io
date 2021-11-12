@@ -1,6 +1,7 @@
 ---
 title: Curatorial A(i)gents
 subtitle: ""
+fulltitle: Curatorial A(i)gents
 intro: A metaLAB series of interactive projects exploring machine learning in, around, and about the Harvard Art Museums
 start: "2021-06-17"
 end: "2021-08-03"

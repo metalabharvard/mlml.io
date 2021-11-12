@@ -1,6 +1,7 @@
 ---
 title: The Cyberlaw Guide to Protest Art
 subtitle: ""
+fulltitle: The Cyberlaw Guide to Protest Art
 intro: ""
 start: "2018-01-01"
 end: "2018-01-01"

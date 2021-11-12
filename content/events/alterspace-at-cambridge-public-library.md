@@ -1,6 +1,7 @@
 ---
 title: Alterspace at Cambridge Public Library
 subtitle: ""
+fulltitle: Alterspace at Cambridge Public Library
 status: ""
 outputs:
     - HTML

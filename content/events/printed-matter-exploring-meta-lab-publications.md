@@ -1,6 +1,7 @@
 ---
 title: Printed Matter
 subtitle: Exploring metaLAB publications
+fulltitle: 'Printed Matter: Exploring metaLAB publications'
 status: ""
 outputs:
     - HTML

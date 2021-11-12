@@ -1,6 +1,7 @@
 ---
 title: CURATORIAL A(I)GENTS at ARS ELECTRONICA 2020
 subtitle: ""
+fulltitle: CURATORIAL A(I)GENTS at ARS ELECTRONICA 2020
 status: ""
 outputs:
     - HTML

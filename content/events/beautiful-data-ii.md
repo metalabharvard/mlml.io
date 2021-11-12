@@ -1,6 +1,7 @@
 ---
 title: Beautiful Data II
 subtitle: ""
+fulltitle: Beautiful Data II
 status: ""
 outputs:
     - HTML

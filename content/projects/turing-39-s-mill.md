@@ -1,6 +1,7 @@
 ---
 title: Turing’s Mill
 subtitle: ""
+fulltitle: Turing’s Mill
 intro: ""
 start: "2017-08-09"
 end: "2017-01-01"

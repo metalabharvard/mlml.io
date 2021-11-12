@@ -1,6 +1,7 @@
 ---
 title: Machine Experience
 subtitle: ""
+fulltitle: Machine Experience
 status: ""
 outputs:
     - HTML

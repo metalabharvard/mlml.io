@@ -1,6 +1,7 @@
 ---
 title: Deep Learning in the Museum
 subtitle: ""
+fulltitle: Deep Learning in the Museum
 intro: ""
 start: "2019-01-01"
 end: "2019-01-01"

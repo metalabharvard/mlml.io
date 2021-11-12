@@ -1,6 +1,7 @@
 ---
 title: In Flux  Browsing the Collections
 subtitle: ""
+fulltitle: In Flux  Browsing the Collections
 status: ""
 outputs:
     - HTML

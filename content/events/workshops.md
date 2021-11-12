@@ -1,6 +1,7 @@
 ---
 title: Workshops
 subtitle: ""
+fulltitle: Workshops
 status: ""
 outputs:
     - HTML

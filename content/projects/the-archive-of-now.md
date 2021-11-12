@@ -1,6 +1,7 @@
 ---
 title: The Archive of Now
 subtitle: ""
+fulltitle: The Archive of Now
 intro: ""
 start: "2019-01-01"
 end: "2019-01-01"

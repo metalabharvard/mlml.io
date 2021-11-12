@@ -1,6 +1,7 @@
 ---
 title: The Future of Science Museums
 subtitle: Michael John Gorman in conversation with Jeffrey Schnapp
+fulltitle: 'The Future of Science Museums: Michael John Gorman in conversation with Jeffrey Schnapp'
 status: ""
 outputs:
     - HTML

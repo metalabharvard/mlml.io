@@ -1,6 +1,7 @@
 ---
 title: Surprise Machines
 subtitle: ""
+fulltitle: Surprise Machines
 intro: Surprise Machines sets out to visualize the universe of Harvard Art Museums' collections, opening up unexpected vistas on the objects that make them up.
 start: "2021-01-01"
 end: "2021-01-01"
@@ -11,16 +12,29 @@ mediation: mixed_media
 category: project
 isFeatured: false
 externalLink: ""
-lastmod: "2021-11-10T12:47:55.096Z"
+lastmod: "2021-11-12T14:02:51.423Z"
 date: "2021-01-01"
 slug: surprise-machines
 collaborators:
     - label: Harvard Art Museums
       url: ""
+    - label: Douglas Duhaime
+      url: ""
+    - label: Christopher Pietsch
+      url: ""
 members:
     - label: Dario Rodighiero
       slug: dario-rodighiero
       twitter: dariorodighiero
+    - label: Jeffrey Schnapp
+      slug: jeffrey-schnapp
+      twitter: jaytiesse
+    - label: Jordan Kruguer
+      slug: jordan-kruguer
+      twitter: ""
+    - label: Lins Derry
+      slug: lins-derry
+      twitter: linsderry
 projects:
     - label: Ocean Amplification
       slug: ocean-amplification
@@ -53,8 +67,35 @@ cover:
             ext: .jpeg
             width: 121
             height: 156
+gallery:
+    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636725763/surprisemachines_e716d8493c.jpg
+      width: 1175
+      height: 1521
+      formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636725764/large_surprisemachines_e716d8493c.jpg
+            ext: .jpeg
+            width: 773
+            height: 1000
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636725765/medium_surprisemachines_e716d8493c.jpg
+            ext: .jpeg
+            width: 579
+            height: 750
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636725765/small_surprisemachines_e716d8493c.jpg
+            ext: .jpeg
+            width: 386
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636725763/thumbnail_surprisemachines_e716d8493c.jpg
+            ext: .jpeg
+            width: 121
+            height: 156
 members_twitter:
     - dariorodighiero
+    - jaytiesse
+    - linsderry
 images:
     - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1635823994/surprisemachines_061c847690.jpg
 

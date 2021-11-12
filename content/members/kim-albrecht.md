@@ -10,7 +10,8 @@ role_string: Principal
 twitter: kimay
 website: http://kimalbrecht.com/
 instagram: kimfalbrecht
-lastmod: "2021-09-16T10:53:04.851Z"
+start: "2017-06-01"
+lastmod: "2021-11-12T13:24:51.647Z"
 date: "2021-09-16T10:51:45.402Z"
 slug: kim-albrecht
 events:

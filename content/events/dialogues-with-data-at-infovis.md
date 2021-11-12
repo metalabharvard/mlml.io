@@ -1,6 +1,7 @@
 ---
 title: Dialogues with Data [at] Infovis
 subtitle: ""
+fulltitle: Dialogues with Data [at] Infovis
 status: ""
 outputs:
     - HTML

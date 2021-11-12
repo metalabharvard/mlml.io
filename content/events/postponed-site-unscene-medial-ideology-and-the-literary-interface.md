@@ -1,6 +1,7 @@
 ---
 title: Site Unscene
 subtitle: Medial Ideology and the Literary Interface
+fulltitle: 'Site Unscene: Medial Ideology and the Literary Interface'
 status: postponed
 outputs:
     - HTML

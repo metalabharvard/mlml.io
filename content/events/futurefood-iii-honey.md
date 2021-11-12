@@ -1,6 +1,7 @@
 ---
 title: Futurefood III
 subtitle: Honey
+fulltitle: 'Futurefood III: Honey'
 status: ""
 outputs:
     - HTML

@@ -1,6 +1,7 @@
 ---
 title: Humanities Studios
 subtitle: ""
+fulltitle: Humanities Studios
 status: ""
 outputs:
     - HTML

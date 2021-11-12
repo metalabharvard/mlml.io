@@ -1,6 +1,7 @@
 ---
 title: Futurefood II
 subtitle: Knotweed
+fulltitle: 'Futurefood II: Knotweed'
 status: ""
 outputs:
     - HTML

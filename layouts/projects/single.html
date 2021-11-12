@@ -75,6 +75,10 @@
     </div>
     <span class="counter" id="counter"></span>
     {{ end }}
+    <aside class="project-share grid-narrow-right-aside">
+      {{ partial "share-twitter.html" (dict "url" .Permalink "text" .Params.Fulltitle "via" .Site.Social.twitter) }}
+      {{ partial "share-facebook.html" (dict "url" .Permalink "text" .Params.Fulltitle) }}
+    </aside>
     {{ with .Content }}
     <div class="project-description grid-narrow-right">
       {{ . }}

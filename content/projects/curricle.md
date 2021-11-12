@@ -1,6 +1,7 @@
 ---
 title: Curricle
 subtitle: ""
+fulltitle: Curricle
 intro: 'Visualized, annotated, connected: what should the course catalog look like in the 21st century? Leveraging data and design in a post-disciplinary era.'
 start: "2019-01-01"
 end: "2019-01-01"

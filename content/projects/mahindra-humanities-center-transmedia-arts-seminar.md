@@ -1,6 +1,7 @@
 ---
 title: Mahindra Humanities Center
 subtitle: Transmedia Arts Seminar
+fulltitle: 'Mahindra Humanities Center: Transmedia Arts Seminar'
 intro: The intersection of contemporary art/theatre and new media technologies in immersive, multisite, and networked modes of transmedia storytelling.
 start: "2020-12-01"
 end: ""

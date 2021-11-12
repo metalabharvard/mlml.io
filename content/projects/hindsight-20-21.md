@@ -1,22 +1,71 @@
 ---
 title: Hindsight 20/21
 subtitle: ""
+fulltitle: Hindsight 20/21
 intro: Hindsight 20/21 asks how the university is changing across its collections, communities, and curricula.
 start: "2021-01-01"
-end: "2021-01-01"
-datestring: January 2021
-location: ""
+end: ""
+datestring: Since January 2021
+location: virtual
 host: harvard
 mediation: mixed_media
 category: project
 isFeatured: false
 externalLink: ""
-lastmod: "2021-11-10T12:47:54.690Z"
+lastmod: "2021-11-12T14:09:23.651Z"
 date: "2021-01-01"
 slug: hindsight-20-21
 collaborators:
     - label: Harvard Art Museums
       url: ""
+members:
+    - label: Jeffrey Schnapp
+      slug: jeffrey-schnapp
+      twitter: jaytiesse
+cover:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636725882/hindsight2_6ce649dae1.jpg
+    width: 800
+    height: 424
+    formats:
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636725883/medium_hindsight2_6ce649dae1.jpg
+            ext: .jpeg
+            width: 750
+            height: 398
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636725883/small_hindsight2_6ce649dae1.jpg
+            ext: .jpeg
+            width: 500
+            height: 265
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636725882/thumbnail_hindsight2_6ce649dae1.jpg
+            ext: .jpeg
+            width: 245
+            height: 130
+gallery:
+    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636725882/hindsight1_5fb981617c.jpg
+      width: 800
+      height: 949
+      formats:
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636725883/medium_hindsight1_5fb981617c.jpg
+            ext: .jpeg
+            width: 632
+            height: 750
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636725883/small_hindsight1_5fb981617c.jpg
+            ext: .jpeg
+            width: 421
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636725882/thumbnail_hindsight1_5fb981617c.jpg
+            ext: .jpeg
+            width: 132
+            height: 156
+members_twitter:
+    - jaytiesse
+images:
+    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1636725882/hindsight2_6ce649dae1.jpg
 
 ---
 The holdings of the Harvard Art Museums are part of a larger collection: that of Harvard University, itself a collection of departments and schools, institutes and centers, laboratories, libraries, and museums. Varied in shape, scope, and size, these component parts have their roots in the curriculum: in what we teach and learn as a community of researchers, teachers, and students. 

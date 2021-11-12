@@ -1,6 +1,7 @@
 ---
 title: Passports
 subtitle: Knowledge Design Workshop'
+fulltitle: 'Passports: Knowledge Design Workshop'''
 status: ""
 outputs:
     - HTML

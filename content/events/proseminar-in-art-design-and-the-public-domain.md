@@ -1,6 +1,7 @@
 ---
 title: Proseminar in Art, Design and the Public Domain
 subtitle: ""
+fulltitle: Proseminar in Art, Design and the Public Domain
 status: ""
 outputs:
     - HTML

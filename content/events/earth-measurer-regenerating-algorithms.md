@@ -1,6 +1,7 @@
 ---
 title: Earth Measurer
 subtitle: Regenerating Algorithms
+fulltitle: 'Earth Measurer: Regenerating Algorithms'
 status: ""
 outputs:
     - HTML

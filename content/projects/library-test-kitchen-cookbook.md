@@ -1,6 +1,7 @@
 ---
 title: Library Test Kitchen Cookbook
 subtitle: ""
+fulltitle: Library Test Kitchen Cookbook
 intro: ""
 start: "2018-01-01"
 end: "2018-01-01"

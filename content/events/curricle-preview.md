@@ -1,6 +1,7 @@
 ---
 title: Curricle Preview
 subtitle: ""
+fulltitle: Curricle Preview
 status: ""
 outputs:
     - HTML

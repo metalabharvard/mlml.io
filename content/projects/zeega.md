@@ -1,6 +1,7 @@
 ---
 title: Zeega
 subtitle: ""
+fulltitle: Zeega
 intro: ""
 start: "2014-01-01"
 end: "2014-01-01"

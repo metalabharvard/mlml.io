@@ -1,6 +1,7 @@
 ---
 title: From Sea to Seen
 subtitle: A metaLAB conversation with A. Kendra Greene
+fulltitle: 'From Sea to Seen: A metaLAB conversation with A. Kendra Greene'
 status: ""
 outputs:
     - HTML

@@ -1,6 +1,7 @@
 ---
 title: Distinction Machine
 subtitle: ""
+fulltitle: Distinction Machine
 intro: Creating conflicts within the computer
 start: "2019-01-01"
 end: "2019-01-01"
