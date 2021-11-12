@@ -12,7 +12,7 @@ mediation: web
 category: project
 isFeatured: false
 externalLink: https://watching-machines.kimalbrecht.com/
-lastmod: "2021-11-12T14:24:02.697Z"
+lastmod: "2021-11-12T17:29:14.743Z"
 date: "2021-01-01"
 slug: watching-machines-loving-grace
 collaborators:
@@ -33,8 +33,8 @@ projects:
     - label: Surprise Machines
       slug: surprise-machines
 cover:
-    alternativeText: Watching Machines Interface Example. Overlayed images with cutout faces.
-    caption: Watching Machines Interface Example
+    alternativeText: Watching Machines Interface Example
+    caption: Watching Machines Interface Example. Overlayed images with cutout faces.
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633360980/watching_machines_kim_albrecht_harvard_art_museums_min_1be7c7efa8.png
     width: 1200
     height: 758
@@ -62,7 +62,9 @@ cover:
             width: 245
             height: 155
 gallery:
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636727005/watchingmachines1_ed69233a7b.jpg
+    - alternativeText: Watching Machines Loving Grace Interface
+      caption: Screenshot of the visualization.
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636727005/watchingmachines1_ed69233a7b.jpg
       width: 1864
       height: 1438
       ext: .jpeg

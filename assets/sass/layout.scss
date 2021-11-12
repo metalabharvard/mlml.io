@@ -947,6 +947,16 @@ picture, img {
     display: flex;
     flex-direction: column;
   }
+
+  .project-cover-image {
+    @include center();
+
+    img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+  }
 }
 
 .homepage-member, .homepage-event, .homepage-project {

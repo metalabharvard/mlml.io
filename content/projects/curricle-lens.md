@@ -3,17 +3,17 @@ title: Curricle Lens
 subtitle: ""
 fulltitle: Curricle Lens
 intro: 'Visualized, annotated, connected: Curricle Lens uses data narratives to explore the historical nature of the college curriculum, leveraging data and design in a post-disciplinary era.'
-start: "2020-01-01"
-end: "2020-01-01"
-datestring: January 2020
+start: "2017-06-01"
+end: "2019-09-30"
+datestring: June 2017&ensp;–&ensp;September 2019
 location: virtual
 host: harvard
 mediation: web
 category: publication
 isFeatured: false
 externalLink: https://curricle.net/
-lastmod: "2021-11-12T14:39:21.102Z"
-date: "2020-01-01"
+lastmod: "2021-11-12T17:07:02.017Z"
+date: "2017-06-01"
 slug: curricle-lens
 collaborators:
     - label: Fabian Dinklage

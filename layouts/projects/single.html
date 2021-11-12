@@ -48,6 +48,21 @@
       {{ partial "related-items.html" (dict "items" $projects "term" .Site.Params.Label.RelatedProjects "label" .Site.Params.Label.RelatedLabelProjects "class" "project") }}
       {{ partial "related-items.html" (dict "items" $events "term" .Site.Params.Label.RelatedEvents "label" .Site.Params.Label.RelatedLabelEvents "class" "event") }}
     </dl>
+    {{ $defaultLabel := string (printf "Picture of %s" .Params.Title) }}
+    {{ with .Params.Cover -}}
+    <div class="project-cover grid-wide">
+      {{- partial "image-wide.html" (dict "picture" . "alt" $defaultLabel "title" $defaultLabel "class" "project-cover-image") -}}
+    </div>
+    {{ end }}
+    <aside class="project-share grid-narrow-right-aside">
+      {{ partial "share-twitter.html" (dict "url" .Permalink "text" .Params.Fulltitle "via" .Site.Social.twitter) }}
+      {{ partial "share-facebook.html" (dict "url" .Permalink "text" .Params.Fulltitle) }}
+    </aside>
+    {{ with .Content }}
+    <div class="project-description grid-narrow-right">
+      {{ . }}
+    </div>
+    {{ end }}
     {{ with .Params.gallery -}}
     <div class="project-gallery grid-full gallery">
       <figure class="siema full carousel" id="siema-carousel" data-amount="{{ len . }}">
@@ -74,15 +89,6 @@
       </button>
     </div>
     <span class="counter" id="counter"></span>
-    {{ end }}
-    <aside class="project-share grid-narrow-right-aside">
-      {{ partial "share-twitter.html" (dict "url" .Permalink "text" .Params.Fulltitle "via" .Site.Social.twitter) }}
-      {{ partial "share-facebook.html" (dict "url" .Permalink "text" .Params.Fulltitle) }}
-    </aside>
-    {{ with .Content }}
-    <div class="project-description grid-narrow-right">
-      {{ . }}
-    </div>
     {{ end }}
     {{ partial "related-list.html" (dict "items" .Params.Links "label" .Site.Params.Label.relatedLabelLinks "class" "links") }}
     {{ partial "related-list.html" (dict "items" .Params.Press_articles "label" .Site.Params.Label.relatedLabelPressArticles "class" "article") }}
