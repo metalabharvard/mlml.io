@@ -8,6 +8,9 @@ instagram: jlkruguer
 lastmod: "2021-11-10T17:23:30.333Z"
 date: "2021-09-16T10:51:45.020Z"
 slug: jordan-kruguer
+projects:
+    - label: Surprise Machines
+      slug: surprise-machines
 picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1636565004/jordan_ed90a1e7fd.jpg
     width: 374

@@ -8,13 +8,20 @@ end: ""
 datestring: Since November 2020
 location: ""
 host: harvard
-mediation: ""
+mediation: mixed_media
 category: project
 isFeatured: false
 externalLink: ""
-lastmod: "2021-11-10T12:47:54.990Z"
+lastmod: "2021-11-12T14:30:39.459Z"
 date: "2020-11-01"
 slug: dear-loneliness
+collaborators:
+    - label: Jessica Lao
+      url: ""
+    - label: Sarah Lao
+      url: ""
+    - label: Carissa Chen
+      url: ""
 cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686200/Dear_Loneliness_1b1650ed67.jpg
     width: 1600
@@ -38,6 +45,31 @@ cover:
         thumbnail:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686201/thumbnail_Dear_Loneliness_1b1650ed67.jpg
             ext: .jpg
+            width: 125
+            height: 156
+gallery:
+    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636727423/dearlonliness1_d10d23db97.jpg
+      width: 1600
+      height: 2000
+      formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636727424/large_dearlonliness1_d10d23db97.jpg
+            ext: .jpeg
+            width: 800
+            height: 1000
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636727424/medium_dearlonliness1_d10d23db97.jpg
+            ext: .jpeg
+            width: 600
+            height: 750
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636727425/small_dearlonliness1_d10d23db97.jpg
+            ext: .jpeg
+            width: 400
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636727423/thumbnail_dearlonliness1_d10d23db97.jpg
+            ext: .jpeg
             width: 125
             height: 156
 images:

@@ -6,13 +6,13 @@ intro: A map to navigate scientific conferences through their speakers, arranged
 start: "2020-03-01"
 end: "2020-09-30"
 datestring: March&ensp;–&ensp;September 2020
-location: ""
+location: virtual
 host: harvard
 mediation: web
 category: project
 isFeatured: false
 externalLink: https://rodighiero.github.io/DH2020/
-lastmod: "2021-11-10T12:47:55.082Z"
+lastmod: "2021-11-12T14:36:46.889Z"
 date: "2020-03-01"
 slug: lexical-cartography-of-dh-2020
 members:
@@ -42,6 +42,31 @@ cover:
         thumbnail:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686755/thumbnail_lexicalcarto_686c2c0761.jpg
             ext: .jpg
+            width: 245
+            height: 153
+gallery:
+    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636727748/lexical1_c51f2e2afe.jpg
+      width: 3072
+      height: 1920
+      formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636727750/large_lexical1_c51f2e2afe.jpg
+            ext: .jpeg
+            width: 1000
+            height: 625
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636727750/medium_lexical1_c51f2e2afe.jpg
+            ext: .jpeg
+            width: 750
+            height: 469
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636727750/small_lexical1_c51f2e2afe.jpg
+            ext: .jpeg
+            width: 500
+            height: 313
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636727749/thumbnail_lexical1_c51f2e2afe.jpg
+            ext: .jpeg
             width: 245
             height: 153
 members_twitter:

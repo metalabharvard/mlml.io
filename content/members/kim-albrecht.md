@@ -46,10 +46,10 @@ projects:
       slug: their-names
     - label: Watching Machines Loving Grace
       slug: watching-machines-loving-grace
-    - label: Where Art Might Happen
-      slug: where-art-might-happen-the-early-years-of-cal-arts
     - label: Womanhouse (a memory theater)
       slug: womanhouse-a-memory-theater
+    - label: Womanhouse @Kunsthaus Graz
+      slug: where-art-might-happen-the-early-years-of-cal-arts
 picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122126/kim_7989e0da77.jpg
     width: 500

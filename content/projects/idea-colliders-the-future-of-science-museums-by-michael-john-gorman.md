@@ -12,9 +12,36 @@ mediation: mixed_media
 category: publication
 isFeatured: false
 externalLink: ""
-lastmod: "2021-11-10T12:54:29.150Z"
+lastmod: "2021-11-12T14:42:52.150Z"
 date: "2020-01-01"
 slug: idea-colliders-the-future-of-science-museums-by-michael-john-gorman
+collaborators:
+    - label: Michael John Gorman
+      url: ""
+    - label: MIT Press
+      url: ""
+cover:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636728166/ideacolliders_fe4058d24e.jpg
+    width: 550
+    height: 822
+    formats:
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636728167/medium_ideacolliders_fe4058d24e.jpg
+            ext: .jpeg
+            width: 502
+            height: 750
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636728167/small_ideacolliders_fe4058d24e.jpg
+            ext: .jpeg
+            width: 335
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636728166/thumbnail_ideacolliders_fe4058d24e.jpg
+            ext: .jpeg
+            width: 104
+            height: 156
+images:
+    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1636728166/ideacolliders_fe4058d24e.jpg
 
 ---
 Today's science museums descend from the *Kunst-und Wunderkammern* of the Renaissance—collectors' private cabinets of curiosities—through the Crystal Palace exhibition of 1851 to today's “interactive” exhibits promising educational fun. In this book, [Michael John Gorman](https://twitter.com/michaeljohng) issues a provocative call for the transformation of science museums and science centers from institutions dedicated to the transmission of cultural capital to dynamic “idea colliders” that spark creative collaborations and connections. This new kind of science museum would not stage structured tableaux of science facts but would draw scientists into conversation with artists, designers, policymakers, and the public. Rather than insulating visitors from each other with apps and audio guides, the science museum would consider each visitor a resource, bringing questions, ideas, and experiences from a unique perspective.

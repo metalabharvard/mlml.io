@@ -6,18 +6,72 @@ intro: Using weather data, algorithms, and a camera feed of the sky, Sympoietic 
 start: "2021-01-01"
 end: "2021-01-01"
 datestring: January 2021
-location: ""
+location: Harvard Art Museums
 host: harvard
 mediation: mixed_media
 category: project
 isFeatured: false
 externalLink: ""
-lastmod: "2021-11-10T12:47:54.325Z"
+lastmod: "2021-11-12T14:16:36.386Z"
 date: "2021-01-01"
 slug: sympoietic-system
 collaborators:
     - label: Harvard Art Museums
       url: ""
+    - label: Robert Watts
+      url: ""
+    - label: David Behrman
+      url: ""
+    - label: Bob Diamond
+      url: ""
+members:
+    - label: Philipp Schmitt
+      slug: philipp-schmitt
+      twitter: philippschmitt
+cover:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636726536/sympsys2_5a5ba9470a.jpg
+    width: 800
+    height: 533
+    formats:
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636726537/medium_sympsys2_5a5ba9470a.jpg
+            ext: .jpeg
+            width: 750
+            height: 500
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636726537/small_sympsys2_5a5ba9470a.jpg
+            ext: .jpeg
+            width: 500
+            height: 333
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636726536/thumbnail_sympsys2_5a5ba9470a.jpg
+            ext: .jpeg
+            width: 234
+            height: 156
+gallery:
+    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636726536/sympsys1_41020e621c.jpg
+      width: 800
+      height: 665
+      formats:
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636726537/medium_sympsys1_41020e621c.jpg
+            ext: .jpeg
+            width: 750
+            height: 623
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636726537/small_sympsys1_41020e621c.jpg
+            ext: .jpeg
+            width: 500
+            height: 416
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636726536/thumbnail_sympsys1_41020e621c.jpg
+            ext: .jpeg
+            width: 188
+            height: 156
+members_twitter:
+    - philippschmitt
+images:
+    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1636726536/sympsys2_5a5ba9470a.jpg
 
 ---
 <!---

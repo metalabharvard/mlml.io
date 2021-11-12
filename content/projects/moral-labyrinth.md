@@ -6,13 +6,13 @@ intro: ""
 start: "2019-01-01"
 end: "2019-01-01"
 datestring: January 2019
-location: ""
+location: global
 host: harvard
 mediation: mixed_media
 category: project
 isFeatured: false
 externalLink: ""
-lastmod: "2021-11-10T12:47:55.524Z"
+lastmod: "2021-11-12T15:25:27.395Z"
 date: "2019-01-01"
 slug: moral-labyrinth
 events:

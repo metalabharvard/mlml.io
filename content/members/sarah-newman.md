@@ -31,6 +31,8 @@ projects:
       slug: moral-labyrinth
     - label: Networks + Natures
       slug: networks-natures-feral-trees
+    - label: The Cyberlaw Guide to Protest Art
+      slug: the-cyberlaw-guide-to-protest-art
 picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122129/newman_268d9cfd9e.jpg
     width: 800

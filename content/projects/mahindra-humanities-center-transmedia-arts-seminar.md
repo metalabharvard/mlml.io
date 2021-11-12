@@ -6,13 +6,13 @@ intro: The intersection of contemporary art/theatre and new media technologies i
 start: "2020-12-01"
 end: ""
 datestring: Since December 2020
-location: ""
+location: Mahindra Humanities Center
 host: harvard
 mediation: ""
 category: project
 isFeatured: false
 externalLink: ""
-lastmod: "2021-11-10T12:54:45.682Z"
+lastmod: "2021-11-12T14:28:14.095Z"
 date: "2020-12-01"
 slug: mahindra-humanities-center-transmedia-arts-seminar
 projects:

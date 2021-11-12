@@ -32,6 +32,8 @@ projects:
       slug: curricle
     - label: Curricle Lens
       slug: curricle-lens
+    - label: Futurefood
+      slug: futurefood
     - label: Invasive Spirits
       slug: networks-43-natures-58-invasive-spirits
     - label: Their Names

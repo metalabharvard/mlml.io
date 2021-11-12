@@ -6,13 +6,13 @@ intro: 'Visualized, annotated, connected: what should the course catalog look li
 start: "2019-01-01"
 end: "2019-01-01"
 datestring: January 2019
-location: ""
+location: virtual
 host: harvard
 mediation: mixed_media
 category: project
 isFeatured: false
-externalLink: ""
-lastmod: "2021-11-10T13:20:38.798Z"
+externalLink: https://curricle.berkman.harvard.edu/
+lastmod: "2021-11-12T15:07:32.397Z"
 date: "2019-01-01"
 slug: curricle
 members:
@@ -34,11 +34,48 @@ members:
     - label: Oliver Luo
       slug: oliver-luo
       twitter: ""
+cover:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636729640/curricle_d3bac9d992.jpg
+    width: 386
+    height: 500
+    formats:
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636729641/thumbnail_curricle_d3bac9d992.jpg
+            ext: .jpeg
+            width: 120
+            height: 156
+gallery:
+    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636729641/curricle2_6321580879.jpg
+      width: 1080
+      height: 1080
+      formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636729642/large_curricle2_6321580879.jpg
+            ext: .jpeg
+            width: 1000
+            height: 1000
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636729642/medium_curricle2_6321580879.jpg
+            ext: .jpeg
+            width: 750
+            height: 750
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636729642/small_curricle2_6321580879.jpg
+            ext: .jpeg
+            width: 500
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636729641/thumbnail_curricle2_6321580879.jpg
+            ext: .jpeg
+            width: 156
+            height: 156
 members_twitter:
     - fromadmwithlove
     - jaytiesse
     - kimay
     - matthewbattles
+images:
+    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1636729640/curricle_d3bac9d992.jpg
 
 ---
 **Try it out at [curricle.berkman.harvard.edu](http://curricle.berkman.harvard.edu) (advanced beta)<br />

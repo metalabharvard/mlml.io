@@ -18,6 +18,10 @@ events:
 projects:
     - label: Curricle
       slug: curricle
+    - label: Futurefood
+      slug: futurefood
+    - label: The Cyberlaw Guide to Protest Art
+      slug: the-cyberlaw-guide-to-protest-art
 picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1636565697/jessica_67822e3b6d.jpg
     width: 500

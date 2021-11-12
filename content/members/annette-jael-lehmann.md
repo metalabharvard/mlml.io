@@ -15,10 +15,10 @@ slug: annette-jael-lehmann
 projects:
     - label: Tacit Knowledge
       slug: tacit-knowledge-post-studio-feminism-cal-arts-1970-1977
-    - label: Where Art Might Happen
-      slug: where-art-might-happen-the-early-years-of-cal-arts
     - label: Womanhouse (a memory theater)
       slug: womanhouse-a-memory-theater
+    - label: Womanhouse @Kunsthaus Graz
+      slug: where-art-might-happen-the-early-years-of-cal-arts
 picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122112/annette_b0bfbbd583.jpg
     width: 480

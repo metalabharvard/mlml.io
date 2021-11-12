@@ -6,13 +6,13 @@ intro: This page visualizes the names of over 28,000 fatal encounters with polic
 start: "2020-06-01"
 end: "2020-06-30"
 datestring: June 2020
-location: ""
+location: virtual
 host: harvard
 mediation: web
 category: project
 isFeatured: false
 externalLink: https://theirnames.org/
-lastmod: "2021-11-10T12:47:55.228Z"
+lastmod: "2021-11-12T14:32:03.314Z"
 date: "2020-06-01"
 slug: their-names
 members:

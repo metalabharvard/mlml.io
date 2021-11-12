@@ -6,21 +6,77 @@ intro: Using AI-based extraction and analysis, A Flitting Atlas of the Human Gaz
 start: "2021-01-01"
 end: "2021-01-01"
 datestring: January 2021
-location: ""
+location: Harvard Art Museums
 host: harvard
 mediation: mixed_media
 category: project
 isFeatured: false
 externalLink: ""
-lastmod: "2021-11-10T12:47:54.387Z"
+lastmod: "2021-11-12T14:20:49.509Z"
 date: "2021-01-01"
 slug: a-flitting-atlas-of-the-human-gaze
 collaborators:
     - label: Harvard Art Museums
       url: ""
+    - label: Kevin Brewster
+      url: ""
+    - label: Todd Linkner
+      url: ""
+members:
+    - label: Dietmar Offenhuber
+      slug: dietmar-offenhuber
+      twitter: dietoff
+    - label: Jeffrey Schnapp
+      slug: jeffrey-schnapp
+      twitter: jaytiesse
 projects:
     - label: Mahindra Humanities Center
       slug: mahindra-humanities-center-transmedia-arts-seminar
+cover:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636726814/flitting2_8f3cb9ec33.jpg
+    width: 800
+    height: 332
+    formats:
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636726815/medium_flitting2_8f3cb9ec33.jpg
+            ext: .jpeg
+            width: 750
+            height: 311
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636726815/small_flitting2_8f3cb9ec33.jpg
+            ext: .jpeg
+            width: 500
+            height: 208
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636726815/thumbnail_flitting2_8f3cb9ec33.jpg
+            ext: .jpeg
+            width: 245
+            height: 102
+gallery:
+    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636726814/flitting1_35753f05cc.jpg
+      width: 800
+      height: 483
+      formats:
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636726815/medium_flitting1_35753f05cc.jpg
+            ext: .jpeg
+            width: 750
+            height: 453
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636726816/small_flitting1_35753f05cc.jpg
+            ext: .jpeg
+            width: 500
+            height: 302
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636726815/thumbnail_flitting1_35753f05cc.jpg
+            ext: .jpeg
+            width: 245
+            height: 148
+members_twitter:
+    - dietoff
+    - jaytiesse
+images:
+    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1636726814/flitting2_8f3cb9ec33.jpg
 
 ---
 <iframe src="https://metalabharvard.github.io/ars-flittingatlasofthegaze/" width="100%" height="800" frameborder="0" title="A Flitting Atlas of the Human Gaze"></iframe><br />

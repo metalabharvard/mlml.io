@@ -205,6 +205,12 @@ func createTimeString(start string, end string) string {
   }
 }
 
+func checkDates(start string, end string) bool {
+  s, _ := time.Parse(shortForm, start)
+  e, _ := time.Parse(shortForm, end)
+  return s.After(e)
+}
+
 func trim(str string) string {
   return strings.TrimSpace(str)
 }
@@ -341,6 +347,10 @@ func main() {
       element.Fulltitle = element.Title
     } else {
       element.Fulltitle = fmt.Sprintf("%s: %s", element.Title, element.Subtitle)
+    }
+
+    if checkDates(element.Start, element.End) {
+      println(fmt.Sprintf("%s has wrong dates", element.Title))
     }
 
     file, _ := yaml.Marshal(element)

@@ -12,7 +12,7 @@ mediation: web
 category: project
 isFeatured: false
 externalLink: https://watching-machines.kimalbrecht.com/
-lastmod: "2021-11-12T10:51:22.320Z"
+lastmod: "2021-11-12T14:24:02.697Z"
 date: "2021-01-01"
 slug: watching-machines-loving-grace
 collaborators:
@@ -58,6 +58,31 @@ cover:
             ext: .png
             width: 245
             height: 155
+gallery:
+    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636727005/watchingmachines1_ed69233a7b.jpg
+      width: 1864
+      height: 1438
+      formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636727006/large_watchingmachines1_ed69233a7b.jpg
+            ext: .jpeg
+            width: 1000
+            height: 771
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636727006/medium_watchingmachines1_ed69233a7b.jpg
+            ext: .jpeg
+            width: 750
+            height: 579
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636727006/small_watchingmachines1_ed69233a7b.jpg
+            ext: .jpeg
+            width: 500
+            height: 386
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636727005/thumbnail_watchingmachines1_ed69233a7b.jpg
+            ext: .jpeg
+            width: 202
+            height: 156
 members_twitter:
     - kimay
 images:

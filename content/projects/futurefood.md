@@ -6,15 +6,72 @@ intro: ""
 start: "2019-01-01"
 end: "2019-01-01"
 datestring: January 2019
-location: ""
+location: Cambridge Public Library, Cambridge City Hall Annex, Cambridge Art's Gallery 344, Central Square
 host: harvard
 mediation: mixed_media
 category: project
 isFeatured: false
 externalLink: ""
-lastmod: "2021-11-10T16:44:27.480Z"
+lastmod: "2021-11-12T14:56:56.175Z"
 date: "2019-01-01"
 slug: futurefood
+collaborators:
+    - label: Cambridge Arts Council
+      url: ""
+    - label: Mass Cultural Council
+      url: ""
+    - label: Clover Food Lab
+      url: ""
+    - label: Best Bees
+      url: ""
+    - label: David Buckley Borden
+      url: ""
+    - label: Gap Dynamics
+      url: ""
+    - label: Toni Bee
+      url: ""
+    - label: Toscanini / Gus Rancatore
+      url: ""
+    - label: Nate Phinisee
+      url: ""
+members:
+    - label: Dietmar Offenhuber
+      slug: dietmar-offenhuber
+      twitter: dietoff
+    - label: Jessica Yurkofsky
+      slug: jessica-yurkofsky
+      twitter: ""
+    - label: Keith Hartwig
+      slug: keith-hartwig
+      twitter: ""
+    - label: Matthew Battles
+      slug: matthew-battles
+      twitter: matthewbattles
+cover:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636728991/futurefood1_6855930682.jpg
+    width: 386
+    height: 500
+    formats:
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636728992/thumbnail_futurefood1_6855930682.jpg
+            ext: .jpeg
+            width: 120
+            height: 156
+gallery:
+    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636728991/futurefood2_882eee8630.jpg
+      width: 392
+      height: 500
+      formats:
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636728991/thumbnail_futurefood2_882eee8630.jpg
+            ext: .jpeg
+            width: 122
+            height: 156
+members_twitter:
+    - dietoff
+    - matthewbattles
+images:
+    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1636728991/futurefood1_6855930682.jpg
 
 ---
 **FUTUREFOOD** is an interactive and participatory series of events that engages the public on matters of food waste, food justice, sustainable uses of urban green space, habitat loss, and the invisible or overlooked effects of climate change on urban ecology.

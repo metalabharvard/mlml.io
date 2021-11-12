@@ -11,8 +11,8 @@ host: berlin
 mediation: exhibition
 category: project
 isFeatured: true
-externalLink: ""
-lastmod: "2021-11-10T17:05:22.703Z"
+externalLink: https://kestnergesellschaft.de/en/exhibition/11
+lastmod: "2021-11-12T14:31:32.823Z"
 date: "2019-08-30"
 slug: womanhouse-a-memory-theater
 members:

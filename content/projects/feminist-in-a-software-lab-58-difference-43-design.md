@@ -12,9 +12,56 @@ mediation: mixed_media
 category: publication
 isFeatured: false
 externalLink: ""
-lastmod: "2021-11-10T12:53:32.978Z"
+lastmod: "2021-11-12T15:30:31.151Z"
 date: "2018-01-01"
 slug: feminist-in-a-software-lab-58-difference-43-design
+collaborators:
+    - label: Harvard University Press
+      url: ""
+    - label: Tara McPherson
+      url: ""
+cover:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636730949/feminist1_4524f5f121.jpg
+    width: 462
+    height: 680
+    formats:
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636730950/small_feminist1_4524f5f121.jpg
+            ext: .jpeg
+            width: 340
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636730949/thumbnail_feminist1_4524f5f121.jpg
+            ext: .jpeg
+            width: 106
+            height: 156
+gallery:
+    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636730950/feminist2_c26c373415.jpg
+      width: 1501
+      height: 1501
+      formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636730950/large_feminist2_c26c373415.jpg
+            ext: .jpeg
+            width: 1000
+            height: 1000
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636730951/medium_feminist2_c26c373415.jpg
+            ext: .jpeg
+            width: 750
+            height: 750
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636730951/small_feminist2_c26c373415.jpg
+            ext: .jpeg
+            width: 500
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636730950/thumbnail_feminist2_c26c373415.jpg
+            ext: .jpeg
+            width: 156
+            height: 156
+images:
+    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1636730949/feminist1_4524f5f121.jpg
 
 ---
 For over a dozen years, the Vectors Lab has experimented with digital scholarship through its online publication, *[Vectors](http://vectorsjournal.org/issues/index.php?issue=7)*, and through [Scalar](http://scalar.usc.edu/scalar/), a multimedia authoring platform. The history of this software lab intersects a much longer tale about computation in the humanities, as well as tensions about the role of theory in related projects.

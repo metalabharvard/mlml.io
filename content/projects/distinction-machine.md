@@ -6,13 +6,13 @@ intro: Creating conflicts within the computer
 start: "2019-01-01"
 end: "2019-01-01"
 datestring: January 2019
-location: ""
+location: virtual
 host: harvard
 mediation: mixed_media
 category: project
 isFeatured: false
-externalLink: ""
-lastmod: "2021-11-10T12:47:55.492Z"
+externalLink: http://distinctionmachine.kimalbrecht.com/
+lastmod: "2021-11-12T15:17:43.744Z"
 date: "2019-01-01"
 slug: distinction-machine
 events:
@@ -22,8 +22,39 @@ members:
     - label: Kim Albrecht
       slug: kim-albrecht
       twitter: kimay
+cover:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636730217/distinctionmachine1_68e71e2308.gif
+    width: 500
+    height: 500
+gallery:
+    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636730217/distinctionmachine2_ca25edf3fa.png
+      width: 1500
+      height: 1072
+      formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636730218/large_distinctionmachine2_ca25edf3fa.png
+            ext: .png
+            width: 1000
+            height: 715
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636730219/medium_distinctionmachine2_ca25edf3fa.png
+            ext: .png
+            width: 750
+            height: 536
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636730219/small_distinctionmachine2_ca25edf3fa.png
+            ext: .png
+            width: 500
+            height: 357
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636730217/thumbnail_distinctionmachine2_ca25edf3fa.png
+            ext: .png
+            width: 218
+            height: 156
 members_twitter:
     - kimay
+images:
+    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1636730217/distinctionmachine1_68e71e2308.jpg
 
 ---
 **Distinction Machine**

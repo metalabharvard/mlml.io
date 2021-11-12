@@ -12,11 +12,13 @@ mediation: mixed_media
 category: project
 isFeatured: false
 externalLink: ""
-lastmod: "2021-11-10T12:47:55.210Z"
+lastmod: "2021-11-12T14:21:33.010Z"
 date: "2021-01-01"
 slug: ocean-amplification
 collaborators:
     - label: Harvard Art Museums
+      url: ""
+    - label: Stefan Helmreich
       url: ""
 members:
     - label: Francisco Alarcon

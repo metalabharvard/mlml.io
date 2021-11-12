@@ -22,6 +22,8 @@ projects:
       slug: curatorial-aigents
     - label: Second Look
       slug: second-look-gender-and-sentiment-on-show
+    - label: Surprise Machines
+      slug: surprise-machines
     - label: futureSTAGE
       slug: futurestage
 picture:

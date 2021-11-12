@@ -6,18 +6,20 @@ intro: 'Visualized, annotated, connected: Curricle Lens uses data narratives to 
 start: "2020-01-01"
 end: "2020-01-01"
 datestring: January 2020
-location: ""
+location: virtual
 host: harvard
 mediation: web
 category: publication
 isFeatured: false
-externalLink: ""
-lastmod: "2021-11-10T12:47:55.572Z"
+externalLink: https://curricle.net/
+lastmod: "2021-11-12T14:39:21.102Z"
 date: "2020-01-01"
 slug: curricle-lens
 collaborators:
     - label: Fabian Dinklage
       url: https://fabiandinklage.com/
+    - label: Sydney Lewis
+      url: ""
 links:
     - label: curricle.net
       url: https://curricle.net/

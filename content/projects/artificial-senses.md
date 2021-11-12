@@ -12,7 +12,7 @@ mediation: web
 category: project
 isFeatured: false
 externalLink: https://artificial-senses.kimalbrecht.com/
-lastmod: "2021-11-10T14:36:12.943Z"
+lastmod: "2021-11-12T14:29:40.410Z"
 date: "2017-06-01"
 slug: artificial-senses
 events:
@@ -275,7 +275,7 @@ gallery:
 members_twitter:
     - kimay
 images:
-    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1628173929/img1_017c9cba83.jpg
+    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1633355388/locating_2000px_kim_albrecht_ai_senses_d4079bcf58.jpg
 
 ---
 Contemporary culture is unimaginable without the machines that surround us every day. Our knowledge depends on Google search results, our music taste on the mixes Spotify creates for us and our consumption on Amazon recommendations. This strange new world became part of our reality in a very short timeframe. Interface design creates this natural feeling. But if we want to live with these devices and understand them, we cannot just rely on the machines becoming something easily understandable to us. We need to develop an understanding of how these devices experience our world.

@@ -17,8 +17,12 @@ events:
     - label: CURATORIAL A(I)GENTS at ARS ELECTRONICA 2020
       slug: curatorial-a-i-gents-at-ars-electronica-2020
 projects:
+    - label: A Flitting Atlas of the Human Gaze
+      slug: a-flitting-atlas-of-the-human-gaze
     - label: Curatorial A(i)gents
       slug: curatorial-aigents
+    - label: Futurefood
+      slug: futurefood
 picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1634898422/dietmar_ddec27646c.jpg
     width: 555

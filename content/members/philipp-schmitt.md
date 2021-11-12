@@ -15,6 +15,8 @@ events:
 projects:
     - label: Curatorial A(i)gents
       slug: curatorial-aigents
+    - label: Sympoietic System
+      slug: sympoietic-system
 picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122123/philipp_b9bb3f6b65.jpg
     width: 460

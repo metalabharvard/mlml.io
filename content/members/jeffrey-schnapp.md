@@ -28,6 +28,8 @@ events:
     - label: metaLAB + friends openLAB
       slug: meta-lab-friends-open-lab
 projects:
+    - label: A Flitting Atlas of the Human Gaze
+      slug: a-flitting-atlas-of-the-human-gaze
     - label: Blueprint for Counter Education
       slug: blueprint-for-counter-education-58-expanded-reprint
     - label: Blueprint for Counter Education website
@@ -36,12 +38,18 @@ projects:
       slug: curatorial-aigents
     - label: Curricle
       slug: curricle
+    - label: Deep Learning in the Museum
+      slug: deep-learning-in-the-museum
+    - label: Hindsight 20/21
+      slug: hindsight-20-21
+    - label: Surprise Machines
+      slug: surprise-machines
     - label: Tacit Knowledge
       slug: tacit-knowledge-post-studio-feminism-cal-arts-1970-1977
-    - label: Where Art Might Happen
-      slug: where-art-might-happen-the-early-years-of-cal-arts
     - label: Womanhouse (a memory theater)
       slug: womanhouse-a-memory-theater
+    - label: Womanhouse @Kunsthaus Graz
+      slug: where-art-might-happen-the-early-years-of-cal-arts
     - label: futureSTAGE
       slug: futurestage
 picture:
