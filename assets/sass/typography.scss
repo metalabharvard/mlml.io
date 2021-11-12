@@ -413,8 +413,12 @@ ul {
   }
 
   dd.related-links { // These are the links at the end of an event or project
-    margin-bottom: var(--spacing-05);
+    margin-bottom: var(--spacing-025);
     line-height: 1.2;
+
+    &:first-child {
+      margin-top: var(--spacing-025);
+    }
   }
 
   a {
