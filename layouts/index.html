@@ -5,7 +5,7 @@
   </div>
   <div class="grid-full home-projects">
     <ul>
-    {{ range (where (where .Site.RegularPages "Section" "in" (slice "projects")) "Params.isfeatured" true) }}
+    {{ range first .Site.Params.MaxNumberFeatures (((where (where .Site.RegularPages "Section" "in" (slice "projects")) "Params.isfeatured" true).ByParam "start").ByParam "title") }}
       {{ partial "project-feature.html" (dict "project" . "type" "project" )}}
     {{ end }}
     </ul>

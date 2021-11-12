@@ -12,6 +12,7 @@ disableKinds = ["taxonomyTerm"]
   timezoneBoston = "EDT"
   timezoneBerlin = "CEST"
   slugHost = "host"
+  maxNumberFeatures = 5
 
 [permalinks]
   projects = "/:slug/"

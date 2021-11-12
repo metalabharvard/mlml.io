@@ -1,7 +1,7 @@
 {{ define "main" }}
   <section class="homepage-projects-list grid-wide">
     <ul role="list">
-    {{ range .Pages }}
+    {{ range (((.Pages).ByParam "title").Reverse.ByParam "start").Reverse }}
       {{ partial "project-preview.html" (dict "project" . "defaultHost" .Site.Params.Label.HostsDefault "defaultMediation" .Site.Params.Label.DefaultMediation)}}
     {{ end }}
     </ul>
