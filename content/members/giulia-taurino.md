@@ -1,11 +1,14 @@
 ---
 name: Giulia Taurino
 title: Giulia Taurino
-isAlumnus: false
-rank: 9.999
+roles:
+    - role: Affiliate
+      position: 4
+isAlumnus: true
+role_string: Alumnus
 twitter: giulia_taurino
 website: http://linkedin.com/in/giulia-taurino-12811b33/en
-lastmod: "2021-10-22T10:12:34.451Z"
+lastmod: "2021-11-11T15:42:21.085Z"
 date: "2021-09-16T10:51:45.331Z"
 slug: giulia-taurino
 projects:
@@ -37,7 +40,7 @@ picture:
 ---
 Giulia Taurino, Ph.D. is a Postdoctoral Research Fellow at The Institute for Experiential AI (Northeastern University, Khoury College of Computer Science) where she works on AI toolkits for Media Research. Her research focuses on forms of content organization on online platforms and digital archives, cultural implications of algorithmic technologies, and applications of artificial intelligence in the arts, heritage and museums sectors. 
 
-Since September 2019, she has been a research affiliate of metaLAB (at) Harvard, where she contributes to the project “Curatorial A(i)gents”, exploring the intersection between AI and curatorial practices. Past and present affiliations include Brown University's Virtual Humanities Lab, MIT Open Documentary Lab, MIT Data + Feminism Lab, NULab for Texts, Maps, and Networks. 
+In 2019/20, she was an Affiliate of metaLAB (at) Harvard, where she contributed to the project Curatorial A(i)gents, exploring the intersection between AI and curatorial practices. Past and present affiliations include Brown University's Virtual Humanities Lab, MIT Open Documentary Lab, MIT Data + Feminism Lab, NULab for Texts, Maps, and Networks. 
 
 She has served as a Director of Research and Innovation at AI Impact Alliance, where she worked on grant writing, project design, implementation research for AI ethics and sustainable development goals.
 

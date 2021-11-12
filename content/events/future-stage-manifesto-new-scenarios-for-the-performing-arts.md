@@ -49,7 +49,7 @@ events:
       slug: 2018-lita-library-technology-forum
     - label: Decentralized Storytelling
       slug: mahindra-transmedia-arts-seminar-lance-weiler-decentralized-storytelling-where-ai-the-blokchain-code-and-the-metaverse-connect
-    - label: 'Mahindra Transmedia Arts Seminar: Jenn Parker-Starbuck, Animals in the Machine: Robotic Animal Agents'
+    - label: Jenn Parker-Starbuck, Animals in the Machine
       slug: mahindra-transmedia-arts-seminar-jenn-parker-starbuck-animals-in-the-machine-robotic-animal-agents
 cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636549179/futurestage_transmedia_2ff37ab17f.jpg

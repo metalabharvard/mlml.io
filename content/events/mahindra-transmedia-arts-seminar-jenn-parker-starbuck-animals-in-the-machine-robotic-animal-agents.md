@@ -1,6 +1,6 @@
 ---
-title: 'Mahindra Transmedia Arts Seminar: Jenn Parker-Starbuck, Animals in the Machine: Robotic Animal Agents'
-subtitle: ""
+title: Jenn Parker-Starbuck, Animals in the Machine
+subtitle: 'Mahindra Transmedia Arts Seminar: Robotic Animal Agents'
 status: ""
 outputs:
     - HTML
@@ -21,7 +21,7 @@ location: Cambridge, MA
 category: seminar
 isFeatured: false
 isOngoing: false
-lastmod: "2021-11-10T12:29:36.120Z"
+lastmod: "2021-11-12T10:52:51.068Z"
 date: "2021-04-15T12:00:00Z"
 slug: mahindra-transmedia-arts-seminar-jenn-parker-starbuck-animals-in-the-machine-robotic-animal-agents
 events:

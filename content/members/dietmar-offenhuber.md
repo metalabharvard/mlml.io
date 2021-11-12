@@ -1,11 +1,16 @@
 ---
 name: Dietmar Offenhuber
 title: Dietmar Offenhuber
+roles:
+    - role: Senior Affiliate
+      position: 3
 isAlumnus: false
-rank: 9.999
+rank: 3.999
+role_string: Senior Affiliate
 twitter: dietoff
-website: http://cssh.northeastern.edu/people/faculty/dietmar-offenhuber/
-lastmod: "2021-10-22T10:27:09.289Z"
+website: https://offenhuber.net
+instagram: off.diet
+lastmod: "2021-11-11T17:14:41.453Z"
 date: "2021-09-16T10:51:45.327Z"
 slug: dietmar-offenhuber
 events:

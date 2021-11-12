@@ -1,11 +1,17 @@
 ---
 name: Dario Rodighiero
 title: Dario Rodighiero
+roles:
+    - role: Postdocs
+      position: 5
 isAlumnus: false
-rank: 9.999
+rank: 5.999
+role_string: Postdocs
 twitter: dariorodighiero
 website: http://dariorodighiero.com/
-lastmod: "2021-11-02T18:36:59.117Z"
+instagram: dario.rodighiero
+github: https://github.com/rodighiero/
+lastmod: "2021-11-11T16:14:42.775Z"
 date: "2021-09-16T10:51:44.527Z"
 slug: dario-rodighiero
 events:
@@ -47,10 +53,4 @@ picture:
             height: 156
 
 ---
-Dario Rodighiero is a postdoctoral associate at MIT Comparative Media Studies and a researcher at Harvard metaLAB. He combines humanities and technology by practicing design at the intersection of architecture, data visualization, social science, graphic and interaction design. The Swiss National Science Foundation is currently financing his position.
-
-He investigates the academic dynamics at different scales. After looking at individuals by designing the Affinity Map⁠, his research now focuses on the Worldwide Map of Research to create a recommendation system for scholarly mobility.
-
-Dario attended the doctoral program of Architecture and Sciences of the City at EPFL. His doctorate was advised by professors Frédéric Kaplan and Boris Beaude, while the dean Marilyne Andersen funded his studies.
-
-Formerly he joined the Médialab of Sciences Po led by Bruno Latour and was a scientist at the European Commission, which recently appointed him as an external expert in data visualization and interface design.
+Dario is a postdoc of metaLAB. He is also affiliated with the Berkman Klein Center for Internet & Society, Harvard University and Bibliotheca Hertziana in Rome where he is currently working. In 2021 with Metis Presses, he authored *Mapping Affinities: Democratizing Data Visualization*, a book about charting scientific communities from a design- and data-driven perspective. His research is funded by the Swiss National Science Foundation, which awarded him two consecutive grants to advance his studies on the mapping of science. He is an alumnus of MIT and EPFL, which awarded him a PhD in Science after attending the doctoral program of Architecture and Sciences of the City.

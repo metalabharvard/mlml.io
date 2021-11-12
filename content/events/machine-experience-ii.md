@@ -20,15 +20,12 @@ intro: 'Machine Experience II: Art Perspectives on Artificial Intelligence'
 location: Berlin
 isFeatured: false
 isOngoing: false
-lastmod: "2021-11-10T13:20:56.498Z"
+lastmod: "2021-11-12T10:37:29.797Z"
 date: "2018-01-19T12:00:00Z"
 slug: machine-experience-ii
 members:
     - label: Adam Haar Horowitz
       slug: adam-haar-horowitz
-      twitter: ""
-    - label: Hannah Davis
-      slug: hannah-davis
       twitter: ""
     - label: Jessica Yurkofsky
       slug: jessica-yurkofsky

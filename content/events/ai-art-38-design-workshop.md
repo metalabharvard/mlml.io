@@ -22,6 +22,10 @@ isOngoing: false
 lastmod: "2021-11-10T12:32:51.915Z"
 date: "2017-07-08T12:00:00Z"
 slug: ai-art-38-design-workshop
+members:
+    - label: Olivia Tai
+      slug: olivia-tai
+      twitter: ""
 ---
 **AI Art & Design Workshop with metaLAB**
 <p>An experimental, creative, design workshop to think through both small big questions that come up arise with AI and explore them through art-making, design, and expressive provocation. </p>

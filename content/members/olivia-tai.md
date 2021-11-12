@@ -1,12 +1,20 @@
 ---
 name: Olivia Tai
 title: Olivia Tai
+roles:
+    - role: Researcher
+      position: 6
 isAlumnus: false
-rank: 9.999
+rank: 6.999
+role_string: Researcher
 website: http://oliviatai.cargo.site/
-lastmod: "2021-11-10T17:10:23.660Z"
+instagram: otai_makes_stuff
+lastmod: "2021-11-11T16:26:03.241Z"
 date: "2021-09-16T10:51:44.817Z"
 slug: olivia-tai
+events:
+    - label: AI Art & Design Workshop
+      slug: ai-art-38-design-workshop
 picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1636564212/olivia_19f2161024.jpg
     width: 550
@@ -26,4 +34,4 @@ picture:
             height: 156
 
 ---
-Olivia is a multi-hypenate artist, designer, and leader. Formally, she studies Psych and Environmental Science & Public Policy at Harvard College. Informally, she studies the art of personhood: how to create and hold space for curiosity-fueled connection. She’s the founder of Harvard’s first undergrad design agency, Harvard Design Collective. In a past life, she was an outdoor education leader, backstage theater techie, and language-learner. Outside of campus, she’s engaged in the future of climate technology, having worked in renewable energy start-ups and impact VC.
+Olivia Tai is a multi-hyphenate artist, designer, and leader. Formally, she studies Psych and Environmental Science & Public Policy at Harvard College. Informally, she studies the art of personhood: how to create and hold space for curiosity-fueled connection. She’s the founder of Harvard’s first undergrad design agency, Harvard Design Collective. In a past life, she was an outdoor education leader, backstage theater techie, and language-learner. Outside of campus, she’s engaged in the future of climate technology, having worked in renewable energy start-ups and impact VCs.

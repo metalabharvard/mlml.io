@@ -10,8 +10,8 @@ host: harvard
 mediation: performance
 category: project
 isFeatured: true
-externalLink: ""
-lastmod: "2021-11-10T12:47:55.110Z"
+externalLink: http://future-stage.org/
+lastmod: "2021-11-12T10:46:02.082Z"
 date: "2021-06-16"
 slug: futurestage
 collaborators:
@@ -64,6 +64,9 @@ members:
     - label: Matthew Battles
       slug: matthew-battles
       twitter: matthewbattles
+    - label: Paolo Ciuccarelli
+      slug: paolo-ciuccarelli
+      twitter: pciuccarelli
     - label: Paolo Petrocelli
       slug: paolo-petrocelli
       twitter: paolopetrocelli
@@ -318,6 +321,7 @@ members_twitter:
     - linsderry
     - MagdaRomanska
     - matthewbattles
+    - pciuccarelli
     - paolopetrocelli
     - sydneyskybetter
 images:
