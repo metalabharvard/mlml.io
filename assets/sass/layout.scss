@@ -947,8 +947,10 @@ picture, img {
     display: flex;
     flex-direction: column;
   }
+}
 
-  .project-cover-image {
+.homepage-project, .homepage-event {
+  .project-cover-image, .event-cover-image {
     @include center();
 
     img {
