@@ -252,11 +252,8 @@ picture img {
 
       &:hover, &:focus {
         outline: none;
-        // background-image: linear-gradient(90deg, #FF4800, #FFB600);
-        // -webkit-background-clip: text;
-        // -webkit-text-fill-color: transparent;
 
-        color: red;
+        color: red; // TODO
       }
     }
 
@@ -688,20 +685,12 @@ picture img {
 
     // TODO: Move to mixin
 
-    // position: absolute;
-    // left: $wide-margin;
-    // right: $wide-margin;
-    // bottom: 0;
-    // height: 100%;
     border: 10px solid;
     border-image-slice: 1;
     border-width: 3px;
     z-index: $z-index-about-header;
     --angle: 90deg;
-    border-image-source: linear-gradient(90deg, #FFB600 0%, #FF4800 100%); // TODO
-    // border-image-source: linear-gradient(90deg, #FFB600 0%, #FF4800 100%);
-    // animation: 20s rotate linear infinite;
-    // border-image-source: radial-gradient(circle, #FFB600 60%, #FF4800 100%);
+    border-image-source: linear-gradient(90deg, var(--color-gradient-a) 0%, var(--color-gradient-o) 100%); // TODO
     @include grid-medium();
 
     @include query($narrow) {
@@ -716,18 +705,6 @@ picture img {
       display: none;
     }
   }
-
-  // @property --angle {
-  //   syntax: '<angle>';
-  //   initial-value: 0deg;
-  //   inherits: false;
-  // }
-
-  // @keyframes rotate {
-  //   to {
-  //     --angle: 360deg;
-  //   }
-  // }
 
   .about-intro {
     grid-row-start: 1;
@@ -933,10 +910,8 @@ picture, img {
     border-width: var(--gradient-border-width);
     z-index: $z-index-member-header-before;
     --angle: 90deg;
-    border-image-source: linear-gradient(var(--angle), #FFB600 0%, #FF4800 100%);
-    // border-image-source: linear-gradient(90deg, #FFB600 0%, #FF4800 100%);
+    border-image-source: linear-gradient(var(--angle), var(--color-gradient-a) 0%, var(--color-gradient-o) 100%);
     animation: 20s rotate linear infinite;
-    // border-image-source: radial-gradient(circle, #FFB600 60%, #FF4800 100%);
     @include grid-wide();
 
     @include query($narrow) {
@@ -956,41 +931,6 @@ picture, img {
 .homepage-project {
   .project-intro {
     margin-top: var(--spacing-05);
-  }
-
-  .project-link {
-    // margin-top: var(--spacing-05);
-    // text-align: right;
-    // @include grid-full();
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: center;
-    // // z-index: $z-index-project-link;
-
-    // @include query($medium) {
-    //   position: fixed;
-    //   right: -200px;
-    //   top: calc(15vh + var(--spacing-2));
-    //   border: 3px solid #FF4800;
-    //   border-radius: 50%;
-    //   height: 400px;
-    //   width: 400px;
-    // }
-
-    // &:hover, &:focus {
-    //   background-color: #222;
-    //   color: #fff;
-    //   border-color: #222;
-    // }
-
-    span {
-      // @include query($medium) {
-      //   text-align: right;
-      //   display: block;
-      //   width: 50%;
-      //   padding-right: var(--spacing-05);
-      // }
-    }
   }
 
   .project-aside {
