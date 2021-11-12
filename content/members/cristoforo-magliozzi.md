@@ -9,6 +9,6 @@ date: "2021-09-16T10:51:45.013Z"
 slug: cristoforo-magliozzi
 projects:
     - label: Networks + Natures
-      slug: networks-natures-feral-trees
+      slug: networks-natures
 
 ---

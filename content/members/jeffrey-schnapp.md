@@ -22,7 +22,7 @@ events:
     - label: Dialogues with Data [at] Infovis
       slug: dialogues-with-data-at-infovis
     - label: The Future of Science Museums
-      slug: the-future-of-science-museums-michael-john-gorman-in-conversation-with-jeffrey-schnapp
+      slug: the-future-of-science-museums
     - label: 'futureStage Manifesto: New Scenarios for the Performing Arts'
       slug: future-stage-manifesto-new-scenarios-for-the-performing-arts
     - label: metaLAB + friends openLAB
@@ -31,7 +31,7 @@ projects:
     - label: A Flitting Atlas of the Human Gaze
       slug: a-flitting-atlas-of-the-human-gaze
     - label: Blueprint for Counter Education
-      slug: blueprint-for-counter-education-58-expanded-reprint
+      slug: blueprint-for-counter-education
     - label: Blueprint for Counter Education website
       slug: blueprint-for-counter-education-website
     - label: Curatorial A(i)gents
@@ -45,11 +45,11 @@ projects:
     - label: Surprise Machines
       slug: surprise-machines
     - label: Tacit Knowledge
-      slug: tacit-knowledge-post-studio-feminism-cal-arts-1970-1977
+      slug: tacit-knowledge
     - label: Womanhouse (a memory theater)
       slug: womanhouse-a-memory-theater
     - label: Womanhouse @Kunsthaus Graz
-      slug: where-art-might-happen-the-early-years-of-cal-arts
+      slug: womanhouse-kunsthaus-graz
     - label: futureSTAGE
       slug: futurestage
 picture:

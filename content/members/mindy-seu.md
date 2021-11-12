@@ -15,7 +15,7 @@ projects:
     - label: Womanhouse (a memory theater)
       slug: womanhouse-a-memory-theater
     - label: Womanhouse @Kunsthaus Graz
-      slug: where-art-might-happen-the-early-years-of-cal-arts
+      slug: womanhouse-kunsthaus-graz
 picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122129/mindy_a641d744c3.jpg
     width: 850

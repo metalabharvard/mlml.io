@@ -29,7 +29,7 @@ projects:
     - label: Ocean Amplification
       slug: ocean-amplification
     - label: Second Look
-      slug: second-look-gender-and-sentiment-on-show
+      slug: second-look
     - label: Surprise Machines
       slug: surprise-machines
 cover:

@@ -51,7 +51,7 @@ events:
     - label: Decentralized Storytelling
       slug: decentralized-storytelling
     - label: Jenn Parker-Starbuck, Animals in the Machine
-      slug: mahindra-transmedia-arts-seminar-jenn-parker-starbuck-animals-in-the-machine-robotic-animal-agents
+      slug: jenn-parker-starbuck-animals-in-the-machine
 cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636549179/futurestage_transmedia_2ff37ab17f.jpg
     width: 2550

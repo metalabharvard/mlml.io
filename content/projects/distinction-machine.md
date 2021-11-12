@@ -17,7 +17,7 @@ date: "2019-01-01"
 slug: distinction-machine
 events:
     - label: Ars Electronica
-      slug: ars-electronica-error-the-art-of-imperfection
+      slug: ars-electronica
 members:
     - label: Kim Albrecht
       slug: kim-albrecht

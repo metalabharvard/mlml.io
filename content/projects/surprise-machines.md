@@ -39,7 +39,7 @@ projects:
     - label: Ocean Amplification
       slug: ocean-amplification
     - label: Second Look
-      slug: second-look-gender-and-sentiment-on-show
+      slug: second-look
     - label: Watching Machines Loving Grace
       slug: watching-machines-loving-grace
 cover:

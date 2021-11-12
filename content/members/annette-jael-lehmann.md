@@ -14,11 +14,11 @@ date: "2021-09-16T10:51:44.527Z"
 slug: annette-jael-lehmann
 projects:
     - label: Tacit Knowledge
-      slug: tacit-knowledge-post-studio-feminism-cal-arts-1970-1977
+      slug: tacit-knowledge
     - label: Womanhouse (a memory theater)
       slug: womanhouse-a-memory-theater
     - label: Womanhouse @Kunsthaus Graz
-      slug: where-art-might-happen-the-early-years-of-cal-arts
+      slug: womanhouse-kunsthaus-graz
 picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122112/annette_b0bfbbd583.jpg
     width: 480

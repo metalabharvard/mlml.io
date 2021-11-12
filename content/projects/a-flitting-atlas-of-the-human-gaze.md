@@ -31,7 +31,7 @@ members:
       twitter: jaytiesse
 projects:
     - label: Mahindra Humanities Center
-      slug: mahindra-humanities-center-transmedia-arts-seminar
+      slug: mahindra-humanities-center
 cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636726814/flitting2_8f3cb9ec33.jpg
     width: 800

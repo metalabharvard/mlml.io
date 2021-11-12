@@ -30,7 +30,7 @@ events:
     - label: 2018 LITA Library Technology Forum
       slug: 2018-lita-library-technology-forum
     - label: Jenn Parker-Starbuck, Animals in the Machine
-      slug: mahindra-transmedia-arts-seminar-jenn-parker-starbuck-animals-in-the-machine-robotic-animal-agents
+      slug: jenn-parker-starbuck-animals-in-the-machine
     - label: 'futureStage Manifesto: New Scenarios for the Performing Arts'
       slug: future-stage-manifesto-new-scenarios-for-the-performing-arts
 cover:

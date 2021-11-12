@@ -24,7 +24,7 @@ events:
     - label: Machine Experience II
       slug: machine-experience-ii
     - label: Overflow
-      slug: overflow-inexplicable-parts-of-the-intimate
+      slug: overflow
     - label: metaLAB + friends openLAB
       slug: meta-lab-friends-open-lab
 projects:
@@ -41,7 +41,7 @@ projects:
     - label: Hypercam
       slug: hypercam
     - label: Tacit Knowledge
-      slug: tacit-knowledge-post-studio-feminism-cal-arts-1970-1977
+      slug: tacit-knowledge
     - label: Their Names
       slug: their-names
     - label: Watching Machines Loving Grace
@@ -49,7 +49,7 @@ projects:
     - label: Womanhouse (a memory theater)
       slug: womanhouse-a-memory-theater
     - label: Womanhouse @Kunsthaus Graz
-      slug: where-art-might-happen-the-early-years-of-cal-arts
+      slug: womanhouse-kunsthaus-graz
 picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122126/kim_7989e0da77.jpg
     width: 500

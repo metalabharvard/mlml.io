@@ -32,7 +32,7 @@ projects:
     - label: Moral Labyrinth
       slug: moral-labyrinth
     - label: Networks + Natures
-      slug: networks-natures-feral-trees
+      slug: networks-natures
     - label: The Cyberlaw Guide to Protest Art
       slug: the-cyberlaw-guide-to-protest-art
 picture:

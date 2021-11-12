@@ -24,7 +24,7 @@ events:
     - label: Machine Experience II
       slug: machine-experience-ii
     - label: Overflow
-      slug: overflow-inexplicable-parts-of-the-intimate
+      slug: overflow
     - label: metaLAB + friends openLAB
       slug: meta-lab-friends-open-lab
 projects:
@@ -35,7 +35,7 @@ projects:
     - label: Futurefood
       slug: futurefood
     - label: Invasive Spirits
-      slug: networks-43-natures-58-invasive-spirits
+      slug: invasive-spirits
     - label: Their Names
       slug: their-names
     - label: futureSTAGE
