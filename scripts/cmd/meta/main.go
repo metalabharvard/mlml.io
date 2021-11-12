@@ -80,6 +80,11 @@ type Meta struct {
   EventRSS string `json:"eventRSS"`
   Preview Preview `yaml:"preview,omitempty"`
   Images []string `yaml:"images,omitempty"`
+  PagePublishedText string `json:"pagePublishedText"`
+  PageEditedText string `json:"pageEditedText"`
+  PagePublishedFormat string `json:"pagePublishedFormat"`
+  SiteEditedText string `json:"siteEditedText"`
+  SiteEditedFormat string `json:"siteEditedFormat"`
 }
 
 type Params struct {
@@ -147,6 +152,11 @@ type Label struct {
   DefaultEventCategory string `json:"defaultEventCategory"`
   ProjectRSS string `json:"projectRSS"`
   EventRSS string `json:"eventRSS"`
+  PagePublishedText string `json:"pagePublishedText"`
+  PageEditedText string `json:"pageEditedText"`
+  PagePublishedFormat string `json:"pagePublishedFormat"`
+  SiteEditedText string `json:"siteEditedText"`
+  SiteEditedFormat string `json:"siteEditedFormat"`
 }
 
 type Config struct {
@@ -249,6 +259,11 @@ func main() {
         DefaultEventCategory: responseObject.DefaultEventCategory,
         ProjectRSS: responseObject.ProjectRSS,
         EventRSS: responseObject.EventRSS,
+        PagePublishedText: responseObject.PagePublishedText,
+        PageEditedText: responseObject.PageEditedText,
+        PagePublishedFormat: responseObject.PagePublishedFormat,
+        SiteEditedText: responseObject.SiteEditedText,
+        SiteEditedFormat: responseObject.SiteEditedFormat,
       },
     },
   }

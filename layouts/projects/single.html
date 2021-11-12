@@ -83,7 +83,7 @@
     {{ partial "related-list.html" (dict "items" .Params.Links "label" .Site.Params.Label.relatedLabelLinks "class" "links") }}
     {{ partial "related-list.html" (dict "items" .Params.Press_articles "label" .Site.Params.Label.relatedLabelPressArticles "class" "article") }}
     <footer class="project-footer grid-narrow-right" role="contentinfo">
-      <span>Page published on <time datetime="{{ .PublishDate.Format "2006-01-02T15:04:05Z07:00" }}">{{ .PublishDate.Format "2 January 2006" }}</time>{{ if not (eq (.PublishDate.Format "2 January 2006") (.Lastmod.Format "2 January 2006"))}} and last edited on <time class="article-date" datetime="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Lastmod.Format "2 January 2006" }}</time>{{ end }}.</span>
+      {{ partial "span-published.html" (dict "PublishDate" .PublishDate "Lastmod" .Lastmod "PublishText" .Site.Params.Label.pagePublishedText "EditText" .Site.Params.Label.pageEditedText "DateFormat" .Site.Params.Label.pagePublishedFormat) }}
     </footer>
   </section>
 {{ end }}

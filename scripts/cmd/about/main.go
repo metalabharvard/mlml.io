@@ -6,6 +6,7 @@ import (
   "io/ioutil"
   "log"
   "net/http"
+  "gopkg.in/yaml.v3"
   "os"
 )
 
@@ -15,7 +16,8 @@ type Meta struct {
   Created_at string `json:"created_at,omitempty"`
   Lastmod string `yaml:"lastmod,omitempty"`
   Date string `yaml:"date,omitempty"`
-  Title string
+  Title string `yaml:"title,omitempty"`
+  Header string `yaml:"header,omitempty"`
   Layout string
   Slug string
 }
@@ -36,17 +38,17 @@ func main() {
   var responseObject Meta
   json.Unmarshal(responseData, &responseObject)
 
-  responseObject.Title = "About"
   responseObject.Layout = "about"
   responseObject.Slug = "about"
 
   responseObject.Date = responseObject.Created_at
   responseObject.Lastmod = responseObject.Updated_at
 
-  responseObject.Created_at = ""
-  responseObject.Updated_at = ""
+  content := responseObject.Intro
+  responseObject.Intro = ""
 
-  file, _ := json.MarshalIndent(responseObject, "", " ")
+  file, _ := yaml.Marshal(responseObject)
+    _ = ioutil.WriteFile("content/about.md", []byte(fmt.Sprintf("---\n%s\n---\n%s", file, content)), 0644)
 
-  _ = ioutil.WriteFile("content/about.md", file, 0644)
+  // _ = ioutil.WriteFile("content/about.md", file, 0644)
 }

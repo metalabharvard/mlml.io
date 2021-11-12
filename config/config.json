@@ -48,7 +48,12 @@
    "defaultMediation": "Mixed Media",
    "defaultEventCategory": "Event",
    "projectRSS": "Projects RSS",
-   "eventRSS": "Events RSS"
+   "eventRSS": "Events RSS",
+   "pagePublishedText": "Page published on",
+   "pageEditedText": "Page last edited on",
+   "pagePublishedFormat": "2 January 2006",
+   "siteEditedText": "Last updated",
+   "siteEditedFormat": "January 2006"
   },
   "Images": [
    "https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1636557077/preview_Zeichenflaeche_1_255ffe8aba.png"

@@ -1,8 +1,11 @@
 {{ define "main" }}
   <div class="grid-full grid about-header">
-    <h1 class="about-intro grid-full"><span>{{ .Site.Params.description }}<span></h1>
+    <h1 class="about-intro grid-full"><span>{{ .Params.header }}<span></h1>
   </div>
   <div class="grid-wide">
-    <p>{{ .Params.Intro }}</p>
+    {{ .Content | markdownify }}
   </div>
+  <footer class="about-footer grid-wide" role="contentinfo">
+    {{ partial "span-published.html" (dict "PublishDate" .PublishDate "Lastmod" .Lastmod  "PublishText" .Site.Params.Label.pagePublishedText "EditText" .Site.Params.Label.pageEditedText "DateFormat" .Site.Params.Label.pagePublishedFormat) }}
+  </footer>
 {{ end }}
