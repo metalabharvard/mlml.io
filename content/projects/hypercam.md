@@ -28,6 +28,8 @@ cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348173/hypercam_5052cf8738.jpg
     width: 3360
     height: 1862
+    ext: .jpg
+    mime: image/jpeg
     formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348174/large_hypercam_5052cf8738.jpg
@@ -53,6 +55,8 @@ gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355149/hypercam_visualization_kim_albrecht_metalab_15_1b84e81cb8.jpg
       width: 1700
       height: 1700
+      ext: .jpg
+      mime: image/jpeg
       formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355150/large_hypercam_visualization_kim_albrecht_metalab_15_1b84e81cb8.jpg
@@ -77,6 +81,8 @@ gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355150/hypercam_visualization_kim_albrecht_metalab_11_c84be0e6fc.jpg
       width: 2256
       height: 1862
+      ext: .jpeg
+      mime: image/jpeg
       formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355151/large_hypercam_visualization_kim_albrecht_metalab_11_c84be0e6fc.jpg
@@ -101,6 +107,8 @@ gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355150/hypercam_visualization_kim_albrecht_metalab_17_9b7425f899.jpg
       width: 1700
       height: 1700
+      ext: .jpeg
+      mime: image/jpeg
       formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355151/large_hypercam_visualization_kim_albrecht_metalab_17_9b7425f899.jpg
@@ -125,6 +133,8 @@ gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355150/hypercam_visualization_kim_albrecht_metalab_2_3a13add296.jpg
       width: 3360
       height: 1862
+      ext: .jpg
+      mime: image/jpeg
       formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355151/large_hypercam_visualization_kim_albrecht_metalab_2_3a13add296.jpg

@@ -26,6 +26,8 @@ cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686618/their_names_fcc869a829.jpg
     width: 925
     height: 756
+    ext: .jpg
+    mime: image/jpeg
     formats:
         medium:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686619/medium_their_names_fcc869a829.jpg
@@ -46,9 +48,13 @@ gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355345/Their_Names_Police_Violence_Visualization_Kim_Albrecht_Animation_458c013b8d.gif
       width: 1012
       height: 1200
+      ext: .gif
+      mime: image/gif
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355345/Their_Names_Police_Violence_Visualization_Kim_Albrecht_min_aae3bbeea5.png
       width: 1200
       height: 630
+      ext: .png
+      mime: image/png
       formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355346/large_Their_Names_Police_Violence_Visualization_Kim_Albrecht_min_aae3bbeea5.png
@@ -73,6 +79,8 @@ gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355344/Their_Names_Police_Violence_Visualization_Kim_Albrecht_Abstract_dfc62d561b.png
       width: 3266
       height: 1420
+      ext: .png
+      mime: image/png
       formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355346/large_Their_Names_Police_Violence_Visualization_Kim_Albrecht_Abstract_dfc62d561b.png
@@ -97,6 +105,8 @@ gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355345/Their_Names_Police_Violence_Visualization_Kim_Albrecht_9e1e469469.png
       width: 2772
       height: 1146
+      ext: .png
+      mime: image/png
       formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355347/large_Their_Names_Police_Violence_Visualization_Kim_Albrecht_9e1e469469.png

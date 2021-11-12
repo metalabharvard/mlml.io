@@ -35,6 +35,8 @@ cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686495/where_art_might_happen_the_early_years_of_cal_arts_4b18fd7f74.jpg
     width: 704
     height: 480
+    ext: .jpg
+    mime: image/jpeg
     formats:
         small:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686496/small_where_art_might_happen_the_early_years_of_cal_arts_4b18fd7f74.jpg
@@ -50,6 +52,8 @@ gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636727674/womanhouse1_b491a35529.jpg
       width: 912
       height: 1280
+      ext: .jpeg
+      mime: image/jpeg
       formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636727676/large_womanhouse1_b491a35529.jpg

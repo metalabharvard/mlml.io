@@ -17,7 +17,7 @@ lastmod: "2021-11-09T18:35:13.174Z"
 date: "2021-09-16T10:51:45.518Z"
 slug: jeffrey-schnapp
 events:
-    - label: CURATORIAL A(I)GENTS at ARS ELECTRONICA 2020
+    - label: Curatorial A(i)gents at  Ars Electronica 2020
       slug: curatorial-a-i-gents-at-ars-electronica-2020
     - label: Dialogues with Data [at] Infovis
       slug: dialogues-with-data-at-infovis

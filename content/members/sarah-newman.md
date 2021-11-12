@@ -14,6 +14,8 @@ lastmod: "2021-11-02T12:17:56.773Z"
 date: "2021-09-16T10:51:45.313Z"
 slug: sarah-newman
 events:
+    - label: 2021 Virtual Creative Spring Workshops
+      slug: 2021-virtual-creative-spring-workshops
     - label: Dialogues with Data [at] Infovis
       slug: dialogues-with-data-at-infovis
     - label: Digital Cultures – Hybrid Matter

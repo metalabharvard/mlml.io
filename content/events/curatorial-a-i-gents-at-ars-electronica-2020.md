@@ -1,27 +1,27 @@
 ---
-title: CURATORIAL A(I)GENTS at ARS ELECTRONICA 2020
+title: Curatorial A(i)gents at  Ars Electronica 2020
 subtitle: ""
-fulltitle: CURATORIAL A(I)GENTS at ARS ELECTRONICA 2020
-status: ""
+fulltitle: Curatorial A(i)gents at  Ars Electronica 2020
+status: default
 outputs:
     - HTML
     - Calendar
-start_time: "2020-09-11T12:00:00Z"
-start_time_utc: 20200911T120000Z
+start_time: "2020-09-11T10:00:00Z"
+start_time_utc: 20200911T100000Z
 start_time_locations:
-    berlin: "2020-09-11T14:00:00+02:00"
-    new_york: "2020-09-11T08:00:00-04:00"
-    london: "2020-09-11T13:00:00+01:00"
-    los_angeles: "2020-09-11T05:00:00-07:00"
-end_time: "2020-01-01T12:00:00.000Z"
-end_time_utc: 20200911T140000Z
+    berlin: "2020-09-11T12:00:00+02:00"
+    new_york: "2020-09-11T06:00:00-04:00"
+    london: "2020-09-11T11:00:00+01:00"
+    los_angeles: "2020-09-11T03:00:00-07:00"
+end_time: "2020-09-11T12:00:00.000Z"
+end_time_utc: 20200911T120000Z
 timezone: UTC
 tzid: UTC
-location: Cambridge, MA
+location: Linz, Austria
 isFeatured: false
 isOngoing: false
-lastmod: "2021-11-02T12:17:41.618Z"
-date: "2020-09-11T12:00:00Z"
+lastmod: "2021-11-12T16:33:33.098Z"
+date: "2020-09-11T10:00:00Z"
 slug: curatorial-a-i-gents-at-ars-electronica-2020
 members:
     - label: Dario Rodighiero
@@ -62,6 +62,33 @@ projects:
       slug: curatorial-aigents
     - label: Watching Machines Loving Grace
       slug: watching-machines-loving-grace
+cover:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636734785/img0_2_7e307aa3ff.jpg
+    width: 2550
+    height: 3300
+    ext: .jpg
+    mime: image/jpeg
+    formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636734786/large_img0_2_7e307aa3ff.jpg
+            ext: .jpg
+            width: 773
+            height: 1000
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636734786/medium_img0_2_7e307aa3ff.jpg
+            ext: .jpg
+            width: 580
+            height: 750
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636734786/small_img0_2_7e307aa3ff.jpg
+            ext: .jpg
+            width: 386
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636734785/thumbnail_img0_2_7e307aa3ff.jpg
+            ext: .jpg
+            width: 121
+            height: 156
 members_twitter:
     - dariorodighiero
     - dietoff
@@ -72,12 +99,12 @@ members_twitter:
     - linsderry
     - matthewbattles
     - philippschmitt
+images:
+    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1636734785/img0_2_7e307aa3ff.jpg
 ---
 **ONLINE<br />
 Friday, September 11<br />
 12-2pm EDT** 
-
-Click through for **[LIVESTREAM EVENT REGISTRATION](https://zoom.us/webinar/register/WN_1OqrxWZWT6WhPXxFD8ScTQ)**.
 
 In partnership with the Austrian Academy of Sciences, metaLAB is bringing {{< link "curatorial-aigents/" >}}Curatorial A(i)gents{{< /link >}} to the [Ars Electronica 2020 festival](https://ars.electronica.art/keplersgardens/en/), happening 9–13 September in Linz, Austria and, virtually, around the world. 
 

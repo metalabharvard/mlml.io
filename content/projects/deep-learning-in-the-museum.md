@@ -23,6 +23,8 @@ cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636729857/deeplearning1_130caadeaf.jpg
     width: 870
     height: 436
+    ext: .jpeg
+    mime: image/jpeg
     formats:
         medium:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636729858/medium_deeplearning1_130caadeaf.jpg
@@ -43,6 +45,8 @@ gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636729857/deeplearning2_85fd188815.jpg
       width: 867
       height: 438
+      ext: .jpeg
+      mime: image/jpeg
       formats:
         medium:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636729858/medium_deeplearning2_85fd188815.jpg

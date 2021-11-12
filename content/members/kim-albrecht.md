@@ -15,7 +15,7 @@ lastmod: "2021-11-12T13:24:51.647Z"
 date: "2021-09-16T10:51:45.402Z"
 slug: kim-albrecht
 events:
-    - label: CURATORIAL A(I)GENTS at ARS ELECTRONICA 2020
+    - label: Curatorial A(i)gents at  Ars Electronica 2020
       slug: curatorial-a-i-gents-at-ars-electronica-2020
     - label: Digital Cultures – Hybrid Matter
       slug: digital-cultures-hybrid-matter

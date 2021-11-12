@@ -26,6 +26,8 @@ cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636725882/hindsight2_6ce649dae1.jpg
     width: 800
     height: 424
+    ext: .jpeg
+    mime: image/jpeg
     formats:
         medium:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636725883/medium_hindsight2_6ce649dae1.jpg
@@ -46,6 +48,8 @@ gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636725882/hindsight1_5fb981617c.jpg
       width: 800
       height: 949
+      ext: .jpeg
+      mime: image/jpeg
       formats:
         medium:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636725883/medium_hindsight1_5fb981617c.jpg

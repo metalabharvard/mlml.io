@@ -42,6 +42,8 @@ cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635188502/img0_28d1a9b527.jpg
     width: 1920
     height: 1080
+    ext: .jpg
+    mime: image/jpeg
     formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635188503/large_img0_28d1a9b527.jpg

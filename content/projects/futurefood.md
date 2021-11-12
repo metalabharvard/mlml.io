@@ -51,6 +51,8 @@ cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636728991/futurefood1_6855930682.jpg
     width: 386
     height: 500
+    ext: .jpeg
+    mime: image/jpeg
     formats:
         thumbnail:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636728992/thumbnail_futurefood1_6855930682.jpg
@@ -61,6 +63,8 @@ gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636728991/futurefood2_882eee8630.jpg
       width: 392
       height: 500
+      ext: .jpeg
+      mime: image/jpeg
       formats:
         thumbnail:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636728991/thumbnail_futurefood2_882eee8630.jpg

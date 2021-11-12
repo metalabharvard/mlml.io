@@ -42,7 +42,7 @@ links:
     - label: ""
       url: https://metalabharvard.github.io/projects/curatorial-aigents/thelovinggrace/
 events:
-    - label: CURATORIAL A(I)GENTS at ARS ELECTRONICA 2020
+    - label: Curatorial A(i)gents at  Ars Electronica 2020
       slug: curatorial-a-i-gents-at-ars-electronica-2020
 members:
     - label: Dario Rodighiero
@@ -80,6 +80,8 @@ cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1623943307/agents_ce7bfadd93.jpg
     width: 1000
     height: 1260
+    ext: .jpg
+    mime: image/jpeg
     formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1623943308/large_agents_ce7bfadd93.jpg

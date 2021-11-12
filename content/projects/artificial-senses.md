@@ -28,13 +28,19 @@ cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628173929/img1_017c9cba83.gif
     width: 120
     height: 120
+    ext: .gif
+    mime: image/gif
 gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628173929/img1_017c9cba83.gif
       width: 120
       height: 120
+      ext: .gif
+      mime: image/gif
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628173929/img2_2cb5706ba6.jpg
       width: 1335
       height: 1000
+      ext: .jpg
+      mime: image/jpeg
       formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628173930/large_img2_2cb5706ba6.jpg
@@ -59,6 +65,8 @@ gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355386/moving_2000px_kim_albrecht_ai_senses_e11604c7cd.jpg
       width: 2000
       height: 2000
+      ext: .jpg
+      mime: image/jpeg
       formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355387/large_moving_2000px_kim_albrecht_ai_senses_e11604c7cd.jpg
@@ -83,6 +91,8 @@ gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355387/hearing_2000px_kim_albrecht_ai_senses_54f9c600e4.jpg
       width: 2000
       height: 2000
+      ext: .jpg
+      mime: image/jpeg
       formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355388/large_hearing_2000px_kim_albrecht_ai_senses_54f9c600e4.jpg
@@ -107,6 +117,8 @@ gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355386/touching_2000px_kim_albrecht_ai_senses_7d6b9b432c.jpg
       width: 2000
       height: 2000
+      ext: .jpg
+      mime: image/jpeg
       formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355387/large_touching_2000px_kim_albrecht_ai_senses_7d6b9b432c.jpg
@@ -131,6 +143,8 @@ gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355388/locating_2000px_kim_albrecht_ai_senses_d4079bcf58.jpg
       width: 2000
       height: 2000
+      ext: .jpg
+      mime: image/jpeg
       formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355389/large_locating_2000px_kim_albrecht_ai_senses_d4079bcf58.jpg
@@ -155,6 +169,8 @@ gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355388/orienting_2000px_kim_albrecht_ai_senses_7e9ff339c5.jpg
       width: 2000
       height: 2000
+      ext: .jpg
+      mime: image/jpeg
       formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355389/large_orienting_2000px_kim_albrecht_ai_senses_7e9ff339c5.jpg
@@ -179,6 +195,8 @@ gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355390/seeing_2000px_kim_albrecht_ai_senses_319a996252.jpg
       width: 2000
       height: 2000
+      ext: .jpg
+      mime: image/jpeg
       formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355391/large_seeing_2000px_kim_albrecht_ai_senses_319a996252.jpg
@@ -203,6 +221,8 @@ gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355431/AI_Senses_Exhibit_Images_7_60d2b913a0.jpg
       width: 5472
       height: 3648
+      ext: .jpg
+      mime: image/jpeg
       formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355433/large_AI_Senses_Exhibit_Images_7_60d2b913a0.jpg
@@ -227,6 +247,8 @@ gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355432/AI_Senses_Exhibit_Images_1_ed222efeac.jpg
       width: 3562
       height: 4263
+      ext: .jpg
+      mime: image/jpeg
       formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355433/large_AI_Senses_Exhibit_Images_1_ed222efeac.jpg
@@ -251,6 +273,8 @@ gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355435/AI_Senses_Exhibit_Images_6_bb1cda00bd.jpg
       width: 5346
       height: 3516
+      ext: .jpg
+      mime: image/jpeg
       formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355437/large_AI_Senses_Exhibit_Images_6_bb1cda00bd.jpg

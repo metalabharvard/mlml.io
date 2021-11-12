@@ -36,6 +36,8 @@ cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636726814/flitting2_8f3cb9ec33.jpg
     width: 800
     height: 332
+    ext: .jpeg
+    mime: image/jpeg
     formats:
         medium:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636726815/medium_flitting2_8f3cb9ec33.jpg
@@ -56,6 +58,8 @@ gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636726814/flitting1_35753f05cc.jpg
       width: 800
       height: 483
+      ext: .jpeg
+      mime: image/jpeg
       formats:
         medium:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636726815/medium_flitting1_35753f05cc.jpg

@@ -10,7 +10,7 @@ lastmod: "2021-11-02T18:36:10.739Z"
 date: "2021-09-16T10:51:44.648Z"
 slug: eveline-wandl-vogt
 events:
-    - label: CURATORIAL A(I)GENTS at ARS ELECTRONICA 2020
+    - label: Curatorial A(i)gents at  Ars Electronica 2020
       slug: curatorial-a-i-gents-at-ars-electronica-2020
 projects:
     - label: futureSTAGE

@@ -35,6 +35,8 @@ cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348649/DSC_01121_a09f017e7f.jpg
     width: 5467
     height: 2025
+    ext: .jpg
+    mime: image/jpeg
     formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348651/large_DSC_01121_a09f017e7f.jpg
@@ -60,6 +62,8 @@ gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348556/DSC_01111_4f4e846735.jpg
       width: 5472
       height: 3648
+      ext: .jpg
+      mime: image/jpeg
       formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348560/large_DSC_01111_4f4e846735.jpg
@@ -84,6 +88,8 @@ gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348558/DSC_01128_56004a109d.jpg
       width: 3615
       height: 5070
+      ext: .jpg
+      mime: image/jpeg
       formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348563/large_DSC_01128_56004a109d.jpg
@@ -108,6 +114,8 @@ gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348557/DSC_01117_8443c76e0e.jpg
       width: 3648
       height: 4633
+      ext: .jpg
+      mime: image/jpeg
       formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348564/large_DSC_01117_8443c76e0e.jpg
@@ -132,6 +140,8 @@ gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348645/DSC_01109_e25b099bde.jpg
       width: 3152
       height: 5379
+      ext: .jpg
+      mime: image/jpeg
       formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348648/large_DSC_01109_e25b099bde.jpg
@@ -156,6 +166,8 @@ gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348646/DSC_01120_6bbe23c6be.jpg
       width: 3212
       height: 5472
+      ext: .jpg
+      mime: image/jpeg
       formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348649/large_DSC_01120_6bbe23c6be.jpg
@@ -180,6 +192,8 @@ gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348649/DSC_01121_a09f017e7f.jpg
       width: 5467
       height: 2025
+      ext: .jpg
+      mime: image/jpeg
       formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348651/large_DSC_01121_a09f017e7f.jpg
@@ -204,6 +218,8 @@ gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348654/DSC_01118_f188042850.jpg
       width: 3648
       height: 5472
+      ext: .jpg
+      mime: image/jpeg
       formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348657/large_DSC_01118_f188042850.jpg

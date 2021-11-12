@@ -56,6 +56,8 @@ cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636549179/futurestage_transmedia_2ff37ab17f.jpg
     width: 2550
     height: 3300
+    ext: .jpg
+    mime: image/jpeg
     formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636549180/large_futurestage_transmedia_2ff37ab17f.jpg

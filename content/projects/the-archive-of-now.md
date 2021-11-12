@@ -24,6 +24,8 @@ cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636730094/archiveofnow1_56c2286568.jpg
     width: 800
     height: 1236
+    ext: .jpeg
+    mime: image/jpeg
     formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636730094/large_archiveofnow1_56c2286568.jpg
@@ -49,6 +51,8 @@ gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636730094/archiveofnow2_13d52c128e.jpg
       width: 1545
       height: 1999
+      ext: .jpeg
+      mime: image/jpeg
       formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636730095/large_archiveofnow2_13d52c128e.jpg

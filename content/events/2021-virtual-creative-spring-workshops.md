@@ -21,9 +21,15 @@ intro: “Upcoming creative workshops exploring AI, time, and the future of comm
 location: Online
 isFeatured: false
 isOngoing: false
-lastmod: "2021-11-02T12:17:40.454Z"
+lastmod: "2021-11-12T16:35:15.948Z"
 date: "2021-06-06T12:00:00Z"
 slug: 2021-virtual-creative-spring-workshops
+members:
+    - label: Sarah Newman
+      slug: sarah-newman
+      twitter: sarahwnewman
+members_twitter:
+    - sarahwnewman
 ---
 metaLAB’s experimental, materials-based creative workshops bring together hybrid formats that include design thinking exercises, group discussion, and physical prototyping (yes, even on zoom!) to think through pressing questions and work toward possible reformulations, new metaphors—and maybe, some solutions.  
 

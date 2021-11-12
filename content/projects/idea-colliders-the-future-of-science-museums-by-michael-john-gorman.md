@@ -24,6 +24,8 @@ cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636728166/ideacolliders_fe4058d24e.jpg
     width: 550
     height: 822
+    ext: .jpeg
+    mime: image/jpeg
     formats:
         medium:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636728167/medium_ideacolliders_fe4058d24e.jpg

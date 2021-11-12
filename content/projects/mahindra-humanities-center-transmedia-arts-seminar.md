@@ -22,6 +22,8 @@ cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686081/Mahindra_Transmedia_Center_ea57b542d1.jpg
     width: 2550
     height: 3300
+    ext: .jpg
+    mime: image/jpeg
     formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686083/large_Mahindra_Transmedia_Center_ea57b542d1.jpg

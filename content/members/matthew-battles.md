@@ -15,7 +15,7 @@ lastmod: "2021-09-16T10:58:53.979Z"
 date: "2021-09-16T10:51:45.422Z"
 slug: matthew-battles
 events:
-    - label: CURATORIAL A(I)GENTS at ARS ELECTRONICA 2020
+    - label: Curatorial A(i)gents at  Ars Electronica 2020
       slug: curatorial-a-i-gents-at-ars-electronica-2020
     - label: Dialogues with Data [at] Infovis
       slug: dialogues-with-data-at-infovis

@@ -23,6 +23,8 @@ cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686754/lexicalcarto_686c2c0761.jpg
     width: 3072
     height: 1920
+    ext: .jpg
+    mime: image/jpeg
     formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686756/large_lexicalcarto_686c2c0761.jpg
@@ -48,6 +50,8 @@ gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636727748/lexical1_c51f2e2afe.jpg
       width: 3072
       height: 1920
+      ext: .jpeg
+      mime: image/jpeg
       formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636727750/large_lexical1_c51f2e2afe.jpg

@@ -19,7 +19,7 @@ collaborators:
     - label: Harvard Art Museums
       url: ""
 events:
-    - label: CURATORIAL A(I)GENTS at ARS ELECTRONICA 2020
+    - label: Curatorial A(i)gents at  Ars Electronica 2020
       slug: curatorial-a-i-gents-at-ars-electronica-2020
 members:
     - label: Kim Albrecht
@@ -34,9 +34,12 @@ projects:
       slug: surprise-machines
 cover:
     alternativeText: Watching Machines Interface Example. Overlayed images with cutout faces.
+    caption: Watching Machines Interface Example
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633360980/watching_machines_kim_albrecht_harvard_art_museums_min_1be7c7efa8.png
     width: 1200
     height: 758
+    ext: .png
+    mime: image/png
     formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633360981/large_watching_machines_kim_albrecht_harvard_art_museums_min_1be7c7efa8.png
@@ -62,6 +65,8 @@ gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636727005/watchingmachines1_ed69233a7b.jpg
       width: 1864
       height: 1438
+      ext: .jpeg
+      mime: image/jpeg
       formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636727006/large_watchingmachines1_ed69233a7b.jpg

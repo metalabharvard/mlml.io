@@ -24,6 +24,8 @@ cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636730949/feminist1_4524f5f121.jpg
     width: 462
     height: 680
+    ext: .jpeg
+    mime: image/jpeg
     formats:
         small:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636730950/small_feminist1_4524f5f121.jpg
@@ -39,6 +41,8 @@ gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636730950/feminist2_c26c373415.jpg
       width: 1501
       height: 1501
+      ext: .jpeg
+      mime: image/jpeg
       formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636730950/large_feminist2_c26c373415.jpg

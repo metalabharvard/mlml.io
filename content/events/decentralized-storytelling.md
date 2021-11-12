@@ -37,6 +37,8 @@ cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1634901593/weiler_transmedia_cd91da1c84.jpg
     width: 2550
     height: 3300
+    ext: .jpg
+    mime: image/jpeg
     formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1634901594/large_weiler_transmedia_cd91da1c84.jpg

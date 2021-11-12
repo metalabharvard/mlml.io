@@ -1,14 +1,11 @@
-{{ $isPreview := .isPreview }}
 {{ $original := .picture }}
 {{ $large := .picture.formats.large }}
 {{ $medium := .picture.formats.medium }}
 {{ $small := .picture.formats.small }}
 {{ $thumbnail := .picture.formats.thumbnail }}
-{{/* This is the width of a single column in the layout */}}
-{{/* We use this to multiply by the amount of columns the image uses */}}
-{{ $column := "((min(90vw, 1280px) - min(2vw, 30px) * 11) / 12)" }}
+{{ $width := "min(90vw, 1280px)" }}
 {{ if and .picture.width .picture.height }}
-<picture class="photo">
+<picture class="photo {{ .class }}">
   {{ if or (eq $original.mime "image/jpeg") (eq $original.mime "image/png") }}
   <source
     type="image/webp"
@@ -22,16 +19,7 @@
       {{ replace $original.url $original.ext ".webp" }} {{ $original.width }}w{{ end }}
     "
     sizes="
-      {{ if $isPreview }}
-      {{/* These are the different sizes the member picture can have on the single member page */}}
-      (min-width: 900px) calc(min({{ $column }} * 2, 20vw)),
-      (min-width: 1200px) calc(min({{ $column }} * 3, 20vw)),
-      calc(min({{ $column }} * 4, 20vw))
-      {{ else }}
-      (min-width: 900px) 160px,
-      (min-width: 1200px) 120px,
-      80px
-      {{ end }}
+      calc({{ $width }})
     "
     />
   {{ end }}
@@ -46,16 +34,7 @@
       {{ $original.url }} {{ $original.width }}w{{ end }}
     "
     sizes="
-      {{ if $isPreview }}
-      {{/* These are the different sizes the member picture can have on the single member page */}}
-      (min-width: 900px) calc(min({{ $column }} * 2, 20vw)),
-      (min-width: 1200px) calc(min({{ $column }} * 3, 20vw)),
-      calc(min({{ $column }} * 4, 20vw))
-      {{ else }}
-      (min-width: 900px) 160px,
-      (min-width: 1200px) 120px,
-      80px
-      {{ end }}
+      calc({{ $width }})
     "
     />
   <img

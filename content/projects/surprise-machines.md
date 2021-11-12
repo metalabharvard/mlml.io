@@ -46,6 +46,8 @@ cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635823994/surprisemachines_061c847690.jpg
     width: 1175
     height: 1520
+    ext: .jpeg
+    mime: image/jpeg
     formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635823996/large_surprisemachines_061c847690.jpg
@@ -71,6 +73,8 @@ gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636725763/surprisemachines_e716d8493c.jpg
       width: 1175
       height: 1521
+      ext: .jpeg
+      mime: image/jpeg
       formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636725764/large_surprisemachines_e716d8493c.jpg

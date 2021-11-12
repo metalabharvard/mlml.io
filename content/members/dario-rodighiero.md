@@ -15,7 +15,7 @@ lastmod: "2021-11-11T16:14:42.775Z"
 date: "2021-09-16T10:51:44.527Z"
 slug: dario-rodighiero
 events:
-    - label: CURATORIAL A(I)GENTS at ARS ELECTRONICA 2020
+    - label: Curatorial A(i)gents at  Ars Electronica 2020
       slug: curatorial-a-i-gents-at-ars-electronica-2020
 projects:
     - label: Curatorial A(i)gents

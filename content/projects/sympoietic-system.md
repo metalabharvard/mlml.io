@@ -32,6 +32,8 @@ cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636726536/sympsys2_5a5ba9470a.jpg
     width: 800
     height: 533
+    ext: .jpeg
+    mime: image/jpeg
     formats:
         medium:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636726537/medium_sympsys2_5a5ba9470a.jpg
@@ -52,6 +54,8 @@ gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636726536/sympsys1_41020e621c.jpg
       width: 800
       height: 665
+      ext: .jpeg
+      mime: image/jpeg
       formats:
         medium:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636726537/medium_sympsys1_41020e621c.jpg

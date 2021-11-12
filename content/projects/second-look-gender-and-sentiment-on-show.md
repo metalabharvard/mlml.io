@@ -33,6 +33,8 @@ cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635823874/secondlook1_e086af259a.jpg
     width: 800
     height: 681
+    ext: .jpeg
+    mime: image/jpeg
     formats:
         medium:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635823875/medium_secondlook1_e086af259a.jpg
@@ -53,6 +55,8 @@ gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635823874/secondlook2_1a7939c141.jpg
       width: 800
       height: 608
+      ext: .jpeg
+      mime: image/jpeg
       formats:
         medium:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635823875/medium_secondlook2_1a7939c141.jpg

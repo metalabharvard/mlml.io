@@ -35,6 +35,8 @@ cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635824415/oceanamp1_f35c571b42.jpg
     width: 800
     height: 450
+    ext: .jpeg
+    mime: image/jpeg
     formats:
         medium:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635824417/medium_oceanamp1_f35c571b42.jpg
@@ -55,6 +57,8 @@ gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635824415/oceanamp2_db9a75e42d.jpg
       width: 800
       height: 419
+      ext: .jpeg
+      mime: image/jpeg
       formats:
         medium:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635824417/medium_oceanamp2_db9a75e42d.jpg
@@ -74,6 +78,8 @@ gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635824415/oceanamp3_803ca6b902.jpg
       width: 800
       height: 435
+      ext: .jpeg
+      mime: image/jpeg
       formats:
         medium:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635824417/medium_oceanamp3_803ca6b902.jpg

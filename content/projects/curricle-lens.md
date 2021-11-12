@@ -34,6 +34,8 @@ cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355812/curricle_lens_crop_01_b9255616ab.png
     width: 2880
     height: 1800
+    ext: .png
+    mime: image/png
     formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355815/large_curricle_lens_crop_01_b9255616ab.png
@@ -59,21 +61,33 @@ gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355708/curricle_lens_computer_science_low_d469c6b8d6.gif
       width: 768
       height: 654
+      ext: .gif
+      mime: image/gif
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355710/curricle_lens_engineering_sciences_low_e3f1b6a2fc.gif
       width: 762
       height: 820
+      ext: .gif
+      mime: image/gif
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355711/curricle_lens_philosophy_low_68cac99973.gif
       width: 762
       height: 808
+      ext: .gif
+      mime: image/gif
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355711/curricle_lens_sociology_low_6f953bae5c.gif
       width: 758
       height: 800
+      ext: .gif
+      mime: image/gif
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355737/curricle_lens_scroll_departments_xs_f58c6e9bb0.gif
       width: 480
       height: 380
+      ext: .gif
+      mime: image/gif
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355810/curricle_lens_T_S_Eliot_f5426f3d81.png
       width: 2654
       height: 748
+      ext: .png
+      mime: image/png
       formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355811/large_curricle_lens_T_S_Eliot_f5426f3d81.png
@@ -98,6 +112,8 @@ gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355810/curricle_lens_social_media_a386f84790.jpg
       width: 1086
       height: 573
+      ext: .jpg
+      mime: image/jpeg
       formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355811/large_curricle_lens_social_media_a386f84790.jpg
@@ -122,6 +138,8 @@ gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355810/curricle_lens_crop_02_cd64f7464e.png
       width: 2880
       height: 1800
+      ext: .png
+      mime: image/png
       formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355811/large_curricle_lens_crop_02_cd64f7464e.png
@@ -146,6 +164,8 @@ gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355810/curricle_lens_architecture_2ce4717472.png
       width: 2674
       height: 2145
+      ext: .png
+      mime: image/png
       formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355812/large_curricle_lens_architecture_2ce4717472.png
@@ -170,6 +190,8 @@ gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355811/curricle_lens_crop_03_aff4274303.png
       width: 2880
       height: 1800
+      ext: .png
+      mime: image/png
       formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355813/large_curricle_lens_crop_03_aff4274303.png
@@ -194,6 +216,8 @@ gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355811/curricle_lens_computer_science_e183bf073e.png
       width: 2686
       height: 1368
+      ext: .png
+      mime: image/png
       formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355815/large_curricle_lens_computer_science_e183bf073e.png
@@ -218,6 +242,8 @@ gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355812/curricle_lens_history_0f746b90c1.png
       width: 2688
       height: 3000
+      ext: .png
+      mime: image/png
       formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355815/large_curricle_lens_history_0f746b90c1.png
@@ -242,6 +268,8 @@ gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355812/curricle_lens_crop_01_b9255616ab.png
       width: 2880
       height: 1800
+      ext: .png
+      mime: image/png
       formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355815/large_curricle_lens_crop_01_b9255616ab.png
@@ -266,6 +294,8 @@ gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355812/curricle_lens_crop_04_a76c5b4b53.png
       width: 2880
       height: 1800
+      ext: .png
+      mime: image/png
       formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355815/large_curricle_lens_crop_04_a76c5b4b53.png

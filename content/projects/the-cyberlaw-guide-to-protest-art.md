@@ -42,6 +42,8 @@ cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636731653/cyberlaw1_48e656cb68.jpg
     width: 900
     height: 1165
+    ext: .jpeg
+    mime: image/jpeg
     formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636731654/large_cyberlaw1_48e656cb68.jpg
@@ -67,6 +69,8 @@ gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636731653/cyberlaw1_48e656cb68.jpg
       width: 900
       height: 1165
+      ext: .jpeg
+      mime: image/jpeg
       formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636731654/large_cyberlaw1_48e656cb68.jpg
@@ -91,6 +95,8 @@ gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636731655/cyberlaw2_130ab7e144.png
       width: 6000
       height: 8281
+      ext: .png
+      mime: image/png
       formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636731663/large_cyberlaw2_130ab7e144.png
@@ -115,6 +121,8 @@ gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636731652/cyberlaw3_d3d8632aed.jpg
       width: 900
       height: 1165
+      ext: .jpeg
+      mime: image/jpeg
       formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636731653/large_cyberlaw3_d3d8632aed.jpg

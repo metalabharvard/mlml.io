@@ -26,6 +26,8 @@ cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686200/Dear_Loneliness_1b1650ed67.jpg
     width: 1600
     height: 2000
+    ext: .jpg
+    mime: image/jpeg
     formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686201/large_Dear_Loneliness_1b1650ed67.jpg
@@ -51,6 +53,8 @@ gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636727423/dearlonliness1_d10d23db97.jpg
       width: 1600
       height: 2000
+      ext: .jpeg
+      mime: image/jpeg
       formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636727424/large_dearlonliness1_d10d23db97.jpg

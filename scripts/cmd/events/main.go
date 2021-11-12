@@ -48,11 +48,14 @@ type Formats struct {
   Thumbnail Format `yaml:"thumbnail,omitempty"`
 }
 
-type Cover struct {
+type Picture struct {
   AlternativeText string `yaml:"alternativeText,omitempty"`
+  Caption string `yaml:"caption,omitempty"`
   Url string `yaml:"url,omitempty"`
   Width int `yaml:"width,omitempty"`
   Height int `yaml:"height,omitempty"`
+  Ext string `yaml:"ext,omitempty"`
+  Mime string `yaml:"mime,omitempty"`
   Formats Formats `yaml:"formats,omitempty"`
 }
 
@@ -98,8 +101,8 @@ type Response struct {
   Members []Member `yaml:"members,omitempty"`
   Projects []Project `yaml:"projects,omitempty"`
   Events []Event `yaml:"events,omitempty"`
-  Cover Cover `yaml:"cover,omitempty"`
-  Preview Cover `yaml:"preview,omitempty"`
+  Cover Picture `yaml:"cover,omitempty"`
+  Preview Picture `yaml:"preview,omitempty"`
   YouTube string `yaml:"youtube,omitempty"`
   Vimeo string `yaml:"vimeo,omitempty"`
   Links []Link `yaml:"links,omitempty"`
@@ -292,7 +295,7 @@ func main() {
     } else if element.Cover.Url != "" {
       element.Images = []string{convertToPreviewImage(element.Cover.Url)}
     }
-    element.Preview = Cover{}
+    element.Preview = Picture{}
 
     if element.Subtitle == "" {
       element.Fulltitle = element.Title

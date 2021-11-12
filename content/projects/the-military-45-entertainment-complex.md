@@ -26,6 +26,8 @@ cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636731427/mecomplex1_f98e6dfc41.jpg
     width: 462
     height: 680
+    ext: .jpeg
+    mime: image/jpeg
     formats:
         small:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636731428/small_mecomplex1_f98e6dfc41.jpg
@@ -41,6 +43,8 @@ gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636731427/mecomplex2_aa6ee5ffb9.jpg
       width: 1501
       height: 1501
+      ext: .jpeg
+      mime: image/jpeg
       formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636731428/large_mecomplex2_aa6ee5ffb9.jpg

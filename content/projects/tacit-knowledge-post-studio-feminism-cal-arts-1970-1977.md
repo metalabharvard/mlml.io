@@ -29,6 +29,8 @@ cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636563276/metalab_womanhouse_publication_02_26_b00979bf84.jpg
     width: 1200
     height: 886
+    ext: .jpg
+    mime: image/jpeg
     formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636563276/large_metalab_womanhouse_publication_02_26_b00979bf84.jpg
@@ -54,12 +56,18 @@ gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636563313/metalab_womanhouse_publication_covers_dd61554e4e.gif
       width: 800
       height: 928
+      ext: .gif
+      mime: image/gif
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636563323/metalab_womanhouse_publication_pages_low_Res_69530c7261.gif
       width: 600
       height: 448
+      ext: .gif
+      mime: image/gif
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636563324/metalab_womanhouse_publication_02_36_ef3ef1dc22.jpg
       width: 1721
       height: 4744
+      ext: .jpg
+      mime: image/jpeg
       formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636563326/large_metalab_womanhouse_publication_02_36_ef3ef1dc22.jpg
@@ -84,6 +92,8 @@ gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636563326/metalab_womanhouse_publication_02_35_6431b9681a.jpg
       width: 4725
       height: 1559
+      ext: .jpg
+      mime: image/jpeg
       formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636563328/large_metalab_womanhouse_publication_02_35_6431b9681a.jpg

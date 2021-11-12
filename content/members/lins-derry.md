@@ -13,7 +13,7 @@ lastmod: "2021-11-02T12:17:56.335Z"
 date: "2021-09-16T10:51:45.177Z"
 slug: lins-derry
 events:
-    - label: CURATORIAL A(I)GENTS at ARS ELECTRONICA 2020
+    - label: Curatorial A(i)gents at  Ars Electronica 2020
       slug: curatorial-a-i-gents-at-ars-electronica-2020
     - label: 'futureStage Manifesto: New Scenarios for the Performing Arts'
       slug: future-stage-manifesto-new-scenarios-for-the-performing-arts
