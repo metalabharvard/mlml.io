@@ -13,7 +13,7 @@ start_time_locations:
     new_york: "2018-01-19T07:00:00-05:00"
     london: "2018-01-19T12:00:00Z"
     los_angeles: "2018-01-19T04:00:00-08:00"
-end_time: "2018-02-04T12:00:00.000Z"
+end_time: "2018-01-19T13:00:00.000Z"
 end_time_utc: 20180119T140000Z
 timezone: UTC
 tzid: UTC
@@ -21,7 +21,7 @@ intro: 'Machine Experience II: Art Perspectives on Artificial Intelligence'
 location: Berlin
 isFeatured: false
 isOngoing: false
-lastmod: "2021-11-12T10:37:29.797Z"
+lastmod: "2021-11-12T17:36:23.991Z"
 date: "2018-01-19T12:00:00Z"
 slug: machine-experience-ii
 members:

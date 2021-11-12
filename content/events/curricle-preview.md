@@ -13,14 +13,14 @@ start_time_locations:
     new_york: "2018-08-02T08:00:00-04:00"
     london: "2018-08-02T13:00:00+01:00"
     los_angeles: "2018-08-02T05:00:00-07:00"
-end_time: "2018-01-01T12:00:00.000Z"
+end_time: "2018-08-02T13:00:00.000Z"
 end_time_utc: 20180802T140000Z
 timezone: UTC
 tzid: UTC
 location: Gund Hall 121
 isFeatured: false
 isOngoing: false
-lastmod: "2021-09-16T09:49:46.486Z"
+lastmod: "2021-11-12T17:36:23.209Z"
 date: "2018-08-02T12:00:00Z"
 slug: curricle-preview
 ---

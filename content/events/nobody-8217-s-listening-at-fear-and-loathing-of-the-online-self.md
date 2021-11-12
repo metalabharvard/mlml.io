@@ -13,14 +13,14 @@ start_time_locations:
     new_york: "2017-05-23T08:00:00-04:00"
     london: "2017-05-23T13:00:00+01:00"
     los_angeles: "2017-05-23T05:00:00-07:00"
-end_time: "2017-01-01T12:00:00.000Z"
+end_time: "2017-05-23T13:00:00.000Z"
 end_time_utc: 20170523T140000Z
 timezone: UTC
 tzid: UTC
 location: Rome, Italy
 isFeatured: false
 isOngoing: false
-lastmod: "2021-11-02T17:00:40.466Z"
+lastmod: "2021-11-12T17:36:23.299Z"
 date: "2017-05-23T12:00:00Z"
 slug: nobody-8217-s-listening-at-fear-and-loathing-of-the-online-self
 ---

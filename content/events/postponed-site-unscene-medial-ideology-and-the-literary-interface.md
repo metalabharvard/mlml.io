@@ -13,14 +13,14 @@ start_time_locations:
     new_york: "2020-02-23T07:00:00-05:00"
     london: "2020-02-23T12:00:00Z"
     los_angeles: "2020-02-23T04:00:00-08:00"
-end_time: "2020-01-01T12:00:00.000Z"
+end_time: "2020-02-23T13:00:00.000Z"
 end_time_utc: 20200223T140000Z
 timezone: UTC
 tzid: UTC
 location: Cambridge, MA
 isFeatured: false
 isOngoing: false
-lastmod: "2021-11-10T12:44:07.830Z"
+lastmod: "2021-11-12T17:36:23.418Z"
 date: "2020-02-23T12:00:00Z"
 slug: postponed-site-unscene-medial-ideology-and-the-literary-interface
 ---

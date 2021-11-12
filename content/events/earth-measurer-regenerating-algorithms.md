@@ -13,14 +13,14 @@ start_time_locations:
     new_york: "2019-09-07T08:00:00-04:00"
     london: "2019-09-07T13:00:00+01:00"
     los_angeles: "2019-09-07T05:00:00-07:00"
-end_time: "2019-01-01T12:00:00.000Z"
+end_time: "2019-09-07T13:00:00.000Z"
 end_time_utc: 20190907T140000Z
 timezone: UTC
 tzid: UTC
 location: 4S, New Orleans
 isFeatured: false
 isOngoing: false
-lastmod: "2021-11-10T12:37:59.765Z"
+lastmod: "2021-11-12T17:36:23.305Z"
 date: "2019-09-07T12:00:00Z"
 slug: earth-measurer-regenerating-algorithms
 ---

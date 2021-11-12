@@ -13,13 +13,13 @@ start_time_locations:
     new_york: "2014-01-01T07:00:00-05:00"
     london: "2014-01-01T12:00:00Z"
     los_angeles: "2014-01-01T04:00:00-08:00"
-end_time: "2014-01-01T12:00:00.000Z"
+end_time: "2014-01-01T13:00:00.000Z"
 end_time_utc: 20140101T140000Z
 timezone: UTC
 tzid: UTC
 isFeatured: false
 isOngoing: false
-lastmod: "2021-09-16T09:49:46.120Z"
+lastmod: "2021-11-12T17:36:23.663Z"
 date: "2014-01-01T12:00:00Z"
 slug: beautiful-data-i
 links:

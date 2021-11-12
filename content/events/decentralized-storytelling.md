@@ -13,7 +13,7 @@ start_time_locations:
     new_york: "2021-10-28T17:00:00-04:00"
     london: "2021-10-28T22:00:00+01:00"
     los_angeles: "2021-10-28T14:00:00-07:00"
-end_time: "2021-10-28T22:30:00.000Z"
+end_time: "2021-10-28T22:00:00.000Z"
 end_time_utc: 20211028T230000Z
 timezone: UTC
 tzid: UTC
@@ -23,7 +23,7 @@ category: seminar
 externalLink: https://harvard.zoom.us/webinar/register/WN_yyN8-Xf-QSi-EQ78y7YwHw
 isFeatured: true
 isOngoing: false
-lastmod: "2021-11-12T13:27:19.043Z"
+lastmod: "2021-11-12T17:36:23.700Z"
 date: "2021-10-28T21:00:00Z"
 slug: decentralized-storytelling
 events:

@@ -13,7 +13,7 @@ start_time_locations:
     new_york: "2019-03-01T07:00:00-05:00"
     london: "2019-03-01T12:00:00Z"
     los_angeles: "2019-03-01T04:00:00-08:00"
-end_time: "2019-03-04T12:00:00.000Z"
+end_time: "2019-03-01T13:00:00.000Z"
 end_time_utc: 20190301T140000Z
 timezone: UTC
 tzid: UTC
@@ -21,7 +21,7 @@ intro: <i>Alterspace:</i> libraries, digital placemaking, and emancipatory desig
 location: Cambridge, MA
 isFeatured: false
 isOngoing: false
-lastmod: "2021-09-16T09:49:46.715Z"
+lastmod: "2021-11-12T17:36:23.779Z"
 date: "2019-03-01T12:00:00Z"
 slug: alterspace-at-cambridge-public-library
 links:

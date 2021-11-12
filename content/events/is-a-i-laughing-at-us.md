@@ -13,7 +13,7 @@ start_time_locations:
     new_york: "2019-02-04T07:00:00-05:00"
     london: "2019-02-04T12:00:00Z"
     los_angeles: "2019-02-04T04:00:00-08:00"
-end_time: "2019-01-01T12:00:00.000Z"
+end_time: "2019-02-04T13:00:00.000Z"
 end_time_utc: 20190204T140000Z
 timezone: UTC
 tzid: UTC
@@ -21,7 +21,7 @@ intro: Is A.I. Laughing at us?<br /> A conversation with Jessica Fjeld, Jon Orwa
 location: Cambridge, MA
 isFeatured: false
 isOngoing: false
-lastmod: "2021-09-16T09:49:44.261Z"
+lastmod: "2021-11-12T17:36:23.233Z"
 date: "2019-02-04T12:00:00Z"
 slug: is-a-i-laughing-at-us
 ---

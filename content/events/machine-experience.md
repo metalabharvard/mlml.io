@@ -13,7 +13,7 @@ start_time_locations:
     new_york: "2017-08-08T08:00:00-04:00"
     london: "2017-08-08T13:00:00+01:00"
     los_angeles: "2017-08-08T05:00:00-07:00"
-end_time: "2017-01-01T12:00:00.000Z"
+end_time: "2017-08-08T13:00:00.000Z"
 end_time_utc: 20170808T140000Z
 timezone: UTC
 tzid: UTC
@@ -21,7 +21,7 @@ intro: A one-week exhibition at the Harvard Art Museums’ Lightbox Gallery asks
 location: Cambridge, MA
 isFeatured: false
 isOngoing: false
-lastmod: "2021-11-10T12:31:38.388Z"
+lastmod: "2021-11-12T17:36:23.998Z"
 date: "2017-08-08T12:00:00Z"
 slug: machine-experience
 members:

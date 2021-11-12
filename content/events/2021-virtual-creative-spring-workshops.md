@@ -13,15 +13,16 @@ start_time_locations:
     new_york: "2021-06-06T08:00:00-04:00"
     london: "2021-06-06T13:00:00+01:00"
     los_angeles: "2021-06-06T05:00:00-07:00"
-end_time: "2021-01-01T12:00:00.000Z"
+end_time: "2021-06-06T13:00:00.000Z"
 end_time_utc: 20210606T140000Z
 timezone: UTC
 tzid: UTC
 intro: “Upcoming creative workshops exploring AI, time, and the future of communication”
 location: Online
+category: workshop
 isFeatured: false
 isOngoing: false
-lastmod: "2021-11-12T16:35:15.948Z"
+lastmod: "2021-11-12T17:36:23.890Z"
 date: "2021-06-06T12:00:00Z"
 slug: 2021-virtual-creative-spring-workshops
 members:

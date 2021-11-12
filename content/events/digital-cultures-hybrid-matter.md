@@ -13,14 +13,14 @@ start_time_locations:
     new_york: "2018-09-22T08:00:00-04:00"
     london: "2018-09-22T13:00:00+01:00"
     los_angeles: "2018-09-22T05:00:00-07:00"
-end_time: "2018-09-25T12:00:00.000Z"
+end_time: "2018-09-22T13:00:00.000Z"
 end_time_utc: 20180922T140000Z
 timezone: UTC
 tzid: UTC
 location: Warsaw, Poland
 isFeatured: false
 isOngoing: false
-lastmod: "2021-10-10T16:03:28.303Z"
+lastmod: "2021-11-12T17:36:23.886Z"
 date: "2018-09-22T12:00:00Z"
 slug: digital-cultures-hybrid-matter
 members:

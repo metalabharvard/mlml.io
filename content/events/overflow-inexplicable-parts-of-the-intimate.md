@@ -13,14 +13,14 @@ start_time_locations:
     new_york: "2019-01-19T07:00:00-05:00"
     london: "2019-01-19T12:00:00Z"
     los_angeles: "2019-01-19T04:00:00-08:00"
-end_time: "2019-02-03T12:00:00.000Z"
+end_time: "2019-01-19T13:00:00.000Z"
 end_time_utc: 20190119T140000Z
 timezone: UTC
 tzid: UTC
 location: Cambridge, MA
 isFeatured: false
 isOngoing: false
-lastmod: "2021-11-10T12:43:41.786Z"
+lastmod: "2021-11-12T17:36:24.005Z"
 date: "2019-01-19T12:00:00Z"
 slug: overflow-inexplicable-parts-of-the-intimate
 members:

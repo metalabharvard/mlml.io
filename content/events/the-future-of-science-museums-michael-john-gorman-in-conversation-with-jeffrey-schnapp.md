@@ -13,7 +13,7 @@ start_time_locations:
     new_york: "2020-12-10T07:00:00-05:00"
     london: "2020-12-10T12:00:00Z"
     los_angeles: "2020-12-10T04:00:00-08:00"
-end_time: "2020-01-01T12:00:00.000Z"
+end_time: "2020-12-10T13:00:00.000Z"
 end_time_utc: 20201210T140000Z
 timezone: UTC
 tzid: UTC
@@ -21,7 +21,7 @@ intro: Exploring the future of science museums with Michael John Gorman, founder
 location: Cambridge, MA
 isFeatured: false
 isOngoing: false
-lastmod: "2021-11-10T12:45:40.719Z"
+lastmod: "2021-11-12T17:36:23.927Z"
 date: "2020-12-10T12:00:00Z"
 slug: the-future-of-science-museums-michael-john-gorman-in-conversation-with-jeffrey-schnapp
 members:

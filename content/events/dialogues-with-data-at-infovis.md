@@ -13,7 +13,7 @@ start_time_locations:
     new_york: "2017-05-11T08:00:00-04:00"
     london: "2017-05-11T13:00:00+01:00"
     los_angeles: "2017-05-11T05:00:00-07:00"
-end_time: "2017-01-01T12:00:00.000Z"
+end_time: "2017-05-11T13:00:00.000Z"
 end_time_utc: 20170511T140000Z
 timezone: UTC
 tzid: UTC
@@ -21,7 +21,7 @@ intro: Multisensory Encounters with Objects, Texts, and Images
 location: Potsdam, Germany
 isFeatured: false
 isOngoing: false
-lastmod: "2021-10-10T16:06:17.622Z"
+lastmod: "2021-11-12T17:36:23.956Z"
 date: "2017-05-11T12:00:00Z"
 slug: dialogues-with-data-at-infovis
 members:

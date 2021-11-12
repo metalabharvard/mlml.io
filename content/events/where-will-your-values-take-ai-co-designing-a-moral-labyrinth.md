@@ -13,14 +13,14 @@ start_time_locations:
     new_york: "2019-06-14T08:00:00-04:00"
     london: "2019-06-14T13:00:00+01:00"
     los_angeles: "2019-06-14T05:00:00-07:00"
-end_time: "2019-01-01T12:00:00.000Z"
+end_time: "2019-06-14T13:00:00.000Z"
 end_time_utc: 20190614T140000Z
 timezone: UTC
 tzid: UTC
 location: Tunis, Tunisia
 isFeatured: false
 isOngoing: false
-lastmod: "2021-09-16T09:49:46.312Z"
+lastmod: "2021-11-12T17:36:23.299Z"
 date: "2019-06-14T12:00:00Z"
 slug: where-will-your-values-take-ai-co-designing-a-moral-labyrinth
 ---

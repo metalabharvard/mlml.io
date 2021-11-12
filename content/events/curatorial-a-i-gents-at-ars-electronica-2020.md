@@ -13,14 +13,15 @@ start_time_locations:
     new_york: "2020-09-11T06:00:00-04:00"
     london: "2020-09-11T11:00:00+01:00"
     los_angeles: "2020-09-11T03:00:00-07:00"
-end_time: "2020-09-11T12:00:00.000Z"
+end_time: "2020-09-11T11:00:00.000Z"
 end_time_utc: 20200911T120000Z
 timezone: UTC
 tzid: UTC
 location: Linz, Austria
+externalLink: https://ars.electronica.art/keplersgardens/en/
 isFeatured: false
 isOngoing: false
-lastmod: "2021-11-12T16:33:33.098Z"
+lastmod: "2021-11-12T17:36:23.937Z"
 date: "2020-09-11T10:00:00Z"
 slug: curatorial-a-i-gents-at-ars-electronica-2020
 members:

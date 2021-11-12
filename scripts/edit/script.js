@@ -2,15 +2,20 @@
 // This script goes through all projects, allows you to edit for example the description and pushes these edits to Strapi again.
 const axios = require('axios');
 
-const FOLDER = 'projects'; // Change this to projects, members or events.
+const FOLDER = 'events'; // Change this to projects, members or events.
+
+Date.prototype.addHours = function (h) {
+  this.setTime(this.getTime() + (h * 60 * 60 * 1000));
+  return this;
+}
 
 axios
   .get(`https://metalab-strapi.herokuapp.com/${FOLDER}/`)
   .then(res => {
     res.data.forEach(item => {
-      let { description, intro, id } = item;
-      if (intro) {
-        const old = intro
+      let { description, start_time, id } = item;
+      if (start_time) {
+        // const old = intro
         // Fix the formatting of bold links
         // https://regex101.com/r/MdtcRW/1
         // description = description.replace(/\[\*\*(.{2,}?)\*\*\]\((.{2,}?)\)/gm, "**[$1]($2)**");
@@ -29,21 +34,21 @@ axios
         // https://regex101.com/r/ToEPoI/2
         // description = description.replace(/\[(.{2,}?)\]\(https*:\/\/metalabharvard\.github\.io\/*\)/gm, '{{< link "" >}}$1{{< /link >}}')
 
-        intro = intro.replace(/&#43;/g, "+");
-        intro = intro.replace(/&#45;/g, "-");
-        intro = intro.replace(/&#39;/g, "’");
-        intro = intro.replace(/&#58;/g, ":");
-        intro = intro.replace(/&#8217;/g, "’");
-        intro = intro.replace(/&#47;/g, "/");
-        intro = intro.replace(/&#8220;/, "“");
-        intro = intro.replace(/&#8221;/, "”");
+        // intro = intro.replace(/&#43;/g, "+");
+        // intro = intro.replace(/&#45;/g, "-");
+        // intro = intro.replace(/&#39;/g, "’");
+        // intro = intro.replace(/&#58;/g, ":");
+        // intro = intro.replace(/&#8217;/g, "’");
+        // intro = intro.replace(/&#47;/g, "/");
+        // intro = intro.replace(/&#8220;/, "“");
+        // intro = intro.replace(/&#8221;/, "”");
 
-        intro = intro.replace(/&#38;/, "&");
-        intro = intro.replace("...", "…");
+        // intro = intro.replace(/&#38;/, "&");
+        // intro = intro.replace("...", "…");
 
-        intro = intro.replace("MAHINDRA TRANSMEDIA ARTS SEMINAR:", "Mahindra Transmedia Arts Seminar:");
-        intro = intro.replace("FUTUREFOOD", "Futurefood");
-        intro = intro.replace("MACHINE EXPERIENCE", "Machine Experience");
+        // intro = intro.replace("MAHINDRA TRANSMEDIA ARTS SEMINAR:", "Mahindra Transmedia Arts Seminar:");
+        // intro = intro.replace("FUTUREFOOD", "Futurefood");
+        // intro = intro.replace("MACHINE EXPERIENCE", "Machine Experience");
 
         // const parts = title.split(': ')
         // let subtitle = ''
@@ -51,9 +56,11 @@ axios
         //   title = parts[0].trim()
         //   subtitle = parts[1].trim()
         // }
-        if (intro !== old) {
-          axios.put(`https://metalab-strapi.herokuapp.com/${FOLDER}/${id}`, { intro })
-        }
+        const end_time = new Date(start_time).addHours(1)
+        axios.put(`https://metalab-strapi.herokuapp.com/${FOLDER}/${id}`, { end_time })
+        // if (intro !== old) {
+        //   axios.put(`https://metalab-strapi.herokuapp.com/${FOLDER}/${id}`, { intro })
+        // }
       }
     })
   })

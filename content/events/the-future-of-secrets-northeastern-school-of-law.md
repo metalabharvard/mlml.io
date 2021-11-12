@@ -13,7 +13,7 @@ start_time_locations:
     new_york: "2019-09-17T08:00:00-04:00"
     london: "2019-09-17T13:00:00+01:00"
     los_angeles: "2019-09-17T05:00:00-07:00"
-end_time: "2019-01-01T12:00:00.000Z"
+end_time: "2019-09-17T13:00:00.000Z"
 end_time_utc: 20190917T140000Z
 timezone: UTC
 tzid: UTC
@@ -21,7 +21,7 @@ intro: Are secrets uniquely human? Our private lives are mediated and recorded b
 location: Boston, MA
 isFeatured: false
 isOngoing: false
-lastmod: "2021-09-16T09:49:46.056Z"
+lastmod: "2021-11-12T17:36:23.224Z"
 date: "2019-09-17T12:00:00Z"
 slug: the-future-of-secrets-northeastern-school-of-law
 ---

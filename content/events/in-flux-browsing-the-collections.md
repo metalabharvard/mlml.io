@@ -13,7 +13,7 @@ start_time_locations:
     new_york: "2017-05-13T08:00:00-04:00"
     london: "2017-05-13T13:00:00+01:00"
     los_angeles: "2017-05-13T05:00:00-07:00"
-end_time: "2017-01-01T12:00:00.000Z"
+end_time: "2017-05-13T13:00:00.000Z"
 end_time_utc: 20170513T140000Z
 timezone: UTC
 tzid: UTC
@@ -21,7 +21,7 @@ intro: Practice-Based Research between Universities and Museums II
 location: Berlin, Germany
 isFeatured: false
 isOngoing: false
-lastmod: "2021-09-16T09:49:44.679Z"
+lastmod: "2021-11-12T17:36:23.822Z"
 date: "2017-05-13T12:00:00Z"
 slug: in-flux-browsing-the-collections
 ---

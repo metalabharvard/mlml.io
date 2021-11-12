@@ -13,14 +13,14 @@ start_time_locations:
     new_york: "2020-01-01T07:00:00-05:00"
     london: "2020-01-01T12:00:00Z"
     los_angeles: "2020-01-01T04:00:00-08:00"
-end_time: "2020-01-01T12:00:00.000Z"
+end_time: "2020-01-01T13:00:00.000Z"
 end_time_utc: 20200101T140000Z
 timezone: UTC
 tzid: UTC
 intro: I learned that questions are not indicative of incompleteness, but rather the questions themselves can be the practice.
 isFeatured: false
 isOngoing: false
-lastmod: "2021-09-16T09:49:45.064Z"
+lastmod: "2021-11-12T17:36:23.488Z"
 date: "2020-01-01T12:00:00Z"
 slug: workshops
 ---

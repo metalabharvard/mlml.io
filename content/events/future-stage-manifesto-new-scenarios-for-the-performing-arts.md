@@ -13,7 +13,7 @@ start_time_locations:
     new_york: "2021-11-19T17:00:00-05:00"
     london: "2021-11-19T22:00:00Z"
     los_angeles: "2021-11-19T14:00:00-08:00"
-end_time: "2021-11-19T23:30:00.000Z"
+end_time: "2021-11-19T23:00:00.000Z"
 end_time_utc: 20211120T000000Z
 timezone: UTC
 tzid: UTC
@@ -23,7 +23,7 @@ category: seminar
 externalLink: https://harvard.zoom.us/webinar/register/WN_RGRjIoXSQYq9qXMcsp4AXQ
 isFeatured: true
 isOngoing: false
-lastmod: "2021-11-10T13:08:28.775Z"
+lastmod: "2021-11-12T17:36:23.826Z"
 date: "2021-11-19T22:00:00Z"
 slug: future-stage-manifesto-new-scenarios-for-the-performing-arts
 members:

@@ -13,14 +13,14 @@ start_time_locations:
     new_york: "2017-09-28T08:00:00-04:00"
     london: "2017-09-28T13:00:00+01:00"
     los_angeles: "2017-09-28T05:00:00-07:00"
-end_time: "2017-01-01T12:00:00.000Z"
+end_time: "2017-09-28T13:00:00.000Z"
 end_time_utc: 20170928T140000Z
 timezone: UTC
 tzid: UTC
 location: Vassar College, Poughkeepsie, NY
 isFeatured: false
 isOngoing: false
-lastmod: "2021-09-16T09:49:44.261Z"
+lastmod: "2021-11-12T17:36:23.822Z"
 date: "2017-09-28T12:00:00Z"
 slug: blueprint-for-counter-education-at-vassar
 links:

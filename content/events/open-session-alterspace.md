@@ -13,14 +13,14 @@ start_time_locations:
     new_york: "2019-03-06T07:00:00-05:00"
     london: "2019-03-06T12:00:00Z"
     los_angeles: "2019-03-06T04:00:00-08:00"
-end_time: "2019-01-01T12:00:00.000Z"
+end_time: "2019-03-06T13:00:00.000Z"
 end_time_utc: 20190306T140000Z
 timezone: UTC
 tzid: UTC
 location: Cambridge, MA
 isFeatured: false
 isOngoing: false
-lastmod: "2021-11-10T12:43:12.400Z"
+lastmod: "2021-11-12T17:36:23.313Z"
 date: "2019-03-06T12:00:00Z"
 slug: open-session-alterspace
 ---

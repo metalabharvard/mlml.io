@@ -13,14 +13,14 @@ start_time_locations:
     new_york: "2018-03-06T07:00:00-05:00"
     london: "2018-03-06T12:00:00Z"
     los_angeles: "2018-03-06T04:00:00-08:00"
-end_time: "2018-01-01T12:00:00.000Z"
+end_time: "2018-03-06T13:00:00.000Z"
 end_time_utc: 20180306T140000Z
 timezone: UTC
 tzid: UTC
 location: Arts @ 29 Garden
 isFeatured: false
 isOngoing: false
-lastmod: "2021-10-10T16:12:31.796Z"
+lastmod: "2021-11-12T17:36:23.931Z"
 date: "2018-03-06T12:00:00Z"
 slug: meta-lab-friends-open-lab
 members:

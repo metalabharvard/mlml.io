@@ -13,14 +13,14 @@ start_time_locations:
     new_york: "2017-05-08T08:00:00-04:00"
     london: "2017-05-08T13:00:00+01:00"
     los_angeles: "2017-05-08T05:00:00-07:00"
-end_time: "2017-05-10T12:00:00.000Z"
+end_time: "2017-05-08T13:00:00.000Z"
 end_time_utc: 20170508T140000Z
 timezone: UTC
 tzid: UTC
 location: Berlin, Germany
 isFeatured: false
 isOngoing: false
-lastmod: "2021-11-10T12:40:15.627Z"
+lastmod: "2021-11-12T17:36:23.822Z"
 date: "2017-05-08T12:00:00Z"
 slug: if-by-water-at-re-publica-17
 members:

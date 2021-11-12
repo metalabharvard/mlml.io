@@ -13,7 +13,7 @@ start_time_locations:
     new_york: "2021-03-23T08:00:00-04:00"
     london: "2021-03-23T12:00:00Z"
     los_angeles: "2021-03-23T05:00:00-07:00"
-end_time: "2021-01-01T12:00:00.000Z"
+end_time: "2021-03-23T13:00:00.000Z"
 end_time_utc: 20210323T140000Z
 timezone: UTC
 tzid: UTC
@@ -21,7 +21,7 @@ intro: Theorizing the enhancements and constraints that gaming brings to theatre
 location: Cambridge, MA
 isFeatured: false
 isOngoing: false
-lastmod: "2021-11-12T11:05:57.662Z"
+lastmod: "2021-11-12T17:36:23.310Z"
 date: "2021-03-23T12:00:00Z"
 slug: mahindra-transmedia-arts-seminar-playable-theatre-on-gaming-and-aesthetic-control
 ---

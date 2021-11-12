@@ -13,14 +13,14 @@ start_time_locations:
     new_york: "2017-08-11T08:00:00-04:00"
     london: "2017-08-11T13:00:00+01:00"
     los_angeles: "2017-08-11T05:00:00-07:00"
-end_time: "2017-01-01T12:00:00.000Z"
+end_time: "2017-08-11T13:00:00.000Z"
 end_time_utc: 20170811T140000Z
 timezone: UTC
 tzid: UTC
 location: Cambridge, MA
 isFeatured: false
 isOngoing: false
-lastmod: "2021-10-10T16:03:46.721Z"
+lastmod: "2021-11-12T17:36:23.886Z"
 date: "2017-08-11T12:00:00Z"
 slug: color-rx
 members:
