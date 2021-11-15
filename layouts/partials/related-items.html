@@ -2,12 +2,13 @@
 {{ $label := .label }}
 {{ $class := .class }}
 {{ $root := .root }}
+{{ $path := cond (eq $class "member") "m" (cond (eq $class "event") "e" "p") }}
 {{ with .items }}
 <div {{ printf `class="related-%s"` ($class | pluralize) | safeHTMLAttr }}>
   <dt class="title">{{ $term }} {{ cond (eq (len .) 1) ($label) ($label | pluralize) }}</dt>
   <div {{ printf `class="related-%s-list"` ($class | pluralize) | safeHTMLAttr }} role="list">
     {{- range $key, $value := (sort . "label") -}}
-    <dd role="listitem" {{ if eq $class "member" }}{{ if eq $root "project" }}itemprop="author"{{ else if eq $root "event" }}itemprop="organizer"{{ end }} itemscope itemtype="https://schema.org/Person" itemid="http://viaf.org/viaf/17823"{{ end }}><a {{ printf `class="related-%s"` $class | safeHTMLAttr }} href="{{ $value.slug | absURL }}">
+    <dd role="listitem" {{ if eq $class "member" }}{{ if eq $root "project" }}itemprop="author"{{ else if eq $root "event" }}itemprop="organizer"{{ end }} itemscope itemtype="https://schema.org/Person" itemid="http://viaf.org/viaf/17823"{{ end }}><a {{ printf `class="related-%s"` $class | safeHTMLAttr }} href="{{ printf "%s/%s" $path $value.slug | absURL }}">
       {{- trim $value.label " " -}}
     </a></dd>
     {{- end -}}

@@ -50,9 +50,9 @@
   $: resultsTotalLength = resultsMembers.length + resultsEvents.length + resultsProjects.length
 
   $: resultsTotal = [
-    ['project', resultsProjects, 'Projects', 'label', 'intro', 'dateString', 0],
-    ['event', resultsEvents, 'Events', 'label', 'intro', 'date', resultsProjects.length],
-    ['member', resultsMembers, 'Members', 'label', 'role', false, resultsProjects.length + resultsEvents.length]
+    ['project', resultsProjects, 'Projects', 'label', 'intro', 'dateString', 0, 'p'],
+    ['event', resultsEvents, 'Events', 'label', 'intro', 'date', resultsProjects.length, 'e'],
+    ['member', resultsMembers, 'Members', 'label', 'role', false, resultsProjects.length + resultsEvents.length, 'm']
   ]
 
   function handleInput () {
@@ -197,7 +197,7 @@
 
 <div class="search-results grid" class:hasTerm={hasTerm} bind:this={results}>
   <div class="grid-wide">
-    {#each resultsTotal as [id, results, noun, title, subtitle, footer, index]}
+    {#each resultsTotal as [id, results, noun, title, subtitle, footer, index, path]}
     {#if results.length}
     <section>
       <h2 id="{`results-${id}`}" aria-label={`Search results for ${noun}`}>{ noun } <small class="search-result-counter">{ results.length }</small></h2>
@@ -205,7 +205,7 @@
         {#each results as result, i}
         <a
           role="article"
-          href="/{ get(result, 'id') }"
+          href="/{ path }/{ get(result, 'id') }"
           aria-posinset="{ i + 1 }"
           aria-setsize="{ results.length }"
           tabindex="0"

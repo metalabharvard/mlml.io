@@ -1,5 +1,5 @@
 <li role="listitem" {{ printf "data-id=%q" .member.Slug | safeHTMLAttr }}>
-  <a href="{{ .member.Slug | absURL }}" class="member-preview vcard">
+  <a href="{{ printf "m/%s" .member.Slug | absURL }}" class="member-preview vcard">
     {{ $name := .member.Params.Name }}
     {{ $defaultLabel := .defaultLabel }}
     {{ with .member.Params.Picture -}}

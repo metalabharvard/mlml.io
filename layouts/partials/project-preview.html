@@ -1,5 +1,5 @@
 <li class="project-preview h-entry" role="listitem" {{ printf "data-id=%q" .project.Slug | safeHTMLAttr }}>
-  <a href="{{ .project.Slug | absURL }}" class="u-url u-uid preview-link {{ if .project.Params.cover.url }}hasImage{{ end }}">
+  <a href="{{ printf "p/%s" .project.Slug | absURL }}" class="u-url u-uid preview-link {{ if .project.Params.cover.url }}hasImage{{ end }}">
     {{ with .project.Params.cover.url }}
     <img {{ printf "src=%q" . | safeHTMLAttr }} class="preview-image" />
     {{ end }}

@@ -15,10 +15,9 @@ disableKinds = ["taxonomyTerm"]
   maxNumberFeatures = 5
 
 [permalinks]
-  projects = "/:slug/"
-  members = "/:slug/"
-  events = "/:slug/"
-  alumni = "/:slug/"
+  projects = "/p/:slug/"
+  members = "/m/:slug/"
+  events = "/e/:slug/"
 
 [markup.goldmark.renderer]
   hardWraps = true
