@@ -53,7 +53,8 @@
       {{- end -}}
     {{- end -}}
   {{- end -}}
-  {{- $eventsScratch.Add "events" (dict "label" $element.Title "location" $element.Params.Location "intro" (htmlUnescape ($element.Params.Intro | markdownify)) "date" (dateFormat "2 January 2006" $element.Params.Start_time) "members" ($relatedItems.Get "members") "events" ($relatedItems.Get "events") "projects" ($relatedItems.Get "projects") "links" ($relatedItems.Get "links") "collaborators" ($relatedItems.Get "collaborators") "id" $element.Slug) -}}
+  {{ $subtitle := cond (isset $element.Params "subtitle") (index $element.Params "subtitle") "" }}
+  {{- $eventsScratch.Add "events" (dict "label" $element.Title "subtitle" $subtitle "location" $element.Params.Location "intro" (htmlUnescape ($element.Params.Intro | markdownify)) "date" (dateFormat "2 January 2006" $element.Params.Start_time) "members" ($relatedItems.Get "members") "events" ($relatedItems.Get "events") "projects" ($relatedItems.Get "projects") "links" ($relatedItems.Get "links") "collaborators" ($relatedItems.Get "collaborators") "id" $element.Slug) -}}
 {{- end -}}
 
 {{ $projectsScratch := newScratch }}
@@ -93,7 +94,8 @@
       {{- end -}}
     {{- end -}}
   {{- end -}}
-  {{- $projectsScratch.Add "projects" (dict "label" $element.Title "intro" (htmlUnescape ($element.Params.Intro | markdownify)) "location" $element.Params.Location "date" (dateFormat "2 January 2006" $element.Params.Start) "dateString" (htmlUnescape $element.Params.DateString) "members" ($relatedItems.Get "members") "events" ($relatedItems.Get "events") "projects" ($relatedItems.Get "projects") "links" ($relatedItems.Get "links") "collaborators" ($relatedItems.Get "collaborators") "id" $element.Slug) -}}
+  {{ $subtitle := cond (isset $element.Params "subtitle") (index $element.Params "subtitle") "" }}
+  {{- $projectsScratch.Add "projects" (dict "label" $element.Title "subtitle" $subtitle "intro" (htmlUnescape ($element.Params.Intro | markdownify)) "location" $element.Params.Location "date" (dateFormat "2 January 2006" $element.Params.Start) "dateString" (htmlUnescape $element.Params.DateString) "members" ($relatedItems.Get "members") "events" ($relatedItems.Get "events") "projects" ($relatedItems.Get "projects") "links" ($relatedItems.Get "links") "collaborators" ($relatedItems.Get "collaborators") "id" $element.Slug) -}}
 {{- end -}}
 
 {{ $content := newScratch }}
