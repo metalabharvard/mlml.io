@@ -15,6 +15,12 @@ externalLink: ""
 lastmod: "2021-11-10T12:47:53.541Z"
 date: "2019-01-01"
 slug: ai-art-at-meta-lab
+members:
+    - label: Jonathan Sun
+      slug: jonathan-sun
+      twitter: jonnysun
+members_twitter:
+    - jonnysun
 
 ---
 **> > > [Download the metaLAB AI + Art Overview, 2017-2019](../../assets/projects/aiandart/metaLAB_AI+Art_Report2017-19.pdf)**

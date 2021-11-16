@@ -23,12 +23,18 @@ isOngoing: false
 lastmod: "2021-11-12T17:53:05.772Z"
 date: "2018-09-06T12:00:00Z"
 slug: ars-electronica
+members:
+    - label: Eveline Wandl-Vogt
+      slug: eveline-wandl-vogt
+      twitter: caissarl
 projects:
     - label: Distinction Machine
       slug: distinction-machine
 links:
     - label: The 2018 Ars Electronica Festival
       url: https://ars.electronica.art/press/en/2018/04/12/ars-electronica-festival-2018/
+members_twitter:
+    - caissarl
 ---
 Ars Electronica, held in Linz, Austria, is one of the world’s largest festivals for art, technology, and society. This year’s theme is "Error—The Art of Imperfection," and it takes place from September 6-10, 2018. MetaLAB at Harvard will have a significant presence at the festival, with four of its members exhibiting their current projects.
 

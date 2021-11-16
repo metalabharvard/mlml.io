@@ -1,11 +1,14 @@
 ---
 name: Oliver Luo
 title: Oliver Luo
+roles:
+    - role: Researcher
+      position: 6
 isAlumnus: true
 role_string: Alumnus
 website: http://oliverluo.com/
 instagram: lorolivier
-lastmod: "2021-11-02T18:30:19.759Z"
+lastmod: "2021-11-15T15:48:28.235Z"
 date: "2021-09-16T10:51:45.316Z"
 slug: oliver-luo
 projects:

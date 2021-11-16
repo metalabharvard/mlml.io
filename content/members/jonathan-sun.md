@@ -1,17 +1,23 @@
 ---
 name: Jonathan Sun
 title: Jonathan Sun
+roles:
+    - role: Affiliate
+      position: 4
 isAlumnus: true
 role_string: Alumnus
 twitter: jonnysun
 website: http://jomnysun.com/
 instagram: jomnysun
-lastmod: "2021-11-02T18:30:38.425Z"
+lastmod: "2021-11-15T15:48:13.173Z"
 date: "2021-09-16T10:51:44.686Z"
 slug: jonathan-sun
 events:
     - label: Machine Experience
       slug: machine-experience
+projects:
+    - label: AI + Art at metaLAB
+      slug: ai-art-at-meta-lab
 picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122125/jonathan_2a654b1e92.jpg
     width: 850

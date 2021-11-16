@@ -20,6 +20,10 @@ links:
       url: https://metalabharvard.github.io/beautifuldata/2014/publications.html
     - label: Beautiful Data II
       url: https://metalabharvard.github.io/beautifuldata/2015/
+members:
+    - label: Marshall Lambert
+      slug: marshall-lambert
+      twitter: ""
 
 ---
 These publications serve as entry points to engagement with both the material and the modes of inquiry that shaped the Beautiful Data workshop. 

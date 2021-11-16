@@ -1,15 +1,21 @@
 ---
 name: Eveline Wandl-Vogt
 title: Eveline Wandl-Vogt
+roles:
+    - role: Affiliate
+      position: 4
 isAlumnus: false
-rank: 9.999
+rank: 4.999
+role_string: Affiliate
 twitter: caissarl
 website: http://www.oeaw.ac.at/acdh/team/current-team/eveline-wandl-vogt/
 instagram: caisserl
-lastmod: "2021-11-02T18:36:10.739Z"
+lastmod: "2021-11-15T15:49:05.708Z"
 date: "2021-09-16T10:51:44.648Z"
 slug: eveline-wandl-vogt
 events:
+    - label: Ars Electronica
+      slug: ars-electronica
     - label: Curatorial A(i)gents at  Ars Electronica 2020
       slug: curatorial-a-i-gents-at-ars-electronica-2020
 projects:
