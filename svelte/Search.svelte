@@ -35,23 +35,23 @@
 
   const searchProjects = new MiniSearch({
     idField,
-    storeFields: [idField, 'intro', 'label', 'dateString'],
-    fields: ['label', 'intro', 'links', 'members', 'projects', 'events', 'location', 'dateString', 'collaborators'],
+    storeFields: [idField, 'label', 'dateString', 'subtitle'],
+    fields: ['label', 'intro', 'links', 'members', 'projects', 'events', 'location', 'dateString', 'collaborators', 'subtitle'],
     searchOptions
   });
 
   const searchEvents = new MiniSearch({
     idField,
-    storeFields: [idField, 'intro', 'label', 'date'],
-    fields: ['label', 'intro', 'links', 'members', 'projects', 'events', 'location', 'date', 'collaborators'],
+    storeFields: [idField, 'label', 'date', 'subtitle'],
+    fields: ['label', 'intro', 'links', 'members', 'projects', 'events', 'location', 'date', 'collaborators', 'subtitle'],
     searchOptions
   });
 
   $: resultsTotalLength = resultsMembers.length + resultsEvents.length + resultsProjects.length
 
   $: resultsTotal = [
-    ['project', resultsProjects, 'Projects', 'label', 'intro', 'dateString', 0, 'p'],
-    ['event', resultsEvents, 'Events', 'label', 'intro', 'date', resultsProjects.length, 'e'],
+    ['project', resultsProjects, 'Projects', 'label', 'subtitle', 'dateString', 0, 'p'],
+    ['event', resultsEvents, 'Events', 'label', 'subtitle', 'date', resultsProjects.length, 'e'],
     ['member', resultsMembers, 'Members', 'label', 'role', false, resultsProjects.length + resultsEvents.length, 'm']
   ]
 
