@@ -339,6 +339,14 @@ ul {
 //   }
 // }
 
+.homepage-about {
+  blockquote {
+    margin: var(--spacing-1) 0;
+    padding-left: var(--spacing-1);
+    @include gradient-border-left(var(--gradient-border-width));
+  }
+}
+
 .homepage-member {
   .member-name {
     font-size: var(--size-1);
