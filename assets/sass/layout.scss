@@ -991,7 +991,8 @@ picture, img {
   .event-header-bar, .project-header-bar {
     display: grid;
     margin-top: var(--spacing-1);
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 3fr 2fr;
+    align-items: end;
 
     .project-link, .event-link {
       grid-column-start: 2;
