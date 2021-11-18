@@ -140,6 +140,7 @@
   }
 
   function handleTriggerClick () {
+    console.log(isOpen)
     if (isOpen) {
       closeSearch();
     } else {

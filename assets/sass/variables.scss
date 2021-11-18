@@ -11,17 +11,19 @@ $medium:				900px !default;
 $wide:        	1200px !default;
 $extra-wide:    1700px !default;
 
+$header-mobile-height: 100px;
+
 $z-index-gallery: 1;
 $z-index-btn: 2;
 $z-index-counter: 3;
 
-$z-index-page-menu: 12;
-$z-index-page-menu-list: 12;
-$z-index-page-menu-trigger: 13;
-$z-index-page-search: 12;
+$z-index-page-menu: 14;
+$z-index-page-menu-list: 14;
+$z-index-page-menu-trigger: 15;
+$z-index-page-search: 13;
 $z-index-page-search-trigger: 13;
 $z-index-search-input: 999;
-$z-index-search-results: 999;
+$z-index-search-results: 11;
 
 $z-index-header-items: 1;
 $z-index-header-items-after: 0;

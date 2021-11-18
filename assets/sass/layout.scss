@@ -134,13 +134,14 @@ picture img {
   width: 100vw;
   display: grid;
   grid-template-columns: 1fr repeat(2, calc(var(--size-wrapper) / 2)) 1fr;
-  height: var(--header-height);
+  height: $header-mobile-height;
   @include gradient-border-bottom(var(--gradient-border-width));
 
   @include query($medium) {
     border-bottom: 0;
     width: 100vw;
     grid-template-columns: 1fr calc(var(--size-column) * 8 + var(--size-gap) * 7) 1fr;
+    height: var(--header-height);
   }
 
   @media print {
@@ -220,6 +221,7 @@ picture img {
     left: 0;
     background-color: transparent;
     z-index: $z-index-page-search;
+    // width: 100%;
 
     @include query($medium) {
       background-color: var(--color-bg);
@@ -232,11 +234,12 @@ picture img {
       bottom: var(--spacing-2);
       right: auto;
       top: auto;
+      height: 100vh;
       background-color: var(--color-bg);
       border-radius: 50%;
       width: var(--trigger-size);
       height: var(--trigger-size);
-      border: 1px solid red;
+      border: var(--trigger-button);
       z-index: $z-index-page-search-trigger;
 
       @include query($medium) {
@@ -259,19 +262,32 @@ picture img {
 
     #page-search-input {
       position: absolute;
-      right: 100%;
+      right: 0;
+      top: 0;
       transition: width 0.3s ease, border-bottom-color 0.3s ease;
-      width: 0;
       border: none;
-      height: calc(100% + 2px);
+      height: $header-mobile-height;
       outline: none;
       border-bottom: 1px solid var(--color-border);
-      border-left: 1px solid var(--color-border);
       z-index: $z-index-search-input;
       text-indent: var(--spacing-1);
+      width: 100vw;
+      transform: translateX(0);
+      transition: transform var(--transition) ease;
+
+      @include query($medium) {
+        right: 100%;
+        height: calc(100% + 2px);
+        width: 0;
+        border-left: 1px solid var(--color-border);
+      }
 
       &:focus, &.hasTerm {
-        width: calc(var(--size-column) * 8 + var(--size-gap) * 7 + 1px);
+        transform: translateX(100vw);
+
+        @include query($medium) {
+          width: calc(var(--size-column) * 8 + var(--size-gap) * 7 + 1px);
+        }
       }
 
       &::-webkit-search-decoration,
@@ -289,7 +305,7 @@ picture img {
       width: 100vw;
       height: calc(100vh - var(--header-height) - 1px);
       right: 0;
-      top: calc(100% + 1px);
+      top: $header-mobile-height; // calc(100% + 1px);
       opacity: 0;
       pointer-events: none;
       transition: opacity 0.3s ease;
@@ -297,6 +313,7 @@ picture img {
       overflow-y: auto;
 
       &.hasTerm {
+        transform: translateX(100vw);
         opacity: 1;
         pointer-events: all;
       }
@@ -398,7 +415,7 @@ picture img {
     border-radius: 50%;
     width: var(--spacing-6);
     height: var(--spacing-6);
-    border: 1px solid red;
+    border: var(--trigger-button);
     z-index: $z-index-page-menu-trigger;
 
     &[aria-pressed=true] {
