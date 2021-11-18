@@ -1,4 +1,3 @@
-baseURL = "https://metalab.netlify.app/"
 languageCode = "en-us"
 uglyURLs = true
 theme = ["hugo-cloak-email"]

@@ -42,7 +42,10 @@
    "memberAlumnus": "Alumnus",
    "ariaTimezoneBoston": "Click to change timezone to Boston",
    "ariaTimezoneBerlin": "Click to change timezone to Berlin",
+   "timezoneBostonAbbr": "EDT",
+   "timezoneBerlinAbbr": "CEST",
    "ariaProfilePicture": "Profile picture of %s",
+   "ariaGeneralPicture": "Picture of %s",
    "externalProject": "Visit project",
    "externalEvent": "Visit event",
    "defaultMediation": "Mixed Media",
@@ -57,7 +60,8 @@
   },
   "Images": [
    "https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1636557077/preview_Zeichenflaeche_1_255ffe8aba.png"
-  ]
+  ],
+  "maxNumberFeaturedProjects": 5
  },
  "social": {
   "twitter": "metalabharvard",

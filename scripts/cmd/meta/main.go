@@ -71,7 +71,10 @@ type Meta struct {
   MemberAlumnus string `json:"memberAlumnus"`
   AriaTimezoneBoston string `json:"ariaTimezoneBoston"`
   AriaTimezoneBerlin string `json:"ariaTimezoneBerlin"`
+  TimezoneBostonAbbr string `json:"timezoneBostonAbbr"`
+  TimezoneBerlinAbbr string `json:"timezoneBerlinAbbr"`
   AriaProfilePicture string `json:"ariaProfilePicture"`
+  AriaGeneralPicture string `json:"ariaGeneralPicture"`
   ExternalProject string `json:"externalProject"`
   ExternalEvent string `json:"externalEvent"`
   DefaultMediation string `json:"defaultMediation"`
@@ -85,6 +88,7 @@ type Meta struct {
   PagePublishedFormat string `json:"pagePublishedFormat"`
   SiteEditedText string `json:"siteEditedText"`
   SiteEditedFormat string `json:"siteEditedFormat"`
+  MaxNumberFeaturedProjects int `json:"maxNumberFeaturedProjects"`
 }
 
 type Params struct {
@@ -93,6 +97,7 @@ type Params struct {
   Keywords string `json:"keywords,omitempty"`
   Label Label `json:"label"`
   Images []string `yaml:"images,omitempty"`
+  MaxNumberFeaturedProjects int `json:"maxNumberFeaturedProjects"`
 }
 
 type Social struct {
@@ -145,7 +150,10 @@ type Label struct {
   MemberAlumnus string `json:"memberAlumnus"`
   AriaTimezoneBoston string `json:"ariaTimezoneBoston"`
   AriaTimezoneBerlin string `json:"ariaTimezoneBerlin"`
+  TimezoneBostonAbbr string `json:"timezoneBostonAbbr"`
+  TimezoneBerlinAbbr string `json:"timezoneBerlinAbbr"`
   AriaProfilePicture string `json:"ariaProfilePicture"`
+  AriaGeneralPicture string `json:"ariaGeneralPicture"`
   ExternalProject string `json:"externalProject"`
   ExternalEvent string `json:"externalEvent"`
   DefaultMediation string `json:"defaultMediation"`
@@ -214,6 +222,7 @@ func main() {
       Title: responseObject.Title,
       Description: responseObject.Description,
       Keywords: responseObject.Keywords,
+      MaxNumberFeaturedProjects: responseObject.MaxNumberFeaturedProjects,
       Label: Label{
         ErrorTitle: responseObject.ErrorTitle,
         ErrorText: responseObject.ErrorText,
@@ -252,7 +261,10 @@ func main() {
         MemberAlumnus: responseObject.MemberAlumnus,
         AriaTimezoneBoston: responseObject.AriaTimezoneBoston,
         AriaTimezoneBerlin: responseObject.AriaTimezoneBerlin,
+        TimezoneBostonAbbr: responseObject.TimezoneBostonAbbr,
+        TimezoneBerlinAbbr: responseObject.TimezoneBerlinAbbr,
         AriaProfilePicture: responseObject.AriaProfilePicture,
+        AriaGeneralPicture: responseObject.AriaGeneralPicture,
         ExternalProject: responseObject.ExternalProject,
         ExternalEvent: responseObject.ExternalEvent,
         DefaultMediation: responseObject.DefaultMediation,
