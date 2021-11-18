@@ -17,7 +17,7 @@
 
   --color-fg: var(--color-text);
   --color-bg: var(--color-white);
-  --color-bg-secondary: #000;
+  --color-bg-secondary: #000; // This is the background-color of the menu items
 
   --color-text-invert: var(--color-white);
 
@@ -79,7 +79,11 @@ html {
   font-kerning: normal;
   font-variant-ligatures: contextual common-ligatures;
   font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1;
-  background-color: var(--color-bg-secondary);
+  background-color: var(--color-bg);
+
+  @include query($medium) {
+    background-color: var(--color-bg-secondary); // This is used for the case when the user scroll »out« of the website at the top or bottom of the page
+  }
 }
 
 body {
