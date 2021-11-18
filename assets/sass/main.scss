@@ -41,6 +41,7 @@
   --font-size-l: min(max(1.3rem, 16px), 27px);
 
   --gradient-border-width: 2px;
+  --gradient-border-width-secondary: 1.5px;
 
   --outline-spacing-high: 10px;
   --trigger-button: 1px solid var(--color-bg-secondary);
@@ -60,6 +61,7 @@
 @include query($medium) {
   :root {
     --gradient-border-width: 3px;
+    --gradient-border-width-secondary: 2px;
   }
 }
 
