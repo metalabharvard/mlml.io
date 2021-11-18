@@ -6,24 +6,25 @@ status: ""
 outputs:
     - HTML
     - Calendar
-start_time: "2021-04-15T12:00:00Z"
+timezone: Boston
+start_time: "2021-04-15T12:00:00-04:00"
+end_time: "2021-04-15T13:00:00-04:00"
 start_time_utc: 20210415T120000Z
+end_time_utc: 20210415T130000Z
 start_time_locations:
-    berlin: "2021-04-15T14:00:00+02:00"
-    new_york: "2021-04-15T08:00:00-04:00"
-    london: "2021-04-15T13:00:00+01:00"
-    los_angeles: "2021-04-15T05:00:00-07:00"
-end_time: "2021-04-15T13:00:00.000Z"
-end_time_utc: 20210415T140000Z
-timezone: UTC
-tzid: UTC
+    berlin: "2021-04-15T18:00:00+02:00"
+    boston: "2021-04-15T12:00:00-04:00"
+end_time_locations:
+    berlin: "2021-04-15T19:00:00+02:00"
+    boston: "2021-04-15T13:00:00-04:00"
+tzid: America/Boston
 intro: How mechanized animals might produce a disturbance that provokes possibility.
 location: Cambridge, MA
 category: seminar
 isFeatured: false
 isOngoing: false
 lastmod: "2021-11-12T18:01:27.829Z"
-date: "2021-04-15T12:00:00Z"
+date: "2021-04-15T12:00:00-04:00"
 slug: jenn-parker-starbuck-animals-in-the-machine
 events:
     - label: 2018 LITA Library Technology Forum

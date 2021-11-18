@@ -6,22 +6,23 @@ status: ""
 outputs:
     - HTML
     - Calendar
-start_time: "2017-05-09T12:00:00Z"
+timezone: Boston
+start_time: "2017-05-09T12:00:00-04:00"
+end_time: "2017-05-09T13:00:00-04:00"
 start_time_utc: 20170509T120000Z
+end_time_utc: 20170509T130000Z
 start_time_locations:
-    berlin: "2017-05-09T14:00:00+02:00"
-    new_york: "2017-05-09T08:00:00-04:00"
-    london: "2017-05-09T13:00:00+01:00"
-    los_angeles: "2017-05-09T05:00:00-07:00"
-end_time: "2017-05-09T13:00:00.000Z"
-end_time_utc: 20170509T140000Z
-timezone: UTC
-tzid: UTC
+    berlin: "2017-05-09T18:00:00+02:00"
+    boston: "2017-05-09T12:00:00-04:00"
+end_time_locations:
+    berlin: "2017-05-09T19:00:00+02:00"
+    boston: "2017-05-09T13:00:00-04:00"
+tzid: America/Boston
 location: Berlin, Germany
 isFeatured: false
 isOngoing: false
 lastmod: "2021-11-12T17:36:23.533Z"
-date: "2017-05-09T12:00:00Z"
+date: "2017-05-09T12:00:00-04:00"
 slug: the-presence-of-secrets-at-re-publica-17
 ---
 <a href="https://re-publica.com/en/17/session/presence-secrets" target="_blank">re:publica 2017 installation website</a>

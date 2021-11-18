@@ -6,22 +6,23 @@ status: ""
 outputs:
     - HTML
     - Calendar
-start_time: "2020-01-01T12:00:00Z"
+timezone: Boston
+start_time: "2020-01-01T12:00:00-04:00"
+end_time: "2020-01-01T13:00:00-04:00"
 start_time_utc: 20200101T120000Z
+end_time_utc: 20200101T130000Z
 start_time_locations:
-    berlin: "2020-01-01T13:00:00+01:00"
-    new_york: "2020-01-01T07:00:00-05:00"
-    london: "2020-01-01T12:00:00Z"
-    los_angeles: "2020-01-01T04:00:00-08:00"
-end_time: "2020-01-01T13:00:00.000Z"
-end_time_utc: 20200101T140000Z
-timezone: UTC
-tzid: UTC
+    berlin: "2020-01-01T17:00:00+01:00"
+    boston: "2020-01-01T11:00:00-05:00"
+end_time_locations:
+    berlin: "2020-01-01T18:00:00+01:00"
+    boston: "2020-01-01T12:00:00-05:00"
+tzid: America/Boston
 intro: I learned that questions are not indicative of incompleteness, but rather the questions themselves can be the practice.
 isFeatured: false
 isOngoing: false
 lastmod: "2021-11-12T17:36:23.488Z"
-date: "2020-01-01T12:00:00Z"
+date: "2020-01-01T12:00:00-04:00"
 slug: workshops
 ---
 <iframe src="https://player.vimeo.com/video/473445114" width="100%" height="300" frameborder="0"></iframe>

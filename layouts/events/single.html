@@ -17,27 +17,23 @@
             <button class="event-timezone btn-tab" role="tab" aria-controls="panel-berlin" id="tab-berlin" aria-selected="false" tabindex="-1" title="{{ .Site.Params.Label.AriaTimezoneBerlin }}">{{ .Site.Params.Label.label_timezone_berlin }}</button>
           </nav>
           <div class="timezone-content">
-            <time
+            <span
               class="event-time"
               role="tabpanel"
               id="panel-boston"
               tabindex="0"
-              aria-labelledby="tab-boston"
-              property="startDate"
-              content="{{ dateFormat "2006-01-02T15:04:05-0700" .Params.Start_time_locations.New_York }}"
-              datetime="{{ dateFormat "2006-01-02T15:04:05-0700" .Params.Start_time_locations.New_York }}">
-              {{- (dateFormat "Monday, 2 January 2006 3:04&thinsp;pm" .Params.Start_time_locations.New_York) | safeHTML }} {{ .Site.Params.Label.timezoneBostonAbbr }}</time>
-            <time
+              aria-labelledby="tab-boston">
+              {{ partial "span-eventspan.html" (dict "start" .Params.Start_time_locations.Boston "end" .Params.End_time_locations.Boston "tz" .Site.Params.Label.timezoneBostonAbbr) }}
+            </span>
+            <span
               class="event-time"
               role="tabpanel"
               id="panel-berlin"
               tabindex="-1"
               aria-labelledby="tab-berlin"
-              hidden
-              property="startDate"
-              content="{{ dateFormat "2006-01-02T15:04:05-0700" .Params.Start_time_locations.Berlin }}"
-              datetime="{{ dateFormat "2006-01-02T15:04:05-0700" .Params.Start_time_locations.Berlin }}">
-              {{- (dateFormat "Monday, 2 January 2006 3:04&thinsp;pm" .Params.Start_time_locations.Berlin) | safeHTML }} {{ .Site.Params.Label.timezoneBerlinAbbr }}</time>
+              hidden>
+              {{ partial "span-eventspan.html" (dict "start" .Params.Start_time_locations.Berlin "end" .Params.End_time_locations.Berlin "tz" .Site.Params.Label.timezoneBerlinAbbr) }}
+            </span>
           </div>
         </div>
         {{ end }}
@@ -81,7 +77,7 @@
     </div>
     {{ end }}
     <aside class="event-share grid-narrow-right-aside">
-      {{ partial "icon-calendar.html" (dict "url" ((printf `%s.ics` .Slug) | absURL) "title" .Site.Params.Label.SocialYouTubeTitle) }}
+      {{ if .Params.Start_time }}{{ partial "icon-calendar.html" (dict "url" ((printf `/e/%s.ics` .Slug) | absURL) "title" .Site.Params.Label.SocialYouTubeTitle) }}{{ end }}
       {{ partial "share-twitter.html" (dict "url" .Permalink "text" .Params.Fulltitle "via" .Site.Social.twitter) }}
       {{ partial "share-facebook.html" (dict "url" .Permalink "text" .Params.Fulltitle) }}
     </aside>

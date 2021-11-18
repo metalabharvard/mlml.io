@@ -6,23 +6,24 @@ status: ""
 outputs:
     - HTML
     - Calendar
-start_time: "2020-10-08T12:00:00Z"
+timezone: Boston
+start_time: "2020-10-08T12:00:00-04:00"
+end_time: "2020-10-08T13:00:00-04:00"
 start_time_utc: 20201008T120000Z
+end_time_utc: 20201008T130000Z
 start_time_locations:
-    berlin: "2020-10-08T14:00:00+02:00"
-    new_york: "2020-10-08T08:00:00-04:00"
-    london: "2020-10-08T13:00:00+01:00"
-    los_angeles: "2020-10-08T05:00:00-07:00"
-end_time: "2020-10-08T13:00:00.000Z"
-end_time_utc: 20201008T140000Z
-timezone: UTC
-tzid: UTC
+    berlin: "2020-10-08T18:00:00+02:00"
+    boston: "2020-10-08T12:00:00-04:00"
+end_time_locations:
+    berlin: "2020-10-08T19:00:00+02:00"
+    boston: "2020-10-08T13:00:00-04:00"
+tzid: America/Boston
 intro: Celebrating the arrival of two books that question hidden assumptions about ability, the body, and roles for design and technology in defining shared worlds.
 location: Cambridge, MA
 isFeatured: false
 isOngoing: false
 lastmod: "2021-11-12T17:51:13.221Z"
-date: "2020-10-08T12:00:00Z"
+date: "2020-10-08T12:00:00-04:00"
 slug: every-body
 ---
 **ONLINE<br />

@@ -6,22 +6,23 @@ status: ""
 outputs:
     - HTML
     - Calendar
-start_time: "2018-09-22T12:00:00Z"
+timezone: Boston
+start_time: "2018-09-22T12:00:00-04:00"
+end_time: "2018-09-22T13:00:00-04:00"
 start_time_utc: 20180922T120000Z
+end_time_utc: 20180922T130000Z
 start_time_locations:
-    berlin: "2018-09-22T14:00:00+02:00"
-    new_york: "2018-09-22T08:00:00-04:00"
-    london: "2018-09-22T13:00:00+01:00"
-    los_angeles: "2018-09-22T05:00:00-07:00"
-end_time: "2018-09-22T13:00:00.000Z"
-end_time_utc: 20180922T140000Z
-timezone: UTC
-tzid: UTC
+    berlin: "2018-09-22T18:00:00+02:00"
+    boston: "2018-09-22T12:00:00-04:00"
+end_time_locations:
+    berlin: "2018-09-22T19:00:00+02:00"
+    boston: "2018-09-22T13:00:00-04:00"
+tzid: America/Boston
 location: Warsaw, Poland
 isFeatured: false
 isOngoing: false
 lastmod: "2021-11-12T17:36:23.886Z"
-date: "2018-09-22T12:00:00Z"
+date: "2018-09-22T12:00:00-04:00"
 slug: digital-cultures-hybrid-matter
 members:
     - label: Kim Albrecht

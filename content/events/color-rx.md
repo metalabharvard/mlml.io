@@ -6,22 +6,23 @@ status: ""
 outputs:
     - HTML
     - Calendar
-start_time: "2017-08-11T12:00:00Z"
+timezone: Boston
+start_time: "2017-08-11T12:00:00-04:00"
+end_time: "2017-08-11T13:00:00-04:00"
 start_time_utc: 20170811T120000Z
+end_time_utc: 20170811T130000Z
 start_time_locations:
-    berlin: "2017-08-11T14:00:00+02:00"
-    new_york: "2017-08-11T08:00:00-04:00"
-    london: "2017-08-11T13:00:00+01:00"
-    los_angeles: "2017-08-11T05:00:00-07:00"
-end_time: "2017-08-11T13:00:00.000Z"
-end_time_utc: 20170811T140000Z
-timezone: UTC
-tzid: UTC
+    berlin: "2017-08-11T18:00:00+02:00"
+    boston: "2017-08-11T12:00:00-04:00"
+end_time_locations:
+    berlin: "2017-08-11T19:00:00+02:00"
+    boston: "2017-08-11T13:00:00-04:00"
+tzid: America/Boston
 location: Cambridge, MA
 isFeatured: false
 isOngoing: false
 lastmod: "2021-11-12T17:36:23.886Z"
-date: "2017-08-11T12:00:00Z"
+date: "2017-08-11T12:00:00-04:00"
 slug: color-rx
 members:
     - label: Maia Suazo-Maler

@@ -6,21 +6,22 @@ status: ""
 outputs:
     - HTML
     - Calendar
-start_time: "2017-01-01T12:00:00Z"
+timezone: Boston
+start_time: "2017-01-01T12:00:00-04:00"
+end_time: "2017-01-01T13:00:00-04:00"
 start_time_utc: 20170101T120000Z
+end_time_utc: 20170101T130000Z
 start_time_locations:
-    berlin: "2017-01-01T13:00:00+01:00"
-    new_york: "2017-01-01T07:00:00-05:00"
-    london: "2017-01-01T12:00:00Z"
-    los_angeles: "2017-01-01T04:00:00-08:00"
-end_time: "2017-01-01T13:00:00.000Z"
-end_time_utc: 20170101T140000Z
-timezone: UTC
-tzid: UTC
+    berlin: "2017-01-01T17:00:00+01:00"
+    boston: "2017-01-01T11:00:00-05:00"
+end_time_locations:
+    berlin: "2017-01-01T18:00:00+01:00"
+    boston: "2017-01-01T12:00:00-05:00"
+tzid: America/Boston
 isFeatured: false
 isOngoing: false
 lastmod: "2021-11-12T17:36:23.418Z"
-date: "2017-01-01T12:00:00Z"
+date: "2017-01-01T12:00:00-04:00"
 slug: robots-in-and-out-of-buildings
 ---
 New forms of mobility are currently being developed for the transport of people and goods. From autonomous container ships and trucks, to autonomous buses and cars, to autonomous aerial and land drones, transportation and logistics are being reformulated. New forms of intelligent motion are already beginning to reshape urban, suburban, and rural environments. But little thought is being devoted to how buildings, their circulation and envelopes, and their interconnection to the urban landscape will be transformed by the proliferation of robotic agents whose electric drive trains allow them to cross thresholds and move freely around and between building interiors and exteriors.

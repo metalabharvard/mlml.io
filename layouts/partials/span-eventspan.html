@@ -1,0 +1,22 @@
+{{ if eq (dateFormat "2006" .start) (dateFormat "2006" .end) }}
+  {{ if eq (dateFormat "2006-01-02" .start) (dateFormat "2006-01-02" .end) }}
+    {{ if eq (dateFormat "2006-01-02T15" .start) (dateFormat "2006-01-02T15" .end) }}
+      {{ if eq (dateFormat "2006-01-02T15:04" .start) (dateFormat "2006-01-02T15:04" .end) }}
+        {{/* Same minute */}}
+        {{ partial "span-timeTemplate.html" (dict "fStart" "Monday, 2 Jan 2006 at 3:04&thinsp;pm" "fEnd" "" "start" .start "end" .end "tz" .tz) }}
+      {{ else }}
+        {{/* Not the same minute */}}
+        {{ partial "span-timeTemplate.html" (dict "fStart" "Mon, 2 Jan 2006 at 3:04" "fEnd" "3:04&thinsp;pm" "start" .start "end" .end "tz" .tz) }}
+      {{ end }}
+    {{ else }}
+      {{/* Not the same hour */}}
+      {{ partial "span-timeTemplate.html" (dict "fStart" "Mon, 2 Jan 06 at 3:04&thinsp;pm" "fEnd" "3:04&thinsp;pm" "start" .start "end" .end "tz" .tz) }}
+    {{ end }}
+  {{ else }}
+    {{/* Not the same month or day */}}
+    {{ partial "span-timeTemplate.html" (dict "fStart" "2 Jan 06 at 3:04&thinsp;pm" "fEnd" "2 Jan at 3:04&thinsp;pm" "start" .start "end" .end "tz" .tz) }}
+  {{ end }}
+{{ else }}
+  {{/* Not the same year */}}
+  {{ partial "span-timeTemplate.html" (dict "fStart" "2 Jan 2006 at 3:04&thinsp;pm" "fEnd" "2 Jan 2006 at 3:04&thinsp;pm" "start" .start "end" .end "tz" .tz) }}
+{{ end }}

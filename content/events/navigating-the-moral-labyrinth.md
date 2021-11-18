@@ -6,22 +6,23 @@ status: ""
 outputs:
     - HTML
     - Calendar
-start_time: "2019-05-13T12:00:00Z"
+timezone: Boston
+start_time: "2019-05-13T12:00:00-04:00"
+end_time: "2019-05-13T13:00:00-04:00"
 start_time_utc: 20190513T120000Z
+end_time_utc: 20190513T130000Z
 start_time_locations:
-    berlin: "2019-05-13T14:00:00+02:00"
-    new_york: "2019-05-13T08:00:00-04:00"
-    london: "2019-05-13T13:00:00+01:00"
-    los_angeles: "2019-05-13T05:00:00-07:00"
-end_time: "2019-05-13T13:00:00.000Z"
-end_time_utc: 20190513T140000Z
-timezone: UTC
-tzid: UTC
+    berlin: "2019-05-13T18:00:00+02:00"
+    boston: "2019-05-13T12:00:00-04:00"
+end_time_locations:
+    berlin: "2019-05-13T19:00:00+02:00"
+    boston: "2019-05-13T13:00:00-04:00"
+tzid: America/Boston
 location: Cambridge, MA
 isFeatured: false
 isOngoing: false
 lastmod: "2021-11-12T18:00:26.661Z"
-date: "2019-05-13T12:00:00Z"
+date: "2019-05-13T12:00:00-04:00"
 slug: navigating-the-moral-labyrinth
 ---
 **[Navigating the Moral Labyrinth: Intersections of Philosophy, AI, and Art](https://carrcenter.hks.harvard.edu/event/towards-life-30-ethics-and-technology-21st-century-sarah-newman-fellow-berkman-klein?admin_panel=1&delta=0)<br />

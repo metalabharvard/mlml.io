@@ -6,23 +6,24 @@ status: ""
 outputs:
     - HTML
     - Calendar
-start_time: "2021-01-28T12:00:00Z"
+timezone: Boston
+start_time: "2021-01-28T12:00:00-04:00"
+end_time: "2021-01-28T13:00:00-04:00"
 start_time_utc: 20210128T120000Z
+end_time_utc: 20210128T130000Z
 start_time_locations:
-    berlin: "2021-01-28T13:00:00+01:00"
-    new_york: "2021-01-28T07:00:00-05:00"
-    london: "2021-01-28T12:00:00Z"
-    los_angeles: "2021-01-28T04:00:00-08:00"
-end_time: "2021-01-28T13:00:00.000Z"
-end_time_utc: 20210128T140000Z
-timezone: UTC
-tzid: UTC
+    berlin: "2021-01-28T17:00:00+01:00"
+    boston: "2021-01-28T11:00:00-05:00"
+end_time_locations:
+    berlin: "2021-01-28T18:00:00+01:00"
+    boston: "2021-01-28T12:00:00-05:00"
+tzid: America/Boston
 intro: A discussion of metaLAB's singular publications now available from Printed Matter.
 location: online
 isFeatured: false
 isOngoing: false
 lastmod: "2021-11-12T17:51:02.746Z"
-date: "2021-01-28T12:00:00Z"
+date: "2021-01-28T12:00:00-04:00"
 slug: printed-matter
 ---
 <iframe width="100%" height="300" src="https://www.youtube.com/embed/MA5fttnJpeY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -6,23 +6,24 @@ status: ""
 outputs:
     - HTML
     - Calendar
-start_time: "2021-03-23T12:00:00Z"
+timezone: Boston
+start_time: "2021-03-23T12:00:00-04:00"
+end_time: "2021-03-23T13:00:00-04:00"
 start_time_utc: 20210323T120000Z
+end_time_utc: 20210323T130000Z
 start_time_locations:
-    berlin: "2021-03-23T13:00:00+01:00"
-    new_york: "2021-03-23T08:00:00-04:00"
-    london: "2021-03-23T12:00:00Z"
-    los_angeles: "2021-03-23T05:00:00-07:00"
-end_time: "2021-03-23T13:00:00.000Z"
-end_time_utc: 20210323T140000Z
-timezone: UTC
-tzid: UTC
+    berlin: "2021-03-23T17:00:00+01:00"
+    boston: "2021-03-23T12:00:00-04:00"
+end_time_locations:
+    berlin: "2021-03-23T18:00:00+01:00"
+    boston: "2021-03-23T13:00:00-04:00"
+tzid: America/Boston
 intro: Theorizing the enhancements and constraints that gaming brings to theatre.
 location: Cambridge, MA
 isFeatured: false
 isOngoing: false
 lastmod: "2021-11-12T17:52:21.747Z"
-date: "2021-03-23T12:00:00Z"
+date: "2021-03-23T12:00:00-04:00"
 slug: playable-theatre-on-gaming-and-aesthetic-control
 ---
 Lawrence Switzky, University of Toronto. March 23, 5pm EST.

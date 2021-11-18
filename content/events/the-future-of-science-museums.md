@@ -6,23 +6,24 @@ status: ""
 outputs:
     - HTML
     - Calendar
-start_time: "2020-12-10T12:00:00Z"
+timezone: Boston
+start_time: "2020-12-10T12:00:00-04:00"
+end_time: "2020-12-10T13:00:00-04:00"
 start_time_utc: 20201210T120000Z
+end_time_utc: 20201210T130000Z
 start_time_locations:
-    berlin: "2020-12-10T13:00:00+01:00"
-    new_york: "2020-12-10T07:00:00-05:00"
-    london: "2020-12-10T12:00:00Z"
-    los_angeles: "2020-12-10T04:00:00-08:00"
-end_time: "2020-12-10T13:00:00.000Z"
-end_time_utc: 20201210T140000Z
-timezone: UTC
-tzid: UTC
+    berlin: "2020-12-10T17:00:00+01:00"
+    boston: "2020-12-10T11:00:00-05:00"
+end_time_locations:
+    berlin: "2020-12-10T18:00:00+01:00"
+    boston: "2020-12-10T12:00:00-05:00"
+tzid: America/Boston
 intro: Exploring the future of science museums with Michael John Gorman, founder of Biotopia and Science Gallery International.
 location: Cambridge, MA
 isFeatured: false
 isOngoing: false
 lastmod: "2021-11-12T18:01:10.641Z"
-date: "2020-12-10T12:00:00Z"
+date: "2020-12-10T12:00:00-04:00"
 slug: the-future-of-science-museums
 members:
     - label: Jeffrey Schnapp

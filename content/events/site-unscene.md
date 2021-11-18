@@ -6,22 +6,23 @@ status: postponed
 outputs:
     - HTML
     - Calendar
-start_time: "2020-02-23T12:00:00Z"
+timezone: Boston
+start_time: "2020-02-23T12:00:00-04:00"
+end_time: "2020-02-23T13:00:00-04:00"
 start_time_utc: 20200223T120000Z
+end_time_utc: 20200223T130000Z
 start_time_locations:
-    berlin: "2020-02-23T13:00:00+01:00"
-    new_york: "2020-02-23T07:00:00-05:00"
-    london: "2020-02-23T12:00:00Z"
-    los_angeles: "2020-02-23T04:00:00-08:00"
-end_time: "2020-02-23T13:00:00.000Z"
-end_time_utc: 20200223T140000Z
-timezone: UTC
-tzid: UTC
+    berlin: "2020-02-23T17:00:00+01:00"
+    boston: "2020-02-23T11:00:00-05:00"
+end_time_locations:
+    berlin: "2020-02-23T18:00:00+01:00"
+    boston: "2020-02-23T12:00:00-05:00"
+tzid: America/Boston
 location: Cambridge, MA
 isFeatured: false
 isOngoing: false
 lastmod: "2021-11-12T17:52:30.285Z"
-date: "2020-02-23T12:00:00Z"
+date: "2020-02-23T12:00:00-04:00"
 slug: site-unscene
 ---
 **THIS EVENT HAS BEEN POSTPONED**

@@ -6,25 +6,26 @@ status: ""
 outputs:
     - HTML
     - Calendar
-start_time: "2021-10-28T21:00:00Z"
+timezone: Boston
+start_time: "2021-10-28T21:00:00-04:00"
+end_time: "2021-10-28T21:00:00-04:00"
 start_time_utc: 20211028T210000Z
+end_time_utc: 20211028T210000Z
 start_time_locations:
-    berlin: "2021-10-28T23:00:00+02:00"
-    new_york: "2021-10-28T17:00:00-04:00"
-    london: "2021-10-28T22:00:00+01:00"
-    los_angeles: "2021-10-28T14:00:00-07:00"
-end_time: "2021-10-28T22:00:00.000Z"
-end_time_utc: 20211028T230000Z
-timezone: UTC
-tzid: UTC
+    berlin: "2021-10-29T03:00:00+02:00"
+    boston: "2021-10-28T21:00:00-04:00"
+end_time_locations:
+    berlin: "2021-10-29T03:00:00+02:00"
+    boston: "2021-10-28T21:00:00-04:00"
+tzid: America/Boston
 intro: 'Mahindra Transmedia Arts Seminar: Lance Weiler, Director of the Columbia University School of the Arts’ Digital Storytelling Lab.  '
 location: online
 category: seminar
 externalLink: https://harvard.zoom.us/webinar/register/WN_yyN8-Xf-QSi-EQ78y7YwHw
 isFeatured: true
 isOngoing: false
-lastmod: "2021-11-12T17:36:23.700Z"
-date: "2021-10-28T21:00:00Z"
+lastmod: "2021-11-18T19:45:44.293Z"
+date: "2021-10-28T21:00:00-04:00"
 slug: decentralized-storytelling
 events:
     - label: 2018 LITA Library Technology Forum

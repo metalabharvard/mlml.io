@@ -6,22 +6,23 @@ status: ""
 outputs:
     - HTML
     - Calendar
-start_time: "2018-11-16T12:00:00Z"
+timezone: Boston
+start_time: "2018-11-16T12:00:00-04:00"
+end_time: "2018-11-16T13:00:00-04:00"
 start_time_utc: 20181116T120000Z
+end_time_utc: 20181116T130000Z
 start_time_locations:
-    berlin: "2018-11-16T13:00:00+01:00"
-    new_york: "2018-11-16T07:00:00-05:00"
-    london: "2018-11-16T12:00:00Z"
-    los_angeles: "2018-11-16T04:00:00-08:00"
-end_time: "2018-11-16T13:00:00.000Z"
-end_time_utc: 20181116T140000Z
-timezone: UTC
-tzid: UTC
+    berlin: "2018-11-16T17:00:00+01:00"
+    boston: "2018-11-16T11:00:00-05:00"
+end_time_locations:
+    berlin: "2018-11-16T18:00:00+01:00"
+    boston: "2018-11-16T12:00:00-05:00"
+tzid: America/Boston
 location: Cambridge, MA
 isFeatured: false
 isOngoing: false
 lastmod: "2021-11-12T17:36:23.814Z"
-date: "2018-11-16T12:00:00Z"
+date: "2018-11-16T12:00:00-04:00"
 slug: the-laughing-room
 ---
 **The Laughing Room<br />

@@ -6,23 +6,24 @@ status: default
 outputs:
     - HTML
     - Calendar
-start_time: "2020-09-11T10:00:00Z"
+timezone: Boston
+start_time: "2020-09-11T10:00:00-04:00"
+end_time: "2020-09-11T11:00:00-04:00"
 start_time_utc: 20200911T100000Z
+end_time_utc: 20200911T110000Z
 start_time_locations:
-    berlin: "2020-09-11T12:00:00+02:00"
-    new_york: "2020-09-11T06:00:00-04:00"
-    london: "2020-09-11T11:00:00+01:00"
-    los_angeles: "2020-09-11T03:00:00-07:00"
-end_time: "2020-09-11T11:00:00.000Z"
-end_time_utc: 20200911T120000Z
-timezone: UTC
-tzid: UTC
+    berlin: "2020-09-11T16:00:00+02:00"
+    boston: "2020-09-11T10:00:00-04:00"
+end_time_locations:
+    berlin: "2020-09-11T17:00:00+02:00"
+    boston: "2020-09-11T11:00:00-04:00"
+tzid: America/Boston
 location: Linz, Austria
 externalLink: https://ars.electronica.art/keplersgardens/en/
 isFeatured: false
 isOngoing: false
 lastmod: "2021-11-12T17:36:23.937Z"
-date: "2020-09-11T10:00:00Z"
+date: "2020-09-11T10:00:00-04:00"
 slug: curatorial-a-i-gents-at-ars-electronica-2020
 members:
     - label: Dario Rodighiero

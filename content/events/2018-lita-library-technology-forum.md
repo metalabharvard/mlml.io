@@ -6,22 +6,23 @@ status: ""
 outputs:
     - HTML
     - Calendar
-start_time: "2018-11-08T12:00:00Z"
+timezone: Boston
+start_time: "2018-11-08T12:00:00-04:00"
+end_time: "2018-11-08T13:00:00-04:00"
 start_time_utc: 20181108T120000Z
+end_time_utc: 20181108T130000Z
 start_time_locations:
-    berlin: "2018-11-08T13:00:00+01:00"
-    new_york: "2018-11-08T07:00:00-05:00"
-    london: "2018-11-08T12:00:00Z"
-    los_angeles: "2018-11-08T04:00:00-08:00"
-end_time: "2018-11-08T13:00:00.000Z"
-end_time_utc: 20181108T140000Z
-timezone: UTC
-tzid: UTC
+    berlin: "2018-11-08T17:00:00+01:00"
+    boston: "2018-11-08T11:00:00-05:00"
+end_time_locations:
+    berlin: "2018-11-08T18:00:00+01:00"
+    boston: "2018-11-08T12:00:00-05:00"
+tzid: America/Boston
 location: Minneapolis, MN
 isFeatured: false
 isOngoing: false
 lastmod: "2021-11-12T17:36:23.663Z"
-date: "2018-11-08T12:00:00Z"
+date: "2018-11-08T12:00:00-04:00"
 slug: 2018-lita-library-technology-forum
 events:
     - label: Decentralized Storytelling

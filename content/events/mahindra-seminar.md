@@ -6,23 +6,24 @@ status: ""
 outputs:
     - HTML
     - Calendar
-start_time: "2020-05-14T12:00:00Z"
+timezone: Boston
+start_time: "2020-05-14T12:00:00-04:00"
+end_time: "2020-05-14T13:00:00-04:00"
 start_time_utc: 20200514T120000Z
+end_time_utc: 20200514T130000Z
 start_time_locations:
-    berlin: "2020-05-14T14:00:00+02:00"
-    new_york: "2020-05-14T08:00:00-04:00"
-    london: "2020-05-14T13:00:00+01:00"
-    los_angeles: "2020-05-14T05:00:00-07:00"
-end_time: "2020-05-14T13:00:00.000Z"
-end_time_utc: 20200514T140000Z
-timezone: UTC
-tzid: UTC
+    berlin: "2020-05-14T18:00:00+02:00"
+    boston: "2020-05-14T12:00:00-04:00"
+end_time_locations:
+    berlin: "2020-05-14T19:00:00+02:00"
+    boston: "2020-05-14T13:00:00-04:00"
+tzid: America/Boston
 intro: Exploring the impact of pandemic on experimental transmedia theatre and performance.
 location: Cambridge, MA
 isFeatured: false
 isOngoing: false
 lastmod: "2021-11-12T17:51:39.498Z"
-date: "2020-05-14T12:00:00Z"
+date: "2020-05-14T12:00:00-04:00"
 slug: mahindra-seminar
 ---
 **THE FUTURE OF TRANSMEDIA PERFORFORMANCE**

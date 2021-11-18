@@ -1,0 +1,11 @@
+{{- $datetimeStart := dateFormat "2006-01-02T15:04:05-0700" .start -}}
+{{- $datetimeEnd := dateFormat "2006-01-02T15:04:05-0700" .end -}}
+{{- $attributes := "datetime=%q content=%q" -}}
+{{- $attributesStart := printf $attributes $datetimeStart $datetimeStart -}}
+{{- $attributesEnd := printf $attributes $datetimeEnd $datetimeEnd -}}
+
+<time {{ $attributesStart | safeHTMLAttr }} property="startDate">
+  {{- (dateFormat .fStart .start) | safeHTML -}}{{- if (eq .fEnd "") }} {{ .tz -}}{{ end -}}
+</time>{{ if not (eq .fEnd "") }}&thinsp;–&thinsp;<time {{ $attributesEnd | safeHTMLAttr }} property="endDate">
+  {{- (dateFormat .fEnd .end) | safeHTML }} {{ .tz -}}
+</time>{{ end }}

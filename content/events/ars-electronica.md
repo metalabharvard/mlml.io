@@ -6,22 +6,23 @@ status: ""
 outputs:
     - HTML
     - Calendar
-start_time: "2018-09-06T12:00:00Z"
+timezone: Boston
+start_time: "2018-09-06T12:00:00-04:00"
+end_time: "2018-09-06T13:00:00-04:00"
 start_time_utc: 20180906T120000Z
+end_time_utc: 20180906T130000Z
 start_time_locations:
-    berlin: "2018-09-06T14:00:00+02:00"
-    new_york: "2018-09-06T08:00:00-04:00"
-    london: "2018-09-06T13:00:00+01:00"
-    los_angeles: "2018-09-06T05:00:00-07:00"
-end_time: "2018-09-06T13:00:00.000Z"
-end_time_utc: 20180906T140000Z
-timezone: UTC
-tzid: UTC
+    berlin: "2018-09-06T18:00:00+02:00"
+    boston: "2018-09-06T12:00:00-04:00"
+end_time_locations:
+    berlin: "2018-09-06T19:00:00+02:00"
+    boston: "2018-09-06T13:00:00-04:00"
+tzid: America/Boston
 location: Linz, Austria
 isFeatured: false
 isOngoing: false
 lastmod: "2021-11-12T17:53:05.772Z"
-date: "2018-09-06T12:00:00Z"
+date: "2018-09-06T12:00:00-04:00"
 slug: ars-electronica
 members:
     - label: Eveline Wandl-Vogt

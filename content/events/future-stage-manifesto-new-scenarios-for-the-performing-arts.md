@@ -6,17 +6,18 @@ status: default
 outputs:
     - HTML
     - Calendar
-start_time: "2021-11-19T22:00:00Z"
+timezone: Boston
+start_time: "2021-11-19T22:00:00-04:00"
+end_time: "2021-11-19T23:00:00-04:00"
 start_time_utc: 20211119T220000Z
+end_time_utc: 20211119T230000Z
 start_time_locations:
-    berlin: "2021-11-19T23:00:00+01:00"
-    new_york: "2021-11-19T17:00:00-05:00"
-    london: "2021-11-19T22:00:00Z"
-    los_angeles: "2021-11-19T14:00:00-08:00"
-end_time: "2021-11-19T23:00:00.000Z"
-end_time_utc: 20211120T000000Z
-timezone: UTC
-tzid: UTC
+    berlin: "2021-11-20T03:00:00+01:00"
+    boston: "2021-11-19T21:00:00-05:00"
+end_time_locations:
+    berlin: "2021-11-20T04:00:00+01:00"
+    boston: "2021-11-19T22:00:00-05:00"
+tzid: America/Boston
 intro: 'Mahindra Transmedia Arts Seminar, November 19, 5pm: produced by an international collaborative of leaders in transmedia theatre, the futureStage Manifesto offers a vision of performance as a human right.'
 location: online
 category: seminar
@@ -24,7 +25,7 @@ externalLink: https://harvard.zoom.us/webinar/register/WN_RGRjIoXSQYq9qXMcsp4AXQ
 isFeatured: true
 isOngoing: false
 lastmod: "2021-11-12T17:36:23.826Z"
-date: "2021-11-19T22:00:00Z"
+date: "2021-11-19T22:00:00-04:00"
 slug: future-stage-manifesto-new-scenarios-for-the-performing-arts
 members:
     - label: Jeanette Andrews

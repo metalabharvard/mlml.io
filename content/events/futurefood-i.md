@@ -6,22 +6,23 @@ status: ""
 outputs:
     - HTML
     - Calendar
-start_time: "2019-05-11T12:00:00Z"
+timezone: Boston
+start_time: "2019-05-11T12:00:00-04:00"
+end_time: "2019-05-11T13:00:00-04:00"
 start_time_utc: 20190511T120000Z
+end_time_utc: 20190511T130000Z
 start_time_locations:
-    berlin: "2019-05-11T14:00:00+02:00"
-    new_york: "2019-05-11T08:00:00-04:00"
-    london: "2019-05-11T13:00:00+01:00"
-    los_angeles: "2019-05-11T05:00:00-07:00"
-end_time: "2019-05-11T13:00:00.000Z"
-end_time_utc: 20190511T140000Z
-timezone: UTC
-tzid: UTC
+    berlin: "2019-05-11T18:00:00+02:00"
+    boston: "2019-05-11T12:00:00-04:00"
+end_time_locations:
+    berlin: "2019-05-11T19:00:00+02:00"
+    boston: "2019-05-11T13:00:00-04:00"
+tzid: America/Boston
 location: Cambridge, MA
 isFeatured: false
 isOngoing: false
 lastmod: "2021-11-12T18:00:17.794Z"
-date: "2019-05-11T12:00:00Z"
+date: "2019-05-11T12:00:00-04:00"
 slug: futurefood-i
 ---
 **Cambridge Public Library<br />

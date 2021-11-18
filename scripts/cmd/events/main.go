@@ -61,9 +61,9 @@ type Picture struct {
 
 type Times struct {
   Berlin string `yaml:"berlin"`
-  NewYork string `yaml:"new_york"`
-  London string `yaml:"london"`
-  LosAngeles string `yaml:"los_angeles"`
+  Boston string `yaml:"boston"`
+  // London string `yaml:"london"`
+  // LosAngeles string `yaml:"los_angeles"`
 }
 
 type Topic struct {
@@ -76,15 +76,15 @@ type Response struct {
   Fulltitle string `yaml:"fulltitle"`
   Status string `yaml:"status"`
   Outputs [2]string `yaml:outputs` // Added by this script
-  Time string `yaml:"time,omitempty"` // TODO: Delete this?
-  Start_Time string `yaml:"start_time,omitempty"`
-  Start_TimeUTC string `yaml:"start_time_utc,omitempty"`
-  Start_TimeLocations Times `yaml:"start_time_locations,omitempty"`
-  End_Time string `yaml:"end_time,omitempty"`
-  End_TimeUTC string `yaml:"end_time_utc,omitempty"`
-  End_TimeLocations Times `yaml:"end_time_locations,omitempty"`
+  // Time string `yaml:"time,omitempty"` // TODO: Delete this?
   Timezone string `yaml:"timezone,omitempty"`
-  TimezoneID string `yaml:"tzid,omitempty"`
+  Start_Time string `yaml:"start_time,omitempty"` // This is used in the template to detect if start is present
+  End_Time string `yaml:"end_time,omitempty"`
+  Start_TimeUTC string `yaml:"start_time_utc,omitempty"` // Used for the iCal Event
+  End_TimeUTC string `yaml:"end_time_utc,omitempty"` // Used for the iCal Event
+  Start_TimeLocations Times `yaml:"start_time_locations,omitempty"` // This is used for the tabs
+  End_TimeLocations Times `yaml:"end_time_locations,omitempty"` // This is used for the tabs
+  TimezoneID string `yaml:"tzid,omitempty"` // Used for the iCal Event. Be aware of the renaming.
   Intro string `yaml:"intro,omitempty"`
   Location string `yaml:"location,omitempty"`
   Category string `yaml:"category,omitempty"`
@@ -212,9 +212,7 @@ func main() {
   json.Unmarshal(responseData, &responseObject)
 
   locBerlin, _ := time.LoadLocation("Europe/Berlin")
-  locLondon, _ := time.LoadLocation("Europe/London")
-  locNewYork, _ := time.LoadLocation("America/New_York")
-  locLosAngeles, _ := time.LoadLocation("America/Los_Angeles")
+  locBoston, _ := time.LoadLocation("America/New_York")
 
   for _, element := range responseObject {
     Updated_at, _ := time.Parse(time.RFC3339, element.Updated_at)
@@ -223,40 +221,43 @@ func main() {
     }
     if len(element.Start_Time) > 1 {
       s := element.Start_Time
-      tz := "UTC"
+      e := element.Start_Time
+      hasEndTime := element.End_Time != ""
+      if hasEndTime {
+        e = element.End_Time
+      }
       tzid := "UTC"
       switch element.Timezone {
       case "Berlin":
         s = strings.Replace(s, "Z", "+02:00", 1)
-        tz = "CEST"
+        e = strings.Replace(e, "Z", "+02:00", 1)
         tzid = "Europe/Berlin"
-        // println("It’s in Berlin!")
-      case "London":
-        // println("It’s in London!")
-        s = strings.Replace(s, "Z", "+01:00", 1)
-        tz = "BST"
-        tzid = "Europe/London"
-      case "New_York":
-        // println("It’s in New York!")
+      case "Boston":
         s = strings.Replace(s, "Z", "-04:00", 1)
-        tz = "EDT"
-        tzid = "America/New_York"
-      case "Los_Angeles":
-        // println("It’s in Los Angeles!")
-        s = strings.Replace(s, "Z", "-07:00", 1)
-        tz = "PDT"
-        tzid = "America/Los_Angeles"
+        e = strings.Replace(e, "Z", "-04:00", 1)
+        tzid = "America/Boston"
       }
-      t, _ := time.Parse(time.RFC3339, s)
-      element.Start_TimeUTC = t.Format("20060102T150405Z")
-      element.Start_Time = t.Format(time.RFC3339)
-      element.Start_TimeLocations.Berlin = t.In(locBerlin).Format(time.RFC3339)
-      element.Start_TimeLocations.London = t.In(locLondon).Format(time.RFC3339)
-      element.Start_TimeLocations.NewYork = t.In(locNewYork).Format(time.RFC3339)
-      element.Start_TimeLocations.LosAngeles = t.In(locLosAngeles).Format(time.RFC3339)
-      element.Timezone = tz
+      ts, _ := time.Parse(time.RFC3339, s)
+      te, _ := time.Parse(time.RFC3339, e)
+      // These are used for the iCal event
+      element.Start_TimeUTC = ts.Format("20060102T150405Z")
+      if hasEndTime {
+        element.End_TimeUTC = te.Format("20060102T150405Z")
+      } else {
+        // Because we need a end time for the iCal event, we just add one hour to the start time
+        element.End_TimeUTC = ts.Add(time.Hour * 1).Format("20060102T150405Z")
+      }
+      // These are used for the iCal event
       element.TimezoneID = tzid
-      element.End_TimeUTC = t.Add(time.Hour * 2).Format("20060102T150405Z") // TODO
+
+      element.Start_Time = ts.Format(time.RFC3339)
+      element.End_Time = te.Format(time.RFC3339)
+
+      // This is used for the tabs
+      element.Start_TimeLocations.Berlin = ts.In(locBerlin).Format(time.RFC3339)
+      element.Start_TimeLocations.Boston = ts.In(locBoston).Format(time.RFC3339)
+      element.End_TimeLocations.Berlin = te.In(locBerlin).Format(time.RFC3339)
+      element.End_TimeLocations.Boston = te.In(locBoston).Format(time.RFC3339)
     }
 
     content := element.Description

@@ -6,23 +6,24 @@ status: ""
 outputs:
     - HTML
     - Calendar
-start_time: "2020-11-05T12:00:00Z"
+timezone: Boston
+start_time: "2020-11-05T12:00:00-04:00"
+end_time: "2020-11-05T13:00:00-04:00"
 start_time_utc: 20201105T120000Z
+end_time_utc: 20201105T130000Z
 start_time_locations:
-    berlin: "2020-11-05T13:00:00+01:00"
-    new_york: "2020-11-05T07:00:00-05:00"
-    london: "2020-11-05T12:00:00Z"
-    los_angeles: "2020-11-05T04:00:00-08:00"
-end_time: "2020-11-05T13:00:00.000Z"
-end_time_utc: 20201105T140000Z
-timezone: UTC
-tzid: UTC
+    berlin: "2020-11-05T17:00:00+01:00"
+    boston: "2020-11-05T11:00:00-05:00"
+end_time_locations:
+    berlin: "2020-11-05T18:00:00+01:00"
+    boston: "2020-11-05T12:00:00-05:00"
+tzid: America/Boston
 intro: Exploring the varied museums of Iceland, and how we contend with memory and trauma, fascination and fear, through objects on display.
 location: Cambridge, MA
 isFeatured: false
 isOngoing: false
 lastmod: "2021-11-12T17:50:43.155Z"
-date: "2020-11-05T12:00:00Z"
+date: "2020-11-05T12:00:00-04:00"
 slug: from-sea-to-seen
 ---
 **ONLINE<br />
