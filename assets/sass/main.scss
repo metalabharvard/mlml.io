@@ -45,6 +45,8 @@
 
   --outline-spacing-high: 10px;
   --trigger-button: 1px solid var(--color-bg-secondary);
+
+  --header-height: 100px;
 }
 
 @media screen and (-ms-high-contrast: active),
@@ -62,11 +64,11 @@
   :root {
     --gradient-border-width: 3px;
     --gradient-border-width-secondary: 2px;
+    --header-height: 15vh;
   }
 }
 
 html {
-  // font-size: calc(0.8vw + 0.8vh + 1.4vmin);
   font-size: calc(1vw + 1vh + .5vmin);
   color: var(--color-text);
   line-height: 1.7;
