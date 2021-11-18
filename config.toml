@@ -8,10 +8,7 @@ disableKinds = ["taxonomyTerm"]
 
 [params]
   contentTypes = ["projects", "members", "events"]
-  timezoneBoston = "EDT"
-  timezoneBerlin = "CEST"
   slugHost = "host"
-  maxNumberFeatures = 5
 
 [permalinks]
   projects = "/p/:slug/"

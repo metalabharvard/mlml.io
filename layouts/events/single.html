@@ -26,7 +26,7 @@
               property="startDate"
               content="{{ dateFormat "2006-01-02T15:04:05-0700" .Params.Start_time_locations.New_York }}"
               datetime="{{ dateFormat "2006-01-02T15:04:05-0700" .Params.Start_time_locations.New_York }}">
-              {{- (dateFormat "Monday, 2 January 2006 3:04&thinsp;pm" .Params.Start_time_locations.New_York) | safeHTML }} {{ .Site.Params.timezoneBoston }}</time>
+              {{- (dateFormat "Monday, 2 January 2006 3:04&thinsp;pm" .Params.Start_time_locations.New_York) | safeHTML }} {{ .Site.Params.Label.timezoneBostonAbbr }}</time>
             <time
               class="event-time"
               role="tabpanel"
@@ -37,7 +37,7 @@
               property="startDate"
               content="{{ dateFormat "2006-01-02T15:04:05-0700" .Params.Start_time_locations.Berlin }}"
               datetime="{{ dateFormat "2006-01-02T15:04:05-0700" .Params.Start_time_locations.Berlin }}">
-              {{- (dateFormat "Monday, 2 January 2006 3:04&thinsp;pm" .Params.Start_time_locations.Berlin) | safeHTML }} {{ .Site.Params.timezoneBerlin }}</time>
+              {{- (dateFormat "Monday, 2 January 2006 3:04&thinsp;pm" .Params.Start_time_locations.Berlin) | safeHTML }} {{ .Site.Params.Label.timezoneBerlinAbbr }}</time>
           </div>
         </div>
         {{ end }}
@@ -74,7 +74,7 @@
       {{ partial "related-items.html" (dict "items" $projects "term" .Site.Params.Label.RelatedProjects "label" .Site.Params.Label.RelatedLabelProjects "class" "project") }}
       {{ partial "related-items.html" (dict "items" $events "term" .Site.Params.Label.RelatedEvents "label" .Site.Params.Label.RelatedLabelEvents "class" "event") }}
     </dl>
-    {{ $defaultLabel := string (printf "Picture of %s" .Params.Title) }}
+    {{ $defaultLabel := string (printf .Site.Params.Label.AriaGeneralPicture .Params.Title) }}
     {{ with .Params.Cover -}}
     <div class="event-cover grid-wide">
       {{- partial "image-wide.html" (dict "picture" . "alt" $defaultLabel "title" $defaultLabel "class" "project-cover-image") -}}

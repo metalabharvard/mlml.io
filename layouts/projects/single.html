@@ -48,7 +48,7 @@
       {{ partial "related-items.html" (dict "items" $projects "term" .Site.Params.Label.RelatedProjects "label" .Site.Params.Label.RelatedLabelProjects "class" "project") }}
       {{ partial "related-items.html" (dict "items" $events "term" .Site.Params.Label.RelatedEvents "label" .Site.Params.Label.RelatedLabelEvents "class" "event") }}
     </dl>
-    {{ $defaultLabel := string (printf "Picture of %s" .Params.Title) }}
+    {{ $defaultLabel := string (printf .Site.Params.Label.AriaGeneralPicture .Params.Title) }}
     {{ with .Params.Cover -}}
     <div class="project-cover grid-wide">
       {{- partial "image-wide.html" (dict "picture" . "alt" $defaultLabel "title" $defaultLabel "class" "project-cover-image") -}}
