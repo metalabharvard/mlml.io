@@ -1,5 +1,5 @@
 [build]
-command = "./scripts/about && ./scripts/events && ./scripts/members && ./scripts/meta && ./scripts/projects && hugo --gc --config config/config.json,config.toml --ignoreCache"
+command = "make build"
 
 [context.production.environment]
 HUGO_VERSION = "0.83.1"
