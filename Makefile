@@ -1,8 +1,20 @@
 precompile:
+	npm run prebuild
 	GOOS=linux
 	GOARCH=amd64
-	GOBIN=${PWD}/scripts/ go get ./...
-	GOBIN=${PWD}/scripts/ go install ./...
+	cd scripts; go build ./cmd/about/about.go
+	cd scripts; go build ./cmd/events/events.go
+	cd scripts; go build ./cmd/members/members.go
+	cd scripts; go build ./cmd/meta/meta.go
+	cd scripts; go build ./cmd/projects/projects.go
+
+local:
+	npm run prebuild
+	cd scripts; go build ./cmd/about/about.go
+	cd scripts; go build ./cmd/events/events.go
+	cd scripts; go build ./cmd/members/members.go
+	cd scripts; go build ./cmd/meta/meta.go
+	cd scripts; go build ./cmd/projects/projects.go
 
 build:
 	./scripts/about

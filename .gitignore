@@ -119,5 +119,7 @@ build
 resources
 
 # Svelte
-assets/js/svelte.js
-assets/js/svelte.js.map
+# assets/js/svelte.js
+# assets/js/svelte.js.map
+
+/public/
