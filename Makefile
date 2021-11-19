@@ -1,42 +1,45 @@
+p = scripts/api # source folder
+t = binaries # target folder
+
 precompile:
 	npm run prebuild
-	cd scripts/api; env GOOS=linux GOARCH=amd64 go build ./about.go
-	cd scripts/api; env GOOS=linux GOARCH=amd64 go build ./events.go
-	cd scripts/api; env GOOS=linux GOARCH=amd64 go build ./members.go
-	cd scripts/api; env GOOS=linux GOARCH=amd64 go build ./meta.go
-	cd scripts/api; env GOOS=linux GOARCH=amd64 go build ./projects.go
-	mv scripts/api/about scripts/api/events scripts/api/members scripts/api/meta scripts/api/projects scripts/api/binaries/
+	cd $(p); env GOOS=linux GOARCH=amd64 go build ./about.go
+	cd $(p); env GOOS=linux GOARCH=amd64 go build ./events.go
+	cd $(p); env GOOS=linux GOARCH=amd64 go build ./members.go
+	cd $(p); env GOOS=linux GOARCH=amd64 go build ./meta.go
+	cd $(p); env GOOS=linux GOARCH=amd64 go build ./projects.go
+	mv $(p)/about $(p)/events $(p)/members $(p)/meta $(p)/projects $(p)/$(t)/
 
 local:
 	npm run prebuild
-	cd scripts/api; go build ./about.go
-	cd scripts/api; go build ./events.go
-	cd scripts/api; go build ./members.go
-	cd scripts/api; go build ./meta.go
-	cd scripts/api; go build ./projects.go
-	mv scripts/api/about scripts/api/events scripts/api/members scripts/api/meta scripts/api/projects scripts/api/binaries/
+	cd $(p); go build ./about.go
+	cd $(p); go build ./events.go
+	cd $(p); go build ./members.go
+	cd $(p); go build ./meta.go
+	cd $(p); go build ./projects.go
+	mv $(p)/about $(p)/events $(p)/members $(p)/meta $(p)/projects $(p)/$(t)/
 
 about:
-	cd scripts/api; go run about.go
+	cd $(p); go run about.go
 
 events:
-	cd scripts/api; go run events.go
+	cd $(p); go run events.go
 
 members:
-	cd scripts/api; go run members.go
+	cd $(p); go run members.go
 
 meta:
-	cd scripts/api; go run meta.go
+	cd $(p); go run meta.go
 
 projects:
-	cd scripts/api; go run projects.go
+	cd $(p); go run projects.go
 
 fetch: about events members meta projects
 
 build:
-	cd scripts/api; binaries/about
-	cd scripts/api; binaries/events
-	cd scripts/api; binaries/members
-	cd scripts/api; binaries/meta
-	cd scripts/api; binaries/projects
+	cd $(p); $(t)/about
+	cd $(p); $(t)/events
+	cd $(p); $(t)/members
+	cd $(p); $(t)/meta
+	cd $(p); $(t)/projects
 	hugo --gc --config config/config.json,config.toml --ignoreCache
