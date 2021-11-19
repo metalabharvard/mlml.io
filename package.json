@@ -5,6 +5,7 @@
   "scripts": {
     "build": "rollup -c; GOBIN=$(pwd)/scripts go get ./scripts/... && go run scripts/cmd/meta/main.go && go run scripts/cmd/events/main.go && go run scripts/cmd/members/main.go && go run scripts/cmd/projects/main.go && hugo --gc --config config/config.json,config.toml --ignoreCache",
     "fetch": "go run scripts/cmd/meta/main.go && go run scripts/cmd/events/main.go && go run scripts/cmd/members/main.go && go run scripts/cmd/projects/main.go && go run scripts/cmd/about/about.go",
+    "prebuild": "rollup -c",
     "autobuild": "rollup -c -w",
     "dev": "run-p autobuild hugo:dev",
     "hugo:dev": "hugo server --bind=0.0.0.0 -D --config config/config.json,config.toml --ignoreCache"
