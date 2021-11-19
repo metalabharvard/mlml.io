@@ -1,0 +1,12 @@
+name: Ping Heroku
+on:
+  push:
+jobs:
+  deployment:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Deploy Stage
+      uses: fjogeleit/http-request-action@master
+      with:
+        url: 'https://metalab-strapi.herokuapp.com/about'
+        method: 'GET'
