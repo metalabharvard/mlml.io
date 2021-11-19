@@ -1,4 +1,4 @@
-module scripts
+module api
 
 go 1.12
 
