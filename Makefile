@@ -34,9 +34,9 @@ projects:
 fetch: about events members meta projects
 
 build:
-	./scripts/api/binaries/about
-	./scripts/api/binaries/events
-	./scripts/api/binaries/members
-	./scripts/api/binaries/meta
-	./scripts/api/binaries/projects
+	cd scripts/api; binaries/about
+	cd scripts/api; binaries/events
+	cd scripts/api; binaries/members
+	cd scripts/api; binaries/meta
+	cd scripts/api; binaries/projects
 	hugo --gc --config config/config.json,config.toml --ignoreCache
