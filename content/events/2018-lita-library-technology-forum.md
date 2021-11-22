@@ -34,6 +34,7 @@ events:
 links:
     - label: LITA Forum
       url: https://forum.lita.org/
+
 ---
 Wifi-proof booths; study carrels for napping; digital campfires for charging devices convivially—in the *Library Test Kitchen* seminar at the Graduate School of Design, metaLAB (at) Harvard has been exploring participatory innovation for libraries through fun, creative, improvisatory projects. And what's a test kitchen without recipes? In this session, members of metaLAB will be on hand to demo their new platform for sharing such "recipes" for playful innovation in libraries—and to invite participants to contribute recipes of their own.
 

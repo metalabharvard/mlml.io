@@ -52,6 +52,7 @@ members_twitter:
     - matthewbattles
     - pip_mothersill
     - sarahwnewman
+
 ---
 **metaLAB + friends openLAB**<br />
 **March 6, 5:30-7:30**<br />

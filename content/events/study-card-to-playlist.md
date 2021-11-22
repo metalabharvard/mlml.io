@@ -25,6 +25,7 @@ isOngoing: false
 lastmod: "2021-11-12T17:52:56.089Z"
 date: "2017-11-07T12:00:00-04:00"
 slug: study-card-to-playlist
+
 ---
 **Study Card to Playlist: the Social Life of the Course Catalog<br />
 November 7, 2017, 12pm<br />

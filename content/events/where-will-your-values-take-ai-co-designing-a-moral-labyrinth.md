@@ -24,6 +24,7 @@ isOngoing: false
 lastmod: "2021-11-12T17:36:23.299Z"
 date: "2019-06-14T12:00:00-04:00"
 slug: where-will-your-values-take-ai-co-designing-a-moral-labyrinth
+
 ---
 **[Tunis 2019 metaLAB Workshop](https://rightscon2019.sched.com/event/Pvfz/where-will-your-values-take-ai-co-designing-a-moral-labyrinth-and-taking-one-home)<br />
 Where will your values take AI? Co-designing a Moral Labyrinth (and taking one home!)<br />

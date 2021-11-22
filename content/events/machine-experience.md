@@ -56,6 +56,7 @@ members_twitter:
     - kimay
     - matthewbattles
     - sarahwnewman
+
 ---
 **MACHINE EXPERIENCE**
 

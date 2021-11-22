@@ -28,6 +28,7 @@ slug: alterspace-at-cambridge-public-library
 links:
     - label: Alterspace
       url: http://alterspace.github.io
+
 ---
 **An immersive library experience that gives visitors control over light, color, sound, and space to create the ideal environment for whatever brings them through the library's doors.**
 

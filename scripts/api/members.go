@@ -12,52 +12,14 @@ import (
   "strings"
   "time"
   "gopkg.in/yaml.v3"
+  stru "api/structs"
+  utils "api/utils"
 )
-
-type Project struct {
-  Title string `yaml:"label"`
-  Slug string `yaml:"slug"`
-}
-
-type Event struct {
-  Title string `yaml:"label"`
-  Slug string `yaml:"slug"`
-}
-
-type Role struct {
-  Role string `yaml:"role"`
-  Position int `yaml:"position"`
-}
-
-type Format struct {
-  Url string `yaml:"url,omitempty"`
-  Ext string `yaml:"ext,omitempty"`
-  Width int `yaml:"width,omitempty"`
-  Height int `yaml:"height,omitempty"`
-}
-
-type Formats struct {
-  Large Format `yaml:"large,omitempty"`
-  Medium Format `yaml:"medium,omitempty"`
-  Small Format `yaml:"small,omitempty"`
-  Thumbnail Format `yaml:"thumbnail,omitempty"`
-}
-
-type Picture struct {
-  AlternativeText string `yaml:"alternativeText,omitempty"`
-  Caption string `yaml:"caption,omitempty"`
-  Url string `yaml:"url,omitempty"`
-  Width int `yaml:"width,omitempty"`
-  Height int `yaml:"height,omitempty"`
-  Ext string `yaml:"ext,omitempty"`
-  Mime string `yaml:"mime,omitempty"`
-  Formats Formats `yaml:"formats,omitempty"`
-}
 
 type Response struct {
   Name string `yaml:"name"`
   Title string
-  Roles []Role `yaml:"roles,omitempty"`
+  Roles []stru.Role `yaml:"roles,omitempty"`
   IsAlumnus bool `yaml:"isAlumnus"`
   Rank float64 `yaml:"rank,omitempty"`
   RoleString string `yaml:"role_string,omitempty"`
@@ -77,28 +39,12 @@ type Response struct {
   Lastmod string `yaml:"lastmod"`
   Date string `yaml:"date"`
   Slug string `yaml:"slug"`
-  Events []Event `yaml:"events,omitempty"`
-  Projects []Project `yaml:"projects,omitempty"`
-  Picture Picture `yaml:"picture,omitempty"`
+  Events []stru.Event `yaml:"events,omitempty"`
+  Projects []stru.Project `yaml:"projects,omitempty"`
+  Picture stru.Picture `yaml:"picture,omitempty"`
 }
 
-type Index struct {
-  Lastmod string `yaml:"lastmod"`
-}
-
-func getPath(isAlumnus bool) string {
-  if isAlumnus {
-    return "alumni"
-  } else {
-    return "members"
-  }
-}
-
-func convertToGrayscale(url string) string {
-  return strings.Replace(url, "upload/", "upload/e_grayscale/", 1)
-}
-
-func calculateRoleRank(roles []Role) float64 {
+func calculateRoleRank(roles []stru.Role) float64 {
   var rank float64 = 0.0
   for i, a := range roles {
     rank += float64(a.Position) * math.Pow(10, float64(-i))
@@ -109,7 +55,7 @@ func calculateRoleRank(roles []Role) float64 {
   return math.Round(rank * 1000) / 1000
 }
 
-func createRoleString(roles []Role) string {
+func createRoleString(roles []stru.Role) string {
   var role string = ""
   for i := 0; i < len(roles); i++ {
     role += roles[i].Role
@@ -120,28 +66,6 @@ func createRoleString(roles []Role) string {
     }
   }
   return role
-}
-
-type ByRole []Role
-
-func (a ByRole) Len() int           { return len(a) }
-func (a ByRole) Less(i, j int) bool { return a[i].Position < a[j].Position }
-func (a ByRole) Swap(i, j int)      { a[i], a[j] = a[j], a[i] }
-
-type ProjectsByName []Project
-
-func (a ProjectsByName) Len() int           { return len(a) }
-func (a ProjectsByName) Less(i, j int) bool { return a[i].Title < a[j].Title }
-func (a ProjectsByName) Swap(i, j int)      { a[i], a[j] = a[j], a[i] }
-
-type EventsByName []Event
-
-func (a EventsByName) Len() int           { return len(a) }
-func (a EventsByName) Less(i, j int) bool { return a[i].Title < a[j].Title }
-func (a EventsByName) Swap(i, j int)      { a[i], a[j] = a[j], a[i] }
-
-func trim(str string) string {
-  return strings.Trim(str, " ")
 }
 
 func main() {
@@ -160,34 +84,18 @@ func main() {
     log.Fatal(err)
   }
 
-  err = os.RemoveAll("../../content/members/")
-  if err != nil {
-    log.Fatal(err)
-  }
-  os.MkdirAll("../../content/members/", 0777)
+  FOLDER := "../../content/members/"
 
-  err = os.RemoveAll("../../content/alumni/")
-  if err != nil {
-    log.Fatal(err)
-  }
-  os.MkdirAll("../../content/alumni/", 0777)
+  utils.CleanFolder(FOLDER)
 
   var responseObject []Response
   json.Unmarshal(responseData, &responseObject)
 
-  s := []int{4, 2, 3, 1}
-  sort.Ints(s)
-
   for _, element := range responseObject {
-    Updated_at, _ := time.Parse(time.RFC3339, element.Updated_at)
-    if Updated_at.After(Lastmod) {
-      Lastmod = Updated_at
-    }
-    // println(getPath(isAlumnus))
-    // println(fmt.Sprintf("content/%s/%s.md", getPath(isAlumnus), element.Slug))
+    Lastmod = utils.GetLastmod(element.Updated_at, Lastmod)
 
-    sort.Sort(ByRole(element.Roles))
-    // fmt.Println(element.Roles)
+    sort.Sort(stru.ByRole(element.Roles))
+
     if !element.IsAlumnus {
       element.Rank = calculateRoleRank(element.Roles)
       element.RoleString = createRoleString(element.Roles)
@@ -208,44 +116,26 @@ func main() {
     element.Created_at = ""
     element.Updated_at = ""
 
-    sort.Sort(ProjectsByName(element.Projects))
-    sort.Sort(EventsByName(element.Events))
+    sort.Sort(stru.ProjectsByName(element.Projects))
+    sort.Sort(stru.EventsByName(element.Events))
 
-    // println(element.Picture.Url)
+    element.Picture.Url = utils.ConvertToGrayscale(element.Picture.Url)
+    element.Picture.Formats.Thumbnail.Url = utils.ConvertToGrayscale(element.Picture.Formats.Thumbnail.Url)
+    element.Picture.Formats.Small.Url = utils.ConvertToGrayscale(element.Picture.Formats.Small.Url)
+    element.Picture.Formats.Medium.Url = utils.ConvertToGrayscale(element.Picture.Formats.Medium.Url)
+    element.Picture.Formats.Large.Url = utils.ConvertToGrayscale(element.Picture.Formats.Large.Url)
 
-    if element.Picture.Url != "" {
-      element.Picture.Url = convertToGrayscale(element.Picture.Url)
-    }
-    if element.Picture.Formats.Thumbnail.Url != "" {
-      element.Picture.Formats.Thumbnail.Url = convertToGrayscale(element.Picture.Formats.Thumbnail.Url)
-    }
-    if element.Picture.Formats.Small.Url != "" {
-      element.Picture.Formats.Small.Url = convertToGrayscale(element.Picture.Formats.Small.Url)
-    }
-    if element.Picture.Formats.Medium.Url != "" {
-      element.Picture.Formats.Medium.Url = convertToGrayscale(element.Picture.Formats.Medium.Url)
-    }
-    if element.Picture.Formats.Large.Url != "" {
-      element.Picture.Formats.Large.Url = convertToGrayscale(element.Picture.Formats.Large.Url)
-    }
-
-    element.Name = trim(element.Name)
-    element.Mail = trim(element.Mail)
-    element.Website = trim(element.Website)
-    element.Instagram = trim(element.Instagram)
-
-    // if element.IsAlumnus {
-    //   element.NoIndex = true
-    // }
+    element.Name = utils.Trim(element.Name)
+    element.Mail = utils.Trim(element.Mail)
+    element.Website = utils.Trim(element.Website)
+    element.Instagram = utils.Trim(element.Instagram)
 
     file, _ := yaml.Marshal(element)
-    _ = ioutil.WriteFile(fmt.Sprintf("../../content/members/%s.md", element.Slug), []byte(fmt.Sprintf("---\n%s\n---\n%s", file, content)), 0644)
+    utils.WriteToMarkdown(FOLDER, element.Slug, file, content)
   }
 
-  var meta Index
-  meta.Lastmod = Lastmod.Format(time.RFC3339)
-  file, _ := yaml.Marshal(meta)
-  _ = ioutil.WriteFile("../../content/members/_index.md", []byte(fmt.Sprintf("---\n%s---", file)), 0644)
+  utils.WriteLastMod(FOLDER, Lastmod)
+
   println(fmt.Sprintf("%d elements added", len(responseObject)))
   println("Requesting members finished")
 }

@@ -25,6 +25,7 @@ isOngoing: false
 lastmod: "2021-11-12T17:36:23.224Z"
 date: "2019-09-17T12:00:00-04:00"
 slug: the-future-of-secrets-northeastern-school-of-law
+
 ---
 When: Tuesday September 17, 2019<br />
 Time: 5 PM – 6:30 PM<br />

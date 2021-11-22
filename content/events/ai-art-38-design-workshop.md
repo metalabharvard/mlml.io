@@ -28,6 +28,7 @@ members:
     - label: Olivia Tai
       slug: olivia-tai
       twitter: ""
+
 ---
 **AI Art & Design Workshop with metaLAB**
 <p>An experimental, creative, design workshop to think through both small big questions that come up arise with AI and explore them through art-making, design, and expressive provocation. </p>

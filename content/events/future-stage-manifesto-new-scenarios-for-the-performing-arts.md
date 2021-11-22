@@ -87,6 +87,7 @@ members_twitter:
     - sydneyskybetter
 images:
     - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1636549179/futurestage_transmedia_2ff37ab17f.jpg
+
 ---
 With new expectations for media, culture, and presence in a hyperconnected world, the civic stakes of the performing arts are shifting. futureStage is a global research collaborative dedicated to investigating new scenarios for the performing arts in society. Newly released, the futureStage Manifesto offers a vision of performance as a human right, intimately entangled with all the stages on which contemporary life is performed, and offering global society new skills, sensibilities, and points of view.
 

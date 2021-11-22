@@ -45,6 +45,7 @@ members_twitter:
     - jaytiesse
     - matthewbattles
     - sarahwnewman
+
 ---
 <a href="http://infovis.fh-potsdam.de" target="_blank">information+visualization public talk series at Fachhochschule Potsdam - University of Applied Sciences</a>
 

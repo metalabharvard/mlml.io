@@ -32,6 +32,7 @@ members:
       twitter: sarahwnewman
 members_twitter:
     - sarahwnewman
+
 ---
 metaLAB’s experimental, materials-based creative workshops bring together hybrid formats that include design thinking exercises, group discussion, and physical prototyping (yes, even on zoom!) to think through pressing questions and work toward possible reformulations, new metaphors—and maybe, some solutions.  
 

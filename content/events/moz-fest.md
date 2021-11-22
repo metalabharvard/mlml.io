@@ -27,6 +27,7 @@ slug: moz-fest
 links:
     - label: Mozilla Festival
       url: https://mozillafestival.org/
+
 ---
 metaLAB will make our debut appearance at the international Mozilla Festival, MozFest, in London this weekend, with [Moral Labyrinth](../morallabyrinth), a walking installation created by Sarah Newman that contends with the Value Alignment Problem in artificial intelligence. This is part of metaLAB's ongoing exploration of the intersection of Art + AI, particularly focused on using interactive art to reflect on social and ethical problems that AI developments make relevant.
 

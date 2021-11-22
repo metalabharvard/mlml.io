@@ -24,6 +24,7 @@ isOngoing: false
 lastmod: "2021-11-12T17:36:23.418Z"
 date: "2019-03-27T12:00:00-04:00"
 slug: open-session-artifacts-in-space
+
 ---
 **metaLAB_open session: Artifacts in Space
 <br />Human Culture & Design Beyond Earth’s Bounds**

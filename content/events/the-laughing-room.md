@@ -24,6 +24,7 @@ isOngoing: false
 lastmod: "2021-11-12T17:36:23.814Z"
 date: "2018-11-16T12:00:00-04:00"
 slug: the-laughing-room
+
 ---
 **The Laughing Room<br />
 November 16–18, 2018**

@@ -24,6 +24,7 @@ isOngoing: false
 lastmod: "2021-11-12T17:36:23.488Z"
 date: "2020-01-01T12:00:00-04:00"
 slug: workshops
+
 ---
 <iframe src="https://player.vimeo.com/video/473445114" width="100%" height="300" frameborder="0"></iframe>
 

@@ -25,6 +25,7 @@ isOngoing: false
 lastmod: "2021-11-12T17:52:21.747Z"
 date: "2021-03-23T12:00:00-04:00"
 slug: playable-theatre-on-gaming-and-aesthetic-control
+
 ---
 Lawrence Switzky, University of Toronto. March 23, 5pm EST.
 **"Playable Theatre": On Gaming and Aesthetic Control**<br>

@@ -25,6 +25,7 @@ isOngoing: false
 lastmod: "2021-11-12T17:36:23.822Z"
 date: "2017-05-13T12:00:00-04:00"
 slug: in-flux-browsing-the-collections
+
 ---
 Workshop by Freie Universität Berlin and metaLAB at Harvard, Harvard University, Boston
 

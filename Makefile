@@ -1,5 +1,7 @@
-p = scripts/api # source folder
-t = binaries # target folder
+# source folder
+p = scripts/api
+# target folder
+t = binaries
 
 precompile:
 	npm run prebuild

@@ -33,6 +33,7 @@ events:
       slug: decentralized-storytelling
     - label: 'futureStage Manifesto: New Scenarios for the Performing Arts'
       slug: future-stage-manifesto-new-scenarios-for-the-performing-arts
+
 ---
 Jenn Parker-Starbuck, Royal Holloway, University of London. April 15, 5pm EST.
 **Animals in the Machine: Robotic Animal Agents**

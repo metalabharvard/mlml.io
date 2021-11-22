@@ -49,6 +49,7 @@ func main() {
   responseObject.Intro = ""
 
   file, _ := yaml.Marshal(responseObject)
+
     _ = ioutil.WriteFile("../../content/about.md", []byte(fmt.Sprintf("---\n%s\n---\n%s", file, content)), 0644)
 
   // _ = ioutil.WriteFile("content/about.md", file, 0644)

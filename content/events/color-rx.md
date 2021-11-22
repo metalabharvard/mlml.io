@@ -28,6 +28,7 @@ members:
     - label: Maia Suazo-Maler
       slug: maia-suazo-maler
       twitter: ""
+
 ---
 **Color Rx**
 <br />Maia Leandra

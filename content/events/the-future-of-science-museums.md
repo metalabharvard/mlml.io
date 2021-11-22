@@ -31,6 +31,7 @@ members:
       twitter: jaytiesse
 members_twitter:
     - jaytiesse
+
 ---
 **ONLINE<br />
 Thursday, December 10

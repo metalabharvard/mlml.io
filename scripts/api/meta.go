@@ -9,6 +9,7 @@ import (
   "os"
   "gopkg.in/yaml.v3"
   "strings"
+  utils "api/utils"
 )
 
 type Index struct {
@@ -174,12 +175,6 @@ type Config struct {
   Social Social `json:"social"`
 }
 
-func convertToPreviewImage(url string) string {
-  var str string = strings.Replace(url, "upload/", "upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/", 1)
-  str = strings.Replace(str, ".gif", ".jpg", 1)
-  return str
-}
-
 func addIndexPage(id string, str string) {
   var meta Index
   meta.Title = fmt.Sprintf(str, strings.Title(id))
@@ -281,7 +276,7 @@ func main() {
   }
 
   if responseObject.Preview.Url != "" {
-    config.Params.Images = []string{convertToPreviewImage(responseObject.Preview.Url)}
+    config.Params.Images = []string{utils.ConvertToPreviewImage(responseObject.Preview.Url)}
   }
 
   file, _ := json.MarshalIndent(config, "", " ")
