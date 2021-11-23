@@ -968,8 +968,15 @@ picture, img {
   }
 
   .project-share {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-auto-flow: column;
+    align-self: start;
+    justify-content: start;
+    column-gap: var(--spacing-2);
+
+    @include query($medium) {
+      grid-auto-flow: row;
+    }
   }
 }
 
@@ -1030,8 +1037,15 @@ picture, img {
   }
 
   .event-share {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-auto-flow: column;
+    align-self: start;
+    justify-content: start;
+    column-gap: var(--spacing-2);
+
+    @include query($medium) {
+      grid-auto-flow: row;
+    }
   }
 }
 
