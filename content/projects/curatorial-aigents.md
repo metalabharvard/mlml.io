@@ -69,11 +69,17 @@ members:
     - label: Lins Derry
       slug: lins-derry
       twitter: linsderry
+    - label: Mike Maizels
+      slug: mike-maizels
+      twitter: ""
+    - label: Minne Atairu
+      slug: minne-atairu
+      twitter: minneatairu
     - label: Philipp Schmitt
       slug: philipp-schmitt
       twitter: philippschmitt
-    - label: Yue Chelsea Qiu
-      slug: yue-chelsea-qiu
+    - label: Sinan Goknur
+      slug: sinan-goknur
       twitter: ""
 cover:
     alternativeText: Curatiorial A(i)gents Cover
@@ -111,6 +117,7 @@ members_twitter:
     - jaytiesse
     - kimay
     - linsderry
+    - minneatairu
     - philippschmitt
 images:
     - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1623943307/agents_ce7bfadd93.jpg

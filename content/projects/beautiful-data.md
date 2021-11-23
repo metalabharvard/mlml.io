@@ -1,19 +1,19 @@
 ---
 title: Beautiful Data
-subtitle: Publications
-fulltitle: 'Beautiful Data: Publications'
-intro: ""
-start: "2015-01-01"
-end: "2015-01-01"
-datestring: January 2015
+subtitle: Workshops
+fulltitle: 'Beautiful Data: Workshops'
+intro: Summer 2014-15 workshop series at Harvard, supported by the Getty Foundation.
+start: "2014-07-01"
+end: "2015-07-16"
+datestring: July 2014&ensp;–&ensp;July 2015
 location: ""
 host: harvard
 mediation: mixed_media
 category: publication
 isFeatured: false
-externalLink: ""
-lastmod: "2021-11-12T17:58:49.962Z"
-date: "2015-01-01"
+externalLink: https://beautifuldata.metalab.harvard.edu/
+lastmod: "2021-11-23T13:32:50.704Z"
+date: "2014-07-01"
 slug: beautiful-data
 links:
     - label: Beautiful Data I
@@ -21,12 +21,53 @@ links:
     - label: Beautiful Data II
       url: https://metalabharvard.github.io/beautifuldata/2015/
 members:
+    - label: Jeffrey Schnapp
+      slug: jeffrey-schnapp
+      twitter: jaytiesse
     - label: Marshall Lambert
       slug: marshall-lambert
       twitter: ""
+    - label: Mike Maizels
+      slug: mike-maizels
+      twitter: ""
+    - label: Sarah Newman
+      slug: sarah-newman
+      twitter: sarahwnewman
+cover:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637673907/Beautiful_Data_Logo_36a2215dc2.png
+    width: 1307
+    height: 849
+    ext: .png
+    mime: image/png
+    formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637673909/large_Beautiful_Data_Logo_36a2215dc2.png
+            ext: .png
+            width: 1000
+            height: 650
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637673909/medium_Beautiful_Data_Logo_36a2215dc2.png
+            ext: .png
+            width: 750
+            height: 487
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637673909/small_Beautiful_Data_Logo_36a2215dc2.png
+            ext: .png
+            width: 500
+            height: 325
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637673908/thumbnail_Beautiful_Data_Logo_36a2215dc2.png
+            ext: .png
+            width: 240
+            height: 156
+members_twitter:
+    - jaytiesse
+    - sarahwnewman
+images:
+    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1637673907/Beautiful_Data_Logo_36a2215dc2.png
 
 ---
-These publications serve as entry points to engagement with both the material and the modes of inquiry that shaped the Beautiful Data workshop. 
+These publications serve as entry points to engagement with both the material and the modes of inquiry that shaped the Beautiful Data workshop. The first workshop took place July 2014, with the second (Beautiful Data II) the following summer, July 6–16, 2015. With planning, communications, and post-project documentation, the program ran 2015-16.
 
 **Beautiful Data I (2014)**
 

@@ -22,6 +22,9 @@ members:
     - label: Jeffrey Schnapp
       slug: jeffrey-schnapp
       twitter: jaytiesse
+    - label: Leo Saenger
+      slug: leo-saenger
+      twitter: saengerleo
 cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636725882/hindsight2_6ce649dae1.jpg
     width: 800
@@ -68,6 +71,7 @@ gallery:
             height: 156
 members_twitter:
     - jaytiesse
+    - saengerleo
 images:
     - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1636725882/hindsight2_6ce649dae1.jpg
 

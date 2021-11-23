@@ -16,9 +16,6 @@ lastmod: "2021-11-12T15:07:32.397Z"
 date: "2019-01-01"
 slug: curricle
 members:
-    - label: Alexandra Dolan-Mescal
-      slug: alexandra-dolan-mescal
-      twitter: fromadmwithlove
     - label: Jeffrey Schnapp
       slug: jeffrey-schnapp
       twitter: jaytiesse
@@ -74,7 +71,6 @@ gallery:
             width: 156
             height: 156
 members_twitter:
-    - fromadmwithlove
     - jaytiesse
     - kimay
     - matthewbattles

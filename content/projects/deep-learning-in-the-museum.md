@@ -19,6 +19,9 @@ members:
     - label: Jeffrey Schnapp
       slug: jeffrey-schnapp
       twitter: jaytiesse
+    - label: Satvik Shukla
+      slug: satvik-shukla
+      twitter: satvik_sh
 cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636729857/deeplearning1_130caadeaf.jpg
     width: 870
@@ -65,6 +68,7 @@ gallery:
             height: 124
 members_twitter:
     - jaytiesse
+    - satvik_sh
 images:
     - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1636729857/deeplearning1_130caadeaf.jpg
 
