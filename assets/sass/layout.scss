@@ -324,6 +324,10 @@ picture img {
           transform: none;
         }
       }
+
+      section:not(:first-child) {
+        margin-top: var(--spacing-3);
+      }
     }
   }
 

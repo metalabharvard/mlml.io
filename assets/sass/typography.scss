@@ -249,8 +249,13 @@ ul {
 }
 
 .search-results {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
   h2 {
-    margin-bottom: var(--spacing-05);
+    font-size: var(--size-5);
+    margin-bottom: var(--spacing-1);
   }
 
   a {

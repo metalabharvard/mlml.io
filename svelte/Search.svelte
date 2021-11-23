@@ -55,6 +55,8 @@
     ['member', resultsMembers, 'Members', 'label', 'role', false, resultsProjects.length + resultsEvents.length, 'm']
   ]
 
+  $: hasAnyResults = resultsTotal.some(([key, results]) => results.length)
+
   function handleInput () {
     isSearchBusy = true;
     const term = trim(input.value)
@@ -108,12 +110,10 @@
   }
 
   function handleKeyDownInput (event) {
-    // console.log({ event })
     const { key, target, keyCode } = event;
     if (trim(input.value)) {
       if (keyCode === 40) {
         document.getElementById(`result-index-${tabIndex}`).focus();
-        // event.preventDefault();
       }
     } else {
       if (key === 'Tab') {
@@ -125,7 +125,6 @@
   function handleKeyDownResult (event) {
     const { keyCode } = event;
     if (keyCode === 40 || keyCode === 38) {
-      // event.preventDefault();
 
       if (keyCode === 40) {
         document.getElementById(`result-index-${tabIndex + 1}`).focus();
@@ -140,7 +139,6 @@
   }
 
   function handleTriggerClick () {
-    console.log(isOpen)
     if (isOpen) {
       closeSearch();
     } else {
@@ -196,33 +194,37 @@
   </svg>
 </button>
 
-<div class="search-results grid" class:hasTerm={hasTerm} bind:this={results}>
-  <div class="grid-wide">
-    {#each resultsTotal as [id, results, noun, title, subtitle, footer, index, path]}
-    {#if results.length}
-    <section>
-      <h2 id="{`results-${id}`}" aria-label={`Search results for ${noun}`}>{ noun } <small class="search-result-counter">{ results.length }</small></h2>
-      <div role="feed" aria-busy="{ isSearchBusy }" aria-labelledby="results-projects">
-        {#each results as result, i}
-        <a
-          role="article"
-          href="/{ path }/{ get(result, 'id') }"
-          aria-posinset="{ i + 1 }"
-          aria-setsize="{ results.length }"
-          tabindex="0"
-          aria-labelledby="{ `search-result-${id}-${i}` }"
-          id={`result-index-${index + i}`}
-          on:blur={ () => tabIndex = 0 }
-          on:focus={ () => tabIndex = index + i }
-          on:keydown={handleKeyDownResult}>
-          <span class="result-title" id={ `search-result-${id}-${i}` }>{ formatTitle(get(result, title)) }</span>
-          <span class="result-subtitle">{ formatSubtitle(get(result, subtitle)) }</span>
-          <span class="result-footer">{ get(result, footer) || '' }</span>
-        </a>
-        {/each}
-      </div>
-    </section>
+<div class="search-results" class:hasTerm={hasTerm} bind:this={results}>
+  <div class="wrapper grid">
+    {#if hasAnyResults}
+      {#each resultsTotal as [id, results, noun, title, subtitle, footer, index, path]}
+      {#if results.length}
+      <section class="grid-wide">
+        <h2 id="{`results-${id}`}" aria-label={`Search results for ${noun}`}>{ noun }</h2>
+        <div role="feed" aria-busy="{ isSearchBusy }" aria-labelledby="results-projects">
+          {#each results as result, i}
+          <a
+            role="article"
+            href="/{ path }/{ get(result, 'id') }"
+            aria-posinset="{ i + 1 }"
+            aria-setsize="{ results.length }"
+            tabindex="0"
+            aria-labelledby="{ `search-result-${id}-${i}` }"
+            id={`result-index-${index + i}`}
+            on:blur={ () => tabIndex = 0 }
+            on:focus={ () => tabIndex = index + i }
+            on:keydown={handleKeyDownResult}>
+            <span class="result-title" id={ `search-result-${id}-${i}` }>{ formatTitle(get(result, title)) }</span>
+            <span class="result-subtitle">{ formatSubtitle(get(result, subtitle)) }</span>
+            <span class="result-footer">{ get(result, footer) || '' }</span>
+          </a>
+          {/each}
+        </div>
+      </section>
+      {/if}
+      {/each}
+    {:else}
+    <h2>No results found.</h2>
     {/if}
-    {/each}
   </div>
 </div>
