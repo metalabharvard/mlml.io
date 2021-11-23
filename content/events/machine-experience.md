@@ -20,6 +20,7 @@ end_time_locations:
 tzid: America/Boston
 intro: A one-week exhibition at the Harvard Art Museums’ Lightbox Gallery asks where artificial intelligence is headed—and how art can help us explore the world we are making.
 location: Cambridge, MA
+description: A one-week exhibition at the Harvard Art Museums’ Lightbox Gallery asks where artificial intelligence is headed—and how art can help us explore the world we are making.
 isFeatured: false
 isOngoing: false
 lastmod: "2021-11-12T17:36:23.998Z"

@@ -19,6 +19,7 @@ end_time_locations:
     boston: "2019-05-13T13:00:00-04:00"
 tzid: America/Boston
 location: Cambridge, MA
+description: Intersections of Philosophy, AI, and Art
 isFeatured: false
 isOngoing: false
 lastmod: "2021-11-12T18:00:26.661Z"

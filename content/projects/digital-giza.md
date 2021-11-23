@@ -6,6 +6,7 @@ intro: Digital Giza explores new approaches to “cataloging” the world's most
 start: "2016-01-01"
 end: "2016-01-01"
 datestring: January 2016
+description: Visualizing the Pyramids
 location: ""
 host: harvard
 mediation: mixed_media

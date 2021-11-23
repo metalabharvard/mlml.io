@@ -6,6 +6,7 @@ intro: ""
 start: "2018-01-01"
 end: "2018-01-01"
 datestring: January 2018
+description: Difference + Design
 location: ""
 host: harvard
 mediation: mixed_media

@@ -20,6 +20,7 @@ end_time_locations:
 tzid: America/Boston
 intro: Are secrets uniquely human? Our private lives are mediated and recorded by digital devices. Where are our secrets now? How will intelligent systems of the future process the data we leave behind? What kind of relationships do we have with these systems, and why do we trust them with our most private information?
 location: Boston, MA
+description: Are secrets uniquely human? Our private lives are mediated and recorded by digital devices. Where are our secrets now? How will intelligent systems of the future process the data we leave behind? What kind of relationships do we have with these systems, and why do we trust them with our most private information?
 isFeatured: false
 isOngoing: false
 lastmod: "2021-11-12T17:36:23.224Z"

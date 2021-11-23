@@ -128,6 +128,8 @@ func main() {
 
     element.Fulltitle = utils.CreateFulltitle(element.Title, element.Subtitle)
 
+    element.Description = utils.CreateDescription(element.Subtitle, element.Intro)
+
     if checkDates(element.Start, element.End) {
       println(fmt.Sprintf("%s has wrong dates", element.Title))
     }
@@ -136,7 +138,7 @@ func main() {
     utils.WriteToMarkdown(FOLDER, element.Slug, file, content)
   }
 
-  utils.WriteLastMod(FOLDER, Lastmod)
+  utils.WriteLastMod(FOLDER, Lastmod, "Projects")
   
   println(fmt.Sprintf("%d elements added", len(responseObject)))
   println("Requesting projects finished")

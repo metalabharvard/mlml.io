@@ -6,6 +6,7 @@ intro: Exploring digital effects on political, personal, and aesthetic experienc
 start: "2018-01-01"
 end: "2018-01-01"
 datestring: January 2018
+description: Exploring digital effects on political, personal, and aesthetic experiences of nature.
 location: ""
 host: harvard
 mediation: mixed_media

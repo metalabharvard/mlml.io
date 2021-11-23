@@ -19,6 +19,7 @@ end_time_locations:
     boston: "2017-05-16T13:00:00-04:00"
 tzid: America/Boston
 location: Lesvos, Greece
+description: Audio Workshop About Sound + Place
 isFeatured: false
 isOngoing: false
 lastmod: "2021-11-12T17:59:30.632Z"

@@ -6,6 +6,7 @@ intro: Combining Matthew Battles's work on feral and invasive species in the cit
 start: "2018-01-01"
 end: "2018-01-01"
 datestring: January 2018
+description: Networks + Natures
 location: ""
 host: harvard
 mediation: mixed_media

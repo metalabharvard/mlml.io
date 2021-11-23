@@ -20,6 +20,7 @@ end_time_locations:
 tzid: America/Boston
 intro: <i>Alterspace:</i> libraries, digital placemaking, and emancipatory design
 location: Cambridge, MA
+description: <i>Alterspace:</i> libraries, digital placemaking, and emancipatory design
 isFeatured: false
 isOngoing: false
 lastmod: "2021-11-12T17:36:23.779Z"

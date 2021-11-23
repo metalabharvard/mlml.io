@@ -19,6 +19,7 @@ end_time_locations:
     boston: "2019-01-19T12:00:00-05:00"
 tzid: America/Boston
 location: Cambridge, MA
+description: Inexplicable Parts of the Intimate
 isFeatured: false
 isOngoing: false
 lastmod: "2021-11-12T17:59:58.494Z"

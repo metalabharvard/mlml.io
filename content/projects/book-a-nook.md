@@ -6,6 +6,7 @@ intro: An open-source tool to activate, connect, and experiment with community s
 start: "2016-01-01"
 end: "2016-01-01"
 datestring: January 2016
+description: An open-source tool to activate, connect, and experiment with community spaces.
 location: ""
 host: harvard
 mediation: mixed_media

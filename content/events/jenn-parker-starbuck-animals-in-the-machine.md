@@ -21,6 +21,7 @@ tzid: America/Boston
 intro: How mechanized animals might produce a disturbance that provokes possibility.
 location: Cambridge, MA
 category: seminar
+description: 'Mahindra Transmedia Arts Seminar: Robotic Animal Agents'
 isFeatured: false
 isOngoing: false
 lastmod: "2021-11-12T18:01:27.829Z"
@@ -31,7 +32,7 @@ events:
       slug: 2018-lita-library-technology-forum
     - label: Decentralized Storytelling
       slug: decentralized-storytelling
-    - label: 'futureStage Manifesto: New Scenarios for the Performing Arts'
+    - label: futureStage Manifesto
       slug: future-stage-manifesto-new-scenarios-for-the-performing-arts
 
 ---

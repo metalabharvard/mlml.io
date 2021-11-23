@@ -93,6 +93,14 @@ func CreateFulltitle(title string, subtitle string) string {
   }
 }
 
+func CreateDescription(subtitle string, intro string) string {
+  if subtitle == "" {
+    return intro
+  } else {
+    return subtitle
+  }
+}
+
 func CreatePreviewImage(preview string, cover string) []string {
   if preview != "" {
     return []string{ConvertToPreviewImage(preview)}
@@ -149,8 +157,9 @@ func WriteToMarkdown(folder string, slug string, file []byte, content string) {
   _ = ioutil.WriteFile(fmt.Sprintf("%s/%s.md", folder, slug), []byte(fmt.Sprintf("---\n%s\n---\n%s", file, content)), 0644)
 }
 
-func WriteLastMod(folder string, lastmod time.Time) {
+func WriteLastMod(folder string, lastmod time.Time, title string) {
   var meta stru.Index
+  meta.Title = title
   meta.Lastmod = lastmod.Format(time.RFC3339)
   file, _ := yaml.Marshal(meta)
   _ = ioutil.WriteFile(fmt.Sprintf("%s/_index.md", folder), []byte(fmt.Sprintf("---\n%s---", file)), 0644)

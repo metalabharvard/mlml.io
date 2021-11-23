@@ -11,6 +11,7 @@ import (
 )
 
 type Meta struct {
+  Title string `json:"intro"`
   Intro string `json:"intro,omitempty"`
   Updated_at string `json:"updated_at,omitempty"`
   Created_at string `json:"created_at,omitempty"`
@@ -41,6 +42,7 @@ func main() {
 
   responseObject.Layout = "about"
   responseObject.Slug = "about"
+  responseObject.Title = "About"
 
   responseObject.Date = responseObject.Created_at
   responseObject.Lastmod = responseObject.Updated_at

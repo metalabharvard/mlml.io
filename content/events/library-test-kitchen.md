@@ -19,6 +19,7 @@ end_time_locations:
     boston: "2016-01-01T12:00:00-05:00"
 tzid: America/Boston
 intro: A series of workshops that explore libraries through design and making
+description: A series of workshops that explore libraries through design and making
 isFeatured: false
 isOngoing: false
 lastmod: "2021-11-12T17:36:23.722Z"

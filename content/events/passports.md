@@ -19,6 +19,7 @@ end_time_locations:
     boston: "2018-05-10T13:00:00-04:00"
 tzid: America/Boston
 location: Houghton Library
+description: Knowledge Design Workshop'
 isFeatured: false
 isOngoing: false
 lastmod: "2021-11-12T17:52:48.267Z"

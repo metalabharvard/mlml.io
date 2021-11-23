@@ -15,7 +15,7 @@ slug: lins-derry
 events:
     - label: Curatorial A(i)gents at  Ars Electronica 2020
       slug: curatorial-a-i-gents-at-ars-electronica-2020
-    - label: 'futureStage Manifesto: New Scenarios for the Performing Arts'
+    - label: futureStage Manifesto
       slug: future-stage-manifesto-new-scenarios-for-the-performing-arts
 projects:
     - label: Curatorial A(i)gents

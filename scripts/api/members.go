@@ -134,7 +134,7 @@ func main() {
     utils.WriteToMarkdown(FOLDER, element.Slug, file, content)
   }
 
-  utils.WriteLastMod(FOLDER, Lastmod)
+  utils.WriteLastMod(FOLDER, Lastmod, "Members")
 
   println(fmt.Sprintf("%d elements added", len(responseObject)))
   println("Requesting members finished")

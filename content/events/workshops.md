@@ -19,6 +19,7 @@ end_time_locations:
     boston: "2020-01-01T12:00:00-05:00"
 tzid: America/Boston
 intro: I learned that questions are not indicative of incompleteness, but rather the questions themselves can be the practice.
+description: I learned that questions are not indicative of incompleteness, but rather the questions themselves can be the practice.
 isFeatured: false
 isOngoing: false
 lastmod: "2021-11-12T17:36:23.488Z"

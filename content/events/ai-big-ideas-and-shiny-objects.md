@@ -19,6 +19,7 @@ end_time_locations:
     boston: "2019-03-12T13:00:00-04:00"
 tzid: America/Boston
 location: Austin, TX
+description: SXSW
 isFeatured: false
 isOngoing: false
 lastmod: "2021-11-12T18:00:09.874Z"

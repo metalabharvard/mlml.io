@@ -6,6 +6,7 @@ intro: 'Visualized, annotated, connected: what should the course catalog look li
 start: "2019-01-01"
 end: "2019-01-01"
 datestring: January 2019
+description: 'Visualized, annotated, connected: what should the course catalog look like in the 21st century? Leveraging data and design in a post-disciplinary era.'
 location: virtual
 host: harvard
 mediation: mixed_media

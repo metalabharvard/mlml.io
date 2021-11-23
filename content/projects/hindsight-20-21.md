@@ -6,6 +6,7 @@ intro: Hindsight 20/21 asks how the university is changing across its collection
 start: "2021-01-01"
 end: ""
 datestring: Since January 2021
+description: Hindsight 20/21 asks how the university is changing across its collections, communities, and curricula.
 location: virtual
 host: harvard
 mediation: mixed_media

@@ -20,6 +20,7 @@ end_time_locations:
 tzid: America/Boston
 intro: What should the course catalog look like in the 21st century? A talk on leveraging data and design for course selection and discovery.
 location: Lamont Forum Room, Harvard
+description: The Social Life of the Course Catalog
 isFeatured: false
 isOngoing: false
 lastmod: "2021-11-12T17:52:56.089Z"

@@ -6,6 +6,7 @@ intro: Is it possible to have multi-sensorial museum experience through digital 
 start: "2019-01-01"
 end: "2019-01-01"
 datestring: January 2019
+description: Is it possible to have multi-sensorial museum experience through digital methods?
 location: Gallerie Estensi, Modena, Italy
 host: harvard
 mediation: mixed_media

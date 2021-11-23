@@ -6,6 +6,7 @@ intro: Graphesis provides a descriptive critical language for the analysis of gr
 start: "2014-01-01"
 end: "2014-01-01"
 datestring: January 2014
+description: Visual Forms of Knowledge Production
 location: ""
 host: harvard
 mediation: mixed_media

@@ -20,6 +20,7 @@ end_time_locations:
 tzid: America/Boston
 intro: 'Machine Experience II: Art Perspectives on Artificial Intelligence'
 location: Berlin
+description: 'Machine Experience II: Art Perspectives on Artificial Intelligence'
 isFeatured: false
 isOngoing: false
 lastmod: "2021-11-12T17:36:23.991Z"

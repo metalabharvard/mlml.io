@@ -19,6 +19,7 @@ end_time_locations:
     boston: "2018-09-06T13:00:00-04:00"
 tzid: America/Boston
 location: Linz, Austria
+description: Error – The Art of Imperfection
 isFeatured: false
 isOngoing: false
 lastmod: "2021-11-12T17:53:05.772Z"

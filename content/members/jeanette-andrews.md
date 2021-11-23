@@ -13,7 +13,7 @@ lastmod: "2021-10-22T10:43:57.648Z"
 date: "2021-09-16T10:51:45.331Z"
 slug: jeanette-andrews
 events:
-    - label: 'futureStage Manifesto: New Scenarios for the Performing Arts'
+    - label: futureStage Manifesto
       slug: future-stage-manifesto-new-scenarios-for-the-performing-arts
 picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1634898362/jeanette_5e34f05496.jpg

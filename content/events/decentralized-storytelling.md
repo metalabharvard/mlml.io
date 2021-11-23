@@ -22,6 +22,7 @@ intro: 'Mahindra Transmedia Arts Seminar: Lance Weiler, Director of the Columbia
 location: online
 category: seminar
 externalLink: https://harvard.zoom.us/webinar/register/WN_yyN8-Xf-QSi-EQ78y7YwHw
+description: Where AI, the Blokchain, Code, and the Metaverse Connect
 isFeatured: true
 isOngoing: false
 lastmod: "2021-11-18T19:45:44.293Z"
@@ -32,7 +33,7 @@ events:
       slug: 2018-lita-library-technology-forum
     - label: Jenn Parker-Starbuck, Animals in the Machine
       slug: jenn-parker-starbuck-animals-in-the-machine
-    - label: 'futureStage Manifesto: New Scenarios for the Performing Arts'
+    - label: futureStage Manifesto
       slug: future-stage-manifesto-new-scenarios-for-the-performing-arts
 cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1634901593/weiler_transmedia_cd91da1c84.jpg

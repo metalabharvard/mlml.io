@@ -6,6 +6,7 @@ intro: The Library Beyond the Book explains, speculates and provokes book cultur
 start: "2014-01-01"
 end: "2014-01-01"
 datestring: January 2014
+description: The Library Beyond the Book explains, speculates and provokes book culture for a world where the physical and the virtual blend with ever increasing intimacy.
 location: ""
 host: harvard
 mediation: mixed_media

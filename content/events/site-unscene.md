@@ -19,6 +19,7 @@ end_time_locations:
     boston: "2020-02-23T12:00:00-05:00"
 tzid: America/Boston
 location: Cambridge, MA
+description: Medial Ideology and the Literary Interface
 isFeatured: false
 isOngoing: false
 lastmod: "2021-11-12T17:52:30.285Z"

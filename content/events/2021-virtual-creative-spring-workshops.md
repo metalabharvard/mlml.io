@@ -21,6 +21,7 @@ tzid: America/Boston
 intro: “Upcoming creative workshops exploring AI, time, and the future of communication”
 location: Online
 category: workshop
+description: “Upcoming creative workshops exploring AI, time, and the future of communication”
 isFeatured: false
 isOngoing: false
 lastmod: "2021-11-12T17:36:23.890Z"

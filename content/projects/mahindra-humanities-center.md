@@ -6,6 +6,7 @@ intro: The intersection of contemporary art/theatre and new media technologies i
 start: "2020-12-01"
 end: ""
 datestring: Since December 2020
+description: Transmedia Arts Seminar
 location: Mahindra Humanities Center
 host: harvard
 mediation: ""

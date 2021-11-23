@@ -20,6 +20,7 @@ end_time_locations:
 tzid: America/Boston
 intro: Theorizing the enhancements and constraints that gaming brings to theatre.
 location: Cambridge, MA
+description: Mahindra Transmedia Arts Seminar
 isFeatured: false
 isOngoing: false
 lastmod: "2021-11-12T17:52:21.747Z"

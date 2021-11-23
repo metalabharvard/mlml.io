@@ -6,6 +6,7 @@ intro: Artificial Senses visualizes sensor data of the machines that surround us
 start: "2017-06-01"
 end: "2017-12-01"
 datestring: June&ensp;–&ensp;December 2017
+description: Artificial Senses visualizes sensor data of the machines that surround us to develop an understanding how they experience the world.
 location: ""
 host: harvard
 mediation: web

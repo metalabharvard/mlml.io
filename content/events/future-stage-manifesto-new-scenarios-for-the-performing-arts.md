@@ -1,6 +1,6 @@
 ---
-title: 'futureStage Manifesto: New Scenarios for the Performing Arts'
-subtitle: ""
+title: futureStage Manifesto
+subtitle: New Scenarios for the Performing Arts
 fulltitle: 'futureStage Manifesto: New Scenarios for the Performing Arts'
 status: default
 outputs:
@@ -22,9 +22,10 @@ intro: 'Mahindra Transmedia Arts Seminar, November 19, 5pm: produced by an inter
 location: online
 category: seminar
 externalLink: https://harvard.zoom.us/webinar/register/WN_RGRjIoXSQYq9qXMcsp4AXQ
+description: New Scenarios for the Performing Arts
 isFeatured: true
 isOngoing: false
-lastmod: "2021-11-12T17:36:23.826Z"
+lastmod: "2021-11-23T20:22:03.004Z"
 date: "2021-11-19T22:00:00-04:00"
 slug: future-stage-manifesto-new-scenarios-for-the-performing-arts
 members:

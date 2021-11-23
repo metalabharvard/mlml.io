@@ -2,16 +2,16 @@
 name: Dario Rodighiero
 title: Dario Rodighiero
 roles:
-    - role: Postdocs
+    - role: Postdoc
       position: 5
 isAlumnus: false
 rank: 5.999
-role_string: Postdocs
+role_string: Postdoc
 twitter: dariorodighiero
 website: http://dariorodighiero.com/
 instagram: dario.rodighiero
 github: https://github.com/rodighiero/
-lastmod: "2021-11-11T16:14:42.775Z"
+lastmod: "2021-11-23T20:26:42.546Z"
 date: "2021-09-16T10:51:44.527Z"
 slug: dario-rodighiero
 events:

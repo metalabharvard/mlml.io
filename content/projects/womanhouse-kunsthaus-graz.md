@@ -6,6 +6,7 @@ intro: Memory traces of “the daydreams that women have as they wash, bake, coo
 start: "2020-03-13"
 end: "2020-06-07"
 datestring: March&ensp;–&ensp;June 2020
+description: The Early Years of CalArts
 location: Kunsthaus Graz
 host: berlin
 mediation: exhibition

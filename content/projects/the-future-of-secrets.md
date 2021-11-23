@@ -6,6 +6,7 @@ intro: An artistic research project that considers what might happen to our priv
 start: "2018-01-01"
 end: "2018-01-01"
 datestring: January 2018
+description: An artistic research project that considers what might happen to our private digital correspondence in the future.
 location: ""
 host: harvard
 mediation: mixed_media

@@ -6,13 +6,14 @@ intro: An international research collaborative mapping opportunities for perform
 start: "2021-06-16"
 end: "2021-08-10"
 datestring: June&ensp;–&ensp;August 2021
+description: An international research collaborative mapping opportunities for performance spaces in a hyperconnected world
 location: global
 host: harvard
 mediation: performance
 category: project
 isFeatured: true
 externalLink: http://future-stage.org/
-lastmod: "2021-11-12T10:46:02.082Z"
+lastmod: "2021-11-23T20:11:43.310Z"
 date: "2021-06-16"
 slug: futurestage
 collaborators:
@@ -47,7 +48,7 @@ collaborators:
     - label: Evenlyn Ficarra
       url: ""
 events:
-    - label: 'futureStage Manifesto: New Scenarios for the Performing Arts'
+    - label: futureStage Manifesto
       slug: future-stage-manifesto-new-scenarios-for-the-performing-arts
 members:
     - label: Eveline Wandl-Vogt
@@ -125,32 +126,6 @@ gallery:
             height: 500
         thumbnail:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870215/thumbnail_Futurstage_Instagram_posts1_7695077a08.png
-            ext: .png
-            width: 156
-            height: 156
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870218/Futurstage_Instagram_posts3_d7dcee6127.png
-      width: 2250
-      height: 2250
-      ext: .png
-      mime: image/png
-      formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870219/large_Futurstage_Instagram_posts3_d7dcee6127.png
-            ext: .png
-            width: 1000
-            height: 1000
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870219/medium_Futurstage_Instagram_posts3_d7dcee6127.png
-            ext: .png
-            width: 750
-            height: 750
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870220/small_Futurstage_Instagram_posts3_d7dcee6127.png
-            ext: .png
-            width: 500
-            height: 500
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870218/thumbnail_Futurstage_Instagram_posts3_d7dcee6127.png
             ext: .png
             width: 156
             height: 156

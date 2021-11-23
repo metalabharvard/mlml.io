@@ -6,6 +6,7 @@ intro: A venue for digital experiments and new media projects that respond to co
 start: "2016-01-01"
 end: "2016-01-01"
 datestring: January 2016
+description: A venue for digital experiments and new media projects that respond to collections held at the Harvard Art Museums, where digital tools reveal connections between objects and play with traditions of display.
 location: ""
 host: harvard
 mediation: mixed_media

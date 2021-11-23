@@ -19,7 +19,7 @@ type ResponseEvents struct {
   Location string `yaml:"location,omitempty"`
   Category string `yaml:"category,omitempty"`
   Link string `yaml:"externalLink,omitempty"`
-  Description string `yaml:"description,omitempty"`
+  Description string `yaml:"description,omitempty"` // Added by the script
   IsFeatured bool `yaml:"isFeatured"`
   IsOngoing bool `yaml:"isOngoing"`
   Updated_at string `yaml:"updated_at,omitempty"` // Deleted by this script
@@ -51,7 +51,7 @@ type ResponseProjects struct {
   Start string `yaml:"start"`
   End string `yaml:"end"`
   DateString string `yaml:"datestring"`
-  Description string `yaml:"description,omitempty"`
+  Description string `yaml:"description,omitempty"` // Added by the script
   Location string `yaml:"location"`
   Host string `yaml:"host"`
   Mediation string `yaml:"mediation"`
@@ -130,6 +130,7 @@ type Topic struct {
 }
 
 type Index struct {
+  Title string `yaml:"title"`
   Lastmod string `yaml:"lastmod"`
 }
 

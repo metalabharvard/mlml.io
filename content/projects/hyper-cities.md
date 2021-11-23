@@ -6,6 +6,7 @@ intro: 'HyperCities describes thick mapping: the humanist project of participati
 start: "2014-01-01"
 end: "2014-01-01"
 datestring: January 2014
+description: Thick Mapping in the Digital Humanities
 location: ""
 host: harvard
 mediation: mixed_media

@@ -6,6 +6,7 @@ intro: Using machine learning not analytically but playfully, not predictively b
 start: "2018-01-01"
 end: "2018-01-01"
 datestring: January 2018
+description: Networks + Natures
 location: ""
 host: harvard
 mediation: mixed_media

@@ -6,6 +6,7 @@ intro: Summer 2014-15 workshop series at Harvard, supported by the Getty Foundat
 start: "2014-07-01"
 end: "2015-07-16"
 datestring: July 2014&ensp;–&ensp;July 2015
+description: Workshops
 location: ""
 host: harvard
 mediation: mixed_media

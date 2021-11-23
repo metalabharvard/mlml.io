@@ -6,6 +6,7 @@ intro: Second Look calls attention to the circularity of how an artificial intel
 start: "2021-01-01"
 end: "2021-01-01"
 datestring: January 2021
+description: Gender and Sentiment on Show
 location: Harvard Art Museums
 host: harvard
 mediation: mixed_media

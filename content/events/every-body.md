@@ -20,6 +20,7 @@ end_time_locations:
 tzid: America/Boston
 intro: Celebrating the arrival of two books that question hidden assumptions about ability, the body, and roles for design and technology in defining shared worlds.
 location: Cambridge, MA
+description: A conversation with Sara Hendren & Elizabeth Guffey
 isFeatured: false
 isOngoing: false
 lastmod: "2021-11-12T17:51:13.221Z"

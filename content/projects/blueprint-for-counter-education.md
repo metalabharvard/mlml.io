@@ -6,6 +6,7 @@ intro: “This counter-university makes obsolete the traditional university proc
 start: "2016-01-01"
 end: "2016-01-01"
 datestring: January 2016
+description: Expanded Reprint
 location: ""
 host: harvard
 mediation: mixed_media

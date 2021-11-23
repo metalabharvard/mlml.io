@@ -19,6 +19,7 @@ end_time_locations:
     boston: "2019-09-07T13:00:00-04:00"
 tzid: America/Boston
 location: 4S, New Orleans
+description: Regenerating Algorithms
 isFeatured: false
 isOngoing: false
 lastmod: "2021-11-12T18:00:48.937Z"

@@ -20,6 +20,7 @@ end_time_locations:
 tzid: America/Boston
 intro: A discussion of metaLAB's singular publications now available from Printed Matter.
 location: online
+description: Exploring metaLAB publications
 isFeatured: false
 isOngoing: false
 lastmod: "2021-11-12T17:51:02.746Z"

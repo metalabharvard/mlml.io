@@ -6,6 +6,7 @@ intro: metaLAB projects in this area explore the psychological and philosophical
 start: "2019-01-01"
 end: "2019-01-01"
 datestring: January 2019
+description: metaLAB projects in this area explore the psychological and philosophical realms of electronic systems, reflect on the long history of human fascination with thinking machines, and consider our uncertain moral reckoning with the agency and autonomy of computers.
 location: ""
 host: harvard
 mediation: mixed_media

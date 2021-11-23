@@ -20,6 +20,7 @@ end_time_locations:
 tzid: America/Boston
 intro: Exploring the future of science museums with Michael John Gorman, founder of Biotopia and Science Gallery International.
 location: Cambridge, MA
+description: Michael John Gorman in conversation with Jeffrey Schnapp
 isFeatured: false
 isOngoing: false
 lastmod: "2021-11-12T18:01:10.641Z"

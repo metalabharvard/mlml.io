@@ -6,6 +6,7 @@ intro: A metaLAB series of interactive projects exploring machine learning in, a
 start: "2021-06-17"
 end: "2021-08-03"
 datestring: June&ensp;–&ensp;August 2021
+description: A metaLAB series of interactive projects exploring machine learning in, around, and about the Harvard Art Museums
 location: Harvard Art Museums
 host: harvard
 mediation: mixed_media

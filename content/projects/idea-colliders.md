@@ -6,6 +6,7 @@ intro: A provocative call for the transformation of science museums into “idea
 start: "2020-01-01"
 end: "2020-01-01"
 datestring: January 2020
+description: The Future of Science Museums, by Michael John Gorman
 location: ""
 host: harvard
 mediation: mixed_media

@@ -20,6 +20,7 @@ end_time_locations:
 tzid: America/Boston
 intro: Practice-Based Research between Universities and Museums II
 location: Berlin, Germany
+description: Practice-Based Research between Universities and Museums II
 isFeatured: false
 isOngoing: false
 lastmod: "2021-11-12T17:36:23.822Z"

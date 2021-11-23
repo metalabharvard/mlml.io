@@ -6,6 +6,7 @@ intro: Dear Loneliness is a large-scale collaborative art project that seeks to 
 start: "2020-11-01"
 end: ""
 datestring: Since November 2020
+description: Dear Loneliness is a large-scale collaborative art project that seeks to write the longest letter in the world as a memorial to 2020, the COVID-19 era, and the racial injustices that have dominated this year.
 location: ""
 host: harvard
 mediation: mixed_media

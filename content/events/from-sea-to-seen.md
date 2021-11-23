@@ -20,6 +20,7 @@ end_time_locations:
 tzid: America/Boston
 intro: Exploring the varied museums of Iceland, and how we contend with memory and trauma, fascination and fear, through objects on display.
 location: Cambridge, MA
+description: A metaLAB conversation with A. Kendra Greene
 isFeatured: false
 isOngoing: false
 lastmod: "2021-11-12T17:50:43.155Z"

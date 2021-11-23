@@ -6,6 +6,7 @@ intro: ""
 start: "2019-01-01"
 end: "2019-01-01"
 datestring: January 2019
+description: Post Studio/Feminism – CalArts 1970-1977
 location: ""
 host: berlin
 mediation: print

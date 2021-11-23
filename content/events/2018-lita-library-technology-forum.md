@@ -29,7 +29,7 @@ events:
       slug: decentralized-storytelling
     - label: Jenn Parker-Starbuck, Animals in the Machine
       slug: jenn-parker-starbuck-animals-in-the-machine
-    - label: 'futureStage Manifesto: New Scenarios for the Performing Arts'
+    - label: futureStage Manifesto
       slug: future-stage-manifesto-new-scenarios-for-the-performing-arts
 links:
     - label: LITA Forum

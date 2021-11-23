@@ -6,6 +6,7 @@ intro: In collections of scientific and cultural history that are too big to see
 start: "2013-01-01"
 end: "2013-01-01"
 datestring: January 2013
+description: In collections of scientific and cultural history that are too big to see, metadata act as virtual handles for rare and delicate artifacts from the past.
 location: ""
 host: harvard
 mediation: mixed_media

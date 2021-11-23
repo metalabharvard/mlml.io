@@ -20,6 +20,7 @@ end_time_locations:
 tzid: America/Boston
 intro: Exploring the impact of pandemic on experimental transmedia theatre and performance.
 location: Cambridge, MA
+description: The Future of Transmedia Performance
 isFeatured: false
 isOngoing: false
 lastmod: "2021-11-12T17:51:39.498Z"

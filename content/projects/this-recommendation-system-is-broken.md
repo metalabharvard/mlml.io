@@ -6,6 +6,7 @@ intro: Through randomization, This Recommendation System is Broken decenters the
 start: "2021-01-01"
 end: "2021-01-01"
 datestring: January 2021
+description: Through randomization, This Recommendation System is Broken decenters the viewer and reimagines the role of norms in collections.
 location: ""
 host: harvard
 mediation: mixed_media

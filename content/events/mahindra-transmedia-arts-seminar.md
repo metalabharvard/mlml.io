@@ -19,6 +19,7 @@ end_time_locations:
     boston: "2020-10-08T13:00:00-04:00"
 tzid: America/Boston
 location: Cambridge, MA
+description: Magda Romanska, Transmedia Dramaturgy of Pre- and Post-Pandemic Theatre
 isFeatured: false
 isOngoing: false
 lastmod: "2021-11-12T17:50:53.693Z"

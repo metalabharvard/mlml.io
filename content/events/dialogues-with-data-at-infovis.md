@@ -20,6 +20,7 @@ end_time_locations:
 tzid: America/Boston
 intro: Multisensory Encounters with Objects, Texts, and Images
 location: Potsdam, Germany
+description: Multisensory Encounters with Objects, Texts, and Images
 isFeatured: false
 isOngoing: false
 lastmod: "2021-11-12T17:36:23.956Z"

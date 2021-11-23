@@ -6,6 +6,7 @@ intro: Aixquisite Corpse explores computational and traditional roles for images
 start: "2021-01-01"
 end: "2021-01-01"
 datestring: January 2021
+description: Aixquisite Corpse explores computational and traditional roles for images through a variant of the famed surrealist game.
 location: ""
 host: harvard
 mediation: mixed_media

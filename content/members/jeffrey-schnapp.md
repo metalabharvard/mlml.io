@@ -13,7 +13,7 @@ intro: Eventually everything connects.
 twitter: jaytiesse
 website: http://jeffreyschnapp.com/
 instagram: jschnapp
-lastmod: "2021-11-09T18:35:13.174Z"
+lastmod: "2021-11-23T20:29:50.393Z"
 date: "2021-09-16T10:51:45.518Z"
 slug: jeffrey-schnapp
 events:
@@ -23,7 +23,7 @@ events:
       slug: dialogues-with-data-at-infovis
     - label: The Future of Science Museums
       slug: the-future-of-science-museums
-    - label: 'futureStage Manifesto: New Scenarios for the Performing Arts'
+    - label: futureStage Manifesto
       slug: future-stage-manifesto-new-scenarios-for-the-performing-arts
     - label: metaLAB + friends openLAB
       slug: meta-lab-friends-open-lab
@@ -78,4 +78,4 @@ picture:
             height: 156
 
 ---
-Before moving to Harvard in 2011, Jeffrey Schnapp occupied the Pierotti Chair of Italian Studies at Stanford, where he founded and led the Stanford Humanities Lab between 1999 and 2009. A cultural historian, designer, and curator with research interests extending from antiquity to the present, his most recent books include [The Electric Information Age Book](http://www.projectprojects.com/projects/the_electric_information_age_book){:target="_blank"}, Modernitalia, <a href='https://mitpress.mit.edu/books/digitalhumanities' target='blank'>Digital_Humanities</a>, and <a href='http://www.hup.harvard.edu/catalog.php?isbn=9780674725034' target='blank'>The Library Beyond the Book</a>. At Harvard he occupies the Carl A. Pescosolido Chair in Romance and Comparative Literatures, while also serving as a faculty member of the Architecture department at the Graduate School of Design and as one of the faculty co-directors of the <a href='https://cyber.harvard.edu/' target='blank'>Berkman Klein Center for Internet and Society</a>. For more information, go to <a href='http://jeffreyschnapp.com' target='blank'>jeffreyschnapp.com</a>.
+Before moving to Harvard in 2011, Jeffrey Schnapp occupied the Pierotti Chair of Italian Studies at Stanford, where he founded and led the Stanford Humanities Lab between 1999 and 2009. A cultural historian, designer, and curator with research interests extending from antiquity to the present, his most recent books include [The Electric Information Age Book](http://www.projectprojects.com/projects/the_electric_information_age_book), Modernitalia, [Digital_Humanities](https://mitpress.mit.edu/books/digitalhumanities), and [The Library Beyond the Book](http://www.hup.harvard.edu/catalog.php?isbn=9780674725034). At Harvard he occupies the Carl A. Pescosolido Chair in Romance and Comparative Literatures, while also serving as a faculty member of the Architecture department at the Graduate School of Design and as one of the faculty co-directors of the [Berkman Klein Center for Internet and Society](https://cyber.harvard.edu/). For more information, go to [jeffreyschnapp.com](http://jeffreyschnapp.com).

@@ -19,6 +19,7 @@ end_time_locations:
     boston: "2019-05-11T13:00:00-04:00"
 tzid: America/Boston
 location: Cambridge, MA
+description: Kvass
 isFeatured: false
 isOngoing: false
 lastmod: "2021-11-12T18:00:17.794Z"

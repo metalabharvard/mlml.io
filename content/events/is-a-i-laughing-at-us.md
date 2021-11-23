@@ -20,6 +20,7 @@ end_time_locations:
 tzid: America/Boston
 intro: Is A.I. Laughing at us?<br /> A conversation with Jessica Fjeld, Jon Orwant, and Nikhil Dharmaraj
 location: Cambridge, MA
+description: Is A.I. Laughing at us?<br /> A conversation with Jessica Fjeld, Jon Orwant, and Nikhil Dharmaraj
 isFeatured: false
 isOngoing: false
 lastmod: "2021-11-12T17:36:23.233Z"

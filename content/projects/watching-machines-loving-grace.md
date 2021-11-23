@@ -6,6 +6,7 @@ intro: Observing the otherwise unwanted parts of facial recognition, Watching Ma
 start: "2021-01-01"
 end: "2021-01-01"
 datestring: January 2021
+description: Observing the otherwise unwanted parts of facial recognition, Watching Machines Loving Grace visualizes the reductiveness of algorithmic visual sense-making.
 location: ""
 host: harvard
 mediation: web
