@@ -1,12 +1,16 @@
 ---
 name: Rosa Weinberg
 title: Rosa Weinberg
+roles:
+    - role: Affiliate
+      position: 4
 isAlumnus: false
-rank: 9.999
+rank: 4.999
+role_string: Affiliate
 twitter: rosaweinberg
 website: http://leahrosaweinberg.com/
 instagram: leahrosaw
-lastmod: "2021-11-02T18:33:43.249Z"
+lastmod: "2021-11-22T16:32:52.971Z"
 date: "2021-09-16T10:51:44.871Z"
 slug: rosa-weinberg
 picture:

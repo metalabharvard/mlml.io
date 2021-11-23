@@ -56,9 +56,6 @@ members:
     - label: Philipp Schmitt
       slug: philipp-schmitt
       twitter: philippschmitt
-    - label: Yue Chelsea Qiu
-      slug: yue-chelsea-qiu
-      twitter: ""
 projects:
     - label: Curatorial A(i)gents
       slug: curatorial-aigents

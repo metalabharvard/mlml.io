@@ -1,11 +1,15 @@
 ---
 name: Serena Oduro
 title: Serena Oduro
+roles:
+    - role: Affiliate
+      position: 4
 isAlumnus: false
-rank: 9.999
+rank: 4.999
+role_string: Affiliate
 twitter: SerenaOduro
 website: http://linkedin.com/in/serena-oduro/
-lastmod: "2021-11-10T17:25:25.824Z"
+lastmod: "2021-11-22T19:17:51.663Z"
 date: "2021-09-16T10:51:44.877Z"
 slug: serena-oduro
 picture:

@@ -1,14 +1,20 @@
 ---
 name: Satvik Shukla
 title: Satvik Shukla
+roles:
+    - role: Researcher
+      position: 6
 isAlumnus: true
 role_string: Alumnus
 twitter: satvik_sh
 website: http://www.satvikshukla.com/
 instagram: satvik.sh
-lastmod: "2021-11-02T18:27:29.398Z"
+lastmod: "2021-11-22T16:29:56.081Z"
 date: "2021-09-16T10:51:44.961Z"
 slug: satvik-shukla
+projects:
+    - label: Deep Learning in the Museum
+      slug: deep-learning-in-the-museum
 picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122120/satvik_3b13e81965.jpg
     width: 800

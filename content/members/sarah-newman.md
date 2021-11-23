@@ -29,6 +29,8 @@ events:
     - label: metaLAB + friends openLAB
       slug: meta-lab-friends-open-lab
 projects:
+    - label: Beautiful Data
+      slug: beautiful-data
     - label: Moral Labyrinth
       slug: moral-labyrinth
     - label: Networks + Natures

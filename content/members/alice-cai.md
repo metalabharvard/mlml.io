@@ -1,11 +1,15 @@
 ---
 name: Alice Cai
 title: Alice Cai
+roles:
+    - role: Researcher
+      position: 6
 isAlumnus: false
-rank: 9.999
+rank: 6.999
+role_string: Researcher
 website: https://alicecai.com
 instagram: alicexcai
-lastmod: "2021-10-22T10:43:08.940Z"
+lastmod: "2021-11-22T19:23:37.000Z"
 date: "2021-10-22T10:40:16.975Z"
 slug: alice-cai
 picture:

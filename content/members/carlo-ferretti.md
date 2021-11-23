@@ -1,11 +1,15 @@
 ---
 name: Carlo Ferretti
 title: Carlo Ferretti
+roles:
+    - role: Affiliate
+      position: 4
 isAlumnus: false
-rank: 9.999
+rank: 4.999
+role_string: Affiliate
 twitter: CarloFerretti19
 instagram: cfready
-lastmod: "2021-11-10T17:13:47.848Z"
+lastmod: "2021-11-22T19:04:49.201Z"
 date: "2021-09-16T10:51:44.469Z"
 slug: carlo-ferretti
 picture:

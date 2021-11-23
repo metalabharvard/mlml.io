@@ -1,14 +1,21 @@
 ---
 name: Leo Saenger
 title: Leo Saenger
+roles:
+    - role: Researcher
+      position: 6
 isAlumnus: false
-rank: 9.999
+rank: 6.999
+role_string: Researcher
 twitter: saengerleo
 website: http://leosaenger.com/
 instagram: leosaenger
-lastmod: "2021-11-02T18:31:11.627Z"
+lastmod: "2021-11-22T19:24:42.005Z"
 date: "2021-09-16T10:51:44.785Z"
 slug: leo-saenger
+projects:
+    - label: Hindsight 20/21
+      slug: hindsight-20-21
 picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122127/leo_59a4801978.jpg
     width: 800

@@ -1,14 +1,21 @@
 ---
 name: Minne Atairu
 title: Minne Atairu
+roles:
+    - role: Affiliate
+      position: 4
 isAlumnus: false
-rank: 9.999
+rank: 4.999
+role_string: Affiliate
 twitter: minneatairu
 website: http://studio.minneatairu.com/
 instagram: minneatairu
-lastmod: "2021-11-02T18:31:48.732Z"
+lastmod: "2021-11-22T19:15:37.281Z"
 date: "2021-09-16T10:51:45.056Z"
 slug: minne-atairu
+projects:
+    - label: Curatorial A(i)gents
+      slug: curatorial-aigents
 picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122129/minne_615aa5b77a.jpg
     width: 432

@@ -1,10 +1,14 @@
 ---
 name: Tym Yee
 title: Tym Yee
+roles:
+    - role: Affiliate
+      position: 4
 isAlumnus: false
-rank: 9.999
+rank: 4.999
+role_string: Affiliate
 instagram: tymyee
-lastmod: "2021-11-10T17:22:43.730Z"
+lastmod: "2021-11-22T19:03:18.318Z"
 date: "2021-09-16T10:51:44.948Z"
 slug: tym-yee
 picture:

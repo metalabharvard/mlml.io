@@ -30,6 +30,8 @@ events:
 projects:
     - label: A Flitting Atlas of the Human Gaze
       slug: a-flitting-atlas-of-the-human-gaze
+    - label: Beautiful Data
+      slug: beautiful-data
     - label: Blueprint for Counter Education
       slug: blueprint-for-counter-education
     - label: Blueprint for Counter Education website

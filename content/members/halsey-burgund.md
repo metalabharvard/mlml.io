@@ -1,14 +1,21 @@
 ---
 name: Halsey Burgund
 title: Halsey Burgund
+roles:
+    - role: Affiliate
+      position: 4
 isAlumnus: false
-rank: 9.999
+rank: 4.999
+role_string: Affiliate
 twitter: hburgund
 website: http://halseyburgund.com/
 instagram: hburgund
-lastmod: "2021-11-10T17:38:12.021Z"
+lastmod: "2021-11-22T19:02:25.720Z"
 date: "2021-09-16T10:51:45.322Z"
 slug: halsey-burgund
+projects:
+    - label: re~verse
+      slug: re-verse
 picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1636565880/halsey_1e8d48d907.jpg
     width: 550

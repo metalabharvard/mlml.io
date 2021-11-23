@@ -1,9 +1,13 @@
 ---
 name: Lucas Chu
 title: Lucas Chu
+roles:
+    - role: Researcher
+      position: 6
 isAlumnus: false
-rank: 9.999
-lastmod: "2021-10-22T10:43:35.336Z"
+rank: 6.999
+role_string: Researcher
+lastmod: "2021-11-22T19:21:13.395Z"
 date: "2021-09-16T10:51:45.331Z"
 slug: lucas-chu
 picture:

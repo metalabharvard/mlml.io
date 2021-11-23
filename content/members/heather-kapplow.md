@@ -1,12 +1,16 @@
 ---
 name: Heather Kapplow
 title: Heather Kapplow
+roles:
+    - role: Affiliate
+      position: 4
 isAlumnus: false
-rank: 9.999
+rank: 4.999
+role_string: Affiliate
 twitter: hkapplow
 website: http://heatherkapplow.com/
 instagram: heather_kapplow
-lastmod: "2021-11-10T17:36:15.211Z"
+lastmod: "2021-11-22T19:18:18.218Z"
 date: "2021-09-16T10:51:44.686Z"
 slug: heather-kapplow
 picture:

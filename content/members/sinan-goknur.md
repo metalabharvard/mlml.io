@@ -1,12 +1,19 @@
 ---
 name: Sinan Goknur
 title: Sinan Goknur
+roles:
+    - role: Postdoc
+      position: 5
 isAlumnus: false
-rank: 9.999
+rank: 5.999
+role_string: Postdoc
 instagram: runkognanis
-lastmod: "2021-11-10T17:37:23.755Z"
+lastmod: "2021-11-22T19:17:26.510Z"
 date: "2021-09-16T10:51:44.927Z"
 slug: sinan-goknur
+projects:
+    - label: Curatorial A(i)gents
+      slug: curatorial-aigents
 picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1636565827/sinan_720a2723a1.jpg
     width: 480

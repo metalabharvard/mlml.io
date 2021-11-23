@@ -1,11 +1,14 @@
 ---
 name: Piera Riccio
 title: Piera Riccio
+roles:
+    - role: Affiliate
+      position: 4
 isAlumnus: true
 role_string: Alumnus
 website: http://linkedin.com/in/piera-riccio-96649211a/
 instagram: petronilla___
-lastmod: "2021-11-02T18:29:22.088Z"
+lastmod: "2021-11-22T19:17:03.688Z"
 date: "2021-09-16T10:51:45.070Z"
 slug: piera-riccio
 picture:

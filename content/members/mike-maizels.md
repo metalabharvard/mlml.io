@@ -1,13 +1,22 @@
 ---
 name: Mike Maizels
 title: Mike Maizels
+roles:
+    - role: Affiliate
+      position: 4
 isAlumnus: false
-rank: 9.999
+rank: 4.999
+role_string: Affiliate
 website: http://www.linkedin.com/in/michael-maizels-5a072b167/
 instagram: time_value_of_art
-lastmod: "2021-11-02T18:33:17.001Z"
+lastmod: "2021-11-22T19:15:11.594Z"
 date: "2021-09-16T10:51:45.402Z"
 slug: mike-maizels
+projects:
+    - label: Beautiful Data
+      slug: beautiful-data
+    - label: Curatorial A(i)gents
+      slug: curatorial-aigents
 picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122136/mike_f8b77d28f5.jpg
     width: 4107
