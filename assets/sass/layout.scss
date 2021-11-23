@@ -1035,7 +1035,7 @@ picture, img {
   }
 }
 
-.event-relations, .project-relations, .member-relations {
+.event-relations, .project-relations, .member-relations, .project-gallery {
   border-top: 1px solid var(--color-border);
   border-bottom: 1px solid var(--color-border);
   padding-top: var(--spacing-2);
@@ -1111,41 +1111,34 @@ picture, img {
   }
 }
 
-.counter {
-  position: absolute;
-  opacity: 0;
-  display: none;
-  transition: opacity var(--transition) ease;
-  pointer-events: none;
-  white-space: nowrap;
-  z-index: $z-index-counter;
-}
-
-.gallery {
+.project-gallery, .event-gallery {
   position: relative;
   z-index: $z-index-gallery;
-  overflow-x: hidden;
+  max-width: 100%;
+  padding-top: 0;
+  padding-bottom: var(--spacing-05);
 
-  @media (hover) {
-    &:hover + .counter {
-      opacity: 1;
-      display: block;
+  @media print {
+    display: none;
+  }
+
+  .gallery-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--spacing-05);
+
+    .gallery-counter {
+      white-space: nowrap;
     }
   }
-
-  .carousel-nav {
-    position: relative;
-    top: 0;
-  }
-
-  $btn-width: 6rem;
-  $btn-height: 10rem;
 
   .btn-blank {
     text-decoration: none;
     color: var(--color-fg);
     transition: color var(--transition) ease;
-    padding: var(--spacing-025) var(--spacing-05);
+    padding: 0;
+    padding-right: var(--spacing-05);
     background-color: transparent;
     border: none;
     cursor: pointer;
@@ -1153,9 +1146,7 @@ picture, img {
     &:hover, &:focus {
       color: var(--color-interactive);
     }
-    position: absolute;
-    top: calc(50% - #{$btn-width});
-    z-index: $z-index-btn;
+
     transition: opacity var(--transition) ease;
 
     &:disabled {
@@ -1164,8 +1155,7 @@ picture, img {
     }
 
     svg {
-      width: $btn-width;
-      height: $btn-height;
+      height: calc(var(--size-6) * 1.2);
 
       polyline {
         stroke-width: 2px;
@@ -1174,38 +1164,37 @@ picture, img {
     }
   }
 
-  #btnPrev {
-    left: calc((#{$btn-height} - 4rem) / 2 * -1);
-
-    @include query($narrow) {
-      left: calc(#{$btn-height} / 2 * -1);
-    }
-  }
-
-  #btnNext {
-    right: calc((#{$btn-height} - 4rem) / 2 * -1);
-
-    @include query($narrow) {
-      right: calc(#{$btn-height} / 2 * -1);
-    }
+  .carousel {
+    cursor: grab;
   }
 }
 
-.carousel {
-  @media print {
-    display: none;
-  }
+.project-gallery-single, .event-gallery-single {
+  padding-bottom: var(--spacing-05);
 
-  cursor: grab;
+  &.without-caption {
+    padding-bottom: var(--spacing-1);
+  }
+}
+
+.project-gallery, .project-gallery-single, .event-gallery, .event-gallery-single {
+  .without-caption {
+    padding-bottom: var(--spacing-05);
+  }
 
   img {
     width: 100%;
     height: auto;
     border: 1px solid var(--color-outline);
     vertical-align: middle;
+    width: 100%;
+    height: 600px;
+    object-fit: contain;
   }
 
   figcaption {
     margin-top: var(--spacing-025);
+    text-align: center;
   }
 }
+

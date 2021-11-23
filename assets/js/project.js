@@ -7,7 +7,7 @@ export function enableProjectGallery () {
 	  // const buttons = document.getElementsByClassName('btnGoTo');
 	  const btnPrev = document.getElementById('btnPrev');
 	  const btnNext = document.getElementById('btnNext');
-	  const counter = document.getElementById('counter');
+	  const counter = document.getElementById('gallery-counter');
 
 	  // let left = 0;
 	  // let top = 0;
@@ -64,10 +64,10 @@ export function enableProjectGallery () {
 	  // window.addEventListener('resize', refreshPosition);
 	  // refreshPosition();
 
-	  document.addEventListener('mousemove', (e) => {
-	    counter.style.left = e.pageX + 4 + 'px';
-	    counter.style.top = e.pageY + 4 + 'px';
-	  });
+	  // document.addEventListener('mousemove', (e) => {
+	  //   counter.style.left = e.pageX + 4 + 'px';
+	  //   counter.style.top = e.pageY + 4 + 'px';
+	  // });
 
 	  // function refreshPosition () {
 	  //  const rect = element.getBoundingClientRect();

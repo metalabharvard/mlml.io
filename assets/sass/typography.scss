@@ -386,6 +386,10 @@ ul {
   }
 }
 
+.gallery-caption, .gallery-counter {
+  font-size: var(--size-6);
+}
+
 .related-events, .related-projects, .related-members, .box-item, .related-links, .related-collaborators, .related-funders {
   line-height: 1;
 
@@ -576,6 +580,7 @@ ul {
 .project-footer, .event-footer, .member-footer, .alumni-footer, .about-footer {
   font-size: var(--size-7);
   color: var(--color-mute);
+  text-align: right;
 }
 
 .start-time-list {

@@ -33,6 +33,7 @@ type ResponseEvents struct {
   Events []Event `yaml:"events,omitempty"`
   Cover Picture `yaml:"cover,omitempty"`
   Preview Picture `yaml:"preview,omitempty"`
+  Gallery []Picture `yaml:"gallery,omitempty"`
   YouTube string `yaml:"youtube,omitempty"`
   Vimeo string `yaml:"vimeo,omitempty"`
   Links []Link `yaml:"links,omitempty"`

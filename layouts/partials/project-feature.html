@@ -2,7 +2,7 @@
   <a href="{{ printf "p/%s" .project.Slug | absURL }}" class="u-url u-uid feature-link">
     {{ $defaultLabel := string (printf .imageLabelTemplate .project.Params.Title) }}
     {{ with .project.Params.cover }}
-    {{- partial "image-wide.html" (dict "picture" . "alt" $defaultLabel "title" $defaultLabel "class" "feature-image") -}}
+    {{- partial "image.html" (dict "picture" . "alt" $defaultLabel "title" $defaultLabel "class" "feature-image") -}}
     {{ end }}
     <div class="feature-title">
       <div class="feature-frame">

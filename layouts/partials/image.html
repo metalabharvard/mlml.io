@@ -1,31 +1,88 @@
+{{ $original := .picture }}
+{{ $large := .picture.formats.large }}
+{{ $medium := .picture.formats.medium }}
+{{ $small := .picture.formats.small }}
+{{ $thumbnail := .picture.formats.thumbnail }}
+{{ $column := "(min(90vw, 1280px) - min(2vw, 30px) * 11) / 12" }}
+{{ $format := default "full" .format }}
+
+{{/* This is the default: images that fill the full width */}}
+{{ $sizes := "calc(min(90vw, 1280px))" }}
+
+{{ if eq $format "wide" }}
+{{/* This is for images that are wide */}}
+{{ $sizes = printf `(min-width: 900px) calc(%s * 8),
+                    (min-width: 1200px) calc(%s * 10),
+                    calc(min(90vw, 1280px))` $column $column }}
+
+{{ else if eq $format "gallery" }}
+{{/* This is for images that have a max height */}}
+{{ $maxHeight := default .picture.height .maxHeight }}
+{{ $maxCalcWidth := (mul (mul (div 1.0 .picture.height) $maxHeight) .picture.width) }}
+{{ $sizes = printf `(min-width: 900px) calc(min(%s * 8, %gpx)),
+                    (min-width: 1200px) calc(min(%s * 10, %gpx)),
+                    calc(min(90vw, 1280px))` $column $maxCalcWidth $column $maxCalcWidth }}
+
+{{ else if eq $format "memberPreview" }}
+{{/* This is for the preview images of the members */}}
+{{ $sizes = printf `(min-width: 900px) calc(min(%s * 2, 20vw)),
+                    (min-width: 1200px) calc(min(%s * 3, 20vw)),
+                    calc(min(%s * 4, 20vw))` $column $column $column }}
+
+{{ else if eq $format "member" }}
+{{/* This is for the preview images of the members */}}
+{{ $sizes = printf `(min-width: 900px) 160px,
+                    (min-width: 1200px) 120px,
+                    80px` }}
+{{ end }}
+
 {{ if and .picture.width .picture.height }}
-<picture class="photo">
-  {{ if .picture.formats.large.url }}
-  <source {{ printf "srcset=%v" (replace .picture.formats.large.url ".jpg" ".webp") | safeHTMLAttr }} type="image/webp" media="(min-width: {{ .picture.formats.large.width }}px)" />
+<picture class="photo {{ .class }}">
+  {{ if or (eq $original.mime "image/jpeg") (eq $original.mime "image/png") }}
+  <source
+    type="image/webp"
+    {{/* This lists all the different image resolutions */}}
+    {{/* We replace the original extension with WebP */}}
+    srcset="
+      {{ if $thumbnail.url -}}{{ replace $thumbnail.url $thumbnail.ext ".webp" }} {{ $thumbnail.width }}w{{ end }}{{ if $small.url }},
+      {{ replace $small.url $small.ext ".webp" }} {{ $small.width }}w{{ end }}{{ if $medium.url }},
+      {{ replace $medium.url $medium.ext ".webp" }} {{ $medium.width }}w{{ end }}{{ if $large.url }},
+      {{ replace $large.url $large.ext ".webp" }} {{ $large.width }}w{{- end -}}{{- if and $original.url (gt $original.width $large.width) -}},
+      {{ replace $original.url $original.ext ".webp" }} {{ $original.width }}w{{ end }}
+    "
+    sizes="
+      {{- $sizes -}}
+    "
+    />
   {{ end }}
-  {{ if .picture.formats.medium.url }}
-  <source {{ printf "srcset=%v" (replace .picture.formats.medium.url ".jpg" ".webp") | safeHTMLAttr }} type="image/webp" media="(min-width: {{ .picture.formats.medium.width }}px)" />
-  {{ end }}
-  {{ if .picture.formats.small.url }}
-  <source {{ printf "srcset=%v" (replace .picture.formats.small.url ".jpg" ".webp") | safeHTMLAttr }} type="image/webp" media="(min-width: {{ .picture.formats.small.width }}px)" />
-  {{ end }}
-  {{ if .picture.formats.thumbnail.url }}
-  <source {{ printf "srcset=%v" (replace .picture.formats.thumbnail.url ".jpg" ".webp") | safeHTMLAttr }} type="image/webp" />
-  {{ end }}
-  {{ if .picture.formats.large.url }}
-  <source {{ printf "srcset=%v" .picture.formats.large.url | safeHTMLAttr }} type="image/jepg" media="(min-width: {{ .picture.formats.large.width }}px)" />
-  {{ end }}
-  {{ if .picture.formats.medium.url }}
-  <source {{ printf "srcset=%v" .picture.formats.medium.url | safeHTMLAttr }} type="image/jepg" media="(min-width: {{ .picture.formats.medium.width }}px)" />
-  {{ end }}
-  {{ if .picture.formats.small.url }}
-  <source {{ printf "srcset=%v" .picture.formats.small.url | safeHTMLAttr }} type="image/jepg" media="(min-width: {{ .picture.formats.small.width }}px)" />
-  {{ end }}
-  {{ if .picture.formats.thumbnail.url }}
-  <source {{ printf "srcset=%v" .picture.formats.thumbnail.url | safeHTMLAttr }} type="image/jepg" />
-  {{ end }}
-  {{ if .picture.url }}
-  <img {{ printf "src=%v" .picture.url | safeHTMLAttr }} loading="lazy" alt="{{ .alt }}" height="{{ .picture.height }}px" width="{{ .picture.width }}px">
-  {{ end }}
+  <source
+    type="{{ $original.mime }}"
+    {{/* This lists all the different image resolutions */}}
+    srcset="
+      {{ if $thumbnail.url -}}{{ $thumbnail.url }} {{ $thumbnail.width }}w{{ end }}{{ if $small.url }},
+      {{ $small.url }} {{ $small.width }}w{{ end }}{{ if $medium.url }},
+      {{ $medium.url }} {{ $medium.width }}w{{ end }}{{ if $large.url }},
+      {{ $large.url }} {{ $large.width }}w{{- end -}}{{- if and $original.url (gt $original.width $large.width) -}},
+      {{ $original.url }} {{ $original.width }}w{{ end }}
+    "
+    sizes="
+      {{- $sizes -}}
+    "
+    />
+  <img
+    {{ printf "src=%v" .picture.url | safeHTMLAttr }}
+    loading="lazy"
+    {{ if .picture.alternativeText }}
+    {{ printf "alt=%q" .picture.alternativeText | safeHTMLAttr }}
+    {{ else }}
+    {{ with .alt }}{{ printf "alt=%q" . | safeHTMLAttr }}{{ end }}
+    {{ end }}
+    {{ if .picture.caption }}
+    {{ printf "title=%q" .picture.caption | safeHTMLAttr }}
+    {{ else }}
+    {{ with .title }}{{ printf "title=%q" . | safeHTMLAttr }}{{ end }}
+    {{ end }}
+    height="{{ .picture.height }}px"
+    width="{{ .picture.width }}px">
 </picture>
 {{ end }}

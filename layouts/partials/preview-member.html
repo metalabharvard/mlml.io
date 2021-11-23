@@ -3,7 +3,7 @@
     {{ $name := .member.Params.Name }}
     {{ $defaultLabel := .defaultLabel }}
     {{ with .member.Params.Picture -}}
-    {{- partial "image-member.html" (dict "picture" . "alt" $defaultLabel "title" $defaultLabel "isPreview" true) -}}
+    {{- partial "image.html" (dict "picture" . "alt" $defaultLabel "title" $defaultLabel "format" "memberPreview") -}}
     {{- end }}
     <strong class="member-name fn p-name">{{ $name }}</strong>
     <span class="member-role role">{{ .member.Params.Role_string }}</span>
