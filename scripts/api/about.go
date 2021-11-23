@@ -11,7 +11,6 @@ import (
 )
 
 type Meta struct {
-  Title string `json:"intro"`
   Intro string `json:"intro,omitempty"`
   Updated_at string `json:"updated_at,omitempty"`
   Created_at string `json:"created_at,omitempty"`
