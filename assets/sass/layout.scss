@@ -135,6 +135,7 @@ picture img {
   grid-template-columns: 1fr repeat(2, calc(var(--size-wrapper) / 2)) 1fr;
   height: var(--header-height);
   @include gradient-border-bottom(var(--gradient-border-width));
+  z-index: 1;
 
   @include query($medium) {
     border-bottom: 0;
@@ -204,9 +205,11 @@ picture img {
         flex-direction: column;
         text-align: left;
 
-        div {
+        .logo {
+          height: calc(var(--header-height) * 0.6);
+          // height: 50%;
           // transform: translateX(30%);
-          margin-left: var(--spacing-1);
+          margin-left: calc(var(--header-height) * 0.2);
         }
       }
     }
@@ -496,7 +499,11 @@ picture img {
 
     &.isActive {
       @include query($medium) {
-        color: var(--color-text-invert);
+        .logo {
+          fill: var(--color-text-invert);
+          position: relative;
+          z-index: $z-index-header-items;
+        }
 
         &::after {
           background-color: var(--color-bg-secondary);
@@ -1104,6 +1111,7 @@ picture, img {
 
     .footer-logos {
       grid-area: logos;
+      fill: #fff;
     }
 
     .footer-info {

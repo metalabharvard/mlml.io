@@ -5,11 +5,12 @@
     <header class="page-header" id="page-header">
       <div class="page-logo">
         <a href="{{ "/" | absURL }}" {{ if .IsHome }}class="isActive logo"{{ end }}>
-          <div>
+          {{ partial "logo-simple.html" (dict "class" "logo") }}
+<!--           <div>
             <strong><span class="logo-meta">meta</span><span class="logo-lab">lab</span></strong>
             <small>Harvard</small>
             <small>Berlin</small>
-          </div>
+          </div> -->
         </a>
       </div>
       <div class="page-menu" id="page-menu">
@@ -47,7 +48,7 @@
     </main>
     <footer class="page-footer">
       <div class="footer-content wrapper grid">
-        <img src="/logo-square.svg" class="footer-logos" />
+        {{ partial "logo.html" (dict "class" "footer-logos") }}
         <p class="footer-info">{{ .Site.Params.Label.footer_text }}</p>
         <ul class="footer-sitemap">
           <li><a href="{{ "" | absURL }}">Home</a></li>
@@ -73,8 +74,8 @@
       viewBox="0 0 24 24">
       <defs>
         <linearGradient id="icon-gradient">
-          <stop offset="0%" stop-color="#FF4800" class="gradient-stop-a"></stop>
-          <stop offset="100%" stop-color="#FFB600" class="gradient-stop-o"></stop>
+          <stop offset="0%" class="gradient-stop-a"></stop>
+          <stop offset="100%" class="gradient-stop-o"></stop>
         </linearGradient>
       </defs>
     </svg>
