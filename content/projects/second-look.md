@@ -18,7 +18,6 @@ date: "2021-01-01"
 slug: second-look
 collaborators:
     - label: Harvard Art Museums
-      url: ""
 members:
     - label: Lins Derry
       slug: lins-derry
@@ -31,6 +30,28 @@ projects:
     - label: Watching Machines Loving Grace
       slug: watching-machines-loving-grace
 cover:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635823874/secondlook1_e086af259a.jpg
+    width: 800
+    height: 681
+    ext: .jpeg
+    mime: image/jpeg
+    formats:
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635823875/medium_secondlook1_e086af259a.jpg
+            ext: .jpeg
+            width: 750
+            height: 638
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635823875/small_secondlook1_e086af259a.jpg
+            ext: .jpeg
+            width: 500
+            height: 426
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635823874/thumbnail_secondlook1_e086af259a.jpg
+            ext: .jpeg
+            width: 183
+            height: 156
+header:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635823874/secondlook1_e086af259a.jpg
     width: 800
     height: 681

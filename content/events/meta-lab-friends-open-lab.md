@@ -27,13 +27,11 @@ slug: meta-lab-friends-open-lab
 members:
     - label: Adam Haar Horowitz
       slug: adam-haar-horowitz
-      twitter: ""
     - label: Jeffrey Schnapp
       slug: jeffrey-schnapp
       twitter: jaytiesse
     - label: Jessica Yurkofsky
       slug: jessica-yurkofsky
-      twitter: ""
     - label: Kim Albrecht
       slug: kim-albrecht
       twitter: kimay

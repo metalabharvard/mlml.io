@@ -22,7 +22,6 @@ members:
       twitter: jaytiesse
     - label: Jessica Yurkofsky
       slug: jessica-yurkofsky
-      twitter: ""
     - label: Kim Albrecht
       slug: kim-albrecht
       twitter: kimay
@@ -31,8 +30,19 @@ members:
       twitter: matthewbattles
     - label: Oliver Luo
       slug: oliver-luo
-      twitter: ""
 cover:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636729640/curricle_d3bac9d992.jpg
+    width: 386
+    height: 500
+    ext: .jpeg
+    mime: image/jpeg
+    formats:
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636729641/thumbnail_curricle_d3bac9d992.jpg
+            ext: .jpeg
+            width: 120
+            height: 156
+header:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636729640/curricle_d3bac9d992.jpg
     width: 386
     height: 500

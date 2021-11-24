@@ -47,6 +47,33 @@ cover:
             ext: .jpg
             width: 245
             height: 153
+header:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686754/lexicalcarto_686c2c0761.jpg
+    width: 3072
+    height: 1920
+    ext: .jpg
+    mime: image/jpeg
+    formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686756/large_lexicalcarto_686c2c0761.jpg
+            ext: .jpg
+            width: 1000
+            height: 625
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686756/medium_lexicalcarto_686c2c0761.jpg
+            ext: .jpg
+            width: 750
+            height: 469
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686756/small_lexicalcarto_686c2c0761.jpg
+            ext: .jpg
+            width: 500
+            height: 313
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686755/thumbnail_lexicalcarto_686c2c0761.jpg
+            ext: .jpg
+            width: 245
+            height: 153
 gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636727748/lexical1_c51f2e2afe.jpg
       width: 3072

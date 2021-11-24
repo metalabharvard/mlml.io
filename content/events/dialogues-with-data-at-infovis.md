@@ -32,7 +32,6 @@ members:
       twitter: jaytiesse
     - label: Jessica Yurkofsky
       slug: jessica-yurkofsky
-      twitter: ""
     - label: Matthew Battles
       slug: matthew-battles
       twitter: matthewbattles

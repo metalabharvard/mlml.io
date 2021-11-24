@@ -18,18 +18,36 @@ date: "2021-01-01"
 slug: sympoietic-system
 collaborators:
     - label: Harvard Art Museums
-      url: ""
     - label: Robert Watts
-      url: ""
     - label: David Behrman
-      url: ""
     - label: Bob Diamond
-      url: ""
 members:
     - label: Philipp Schmitt
       slug: philipp-schmitt
       twitter: philippschmitt
 cover:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636726536/sympsys2_5a5ba9470a.jpg
+    width: 800
+    height: 533
+    ext: .jpeg
+    mime: image/jpeg
+    formats:
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636726537/medium_sympsys2_5a5ba9470a.jpg
+            ext: .jpeg
+            width: 750
+            height: 500
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636726537/small_sympsys2_5a5ba9470a.jpg
+            ext: .jpeg
+            width: 500
+            height: 333
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636726536/thumbnail_sympsys2_5a5ba9470a.jpg
+            ext: .jpeg
+            width: 234
+            height: 156
+header:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636726536/sympsys2_5a5ba9470a.jpg
     width: 800
     height: 533

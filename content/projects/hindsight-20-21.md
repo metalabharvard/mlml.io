@@ -18,7 +18,6 @@ date: "2021-01-01"
 slug: hindsight-20-21
 collaborators:
     - label: Harvard Art Museums
-      url: ""
 members:
     - label: Jeffrey Schnapp
       slug: jeffrey-schnapp
@@ -27,6 +26,28 @@ members:
       slug: leo-saenger
       twitter: saengerleo
 cover:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636725882/hindsight2_6ce649dae1.jpg
+    width: 800
+    height: 424
+    ext: .jpeg
+    mime: image/jpeg
+    formats:
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636725883/medium_hindsight2_6ce649dae1.jpg
+            ext: .jpeg
+            width: 750
+            height: 398
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636725883/small_hindsight2_6ce649dae1.jpg
+            ext: .jpeg
+            width: 500
+            height: 265
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636725882/thumbnail_hindsight2_6ce649dae1.jpg
+            ext: .jpeg
+            width: 245
+            height: 130
+header:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636725882/hindsight2_6ce649dae1.jpg
     width: 800
     height: 424

@@ -35,13 +35,11 @@ members:
       twitter: kimay
     - label: Maia Suazo-Maler
       slug: maia-suazo-maler
-      twitter: ""
     - label: Matthew Battles
       slug: matthew-battles
       twitter: matthewbattles
     - label: Rachel Kalmar
       slug: rachel-kalmar
-      twitter: ""
     - label: Sarah Newman
       slug: sarah-newman
       twitter: sarahwnewman

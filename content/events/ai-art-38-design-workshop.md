@@ -27,7 +27,6 @@ slug: ai-art-38-design-workshop
 members:
     - label: Olivia Tai
       slug: olivia-tai
-      twitter: ""
 
 ---
 **AI Art & Design Workshop with metaLAB**

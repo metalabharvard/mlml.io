@@ -19,7 +19,6 @@ slug: womanhouse-kunsthaus-graz
 members:
     - label: Annette Jael Lehmann
       slug: annette-jael-lehmann
-      twitter: ""
     - label: Chiara Fauda Pichet
       slug: chiara-fauda-pichet
       twitter: chiarafauda
@@ -33,6 +32,23 @@ members:
       slug: mindy-seu
       twitter: mind_seu
 cover:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686495/where_art_might_happen_the_early_years_of_cal_arts_4b18fd7f74.jpg
+    width: 704
+    height: 480
+    ext: .jpg
+    mime: image/jpeg
+    formats:
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686496/small_where_art_might_happen_the_early_years_of_cal_arts_4b18fd7f74.jpg
+            ext: .jpg
+            width: 500
+            height: 341
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686496/thumbnail_where_art_might_happen_the_early_years_of_cal_arts_4b18fd7f74.jpg
+            ext: .jpg
+            width: 229
+            height: 156
+header:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686495/where_art_might_happen_the_early_years_of_cal_arts_4b18fd7f74.jpg
     width: 704
     height: 480

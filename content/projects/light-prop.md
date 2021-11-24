@@ -18,7 +18,6 @@ date: "2016-01-01"
 slug: light-prop
 collaborators:
     - label: Angela Chang (Harvard Art Museums); Joyce Tsai (Univ. of Iowa)
-      url: ""
 links:
     - label: Light Prop For an Electric Stage (Harvard Art Museums)
       url: http://www.harvardartmuseums.org/collections/object/299819?q=light+prop

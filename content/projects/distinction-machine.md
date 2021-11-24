@@ -29,6 +29,12 @@ cover:
     height: 500
     ext: .gif
     mime: image/gif
+header:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636730217/distinctionmachine1_68e71e2308.gif
+    width: 500
+    height: 500
+    ext: .gif
+    mime: image/gif
 gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636730217/distinctionmachine2_ca25edf3fa.png
       width: 1500

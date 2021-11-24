@@ -17,9 +17,7 @@ date: "2016-01-01"
 slug: your-story-has-touched-my-heart
 collaborators:
     - label: Harvard Art Museums
-      url: ""
     - label: Harvard Art Museums Archive
-      url: ""
 links:
     - label: Exhibition at Harvard Art Museums
       url: http://www.harvardartmuseums.org/visit/calendar/your-story-has-touched-my-heart

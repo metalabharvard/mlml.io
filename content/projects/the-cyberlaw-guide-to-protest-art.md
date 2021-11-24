@@ -17,28 +17,48 @@ date: "2018-01-01"
 slug: the-cyberlaw-guide-to-protest-art
 collaborators:
     - label: Cyberlaw Clinic
-      url: ""
     - label: Jessica Fjeld
-      url: ""
     - label: Jose Lamarque
-      url: ""
     - label: Maggie Finnegan
-      url: ""
     - label: Hannah Hilligoss
-      url: ""
     - label: Jackie Kim
-      url: ""
 links:
     - label: 'The Cyberlaw Guide to Protest Art: Roadmap'
       url: https://medium.com/berkman-klein-center/the-cyberlaw-guide-to-protest-art-roadmap-c79b8ab4f61b
 members:
     - label: Jessica Yurkofsky
       slug: jessica-yurkofsky
-      twitter: ""
     - label: Sarah Newman
       slug: sarah-newman
       twitter: sarahwnewman
 cover:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636731653/cyberlaw1_48e656cb68.jpg
+    width: 900
+    height: 1165
+    ext: .jpeg
+    mime: image/jpeg
+    formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636731654/large_cyberlaw1_48e656cb68.jpg
+            ext: .jpeg
+            width: 773
+            height: 1000
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636731654/medium_cyberlaw1_48e656cb68.jpg
+            ext: .jpeg
+            width: 579
+            height: 750
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636731655/small_cyberlaw1_48e656cb68.jpg
+            ext: .jpeg
+            width: 386
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636731653/thumbnail_cyberlaw1_48e656cb68.jpg
+            ext: .jpeg
+            width: 121
+            height: 156
+header:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636731653/cyberlaw1_48e656cb68.jpg
     width: 900
     height: 1165

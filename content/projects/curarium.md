@@ -18,9 +18,7 @@ date: "2016-01-01"
 slug: curarium
 collaborators:
     - label: The Berkman Klein Center
-      url: ""
     - label: Villa I Tatti
-      url: ""
 links:
     - label: curarium.com
       url: https://curarium.com/

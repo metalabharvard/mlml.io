@@ -29,10 +29,8 @@ slug: machine-experience-ii
 members:
     - label: Adam Haar Horowitz
       slug: adam-haar-horowitz
-      twitter: ""
     - label: Jessica Yurkofsky
       slug: jessica-yurkofsky
-      twitter: ""
     - label: Jie Qi
       slug: jie-qi
       twitter: qijie
@@ -44,7 +42,6 @@ members:
       twitter: kimay
     - label: Maia Suazo-Maler
       slug: maia-suazo-maler
-      twitter: ""
     - label: Matthew Battles
       slug: matthew-battles
       twitter: matthewbattles
@@ -53,7 +50,6 @@ members:
       twitter: mind_seu
     - label: Rachel Kalmar
       slug: rachel-kalmar
-      twitter: ""
     - label: Sands Alden Fish
       slug: sands-alden-fish
       twitter: sandsfish

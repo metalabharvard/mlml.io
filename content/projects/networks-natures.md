@@ -18,7 +18,6 @@ date: "2016-01-01"
 slug: networks-natures
 collaborators:
     - label: ""
-      url: ""
 links:
     - label: Feral Trees (video
       url: https://vimeo.com/130915730
@@ -29,17 +28,41 @@ links:
 members:
     - label: Cristoforo Magliozzi
       slug: cristoforo-magliozzi
-      twitter: ""
     - label: Kyle Parry
       slug: kyle-parry
-      twitter: ""
     - label: Sarah Newman
       slug: sarah-newman
       twitter: sarahwnewman
     - label: Yanni Loukissas
       slug: yanni-loukissas
-      twitter: ""
 cover:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635188502/img0_28d1a9b527.jpg
+    width: 1920
+    height: 1080
+    ext: .jpg
+    mime: image/jpeg
+    formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635188503/large_img0_28d1a9b527.jpg
+            ext: .jpg
+            width: 1000
+            height: 563
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635188503/medium_img0_28d1a9b527.jpg
+            ext: .jpg
+            width: 750
+            height: 422
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635188503/small_img0_28d1a9b527.jpg
+            ext: .jpg
+            width: 500
+            height: 281
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635188502/thumbnail_img0_28d1a9b527.jpg
+            ext: .jpg
+            width: 245
+            height: 138
+header:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635188502/img0_28d1a9b527.jpg
     width: 1920
     height: 1080

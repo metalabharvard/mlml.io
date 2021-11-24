@@ -17,7 +17,6 @@ date: "2011-01-01"
 slug: digital-archive-of-japans-2011-disasters
 collaborators:
     - label: Reischauer Institute of Japanese Studies
-      url: ""
 links:
     - label: Japan Disasters Digital Archive
       url: http://jdarchive.org/

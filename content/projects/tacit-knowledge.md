@@ -19,7 +19,6 @@ slug: tacit-knowledge
 members:
     - label: Annette Jael Lehmann
       slug: annette-jael-lehmann
-      twitter: ""
     - label: Jeffrey Schnapp
       slug: jeffrey-schnapp
       twitter: jaytiesse
@@ -27,6 +26,33 @@ members:
       slug: kim-albrecht
       twitter: kimay
 cover:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636563276/metalab_womanhouse_publication_02_26_b00979bf84.jpg
+    width: 1200
+    height: 886
+    ext: .jpg
+    mime: image/jpeg
+    formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636563276/large_metalab_womanhouse_publication_02_26_b00979bf84.jpg
+            ext: .jpg
+            width: 1000
+            height: 738
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636563277/medium_metalab_womanhouse_publication_02_26_b00979bf84.jpg
+            ext: .jpg
+            width: 750
+            height: 554
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636563277/small_metalab_womanhouse_publication_02_26_b00979bf84.jpg
+            ext: .jpg
+            width: 500
+            height: 369
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636563276/thumbnail_metalab_womanhouse_publication_02_26_b00979bf84.jpg
+            ext: .jpg
+            width: 211
+            height: 156
+header:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636563276/metalab_womanhouse_publication_02_26_b00979bf84.jpg
     width: 1200
     height: 886

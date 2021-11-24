@@ -38,6 +38,28 @@ cover:
             ext: .jpeg
             width: 130
             height: 156
+header:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636730523/ascoltando1_c69822d24d.jpg
+    width: 800
+    height: 962
+    ext: .jpeg
+    mime: image/jpeg
+    formats:
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636730524/medium_ascoltando1_c69822d24d.jpg
+            ext: .jpeg
+            width: 624
+            height: 750
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636730525/small_ascoltando1_c69822d24d.jpg
+            ext: .jpeg
+            width: 416
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636730523/thumbnail_ascoltando1_c69822d24d.jpg
+            ext: .jpeg
+            width: 130
+            height: 156
 gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636730523/ascoltando2_76bd98d600.jpg
       width: 800

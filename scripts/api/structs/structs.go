@@ -32,6 +32,7 @@ type ResponseEvents struct {
   Projects []Project `yaml:"projects,omitempty"`
   Events []Event `yaml:"events,omitempty"`
   Cover Picture `yaml:"cover,omitempty"`
+  Header Picture `yaml:"header,omitempty"`
   Preview Picture `yaml:"preview,omitempty"`
   Gallery []Picture `yaml:"gallery,omitempty"`
   YouTube string `yaml:"youtube,omitempty"`
@@ -72,6 +73,7 @@ type ResponseProjects struct {
   Projects []Project `yaml:"projects,omitempty"`
   Cover Picture `yaml:"cover,omitempty"`
   Preview Picture `yaml:"preview,omitempty"`
+  Header Picture `yaml:"header,omitempty"`
   Topics []Topic `yaml:"topics,omitempty"`
   Gallery []Picture `yaml:"gallery,omitempty"`
   Funders []Funder `yaml:"funders,omitempty"`
@@ -117,7 +119,7 @@ type Project struct {
 type Member struct {
   Name string `yaml:"label"` // Careful: We are renaming the key here
   Slug string `yaml:"slug"`
-  Twitter string `yaml:"twitter"` // We use this for Twitter authors in the header
+  Twitter string `yaml:"twitter,omitempty"` // We use this for Twitter authors in the header
 }
 
 type Link struct {
@@ -141,17 +143,17 @@ type Times struct {
 
 type Funder struct {
   Label string `yaml:"label"`
-  Url string `yaml:"url"`
+  Url string `yaml:"url,omitempty"`
 }
 
 type Collaborator struct {
   Label string `yaml:"label"`
-  Url string `yaml:"url"`
+  Url string `yaml:"url,omitempty"`
 }
 
 type PressArticle struct {
   Label string `yaml:"label"`
-  Url string `yaml:"url"`
+  Url string `yaml:"url,omitempty"`
 }
 
 type Role struct {

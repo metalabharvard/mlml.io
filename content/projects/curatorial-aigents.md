@@ -20,21 +20,13 @@ collaborators:
     - label: Harvard Art Museums
       url: https://harvardartmuseums.org/
     - label: Dan Newman
-      url: ""
     - label: Kevin Brewster
-      url: ""
     - label: Todd Linkner
-      url: ""
     - label: Stefan Helmreich
-      url: ""
     - label: Wendy Chun
-      url: ""
     - label: Tim Schneider
-      url: ""
     - label: David Joselit
-      url: ""
     - label: Shannon Mattern
-      url: ""
 links:
     - label: ""
       url: https://metalabharvard.github.io/projects/curatorial-aigents/sympoieticsystem/
@@ -63,7 +55,6 @@ members:
       twitter: jaytiesse
     - label: Keith Hartwig
       slug: keith-hartwig
-      twitter: ""
     - label: Kim Albrecht
       slug: kim-albrecht
       twitter: kimay
@@ -72,7 +63,6 @@ members:
       twitter: linsderry
     - label: Mike Maizels
       slug: mike-maizels
-      twitter: ""
     - label: Minne Atairu
       slug: minne-atairu
       twitter: minneatairu
@@ -81,8 +71,35 @@ members:
       twitter: philippschmitt
     - label: Sinan Goknur
       slug: sinan-goknur
-      twitter: ""
 cover:
+    alternativeText: Curatiorial A(i)gents Cover
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1623943307/agents_ce7bfadd93.jpg
+    width: 1000
+    height: 1260
+    ext: .jpg
+    mime: image/jpeg
+    formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1623943308/large_agents_ce7bfadd93.jpg
+            ext: .jpg
+            width: 794
+            height: 1000
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1623943309/medium_agents_ce7bfadd93.jpg
+            ext: .jpg
+            width: 595
+            height: 750
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1623943309/small_agents_ce7bfadd93.jpg
+            ext: .jpg
+            width: 397
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1623943307/thumbnail_agents_ce7bfadd93.jpg
+            ext: .jpg
+            width: 124
+            height: 156
+header:
     alternativeText: Curatiorial A(i)gents Cover
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1623943307/agents_ce7bfadd93.jpg
     width: 1000

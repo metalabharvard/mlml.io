@@ -17,12 +17,26 @@ date: "2018-01-01"
 slug: the-military-45-entertainment-complex
 collaborators:
     - label: Harvard University Press
-      url: ""
     - label: Tim Lenoir
-      url: ""
     - label: Luke Caldwell
-      url: ""
 cover:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636731427/mecomplex1_f98e6dfc41.jpg
+    width: 462
+    height: 680
+    ext: .jpeg
+    mime: image/jpeg
+    formats:
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636731428/small_mecomplex1_f98e6dfc41.jpg
+            ext: .jpeg
+            width: 340
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636731428/thumbnail_mecomplex1_f98e6dfc41.jpg
+            ext: .jpeg
+            width: 106
+            height: 156
+header:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636731427/mecomplex1_f98e6dfc41.jpg
     width: 462
     height: 680

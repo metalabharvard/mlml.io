@@ -27,7 +27,6 @@ slug: color-rx
 members:
     - label: Maia Suazo-Maler
       slug: maia-suazo-maler
-      twitter: ""
 
 ---
 **Color Rx**

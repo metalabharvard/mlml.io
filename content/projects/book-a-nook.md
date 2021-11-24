@@ -18,9 +18,7 @@ date: "2016-01-01"
 slug: book-a-nook
 collaborators:
     - label: The Berkman Klein Center
-      url: ""
     - label: The Knight Foundation
-      url: ""
 links:
     - label: GitHub Repository
       url: http://github.com/berkmancenter/bookanook

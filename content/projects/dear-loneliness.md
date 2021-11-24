@@ -18,12 +18,36 @@ date: "2020-11-01"
 slug: dear-loneliness
 collaborators:
     - label: Jessica Lao
-      url: ""
     - label: Sarah Lao
-      url: ""
     - label: Carissa Chen
-      url: ""
 cover:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686200/Dear_Loneliness_1b1650ed67.jpg
+    width: 1600
+    height: 2000
+    ext: .jpg
+    mime: image/jpeg
+    formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686201/large_Dear_Loneliness_1b1650ed67.jpg
+            ext: .jpg
+            width: 800
+            height: 1000
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686202/medium_Dear_Loneliness_1b1650ed67.jpg
+            ext: .jpg
+            width: 600
+            height: 750
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686202/small_Dear_Loneliness_1b1650ed67.jpg
+            ext: .jpg
+            width: 400
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686201/thumbnail_Dear_Loneliness_1b1650ed67.jpg
+            ext: .jpg
+            width: 125
+            height: 156
+header:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686200/Dear_Loneliness_1b1650ed67.jpg
     width: 1600
     height: 2000

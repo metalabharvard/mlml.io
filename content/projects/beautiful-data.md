@@ -27,14 +27,39 @@ members:
       twitter: jaytiesse
     - label: Marshall Lambert
       slug: marshall-lambert
-      twitter: ""
     - label: Mike Maizels
       slug: mike-maizels
-      twitter: ""
     - label: Sarah Newman
       slug: sarah-newman
       twitter: sarahwnewman
 cover:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637673907/Beautiful_Data_Logo_36a2215dc2.png
+    width: 1307
+    height: 849
+    ext: .png
+    mime: image/png
+    formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637673909/large_Beautiful_Data_Logo_36a2215dc2.png
+            ext: .png
+            width: 1000
+            height: 650
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637673909/medium_Beautiful_Data_Logo_36a2215dc2.png
+            ext: .png
+            width: 750
+            height: 487
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637673909/small_Beautiful_Data_Logo_36a2215dc2.png
+            ext: .png
+            width: 500
+            height: 325
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637673908/thumbnail_Beautiful_Data_Logo_36a2215dc2.png
+            ext: .png
+            width: 240
+            height: 156
+header:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637673907/Beautiful_Data_Logo_36a2215dc2.png
     width: 1307
     height: 849

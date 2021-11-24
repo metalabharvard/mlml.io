@@ -18,11 +18,8 @@ date: "2021-01-01"
 slug: a-flitting-atlas-of-the-human-gaze
 collaborators:
     - label: Harvard Art Museums
-      url: ""
     - label: Kevin Brewster
-      url: ""
     - label: Todd Linkner
-      url: ""
 members:
     - label: Dietmar Offenhuber
       slug: dietmar-offenhuber
@@ -34,6 +31,28 @@ projects:
     - label: Mahindra Humanities Center
       slug: mahindra-humanities-center
 cover:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636726814/flitting2_8f3cb9ec33.jpg
+    width: 800
+    height: 332
+    ext: .jpeg
+    mime: image/jpeg
+    formats:
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636726815/medium_flitting2_8f3cb9ec33.jpg
+            ext: .jpeg
+            width: 750
+            height: 311
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636726815/small_flitting2_8f3cb9ec33.jpg
+            ext: .jpeg
+            width: 500
+            height: 208
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636726815/thumbnail_flitting2_8f3cb9ec33.jpg
+            ext: .jpeg
+            width: 245
+            height: 102
+header:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636726814/flitting2_8f3cb9ec33.jpg
     width: 800
     height: 332

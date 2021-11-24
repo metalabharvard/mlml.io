@@ -18,9 +18,7 @@ date: "2021-01-01"
 slug: ocean-amplification
 collaborators:
     - label: Harvard Art Museums
-      url: ""
     - label: Stefan Helmreich
-      url: ""
 members:
     - label: Francisco Alarcon
       slug: francisco-alarcon
@@ -33,6 +31,28 @@ projects:
     - label: Watching Machines Loving Grace
       slug: watching-machines-loving-grace
 cover:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635824415/oceanamp1_f35c571b42.jpg
+    width: 800
+    height: 450
+    ext: .jpeg
+    mime: image/jpeg
+    formats:
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635824417/medium_oceanamp1_f35c571b42.jpg
+            ext: .jpeg
+            width: 750
+            height: 422
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635824418/small_oceanamp1_f35c571b42.jpg
+            ext: .jpeg
+            width: 500
+            height: 281
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635824416/thumbnail_oceanamp1_f35c571b42.jpg
+            ext: .jpeg
+            width: 245
+            height: 138
+header:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635824415/oceanamp1_f35c571b42.jpg
     width: 800
     height: 450

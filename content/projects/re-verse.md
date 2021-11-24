@@ -45,6 +45,28 @@ cover:
             ext: .jpg
             width: 245
             height: 123
+header:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637607419/proj_rv3_2d7135e236.jpg
+    width: 800
+    height: 400
+    ext: .jpg
+    mime: image/jpeg
+    formats:
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637607420/medium_proj_rv3_2d7135e236.jpg
+            ext: .jpg
+            width: 750
+            height: 375
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637607421/small_proj_rv3_2d7135e236.jpg
+            ext: .jpg
+            width: 500
+            height: 250
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637607420/thumbnail_proj_rv3_2d7135e236.jpg
+            ext: .jpg
+            width: 245
+            height: 123
 gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637607419/proj_rv13_887c3c3034.jpg
       width: 800

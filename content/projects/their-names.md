@@ -45,6 +45,28 @@ cover:
             ext: .jpg
             width: 191
             height: 156
+header:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686618/their_names_fcc869a829.jpg
+    width: 925
+    height: 756
+    ext: .jpg
+    mime: image/jpeg
+    formats:
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686619/medium_their_names_fcc869a829.jpg
+            ext: .jpg
+            width: 750
+            height: 613
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686619/small_their_names_fcc869a829.jpg
+            ext: .jpg
+            width: 500
+            height: 409
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686618/thumbnail_their_names_fcc869a829.jpg
+            ext: .jpg
+            width: 191
+            height: 156
 gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355345/Their_Names_Police_Violence_Visualization_Kim_Albrecht_Animation_458c013b8d.gif
       width: 1012

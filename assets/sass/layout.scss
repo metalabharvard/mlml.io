@@ -985,7 +985,7 @@ picture, img {
 }
 
 .homepage-project, .homepage-event {
-  .project-cover-image, .event-cover-image {
+  .project-header-image, .event-header-image {
     @include center();
 
     img {

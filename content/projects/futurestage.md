@@ -18,35 +18,20 @@ date: "2021-06-16"
 slug: futurestage
 collaborators:
     - label: Cathie Boyd
-      url: ""
     - label: Marc Brickman
-      url: ""
     - label: Wesley Cornwell
-      url: ""
     - label: Mariana Ibañez
-      url: ""
     - label: Simone Kim
-      url: ""
     - label: Mohammed Obaidullah
-      url: ""
     - label: Jay Pather
-      url: ""
     - label: Cui Qiao
-      url: ""
     - label: Adama Sanneh
-      url: ""
     - label: Anthony Sargent
-      url: ""
     - label: Shain Sapiro
-      url: ""
     - label: Jean-Philippe thiellay
-      url: ""
     - label: Shahrokh Yadegari
-      url: ""
     - label: Paolo Ciuccarelli
-      url: ""
     - label: Evenlyn Ficarra
-      url: ""
 events:
     - label: futureStage Manifesto
       slug: future-stage-manifesto-new-scenarios-for-the-performing-arts
@@ -76,6 +61,33 @@ members:
       slug: sydney-skybetter
       twitter: sydneyskybetter
 cover:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870255/Futurstage_Instagram_posts3_6793ab50d5.png
+    width: 2250
+    height: 2250
+    ext: .png
+    mime: image/png
+    formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870256/large_Futurstage_Instagram_posts3_6793ab50d5.png
+            ext: .png
+            width: 1000
+            height: 1000
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870257/medium_Futurstage_Instagram_posts3_6793ab50d5.png
+            ext: .png
+            width: 750
+            height: 750
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870257/small_Futurstage_Instagram_posts3_6793ab50d5.png
+            ext: .png
+            width: 500
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870256/thumbnail_Futurstage_Instagram_posts3_6793ab50d5.png
+            ext: .png
+            width: 156
+            height: 156
+header:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870255/Futurstage_Instagram_posts3_6793ab50d5.png
     width: 2250
     height: 2250

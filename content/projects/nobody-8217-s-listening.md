@@ -17,7 +17,6 @@ date: "2017-08-08"
 slug: nobody-8217-s-listening
 collaborators:
     - label: Rachel Kalmar
-      url: ""
 events:
     - label: Machine Experience
       slug: machine-experience

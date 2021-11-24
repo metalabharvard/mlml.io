@@ -18,10 +18,25 @@ date: "2018-01-01"
 slug: feminist-in-a-software-lab
 collaborators:
     - label: Harvard University Press
-      url: ""
     - label: Tara McPherson
-      url: ""
 cover:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636730949/feminist1_4524f5f121.jpg
+    width: 462
+    height: 680
+    ext: .jpeg
+    mime: image/jpeg
+    formats:
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636730950/small_feminist1_4524f5f121.jpg
+            ext: .jpeg
+            width: 340
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636730949/thumbnail_feminist1_4524f5f121.jpg
+            ext: .jpeg
+            width: 106
+            height: 156
+header:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636730949/feminist1_4524f5f121.jpg
     width: 462
     height: 680

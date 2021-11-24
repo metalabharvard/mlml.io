@@ -20,7 +20,6 @@ collaborators:
     - label: Fabian Dinklage
       url: https://fabiandinklage.com/
     - label: Sydney Lewis
-      url: ""
 links:
     - label: curricle.net
       url: https://curricle.net/
@@ -32,6 +31,33 @@ members:
       slug: matthew-battles
       twitter: matthewbattles
 cover:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355812/curricle_lens_crop_01_b9255616ab.png
+    width: 2880
+    height: 1800
+    ext: .png
+    mime: image/png
+    formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355815/large_curricle_lens_crop_01_b9255616ab.png
+            ext: .png
+            width: 1000
+            height: 625
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355815/medium_curricle_lens_crop_01_b9255616ab.png
+            ext: .png
+            width: 750
+            height: 469
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355816/small_curricle_lens_crop_01_b9255616ab.png
+            ext: .png
+            width: 500
+            height: 313
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355813/thumbnail_curricle_lens_crop_01_b9255616ab.png
+            ext: .png
+            width: 245
+            height: 153
+header:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355812/curricle_lens_crop_01_b9255616ab.png
     width: 2880
     height: 1800

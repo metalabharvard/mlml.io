@@ -17,37 +17,38 @@ date: "2019-01-01"
 slug: futurefood
 collaborators:
     - label: Cambridge Arts Council
-      url: ""
     - label: Mass Cultural Council
-      url: ""
     - label: Clover Food Lab
-      url: ""
     - label: Best Bees
-      url: ""
     - label: David Buckley Borden
-      url: ""
     - label: Gap Dynamics
-      url: ""
     - label: Toni Bee
-      url: ""
     - label: Toscanini / Gus Rancatore
-      url: ""
     - label: Nate Phinisee
-      url: ""
 members:
     - label: Dietmar Offenhuber
       slug: dietmar-offenhuber
       twitter: dietoff
     - label: Jessica Yurkofsky
       slug: jessica-yurkofsky
-      twitter: ""
     - label: Keith Hartwig
       slug: keith-hartwig
-      twitter: ""
     - label: Matthew Battles
       slug: matthew-battles
       twitter: matthewbattles
 cover:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636728991/futurefood1_6855930682.jpg
+    width: 386
+    height: 500
+    ext: .jpeg
+    mime: image/jpeg
+    formats:
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636728992/thumbnail_futurefood1_6855930682.jpg
+            ext: .jpeg
+            width: 120
+            height: 156
+header:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636728991/futurefood1_6855930682.jpg
     width: 386
     height: 500

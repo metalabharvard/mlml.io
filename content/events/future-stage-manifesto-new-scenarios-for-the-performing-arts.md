@@ -31,7 +31,6 @@ slug: future-stage-manifesto-new-scenarios-for-the-performing-arts
 members:
     - label: Jeanette Andrews
       slug: jeanette-andrews
-      twitter: ""
     - label: Jeffrey Schnapp
       slug: jeffrey-schnapp
       twitter: jaytiesse
@@ -55,6 +54,33 @@ events:
     - label: Jenn Parker-Starbuck, Animals in the Machine
       slug: jenn-parker-starbuck-animals-in-the-machine
 cover:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636549179/futurestage_transmedia_2ff37ab17f.jpg
+    width: 2550
+    height: 3300
+    ext: .jpg
+    mime: image/jpeg
+    formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636549180/large_futurestage_transmedia_2ff37ab17f.jpg
+            ext: .jpg
+            width: 773
+            height: 1000
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636549181/medium_futurestage_transmedia_2ff37ab17f.jpg
+            ext: .jpg
+            width: 580
+            height: 750
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636549181/small_futurestage_transmedia_2ff37ab17f.jpg
+            ext: .jpg
+            width: 386
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636549180/thumbnail_futurestage_transmedia_2ff37ab17f.jpg
+            ext: .jpg
+            width: 121
+            height: 156
+header:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636549179/futurestage_transmedia_2ff37ab17f.jpg
     width: 2550
     height: 3300

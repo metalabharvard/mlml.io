@@ -18,7 +18,6 @@ date: "2013-01-01"
 slug: life-and-death-of-data
 collaborators:
     - label: Yanni Loukissas
-      url: ""
 links:
     - label: lifeanddeathofdata.org
       url: http://lifeanddeathofdata.org/

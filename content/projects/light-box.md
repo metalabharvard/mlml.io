@@ -18,7 +18,6 @@ date: "2016-01-01"
 slug: light-box
 collaborators:
     - label: Harvard Art Museums
-      url: ""
 links:
     - label: Lightbox Gallery programming (Harvard Art Museums)
       url: http://www.harvardartmuseums.org/search-results?q=Lightbox

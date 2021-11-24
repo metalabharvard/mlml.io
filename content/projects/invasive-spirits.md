@@ -18,7 +18,6 @@ date: "2018-01-01"
 slug: invasive-spirits
 collaborators:
     - label: Keith Hartwig
-      url: ""
 links:
     - label: Invasive Spirits solstice banquet (photographs
       url: https://www.instagram.com/p/BVpjXGuBPqm/?taken-by=metalabharvard

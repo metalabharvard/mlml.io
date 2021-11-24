@@ -111,6 +111,8 @@ func main() {
     element.MembersTwitter = utils.GetMembersTwitter(element.Members)
 
     element.Images = utils.CreatePreviewImage(element.Preview.Url, element.Cover.Url)
+    element.Header = utils.CreateHeaderImage(element.Header, element.Cover, element.Preview)
+
     element.Preview = stru.Picture{}
 
     element.Fulltitle = utils.CreateFulltitle(element.Title, element.Subtitle)

@@ -18,7 +18,6 @@ date: "2021-01-01"
 slug: watching-machines-loving-grace
 collaborators:
     - label: Harvard Art Museums
-      url: ""
 events:
     - label: Curatorial A(i)gents at  Ars Electronica 2020
       slug: curatorial-a-i-gents-at-ars-electronica-2020
@@ -34,6 +33,35 @@ projects:
     - label: Surprise Machines
       slug: surprise-machines
 cover:
+    alternativeText: Watching Machines Interface Example
+    caption: Watching Machines Interface Example. Overlayed images with cutout faces.
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633360980/watching_machines_kim_albrecht_harvard_art_museums_min_1be7c7efa8.png
+    width: 1200
+    height: 758
+    ext: .png
+    mime: image/png
+    formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633360981/large_watching_machines_kim_albrecht_harvard_art_museums_min_1be7c7efa8.png
+            ext: .png
+            width: 1000
+            height: 632
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633360982/medium_watching_machines_kim_albrecht_harvard_art_museums_min_1be7c7efa8.png
+            ext: .png
+            width: 750
+            height: 474
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633360982/small_watching_machines_kim_albrecht_harvard_art_museums_min_1be7c7efa8.png
+            ext: .png
+            width: 500
+            height: 316
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633360980/thumbnail_watching_machines_kim_albrecht_harvard_art_museums_min_1be7c7efa8.png
+            ext: .png
+            width: 245
+            height: 155
+header:
     alternativeText: Watching Machines Interface Example
     caption: Watching Machines Interface Example. Overlayed images with cutout faces.
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633360980/watching_machines_kim_albrecht_harvard_art_museums_min_1be7c7efa8.png

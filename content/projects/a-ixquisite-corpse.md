@@ -18,7 +18,6 @@ date: "2021-01-01"
 slug: a-ixquisite-corpse
 collaborators:
     - label: Harvard Art Museums
-      url: ""
 
 ---
 <!---

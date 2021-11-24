@@ -18,7 +18,6 @@ date: "2014-01-01"
 slug: the-library-beyond-the-book
 collaborators:
     - label: Library Test Kitchen
-      url: ""
 links:
     - label: Library Beyond the Book
       url: http://librarybeyondthebook.org/

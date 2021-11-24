@@ -62,6 +62,33 @@ cover:
             ext: .jpg
             width: 121
             height: 156
+header:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1634901593/weiler_transmedia_cd91da1c84.jpg
+    width: 2550
+    height: 3300
+    ext: .jpg
+    mime: image/jpeg
+    formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1634901594/large_weiler_transmedia_cd91da1c84.jpg
+            ext: .jpg
+            width: 773
+            height: 1000
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1634901594/medium_weiler_transmedia_cd91da1c84.jpg
+            ext: .jpg
+            width: 580
+            height: 750
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1634901595/small_weiler_transmedia_cd91da1c84.jpg
+            ext: .jpg
+            width: 386
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1634901594/thumbnail_weiler_transmedia_cd91da1c84.jpg
+            ext: .jpg
+            width: 121
+            height: 156
 links:
     - label: ""
       url: https://harvard.zoom.us/webinar/register/WN_yyN8-Xf-QSi-EQ78y7YwHw

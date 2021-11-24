@@ -111,6 +111,18 @@ func CreatePreviewImage(preview string, cover string) []string {
   }
 }
 
+func CreateHeaderImage(preview stru.Picture, cover stru.Picture, header stru.Picture) stru.Picture {
+  if header.Url != "" {
+    return header
+  } else if preview.Url != "" {
+    return preview
+  } else if cover.Url != "" {
+    return cover
+  } else {
+    return stru.Picture{}
+  }
+}
+
 func CreateDate(start string, end string, published string) string {
   if len(start) > 1 {
     return start

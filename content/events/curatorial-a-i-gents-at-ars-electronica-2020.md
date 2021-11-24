@@ -43,7 +43,6 @@ members:
       twitter: jaytiesse
     - label: Keith Hartwig
       slug: keith-hartwig
-      twitter: ""
     - label: Kim Albrecht
       slug: kim-albrecht
       twitter: kimay
@@ -62,6 +61,33 @@ projects:
     - label: Watching Machines Loving Grace
       slug: watching-machines-loving-grace
 cover:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636734785/img0_2_7e307aa3ff.jpg
+    width: 2550
+    height: 3300
+    ext: .jpg
+    mime: image/jpeg
+    formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636734786/large_img0_2_7e307aa3ff.jpg
+            ext: .jpg
+            width: 773
+            height: 1000
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636734786/medium_img0_2_7e307aa3ff.jpg
+            ext: .jpg
+            width: 580
+            height: 750
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636734786/small_img0_2_7e307aa3ff.jpg
+            ext: .jpg
+            width: 386
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636734785/thumbnail_img0_2_7e307aa3ff.jpg
+            ext: .jpg
+            width: 121
+            height: 156
+header:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636734785/img0_2_7e307aa3ff.jpg
     width: 2550
     height: 3300

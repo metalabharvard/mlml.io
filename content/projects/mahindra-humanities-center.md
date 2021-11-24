@@ -46,6 +46,33 @@ cover:
             ext: .jpg
             width: 121
             height: 156
+header:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686081/Mahindra_Transmedia_Center_ea57b542d1.jpg
+    width: 2550
+    height: 3300
+    ext: .jpg
+    mime: image/jpeg
+    formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686083/large_Mahindra_Transmedia_Center_ea57b542d1.jpg
+            ext: .jpg
+            width: 773
+            height: 1000
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686083/medium_Mahindra_Transmedia_Center_ea57b542d1.jpg
+            ext: .jpg
+            width: 580
+            height: 750
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686084/small_Mahindra_Transmedia_Center_ea57b542d1.jpg
+            ext: .jpg
+            width: 386
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686081/thumbnail_Mahindra_Transmedia_Center_ea57b542d1.jpg
+            ext: .jpg
+            width: 121
+            height: 156
 images:
     - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1628686081/Mahindra_Transmedia_Center_ea57b542d1.jpg
 

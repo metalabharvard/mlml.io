@@ -31,6 +31,33 @@ cover:
     height: 120
     ext: .gif
     mime: image/gif
+header:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355388/locating_2000px_kim_albrecht_ai_senses_d4079bcf58.jpg
+    width: 2000
+    height: 2000
+    ext: .jpg
+    mime: image/jpeg
+    formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355389/large_locating_2000px_kim_albrecht_ai_senses_d4079bcf58.jpg
+            ext: .jpg
+            width: 1000
+            height: 1000
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355389/medium_locating_2000px_kim_albrecht_ai_senses_d4079bcf58.jpg
+            ext: .jpg
+            width: 750
+            height: 750
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355390/small_locating_2000px_kim_albrecht_ai_senses_d4079bcf58.jpg
+            ext: .jpg
+            width: 500
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355388/thumbnail_locating_2000px_kim_albrecht_ai_senses_d4079bcf58.jpg
+            ext: .jpg
+            width: 156
+            height: 156
 gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628173929/img1_017c9cba83.gif
       width: 120

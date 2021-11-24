@@ -18,10 +18,30 @@ date: "2020-01-01"
 slug: idea-colliders
 collaborators:
     - label: Michael John Gorman
-      url: ""
     - label: MIT Press
-      url: ""
 cover:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636728166/ideacolliders_fe4058d24e.jpg
+    width: 550
+    height: 822
+    ext: .jpeg
+    mime: image/jpeg
+    formats:
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636728167/medium_ideacolliders_fe4058d24e.jpg
+            ext: .jpeg
+            width: 502
+            height: 750
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636728167/small_ideacolliders_fe4058d24e.jpg
+            ext: .jpeg
+            width: 335
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636728166/thumbnail_ideacolliders_fe4058d24e.jpg
+            ext: .jpeg
+            width: 104
+            height: 156
+header:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636728166/ideacolliders_fe4058d24e.jpg
     width: 550
     height: 822

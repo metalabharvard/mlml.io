@@ -52,6 +52,33 @@ cover:
             ext: .jpg
             width: 245
             height: 136
+header:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348173/hypercam_5052cf8738.jpg
+    width: 3360
+    height: 1862
+    ext: .jpg
+    mime: image/jpeg
+    formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348174/large_hypercam_5052cf8738.jpg
+            ext: .jpg
+            width: 1000
+            height: 554
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348174/medium_hypercam_5052cf8738.jpg
+            ext: .jpg
+            width: 750
+            height: 416
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348175/small_hypercam_5052cf8738.jpg
+            ext: .jpg
+            width: 500
+            height: 277
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348174/thumbnail_hypercam_5052cf8738.jpg
+            ext: .jpg
+            width: 245
+            height: 136
 gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355149/hypercam_visualization_kim_albrecht_metalab_15_1b84e81cb8.jpg
       width: 1700

@@ -18,11 +18,8 @@ date: "2021-01-01"
 slug: surprise-machines
 collaborators:
     - label: Harvard Art Museums
-      url: ""
     - label: Douglas Duhaime
-      url: ""
     - label: Christopher Pietsch
-      url: ""
 members:
     - label: Dario Rodighiero
       slug: dario-rodighiero
@@ -32,7 +29,6 @@ members:
       twitter: jaytiesse
     - label: Jordan Kruguer
       slug: jordan-kruguer
-      twitter: ""
     - label: Lins Derry
       slug: lins-derry
       twitter: linsderry
@@ -44,6 +40,33 @@ projects:
     - label: Watching Machines Loving Grace
       slug: watching-machines-loving-grace
 cover:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635823994/surprisemachines_061c847690.jpg
+    width: 1175
+    height: 1520
+    ext: .jpeg
+    mime: image/jpeg
+    formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635823996/large_surprisemachines_061c847690.jpg
+            ext: .jpeg
+            width: 773
+            height: 1000
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635823996/medium_surprisemachines_061c847690.jpg
+            ext: .jpeg
+            width: 580
+            height: 750
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635823996/small_surprisemachines_061c847690.jpg
+            ext: .jpeg
+            width: 387
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635823995/thumbnail_surprisemachines_061c847690.jpg
+            ext: .jpeg
+            width: 121
+            height: 156
+header:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635823994/surprisemachines_061c847690.jpg
     width: 1175
     height: 1520

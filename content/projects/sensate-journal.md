@@ -17,7 +17,6 @@ date: "2012-01-01"
 slug: sensate-journal
 collaborators:
     - label: Sensory Ethnography Lab
-      url: ""
 links:
     - label: Sensate
       url: http://sensatejournal.com/
