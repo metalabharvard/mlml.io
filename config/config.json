@@ -4,6 +4,8 @@
  "params": {
   "title": "metalab(at)harvard",
   "description": "We are an idea foundry, knowledge-design lab, and production studio experimenting in the networked arts and humanities.",
+  "homeIntro": "We are an idea foundry, knowledge-design lab, and production studio experimenting in the networked arts and humanities.",
+  "homeLink": "Learn more",
   "keywords": "idea foundry knowledge-design lab production studio networked arts humanities",
   "label": {
    "error_title": "404: Page could not be found",

@@ -90,11 +90,15 @@ type Meta struct {
   SiteEditedText string `json:"siteEditedText"`
   SiteEditedFormat string `json:"siteEditedFormat"`
   MaxNumberFeaturedProjects int `json:"maxNumberFeaturedProjects"`
+  HomeIntro string `json:"homeIntro"`
+  HomeLink string `json:"homeLink"`
 }
 
 type Params struct {
   Title string `json:"title"`
   Description string `json:"description,omitempty"`
+  HomeIntro string `json:"homeIntro"`
+  HomeLink string `json:"homeLink"`
   Keywords string `json:"keywords,omitempty"`
   Label Label `json:"label"`
   Images []string `yaml:"images,omitempty"`
@@ -218,6 +222,8 @@ func main() {
       Description: responseObject.Description,
       Keywords: responseObject.Keywords,
       MaxNumberFeaturedProjects: responseObject.MaxNumberFeaturedProjects,
+      HomeIntro: responseObject.HomeIntro,
+      HomeLink: responseObject.HomeLink,
       Label: Label{
         ErrorTitle: responseObject.ErrorTitle,
         ErrorText: responseObject.ErrorText,
