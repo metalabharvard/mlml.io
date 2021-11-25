@@ -34,20 +34,24 @@ projects:
       slug: beautiful-data
     - label: Blueprint for Counter Education
       slug: blueprint-for-counter-education
-    - label: Blueprint for Counter Education website
-      slug: blueprint-for-counter-education-website
     - label: Curatorial A(i)gents
       slug: curatorial-aigents
     - label: Curricle
       slug: curricle
     - label: Deep Learning in the Museum
       slug: deep-learning-in-the-museum
+    - label: Digital Archive of Japan’s 2011 Disasters
+      slug: digital-archive-of-japans-2011-disasters
     - label: Hindsight 20/21
       slug: hindsight-20-21
     - label: Surprise Machines
       slug: surprise-machines
     - label: Tacit Knowledge
       slug: tacit-knowledge
+    - label: Teaching with Things
+      slug: teaching-with-things
+    - label: The Library Beyond the Book
+      slug: the-library-beyond-the-book
     - label: Womanhouse (a memory theater)
       slug: womanhouse-a-memory-theater
     - label: Womanhouse @Kunsthaus Graz

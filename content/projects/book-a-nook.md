@@ -7,13 +7,13 @@ start: "2016-01-01"
 end: "2016-01-01"
 datestring: January 2016
 description: An open-source tool to activate, connect, and experiment with community spaces.
-location: ""
+location: global
 host: harvard
-mediation: mixed_media
+mediation: web
 category: project
 isFeatured: false
 externalLink: ""
-lastmod: "2021-11-10T12:47:54.517Z"
+lastmod: "2021-11-25T02:35:15.902Z"
 date: "2016-01-01"
 slug: book-a-nook
 collaborators:
@@ -26,6 +26,92 @@ links:
       url: http://www.bookanook.org
     - label: Knight Foundation
       url: http://www.knightfoundation.org/grants/201450220/
+members:
+    - label: Jessica Yurkofsky
+      slug: jessica-yurkofsky
+cover:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637807696/bookanook_09f9e8c48b.jpg
+    width: 3408
+    height: 4413
+    ext: .jpeg
+    mime: image/jpeg
+    formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637807697/large_bookanook_09f9e8c48b.jpg
+            ext: .jpeg
+            width: 772
+            height: 1000
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637807697/medium_bookanook_09f9e8c48b.jpg
+            ext: .jpeg
+            width: 579
+            height: 750
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637807698/small_bookanook_09f9e8c48b.jpg
+            ext: .jpeg
+            width: 386
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637807696/thumbnail_bookanook_09f9e8c48b.jpg
+            ext: .jpeg
+            width: 120
+            height: 156
+header:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637807696/bookanook_09f9e8c48b.jpg
+    width: 3408
+    height: 4413
+    ext: .jpeg
+    mime: image/jpeg
+    formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637807697/large_bookanook_09f9e8c48b.jpg
+            ext: .jpeg
+            width: 772
+            height: 1000
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637807697/medium_bookanook_09f9e8c48b.jpg
+            ext: .jpeg
+            width: 579
+            height: 750
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637807698/small_bookanook_09f9e8c48b.jpg
+            ext: .jpeg
+            width: 386
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637807696/thumbnail_bookanook_09f9e8c48b.jpg
+            ext: .jpeg
+            width: 120
+            height: 156
+gallery:
+    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637807696/bookanook_09f9e8c48b.jpg
+      width: 3408
+      height: 4413
+      ext: .jpeg
+      mime: image/jpeg
+      formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637807697/large_bookanook_09f9e8c48b.jpg
+            ext: .jpeg
+            width: 772
+            height: 1000
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637807697/medium_bookanook_09f9e8c48b.jpg
+            ext: .jpeg
+            width: 579
+            height: 750
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637807698/small_bookanook_09f9e8c48b.jpg
+            ext: .jpeg
+            width: 386
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637807696/thumbnail_bookanook_09f9e8c48b.jpg
+            ext: .jpeg
+            width: 120
+            height: 156
+images:
+    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1637807696/bookanook_09f9e8c48b.jpg
 
 ---
 Book a Nook is an open-source web application for managing library and other community space reservations. It's funded by the Knight Foundation's Prototype Fund. Inspired by innovative uses of libraries as flexible community space, it departs from other (overwhelmingly proprietary) room management systems in three major areas:

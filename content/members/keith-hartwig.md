@@ -15,6 +15,8 @@ projects:
       slug: curatorial-aigents
     - label: Futurefood
       slug: futurefood
+    - label: Invasive Spirits
+      slug: invasive-spirits
 picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122123/keith_bbbb2d5d7b.jpg
     width: 850

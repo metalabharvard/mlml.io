@@ -4,15 +4,15 @@ subtitle: ""
 fulltitle: Nobody’s Listening
 intro: ""
 start: "2017-08-08"
-end: "2017-01-01"
-datestring: August&ensp;–&ensp;January 2017
+end: "2018-01-01"
+datestring: August 2017&ensp;–&ensp;January 2018
 location: Cambridge, MA
 host: harvard
 mediation: mixed_media
 category: project
 isFeatured: false
 externalLink: ""
-lastmod: "2021-11-10T12:47:55.327Z"
+lastmod: "2021-11-25T02:15:38.705Z"
 date: "2017-08-08"
 slug: nobody-8217-s-listening
 collaborators:
@@ -20,6 +20,95 @@ collaborators:
 events:
     - label: Machine Experience
       slug: machine-experience
+members:
+    - label: Sarah Newman
+      slug: sarah-newman
+      twitter: sarahwnewman
+cover:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806477/nobodyslistening_bc086b876d.jpg
+    width: 1391
+    height: 1800
+    ext: .jpeg
+    mime: image/jpeg
+    formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806478/large_nobodyslistening_bc086b876d.jpg
+            ext: .jpeg
+            width: 773
+            height: 1000
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806478/medium_nobodyslistening_bc086b876d.jpg
+            ext: .jpeg
+            width: 580
+            height: 750
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806478/small_nobodyslistening_bc086b876d.jpg
+            ext: .jpeg
+            width: 386
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806477/thumbnail_nobodyslistening_bc086b876d.jpg
+            ext: .jpeg
+            width: 121
+            height: 156
+header:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806477/nobodyslistening_bc086b876d.jpg
+    width: 1391
+    height: 1800
+    ext: .jpeg
+    mime: image/jpeg
+    formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806478/large_nobodyslistening_bc086b876d.jpg
+            ext: .jpeg
+            width: 773
+            height: 1000
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806478/medium_nobodyslistening_bc086b876d.jpg
+            ext: .jpeg
+            width: 580
+            height: 750
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806478/small_nobodyslistening_bc086b876d.jpg
+            ext: .jpeg
+            width: 386
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806477/thumbnail_nobodyslistening_bc086b876d.jpg
+            ext: .jpeg
+            width: 121
+            height: 156
+gallery:
+    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806477/nobodyslistening_bc086b876d.jpg
+      width: 1391
+      height: 1800
+      ext: .jpeg
+      mime: image/jpeg
+      formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806478/large_nobodyslistening_bc086b876d.jpg
+            ext: .jpeg
+            width: 773
+            height: 1000
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806478/medium_nobodyslistening_bc086b876d.jpg
+            ext: .jpeg
+            width: 580
+            height: 750
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806478/small_nobodyslistening_bc086b876d.jpg
+            ext: .jpeg
+            width: 386
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806477/thumbnail_nobodyslistening_bc086b876d.jpg
+            ext: .jpeg
+            width: 121
+            height: 156
+members_twitter:
+    - sarahwnewman
+images:
+    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1637806477/nobodyslistening_bc086b876d.jpg
 
 ---
 **Nobody's Listening**

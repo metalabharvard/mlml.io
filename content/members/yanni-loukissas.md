@@ -7,6 +7,8 @@ lastmod: "2021-09-16T10:51:44.919Z"
 date: "2021-09-16T10:51:44.919Z"
 slug: yanni-loukissas
 projects:
+    - label: Life and Death of Data
+      slug: life-and-death-of-data
     - label: Networks + Natures
       slug: networks-natures
 

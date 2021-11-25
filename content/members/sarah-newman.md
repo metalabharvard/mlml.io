@@ -35,8 +35,14 @@ projects:
       slug: moral-labyrinth
     - label: Networks + Natures
       slug: networks-natures
+    - label: Nobody’s Listening
+      slug: nobody-8217-s-listening
     - label: The Cyberlaw Guide to Protest Art
       slug: the-cyberlaw-guide-to-protest-art
+    - label: The Future of Secrets
+      slug: the-future-of-secrets
+    - label: Your Story Has Touched My Heart
+      slug: your-story-has-touched-my-heart
 picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122129/newman_268d9cfd9e.jpg
     width: 800

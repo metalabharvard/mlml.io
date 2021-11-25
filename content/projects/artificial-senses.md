@@ -7,13 +7,13 @@ start: "2017-06-01"
 end: "2017-12-01"
 datestring: June&ensp;–&ensp;December 2017
 description: Artificial Senses visualizes sensor data of the machines that surround us to develop an understanding how they experience the world.
-location: ""
+location: Harvard Art Museums Lightbox Gallery
 host: harvard
 mediation: web
 category: project
 isFeatured: false
 externalLink: https://artificial-senses.kimalbrecht.com/
-lastmod: "2021-11-12T14:29:40.410Z"
+lastmod: "2021-11-25T02:23:37.871Z"
 date: "2017-06-01"
 slug: artificial-senses
 events:

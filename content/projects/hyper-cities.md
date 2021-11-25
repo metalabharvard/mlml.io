@@ -7,15 +7,20 @@ start: "2014-01-01"
 end: "2014-01-01"
 datestring: January 2014
 description: Thick Mapping in the Digital Humanities
-location: ""
+location: global
 host: harvard
-mediation: mixed_media
+mediation: print
 category: publication
 isFeatured: false
 externalLink: ""
-lastmod: "2021-11-12T17:58:56.296Z"
+lastmod: "2021-11-25T04:07:22.518Z"
 date: "2014-01-01"
 slug: hyper-cities
+collaborators:
+    - label: Todd Presner
+    - label: David Shepard
+    - label: Yoh Kawano
+    - label: Harvard University Press
 links:
     - label: Book's Online Component
       url: http://www.hypercities.com/
@@ -25,6 +30,85 @@ links:
       url: https://www.hastac.org/u/david-shepard
     - label: Yoh Kawano Vimeo
       url: https://vimeo.com/yohman
+cover:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637813089/hypercities1_a80e1d2600.jpg
+    width: 461
+    height: 680
+    ext: .jpeg
+    mime: image/jpeg
+    formats:
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637813090/small_hypercities1_a80e1d2600.jpg
+            ext: .jpeg
+            width: 339
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637813089/thumbnail_hypercities1_a80e1d2600.jpg
+            ext: .jpeg
+            width: 106
+            height: 156
+header:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637813089/hypercities1_a80e1d2600.jpg
+    width: 461
+    height: 680
+    ext: .jpeg
+    mime: image/jpeg
+    formats:
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637813090/small_hypercities1_a80e1d2600.jpg
+            ext: .jpeg
+            width: 339
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637813089/thumbnail_hypercities1_a80e1d2600.jpg
+            ext: .jpeg
+            width: 106
+            height: 156
+gallery:
+    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637813089/hypercities2_12fa8b9595.jpg
+      width: 1501
+      height: 1501
+      ext: .jpeg
+      mime: image/jpeg
+      formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637813090/large_hypercities2_12fa8b9595.jpg
+            ext: .jpeg
+            width: 1000
+            height: 1000
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637813090/medium_hypercities2_12fa8b9595.jpg
+            ext: .jpeg
+            width: 750
+            height: 750
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637813090/small_hypercities2_12fa8b9595.jpg
+            ext: .jpeg
+            width: 500
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637813089/thumbnail_hypercities2_12fa8b9595.jpg
+            ext: .jpeg
+            width: 156
+            height: 156
+    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637813089/hypercities1_a80e1d2600.jpg
+      width: 461
+      height: 680
+      ext: .jpeg
+      mime: image/jpeg
+      formats:
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637813090/small_hypercities1_a80e1d2600.jpg
+            ext: .jpeg
+            width: 339
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637813089/thumbnail_hypercities1_a80e1d2600.jpg
+            ext: .jpeg
+            width: 106
+            height: 156
+images:
+    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1637813089/hypercities1_a80e1d2600.jpg
 
 ---
 The prefix “hyper” refers to multiplicity and abundance. More than a physical space, a hypercity is a real city overlaid with information networks that document the past, catalyze the present, and project future possibilities. Hypercities are always under construction.

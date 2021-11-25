@@ -24,6 +24,9 @@ isOngoing: false
 lastmod: "2021-11-12T17:36:23.822Z"
 date: "2017-09-28T12:00:00-04:00"
 slug: blueprint-for-counter-education-at-vassar
+projects:
+    - label: Blueprint for Counter Education
+      slug: blueprint-for-counter-education
 links:
     - label: Vassar CAAD
       url: http://creativearts.vassar.edu/news/announcements/2017-2018/170928-blueprint-counter-education.html

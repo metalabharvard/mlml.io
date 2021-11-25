@@ -32,12 +32,26 @@ projects:
       slug: curricle
     - label: Curricle Lens
       slug: curricle-lens
+    - label: Earth Measurer
+      slug: earth-measurer-networks-natures
     - label: Futurefood
       slug: futurefood
     - label: Invasive Spirits
       slug: invasive-spirits
+    - label: Light Prop
+      slug: light-prop
+    - label: Networks + Natures
+      slug: networks-and-natures
+    - label: Sensate Journal
+      slug: sensate-journal
+    - label: The Library Beyond the Book
+      slug: the-library-beyond-the-book
     - label: Their Names
       slug: their-names
+    - label: Turing’s Mill
+      slug: turing-39-s-mill
+    - label: Your Story Has Touched My Heart
+      slug: your-story-has-touched-my-heart
     - label: futureSTAGE
       slug: futurestage
 picture:

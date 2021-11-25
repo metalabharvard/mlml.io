@@ -4,23 +4,158 @@ subtitle: ""
 fulltitle: Life and Death of Data
 intro: In collections of scientific and cultural history that are too big to see, metadata act as virtual handles for rare and delicate artifacts from the past.
 start: "2013-01-01"
-end: "2013-01-01"
-datestring: January 2013
+end: "2014-09-27"
+datestring: January 2013&ensp;–&ensp;September 2014
 description: In collections of scientific and cultural history that are too big to see, metadata act as virtual handles for rare and delicate artifacts from the past.
-location: ""
+location: ' Arnold Arboretum'
 host: harvard
-mediation: mixed_media
+mediation: web
 category: publication
 isFeatured: false
-externalLink: ""
-lastmod: "2021-11-10T12:47:54.572Z"
+externalLink: lifeanddeathofdata.org
+lastmod: "2021-11-25T15:06:44.705Z"
 date: "2013-01-01"
 slug: life-and-death-of-data
-collaborators:
+members:
     - label: Yanni Loukissas
-links:
-    - label: lifeanddeathofdata.org
-      url: http://lifeanddeathofdata.org/
+      slug: yanni-loukissas
+cover:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637814023/lifeanddeath1_d9d3579681.jpg
+    width: 1471
+    height: 1922
+    ext: .jpeg
+    mime: image/jpeg
+    formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637814024/large_lifeanddeath1_d9d3579681.jpg
+            ext: .jpeg
+            width: 765
+            height: 1000
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637814024/medium_lifeanddeath1_d9d3579681.jpg
+            ext: .jpeg
+            width: 574
+            height: 750
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637814024/small_lifeanddeath1_d9d3579681.jpg
+            ext: .jpeg
+            width: 383
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637814024/thumbnail_lifeanddeath1_d9d3579681.jpg
+            ext: .jpeg
+            width: 119
+            height: 156
+header:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637814023/lifeanddeath1_d9d3579681.jpg
+    width: 1471
+    height: 1922
+    ext: .jpeg
+    mime: image/jpeg
+    formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637814024/large_lifeanddeath1_d9d3579681.jpg
+            ext: .jpeg
+            width: 765
+            height: 1000
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637814024/medium_lifeanddeath1_d9d3579681.jpg
+            ext: .jpeg
+            width: 574
+            height: 750
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637814024/small_lifeanddeath1_d9d3579681.jpg
+            ext: .jpeg
+            width: 383
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637814024/thumbnail_lifeanddeath1_d9d3579681.jpg
+            ext: .jpeg
+            width: 119
+            height: 156
+gallery:
+    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637814023/lifeanddeath1_d9d3579681.jpg
+      width: 1471
+      height: 1922
+      ext: .jpeg
+      mime: image/jpeg
+      formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637814024/large_lifeanddeath1_d9d3579681.jpg
+            ext: .jpeg
+            width: 765
+            height: 1000
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637814024/medium_lifeanddeath1_d9d3579681.jpg
+            ext: .jpeg
+            width: 574
+            height: 750
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637814024/small_lifeanddeath1_d9d3579681.jpg
+            ext: .jpeg
+            width: 383
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637814024/thumbnail_lifeanddeath1_d9d3579681.jpg
+            ext: .jpeg
+            width: 119
+            height: 156
+    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637814023/lifeanddeath2_234c25d3ce.jpg
+      width: 2256
+      height: 1205
+      ext: .jpeg
+      mime: image/jpeg
+      formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637814024/large_lifeanddeath2_234c25d3ce.jpg
+            ext: .jpeg
+            width: 1000
+            height: 534
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637814024/medium_lifeanddeath2_234c25d3ce.jpg
+            ext: .jpeg
+            width: 750
+            height: 401
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637814025/small_lifeanddeath2_234c25d3ce.jpg
+            ext: .jpeg
+            width: 500
+            height: 267
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637814023/thumbnail_lifeanddeath2_234c25d3ce.jpg
+            ext: .jpeg
+            width: 245
+            height: 131
+    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637814023/lifeanddeath3_74d61defe6.jpg
+      width: 1557
+      height: 1991
+      ext: .jpeg
+      mime: image/jpeg
+      formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637814024/large_lifeanddeath3_74d61defe6.jpg
+            ext: .jpeg
+            width: 782
+            height: 1000
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637814024/medium_lifeanddeath3_74d61defe6.jpg
+            ext: .jpeg
+            width: 587
+            height: 750
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637814024/small_lifeanddeath3_74d61defe6.jpg
+            ext: .jpeg
+            width: 391
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637814023/thumbnail_lifeanddeath3_74d61defe6.jpg
+            ext: .jpeg
+            width: 122
+            height: 156
+funders:
+    - label: The Lasky-Barajas Dean’s Innovation Fund for Digital Arts and Humanities
+images:
+    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1637814023/lifeanddeath1_d9d3579681.jpg
 
 ---
 At the Arnold Arboretum, a long-lived collection of trees, vines and shrubs managed by Harvard University, landscapes from around the world and across time are stitched together by metadata. However, metadata are worthy of study themselves. Created in varied social and technological eras, they register the organizational structures and values of their time. Through a combination of data visualization and interviews with Arboretum staff, this essay illuminates what metadata can teach us about their own social and material histories, as well as how to study collections digitally.

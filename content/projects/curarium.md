@@ -7,13 +7,13 @@ start: "2016-01-01"
 end: "2016-01-01"
 datestring: January 2016
 description: Curarium is a collection of collections, an “animated archive” crowdsourcing annotation, curation, and augmentation of works within and beyond their respective collections.
-location: ""
+location: virtual
 host: harvard
 mediation: mixed_media
 category: project
 isFeatured: false
 externalLink: ""
-lastmod: "2021-11-10T13:20:37.995Z"
+lastmod: "2021-11-25T02:48:02.570Z"
 date: "2016-01-01"
 slug: curarium
 collaborators:
@@ -22,6 +22,30 @@ collaborators:
 links:
     - label: curarium.com
       url: https://curarium.com/
+    - label: Curarium (satellite)
+      url: https://vimeo.com/165358156
+    - label: What is Curarium?
+      url: https://vimeo.com/96942072
+cover:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637808466/curarium1_33f2510f08.gif
+    width: 1113
+    height: 1440
+    ext: .gif
+    mime: image/gif
+header:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637808466/curarium1_33f2510f08.gif
+    width: 1113
+    height: 1440
+    ext: .gif
+    mime: image/gif
+gallery:
+    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637808466/curarium1_33f2510f08.gif
+      width: 1113
+      height: 1440
+      ext: .gif
+      mime: image/gif
+images:
+    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1637808466/curarium1_33f2510f08.jpg
 
 ---
 A web-based platform, Curarium aims to construct sharable, media-rich stories and elaborate arguments about individual items as well as groups of items within a corpus. 

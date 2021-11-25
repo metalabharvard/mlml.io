@@ -85,6 +85,33 @@ header:
             ext: .jpg
             width: 245
             height: 91
+feature:
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1635348649/DSC_01121_a09f017e7f.jpg
+    width: 5467
+    height: 2025
+    ext: .jpg
+    mime: image/jpeg
+    formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1635348651/large_DSC_01121_a09f017e7f.jpg
+            ext: .jpg
+            width: 1000
+            height: 370
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1635348651/medium_DSC_01121_a09f017e7f.jpg
+            ext: .jpg
+            width: 750
+            height: 278
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1635348651/small_DSC_01121_a09f017e7f.jpg
+            ext: .jpg
+            width: 500
+            height: 185
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1635348650/thumbnail_DSC_01121_a09f017e7f.jpg
+            ext: .jpg
+            width: 245
+            height: 91
 gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348556/DSC_01111_4f4e846735.jpg
       width: 5472

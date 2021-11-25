@@ -16,10 +16,16 @@ events:
     - label: metaLAB + friends openLAB
       slug: meta-lab-friends-open-lab
 projects:
+    - label: Blueprint for Counter Education website
+      slug: blueprint-for-counter-education-website
+    - label: Book a Nook
+      slug: book-a-nook
     - label: Curricle
       slug: curricle
     - label: Futurefood
       slug: futurefood
+    - label: Library Test Kitchen Cookbook
+      slug: library-test-kitchen-cookbook
     - label: The Cyberlaw Guide to Protest Art
       slug: the-cyberlaw-guide-to-protest-art
 picture:
