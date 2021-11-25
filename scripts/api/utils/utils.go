@@ -31,6 +31,23 @@ func ConvertToPreviewImage(url string) string {
   return str
 }
 
+func CropFeatureImage(url string) string {
+  if url != "" {
+    return strings.Replace(url, "upload/", "upload/ar_21:9,c_crop/", 1)
+  } else {
+    return ""
+  }
+}
+
+func ConvertToFeatureImage(element stru.Picture) stru.Picture {
+  element.Url = CropFeatureImage(element.Url)
+  element.Formats.Thumbnail.Url = CropFeatureImage(element.Formats.Thumbnail.Url)
+  element.Formats.Small.Url = CropFeatureImage(element.Formats.Small.Url)
+  element.Formats.Medium.Url = CropFeatureImage(element.Formats.Medium.Url)
+  element.Formats.Large.Url = CropFeatureImage(element.Formats.Large.Url)
+  return element
+}
+
 func ConvertToGrayscale(url string) string {
   if url != "" {
     return strings.Replace(url, "upload/", "upload/e_grayscale/", 1)
@@ -42,12 +59,9 @@ func ConvertToGrayscale(url string) string {
 func GetRelatedEvents(topics []stru.Topic, allEvents []stru.ResponseEvents, slug string) []stru.Event {
   var list []stru.Event
   for _, t := range topics {
-    // println(fmt.Sprintf("%s looking for events", t.Topic))
     for _, a := range allEvents {
       for _, s := range a.Topics {
         if s.Topic == t.Topic && a.Slug != slug {
-          // println(fmt.Sprintf("%s found in %s", t.Topic, a.Title))
-          // fmt.Println(Event{a.Title, a.Slug})
           list = append(list, (stru.Event{a.Title, a.Slug}))
         }
       }
@@ -59,12 +73,9 @@ func GetRelatedEvents(topics []stru.Topic, allEvents []stru.ResponseEvents, slug
 func GetRelatedProjects(topics []stru.Topic, allProjects []stru.ResponseProjects, slug string) []stru.Project {
   var list []stru.Project
   for _, t := range topics {
-    // println(fmt.Sprintf("%s looking for topics", t.Topic))
     for _, a := range allProjects {
       for _, s := range a.Topics {
         if s.Topic == t.Topic && a.Slug != slug {
-          // println(fmt.Sprintf("%s found in %s", t.Topic, a.Title))
-          // fmt.Println(Project{a.Title, a.Slug})
           list = append(list, (stru.Project{a.Title, a.Slug}))
         }
       }
@@ -118,6 +129,18 @@ func CreateHeaderImage(preview stru.Picture, cover stru.Picture, header stru.Pic
     return preview
   } else if cover.Url != "" {
     return cover
+  } else {
+    return stru.Picture{}
+  }
+}
+
+func CreateFeatureImage(cover stru.Picture, header stru.Picture, preview stru.Picture) stru.Picture {
+  if cover.Url != "" {
+    return ConvertToFeatureImage(cover)
+  } else if header.Url != "" {
+    return ConvertToFeatureImage(header)
+  } else if preview.Url != "" {
+    return ConvertToFeatureImage(preview)
   } else {
     return stru.Picture{}
   }

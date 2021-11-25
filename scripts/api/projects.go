@@ -125,6 +125,9 @@ func main() {
 
     element.Images = utils.CreatePreviewImage(element.Preview.Url, element.Cover.Url)
     element.Header = utils.CreateHeaderImage(element.Header, element.Cover, element.Preview)
+    if element.IsFeatured {
+      element.Feature = utils.CreateFeatureImage(element.Cover, element.Header, element.Preview)
+    }
     element.Preview = stru.Picture{}
 
     element.Fulltitle = utils.CreateFulltitle(element.Title, element.Subtitle)

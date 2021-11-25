@@ -194,6 +194,11 @@ picture img {
 
     a {
       @include center-left();
+
+      .logo {
+        height: calc(var(--header-height) * 0.7);
+        // margin-left: calc(var(--header-height) * 0.2);
+      }
     }
 
     @include query($medium) {
@@ -207,8 +212,6 @@ picture img {
 
         .logo {
           height: calc(var(--header-height) * 0.6);
-          // height: 50%;
-          // transform: translateX(30%);
           margin-left: calc(var(--header-height) * 0.2);
         }
       }
@@ -566,31 +569,29 @@ picture img {
   }
 }
 
-.home-projects {
+.home-features {
   margin: var(--spacing-2) 0;
-//  position: relative;
-
-  // h3 {
-  //   position: absolute;
-  //   // writing-mode: vertical-lr;
-  //   transform: rotate(-45deg) translateX(-50%) translateY(-200%);
-  //   // text-align: center;
-  //   transform-origin: left bottom;
-  //   // left: 100%; // calc(var(--spacing-2) * -1);
-  //   // top: calc(var(--spacing-1) * 1);
-  // }
 }
 
 .project-feature {
-  overflow: hidden;
-  height: 40vh;
-  margin-bottom: var(--spacing-05);
+  --medium-offset: var(--spacing-1);
+
+  margin-bottom: var(--spacing-3);
+
+  @include query($medium) {
+    margin-bottom: calc(var(--medium-offset) + var(--spacing-2));
+    // margin-bottom: calc(9rem + var(--spacing-3));
+  }
 
   .feature-link {
     display: block;
-    overflow: hidden;
+    // overflow: hidden;
     position: relative;
     height: 100%;
+
+    @include query($medium) {
+      aspect-ratio: 21 / 9;
+    }
   }
 
   .feature-title {
@@ -600,33 +601,54 @@ picture img {
     width: 100%;
     display: flex;
     align-items: flex-end;
-    padding: var(--spacing-05) var(--spacing-1);
+    padding: 0;
     flex-direction: column;
     justify-content: flex-start;
-    text-align: right;
+    text-align: left;
+
+    @include query($medium) {
+      padding: 0 var(--spacing-1);
+      text-align: right;
+      justify-content: flex-end;
+    }
 
     .feature-frame {
-      background-color: #fff;
-      padding: var(--spacing-05) var(--spacing-1) var(--spacing-05) var(--spacing-1);
-      border: 3px solid #000;
-      max-width: 50%;
+      width: 100%;
+
+      @include query($medium) {
+        background-color: var(--color-bg);
+        padding: var(--spacing-05) var(--spacing-1) var(--spacing-05) var(--spacing-1);
+        border: 2px solid var(--color-bg-secondary);
+        margin-bottom: calc(var(--medium-offset) * -1);
+        width: auto;
+        max-width: 70%;
+      }
     }
 
     .project-title {
       // width: 80%;
+      @include query($medium) {
+        padding-left: var(--spacing-3);
+      }
     }
   }
 
   .feature-image {
-    opacity: 1;
-    position: absolute;
-    left: 0;
-    // top: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 100%;
-    height: auto;
-    z-index: 0;
+    aspect-ratio: 21 / 9;
+    
+
+    @include query($medium) {
+      opacity: 1;
+      position: absolute;
+      left: 0;
+      // top: 0;
+      // top: 50%;
+      // transform: translateY(-50%);
+      width: 100%;
+      height: auto;
+      z-index: 0;
+      // overflow: hidden;
+    }
 
     img {
       width: 100%;
@@ -635,10 +657,6 @@ picture img {
 }
 
 .project-preview, .event-preview {
-  // background-position: center;
-  // background-repeat: no-repeat;
-  // background-size: cover;
-
   &:not(:last-child) {
     border-bottom: 1px solid var(--color-border);
   }
@@ -665,9 +683,6 @@ picture img {
     .preview-image {
       opacity: 0;
       position: absolute;
-      // left: 0;
-      // top: 0;
-      // top: 50%;
       transform: translate(-50%, -50%);
       width: 100%;
       max-width: calc(min(50vw, 400px));
@@ -690,17 +705,11 @@ picture img {
       opacity: 0.7;
     }
 
-    &.hasImage:hover {
-      & > * {
-        // color: #fff;
-      }
-
-      // footer {
-      //   color: #000;
-      // }
-
-      .preview-image {
-        opacity: 0.8;
+    @media (hover: hover) {
+      &.hasImage:hover {
+        .preview-image {
+          opacity: 0.8;
+        }
       }
     }
   }
@@ -948,8 +957,7 @@ picture, img {
     border-image-slice: 1;
     border-width: var(--gradient-border-width);
     z-index: $z-index-member-header-before;
-    --angle: 90deg;
-    border-image-source: linear-gradient(var(--angle), var(--color-gradient-a) 0%, var(--color-gradient-o) 100%);
+    border-image-source: linear-gradient(90deg, var(--color-gradient-a) 0%, var(--color-gradient-o) 100%); // TODO
     animation: 20s rotate linear infinite;
     @include grid-wide();
 
@@ -1072,46 +1080,41 @@ picture, img {
   }
 }
 
-.related-events, .related-projects, .related-members, .related-links, .related-collaborators, .related-funders {
-  // border-top: 1px solid var(--color-border);
-  // padding-top: var(--spacing-2);
-  // margin-bottom: var(--spacing-05);
-
-  .title {
-    // margin-bottom: var(--spacing-0125);
-  }
-}
-
-.related-event, .related-project, .related-member {
-  // &:not(:last-child) {
-  //   margin-bottom: var(--spacing-05);
-  // }
-}
-
 .page-footer {
   margin-top: var(--spacing-2);
-  padding: var(--spacing-2) 0;
+  padding: var(--spacing-5) 0 var(--spacing-8);
   background-color: var(--color-bg-secondary);
-  color: var(--color-text-invert);
   width: 100vw;
 
   @media print {
     display: none;
   }
-  // display: grid;
-  // grid-template-columns: 1fr calc(var(--size-column) * 8 + var(--size-gap) * 7) 1fr;
+
+  @include query($narrow) {
+    padding: var(--spacing-4) 0 var(--spacing-8);
+  }
+
+  @include query($medium) {
+    padding: var(--spacing-4) 0;
+  }
+
+  @include query($wide) {
+    padding: var(--spacing-2) 0;
+  }
 
   .footer-content {
     margin: 0 auto;
-    grid-row-gap: var(--spacing-2);
-
+    grid-row-gap: var(--spacing-4);
     grid-template-areas:
-      "logos logos logos logos info info info info info info info info"
-      "sitemap sitemap sitemap sitemap social social update update update update update update";
+      ". . . . logos logos logos logos . . . ."
+      "info info info info info info info info info info info info"
+      "sitemap sitemap sitemap sitemap sitemap sitemap sitemap sitemap sitemap sitemap sitemap sitemap"
+      "social social social social social social social social social social social social"
+      "update update update update update update update update update update update update";
 
     .footer-logos {
       grid-area: logos;
-      fill: #fff;
+      fill: var(--color-text-invert);
     }
 
     .footer-info {
@@ -1120,19 +1123,67 @@ picture, img {
 
     .footer-sitemap {
       grid-area: sitemap;
+      display: flex;
+      justify-content: space-between;
+      gap: var(--spacing-1) var(--spacing-2);
+      flex-wrap: wrap;
+
+      @include query($medium) {
+        gap: var(--spacing-05);
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        justify-content: space-around;
+      }
+
+      @include query($wide) {
+        gap: var(--spacing-05);
+        justify-content: flex-start;
+      }
     }
 
     .footer-social {
       grid-area: social;
+      display: flex;
+      justify-content: center;
+      gap: var(--spacing-1) var(--spacing-2);
+      flex-wrap: wrap;
+
+      @include query($medium) {
+        gap: var(--spacing-05);
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+      }
+
+      @include query($wide) {
+        gap: var(--spacing-025);
+      }
     }
 
     .footer-update {
       grid-area: update;
-      text-align: right;
+      text-align: center;
+
+      @include query($medium) {
+        text-align: left;
+      }
+    }
+
+    @include query($narrow) {
+      grid-row-gap: var(--spacing-2);
+      grid-template-areas:
+        "logos logos logos logos . . info info info info info info"
+        ". . sitemap sitemap sitemap sitemap sitemap sitemap sitemap sitemap . ."
+        "social social social social social social social social social social social social"
+        "update update update update update update update update update update update update";
     }
 
     @include query($medium) {
-      grid-template-areas: "logos logos info info info . . sitemap sitemap social update update";
+      grid-template-areas:
+        "logos logos info info info info . . sitemap sitemap . social"
+        "update update update update . . . . sitemap sitemap . social";
+
     }
   }
 }

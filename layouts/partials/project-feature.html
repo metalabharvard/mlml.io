@@ -1,20 +1,14 @@
 <li class="project-feature h-entry" role="listitem">
   <a href="{{ printf "p/%s" .project.Slug | absURL }}" class="u-url u-uid feature-link">
     {{ $defaultLabel := string (printf .imageLabelTemplate .project.Params.Title) }}
-    {{ with .project.Params.cover }}
+    {{ with .project.Params.Feature }}
     {{- partial "image.html" (dict "picture" . "alt" $defaultLabel "title" $defaultLabel "class" "feature-image") -}}
     {{ end }}
     <div class="feature-title">
       <div class="feature-frame">
         <span class="project-title p-name">{{ .project.Params.Title }}</span>
-        <footer>
-          {{ if .type }}
-          <span class="project-type p-category">{{ .type | title }}</span>
-          {{ else }}
-          {{ partial "span-mediation.html" (dict "mediation" .project.Params.Mediation) }}
-          {{ end }}
+        <footer class="project-details">
           {{ partial "span-timespan.html" (dict "start" .project.Params.Start "end" .project.Params.End) }}
-          {{ partial "span-host.html" (dict "host" .project.Params.host "type" "project" "default" .defaultHost) }}
         </footer>
       </div>
     </div>

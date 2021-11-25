@@ -168,7 +168,8 @@
   on:blur={handleBlur}
   role="search"
   class:hasTerm={hasTerm}
-  aria-hidden={Boolean(!isOpen)}>
+  aria-hidden={Boolean(!isOpen)}
+  spellcheck="false">
 
 <button
   class="search-trigger"

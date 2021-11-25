@@ -8,10 +8,10 @@
   {{- else -}}
   <time datetime="{{ dateFormat "2006-01-02" .start }}" class="project-start" itemprop="startDate" content="{{ dateFormat "2006-01-02" .start }}">
     {{- dateFormat "January" .start -}}
-    {{- if not (eq (dateFormat "2006" .start) (dateFormat "2006" .end)) -}}&ensp;
+    {{- if not (eq (dateFormat "2006" .start) (dateFormat "2006" .end)) -}}&thinsp;
     {{- dateFormat "2006" .start -}}
     {{- end -}}
-  </time>&ensp;–&ensp;<time datetime="{{ dateFormat "2006-01-02" .end }}" class="project-end" itemprop="endDate" content="{{ dateFormat "2006-01-02" .end }}">{{ dateFormat "January 2006" .end }}</time>
+  </time>&thinsp;–&thinsp;<time datetime="{{ dateFormat "2006-01-02" .end }}" class="project-end" itemprop="endDate" content="{{ dateFormat "2006-01-02" .end }}">{{ dateFormat "January 2006" .end }}</time>
   {{- end -}}
   {{- else if .start -}}
   <time datetime="{{ dateFormat "2006-01-02" .start }}" class="project-start" itemprop="startDate" content="{{ dateFormat "2006-01-02" .start }}">Since {{ dateFormat "January 2006" .start }}</time>

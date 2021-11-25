@@ -34,6 +34,7 @@ type ResponseEvents struct {
   Cover Picture `yaml:"cover,omitempty"`
   Header Picture `yaml:"header,omitempty"`
   Preview Picture `yaml:"preview,omitempty"`
+  Feature Picture `yaml:"feature,omitempty"`
   Gallery []Picture `yaml:"gallery,omitempty"`
   YouTube string `yaml:"youtube,omitempty"`
   Vimeo string `yaml:"vimeo,omitempty"`
@@ -74,6 +75,7 @@ type ResponseProjects struct {
   Cover Picture `yaml:"cover,omitempty"`
   Preview Picture `yaml:"preview,omitempty"`
   Header Picture `yaml:"header,omitempty"`
+  Feature Picture `yaml:"feature,omitempty"`
   Topics []Topic `yaml:"topics,omitempty"`
   Gallery []Picture `yaml:"gallery,omitempty"`
   Funders []Funder `yaml:"funders,omitempty"`

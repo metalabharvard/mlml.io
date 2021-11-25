@@ -4,13 +4,8 @@
   <body>
     <header class="page-header" id="page-header">
       <div class="page-logo">
-        <a href="{{ "/" | absURL }}" {{ if .IsHome }}class="isActive logo"{{ end }}>
-          {{ partial "logo-simple.html" (dict "class" "logo") }}
-<!--           <div>
-            <strong><span class="logo-meta">meta</span><span class="logo-lab">lab</span></strong>
-            <small>Harvard</small>
-            <small>Berlin</small>
-          </div> -->
+        <a href="{{ "/" | absURL }}" {{ if .IsHome }}class="isActive logo"{{ end }} aria-label="Home">
+          {{ partial "logo-simple.html" (dict "class" "logo" "title" .Site.Title) }}
         </a>
       </div>
       <div class="page-menu" id="page-menu">
@@ -48,14 +43,14 @@
     </main>
     <footer class="page-footer">
       <div class="footer-content wrapper grid">
-        {{ partial "logo.html" (dict "class" "footer-logos") }}
+        {{ partial "logo.html" (dict "class" "footer-logos" "title" .Site.Title) }}
         <p class="footer-info">{{ .Site.Params.Label.footer_text }}</p>
         <ul class="footer-sitemap">
-          <li><a href="{{ "" | absURL }}">Home</a></li>
-          <li><a href="{{ "about" | absURL }}">About</a></li>
-          <li><a href="{{ "projects" | absURL }}">Projects</a></li>
-          <li><a href="{{ "members" | absURL }}">Members</a></li>
-          <li><a href="{{ "events" | absURL }}">Events</a></li>
+          <li><a href="{{ "" | absURL }}" {{ if .IsHome }}aria-current="page"{{ end }}>Home</a></li>
+          <li><a href="{{ "projects" | absURL }}" {{ if eq .RelPermalink "/projects/" }}aria-current="page"{{ end }}>Projects</a></li>
+          <li><a href="{{ "events" | absURL }}" {{ if eq .RelPermalink "/events/" }}aria-current="page"{{ end }}>Events</a></li>
+          <li><a href="{{ "members" | absURL }}" {{ if eq .RelPermalink "/members/" }}aria-current="page"{{ end }}>Members</a></li>
+          <li><a href="{{ "about" | absURL }}" {{ if eq .RelPermalink "/about/" }}class="isActive" aria-current="page"{{ end }}>About</a></li>
         </ul>
         <div class="footer-social">
           {{ partial "footer-social.html" . }}
