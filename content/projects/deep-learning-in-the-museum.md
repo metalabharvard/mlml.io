@@ -66,6 +66,7 @@ header:
             ext: .jpeg
             width: 245
             height: 123
+noHeaderImage: false
 gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636729857/deeplearning2_85fd188815.jpg
       width: 867

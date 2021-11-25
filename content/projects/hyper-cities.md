@@ -64,6 +64,7 @@ header:
             ext: .jpeg
             width: 106
             height: 156
+noHeaderImage: false
 gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637813089/hypercities2_12fa8b9595.jpg
       width: 1501

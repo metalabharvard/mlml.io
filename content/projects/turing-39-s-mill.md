@@ -76,6 +76,7 @@ header:
             ext: .jpeg
             width: 208
             height: 156
+noHeaderImage: false
 gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806262/turingsmill1_5490115f65.jpg
       width: 2419

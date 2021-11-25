@@ -32,6 +32,7 @@ members:
     - label: Matthew Battles
       slug: matthew-battles
       twitter: matthewbattles
+noHeaderImage: false
 members_twitter:
     - kimay
     - matthewbattles

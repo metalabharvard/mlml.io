@@ -76,6 +76,7 @@ header:
             ext: .jpeg
             width: 156
             height: 156
+noHeaderImage: false
 gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637811442/beautifuldata2_092b8a2c16.jpg
       width: 600

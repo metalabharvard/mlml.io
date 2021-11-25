@@ -60,6 +60,7 @@ header:
             ext: .jpeg
             width: 123
             height: 156
+noHeaderImage: false
 gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637807887/lightprop2_4c9be3c6a1.jpg
       width: 500

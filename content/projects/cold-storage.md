@@ -48,6 +48,7 @@ header:
             ext: .jpeg
             width: 245
             height: 138
+noHeaderImage: false
 images:
     - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1637811037/coldstorage1_865315e944.jpg
 

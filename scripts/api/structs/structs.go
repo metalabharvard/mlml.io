@@ -33,6 +33,7 @@ type ResponseEvents struct {
   Events []Event `yaml:"events,omitempty"`
   Cover Picture `yaml:"cover,omitempty"`
   Header Picture `yaml:"header,omitempty"`
+  NoHeaderImage bool `yaml:"noHeaderImage"`
   Preview Picture `yaml:"preview,omitempty"`
   Feature Picture `yaml:"feature,omitempty"`
   Gallery []Picture `yaml:"gallery,omitempty"`
@@ -75,6 +76,7 @@ type ResponseProjects struct {
   Cover Picture `yaml:"cover,omitempty"`
   Preview Picture `yaml:"preview,omitempty"`
   Header Picture `yaml:"header,omitempty"`
+  NoHeaderImage bool `yaml:"noHeaderImage"`
   Feature Picture `yaml:"feature,omitempty"`
   Topics []Topic `yaml:"topics,omitempty"`
   Gallery []Picture `yaml:"gallery,omitempty"`

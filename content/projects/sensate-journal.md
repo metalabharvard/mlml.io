@@ -78,6 +78,7 @@ header:
             ext: .jpeg
             width: 234
             height: 156
+noHeaderImage: false
 gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637814325/sensatejournal_751ecee256.jpg
       width: 1500

@@ -25,6 +25,7 @@ isOngoing: false
 lastmod: "2021-11-12T18:00:17.794Z"
 date: "2019-05-11T12:00:00-04:00"
 slug: futurefood-i
+noHeaderImage: false
 
 ---
 **Cambridge Public Library<br />

@@ -73,6 +73,7 @@ header:
             ext: .jpeg
             width: 119
             height: 156
+noHeaderImage: false
 gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637814023/lifeanddeath1_d9d3579681.jpg
       width: 1471

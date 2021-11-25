@@ -79,6 +79,7 @@ header:
             ext: .jpg
             width: 211
             height: 156
+noHeaderImage: false
 gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636563313/metalab_womanhouse_publication_covers_dd61554e4e.gif
       width: 800

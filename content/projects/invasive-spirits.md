@@ -65,6 +65,7 @@ header:
             ext: .jpeg
             width: 156
             height: 156
+noHeaderImage: false
 members_twitter:
     - matthewbattles
 images:

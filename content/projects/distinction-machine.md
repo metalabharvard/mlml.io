@@ -35,6 +35,7 @@ header:
     height: 500
     ext: .gif
     mime: image/gif
+noHeaderImage: false
 gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636730217/distinctionmachine2_ca25edf3fa.png
       width: 1500

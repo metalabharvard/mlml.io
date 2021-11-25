@@ -24,6 +24,7 @@ isOngoing: false
 lastmod: "2021-11-12T17:36:23.669Z"
 date: "2018-10-22T12:00:00-04:00"
 slug: moz-fest
+noHeaderImage: false
 links:
     - label: Mozilla Festival
       url: https://mozillafestival.org/

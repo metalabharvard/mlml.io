@@ -25,6 +25,7 @@ isOngoing: false
 lastmod: "2021-11-12T17:50:53.693Z"
 date: "2020-10-08T12:00:00-04:00"
 slug: mahindra-transmedia-arts-seminar
+noHeaderImage: false
 
 ---
 **Magda Romanska, Emerson College<br> 

@@ -54,6 +54,7 @@ header:
             ext: .jpeg
             width: 120
             height: 156
+noHeaderImage: false
 gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636729641/curricle2_6321580879.jpg
       width: 1080

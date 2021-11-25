@@ -78,6 +78,7 @@ header:
             ext: .jpeg
             width: 208
             height: 156
+noHeaderImage: false
 gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637814651/japan2_48ea29d7d5.jpg
       width: 2133

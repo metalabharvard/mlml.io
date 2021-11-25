@@ -79,6 +79,7 @@ header:
             ext: .jpeg
             width: 112
             height: 156
+noHeaderImage: false
 gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637805685/networksandnatures2_5d3b412317.jpg
       width: 300

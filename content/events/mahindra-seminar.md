@@ -26,6 +26,7 @@ isOngoing: false
 lastmod: "2021-11-12T17:51:39.498Z"
 date: "2020-05-14T12:00:00-04:00"
 slug: mahindra-seminar
+noHeaderImage: false
 
 ---
 **THE FUTURE OF TRANSMEDIA PERFORFORMANCE**

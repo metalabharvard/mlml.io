@@ -83,6 +83,7 @@ header:
             ext: .jpeg
             width: 120
             height: 156
+noHeaderImage: false
 gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637807696/bookanook_09f9e8c48b.jpg
       width: 3408

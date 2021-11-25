@@ -27,6 +27,7 @@ slug: blueprint-for-counter-education-at-vassar
 projects:
     - label: Blueprint for Counter Education
       slug: blueprint-for-counter-education
+noHeaderImage: false
 links:
     - label: Vassar CAAD
       url: http://creativearts.vassar.edu/news/announcements/2017-2018/170928-blueprint-counter-education.html

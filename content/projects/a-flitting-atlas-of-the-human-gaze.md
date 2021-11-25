@@ -74,6 +74,7 @@ header:
             ext: .jpeg
             width: 245
             height: 102
+noHeaderImage: false
 gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636726814/flitting1_35753f05cc.jpg
       width: 800

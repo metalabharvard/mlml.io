@@ -69,6 +69,7 @@ header:
             ext: .jpeg
             width: 245
             height: 130
+noHeaderImage: false
 gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636725882/hindsight1_5fb981617c.jpg
       width: 800

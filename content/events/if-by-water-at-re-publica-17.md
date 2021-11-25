@@ -28,6 +28,7 @@ members:
     - label: Sarah Newman
       slug: sarah-newman
       twitter: sarahwnewman
+noHeaderImage: false
 members_twitter:
     - sarahwnewman
 

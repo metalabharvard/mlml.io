@@ -81,6 +81,7 @@ header:
             ext: .jpeg
             width: 245
             height: 128
+noHeaderImage: false
 gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637808591/blueprintweb1_1184852a97.jpg
       width: 1433

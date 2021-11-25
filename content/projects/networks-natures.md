@@ -89,6 +89,7 @@ header:
             ext: .jpg
             width: 245
             height: 138
+noHeaderImage: false
 members_twitter:
     - sarahwnewman
 images:

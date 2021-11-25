@@ -50,6 +50,7 @@ projects:
       slug: nobody-8217-s-listening
     - label: Turing’s Mill
       slug: turing-39-s-mill
+noHeaderImage: false
 members_twitter:
     - jonnysun
     - kimay

@@ -73,6 +73,7 @@ header:
             ext: .jpeg
             width: 245
             height: 140
+noHeaderImage: false
 gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637814488/teachingwthings1_471a2049fc.jpg
       width: 1496

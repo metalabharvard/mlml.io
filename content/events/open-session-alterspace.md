@@ -24,6 +24,7 @@ isOngoing: false
 lastmod: "2021-11-12T17:36:23.313Z"
 date: "2019-03-06T12:00:00-04:00"
 slug: open-session-alterspace
+noHeaderImage: false
 
 ---
 **metaLAB_open session: Alterspace**

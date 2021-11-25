@@ -38,6 +38,7 @@ header:
     height: 1440
     ext: .gif
     mime: image/gif
+noHeaderImage: false
 gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637808466/curarium1_33f2510f08.gif
       width: 1113

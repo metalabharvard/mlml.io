@@ -18,6 +18,7 @@ date: "2021-01-01"
 slug: this-recommendation-system-is-broken
 collaborators:
     - label: Harvard Art Museums
+noHeaderImage: false
 
 ---
 Imagine that you are gazing at Claude Monet’s *The Gare Saint-Lazare: Arrival of a Train*. A typical recommendation algorithm will suggest that you look at other Impressionist paintings: why not another work by Claude Monet, perhaps *Red Boats, Argenteuil*? It relies upon conventional, longstanding, consecrated associations: between artists, art movements, periods, schools, and subject matters. The present project turns this familiar matchmaking practice on its head, seeking to transport the viewer from center to periphery, from the gallery wall to deep in the storage closet, from the highly valued to the undervalued and rarely seen. 

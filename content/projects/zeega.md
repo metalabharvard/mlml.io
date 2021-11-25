@@ -59,6 +59,7 @@ header:
             ext: .jpeg
             width: 164
             height: 156
+noHeaderImage: false
 gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637813610/zeega2_431c5dfaf5.jpg
       width: 1035

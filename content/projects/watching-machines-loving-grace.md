@@ -90,6 +90,7 @@ header:
             ext: .png
             width: 245
             height: 155
+noHeaderImage: false
 gallery:
     - alternativeText: Watching Machines Loving Grace Interface
       caption: Screenshot of the visualization.

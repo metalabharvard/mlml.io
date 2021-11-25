@@ -25,6 +25,7 @@ isOngoing: false
 lastmod: "2021-11-12T18:00:09.874Z"
 date: "2019-03-12T12:00:00-04:00"
 slug: ai-big-ideas-and-shiny-objects
+noHeaderImage: false
 
 ---
 **AI, Big Ideas, & Shiny Objects**

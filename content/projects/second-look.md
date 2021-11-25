@@ -73,6 +73,7 @@ header:
             ext: .jpeg
             width: 183
             height: 156
+noHeaderImage: false
 gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635823874/secondlook2_1a7939c141.jpg
       width: 800

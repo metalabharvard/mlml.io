@@ -72,6 +72,7 @@ header:
             ext: .jpeg
             width: 163
             height: 156
+noHeaderImage: false
 gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637805099/earthmeasurer2_64d39bbd40.jpg
       width: 386

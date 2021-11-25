@@ -28,6 +28,7 @@ slug: earth-measurer
 projects:
     - label: Earth Measurer
       slug: earth-measurer-networks-natures
+noHeaderImage: false
 
 ---
 At the annual meeting of the Society for the Social Study of Science (4S) in New Orleans, Matthew Battles will discuss his project, "Earth Measurer," on a panel called "Regenerating Algorithms." The panel will bring together a number of projects that address how algorithms might be rethought or reconfigured to support critical reflection and social justice. Presentations will illustrate a range of ways in which we can remake algorithms: rethinking the choices and authority of their training data; recalibrating their functionality for specific contexts; and realigning their outputs for new audiences. Organized by metaLAB alumnus Yanni Loukissas and Nassim Parvin (Georgia Tech), the panel also includes Catherine D'Ignazio (MIT), Laura Forlano (IIT), Jude Mwenda Ntabathia (Georgia Tech), and Charles Luke Alan Stark.

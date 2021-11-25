@@ -89,6 +89,7 @@ header:
             ext: .jpg
             width: 121
             height: 156
+noHeaderImage: false
 links:
     - label: ""
       url: https://harvard.zoom.us/webinar/register/WN_yyN8-Xf-QSi-EQ78y7YwHw

@@ -74,6 +74,7 @@ header:
             ext: .jpeg
             width: 245
             height: 138
+noHeaderImage: false
 gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635824415/oceanamp2_db9a75e42d.jpg
       width: 800

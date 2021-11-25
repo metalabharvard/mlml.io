@@ -67,6 +67,7 @@ header:
             ext: .jpg
             width: 245
             height: 123
+noHeaderImage: false
 gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637607419/proj_rv13_887c3c3034.jpg
       width: 800

@@ -25,6 +25,7 @@ isOngoing: false
 lastmod: "2021-11-12T17:36:23.722Z"
 date: "2016-01-01T12:00:00-04:00"
 slug: library-test-kitchen
+noHeaderImage: false
 links:
     - label: github
       url: https://github.com/library-test-kitchen

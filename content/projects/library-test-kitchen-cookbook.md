@@ -77,6 +77,7 @@ header:
             ext: .jpeg
             width: 121
             height: 156
+noHeaderImage: false
 gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637805934/librarytestkitchen_e813bbb710.jpg
       width: 1000

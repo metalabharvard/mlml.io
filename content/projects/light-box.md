@@ -21,6 +21,7 @@ collaborators:
 links:
     - label: Lightbox Gallery programming (Harvard Art Museums)
       url: http://www.harvardartmuseums.org/search-results?q=Lightbox
+noHeaderImage: false
 
 ---
 How do we experience a collection? The Lightbox Gallery in the brand new Renzo Piano designed facility is a venue for digital experiments and new media projects that respond to collections held at the Harvard Art Museums. Built in collaboration with faculty, staff, students, and visiting artists, projects in this space use digital tools to reveal connections between objects and play with traditions of display. Some of these projects are responsive, allowing users to navigate and manipulate the collections. Other projects are cinematic, transforming the Museums into a landscape of digital performance. The Lightbox is a space for cross-disciplinary exploration, turning the gallery into an experimental digital lab. The gallery will be inaugurated in tandem with the inauguration of the new museum in November 2014.

@@ -34,6 +34,7 @@ events:
       slug: decentralized-storytelling
     - label: futureStage Manifesto
       slug: future-stage-manifesto-new-scenarios-for-the-performing-arts
+noHeaderImage: false
 
 ---
 Jenn Parker-Starbuck, Royal Holloway, University of London. April 15, 5pm EST.

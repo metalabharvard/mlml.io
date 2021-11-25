@@ -29,6 +29,7 @@ slug: the-future-of-secrets-northeastern-school-of-law
 projects:
     - label: The Future of Secrets
       slug: the-future-of-secrets
+noHeaderImage: false
 
 ---
 When: Tuesday September 17, 2019<br />

@@ -61,6 +61,7 @@ header:
             ext: .jpeg
             width: 106
             height: 156
+noHeaderImage: false
 gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637808784/giza2_e29c2d9cc6.jpg
       width: 1500

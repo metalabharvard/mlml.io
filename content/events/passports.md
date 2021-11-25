@@ -25,6 +25,7 @@ isOngoing: false
 lastmod: "2021-11-12T17:52:48.267Z"
 date: "2018-05-10T12:00:00-04:00"
 slug: passports
+noHeaderImage: false
 
 ---
 **Passports: Knowledge Design Workshop**<br />

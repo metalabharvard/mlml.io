@@ -26,6 +26,7 @@ isOngoing: false
 lastmod: "2021-11-12T17:51:02.746Z"
 date: "2021-01-28T12:00:00-04:00"
 slug: printed-matter
+noHeaderImage: false
 
 ---
 <iframe width="100%" height="300" src="https://www.youtube.com/embed/MA5fttnJpeY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

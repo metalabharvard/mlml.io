@@ -67,6 +67,7 @@ header:
             ext: .jpg
             width: 191
             height: 156
+noHeaderImage: false
 gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355345/Their_Names_Police_Violence_Visualization_Kim_Albrecht_Animation_458c013b8d.gif
       width: 1012

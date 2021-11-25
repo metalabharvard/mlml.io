@@ -24,6 +24,7 @@ isOngoing: false
 lastmod: "2021-11-12T17:36:23.486Z"
 date: "2019-04-11T12:00:00-04:00"
 slug: moral-labyrinth-at-we-robot-miami
+noHeaderImage: false
 
 ---
 **Moral Labyrinth at WeRobot Miami**<br />

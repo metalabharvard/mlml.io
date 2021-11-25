@@ -60,6 +60,7 @@ header:
             ext: .jpeg
             width: 130
             height: 156
+noHeaderImage: false
 gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636730523/ascoltando2_76bd98d600.jpg
       width: 800

@@ -71,10 +71,12 @@
       {{ partial "related-items.html" (dict "items" $events "term" .Site.Params.Label.RelatedEvents "label" .Site.Params.Label.RelatedLabelEvents "class" "event") }}
     </dl>
     {{ $defaultLabel := string (printf .Site.Params.Label.AriaGeneralPicture .Params.Title) }}
+    {{ if not .Params.noHeaderImage }}
     {{ with .Params.Header -}}
     <div class="event-header grid-wide">
       {{- partial "image.html" (dict "picture" . "alt" $defaultLabel "title" $defaultLabel "class" "project-header-image" "format" "wide") -}}
     </div>
+    {{ end }}
     {{ end }}
     <aside class="event-share grid-narrow-right-aside">
       {{ if .Params.Start_time }}{{ partial "icon-calendar.html" (dict "url" ((printf `/e/%s.ics` .Slug) | absURL) "title" .Site.Params.Label.SocialYouTubeTitle) }}{{ end }}

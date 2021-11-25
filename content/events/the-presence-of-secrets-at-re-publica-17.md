@@ -24,6 +24,7 @@ isOngoing: false
 lastmod: "2021-11-12T17:36:23.533Z"
 date: "2017-05-09T12:00:00-04:00"
 slug: the-presence-of-secrets-at-re-publica-17
+noHeaderImage: false
 
 ---
 <a href="https://re-publica.com/en/17/session/presence-secrets" target="_blank">re:publica 2017 installation website</a>

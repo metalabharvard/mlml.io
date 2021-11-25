@@ -16,6 +16,7 @@ externalLink: ""
 lastmod: "2021-11-12T17:58:20.592Z"
 date: "2019-01-01"
 slug: meta-lab-portfolio
+noHeaderImage: false
 
 ---
 metaLAB began in 2011 as team of makers and thinkers betwixt and between the disciplines, sharing a vision for the digital arts and humanities that was playful, inventive, and visionary. Nine years, 36 grants, and hundreds of projects later, we’re still growing strong. The metaLAB portfolio is an index to those years of adventure, a document of projects and discoveries, and a harbinger of things to come. 

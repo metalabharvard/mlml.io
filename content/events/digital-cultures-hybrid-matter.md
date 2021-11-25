@@ -31,6 +31,7 @@ members:
     - label: Sarah Newman
       slug: sarah-newman
       twitter: sarahwnewman
+noHeaderImage: false
 links:
     - label: 'Digital Cultures 2018: Hybrid Matter'
       url: http://digitalcultures.pl/en

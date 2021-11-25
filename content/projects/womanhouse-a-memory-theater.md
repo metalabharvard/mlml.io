@@ -85,6 +85,7 @@ header:
             ext: .jpg
             width: 245
             height: 91
+noHeaderImage: false
 feature:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1635348649/DSC_01121_a09f017e7f.jpg
     width: 5467

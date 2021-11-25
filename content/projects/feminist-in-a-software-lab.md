@@ -53,6 +53,7 @@ header:
             ext: .jpeg
             width: 106
             height: 156
+noHeaderImage: false
 gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636730950/feminist2_c26c373415.jpg
       width: 1501

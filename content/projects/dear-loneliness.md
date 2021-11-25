@@ -74,6 +74,7 @@ header:
             ext: .jpg
             width: 125
             height: 156
+noHeaderImage: false
 gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636727423/dearlonliness1_d10d23db97.jpg
       width: 1600

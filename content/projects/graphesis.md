@@ -78,6 +78,7 @@ header:
             ext: .jpeg
             width: 156
             height: 156
+noHeaderImage: false
 gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637812473/graphesis2_a0818fef2b.jpg
       width: 1501

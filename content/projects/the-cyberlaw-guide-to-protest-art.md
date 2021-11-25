@@ -85,6 +85,7 @@ header:
             ext: .jpeg
             width: 121
             height: 156
+noHeaderImage: false
 gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636731653/cyberlaw1_48e656cb68.jpg
       width: 900

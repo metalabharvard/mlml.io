@@ -49,10 +49,12 @@
       {{ partial "related-items.html" (dict "items" $events "term" .Site.Params.Label.RelatedEvents "label" .Site.Params.Label.RelatedLabelEvents "class" "event") }}
     </dl>
     {{ $defaultLabel := string (printf .Site.Params.Label.AriaGeneralPicture .Params.Title) }}
+    {{ if not .Params.noHeaderImage }}
     {{ with .Params.Header -}}
     <div class="project-header grid-wide">
       {{- partial "image.html" (dict "picture" . "alt" $defaultLabel "title" $defaultLabel "class" "project-header-image" "format" "wide") -}}
     </div>
+    {{ end }}
     {{ end }}
     <aside class="project-share grid-narrow-right-aside">
       {{ partial "share-twitter.html" (dict "url" .Permalink "text" .Params.Fulltitle "via" .Site.Social.twitter) }}

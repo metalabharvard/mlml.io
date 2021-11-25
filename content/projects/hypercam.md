@@ -79,6 +79,7 @@ header:
             ext: .jpg
             width: 245
             height: 136
+noHeaderImage: false
 feature:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1635348173/hypercam_5052cf8738.jpg
     width: 3360

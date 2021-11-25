@@ -54,6 +54,7 @@ header:
             ext: .jpeg
             width: 156
             height: 156
+noHeaderImage: false
 gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637804487/futureofsecrets_poster_e3b7966cb3.jpg
       width: 800

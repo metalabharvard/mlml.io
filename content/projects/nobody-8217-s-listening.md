@@ -78,6 +78,7 @@ header:
             ext: .jpeg
             width: 121
             height: 156
+noHeaderImage: false
 gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806477/nobodyslistening_bc086b876d.jpg
       width: 1391

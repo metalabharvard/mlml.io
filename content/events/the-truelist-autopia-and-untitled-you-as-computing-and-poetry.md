@@ -24,6 +24,7 @@ isOngoing: false
 lastmod: "2021-11-12T17:36:23.418Z"
 date: "2019-04-02T12:00:00-04:00"
 slug: the-truelist-autopia-and-untitled-you-as-computing-and-poetry
+noHeaderImage: false
 
 ---
 ***The Truelist, Autopia, and Untitled [You]* as Computing and Poetry

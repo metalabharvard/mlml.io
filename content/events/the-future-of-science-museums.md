@@ -30,6 +30,7 @@ members:
     - label: Jeffrey Schnapp
       slug: jeffrey-schnapp
       twitter: jaytiesse
+noHeaderImage: false
 members_twitter:
     - jaytiesse
 

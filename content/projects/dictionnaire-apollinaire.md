@@ -51,6 +51,7 @@ header:
             ext: .jpeg
             width: 158
             height: 156
+noHeaderImage: false
 gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637808075/dictionnaire_2472697bd2.jpg
       width: 682

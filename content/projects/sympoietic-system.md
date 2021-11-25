@@ -69,6 +69,7 @@ header:
             ext: .jpeg
             width: 234
             height: 156
+noHeaderImage: false
 gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636726536/sympsys1_41020e621c.jpg
       width: 800

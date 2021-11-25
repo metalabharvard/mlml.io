@@ -114,6 +114,7 @@ header:
             ext: .jpg
             width: 121
             height: 156
+noHeaderImage: false
 members_twitter:
     - dariorodighiero
     - dietoff

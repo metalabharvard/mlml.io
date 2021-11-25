@@ -26,6 +26,7 @@ isOngoing: false
 lastmod: "2021-11-12T17:36:23.779Z"
 date: "2019-03-01T12:00:00-04:00"
 slug: alterspace-at-cambridge-public-library
+noHeaderImage: false
 links:
     - label: Alterspace
       url: http://alterspace.github.io

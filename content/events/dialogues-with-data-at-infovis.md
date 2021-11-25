@@ -38,6 +38,7 @@ members:
     - label: Sarah Newman
       slug: sarah-newman
       twitter: sarahwnewman
+noHeaderImage: false
 links:
     - label: information&#43;visualization
       url: http://infovis.fh-potsdam.de/

@@ -31,6 +31,7 @@ events:
       slug: jenn-parker-starbuck-animals-in-the-machine
     - label: futureStage Manifesto
       slug: future-stage-manifesto-new-scenarios-for-the-performing-arts
+noHeaderImage: false
 links:
     - label: LITA Forum
       url: https://forum.lita.org/

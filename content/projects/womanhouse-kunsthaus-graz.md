@@ -65,6 +65,7 @@ header:
             ext: .jpg
             width: 229
             height: 156
+noHeaderImage: false
 gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636727674/womanhouse1_b491a35529.jpg
       width: 912

@@ -74,6 +74,7 @@ header:
             ext: .jpg
             width: 245
             height: 153
+noHeaderImage: false
 gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636727748/lexical1_c51f2e2afe.jpg
       width: 3072

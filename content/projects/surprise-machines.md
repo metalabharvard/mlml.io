@@ -93,6 +93,7 @@ header:
             ext: .jpeg
             width: 121
             height: 156
+noHeaderImage: false
 gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636725763/surprisemachines_e716d8493c.jpg
       width: 1175

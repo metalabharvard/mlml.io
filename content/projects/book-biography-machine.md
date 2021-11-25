@@ -69,6 +69,7 @@ header:
             ext: .jpeg
             width: 245
             height: 138
+noHeaderImage: false
 gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637809071/bookbio_cf0c83ded1.jpg
       width: 1920

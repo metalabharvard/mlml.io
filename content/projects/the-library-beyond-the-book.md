@@ -68,6 +68,7 @@ header:
             ext: .jpeg
             width: 106
             height: 156
+noHeaderImage: false
 gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637811751/beyondthebook2_dbe05576ec.jpg
       width: 1501

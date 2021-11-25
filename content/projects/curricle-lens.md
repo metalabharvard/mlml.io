@@ -84,6 +84,7 @@ header:
             ext: .png
             width: 245
             height: 153
+noHeaderImage: false
 gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355708/curricle_lens_computer_science_low_d469c6b8d6.gif
       width: 768

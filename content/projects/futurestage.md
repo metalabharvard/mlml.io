@@ -114,6 +114,7 @@ header:
             ext: .png
             width: 156
             height: 156
+noHeaderImage: false
 feature:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1635870255/Futurstage_Instagram_posts3_6793ab50d5.png
     width: 2250

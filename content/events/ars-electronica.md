@@ -32,6 +32,7 @@ members:
 projects:
     - label: Distinction Machine
       slug: distinction-machine
+noHeaderImage: false
 links:
     - label: The 2018 Ars Electronica Festival
       url: https://ars.electronica.art/press/en/2018/04/12/ars-electronica-festival-2018/

@@ -73,6 +73,7 @@ header:
             ext: .jpg
             width: 121
             height: 156
+noHeaderImage: false
 images:
     - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1628686081/Mahindra_Transmedia_Center_ea57b542d1.jpg
 

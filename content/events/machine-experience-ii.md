@@ -61,6 +61,7 @@ projects:
       slug: artificial-senses
     - label: Moral Labyrinth
       slug: moral-labyrinth
+noHeaderImage: false
 members_twitter:
     - qijie
     - joannekcheung

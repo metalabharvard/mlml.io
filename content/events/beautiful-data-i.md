@@ -23,6 +23,7 @@ isOngoing: false
 lastmod: "2021-11-12T17:36:23.663Z"
 date: "2014-01-01T12:00:00-04:00"
 slug: beautiful-data-i
+noHeaderImage: false
 links:
     - label: Beautiful Data
       url: https://metalabharvard.github.io/beautifuldata/

@@ -72,6 +72,7 @@ header:
             ext: .jpeg
             width: 101
             height: 156
+noHeaderImage: false
 gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636730094/archiveofnow2_13d52c128e.jpg
       width: 1545

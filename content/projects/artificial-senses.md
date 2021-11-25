@@ -58,6 +58,7 @@ header:
             ext: .jpg
             width: 156
             height: 156
+noHeaderImage: false
 gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628173929/img1_017c9cba83.gif
       width: 120

@@ -76,6 +76,7 @@ header:
             ext: .jpeg
             width: 192
             height: 156
+noHeaderImage: false
 gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637807272/blueprint1_65c8c108e9.jpg
       width: 800

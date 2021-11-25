@@ -20,6 +20,7 @@ members:
     - label: Jonathan Sun
       slug: jonathan-sun
       twitter: jonnysun
+noHeaderImage: false
 members_twitter:
     - jonnysun
 

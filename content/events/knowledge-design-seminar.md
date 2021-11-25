@@ -23,6 +23,7 @@ isOngoing: false
 lastmod: "2021-11-12T17:36:23.669Z"
 date: "2017-01-01T12:00:00-04:00"
 slug: knowledge-design-seminar
+noHeaderImage: false
 links:
     - label: Knowledge Design - Jeffrey T. Schnapp
       url: http://jeffreyschnapp.com/wp-content/uploads/2011/06/HH_lectures_Schnapp_01.pdf
