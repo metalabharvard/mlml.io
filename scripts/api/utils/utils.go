@@ -159,7 +159,11 @@ func CreateDate(start string, end string, published string) string {
 func CleanCollaborators(collaborators []stru.Collaborator) []stru.Collaborator {
   var list []stru.Collaborator
   for _, c := range collaborators {
-    list = append(list, (stru.Collaborator{Trim(c.Label), Trim(c.Url)}))
+    var label string = Trim(c.Label)
+    var url string = Trim(c.Url)
+    if !(label == "" && url == "") {
+      list = append(list, (stru.Collaborator{label, url}))
+    }
   }
   return list
 }
@@ -167,7 +171,11 @@ func CleanCollaborators(collaborators []stru.Collaborator) []stru.Collaborator {
 func CleanLinks(Links []stru.Link) []stru.Link {
   var list []stru.Link
   for _, c := range Links {
-    list = append(list, (stru.Link{Trim(c.Label), Trim(c.Url)}))
+    var label string = Trim(c.Label)
+    var url string = Trim(c.Url)
+    if !(label == "" && url == "") {
+      list = append(list, (stru.Link{label, url}))
+    }
   }
   return list
 }
@@ -175,7 +183,11 @@ func CleanLinks(Links []stru.Link) []stru.Link {
 func CleanPressArticles(PressArticles []stru.PressArticle) []stru.PressArticle {
   var list []stru.PressArticle
   for _, c := range PressArticles {
-    list = append(list, (stru.PressArticle{Trim(c.Label), Trim(c.Url)}))
+    var label string = Trim(c.Label)
+    var url string = Trim(c.Url)
+    if !(label == "" && url == "") {
+      list = append(list, (stru.PressArticle{label, url}))
+    }
   }
   return list
 }
@@ -183,7 +195,11 @@ func CleanPressArticles(PressArticles []stru.PressArticle) []stru.PressArticle {
 func CleanFunders(Funders []stru.Funder) []stru.Funder {
   var list []stru.Funder
   for _, c := range Funders {
-    list = append(list, (stru.Funder{Trim(c.Label), Trim(c.Url)}))
+    var label string = Trim(c.Label)
+    var url string = Trim(c.Url)
+    if !(label == "" && url == "") {
+      list = append(list, (stru.Funder{label, url}))
+    }
   }
   return list
 }

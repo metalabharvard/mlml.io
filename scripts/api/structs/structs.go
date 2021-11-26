@@ -127,8 +127,8 @@ type Member struct {
 }
 
 type Link struct {
-  Label string `yaml:"label"`
-  Url string `yaml:"url"`
+  Label string `yaml:"label,omitempty"`
+  Url string `yaml:"url,omitempty"`
 }
 
 type Topic struct {
@@ -151,7 +151,7 @@ type Funder struct {
 }
 
 type Collaborator struct {
-  Label string `yaml:"label"`
+  Label string `yaml:"label,omitempty"`
   Url string `yaml:"url,omitempty"`
 }
 
