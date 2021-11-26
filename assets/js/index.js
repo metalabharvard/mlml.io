@@ -4,7 +4,7 @@ import { enableProjectGallery, enableProjectHoverPreview } from './project.js';
 
 renderTimeAgoTags();
 enableEventTabs();
-animateLogo();
+// animateLogo();
 enableProjectGallery();
 enableProjectHoverPreview();
 enableSidebar();

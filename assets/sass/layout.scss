@@ -977,7 +977,11 @@ picture, img {
 
 .homepage-project {
   .project-intro {
-    margin-top: var(--spacing-05);
+    margin-top: var(--spacing-1);
+
+    @include query($narrow) {
+      margin-top: var(--spacing-05);
+    }
   }
 
   .project-aside {
@@ -1016,9 +1020,13 @@ picture, img {
 
   .event-header-bar, .project-header-bar {
     display: grid;
-    margin-top: var(--spacing-1);
+    margin-top: var(--spacing-2);
     grid-template-columns: 3fr 2fr;
     align-items: end;
+
+    @include query($narrow) {
+      margin-top: var(--spacing-1);
+    }
 
     .project-link, .event-link {
       grid-column-start: 2;
@@ -1077,6 +1085,10 @@ picture, img {
   @include query($narrow) {
     padding-top: var(--spacing-1);
     padding-bottom: var(--spacing-1);
+  }
+
+  .title {
+    margin-bottom: var(--spacing-0125);
   }
 }
 
