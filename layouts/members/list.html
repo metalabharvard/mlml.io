@@ -17,7 +17,7 @@
     <ul class="grid alumni-list" role="list">
     {{ range where (sort .Pages "Params.name") "Params.isalumnus" true }}
       <li role="listitem" {{ printf "data-id=%q" .Params.Slug | safeHTMLAttr }}>
-        <a href="{{ .Params.Slug | absURL }}" class="alumni-preview vcard" vocab="https://schema.org/" typeof="Person">
+        <a href="{{ printf "m/%s" .Params.Slug | absURL }}" class="alumni-preview vcard" vocab="https://schema.org/" typeof="Person">
           <strong class="alumni-name fn p-name" property="name">{{ .Params.Name }}</strong>
         </a>
       </li>
