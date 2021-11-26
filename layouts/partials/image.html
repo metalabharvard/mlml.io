@@ -34,6 +34,11 @@
 {{ $sizes = printf `(min-width: 900px) 160px,
                     (min-width: 1200px) 120px,
                     80px` }}
+
+{{ else if eq $format "cover" }}
+{{/* Hover image for events and projects */}}
+{{ $sizes = printf `calc(min(50vw, 400px))` }}
+
 {{ end }}
 
 {{ if and .picture.width .picture.height }}

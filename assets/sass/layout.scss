@@ -667,7 +667,6 @@ picture img {
 
   .preview-link {
     display: block;
-    // position: relative;
     overflow: hidden;
     padding: var(--spacing-05) 0 var(--spacing-025);
 
@@ -684,19 +683,17 @@ picture img {
       opacity: 0;
       position: absolute;
       transform: translate(-50%, -50%);
-      width: 100%;
-      max-width: calc(min(50vw, 400px));
+      width: calc(min(50vw, 400px));
       height: auto;
       pointer-events: none;
       z-index: 0;
-      left: 70vw;
     }
 
     & > * {
       transition: opacity 0s;
     }
 
-    footer {
+    .footer {
       display: flex;
       justify-content: space-between;
       z-index: 1;
@@ -1060,6 +1057,10 @@ picture, img {
   .timezone-tabs {
     .timezone-content {
       line-height: 1;
+
+      .event-time {
+        margin-top: var(--spacing-05);
+      }
     }
   }
 

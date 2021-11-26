@@ -1,7 +1,11 @@
 <li class="event-preview h-entry h-event" role="listitem" {{ printf "data-id=%q" .event.Slug | safeHTMLAttr }}>
-  <a href="{{ printf "e/%s" .event.Slug | absURL }}" class="u-url u-uid preview-link">
+  <a href="{{ printf "e/%s" .event.Slug | absURL }}" class="u-url u-uid preview-link {{ if .event.Params.cover.url }}hasImage{{ end }}">
+    {{ $defaultLabel := string (printf .defaultLabel .event.Title) }}
+    {{ with .event.Params.Cover }}
+    {{- partial "image.html" (dict "picture" . "alt" $defaultLabel "title" $defaultLabel "format" "cover" "class" "preview-image") -}}
+    {{ end }}
     <span class="event-title p-name">{{ .event.Title }}</span>{{ with .event.Params.start_time }}<span class="event-tag" datetime="{{ dateFormat "2006-01-02T15:04:05-0700" . }}"></span>{{ end }}
-    <footer>
+    <footer class="footer">
       {{ if .type }}
       <span class="event-type p-category">{{ .type }}</span>
       {{ else }}

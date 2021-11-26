@@ -1,8 +1,9 @@
 {{ define "main" }}
   <section class="homepage-projects-list grid-wide">
     <ul role="list">
+    {{ $defaultLabel := .Site.Params.Label.AriaGeneralPicture }}
     {{ range (((.Pages).ByParam "title").Reverse.ByParam "start").Reverse }}
-      {{ partial "project-preview.html" (dict "project" . "defaultHost" .Site.Params.Label.HostsDefault "defaultMediation" .Site.Params.Label.DefaultMediation)}}
+      {{ partial "project-preview.html" (dict "project" . "defaultHost" .Site.Params.Label.HostsDefault "defaultMediation" .Site.Params.Label.DefaultMediation "defaultLabel" $defaultLabel)}}
     {{ end }}
     </ul>
   </section>

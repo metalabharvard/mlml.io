@@ -1,10 +1,11 @@
 <li class="project-preview h-entry" role="listitem" {{ printf "data-id=%q" .project.Slug | safeHTMLAttr }}>
   <a href="{{ printf "p/%s" .project.Slug | absURL }}" class="u-url u-uid preview-link {{ if .project.Params.cover.url }}hasImage{{ end }}">
-    {{ with .project.Params.cover.url }}
-    <img {{ printf "src=%q" . | safeHTMLAttr }} class="preview-image" />
+    {{ $defaultLabel := string (printf .defaultLabel .project.Title) }}
+    {{ with .project.Params.Cover }}
+    {{- partial "image.html" (dict "picture" . "alt" $defaultLabel "title" $defaultLabel "format" "cover" "class" "preview-image") -}}
     {{ end }}
     <span class="project-title p-name">{{ .project.Params.Title }}</span><span class="project-tag">{{ .CurrentSection }}</span>
-    <footer>
+    <footer class="footer">
       {{ if .type }}
       <span class="project-type p-category">{{ .type | title  }}</span>
       {{ else }}
