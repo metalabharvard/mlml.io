@@ -25,9 +25,13 @@ events:
       slug: machine-experience-ii
     - label: Overflow
       slug: overflow
+    - label: Social Sculpture–Temporal Communities
+      slug: social-sculpture-temporal-communities
     - label: metaLAB + friends openLAB
       slug: meta-lab-friends-open-lab
 projects:
+    - label: '#MeToo Anti-Network'
+      slug: me-too-anti-network
     - label: Artificial Senses
       slug: artificial-senses
     - label: Curatorial A(i)gents
@@ -40,6 +44,8 @@ projects:
       slug: distinction-machine
     - label: Hypercam
       slug: hypercam
+    - label: TOP (at) Harvard
+      slug: top-at-harvard
     - label: Tacit Knowledge
       slug: tacit-knowledge
     - label: Their Names

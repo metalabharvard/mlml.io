@@ -12,6 +12,9 @@ instagram: alicexcai
 lastmod: "2021-11-22T19:23:37.000Z"
 date: "2021-10-22T10:40:16.975Z"
 slug: alice-cai
+projects:
+    - label: TOP (at) Harvard
+      slug: top-at-harvard
 picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1634899211/alice_1b83d85ed8.jpg
     width: 600

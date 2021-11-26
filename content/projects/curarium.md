@@ -26,6 +26,10 @@ links:
       url: https://vimeo.com/165358156
     - label: What is Curarium?
       url: https://vimeo.com/96942072
+members:
+    - label: Krystelle Denis
+      slug: krystelle-denis
+      twitter: _kdenis
 cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637808466/curarium1_33f2510f08.gif
     width: 1113
@@ -45,6 +49,8 @@ gallery:
       height: 1440
       ext: .gif
       mime: image/gif
+members_twitter:
+    - _kdenis
 images:
     - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1637808466/curarium1_33f2510f08.jpg
 

@@ -10,7 +10,7 @@ date: "2021-09-16T10:51:44.935Z"
 slug: sydney-skybetter
 events:
     - label: futureStage Manifesto
-      slug: future-stage-manifesto-new-scenarios-for-the-performing-arts
+      slug: future-stage-manifesto
 projects:
     - label: futureSTAGE
       slug: futurestage

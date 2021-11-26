@@ -12,6 +12,9 @@ instagram: annettejaellehmann
 lastmod: "2021-11-03T16:57:06.852Z"
 date: "2021-09-16T10:51:44.527Z"
 slug: annette-jael-lehmann
+events:
+    - label: Social Sculpture–Temporal Communities
+      slug: social-sculpture-temporal-communities
 projects:
     - label: Tacit Knowledge
       slug: tacit-knowledge

@@ -34,7 +34,7 @@ events:
     - label: Jenn Parker-Starbuck, Animals in the Machine
       slug: jenn-parker-starbuck-animals-in-the-machine
     - label: futureStage Manifesto
-      slug: future-stage-manifesto-new-scenarios-for-the-performing-arts
+      slug: future-stage-manifesto
 cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1634901593/weiler_transmedia_cd91da1c84.jpg
     width: 2550
@@ -91,8 +91,7 @@ header:
             height: 156
 noHeaderImage: false
 links:
-    - label: ""
-      url: https://harvard.zoom.us/webinar/register/WN_yyN8-Xf-QSi-EQ78y7YwHw
+    - url: https://harvard.zoom.us/webinar/register/WN_yyN8-Xf-QSi-EQ78y7YwHw
 images:
     - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1634901593/weiler_transmedia_cd91da1c84.jpg
 

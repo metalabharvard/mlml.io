@@ -17,6 +17,9 @@ lastmod: "2021-11-25T15:06:44.705Z"
 date: "2013-01-01"
 slug: life-and-death-of-data
 members:
+    - label: Krystelle Denis
+      slug: krystelle-denis
+      twitter: _kdenis
     - label: Yanni Loukissas
       slug: yanni-loukissas
 cover:
@@ -155,6 +158,8 @@ gallery:
             height: 156
 funders:
     - label: The Lasky-Barajas Dean’s Innovation Fund for Digital Arts and Humanities
+members_twitter:
+    - _kdenis
 images:
     - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1637814023/lifeanddeath1_d9d3579681.jpg
 

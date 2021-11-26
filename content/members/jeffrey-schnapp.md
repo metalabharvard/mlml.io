@@ -21,10 +21,12 @@ events:
       slug: curatorial-a-i-gents-at-ars-electronica-2020
     - label: Dialogues with Data [at] Infovis
       slug: dialogues-with-data-at-infovis
+    - label: Social Sculpture–Temporal Communities
+      slug: social-sculpture-temporal-communities
     - label: The Future of Science Museums
       slug: the-future-of-science-museums
     - label: futureStage Manifesto
-      slug: future-stage-manifesto-new-scenarios-for-the-performing-arts
+      slug: future-stage-manifesto
     - label: metaLAB + friends openLAB
       slug: meta-lab-friends-open-lab
 projects:
@@ -46,6 +48,8 @@ projects:
       slug: hindsight-20-21
     - label: Surprise Machines
       slug: surprise-machines
+    - label: TOP (at) Harvard
+      slug: top-at-harvard
     - label: Tacit Knowledge
       slug: tacit-knowledge
     - label: Teaching with Things

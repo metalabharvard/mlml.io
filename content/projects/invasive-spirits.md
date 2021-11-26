@@ -23,8 +23,6 @@ links:
       url: https://www.instagram.com/p/BVpjXGuBPqm/?taken-by=metalabharvard
     - label: Tree (M. Battles, Bloomsbury 2017)
       url: http://www.bloomsbury.com/us/tree-9781628920536/
-    - label: ""
-      url: ""
 members:
     - label: Keith Hartwig
       slug: keith-hartwig

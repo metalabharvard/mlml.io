@@ -28,12 +28,9 @@ collaborators:
     - label: David Joselit
     - label: Shannon Mattern
 links:
-    - label: ""
-      url: https://metalabharvard.github.io/projects/curatorial-aigents/sympoieticsystem/
-    - label: ""
-      url: https://metalabharvard.github.io/projects/curatorial-aigents/secondlook/
-    - label: ""
-      url: https://metalabharvard.github.io/projects/curatorial-aigents/thelovinggrace/
+    - url: https://metalabharvard.github.io/projects/curatorial-aigents/sympoieticsystem/
+    - url: https://metalabharvard.github.io/projects/curatorial-aigents/secondlook/
+    - url: https://metalabharvard.github.io/projects/curatorial-aigents/thelovinggrace/
 events:
     - label: Curatorial A(i)gents at  Ars Electronica 2020
       slug: curatorial-a-i-gents-at-ars-electronica-2020

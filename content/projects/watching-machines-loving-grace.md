@@ -3,9 +3,9 @@ title: Watching Machines Loving Grace
 subtitle: ""
 fulltitle: Watching Machines Loving Grace
 intro: Observing the otherwise unwanted parts of facial recognition, Watching Machines Loving Grace visualizes the reductiveness of algorithmic visual sense-making.
-start: "2021-01-01"
-end: "2021-01-01"
-datestring: January 2021
+start: "2020-02-01"
+end: "2022-03-01"
+datestring: February 2020&ensp;–&ensp;March 2022
 description: Observing the otherwise unwanted parts of facial recognition, Watching Machines Loving Grace visualizes the reductiveness of algorithmic visual sense-making.
 location: ""
 host: harvard
@@ -13,8 +13,8 @@ mediation: web
 category: project
 isFeatured: false
 externalLink: https://watching-machines.kimalbrecht.com/
-lastmod: "2021-11-12T17:29:14.743Z"
-date: "2021-01-01"
+lastmod: "2021-11-26T12:49:58.636Z"
+date: "2020-02-01"
 slug: watching-machines-loving-grace
 collaborators:
     - label: Harvard Art Museums

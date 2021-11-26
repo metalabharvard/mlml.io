@@ -17,6 +17,10 @@ date: "2016-01-01"
 slug: dictionnaire-apollinaire
 collaborators:
     - label: The Observatory of Literary Life (OBVIL)
+members:
+    - label: Krystelle Denis
+      slug: krystelle-denis
+      twitter: _kdenis
 cover:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637808075/dictionnaire_2472697bd2.jpg
     width: 682
@@ -95,6 +99,8 @@ gallery:
             ext: .jpeg
             width: 202
             height: 156
+members_twitter:
+    - _kdenis
 images:
     - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1637808075/dictionnaire_2472697bd2.jpg
 

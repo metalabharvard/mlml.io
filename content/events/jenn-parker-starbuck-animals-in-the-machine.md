@@ -33,7 +33,7 @@ events:
     - label: Decentralized Storytelling
       slug: decentralized-storytelling
     - label: futureStage Manifesto
-      slug: future-stage-manifesto-new-scenarios-for-the-performing-arts
+      slug: future-stage-manifesto
 noHeaderImage: false
 
 ---

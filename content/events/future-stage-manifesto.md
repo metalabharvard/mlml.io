@@ -25,9 +25,9 @@ externalLink: https://harvard.zoom.us/webinar/register/WN_RGRjIoXSQYq9qXMcsp4AXQ
 description: New Scenarios for the Performing Arts
 isFeatured: true
 isOngoing: false
-lastmod: "2021-11-23T20:22:03.004Z"
+lastmod: "2021-11-26T14:34:40.386Z"
 date: "2021-11-19T22:00:00-04:00"
-slug: future-stage-manifesto-new-scenarios-for-the-performing-arts
+slug: future-stage-manifesto
 members:
     - label: Jeanette Andrews
       slug: jeanette-andrews
@@ -81,12 +81,40 @@ cover:
             width: 121
             height: 156
 header:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636549179/futurestage_transmedia_2ff37ab17f.jpg
-    width: 2550
-    height: 3300
-    ext: .jpg
-    mime: image/jpeg
+    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870218/Futurstage_Instagram_posts3_d7dcee6127.png
+    width: 2250
+    height: 2250
+    ext: .png
+    mime: image/png
     formats:
+        large:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870219/large_Futurstage_Instagram_posts3_d7dcee6127.png
+            ext: .png
+            width: 1000
+            height: 1000
+        medium:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870219/medium_Futurstage_Instagram_posts3_d7dcee6127.png
+            ext: .png
+            width: 750
+            height: 750
+        small:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870220/small_Futurstage_Instagram_posts3_d7dcee6127.png
+            ext: .png
+            width: 500
+            height: 500
+        thumbnail:
+            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870218/thumbnail_Futurstage_Instagram_posts3_d7dcee6127.png
+            ext: .png
+            width: 156
+            height: 156
+noHeaderImage: false
+gallery:
+    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636549179/futurestage_transmedia_2ff37ab17f.jpg
+      width: 2550
+      height: 3300
+      ext: .jpg
+      mime: image/jpeg
+      formats:
         large:
             url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636549180/large_futurestage_transmedia_2ff37ab17f.jpg
             ext: .jpg
@@ -107,14 +135,13 @@ header:
             ext: .jpg
             width: 121
             height: 156
-noHeaderImage: false
 members_twitter:
     - jaytiesse
     - linsderry
     - MagdaRomanska
     - sydneyskybetter
 images:
-    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1636549179/futurestage_transmedia_2ff37ab17f.jpg
+    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1635870218/Futurstage_Instagram_posts3_d7dcee6127.png
 
 ---
 With new expectations for media, culture, and presence in a hyperconnected world, the civic stakes of the performing arts are shifting. futureStage is a global research collaborative dedicated to investigating new scenarios for the performing arts in society. Newly released, the futureStage Manifesto offers a vision of performance as a human right, intimately entangled with all the stages on which contemporary life is performed, and offering global society new skills, sensibilities, and points of view.

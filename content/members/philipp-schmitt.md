@@ -1,12 +1,16 @@
 ---
 name: Philipp Schmitt
 title: Philipp Schmitt
+roles:
+    - role: Affiliate
+      position: 4
 isAlumnus: false
-rank: 9.999
+rank: 4.999
+role_string: Affiliate
 twitter: philippschmitt
 website: http://philippschmitt.com/
 instagram: phlpschmt
-lastmod: "2021-11-02T18:28:07.583Z"
+lastmod: "2021-11-26T13:20:28.480Z"
 date: "2021-09-16T10:51:45.508Z"
 slug: philipp-schmitt
 events:

@@ -10,6 +10,9 @@ role_string: Researcher
 lastmod: "2021-11-22T19:21:13.395Z"
 date: "2021-09-16T10:51:45.331Z"
 slug: lucas-chu
+projects:
+    - label: TOP (at) Harvard
+      slug: top-at-harvard
 picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1634898960/lucas_a60431186b.jpg
     width: 250

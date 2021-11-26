@@ -16,8 +16,6 @@ externalLink: ""
 lastmod: "2021-11-12T17:58:43.068Z"
 date: "2016-01-01"
 slug: networks-natures
-collaborators:
-    - label: ""
 links:
     - label: Feral Trees (video
       url: https://vimeo.com/130915730

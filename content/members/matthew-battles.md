@@ -28,6 +28,8 @@ events:
     - label: metaLAB + friends openLAB
       slug: meta-lab-friends-open-lab
 projects:
+    - label: '#MeToo Anti-Network'
+      slug: me-too-anti-network
     - label: Curricle
       slug: curricle
     - label: Curricle Lens

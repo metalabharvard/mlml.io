@@ -13,7 +13,7 @@ mediation: mixed_media
 category: project
 isFeatured: false
 externalLink: ""
-lastmod: "2021-11-12T14:09:23.651Z"
+lastmod: "2021-11-26T11:24:22.808Z"
 date: "2021-01-01"
 slug: hindsight-20-21
 collaborators:
@@ -25,50 +25,6 @@ members:
     - label: Leo Saenger
       slug: leo-saenger
       twitter: saengerleo
-cover:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636725882/hindsight2_6ce649dae1.jpg
-    width: 800
-    height: 424
-    ext: .jpeg
-    mime: image/jpeg
-    formats:
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636725883/medium_hindsight2_6ce649dae1.jpg
-            ext: .jpeg
-            width: 750
-            height: 398
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636725883/small_hindsight2_6ce649dae1.jpg
-            ext: .jpeg
-            width: 500
-            height: 265
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636725882/thumbnail_hindsight2_6ce649dae1.jpg
-            ext: .jpeg
-            width: 245
-            height: 130
-header:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636725882/hindsight2_6ce649dae1.jpg
-    width: 800
-    height: 424
-    ext: .jpeg
-    mime: image/jpeg
-    formats:
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636725883/medium_hindsight2_6ce649dae1.jpg
-            ext: .jpeg
-            width: 750
-            height: 398
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636725883/small_hindsight2_6ce649dae1.jpg
-            ext: .jpeg
-            width: 500
-            height: 265
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636725882/thumbnail_hindsight2_6ce649dae1.jpg
-            ext: .jpeg
-            width: 245
-            height: 130
 noHeaderImage: false
 gallery:
     - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636725882/hindsight1_5fb981617c.jpg
@@ -95,8 +51,6 @@ gallery:
 members_twitter:
     - jaytiesse
     - saengerleo
-images:
-    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1636725882/hindsight2_6ce649dae1.jpg
 
 ---
 The holdings of the Harvard Art Museums are part of a larger collection: that of Harvard University, itself a collection of departments and schools, institutes and centers, laboratories, libraries, and museums. Varied in shape, scope, and size, these component parts have their roots in the curriculum: in what we teach and learn as a community of researchers, teachers, and students. 

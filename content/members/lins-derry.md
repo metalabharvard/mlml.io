@@ -16,7 +16,7 @@ events:
     - label: Curatorial A(i)gents at  Ars Electronica 2020
       slug: curatorial-a-i-gents-at-ars-electronica-2020
     - label: futureStage Manifesto
-      slug: future-stage-manifesto-new-scenarios-for-the-performing-arts
+      slug: future-stage-manifesto
 projects:
     - label: Curatorial A(i)gents
       slug: curatorial-aigents
@@ -24,6 +24,8 @@ projects:
       slug: second-look
     - label: Surprise Machines
       slug: surprise-machines
+    - label: TOP (at) Harvard
+      slug: top-at-harvard
     - label: futureSTAGE
       slug: futurestage
 picture:
