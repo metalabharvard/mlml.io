@@ -1167,10 +1167,6 @@ picture, img {
         justify-content: flex-start;
         align-items: flex-start;
       }
-
-      @include query($wide) {
-        gap: var(--spacing-025);
-      }
     }
 
     .footer-update {
@@ -1193,7 +1189,7 @@ picture, img {
 
     @include query($medium) {
       grid-template-areas:
-        "logos logos info info info info . . sitemap sitemap . social"
+        "logos logos . info info info info . sitemap sitemap . social"
         "update update update update . . . . sitemap sitemap . social";
 
     }
