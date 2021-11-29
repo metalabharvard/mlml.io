@@ -23,14 +23,22 @@
 
 @mixin text-footer ($isBig: false) {
   color: var(--color-mute);
-  font-weight: $font-weight-medium;
+  font-weight: $font-weight-default;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+
+  @include query($medium) {
+    font-weight: $font-weight-medium;
+  }
 
   @if $isBig {
     font-size: var(--size-6);
   } @else {
-    font-size: var(--size-8);
+    font-size: var(--size-9);
+
+    @include query($medium) {
+      font-size: var(--size-8);
+    }
   }
 }
 

@@ -668,7 +668,11 @@ picture img {
   .preview-link {
     display: block;
     overflow: hidden;
-    padding: var(--spacing-05) 0 var(--spacing-025);
+    padding: var(--spacing-1) 0;
+
+    @include query($medium) {
+      padding: var(--spacing-05) 0 var(--spacing-025);
+    }
 
     .project-title, .event-title { // The titles might be wider than the content, so we cut it off
       overflow: hidden;
@@ -698,7 +702,7 @@ picture img {
       justify-content: space-between;
       z-index: 1;
       position: relative;
-      color: #000;
+      color: #000; // TODO
       opacity: 0.7;
     }
 
@@ -1128,6 +1132,8 @@ picture, img {
     .footer-logos {
       grid-area: logos;
       fill: var(--color-text-invert);
+      width: 100%;
+      max-width: 100%;
     }
 
     .footer-info {
