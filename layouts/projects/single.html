@@ -61,7 +61,7 @@
       {{ partial "share-facebook.html" (dict "url" .Permalink "text" .Params.Fulltitle) }}
     </aside>
     {{ with .Content }}
-    <div class="project-description grid-narrow-right">
+    <div class="project-description grid-narrow-right content">
       {{ . }}
     </div>
     {{ end }}

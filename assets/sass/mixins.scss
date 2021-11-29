@@ -197,3 +197,16 @@
   border: var(--trigger-button);
   z-index: $z-index-page-menu-trigger;
 }
+
+@mixin share-buttons () {
+  display: grid;
+  grid-auto-flow: column;
+  align-self: start;
+  justify-content: start;
+  column-gap: var(--spacing-2);
+
+  @include query($medium) {
+    grid-auto-flow: row;
+    row-gap: var(--spacing-05);
+  }
+}

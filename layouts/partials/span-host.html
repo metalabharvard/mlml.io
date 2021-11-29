@@ -1,7 +1,7 @@
 <span class="{{ .type }}-host p-location">
 {{- if .host -}}
 {{- if eq .host "both" -}}
-{{ .Site.Params.Label.HostsBoth }}
+{{ .both }}
 {{- else -}}
 {{- title .host }}
 {{- end -}}

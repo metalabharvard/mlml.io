@@ -32,7 +32,13 @@
       </div>
       {{ with .Section }}
       <div class="page-current-section center-right until-medium">
-        <span>{{ title . }}</span>
+        {{ if eq . "projects" }}
+        <a href="{{ "projects" | absURL }}" aria-current="page"><span>Projects</span></a>
+        {{ else if eq . "events" }}
+        <a href="{{ "events" | absURL }}" aria-current="page"><span>Events</span></a>
+        {{ else if eq . "members" }}
+        <a href="{{ "members" | absURL }}" aria-current="page"><span>Members</span></a>
+        {{ end }}
       </div>
       {{ end }}
     </header>

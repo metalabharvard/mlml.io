@@ -29,7 +29,7 @@
       {{ partial "icon-vimeo.html" (dict "handle" .Params.Vimeo "name" $name "template" .Site.Params.Label.SocialVimeoTitle) }}
     </aside>
     {{ if or (or .Params.Intro .Content) .Params.isAlumnus }}
-    <div class="member-description grid-narrow-left note" itemprop="description">
+    <div class="member-description grid-narrow-left note content" itemprop="description">
       {{ if .Params.isAlumnus }}
       <span role="alert">{{ .Site.Params.Label.label_alumni_update }}</span>
       {{ end }}

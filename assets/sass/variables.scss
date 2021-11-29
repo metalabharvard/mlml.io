@@ -6,9 +6,9 @@ $font-weight-default: 400 !default;
 $font-weight-medium:  500 !default;
 $font-weight-bold:    800 !default;
 
-$narrow:				600px !default;
-$medium:				900px !default;
-$wide:        	1200px !default;
+$narrow:				480px !default; // Tablets
+$medium:				768px !default; // Laptop
+$wide:        	1200px !default; // Desktop
 $extra-wide:    1700px !default;
 
 $header-mobile-height: 100px;
