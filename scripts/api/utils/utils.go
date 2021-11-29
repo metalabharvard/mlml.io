@@ -62,7 +62,7 @@ func GetRelatedEvents(topics []stru.Topic, allEvents []stru.ResponseEvents, slug
     for _, a := range allEvents {
       for _, s := range a.Topics {
         if s.Topic == t.Topic && a.Slug != slug {
-          list = append(list, (stru.Event{a.Title, a.Slug}))
+          list = append(list, (stru.Event{Trim(a.Title), a.Slug}))
         }
       }
     }
@@ -76,7 +76,7 @@ func GetRelatedProjects(topics []stru.Topic, allProjects []stru.ResponseProjects
     for _, a := range allProjects {
       for _, s := range a.Topics {
         if s.Topic == t.Topic && a.Slug != slug {
-          list = append(list, (stru.Project{a.Title, a.Slug}))
+          list = append(list, (stru.Project{Trim(a.Title), a.Slug}))
         }
       }
     }
@@ -154,6 +154,30 @@ func CreateDate(start string, end string, published string) string {
   } else {
     return published
   }
+}
+
+func CleanEvents(events []stru.Event) []stru.Event {
+  var list []stru.Event
+  for _, c := range events {
+    list = append(list, (stru.Event{Trim(c.Title), c.Slug}))
+  }
+  return list
+}
+
+func CleanProjects(projects []stru.Project) []stru.Project {
+  var list []stru.Project
+  for _, c := range projects {
+    list = append(list, (stru.Project{Trim(c.Title), c.Slug}))
+  }
+  return list
+}
+
+func CleanMembers(members []stru.Member) []stru.Member {
+  var list []stru.Member
+  for _, c := range members {
+    list = append(list, (stru.Member{Trim(c.Name), c.Slug, c.Twitter}))
+  }
+  return list
 }
 
 func CleanCollaborators(collaborators []stru.Collaborator) []stru.Collaborator {

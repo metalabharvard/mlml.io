@@ -2,8 +2,9 @@
   <section class="homepage-projects-list grid-wide">
     <h1>{{ .Title }}</h1>
     <ul role="list">
+    {{ $defaultLabel := .Site.Params.Label.AriaGeneralPicture }}
     {{ range (where (where .RegularPages "Section" "eq" "projects") "Params.host" "in" (slice .Slug "both")) }}
-      {{ partial "project-preview.html" (dict "project" . )}}
+      {{ partial "project-preview.html" (dict "project" . "defaultLabel" $defaultLabel)}}
     {{ end }}
     </ul>
   </section>

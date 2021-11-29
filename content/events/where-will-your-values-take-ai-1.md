@@ -1,7 +1,7 @@
 ---
-title: Where will your values take AI? Co-designing a Moral Labyrinth
-subtitle: ""
-fulltitle: Where will your values take AI? Co-designing a Moral Labyrinth
+title: Where will your values take AI?
+subtitle: Co-designing a Moral Labyrinth in Tunis
+fulltitle: 'Where will your values take AI?: Co-designing a Moral Labyrinth in Tunis'
 status: ""
 outputs:
     - HTML
@@ -19,12 +19,26 @@ end_time_locations:
     boston: "2019-06-14T13:00:00-04:00"
 tzid: America/Boston
 location: Tunis, Tunisia
+description: Co-designing a Moral Labyrinth in Tunis
 isFeatured: false
 isOngoing: false
-lastmod: "2021-11-12T17:36:23.299Z"
+lastmod: "2021-11-26T17:05:33.027Z"
 date: "2019-06-14T12:00:00-04:00"
-slug: where-will-your-values-take-ai-co-designing-a-moral-labyrinth
+slug: where-will-your-values-take-ai-1
+members:
+    - label: Jie Qi
+      slug: jie-qi
+      twitter: qijie
+    - label: Mindy Seu
+      slug: mindy-seu
+      twitter: mind_seu
+projects:
+    - label: Moral Labyrinth
+      slug: moral-labyrinth
 noHeaderImage: false
+members_twitter:
+    - qijie
+    - mind_seu
 
 ---
 **[Tunis 2019 metaLAB Workshop](https://rightscon2019.sched.com/event/Pvfz/where-will-your-values-take-ai-co-designing-a-moral-labyrinth-and-taking-one-home)<br />

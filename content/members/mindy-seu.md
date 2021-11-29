@@ -11,7 +11,11 @@ slug: mindy-seu
 events:
     - label: Machine Experience II
       slug: machine-experience-ii
+    - label: Where will your values take AI?
+      slug: where-will-your-values-take-ai-1
 projects:
+    - label: Moral Labyrinth
+      slug: moral-labyrinth
     - label: Womanhouse (a memory theater)
       slug: womanhouse-a-memory-theater
     - label: Womanhouse @Kunsthaus Graz

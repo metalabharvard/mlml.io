@@ -44,6 +44,8 @@ func main() {
   for _, element := range responseObject {
     Lastmod = utils.GetLastmod(element.Updated_at, Lastmod)
 
+    element.Title = utils.Trim(element.Title)
+
     if len(element.Start_Time) > 1 {
       s := element.Start_Time
       e := element.Start_Time
@@ -103,6 +105,10 @@ func main() {
     element.Topics = nil
 
     element.Link = utils.Trim(element.Link)
+
+    element.Projects = utils.CleanProjects(element.Projects)
+    element.Events = utils.CleanEvents(element.Events)
+    element.Members = utils.CleanMembers(element.Members)
 
     sort.Sort(stru.MembersByName(element.Members))
     sort.Sort(stru.ProjectsByName(element.Projects))

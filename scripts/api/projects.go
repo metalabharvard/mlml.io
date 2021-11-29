@@ -93,6 +93,8 @@ func main() {
   for _, element := range responseObject {
     Lastmod = utils.GetLastmod(element.Updated_at, Lastmod)
 
+    element.Title = utils.Trim(element.Title)
+
     content := element.Description
 
     element.Description = ""
@@ -114,6 +116,10 @@ func main() {
 
     element.Host = utils.Trim(element.Host)
     element.ExternalLink = utils.Trim(element.ExternalLink)
+
+    element.Projects = utils.CleanProjects(element.Projects)
+    element.Events = utils.CleanEvents(element.Events)
+    element.Members = utils.CleanMembers(element.Members)
 
     sort.Sort(stru.MembersByName(element.Members))
     sort.Sort(stru.EventsByName(element.Events))

@@ -16,6 +16,9 @@ externalLink: ""
 lastmod: "2021-11-10T12:47:53.541Z"
 date: "2019-01-01"
 slug: ai-art-at-meta-lab
+events:
+    - label: 2021 Virtual Creative Spring Workshops
+      slug: 2021-virtual-creative-spring-workshops
 members:
     - label: Jonathan Sun
       slug: jonathan-sun

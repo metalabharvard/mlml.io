@@ -9,7 +9,6 @@ import (
   "os"
   "sort"
   "math"
-  "strings"
   "time"
   "gopkg.in/yaml.v3"
   stru "api/structs"
@@ -103,8 +102,8 @@ func main() {
       element.RoleString = "Alumnus"
     }
     
-    element.Name = strings.TrimSpace(element.Name)
-    element.Title = strings.TrimSpace(element.Name)
+    element.Name = utils.Trim(element.Name)
+    element.Title = utils.Trim(element.Name)
 
     content := element.Description
 
@@ -115,6 +114,9 @@ func main() {
 
     element.Created_at = ""
     element.Updated_at = ""
+
+    element.Projects = utils.CleanProjects(element.Projects)
+    element.Events = utils.CleanEvents(element.Events)
 
     sort.Sort(stru.ProjectsByName(element.Projects))
     sort.Sort(stru.EventsByName(element.Events))

@@ -12,18 +12,30 @@ mediation: mixed_media
 category: project
 isFeatured: false
 externalLink: ""
-lastmod: "2021-11-12T15:25:27.395Z"
+lastmod: "2021-11-26T17:04:06.295Z"
 date: "2019-01-01"
 slug: moral-labyrinth
 events:
+    - label: 2021 Virtual Creative Spring Workshops
+      slug: 2021-virtual-creative-spring-workshops
     - label: Machine Experience II
       slug: machine-experience-ii
+    - label: Where will your values take AI?
+      slug: where-will-your-values-take-ai-1
 members:
+    - label: Jie Qi
+      slug: jie-qi
+      twitter: qijie
+    - label: Mindy Seu
+      slug: mindy-seu
+      twitter: mind_seu
     - label: Sarah Newman
       slug: sarah-newman
       twitter: sarahwnewman
 noHeaderImage: false
 members_twitter:
+    - qijie
+    - mind_seu
     - sarahwnewman
 
 ---

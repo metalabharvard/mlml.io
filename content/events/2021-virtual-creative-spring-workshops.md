@@ -2,35 +2,42 @@
 title: 2021 Virtual Creative Spring Workshops
 subtitle: ""
 fulltitle: 2021 Virtual Creative Spring Workshops
-status: ""
+status: default
 outputs:
     - HTML
     - Calendar
 timezone: Boston
-start_time: "2021-06-06T12:00:00-04:00"
-end_time: "2021-06-06T13:00:00-04:00"
-start_time_utc: 20210606T120000Z
-end_time_utc: 20210606T130000Z
+start_time: "2021-05-28T16:00:00-04:00"
+end_time: "2021-06-25T20:00:00-04:00"
+start_time_utc: 20210528T160000Z
+end_time_utc: 20210625T200000Z
 start_time_locations:
-    berlin: "2021-06-06T18:00:00+02:00"
-    boston: "2021-06-06T12:00:00-04:00"
+    berlin: "2021-05-28T22:00:00+02:00"
+    boston: "2021-05-28T16:00:00-04:00"
 end_time_locations:
-    berlin: "2021-06-06T19:00:00+02:00"
-    boston: "2021-06-06T13:00:00-04:00"
+    berlin: "2021-06-26T02:00:00+02:00"
+    boston: "2021-06-25T20:00:00-04:00"
 tzid: America/Boston
-intro: “Upcoming creative workshops exploring AI, time, and the future of communication”
+intro: “Creative workshops exploring AI, time, and the future of communication”
 location: Online
 category: workshop
-description: “Upcoming creative workshops exploring AI, time, and the future of communication”
+description: “Creative workshops exploring AI, time, and the future of communication”
 isFeatured: false
 isOngoing: false
-lastmod: "2021-11-12T17:36:23.890Z"
-date: "2021-06-06T12:00:00-04:00"
+lastmod: "2021-11-26T17:01:34.177Z"
+date: "2021-05-28T16:00:00-04:00"
 slug: 2021-virtual-creative-spring-workshops
 members:
+    - label: Olivia Tai
+      slug: olivia-tai
     - label: Sarah Newman
       slug: sarah-newman
       twitter: sarahwnewman
+projects:
+    - label: AI + Art at metaLAB
+      slug: ai-art-at-meta-lab
+    - label: Moral Labyrinth
+      slug: moral-labyrinth
 noHeaderImage: false
 members_twitter:
     - sarahwnewman
@@ -66,12 +73,8 @@ The Future of Trust & Truth Online**
 Fri 6.25, 3-4:15 PM EDT  
 
 *Communication is at the core of what it means to be human. And today, most of that communication is technologically mediated. As our communication systems change, the risks evolve alongside the benefits. We now see it daily: mis- and disinformation campaigns, polarization, surveillance, the undermining of social infrastructures. How do the design and incentives of social media companies influence individual choices and major social movements? Where are we headed? What do we want to create—and what do we want to leave behind? How can we work toward building the forms of connection that we (or others) would like to see, while also mitigating the risks? We’ll explore these and other questions through discussion, design thinking, physical prototyping, and more.*  
-&nbsp;  
 
 
 
 **Additional nuts and bolts:** 
 Ten minutes of pre-work will be required for each workshop. In the interest of extending the opportunity as broadly as possible, we are allowing individuals to sign up for one workshop (feel free to join the waitlist for others). **Attendance for the full 75 minutes is expected.** Since it is interactive and quite intense, it is not a drop in/out kind of thing! If you sign up and realize you cannot attend, just let us know and we will open up a spot from the waitlist. Thank you! Looking forward to it!
-
-{{< link "workshops/" >}}Learn more about our workshops here.{{< /link >}}   
-With additional questions, please contact Newman: [sarahnewmanstudio@gmail.com](mailto:sarahnewmanstudio@gmail.com)

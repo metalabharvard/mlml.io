@@ -11,6 +11,11 @@ slug: jie-qi
 events:
     - label: Machine Experience II
       slug: machine-experience-ii
+    - label: Where will your values take AI?
+      slug: where-will-your-values-take-ai-1
+projects:
+    - label: Moral Labyrinth
+      slug: moral-labyrinth
 picture:
     url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122121/jie_86dc5daa52.jpg
     width: 850

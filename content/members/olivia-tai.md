@@ -13,6 +13,8 @@ lastmod: "2021-11-11T16:26:03.241Z"
 date: "2021-09-16T10:51:44.817Z"
 slug: olivia-tai
 events:
+    - label: 2021 Virtual Creative Spring Workshops
+      slug: 2021-virtual-creative-spring-workshops
     - label: AI Art & Design Workshop
       slug: ai-art-38-design-workshop
 picture:
