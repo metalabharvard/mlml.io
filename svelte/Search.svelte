@@ -225,7 +225,7 @@
       {/if}
       {/each}
     {:else}
-    <h2>No results found.</h2>
+    <h2 class="grid-wide">No results found.</h2>
     {/if}
   </div>
 </div>

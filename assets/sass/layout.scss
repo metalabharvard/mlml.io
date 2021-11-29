@@ -135,7 +135,7 @@ picture img {
   grid-template-columns: 1fr repeat(2, calc(var(--size-wrapper) / 2)) 1fr;
   height: var(--header-height);
   @include gradient-border-bottom(var(--gradient-border-width));
-  z-index: 1;
+  z-index: $z-index-page-header;
 
   @include query($medium) {
     border-bottom: 0;
@@ -259,9 +259,9 @@ picture img {
         bottom: auto;
       }
 
-      &:hover, &:focus {
+      &:hover, &:focus-visible {
         outline: none;
-        color: red; // TODO
+        color: var(--color-gradient-a);
       }
     }
 
@@ -312,7 +312,7 @@ picture img {
       z-index: $z-index-search-results;
       background-color: var(--color-bg);
       width: 100vw;
-      height: calc(100vh - var(--header-height) - 1px);
+      height: calc(100vh - var(--header-height));
       right: 0;
       top: var(--header-height);
       opacity: 0;
@@ -403,7 +403,7 @@ picture img {
         }
 
         &.header a {
-          @include gradient-border-bottom(3.5px);
+          @include gradient-border-bottom(var(--gradient-border-width));
         }
 
         &.social {
@@ -437,11 +437,6 @@ picture img {
 
     &[aria-pressed=true] {
       outline: none;
-      background-color: red;
-
-      svg {
-        color: #fff; // TODO
-      }
     }
   }
 
@@ -450,12 +445,16 @@ picture img {
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     position: relative;
     background-color: var(--color-bg);
 
     & > * {
-      margin-left: var(--spacing-1);
+      width: var(--size-wrapper);
+
+      @include query($medium) {
+        width: auto;
+      }
     }
   }
 
@@ -470,16 +469,16 @@ picture img {
       }
 
       @include query($medium) {
-        &::after {
-          background-color: var(--color-bg-secondary);
-          content: '';
-          position: absolute;
-          height: calc(100% + 1px);
-          right: -1px;
-          bottom: -1px;
-          top: 0;
-          left: -1px;
-        }
+        // &::after {
+        //   background-color: var(--color-bg-secondary);
+        //   content: '';
+        //   position: absolute;
+        //   height: calc(100% + 1px);
+        //   right: -1px;
+        //   bottom: -1px;
+        //   top: 0;
+        //   left: -1px;
+        // }
       }
     }
 
@@ -509,16 +508,24 @@ picture img {
         }
 
         &::after {
-          background-color: var(--color-bg-secondary);
-          content: '';
-          position: absolute;
-          height: calc(100% + 1px);
-          right: -1px;
-          bottom: -1px;
-          top: 0;
-          left: -1px;
+          // background-color: var(--color-bg-secondary);
+          // content: '';
+          // position: absolute;
+          // height: calc(100% + 1px);
+          // right: -1px;
+          // bottom: -1px;
+          // top: 0;
+          // left: -1px;
         }
       }
+    }
+  }
+
+  .page-menu-items .header div {
+    height: calc(var(--header-height) * 0.7);
+
+    svg {
+      height: 100%;
     }
   }
 
@@ -528,31 +535,34 @@ picture img {
 
     &.isActive {
       color: var(--color-text-invert);
+      background-color: var(--color-bg-secondary);
+      border-right: 1px solid var(--color-bg-secondary) !important;
+      border-bottom: 1px solid var(--color-bg-secondary) !important;
 
       span {
         position: relative;
         z-index: $z-index-header-items;
       }
 
-      &::after {
-        background-color: var(--color-bg-secondary);
-        content: '';
-        position: absolute;
-        right: 0;
-        bottom: -1px;
-        top: -1px;
-        left: 0;
-        // height: 100%;
-      }
+      // &::after {
+      //   background-color: var(--color-bg-secondary);
+      //   content: '';
+      //   position: absolute;
+      //   right: 0;
+      //   bottom: -1px;
+      //   top: -1px;
+      //   left: 0;
+      //   // height: 100%;
+      // }
 
-      @include query($medium) {
-        &::after {
-          right: -1px;
-          bottom: -1px;
-          top: 0;
-          left: -1px;
-        }
-      }
+      // @include query($medium) {
+      //   &::after {
+      //     right: -1px;
+      //     bottom: -1px;
+      //     top: 0;
+      //     left: -1px;
+      //   }
+      // }
     }
   }
 }

@@ -156,9 +156,10 @@
 }
 
 @mixin gradient-text () {
-  background-image: linear-gradient(0deg, var(--color-gradient-a), var(--color-gradient-o));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  // background-image: linear-gradient(0deg, var(--color-gradient-a), var(--color-gradient-o));
+  // -webkit-background-clip: text;
+  // -webkit-text-fill-color: transparent;
+  color: var(--color-gradient-a);
 }
 
 @mixin center-h () {
