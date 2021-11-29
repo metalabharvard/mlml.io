@@ -185,3 +185,15 @@
   align-items: center;
   justify-content: flex-start;
 }
+
+@mixin mobile-trigger () {
+  position: fixed;
+  bottom: var(--trigger-distance);
+  top: auto;
+  background-color: var(--color-bg);
+  border-radius: 50%;
+  width: var(--spacing-6);
+  height: var(--spacing-6);
+  border: var(--trigger-button);
+  z-index: $z-index-page-menu-trigger;
+}
