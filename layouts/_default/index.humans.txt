@@ -1,0 +1,21 @@
+/* GENERAL */
+{{- $team := ((((where (where .Site.RegularPages "Section" "members") "Params.isalumnus" false).ByParam "Name").ByParam "start").ByParam "rank") }}
+{{- $amount := sub (len $team) 1 }}
+Team: {{ range $key, $value := $team -}}{{- trim $value.Name " " -}}{{ if not (eq $key $amount) }}, {{ end }}{{ end }}
+
+/* SOCIAL */
+{{ with .Site.Social.email }}
+Email:         {{ . -}}{{ end }}{{ with .Site.Social.facebook }}
+Facebook:      https://facebook.com/{{ . }}{{ end }}{{ with .Site.Social.github }}
+Github:        https://github.com/{{- . -}}{{- end }}{{ with .Site.Social.instagram }}
+Instagram:     https://instagram.com/{{- . -}}{{- end -}}{{ with .Site.Social.linkedin }}
+LinkedIn:      https://linkedin.com/{{- . -}}{{- end -}}{{ with .Site.Social.soundcloud }}
+Soundcloud:    https://soundcloud.com/{{- . -}}{{- end -}}{{ with .Site.Social.twitter }}
+Twitter:       https://twitter.com/{{- . -}}{{- end -}}{{- with .Site.Social.vimeo }}
+Vimeo:         https://vimeo.com/{{- . -}}{{- end -}}{{ with .Site.Social.youtube }}
+YouTube:       https://youtube.com/{{- . -}}{{- end }}
+
+/* META */
+Built with:    Hugo, Svelte, Strapi, Cloudinary, Github, Netlify
+Developer:     Jonas Parnow (https://jonasparnow.com)
+Last updated:  {{ now.Format "2006-01-02" }}

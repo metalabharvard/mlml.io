@@ -25,11 +25,16 @@ disableKinds = ["taxonomyTerm"]
     baseName = "content"
     isPlainText = true
     notAlternative = true
+  [outputFormats.Humans]
+    mediaType = "text/plain"
+    baseName = "humans"
+    isPlainText = true
+    notAlternative = true
   [outputFormats.HTML]
     noUgly = true
 
 [outputs]
-  home = ["HTML", "Content", "RSS"]
+  home = ["HTML", "Content", "RSS", "Humans"]
   section = ["HTML", "RSS"]
 
 [sitemap]
