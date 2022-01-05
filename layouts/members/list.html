@@ -13,7 +13,7 @@
     </ul>
   </section>
   <section class="homepage-alumni-list grid-full">
-    <h1 id="community" class="alumni-list-header">Community</h1>
+    <h1 id="community" class="alumni-list-header">Alumni</h1>
     <ul class="grid alumni-list" role="list">
     {{ range where (sort .Pages "Params.name") "Params.isalumnus" true }}
       <li role="listitem" {{ printf "data-id=%q" .Params.Slug | safeHTMLAttr }}>
