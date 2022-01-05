@@ -5,7 +5,7 @@ created_at: "2021-06-17T15:57:31.606Z"
 lastmod: "2021-11-12T12:47:20.965Z"
 date: "2021-06-17T15:57:31.606Z"
 title: About
-header: We are an idea foundry, knowledge-design lab, and production studio experimenting in the networked arts and humanities. We are located at Harvard University and the Freie Universität Berlin. metaLAB (at) Harvard opened in 2011; metaLAB (at) F.U. Berlin opened in 2022. The offices work together as well as independently.
+header: We are an idea foundry, knowledge-design lab, and production studio experimenting in the networked arts and humanities.
 layout: about
 slug: about
 
