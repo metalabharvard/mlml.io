@@ -87,7 +87,6 @@ a, button {
 
   &:hover, &:focus-visible {
     .icon {
-      // stroke: url("#icon-gradient");
       stroke: var(--color-gradient-a);
     }
   }
@@ -99,7 +98,7 @@ a, button {
 }
 
 .content {
-  p, ul {
+  p, ul, ol {
     @include text-default();
   }
 
@@ -124,6 +123,16 @@ a, button {
       }
     }
   }
+
+  ul, ol {
+    @include ul-list();
+  }
+
+  ol {
+    @include ol-list();
+  }
+
+  @include code-styling();
 
   blockquote {
     margin: var(--spacing-1) 0;
@@ -641,76 +650,18 @@ ul {
   }
 
   ul, ol {
-    margin-top: var(--spacing-05);
-    margin-bottom: var(--spacing-05);
-
-    li {
-      padding-left: var(--spacing-3);
-
-      @include query($narrow) {
-        padding-left: var(--spacing-2);
-      }
-
-      @include query($medium) {
-        padding-left: var(--spacing-1);
-      }
-      // margin-left: var(--spacing-1);
-
-      // padding: 0.2em $spacing 0.2em 1.6em;
-      position: relative;
-      // line-height: 1.5em;
-      display: block;
-
-      &:before {
-        content: "—";
-        @include gradient-text();
-        position: absolute;
-        left: 0;
-      }
-    }
+    @include ul-list();
   }
 
   ol {
-    counter-reset: counter;
-
-    li {
-      counter-increment: counter;
-
-      &:before {
-        content: counter(counter) ". ";
-        font-size: var(--font-size-s);
-        top: 3px;
-      }
-    }
+    @include ol-list();
   }
 
   p, ul, ol {
     @include text-default();
   }
 
-  pre, code {
-    font-size: var(--font-size-s);
-    font-weight: 400;
-    letter-spacing: .32px;
-    line-height: 1.33333;
-  }
-
-  p code {
-    background-color: var(--color-border);
-    border-radius: 2px;
-    color: var(--color-text);
-    display: inline;
-    padding: 0 var(--spacing-0125);
-  }
-
-  pre {
-    background-color: var(--color-bg-secondary);
-    color: var(--color-text-invert);
-    font-size: var(--font-size-s);
-    padding: var(--spacing-0125);
-    overflow-x: auto;
-    margin: var(--spacing-1) 0;
-  }
+  @include code-styling();
 
   blockquote {
     p {
