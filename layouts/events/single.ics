@@ -9,8 +9,8 @@ UID:{{ .Slug }}{{ dateFormat "20060102T030405Z" .Params.Lastmod }}@metalab
 DTSTAMP:{{ .Params.Start_time_utc }}
 DTSTART;TZID={{ .Params.Tzid }}:{{ .Params.Start_time_utc }}
 DTEND;TZID={{ .Params.Tzid }}:{{ .Params.End_time_utc }}
-SUMMARY:{{ plainify .Params.Title }}
-{{ with .Params.Intro }}DESCRIPTION:{{ plainify . }}{{ end }}
+SUMMARY:{{ plainify .Params.Title }}{{ with .Params.Subtitle }} – {{ . }}{{ end }}
+{{ with .Params.Intro }}DESCRIPTION:{{ plainify . }}{{ end }}{{ with .Params.ExternalLink }}\n\n{{ . }}{{ end }}
 URL:{{ .Permalink }}
 {{ with .Params.location }}LOCATION:{{ . }}{{ end }}
 DTSTAMP:{{ dateFormat "20060102T030405Z" .Params.Lastmod }}

@@ -9,7 +9,7 @@ import (
   "net/http"
   "os"
   "time"
-  "strings"
+  // "strings"
   "gopkg.in/yaml.v3"
   stru "api/structs"
   utils "api/utils"
@@ -40,42 +40,63 @@ func main() {
 
   locBerlin, _ := time.LoadLocation("Europe/Berlin")
   locBoston, _ := time.LoadLocation("America/New_York")
+  locUTC, _ := time.LoadLocation("Etc/GMT")
 
   for _, element := range responseObject {
     Lastmod = utils.GetLastmod(element.Updated_at, Lastmod)
 
     element.Title = utils.Trim(element.Title)
 
-    if len(element.Start_Time) > 1 {
-      s := element.Start_Time
-      e := element.Start_Time
-      hasEndTime := element.End_Time != ""
-      if hasEndTime {
-        e = element.End_Time
+    // println(element.Start_Date, element.Start_Date_Time, element.Slug)
+
+    if len(element.Start_Date) > 1 {
+      start_time := "12:00:00" // First, assume that we don’t have an START TIME
+      if len(element.Start_Date_Time) > 1 { // If we have an START TIME, use that instead
+        start_time = element.Start_Date_Time
       }
-      tzid := "UTC"
-      switch element.Timezone {
-      case "Berlin":
-        s = strings.Replace(s, "Z", "+02:00", 1)
-        e = strings.Replace(e, "Z", "+02:00", 1)
+      s := fmt.Sprintf("%sT%s", element.Start_Date, start_time) // Format date and time in correct form
+
+      end_date := element.Start_Date // First, let’s assume, we don’t have an END DATE
+      if len(element.End_Date) > 1 { // If we have an END DATE, use that instead
+        end_date = element.End_Date
+      }
+      end_time := start_time // First, let’s assume, we don’t have an END TIME
+      if len(element.End_Date_Time) > 1 { // If we have an END TIME, use that instead
+        end_time = element.End_Date_Time
+      }
+      e := fmt.Sprintf("%sT%s", end_date, end_time) // Format date and time in correct form
+
+      loc := locBoston
+      tzid := "America/New_York"
+      if element.Timezone == "Berlin" {
+        loc = locBerlin
         tzid = "Europe/Berlin"
-      case "Boston":
-        s = strings.Replace(s, "Z", "-04:00", 1)
-        e = strings.Replace(e, "Z", "-04:00", 1)
-        tzid = "America/Boston"
       }
-      ts, _ := time.Parse(time.RFC3339, s)
-      te, _ := time.Parse(time.RFC3339, e)
+
+      ts, _ := time.ParseInLocation("2006-01-02T15:04:05", s, loc)
+      te, _ := time.ParseInLocation("2006-01-02T15:04:05", e, loc)
+
+      if ts.After(te) || ts == te {
+        te = ts.Add(time.Hour * 1)
+      }
+
       // These are used for the iCal event
-      element.Start_TimeUTC = ts.Format("20060102T150405Z")
-      if hasEndTime {
-        element.End_TimeUTC = te.Format("20060102T150405Z")
-      } else {
-        // Because we need a end time for the iCal event, we just add one hour to the start time
-        element.End_TimeUTC = ts.Add(time.Hour * 1).Format("20060102T150405Z")
-      }
+      element.Start_TimeUTC = ts.In(locUTC).Format("20060102T150405Z")
+      element.End_TimeUTC = te.In(locUTC).Format("20060102T150405Z")
+      // if hasEndTime {
+      //   element.End_TimeUTC = te.Format("20060102T150405Z")
+      // } else {
+      //   // Because we need a end time for the iCal event, we just add one hour to the start time
+      //   element.End_TimeUTC = ts.Add(time.Hour * 1).Format("20060102T150405Z")
+      // }
       // These are used for the iCal event
       element.TimezoneID = tzid
+
+      element.Start_Date_Time = ""
+      element.End_Date_Time = ""
+
+      element.Start_Date = ""
+      element.End_Date = ""
 
       element.Start_Time = ts.Format(time.RFC3339)
       element.End_Time = te.Format(time.RFC3339)
@@ -91,7 +112,7 @@ func main() {
 
     element.Description = ""
 
-    element.Date = utils.CreateDate(element.Start_Time, element.End_Time, element.Published_at)
+    element.Date = utils.CreateDate(element.Start_Date, element.End_Date, element.Published_at)
     element.Lastmod = element.Updated_at
 
     element.Created_at = ""

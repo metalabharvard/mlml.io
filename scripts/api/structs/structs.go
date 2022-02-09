@@ -9,7 +9,11 @@ type ResponseEvents struct {
   // Time string `yaml:"time,omitempty"` // TODO: Delete this?
   Timezone string `yaml:"timezone,omitempty"`
   Start_Time string `yaml:"start_time,omitempty"` // This is used in the template to detect if start is present
+  Start_Date string `yaml:"start_date,omitempty"`
+  Start_Date_Time string `yaml:"start_date_time,omitempty"`
   End_Time string `yaml:"end_time,omitempty"`
+  End_Date string `yaml:"end_date,omitempty"`
+  End_Date_Time string `yaml:"end_date_time,omitempty"`
   Start_TimeUTC string `yaml:"start_time_utc,omitempty"` // Used for the iCal Event
   End_TimeUTC string `yaml:"end_time_utc,omitempty"` // Used for the iCal Event
   Start_TimeLocations Times `yaml:"start_time_locations,omitempty"` // This is used for the tabs
