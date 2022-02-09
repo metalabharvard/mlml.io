@@ -24,7 +24,7 @@ type Response struct {
   RoleString string `yaml:"role_string,omitempty"`
   Intro string `yaml:"intro,omitempty"`
   Twitter string `yaml:"twitter,omitempty"`
-  Mail string `yaml:"email,omitempty"`
+  Email string `yaml:"email,omitempty"`
   Website string `yaml:"website,omitempty"`
   Instagram string `yaml:"instagram,omitempty"`
   Youtube string `yaml:"youtube,omitempty"`
@@ -128,7 +128,7 @@ func main() {
     element.Picture.Formats.Large.Url = utils.ConvertToGrayscale(element.Picture.Formats.Large.Url)
 
     element.Name = utils.Trim(element.Name)
-    element.Mail = utils.Trim(element.Mail)
+    element.Email = utils.Trim(element.Email)
     element.Website = utils.Trim(element.Website)
     element.Instagram = utils.Trim(element.Instagram)
 
