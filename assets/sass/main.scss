@@ -83,13 +83,13 @@
 
 @include query($wide) {
   :root {
-    --header-height: 14vh;
+    --header-height: max(14vh, 150px);
   }
 }
 
 @include query($extra-wide) {
   :root {
-    --header-height: 15vh;
+    --header-height: max(15vh, 160px);
   }
 }
 

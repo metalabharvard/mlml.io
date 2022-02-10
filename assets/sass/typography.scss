@@ -75,7 +75,7 @@ a, button {
   }
 
   &:not(.preview-link):not(.feature-link):not(.isActive):not(.btn-tab):not(.btn) { // Fix
-    &:hover, &:focus-visible {
+    &:hover {
       @include gradient-text();
       text-decoration: none;
 
