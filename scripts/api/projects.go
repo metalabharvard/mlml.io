@@ -111,7 +111,7 @@ func main() {
 
     element.Collaborators = utils.CleanCollaborators(element.Collaborators)
     element.Links = utils.CleanLinks(element.Links)
-    element.PressArticles = utils.CleanPressArticles(element.PressArticles)
+    element.Press_Articles = utils.CleanPressArticles(element.Press_Articles)
     element.Funders = utils.CleanFunders(element.Funders)
 
     element.Host = utils.Trim(element.Host)

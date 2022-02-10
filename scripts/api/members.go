@@ -121,7 +121,8 @@ func main() {
     sort.Sort(stru.ProjectsByName(element.Projects))
     sort.Sort(stru.EventsByName(element.Events))
 
-    element.Picture.Url = utils.ConvertToGrayscale(element.Picture.Url)
+    // We convert all images to grayscale and also scale down the original image to max 2000 pixels
+    element.Picture.Url = utils.ImageMaxWidth(utils.ConvertToGrayscale(element.Picture.Url))
     element.Picture.Formats.Thumbnail.Url = utils.ConvertToGrayscale(element.Picture.Formats.Thumbnail.Url)
     element.Picture.Formats.Small.Url = utils.ConvertToGrayscale(element.Picture.Formats.Small.Url)
     element.Picture.Formats.Medium.Url = utils.ConvertToGrayscale(element.Picture.Formats.Medium.Url)

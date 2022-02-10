@@ -38,6 +38,7 @@ func main() {
   var responseObject []stru.ResponseEvents
   json.Unmarshal(responseData, &responseObject)
 
+  // https://go.dev/src/time/zoneinfo_abbrs_windows.go
   locBerlin, _ := time.LoadLocation("Europe/Berlin")
   locBoston, _ := time.LoadLocation("America/New_York")
   locUTC, _ := time.LoadLocation("Etc/GMT")
@@ -73,9 +74,12 @@ func main() {
         tzid = "Europe/Berlin"
       }
 
+      // https://pkg.go.dev/time
+      // https://pkg.go.dev/time#ParseInLocation
       ts, _ := time.ParseInLocation("2006-01-02T15:04:05", s, loc)
       te, _ := time.ParseInLocation("2006-01-02T15:04:05", e, loc)
 
+      // https://riptutorial.com/go/example/32577/comparing-time
       if ts.After(te) || ts == te {
         te = ts.Add(time.Hour * 1)
       }

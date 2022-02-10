@@ -67,7 +67,7 @@
     {{ end }}
     {{ partial "gallery.html" (dict "gallery" .Params.gallery "defaultLabel" .Site.Params.Label.AriaGeneralPicture "class" "project" "title" .Params.Title) }}
     {{ partial "related-list.html" (dict "items" .Params.Links "label" .Site.Params.Label.relatedLabelLinks "class" "links") }}
-    {{ partial "related-list.html" (dict "items" .Params.Press_articles "label" .Site.Params.Label.relatedLabelPressArticles "class" "article") }}
+    {{ partial "related-list.html" (dict "items" .Params.Press_articles "label" .Site.Params.Label.relatedLabelPressArticles "class" "articles") }}
     <footer class="project-footer grid-narrow-right" role="contentinfo">
       {{ partial "span-published.html" (dict "PublishDate" .PublishDate "Lastmod" .Lastmod "PublishText" .Site.Params.Label.pagePublishedText "EditText" .Site.Params.Label.pageEditedText "DateFormat" .Site.Params.Label.pagePublishedFormat) }}
     </footer>

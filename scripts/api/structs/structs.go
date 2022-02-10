@@ -72,7 +72,7 @@ type ResponseProjects struct {
   Date string `yaml:"date"`
   Slug string `yaml:"slug"`
   Collaborators []Collaborator `yaml:"collaborators,omitempty"`
-  PressArticles []PressArticle `yaml:"press_articles,omitempty"`
+  Press_Articles []PressArticle `yaml:"press_articles,omitempty"`
   Links []Link `yaml:"links,omitempty"`
   Events []Event `yaml:"events,omitempty"`
   Members []Member `yaml:"members,omitempty"`

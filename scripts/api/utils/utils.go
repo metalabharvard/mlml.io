@@ -16,6 +16,7 @@ func Trim(str string) string {
 }
 
 func GetMembersTwitter(members []stru.Member) []string {
+  // This is used in the header of the website. We create a list of all the Twitter handles
   var list []string
   for _, c := range members {
     if c.Twitter != "" {
@@ -26,9 +27,16 @@ func GetMembersTwitter(members []stru.Member) []string {
 }
 
 func ConvertToPreviewImage(url string) string {
+  // This is for the social media preview
   var str string = strings.Replace(url, "upload/", "upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/", 1)
+  // Preview images can only be static graphics
   str = strings.Replace(str, ".gif", ".jpg", 1)
   return str
+}
+
+func ImageMaxWidth(url string) string {
+  // We limit the width of the image to 2000 pixels in height and width
+  return strings.Replace(url, "upload/", "upload/c_limit,w_2000,h_2000/", 1)
 }
 
 func CropFeatureImage(url string) string {

@@ -123,3 +123,6 @@ resources
 # assets/js/svelte.js.map
 
 /public/
+/content/events/
+/content/members/
+/content/projects/

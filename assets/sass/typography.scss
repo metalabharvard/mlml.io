@@ -400,7 +400,7 @@ ul {
   font-size: var(--size-6);
 }
 
-.related-events, .related-projects, .related-members, .box-item, .related-links, .related-collaborators, .related-funders {
+.related-events, .related-projects, .related-members, .box-item, .related-links, .related-collaborators, .related-funders, .related-articles {
   line-height: 1;
 
   .title {
@@ -411,12 +411,12 @@ ul {
   }
 }
 
-.related-events-list, .related-projects-list, .related-members-list, .box-item .text, .related-links-list, .related-collaborators-list, .related-funders-list {
+.related-events-list, .related-projects-list, .related-members-list, .box-item .text, .related-links-list, .related-collaborators-list, .related-funders-list, .related-articles-list {
   font-size: var(--size-6);
   font-weight: $font-weight-medium;
   line-height: 1.6;
 
-  dd:not(.related-links) { // These are the lists at the top of an event or project
+  dd:not(.related-links):not(.related-articles) { // These are the lists at the top of an event or project
     display: inline;
 
     &::after {
@@ -436,7 +436,7 @@ ul {
     }
   }
 
-  dd.related-links { // These are the links at the end of an event or project
+  dd.related-links, dd.related-articles { // These are the links at the end of an event or project
     margin-bottom: var(--spacing-025);
     line-height: 1.2;
 
