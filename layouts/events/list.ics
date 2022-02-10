@@ -1,8 +1,15 @@
 BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:{{ .Site.Title }}
-METHOD:PUBLISH
 CALSCALE:GREGORIAN
+METHOD:PUBLISH
+PRODID:{{ .Site.Title }}
+VERSION:2.0
+CALSCALE:GREGORIAN
+SUMMARY:{{ .Site.Title }}
+URL:{{ "/" | absURL }}
+DESCRIPTION:{{ .Site.Title }}
+X-WR-CALNAME:{{ .Site.Title }} event calendar feed
+X-WR-CALDESC:{{ .Site.Params.description }}
+{{- range (((.Pages).ByParam "title").Reverse.ByParam "start_time").Reverse }}
 BEGIN:VEVENT
 CATEGORIES:{{ .Site.Title }}
 UID:{{ .Slug }}{{ dateFormat "20060102T030405Z" .Params.Lastmod }}@metalab
@@ -14,4 +21,5 @@ URL:{{ .Permalink }}
 {{ with .Params.location }}LOCATION:{{ . }}{{ end }}
 DTSTAMP:{{ dateFormat "20060102T030405Z" .Params.Lastmod }}
 END:VEVENT
+{{- end }}
 END:VCALENDAR

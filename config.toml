@@ -35,7 +35,7 @@ disableKinds = ["taxonomyTerm"]
 
 [outputs]
   home = ["HTML", "Content", "RSS", "Humans"]
-  section = ["HTML", "RSS"]
+  section = ["HTML", "RSS", "Calendar"]
 
 [sitemap]
   filename = "sitemap.xml"

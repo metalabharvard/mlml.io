@@ -63,6 +63,7 @@
         </div>
         <span class="footer-update">
           <span>{{ .Site.Params.Label.siteEditedText }} <time datetime="{{ now.Format "2006-01-02T15:04:05Z07:00" }}" title="{{ now.Format "Monday, 02 January 2006 15:04" }}">{{ now.Format (string .Site.Params.Label.siteEditedFormat)}}</time></span><br />
+          <span><a href="{{ "events.ics" | absURL }}">Event iCal feed</a></span><br />
           <span><a href="{{ "projects/index.xml" | absURL }}">{{ .Site.Params.Label.ProjectRSS }}</a></span><br />
           <span><a href="{{ "events/index.xml" | absURL }}">{{ .Site.Params.Label.EventRSS }}</a></span>
         </span>
