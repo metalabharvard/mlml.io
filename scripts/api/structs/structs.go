@@ -43,6 +43,7 @@ type ResponseEvents struct {
   Gallery []Picture `yaml:"gallery,omitempty"`
   YouTube string `yaml:"youtube,omitempty"`
   Vimeo string `yaml:"vimeo,omitempty"`
+  Press_Articles []PressArticle `yaml:"press_articles,omitempty"`
   Links []Link `yaml:"links,omitempty"`
   Topics []Topic `yaml:"topics,omitempty"`
   TopicIDs []string `yaml:"topicIDs,omitempty"`
