@@ -7,7 +7,7 @@
       {{ with .Params.Cover.url -}} "image": {{ . }},{{ end }}
       {{ with .Params.Intro }}"description": {{ plainify . }},{{ end }}
       "eventStatus": "https://schema.org/EventScheduled",
-      {{ with .Params.Start_time }}"startDate": {{ dateFormat "2006-01-02T03:04:05+01:00" . }}{{ end }}
+      {{ with .Params.Start_time }}"startDate": {{ dateFormat "2006-01-02T03:04:05+01:00" . }},{{ end }}
       {{ with .Params.End_time }}"endDate": {{ dateFormat "2006-01-02T03:04:05+01:00" . }},{{ end }}
       "organizer": [{{ range $i, $e := .Params.Members }}{{ if $i }}, {{ end }}{"@type": "Person","name": {{ $e.label }}}{{ end }}]
     }
