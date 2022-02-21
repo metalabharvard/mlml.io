@@ -20,6 +20,7 @@ type Response struct {
   Title string
   Roles []stru.Role `yaml:"roles,omitempty"`
   IsAlumnus bool `yaml:"isAlumnus"`
+  IsFounder bool `yaml:"isFounder"`
   Rank float64 `yaml:"rank,omitempty"`
   RoleString string `yaml:"role_string,omitempty"`
   Intro string `yaml:"intro,omitempty"`
@@ -67,6 +68,15 @@ func createRoleString(roles []stru.Role) string {
   return role
 }
 
+func isFounder(roles []stru.Role) bool {
+  for _, r := range roles {
+    if r.Role == "Founder" || r.Role == "Co-Founder FU Berlin" {
+      return true
+    }
+  }
+  return false
+}
+
 func main() {
   println("Requesting members")
   response, err := http.Get("https://metalab-strapi.herokuapp.com/members")
@@ -101,6 +111,8 @@ func main() {
     } else {
       element.RoleString = "Alumnus"
     }
+
+    element.IsFounder = isFounder(element.Roles)
     
     element.Name = utils.Trim(element.Name)
     element.Title = utils.Trim(element.Name)

@@ -10,6 +10,7 @@
 {{- with .Site.Social.youtube }}{{ $lists.Add "social" (printf `https://youtube.com/%s` .) }}{{ end -}}
 
 {{- $members := (((where (where $.Site.RegularPages "Section" "members") "Params.isalumnus" false).ByParam "Name").ByParam "start").ByParam "rank" -}}
+{{- $founder := (((where (where $.Site.RegularPages "Section" "members") "Params.isfounder" true).ByParam "Name").ByParam "start").ByParam "rank" -}}
 
 <script type="application/ld+json">
   {
@@ -19,6 +20,7 @@
     "description": {{ .Site.Params.description }},
     "url": {{ .Site.BaseURL }},
     "sameAs": [{{ range $i, $e := ($lists.Get "social") }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}],
+    "founder": [{{ range $i, $e := $founder }}{{ if $i }}, {{ end }}{"@type": "Person","name": {{ $e.Params.Name }}}{{ end }}],
     "members": [{{ range $i, $e := $members }}{{ if $i }}, {{ end }}{"@type": "Person","name": {{ $e.Params.Name }}}{{ end }}]
   }
 </script>
