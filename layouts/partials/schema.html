@@ -1,0 +1,24 @@
+{{- $lists := newScratch }}
+{{- $lists.Set "social" (slice) }}
+{{- with .Site.Social.facebook }}{{ $lists.Add "social" (printf `https://facebook.com/%s` .) }}{{ end }}
+{{- with .Site.Social.github }}{{ $lists.Add "social" (printf `https://github.com/%s` .) }}{{ end }}
+{{- with .Site.Social.instagram }}{{ $lists.Add "social" (printf `https://instagram.com/%s` .) }}{{ end }}
+{{- with .Site.Social.linkedin }}{{ $lists.Add "social" (printf `https://linkedin.com/%s` .) }}{{ end }}
+{{- with .Site.Social.soundcloud }}{{ $lists.Add "social" (printf `https://soundcloud.com/%s` .) }}{{ end }}
+{{- with .Site.Social.twitter }}{{ $lists.Add "social" (printf `https://twitter.com/%s` .) }}{{ end }}
+{{- with .Site.Social.vimeo }}{{ $lists.Add "social" (printf `https://vimeo.com/%s` .) }}{{ end }}
+{{- with .Site.Social.youtube }}{{ $lists.Add "social" (printf `https://youtube.com/%s` .) }}{{ end -}}
+
+{{- $members := (((where (where $.Site.RegularPages "Section" "members") "Params.isalumnus" false).ByParam "Name").ByParam "start").ByParam "rank" -}}
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": {{ .Site.Title }},
+    "description": {{ .Site.Params.description }},
+    "url": {{ .Site.BaseURL }},
+    "sameAs": [{{ range $i, $e := ($lists.Get "social") }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}],
+    "members": [{{ range $i, $e := $members }}{{ if $i }}, {{ end }}{"@type": "Person","name": {{ $e.Params.Name }}}{{ end }}]
+  }
+</script>

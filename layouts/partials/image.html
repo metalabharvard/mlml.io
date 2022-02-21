@@ -1,49 +1,49 @@
-{{ $original := .picture }}
-{{ $large := .picture.formats.large }}
-{{ $medium := .picture.formats.medium }}
-{{ $small := .picture.formats.small }}
-{{ $thumbnail := .picture.formats.thumbnail }}
-{{ $column := "(min(90vw, 1280px) - min(2vw, 30px) * 11) / 12" }}
-{{ $format := default "full" .format }}
+{{- $original := .picture }}
+{{- $large := .picture.formats.large }}
+{{- $medium := .picture.formats.medium }}
+{{- $small := .picture.formats.small }}
+{{- $thumbnail := .picture.formats.thumbnail }}
+{{- $column := "(min(90vw, 1280px) - min(2vw, 30px) * 11) / 12" }}
+{{- $format := default "full" .format }}
 
 {{/* This is the default: images that fill the full width */}}
-{{ $sizes := "calc(min(90vw, 1280px))" }}
+{{- $sizes := "calc(min(90vw, 1280px))" }}
 
 {{ if eq $format "wide" }}
 {{/* This is for images that are wide */}}
-{{ $sizes = printf `(min-width: 900px) calc(%s * 8),
+{{- $sizes = printf `(min-width: 900px) calc(%s * 8),
                     (min-width: 1200px) calc(%s * 10),
                     calc(min(90vw, 1280px))` $column $column }}
 
-{{ else if eq $format "gallery" }}
+{{- else if eq $format "gallery" }}
 {{/* This is for images that have a max height */}}
-{{ $maxHeight := default .picture.height .maxHeight }}
-{{ $maxCalcWidth := (mul (mul (div 1.0 .picture.height) $maxHeight) .picture.width) }}
-{{ $sizes = printf `(min-width: 900px) calc(min(%s * 8, %gpx)),
+{{- $maxHeight := default .picture.height .maxHeight }}
+{{- $maxCalcWidth := (mul (mul (div 1.0 .picture.height) $maxHeight) .picture.width) }}
+{{- $sizes = printf `(min-width: 900px) calc(min(%s * 8, %gpx)),
                     (min-width: 1200px) calc(min(%s * 10, %gpx)),
                     calc(min(90vw, 1280px))` $column $maxCalcWidth $column $maxCalcWidth }}
 
-{{ else if eq $format "memberPreview" }}
+{{- else if eq $format "memberPreview" }}
 {{/* This is for the preview images of the members */}}
-{{ $sizes = printf `(min-width: 900px) calc(min(%s * 2, 20vw)),
+{{- $sizes = printf `(min-width: 900px) calc(min(%s * 2, 20vw)),
                     (min-width: 1200px) calc(min(%s * 3, 20vw)),
                     calc(min(%s * 4, 20vw))` $column $column $column }}
 
-{{ else if eq $format "member" }}
+{{- else if eq $format "member" }}
 {{/* This is for the preview images of the members */}}
-{{ $sizes = printf `(min-width: 900px) 160px,
+{{- $sizes = printf `(min-width: 900px) 160px,
                     (min-width: 1200px) 120px,
                     80px` }}
 
-{{ else if eq $format "cover" }}
+{{- else if eq $format "cover" }}
 {{/* Hover image for events and projects */}}
-{{ $sizes = printf `calc(min(50vw, 400px))` }}
+{{- $sizes = printf `calc(min(50vw, 400px))` }}
 
-{{ end }}
+{{- end }}
 
-{{ if and .picture.width .picture.height }}
+{{- if and .picture.width .picture.height }}
 <picture class="photo {{ .class }}">
-  {{ if or (eq $original.mime "image/jpeg") (eq $original.mime "image/png") }}
+  {{- if or (eq $original.mime "image/jpeg") (eq $original.mime "image/png") }}
   <source
     type="image/webp"
     {{/* This lists all the different image resolutions */}}
@@ -59,7 +59,7 @@
       {{- $sizes -}}
     "
     />
-  {{ end }}
+  {{- end }}
   <source
     type="{{ $original.mime }}"
     {{/* This lists all the different image resolutions */}}
@@ -90,4 +90,4 @@
     height="{{ .picture.height }}px"
     width="{{ .picture.width }}px">
 </picture>
-{{ end }}
+{{- end }}
