@@ -1,4 +1,16 @@
 {{ define "main" }}
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": {{ .Params.Fulltitle }},
+      {{ with .Params.Intro }}"description": {{ plainify . }},{{ end }}
+      "eventStatus": "https://schema.org/EventScheduled",
+      {{ with .Params.Start_time }}"startDate": {{ dateFormat "2006-01-02T03:04:05+01:00" . }}{{ end }}
+      {{ with .Params.End_time }}"endDate": {{ dateFormat "2006-01-02T03:04:05+01:00" . }},{{ end }}
+      "organizer": [{{ range $i, $e := .Params.Members }}{{ if $i }}, {{ end }}{"@type": "Person","name": {{ $e.label }}}{{ end }}]
+    }
+  </script>
   <section class="homepage-event grid-full grid h-event" vocab="https://schema.org/" typeof="Event">
     <header class="event-header grid-wide">
       {{ with .Params.Start_time }}<span class="event-timeago timeago" datetime="{{ dateFormat "2006-01-02 03:04:05 UTC" . }}"></span>{{ end }}
