@@ -1,5 +1,30 @@
 {{ define "main" }}
   {{ $name := .Params.Name }}
+  {{- $lists := newScratch }}
+  {{- $lists.Set "social" (slice) }}
+  {{- with .Params.Facebook }}{{ $lists.Add "social" (printf `https://facebook.com/%s` .) }}{{ end }}
+  {{- with .Params.Github }}{{ $lists.Add "social" (printf `https://github.com/%s` .) }}{{ end }}
+  {{- with .Params.Instagram }}{{ $lists.Add "social" (printf `https://instagram.com/%s` .) }}{{ end }}
+  {{- with .Params.Linkedin }}{{ $lists.Add "social" (printf `https://linkedin.com/%s` .) }}{{ end }}
+  {{- with .Params.Soundcloud }}{{ $lists.Add "social" (printf `https://soundcloud.com/%s` .) }}{{ end }}
+  {{- with .Params.Twitter }}{{ $lists.Add "social" (printf `https://twitter.com/%s` .) }}{{ end }}
+  {{- with .Params.Vimeo }}{{ $lists.Add "social" (printf `https://vimeo.com/%s` .) }}{{ end }}
+  {{- with .Params.Youtube }}{{ $lists.Add "social" (printf `https://youtube.com/%s` .) }}{{ end -}}
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": {{ .Params.Name }},
+      {{ with .Params.picture.url -}} "image": {{.}},{{ end }}
+      "jobTitle": {{ if .Params.isAlumnus -}}{{- .Site.Params.Label.MemberAlumnus -}}{{- else -}}{{- .Params.Role_string -}}{{- end -}},
+      {{ with .Params.Website -}} "url": {{.}},{{ end }}
+      "sameAs": [{{ range $i, $e := ($lists.Get "social") }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}],
+      {{ if not .Params.isAlumnus -}}"worksFor": {
+        "@type": "Organization",
+        "name": {{ .Site.Title }}
+      }{{ end }}
+    }
+  </script>
   <section class="homepage-member grid-full grid vcard" itemscope itemtype="https://schema.org/Person">
     <header class="member-header grid-wide">
       <h1 class="member-name fn" itemprop="name">{{ .Params.Name }}</h1>
