@@ -19,7 +19,7 @@
       "jobTitle": {{ if .Params.isAlumnus -}}{{- .Site.Params.Label.MemberAlumnus -}}{{- else -}}{{- .Params.Role_string -}}{{- end -}},
       {{ with .Params.Website -}} "url": {{.}},{{ end }}
       "sameAs": [{{ range $i, $e := ($lists.Get "social") }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}],
-      {{ if not .Params.isAlumnus -}}"worksFor": {
+      {{ if not .Params.isAlumnus -}}"affiliation": {
         "@type": "Organization",
         "name": {{ .Site.Title }}
       }{{ end }}
