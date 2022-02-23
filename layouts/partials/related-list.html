@@ -1,12 +1,12 @@
-{{ $label := .label }}
-{{ $class := .class }}
-{{ with .items }}
-<dl {{ printf `class="related-%s grid-narrow-right"` ($class | pluralize) | safeHTMLAttr }}>
-  <dt class="title">{{ (cond (eq (len .) 1) ($label) ($label | pluralize) | title) }}</dt>
+{{- $label := .label }}
+{{- $class := .class }}
+{{- with .items }}
+<dl {{ printf `class="related-%s"` ($class | pluralize) | safeHTMLAttr }}>
+  <dt class="title">{{ (cond (or (eq (len .) 1) (eq $class "articles")) ($label) ($label | pluralize) | title) }}</dt>
   <div {{ printf `class="related-%s-list"` ($class | pluralize) | safeHTMLAttr }} role="list">
     {{ range sort . "label" }}
       {{ partial "list-item.html" (dict "url" .url "label" .label "class" $class) }}
     {{ end }}
   </div>
 </dl>
-{{ end }}
+{{- end }}

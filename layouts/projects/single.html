@@ -47,6 +47,8 @@
       {{ partial "related-collaborators.html" (dict "items" $funders "label" .Site.Params.Label.boxFunder "class" "funders") }}
       {{ partial "related-items.html" (dict "items" $projects "term" .Site.Params.Label.RelatedProjects "label" .Site.Params.Label.RelatedLabelProjects "class" "project") }}
       {{ partial "related-items.html" (dict "items" $events "term" .Site.Params.Label.RelatedEvents "label" .Site.Params.Label.RelatedLabelEvents "class" "event") }}
+      {{ partial "related-list.html" (dict "items" .Params.Links "label" .Site.Params.Label.relatedLabelLinks "class" "links") }}
+      {{ partial "related-list.html" (dict "items" .Params.Press_articles "label" .Site.Params.Label.relatedLabelPressArticles "class" "articles") }}
     </dl>
     {{ $defaultLabel := string (printf .Site.Params.Label.AriaGeneralPicture .Params.Title) }}
     {{ if not .Params.noHeaderImage }}
@@ -66,8 +68,6 @@
     </div>
     {{ end }}
     {{ partial "gallery.html" (dict "gallery" .Params.gallery "defaultLabel" .Site.Params.Label.AriaGeneralPicture "class" "project" "title" .Params.Title) }}
-    {{ partial "related-list.html" (dict "items" .Params.Links "label" .Site.Params.Label.relatedLabelLinks "class" "links") }}
-    {{ partial "related-list.html" (dict "items" .Params.Press_articles "label" .Site.Params.Label.relatedLabelPressArticles "class" "articles") }}
     <footer class="project-footer grid-narrow-right" role="contentinfo">
       {{ partial "span-published.html" (dict "PublishDate" .PublishDate "Lastmod" .Lastmod "PublishText" .Site.Params.Label.pagePublishedText "EditText" .Site.Params.Label.pageEditedText "DateFormat" .Site.Params.Label.pagePublishedFormat) }}
     </footer>

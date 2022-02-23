@@ -1,9 +1,9 @@
-{{ $term := .term }}
-{{ $label := .label }}
-{{ $class := .class }}
-{{ $root := .root }}
-{{ $path := cond (eq $class "member") "m" (cond (eq $class "event") "e" "p") }}
-{{ with .items }}
+{{ $term := .term }}{{/* This is something like »involved«, »related«. */}}
+{{- $label := .label }}{{/* This is something like »member«, »event«. It will be pluralized if not »press«. */}}
+{{- $class := .class }}{{/* This is something like »member«, »event«. */}}
+{{- $root := .root }}{{/* This is »project« or »event« to add Schema.org data */}}
+{{- $path := cond (eq $class "member") "m" (cond (eq $class "event") "e" "p") }}
+{{- with .items }}
 <div {{ printf `class="related-%s"` ($class | pluralize) | safeHTMLAttr }}>
   <dt class="title">{{ $term }} {{ cond (eq (len .) 1) ($label) ($label | pluralize) }}</dt>
   <div {{ printf `class="related-%s-list"` ($class | pluralize) | safeHTMLAttr }} role="list">
