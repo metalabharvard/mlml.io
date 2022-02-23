@@ -1,5 +1,6 @@
 {{ $name := .name }}
-{{ $title := string (printf .template $name) }}
+{{ $template := .template }}
 {{ with .mail -}}
+{{ $title := string (printf $template $name) }}
 {{ partial "cloakemail.html" (dict "address" . "display" true "title" $title) }}
 {{- end }}
