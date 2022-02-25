@@ -129,7 +129,7 @@ func main() {
 
     element.Topics = nil
 
-    element.Link = utils.Trim(element.Link)
+    element.Link = utils.FixExternalLink(utils.Trim(element.Link))
     element.Intro = utils.Trim(element.Intro)
 
     element.Projects = utils.CleanProjects(element.Projects)

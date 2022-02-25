@@ -142,7 +142,7 @@ func main() {
 
     element.Name = utils.Trim(element.Name)
     element.Email = utils.Trim(element.Email)
-    element.Website = utils.Trim(element.Website)
+    element.Website = utils.FixExternalLink(utils.Trim(element.Website))
     element.Instagram = utils.Trim(element.Instagram)
 
     file, _ := yaml.Marshal(element)

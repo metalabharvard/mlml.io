@@ -8,11 +8,29 @@ import (
   "time"
   "io/ioutil"
   "gopkg.in/yaml.v3"
+  "regexp"
   stru "api/structs"
 )
 
 func Trim(str string) string {
   return strings.TrimSpace(str)
+}
+
+func FixExternalLink(str string) string {
+  if str == "" {
+    return str
+  }
+  matched, _ := regexp.MatchString(`^ttp[s]*://`, str)
+  if matched {
+    println(fmt.Sprintf("»%s« is not correct (incorrect http). Trying to fix it.", str))
+    return fmt.Sprintf("h%s", str)
+  }
+  matched, _ = regexp.MatchString(`^http[s]*://`, str)
+  if !matched {
+    println(fmt.Sprintf("»%s« is not correct (missing http). Trying to fix it.", str))
+    return fmt.Sprintf("http://%s", str)
+  }
+  return str
 }
 
 func GetMembersTwitter(members []stru.Member) []string {
@@ -194,6 +212,7 @@ func CleanCollaborators(collaborators []stru.Collaborator) []stru.Collaborator {
     var label string = Trim(c.Label)
     var url string = Trim(c.Url)
     if !(label == "" && url == "") {
+      url = FixExternalLink(url)
       list = append(list, (stru.Collaborator{label, url}))
     }
   }
@@ -206,6 +225,7 @@ func CleanLinks(Links []stru.Link) []stru.Link {
     var label string = Trim(c.Label)
     var url string = Trim(c.Url)
     if !(label == "" && url == "") {
+      url = FixExternalLink(url)
       list = append(list, (stru.Link{label, url}))
     }
   }
@@ -218,6 +238,7 @@ func CleanPressArticles(PressArticles []stru.PressArticle) []stru.PressArticle {
     var label string = Trim(c.Label)
     var url string = Trim(c.Url)
     if !(label == "" && url == "") {
+      url = FixExternalLink(url)
       list = append(list, (stru.PressArticle{label, url}))
     }
   }
@@ -230,6 +251,7 @@ func CleanFunders(Funders []stru.Funder) []stru.Funder {
     var label string = Trim(c.Label)
     var url string = Trim(c.Url)
     if !(label == "" && url == "") {
+      url = FixExternalLink(url)
       list = append(list, (stru.Funder{label, url}))
     }
   }

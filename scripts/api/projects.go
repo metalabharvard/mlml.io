@@ -115,7 +115,7 @@ func main() {
     element.Funders = utils.CleanFunders(element.Funders)
 
     element.Host = utils.Trim(element.Host)
-    element.ExternalLink = utils.Trim(element.ExternalLink)
+    element.ExternalLink = utils.FixExternalLink(utils.Trim(element.ExternalLink))
 
     element.Projects = utils.CleanProjects(element.Projects)
     element.Events = utils.CleanEvents(element.Events)
