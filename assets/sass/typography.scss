@@ -416,7 +416,8 @@ ul {
   font-weight: $font-weight-medium;
   line-height: 1.6;
 
-  dd:not(.related-links):not(.related-articles) { // These are the lists at the top of an event or project
+  // dd:not(.related-links):not(.related-articles) { // These are the lists at the top of an event or project
+  dd { // These are the lists at the top of an event or project
     display: inline;
 
     &::after {

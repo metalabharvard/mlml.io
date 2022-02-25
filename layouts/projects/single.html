@@ -2,6 +2,7 @@
   <section class="homepage-project grid-full grid" vocab="https://schema.org/" typeof="CreativeWork">
     <header class="project-header grid-wide">
       <h1 class="project-name" property="name">{{ .Params.Title }}</h1>
+      {{ with .Params.Subtitle }}<h2 class="project-subtitle">{{ . }}</h2>{{ end }}
       {{ with .Params.Intro }}<span class="project-intro" itemprop="abstract">{{ . | markdownify }}</span>{{ end }}
       {{ $label := .Site.Params.Label.ExternalProject }}
       {{ with .Params.ExternalLink -}}
