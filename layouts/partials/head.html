@@ -1,8 +1,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>{{ if and .Title (not .IsHome) }}{{ .Title }} – {{ end }}{{ .Site.Title }}</title>
-  {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+  <title>{{ if .Params.Fulltitle }}{{ .Params.Fulltitle }} – {{ else if and .Title (not .IsHome) }}{{ .Title }} – {{ end }}{{ .Site.Title }}</title>
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ if .IsPage }}{{ .Summary | plainify | truncate 150 }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
   {{ with .Site.Params.keywords }}<meta name="keywords" content="{{ . }}">{{ end }}
   {{ if .Params.noindex -}}
   <meta name="robots" content="noindex" />

@@ -33,6 +33,13 @@ func FixExternalLink(str string) string {
   return str
 }
 
+func TruncateString(str string, length int) string {
+  if len(str) <= length {
+    return str
+  }
+  return str[0:length - 1] + "…"
+}
+
 func GetMembersTwitter(members []stru.Member) []string {
   // This is used in the header of the website. We create a list of all the Twitter handles
   var list []string
@@ -130,12 +137,11 @@ func CreateFulltitle(title string, subtitle string) string {
   }
 }
 
-func CreateDescription(subtitle string, intro string) string {
-  if subtitle == "" {
-    return intro
-  } else {
-    return subtitle
+func CreateDescription(intro string) string {
+  if intro == "" {
+    println("Intro is missing")
   }
+  return TruncateString(intro, 150)
 }
 
 func CreatePreviewImage(preview string, cover string) []string {

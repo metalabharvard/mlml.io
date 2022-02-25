@@ -148,8 +148,11 @@ func main() {
     element.Preview = stru.Picture{}
 
     element.Fulltitle = utils.CreateFulltitle(element.Title, element.Subtitle)
+    if element.Description == "" {
+      println(fmt.Sprintf("%s has missing intro", element.Title))
+    }
 
-    element.Description = utils.CreateDescription(element.Subtitle, element.Intro)
+    element.Description = utils.CreateDescription(element.Intro)
 
     file, _ := yaml.Marshal(element)
     utils.WriteToMarkdown(FOLDER, element.Slug, file, content)

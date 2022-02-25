@@ -138,7 +138,10 @@ func main() {
 
     element.Fulltitle = utils.CreateFulltitle(element.Title, element.Subtitle)
 
-    element.Description = utils.CreateDescription(element.Subtitle, element.Intro)
+    element.Description = utils.CreateDescription(element.Intro)
+    if element.Description == "" {
+      println(fmt.Sprintf("%s has missing intro", element.Title))
+    }
 
     if checkDates(element.Start, element.End) {
       println(fmt.Sprintf("%s has wrong dates", element.Title))
