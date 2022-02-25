@@ -40,8 +40,15 @@
   {{- else if eq .Section "alumni" -}}
   <link rel="index" href="{{ "members" | absURL }}">
   {{- end }}
-  <link rel="icon" href="{{ "favicon.svg" | absURL }}" type="image/svg+xml" />
-  <link rel="apple-touch-icon" href="{{ "apple-touch-icon.png" | absURL }}"/>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ "apple-touch-icon.png" | absURL }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ "favicon-32x32.png" | absURL }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ "favicon-16x16.png" | absURL }}">
+  <link rel="manifest" href="{{ "manifest.json" | absURL }}">
+  <link rel="mask-icon" href="{{ "safari-pinned-tab.svg" | absURL }}" color="#ff0000">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
   <link rel="canonical" href="{{ .Permalink }}" />
   <link rel="author" href="humans.txt">
 

@@ -32,9 +32,14 @@ disableKinds = ["taxonomyTerm"]
     notAlternative = true
   [outputFormats.HTML]
     noUgly = true
+  [outputFormats.manifest]
+    name = "manifest"
+    baseName = "manifest"
+    mediaType = "application/json"
+    notAlternative = "true"
 
 [outputs]
-  home = ["HTML", "Content", "RSS", "Humans"]
+  home = ["HTML", "Content", "RSS", "Humans", "Manifest"]
   section = ["HTML", "RSS", "Calendar"]
 
 [sitemap]

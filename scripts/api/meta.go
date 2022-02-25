@@ -102,6 +102,7 @@ type Params struct {
   Keywords string `json:"keywords,omitempty"`
   Label Label `json:"label"`
   Images []string `yaml:"images,omitempty"`
+  Logo string `json:"logo"`
   MaxNumberFeaturedProjects int `json:"maxNumberFeaturedProjects"`
 }
 
@@ -283,6 +284,7 @@ func main() {
 
   if responseObject.Preview.Url != "" {
     config.Params.Images = []string{utils.ConvertToPreviewImage(responseObject.Preview.Url)}
+    config.Params.Logo = utils.ConvertToLogo(responseObject.Preview.Url)
   }
 
   file, _ := json.MarshalIndent(config, "", " ")

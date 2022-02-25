@@ -18,6 +18,7 @@
     "@type": "Organization",
     "name": {{ .Site.Title }},
     "description": {{ .Site.Params.description }},
+    "logo": {{ .Site.Params.Logo }},
     "url": {{ .Site.BaseURL }},
     "sameAs": [{{ range $i, $e := ($lists.Get "social") }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}],
     "founder": [{{ range $i, $e := $founder }}{{ if $i }}, {{ end }}{"@type": "Person","name": {{ $e.Params.Name }}}{{ end }}],

@@ -59,6 +59,14 @@ func ConvertToPreviewImage(url string) string {
   return str
 }
 
+func ConvertToLogo(url string) string {
+  // This is for the Schema logo
+  var str string = strings.Replace(url, "upload/", "upload/ar_1:1,c_crop/", 1)
+  // Preview images can only be static graphics
+  str = strings.Replace(str, ".gif", ".jpg", 1)
+  return str
+}
+
 func ImageMaxWidth(url string) string {
   // We limit the width of the image to 2000 pixels in height and width
   return strings.Replace(url, "upload/", "upload/c_limit,w_2000,h_2000/", 1)
