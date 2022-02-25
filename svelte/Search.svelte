@@ -3,7 +3,7 @@
   import MiniSearch from 'minisearch';
   import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
   import trim from 'lodash/trim';
-  import uniq from 'lodash/uniq';
+  // import uniq from 'lodash/uniq';
   import get from 'lodash/get';
   import truncate from 'lodash/truncate';
 
@@ -13,7 +13,7 @@
   let resultsEvents = []; // Filtered items
   let resultsProjects = []; // Filtered items
   let hasTerm = false;
-  let pageHeader;
+  // let pageHeader;
   let isOpen = false;
   let tabIndex = 0;
   let isSearchBusy = false;
@@ -47,7 +47,7 @@
     searchOptions
   });
 
-  $: resultsTotalLength = resultsMembers.length + resultsEvents.length + resultsProjects.length
+  // $: resultsTotalLength = resultsMembers.length + resultsEvents.length + resultsProjects.length
 
   $: resultsTotal = [
     ['project', resultsProjects, 'Projects', 'label', 'subtitle', 'dateString', 0, 'p'],
@@ -55,7 +55,7 @@
     ['member', resultsMembers, 'Members', 'label', 'role', false, resultsProjects.length + resultsEvents.length, 'm']
   ]
 
-  $: hasAnyResults = resultsTotal.some(([key, results]) => results.length)
+  $: hasAnyResults = resultsTotal.some(([_, results]) => results.length)
 
   function handleInput () {
     isSearchBusy = true;
@@ -103,14 +103,14 @@
   }
 
   function handleKeyDown (event) {
-    const { key, target } = event;
+    const { key } = event;
     if (key === 'Escape') {
       closeSearch();
     }
   }
 
   function handleKeyDownInput (event) {
-    const { key, target, keyCode } = event;
+    const { key, keyCode } = event;
     if (trim(input.value)) {
       if (keyCode === 40) {
         document.getElementById(`result-index-${tabIndex}`).focus();
