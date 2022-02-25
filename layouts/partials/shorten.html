@@ -1,0 +1,5 @@
+{{- if len (findRE "(\\s)" .Text) -}}
+{{- .Text -}}
+{{- else -}}
+{{- (replaceRE "http[s]*://[www.]*" "" .Text) | truncate 30 "…" -}}
+{{- end -}}

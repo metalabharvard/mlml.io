@@ -1,9 +1,9 @@
 <dd class="related-link {{ with .class }}related-{{ . }}{{ end }}" role="listitem" {{ if eq .class "collaborator" }}itemprop="contributor"{{ end }}>
   {{- if and .url .label -}}
-  <a href="{{ .url }}" rel="noopener noreferrer external" target="_blank">{{ .label }}</a>
+  <a href="{{ .url }}" rel="noopener noreferrer external" target="_blank">{{ partial "shorten.html" (dict "Text" .label) }}</a>
   {{- else if .label -}}
-  <span>{{ .label }}</span>
+  <span>{{ partial "shorten.html" (dict "Text" .label) }}</span>
   {{- else -}}
-  <a href="{{ .url }}" rel="noopener noreferrer external" target="_blank">{{ .url }}</a>
+  <a href="{{ .url }}" rel="noopener noreferrer external" target="_blank">{{ partial "shorten.html" (dict "Text" .url) }}</a>
   {{- end -}}
 </dd>
