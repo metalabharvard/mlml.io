@@ -63,6 +63,7 @@
     {{ $members := .Params.Members }}
     {{ $projects := .Params.Projects }}
     {{ $collaborators := .Params.Collaborators }}
+    {{ $funders := .Params.Funders }}
     {{ if or (isset .Params "events") (isset .Params "members") (isset .Params "projects") (isset .Params "collaborators") (isset .Params "category") (isset .Params "location") }}
     <dl class="event-relations grid-wide grid grid-v-default half">
       {{ $title := .Site.Params.Label.BoxType }}
@@ -81,6 +82,7 @@
       {{ end }}
       {{ partial "related-items.html" (dict "items" $members "term" .Site.Params.Label.RelatedMembers "label" .Site.Params.Label.RelatedLabelMembers "class" "member" "root" "event") }}
       {{ partial "related-collaborators.html" (dict "items" $collaborators "label" .Site.Params.Label.boxCollaborator "class" "collaborator") }}
+      {{ partial "related-collaborators.html" (dict "items" $funders "label" .Site.Params.Label.boxFunder "class" "funders") }}
       {{ partial "related-items.html" (dict "items" $projects "term" .Site.Params.Label.RelatedProjects "label" .Site.Params.Label.RelatedLabelProjects "class" "project") }}
       {{ partial "related-items.html" (dict "items" $events "term" .Site.Params.Label.RelatedEvents "label" .Site.Params.Label.RelatedLabelEvents "class" "event") }}
       {{ partial "related-list.html" (dict "items" .Params.Links "label" .Site.Params.Label.relatedLabelLinks "class" "links") }}

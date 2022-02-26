@@ -136,6 +136,11 @@ func main() {
     element.Events = utils.CleanEvents(element.Events)
     element.Members = utils.CleanMembers(element.Members)
 
+    element.Collaborators = utils.CleanCollaborators(element.Collaborators)
+    element.Links = utils.CleanLinks(element.Links)
+    element.Press_Articles = utils.CleanPressArticles(element.Press_Articles)
+    element.Funders = utils.CleanFunders(element.Funders)
+
     sort.Sort(stru.MembersByName(element.Members))
     sort.Sort(stru.ProjectsByName(element.Projects))
     sort.Sort(stru.EventsByName(element.Events))

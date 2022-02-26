@@ -44,6 +44,8 @@ type ResponseEvents struct {
   YouTube string `yaml:"youtube,omitempty"`
   Vimeo string `yaml:"vimeo,omitempty"`
   Press_Articles []PressArticle `yaml:"press_articles,omitempty"`
+  Collaborators []Collaborator `yaml:"collaborators,omitempty"`
+  Funders []Funder `yaml:"funders,omitempty"`
   Links []Link `yaml:"links,omitempty"`
   Topics []Topic `yaml:"topics,omitempty"`
   TopicIDs []string `yaml:"topicIDs,omitempty"`
