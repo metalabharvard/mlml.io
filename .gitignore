@@ -119,8 +119,10 @@ build
 resources
 
 # Svelte
-# assets/js/svelte.js
-# assets/js/svelte.js.map
+assets/js/svelte.js
+assets/js/svelte.js.map
+
+config/config.json
 
 /public/
 /content/events/
