@@ -126,3 +126,5 @@ resources
 /content/events/
 /content/members/
 /content/projects/
+
+/blc/node_modules
