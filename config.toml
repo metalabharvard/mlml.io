@@ -44,3 +44,7 @@ disableKinds = ["taxonomyTerm"]
 
 [sitemap]
   filename = "sitemap.xml"
+
+[markup]
+  [markup.highlight]
+    style = "emacs"
