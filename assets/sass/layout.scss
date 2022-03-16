@@ -139,7 +139,9 @@ picture img {
   @include query($medium) {
     border-bottom: 0;
     width: 100vw;
-    grid-template-columns: 1fr calc(var(--size-column) * 8 + var(--size-gap) * 7) 1fr;
+    --nav-width: calc(var(--size-column) * 8 + var(--size-gap) * 7);
+    grid-template-columns: 1fr var(--nav-width) 1fr;
+    max-height: calc(var(--nav-width) / 4);
   }
 
   @media print {
@@ -196,6 +198,7 @@ picture img {
 
       .logo {
         height: calc(var(--header-height) * 0.7);
+        max-height: 140px;
         // margin-left: calc(var(--header-height) * 0.2);
       }
     }
@@ -210,7 +213,8 @@ picture img {
         text-align: left;
 
         .logo {
-          height: calc(var(--header-height) * 0.6);
+          // height: calc(var(--header-height) * 0.6);
+          height: 50%;
           margin-left: calc(var(--header-height) * 0.2);
         }
       }
