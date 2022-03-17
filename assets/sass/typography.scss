@@ -467,6 +467,13 @@ ul {
     
     .project-title, .project-details {
       color: var(--color-fg);
+      transition: color var(--transition);
+    }
+
+    &:hover {
+      .project-title, .project-details {
+        color: var(--color-gradient-a);
+      }
     }
   }
 
