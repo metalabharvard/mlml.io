@@ -1,5 +1,5 @@
 import { renderTimeAgoTags, enableEventTabs } from './event.js';
-import { animateLogo, enableSidebar } from './header.js';
+import { enableSidebar, animateMenu } from './header.js';
 import { enableProjectGallery, enableProjectHoverPreview } from './project.js';
 
 renderTimeAgoTags();
@@ -8,3 +8,4 @@ enableEventTabs();
 enableProjectGallery();
 enableProjectHoverPreview();
 enableSidebar();
+animateMenu();

@@ -68,8 +68,10 @@
 a, button {
   color: var(--color-text);
   text-decoration: underline;
+  transition: color var(--transition);
 
   .icon {
+    transition: stroke var(--transition);
     fill: none;
     stroke: var(--color-text);
   }
@@ -163,6 +165,11 @@ ul {
   position: relative;
   padding: var(--spacing-1);
 
+  min-width: 170px;
+  display: flex;
+  justify-content: flex-end;
+  // width: 100%;
+
   &::before {
     position: absolute;
     content: '';
@@ -171,11 +178,13 @@ ul {
     height: 100%;
     top: 0;
     left: 0;
-    border: var(--gradient-border-width-secondary) solid;
-    border-image-slice: 1;
-    border-width: var(--gradient-border-width-secondary);
+    // border: var(--gradient-border-width-secondary) solid;
+    border: var(--gradient-border-width-secondary) solid var(--color-gradient-a);
+    transition: border-color var(--transition);
+    // border-image-slice: 1;
+    // border-width: var(--gradient-border-width-secondary);
     z-index: $z-index-about-header;
-    border-image-source: linear-gradient(90deg, var(--color-gradient-a) 0%, var(--color-gradient-o) 100%); // TODO
+    // border-image-source: linear-gradient(90deg, var(--color-gradient-a) 0%, var(--color-gradient-o) 100%); // TODO
   }
 
   span {
@@ -183,9 +192,11 @@ ul {
     text-align: right;
     display: flex;
     align-items: center;
+    display: block;
+    width: 100%;
 
     @include query($medium) {
-      transform: translate(25%, 30%);
+      transform: translate(15px, 30%);
       background-color: var(--color-bg);
       padding: 5px;
     }
@@ -196,12 +207,15 @@ ul {
   }
 
   @include query($medium) {
-    padding: var(--spacing-05) 0 var(--spacing-05) var(--spacing-2);
+    padding: var(--spacing-05) 0 var(--spacing-05) 0;
   }
 
   &:hover, &:focus {
+    color: var(--color-gradient-a);
+
     &::before {
-      border-image-source: linear-gradient(90deg, var(--color-fg) 0%, var(--color-fg) 100%); // TODO
+      // border-image-source: linear-gradient(90deg, var(--color-fg) 0%, var(--color-fg) 100%); // TODO
+      border-color: var(--color-text);
     }
   }
 }

@@ -410,6 +410,11 @@ picture img {
         &:not(.social) a {
           border-bottom: 1px solid var(--color-border);
 
+          // &:hover {
+          //   background-color: var(--color-gradient-a);
+          //   color: #fff;
+          // }
+
           @include query($medium) {
             border-right: 1px solid var(--color-border);
           }
@@ -463,9 +468,10 @@ picture img {
     }
   }
 
-  .page-logo a, .page-menu-items *:not(.header) a {
+  .page-menu-items *:not(.header) a {
     position: relative;
     background-color: var(--color-bg);
+    transition: color var(--transition), background-color var(--transition), border-bottom-color var(--transition), border-right-color var(--transition);
 
     &.isActive:not(.logo) {
       color: var(--color-text-invert);
@@ -474,8 +480,12 @@ picture img {
       border-bottom: 1px solid var(--color-bg-secondary) !important;
     }
 
-    &:not(.isActive):hover {
-      @include gradient-text();
+    &:not(.isActive):not(.logo):hover {
+      // @include gradient-text();
+      color: #fff !important;
+      background-color: var(--color-gradient-a);
+      border-bottom-color: var(--color-gradient-a) !important;
+      border-right-color: var(--color-gradient-a) !important;
     }
   }
 

@@ -12,10 +12,10 @@
         <nav class="page-menu-list" id="page-menu-list">
           <ul class="page-menu-items">
             <li class="header until-medium"><a href="{{ "/" | absURL }}" {{ if .IsHome }}class="isActive" aria-current="page"{{ end }} aria-label="Home"><div>{{- partial "logo-simple.html" (dict "class" "logo" "title" .Site.Title) -}}</div></a></li>
-            <li><a href="{{ "projects" | absURL }}" {{ if or (eq .Section "projects") (eq .Section "host") }}class="isActive"{{ end }}{{ if eq .RelPermalink "/projects/" }}aria-current="page"{{ end }}><span>Projects</span></a></li>
-            <li><a href="{{ "events" | absURL }}" {{ if eq .Section "events" }}class="isActive"{{ end }}{{ if eq .RelPermalink "/events/" }}aria-current="page"{{ end }}><span>Events</span></a></li>
-            <li><a href="{{ "members" | absURL }}" {{ if or (eq .Section "members") (eq .Section "alumni") }}class="isActive"{{ end }}{{ if or (eq .RelPermalink "/members/") (eq .RelPermalink "/alumni/") }}aria-current="page"{{ end }}><span>Members</span></a></li>
-            <li><a href="{{ "about" | absURL }}" {{ if eq .RelPermalink "/about/" }}class="isActive" aria-current="page"{{ end }}><span>About</span></a></li>
+            <li class="text-animate"><a href="{{ "projects" | absURL }}" {{ if or (eq .Section "projects") (eq .Section "host") }}class="isActive"{{ end }}{{ if eq .RelPermalink "/projects/" }}aria-current="page"{{ end }}><span>Projects</span></a></li>
+            <li class="text-animate"><a href="{{ "events" | absURL }}" {{ if eq .Section "events" }}class="isActive"{{ end }}{{ if eq .RelPermalink "/events/" }}aria-current="page"{{ end }}><span>Events</span></a></li>
+            <li class="text-animate"><a href="{{ "members" | absURL }}" {{ if or (eq .Section "members") (eq .Section "alumni") }}class="isActive"{{ end }}{{ if or (eq .RelPermalink "/members/") (eq .RelPermalink "/alumni/") }}aria-current="page"{{ end }}><span>Members</span></a></li>
+            <li class="text-animate"><a href="{{ "about" | absURL }}" {{ if eq .RelPermalink "/about/" }}class="isActive" aria-current="page"{{ end }}><span>About</span></a></li>
             <li class="social until-medium">{{ partial "footer-social.html" . }}</li>
           </ul>
         </nav>
