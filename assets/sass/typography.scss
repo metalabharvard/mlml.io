@@ -508,6 +508,43 @@ ul {
   }
 }
 
+.homepage-projects-list {
+  h1 {
+    margin-bottom: var(--spacing-1);
+  }
+}
+
+.pagination {
+  font-size: var(--size-5);
+  line-height: 1.05;
+  font-family: $font-family-default;
+
+  a {
+    text-decoration: none;
+  }
+
+  span {
+    font-size: var(--size-6);
+    margin: var(--spacing-05);
+  }
+
+  svg {
+    height: var(--size-5);
+    margin-top: 12%;
+  }
+
+  li.disabled a {
+    opacity: 0.6;
+    color: var(--color-mute);
+    pointer-events: none;
+  }
+
+  li.active a {
+    color: var(--color-gradient-a);
+  }
+  // font-weight: $font-weight-bold;
+}
+
 .project-preview, .event-preview {
   a {
     text-decoration: none;

@@ -36,7 +36,7 @@
               id="panel-boston"
               tabindex="0"
               aria-labelledby="tab-boston">
-              {{ partial "span-eventspan.html" (dict "start" .Params.Start_time_locations.Boston "end" .Params.End_time_locations.Boston "tz" .Site.Params.Label.timezoneBostonAbbr) }}
+              {{ partial "span-eventspan.html" (dict "start" .Params.Start_time_locations.Boston "end" .Params.End_time_locations.Boston "tz" .Site.Params.Label.timezoneBostonAbbr "lang" "en") }}
             </span>
             <span
               class="event-time"
@@ -45,7 +45,7 @@
               tabindex="-1"
               aria-labelledby="tab-berlin"
               hidden>
-              {{ partial "span-eventspan.html" (dict "start" .Params.Start_time_locations.Berlin "end" .Params.End_time_locations.Berlin "tz" .Site.Params.Label.timezoneBerlinAbbr) }}
+              {{ partial "span-eventspan.html" (dict "start" .Params.Start_time_locations.Berlin "end" .Params.End_time_locations.Berlin "tz" .Site.Params.Label.timezoneBerlinAbbr "lang" "de") }}
             </span>
           </div>
         </div>

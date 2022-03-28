@@ -40,9 +40,9 @@ picture img {
   grid-template-columns: repeat(var(--columns), 1fr);
   grid-column-gap: var(--size-gap);
 
-  & > .homepage-projects-list, & > .homepage-events-list {
-    overflow-x: hidden; // The titles might be wider than the content, so we cut it off. This might happen when words are too long.
-  }
+  // & > .homepage-projects-list, & > .homepage-events-list {
+  //   overflow-x: hidden; // The titles might be wider than the content, so we cut it off. This might happen when words are too long.
+  // }
 
   &.grid-v-default {
     grid-row-gap: var(--spacing-2);
@@ -631,6 +631,19 @@ picture img {
   }
 }
 
+.homepage-projects-list, .homepage-events-list {
+  .pagination {
+    margin-top: var(--spacing-4);
+    display: flex;
+    justify-content: center;
+    column-gap: var(--spacing-2);
+
+    @include query($medium) {
+      column-gap: var(--spacing-1);
+    }
+  }
+}
+
 .project-preview, .event-preview {
   &:not(:last-child) {
     border-bottom: 1px solid var(--color-border);
@@ -975,6 +988,10 @@ picture, img {
 
   .project-share {
     @include share-buttons();
+
+    @media print {
+      display: none;
+    }
   }
 }
 
@@ -1055,6 +1072,10 @@ picture, img {
 
   .event-share {
     @include share-buttons();
+
+    @media print {
+      display: none;
+    }
   }
 }
 
@@ -1063,6 +1084,10 @@ picture, img {
   border-bottom: 1px solid var(--color-border);
   padding-top: var(--spacing-2);
   padding-bottom: var(--spacing-2);
+
+  @media print {
+    border: none;
+  }
 
   @include query($narrow) {
     padding-top: var(--spacing-1);
@@ -1226,7 +1251,7 @@ picture, img {
     svg {
       height: calc(var(--size-6) * 1.2);
 
-      polyline {
+      polyline, line {
         stroke-width: 2px;
         vector-effect: non-scaling-stroke;
       }
