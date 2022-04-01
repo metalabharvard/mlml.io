@@ -38,6 +38,12 @@ projects:
 
 fetch: about events members meta projects
 
+links:
+	cd blc; node blc.js
+
+buildLinks:
+	cd blc; ncc build blc.js -o bin -m
+
 build:
 	cd $(p); $(t)/about
 	cd $(p); $(t)/events

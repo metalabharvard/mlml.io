@@ -8,7 +8,7 @@ let countLinks = 0;
 const URL = 'https://mlml.io';
 
 const siteChecker = new SiteChecker({
-	excludedKeywords: ['//res.cloudinary.com/', '//linkedin.com/', 'instagram.com', 'performap.com']
+	excludedKeywords: ['res.cloudinary.com', 'linkedin.com', 'instagram.com', 'performap.com', 'magdaromanska.com', 'thetheatretimes.com', 'bloomsbury.com', 'harvardmagazine.com']
 }, {
 	error: (error) => {
   	console.log('error', { error })
