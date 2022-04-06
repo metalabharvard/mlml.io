@@ -2,7 +2,7 @@
   <section class="homepage-events-list grid-wide">
     <ul role="list">
     {{ $defaultLabel := .Site.Params.Label.AriaGeneralPicture }}
-    {{ range (.Paginate ((((.Pages).ByParam "title").Reverse.ByParam "start_time").Reverse)).Pages }}
+    {{ range (.Paginate ((((.Pages).ByParam "title").Reverse.ByParam "date").Reverse)).Pages }}
       {{ partial "event-preview.html" (dict "event" . "defaultHost" .Site.Params.Label.HostsDefault "defaultCategory" .Site.Params.Label.DefaultEventCategory "defaultLabel" $defaultLabel)}}
     {{ end }}
     </ul>

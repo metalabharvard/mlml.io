@@ -2,7 +2,7 @@
   <section class="homepage-projects-list grid-wide">
     <ul role="list">
     {{ $defaultLabel := .Site.Params.Label.AriaGeneralPicture }}
-    {{ range (.Paginate ((((.Pages).ByParam "title").Reverse.ByParam "start").Reverse)).Pages }}
+    {{ range (.Paginate ((((.Pages).ByParam "title").Reverse.ByParam "date").Reverse)).Pages }}
       {{ partial "project-preview.html" (dict "project" . "defaultHost" .Site.Params.Label.HostsDefault "defaultMediation" .Site.Params.Label.DefaultMediation "defaultLabel" $defaultLabel "both" .Site.Params.Label.HostsBoth)}}
     {{ end }}
     </ul>

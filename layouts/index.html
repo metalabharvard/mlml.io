@@ -5,7 +5,7 @@
   </div>
   <div class="grid-full home-features">
     <ul>
-    {{ range first .Site.Params.maxNumberFeaturedProjects (((where (where .Site.RegularPages "Section" "in" (slice "projects")) "Params.isfeatured" true).ByParam "start").ByParam "title") }}
+    {{ range first .Site.Params.maxNumberFeaturedProjects (((where (where .Site.RegularPages "Section" "in" (slice "projects")) "Params.isfeatured" true).ByParam "date")).Reverse }}
       {{ partial "project-feature.html" (dict "project" . "type" "project" "imageLabelTemplate" .Site.Params.Label.AriaGeneralPicture)}}
     {{ end }}
     </ul>

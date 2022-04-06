@@ -189,10 +189,10 @@ func CreateFeatureImage(cover stru.Picture, header stru.Picture, preview stru.Pi
 // We need to Date property for sorting
 // We use the start date if present, then the end date if present or the published date
 func CreateDate(start string, end string, published string) string {
-  if len(start) > 1 {
-    return start
-  } else if len(end) > 1 {
+  if len(end) > 1 {
     return end
+  } else if len(start) > 1 {
+    return start
   } else {
     return published
   }
