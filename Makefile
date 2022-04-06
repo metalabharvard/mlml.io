@@ -50,4 +50,4 @@ build:
 	cd $(p); $(t)/members
 	cd $(p); $(t)/meta
 	cd $(p); $(t)/projects
-	hugo --gc --config config/config.json,config.toml --ignoreCache
+	hugo --config config/config.json,config.toml --ignoreCache

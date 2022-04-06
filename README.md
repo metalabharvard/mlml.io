@@ -5,6 +5,8 @@
 npm run dev
 ```
 
+This runs Hugo and Svelte simultaneously via `npm-run-all`. In contrast, we prerender Svelte via `make precompile` so that Netlify only needs to compile Hugo.
+
 ## Fetch data
 ### Fetch individual endpoints
 ```bash
@@ -24,3 +26,8 @@ make fetch
 ```bash
 make precompile
 ```
+
+This precompiles Svelte and the Go files.
+
+## Netlify
+Configuration for Netlify is in `netlify.toml`. It uses the `Makefile` to run `make build`.

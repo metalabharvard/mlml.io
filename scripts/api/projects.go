@@ -99,6 +99,7 @@ func main() {
 
     element.Description = ""
 
+    // We need to Date property for sorting
     element.Date = utils.CreateDate(element.Start, element.End, element.Published_at)
     element.Lastmod = element.Updated_at
 
