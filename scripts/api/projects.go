@@ -115,6 +115,9 @@ func main() {
     element.Press_Articles = utils.CleanPressArticles(element.Press_Articles)
     element.Funders = utils.CleanFunders(element.Funders)
 
+    element.AliasesClean = utils.CleanAliases(element.Aliases)
+    element.Aliases = nil
+
     element.Host = utils.Trim(element.Host)
     element.ExternalLink = utils.FixExternalLink(utils.Trim(element.ExternalLink))
 

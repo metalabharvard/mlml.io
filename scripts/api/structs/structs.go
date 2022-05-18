@@ -51,6 +51,8 @@ type ResponseEvents struct {
   TopicIDs []string `yaml:"topicIDs,omitempty"`
   MembersTwitter []string `yaml:"members_twitter,omitempty"`
   Images []string `yaml:"images,omitempty"`
+  Aliases []Aliases `yaml:"aliasesDict,omitempty"`
+  AliasesClean []string `yaml:"aliases,omitempty"`
 }
 
 type ResponseProjects struct {
@@ -90,6 +92,8 @@ type ResponseProjects struct {
   Funders []Funder `yaml:"funders,omitempty"`
   MembersTwitter []string `yaml:"members_twitter,omitempty"`
   Images []string `yaml:"images,omitempty"`
+  Aliases []Aliases `yaml:"aliasesDict,omitempty"`
+  AliasesClean []string `yaml:"aliases,omitempty"`
 }
 
 type Format struct {
@@ -170,6 +174,10 @@ type PressArticle struct {
 type Role struct {
   Role string `yaml:"role"`
   Position int `yaml:"position"`
+}
+
+type Aliases struct {
+  Aliases string `yaml:"aliases"`
 }
 
 type ByRole []Role

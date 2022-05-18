@@ -42,6 +42,8 @@ type Response struct {
   Events []stru.Event `yaml:"events,omitempty"`
   Projects []stru.Project `yaml:"projects,omitempty"`
   Picture stru.Picture `yaml:"picture,omitempty"`
+  Aliases []stru.Aliases `yaml:"aliasesDict,omitempty"`
+  AliasesClean []string `yaml:"aliases,omitempty"`
 }
 
 func calculateRoleRank(roles []stru.Role) float64 {
@@ -129,6 +131,11 @@ func main() {
 
     element.Projects = utils.CleanProjects(element.Projects)
     element.Events = utils.CleanEvents(element.Events)
+
+    println(element.Aliases)
+
+    element.AliasesClean = utils.CleanAliases(element.Aliases)
+    element.Aliases = nil
 
     sort.Sort(stru.ProjectsByName(element.Projects))
     sort.Sort(stru.EventsByName(element.Events))

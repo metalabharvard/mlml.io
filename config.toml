@@ -1,5 +1,4 @@
 languageCode = "en-us"
-uglyURLs = true
 theme = ["hugo-cloak-email"]
 disableKinds = ["taxonomyTerm"]
 buildFuture = true

@@ -130,6 +130,9 @@ func main() {
 
     element.Topics = nil
 
+    element.AliasesClean = utils.CleanAliases(element.Aliases)
+    element.Aliases = nil
+
     element.Link = utils.FixExternalLink(utils.Trim(element.Link))
     element.Intro = utils.Trim(element.Intro)
 

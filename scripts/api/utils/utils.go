@@ -206,6 +206,14 @@ func CleanEvents(events []stru.Event) []stru.Event {
   return list
 }
 
+func CleanAliases(aliases []stru.Aliases) []string {
+  var list []string
+  for _, c := range aliases {
+    list = append(list, Trim(c.Aliases))
+  }
+  return list
+}
+
 func CleanProjects(projects []stru.Project) []stru.Project {
   var list []stru.Project
   for _, c := range projects {
