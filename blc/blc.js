@@ -8,7 +8,7 @@ let countLinks = 0;
 const URL = 'https://mlml.io';
 
 const siteChecker = new SiteChecker({
-	excludedKeywords: ['res.cloudinary.com', 'linkedin.com', 'instagram.com', 'performap.com', 'magdaromanska.com', 'thetheatretimes.com', 'bloomsbury.com', 'harvardmagazine.com']
+	excludedKeywords: ['res.cloudinary.com', 'linkedin.com', 'instagram.com', 'performap.com', 'magdaromanska.com', 'thetheatretimes.com', 'bloomsbury.com', 'harvardmagazine.com', 'twitter.com', 'researchgate.net']
 }, {
 	error: (error) => {
   	console.log('error', { error })
@@ -21,6 +21,7 @@ const siteChecker = new SiteChecker({
   			brokenLinks.push(`### [${result.base.resolved}](${result.base.resolved})`);
   		}
   		brokenLinks.push(`- [ ] [${result.url.resolved}](${result.url.resolved}) (${result.brokenReason})`);
+      console.log(`- [ ] [${result.url.resolved}](${result.url.resolved}) (${result.brokenReason})`)
   		countBroken += 1;
   	}
   },
