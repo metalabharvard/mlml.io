@@ -98,7 +98,7 @@
     {{ end }}
     {{ end }}
     <aside class="event-share grid-narrow-right-aside">
-      {{ if .Params.Start_time }}{{ partial "icon-calendar.html" (dict "url" ((printf `/e/%s.ics` .Slug) | absURL) "title" "Download event as iCal file") }}{{ end }}
+      {{ if .Params.Start_time }}{{ with .OutputFormats.Get "calendar" }}{{ partial "icon-calendar.html" (dict "url" (.Permalink | safeURL) "title" "Download event as iCal file") }}{{ end }}{{- end }}
       {{ partial "share-twitter.html" (dict "url" .Permalink "text" .Params.Fulltitle "via" .Site.Social.twitter) }}
       {{ partial "share-facebook.html" (dict "url" .Permalink "text" .Params.Fulltitle) }}
     </aside>
