@@ -2,6 +2,7 @@ languageCode = "en-us"
 theme = ["hugo-cloak-email"]
 disableKinds = ["taxonomyTerm"]
 buildFuture = true
+uglyURLs = true
 
 [taxonomies]
   host = "host"
@@ -37,10 +38,12 @@ buildFuture = true
     baseName = "manifest"
     mediaType = "application/json"
     notAlternative = "true"
+  [outputFormats.Calendar]
+    protocol = "https://"
 
 [outputs]
   home = ["HTML", "Content", "RSS", "Humans", "Manifest"]
-  section = ["HTML", "RSS", "Calendar"]
+  section = ["HTML", "RSS"]
 
 [sitemap]
   filename = "sitemap.xml"
