@@ -142,6 +142,12 @@ func main() {
 
     element.Fulltitle = utils.CreateFulltitle(element.Title, element.Subtitle)
 
+    element.Types = utils.CleanTypes(element.Types)
+
+    element.Keyword = utils.CreateKeywordString(element.Keywords)
+
+    element.Tags = utils.CreateTags(element.Keywords)
+
     element.Description = utils.CreateDescription(element.Intro)
     if element.Description == "" {
       println(fmt.Sprintf("%s has missing intro", element.Title))

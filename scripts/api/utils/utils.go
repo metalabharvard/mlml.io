@@ -9,6 +9,7 @@ import (
   "io/ioutil"
   "gopkg.in/yaml.v3"
   "regexp"
+  "github.com/gobeam/stringy"
   stru "api/structs"
 )
 
@@ -186,6 +187,25 @@ func CreateFeatureImage(cover stru.Picture, header stru.Picture, preview stru.Pi
   }
 }
 
+func CreateKeywordString(keywords []stru.Keyword) string {
+  var keyword string = ""
+  for i := 0; i < len(keywords); i++ {
+    keyword += keywords[i].Keyword
+    if i < len(keywords) - 1 {
+      keyword += ","
+    }
+  }
+  return keyword
+}
+
+func CreateTags(keywords []stru.Keyword) []string {
+  var tags []string
+  for i := 0; i < len(keywords); i++ {
+    tags = append(tags, keywords[i].Keyword)
+  }
+  return tags
+}
+
 // We need to Date property for sorting
 // We use the start date if present, then the end date if present or the published date
 func CreateDate(start string, end string, published string) string {
@@ -196,6 +216,14 @@ func CreateDate(start string, end string, published string) string {
   } else {
     return published
   }
+}
+
+func CleanTypes(types []stru.Type) []stru.Type {
+  var list []stru.Type
+  for _, c := range types {
+    list = append(list, (stru.Type{Trim(c.Label), stringy.New(Trim(c.Label)).KebabCase().ToLower()}))
+  }
+  return list
 }
 
 func CleanEvents(events []stru.Event) []stru.Event {

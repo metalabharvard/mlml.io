@@ -2,15 +2,23 @@
 {{- $label := .label }}{{/* This is something like »member«, »event«. It will be pluralized if not »press«. */}}
 {{- $class := .class }}{{/* This is something like »member«, »event«. */}}
 {{- $root := .root }}{{/* This is »project« or »event« to add Schema.org data */}}
-{{- $path := cond (eq $class "member") "m" (cond (eq $class "event") "e" "p") }}
+{{- $path := .path }}{{/* This is »m«, »e«, »p» or »t« */}}
 {{- with .items }}
 <div {{ printf `class="related-%s"` ($class | pluralize) | safeHTMLAttr }}>
   <dt class="title">{{ $term }} {{ cond (eq (len .) 1) ($label) ($label | pluralize) }}</dt>
   <div {{ printf `class="related-%s-list"` ($class | pluralize) | safeHTMLAttr }} role="list">
     {{- range $key, $value := (sort . "label") -}}
-    <dd role="listitem" {{ if eq $class "member" }}{{ if eq $root "project" }}itemprop="author"{{ else if eq $root "event" }}itemprop="organizer"{{ end }} itemscope itemtype="https://schema.org/Person" itemid="http://viaf.org/viaf/17823"{{ end }}><a {{ printf `class="related-%s"` $class | safeHTMLAttr }} href="{{ printf "%s/%s" $path $value.slug | absURL }}">
-      {{- trim $value.label " " -}}
-    </a></dd>
+    <dd role="listitem" {{ if eq $class "member" }}{{ if eq $root "project" }}itemprop="author"{{ else if eq $root "event" }}itemprop="organizer"{{ end }} itemscope itemtype="https://schema.org/Person" itemid="http://viaf.org/viaf/17823"{{ end }}>
+      {{- with $path -}}
+      <a {{ printf `class="related-%s"` $class | safeHTMLAttr }} href="{{ printf "%s/%s" $path $value.slug | absURL }}">
+        {{- trim $value.label " " -}}
+      </a>
+      {{- else -}}
+      <span {{ printf `class="related-%s"` $class | safeHTMLAttr }}>
+        {{- trim $value.label " " -}}
+      </span>
+      {{- end -}}
+    </dd>
     {{- end -}}
   </div>
 </div>

@@ -64,6 +64,9 @@ type ResponseProjects struct {
   End string `yaml:"end"`
   DateString string `yaml:"datestring"`
   Description string `yaml:"description,omitempty"` // Added by the script
+  Keywords []Keyword `yaml:"keywords,omitempty"`
+  Keyword string `yaml:"keyword,omitempty"`
+  Tags []string `yaml:"tags,omitempty"`
   Location string `yaml:"location"`
   Host string `yaml:"host"`
   Mediation string `yaml:"mediation"`
@@ -76,6 +79,7 @@ type ResponseProjects struct {
   Lastmod string `yaml:"lastmod"`
   Date string `yaml:"date"`
   Slug string `yaml:"slug"`
+  Types []Type `yaml:"types,omitempty"`
   Collaborators []Collaborator `yaml:"collaborators,omitempty"`
   Press_Articles []PressArticle `yaml:"press_articles,omitempty"`
   Links []Link `yaml:"links,omitempty"`
@@ -126,6 +130,10 @@ type Event struct {
   Slug string `yaml:"slug"`
 }
 
+type Keyword struct {
+  Keyword string `yaml:"label"`
+}
+
 type Project struct {
   Title string `yaml:"label"` // Careful: We are renaming the key here
   Slug string `yaml:"slug"`
@@ -135,6 +143,11 @@ type Member struct {
   Name string `yaml:"label"` // Careful: We are renaming the key here
   Slug string `yaml:"slug"`
   Twitter string `yaml:"twitter,omitempty"` // We use this for Twitter authors in the header
+}
+
+type Type struct {
+  Label string `yaml:"label,omitempty"`
+  Slug string `yaml:"slug,omitempty"`
 }
 
 type Link struct {
