@@ -14,13 +14,6 @@
       {{- end }}
     </header>
     <dl class="project-relations grid-wide grid grid-v-default half">
-      {{ $title := .Site.Params.Label.BoxType }}
-      {{ with .Params.Mediation }}
-      <div class="box-item">
-        <dt class="title">{{ $title }}</dt>
-        <dd class="text project-type">{{ title (replace . "_" " ") }}</dd>
-      </div>
-      {{ end }}
       {{ $title := .Site.Params.Label.BoxTime }}
       <div class="box-item">
         <dt class="title">{{ $title }}</dt>

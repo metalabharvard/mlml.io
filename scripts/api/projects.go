@@ -142,11 +142,11 @@ func main() {
 
     element.Fulltitle = utils.CreateFulltitle(element.Title, element.Subtitle)
 
-    element.Types = utils.CleanTypes(element.Types)
+    element.Types = utils.CleanTypes(element.Mediation, element.Types)
 
-    element.Keyword = utils.CreateKeywordString(element.Keywords)
+    element.Keyword = utils.CreateKeywordString(element.Mediation, element.Keywords)
 
-    element.Tags = utils.CreateTags(element.Keywords)
+    element.Tags = utils.CreateTags(element.Mediation, element.Keywords)
 
     element.Description = utils.CreateDescription(element.Intro)
     if element.Description == "" {
