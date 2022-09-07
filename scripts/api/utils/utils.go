@@ -187,7 +187,7 @@ func CreateFeatureImage(cover stru.Picture, header stru.Picture, preview stru.Pi
   }
 }
 
-func CreateKeywordString(keywords []stru.Keyword) string {
+func CreateKeywordString(mediation string, keywords []stru.Keyword) string {
   var keyword string = ""
   for i := 0; i < len(keywords); i++ {
     keyword += keywords[i].Keyword
@@ -195,14 +195,17 @@ func CreateKeywordString(keywords []stru.Keyword) string {
       keyword += ","
     }
   }
+  keyword += ","
+  keyword += mediation
   return keyword
 }
 
-func CreateTags(keywords []stru.Keyword) []string {
+func CreateTags(mediation string, keywords []stru.Keyword) []string {
   var tags []string
   for i := 0; i < len(keywords); i++ {
     tags = append(tags, keywords[i].Keyword)
   }
+  tags = append(tags, mediation)
   return tags
 }
 
@@ -218,12 +221,20 @@ func CreateDate(start string, end string, published string) string {
   }
 }
 
-func CleanTypes(types []stru.Type) []stru.Type {
+func reverseTypes(arr []stru.Type) []stru.Type{
+  for i, j := 0, len(arr) - 1; i<j; i, j = i + 1, j - 1 {
+    arr[i], arr[j] = arr[j], arr[i]
+  }
+  return arr
+}
+
+func CleanTypes(mediation string, types []stru.Type) []stru.Type {
   var list []stru.Type
   for _, c := range types {
     list = append(list, (stru.Type{Trim(c.Label), stringy.New(Trim(c.Label)).KebabCase().ToLower()}))
   }
-  return list
+  list = append(list, (stru.Type{strings.Title(Trim(mediation)), stringy.New(Trim(mediation)).KebabCase().ToLower()}))
+  return reverseTypes(list)
 }
 
 func CleanEvents(events []stru.Event) []stru.Event {
