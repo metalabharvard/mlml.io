@@ -15,8 +15,8 @@ CATEGORIES:{{ .Site.Title }}
 UID:{{ .Slug }}{{ dateFormat "20060102T030405Z" .Params.Lastmod }}@metalab
 DTSTART:{{ .Params.Start_time_utc }}
 DTEND:{{ .Params.End_time_utc }}
-SUMMARY:{{ plainify .Params.Title }}{{ with .Params.Subtitle }} – {{ . }}{{ end }}
-{{ with .Params.Intro }}DESCRIPTION:{{ plainify . }}{{ end }}{{ with .Params.ExternalLink }}\n\n{{ . }}{{ end }}
+SUMMARY:{{ .Params.Fulltitle }}{{ with .Params.Intro }}
+DESCRIPTION:{{ plainify . }}{{ end }}{{ with .Params.ExternalLink }}\n\n{{ . }}{{ end }}
 URL:{{ .Permalink }}
 {{ with .Params.location }}LOCATION:{{ . }}{{ end }}
 DTSTAMP:{{ dateFormat "20060102T030405Z" .Params.Lastmod }}

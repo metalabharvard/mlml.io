@@ -43,7 +43,7 @@ uglyURLs = true
 
 [outputs]
   home = ["HTML", "Content", "RSS", "Humans", "Manifest"]
-  section = ["HTML", "RSS"]
+  section = ["HTML", "RSS", "Calendar"]
 
 [sitemap]
   filename = "sitemap.xml"
