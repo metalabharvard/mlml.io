@@ -1,11 +1,11 @@
 languageCode = "en-us"
 theme = ["hugo-cloak-email"]
-disableKinds = ["taxonomyTerm"]
 buildFuture = true
 uglyURLs = true
 
 [taxonomies]
   host = "host"
+  categories = "categories"
 
 [params]
   contentTypes = ["projects", "members", "events"]
@@ -15,6 +15,7 @@ uglyURLs = true
   projects = "/p/:slug/"
   members = "/m/:slug/"
   events = "/e/:slug/"
+  categories = "/type/:slug/"
 
 [markup.goldmark.renderer]
   hardWraps = true

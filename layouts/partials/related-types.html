@@ -1,0 +1,16 @@
+{{- $label := .label }}{{/* This is something like »member«, »event«. It will be pluralized if not »press«. */}}
+{{- $class := "type" }}
+{{- with .items }}
+<div {{ printf `class="related-%s"` ($class | pluralize) | safeHTMLAttr }}>
+  <dt class="title">{{ cond (eq (len .) 1) ($label) ($label | pluralize) }}</dt>
+  <div {{ printf `class="related-%s-list"` ($class | pluralize) | safeHTMLAttr }} role="list">
+    {{- range $value := . -}}
+    <dd role="listitem">
+      <a class="related-type" href="{{ printf "%s/%s" "type" (urlize $value) | absURL }}">
+        {{- $value -}}
+      </a>
+    </dd>
+    {{- end -}}
+  </div>
+</div>
+{{ end }}

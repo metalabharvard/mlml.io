@@ -66,6 +66,7 @@ type Meta struct {
   BoxHost string `json:"boxHost"`
   BoxLocation string `json:"boxLocation"`
   BoxType string `json:"boxType"`
+  TypesHeadline string `json:"typesHeadline"`
   BoxFunder string `json:"boxFunder"`
   RelatedLabelLinks string `json:"relatedLabelLinks"`
   RelatedLabelPressArticles string `json:"relatedLabelPressArticles"`
@@ -151,6 +152,7 @@ type Label struct {
   BoxLocation string `json:"boxLocation"`
   BoxType string `json:"boxType"`
   BoxFunder string `json:"boxFunder"`
+  TypesHeadline string `json:"typesHeadline"`
   RelatedLabelLinks string `json:"relatedLabelLinks"`
   RelatedLabelPressArticles string `json:"relatedLabelPressArticles"`
   MemberAlumnus string `json:"memberAlumnus"`
@@ -257,6 +259,7 @@ func main() {
         BoxHost: responseObject.BoxHost,
         BoxLocation: responseObject.BoxLocation,
         BoxType: responseObject.BoxType,
+        TypesHeadline: responseObject.TypesHeadline,
         BoxFunder: responseObject.BoxFunder,
         RelatedLabelLinks: responseObject.RelatedLabelLinks,
         RelatedLabelPressArticles: responseObject.RelatedLabelPressArticles,

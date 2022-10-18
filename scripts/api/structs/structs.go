@@ -70,7 +70,7 @@ type ResponseProjects struct {
   Location string `yaml:"location"`
   Host string `yaml:"host"`
   Mediation string `yaml:"mediation"`
-  Type string `yaml:"category"`
+  // Type string `yaml:"category"`
   IsFeatured bool `yaml:"isFeatured"`
   ExternalLink string `yaml:"externalLink"`
   Updated_at string `yaml:"updated_at,omitempty"`
@@ -79,7 +79,8 @@ type ResponseProjects struct {
   Lastmod string `yaml:"lastmod"`
   Date string `yaml:"date"`
   Slug string `yaml:"slug"`
-  Types []Type `yaml:"types,omitempty"`
+  Types []Type `yaml:"types,omitempty"` // This is created by Strapi but will be deleted later
+  Categories []string `yaml:"categories,omitempty"` // This is used for types as we can’t assign types with a new struct
   Collaborators []Collaborator `yaml:"collaborators,omitempty"`
   Press_Articles []PressArticle `yaml:"press_articles,omitempty"`
   Links []Link `yaml:"links,omitempty"`

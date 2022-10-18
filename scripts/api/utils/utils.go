@@ -9,7 +9,7 @@ import (
   "io/ioutil"
   "gopkg.in/yaml.v3"
   "regexp"
-  "github.com/gobeam/stringy"
+  // "github.com/gobeam/stringy"
   stru "api/structs"
 )
 
@@ -187,25 +187,37 @@ func CreateFeatureImage(cover stru.Picture, header stru.Picture, preview stru.Pi
   }
 }
 
-func CreateKeywordString(mediation string, keywords []stru.Keyword) string {
+func CreateKeywordString(keywords []string) string {
   var keyword string = ""
   for i := 0; i < len(keywords); i++ {
-    keyword += keywords[i].Keyword
+    keyword += keywords[i]
     if i < len(keywords) - 1 {
       keyword += ","
     }
   }
-  keyword += ","
-  keyword += mediation
   return keyword
 }
 
-func CreateTags(mediation string, keywords []stru.Keyword) []string {
-  var tags []string
+// func CreateTags(mediation string, keywords []stru.Keyword) []string {
+func CreateTags(keywords []stru.Keyword, types []stru.Type) []string {
+  keys := make(map[string]bool)
+  var tags []string // This is used to store the list of unique entries
   for i := 0; i < len(keywords); i++ {
-    tags = append(tags, keywords[i].Keyword)
+    var tag string = Trim(keywords[i].Keyword)
+    var key string = strings.ToLower(tag) // Lowercase to compare them
+    if _, value := keys[key]; !value {
+      keys[key] = true
+      tags = append(tags, tag)
+    }
   }
-  tags = append(tags, mediation)
+  for _, c := range types {
+    var tag string = Trim(c.Label)
+    var key string = strings.ToLower(tag) // Lowercase to compare them
+    if _, value := keys[key]; !value {
+      keys[key] = true
+      tags = append(tags, tag)
+    }
+  }
   return tags
 }
 
@@ -221,19 +233,18 @@ func CreateDate(start string, end string, published string) string {
   }
 }
 
-func reverseTypes(arr []stru.Type) []stru.Type{
+func reverseTypes(arr []string) []string{
   for i, j := 0, len(arr) - 1; i<j; i, j = i + 1, j - 1 {
     arr[i], arr[j] = arr[j], arr[i]
   }
   return arr
 }
 
-func CleanTypes(mediation string, types []stru.Type) []stru.Type {
-  var list []stru.Type
+func CleanTypes(types []stru.Type) []string {
+  var list []string
   for _, c := range types {
-    list = append(list, (stru.Type{Trim(c.Label), stringy.New(Trim(c.Label)).KebabCase().ToLower()}))
+    list = append(list, Trim(c.Label))
   }
-  list = append(list, (stru.Type{strings.Title(Trim(mediation)), stringy.New(Trim(mediation)).KebabCase().ToLower()}))
   return reverseTypes(list)
 }
 

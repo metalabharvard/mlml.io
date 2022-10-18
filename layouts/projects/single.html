@@ -36,8 +36,8 @@
       {{ $projects := .Params.Projects }}
       {{ $collaborators := .Params.Collaborators }}
       {{ $funders := .Params.Funders }}
-      {{ $types := .Params.Types }}
-      {{ partial "related-items.html" (dict "items" $types "term" "" "label" "Type" "class" "type" "root" "project" "path" "") }}
+      {{ $types := .Params.Categories }}
+      {{ partial "related-types.html" (dict "items" $types "label" .Site.Params.Label.BoxType) }}
       {{ partial "related-items.html" (dict "items" $members "term" .Site.Params.Label.RelatedMembers "label" .Site.Params.Label.RelatedLabelMembers "class" "member" "root" "project" "path" "m") }}
       {{ partial "related-collaborators.html" (dict "items" $collaborators "label" .Site.Params.Label.boxCollaborator "class" "collaborator") }}
       {{ partial "related-collaborators.html" (dict "items" $funders "label" .Site.Params.Label.boxFunder "class" "funders") }}

@@ -1,0 +1,18 @@
+{{ define "main" }}
+<ul id="all-tags">
+  {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+    <li><a href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}">{{ $name }}</a></li>
+  {{ end }}
+</ul>
+
+  <section class="homepage-projects-list grid-wide">
+    <h1>{{ printf .Site.Params.Label.TypesHeadline .Data.Term }}</h1>
+    <ul role="list">
+    {{ $defaultLabel := .Site.Params.Label.AriaGeneralPicture }}
+    {{ range (.Paginate ((((.Data.Pages).ByParam "title").Reverse.ByParam "date").Reverse)).Pages }}
+      {{ partial "project-preview.html" (dict "project" . "defaultHost" .Site.Params.Label.HostsDefault "defaultMediation" .Site.Params.Label.DefaultMediation "defaultLabel" $defaultLabel "both" .Site.Params.Label.HostsBoth)}}
+    {{ end }}
+    </ul>
+    {{ partial "pagination.html" . }}
+  </section>
+{{ end }}
