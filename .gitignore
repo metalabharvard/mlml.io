@@ -123,6 +123,7 @@ assets/js/svelte.js
 assets/js/svelte.js.map
 
 config/config.json
+.hugo_build.lock
 
 /public/
 /content/events/
