@@ -52,6 +52,7 @@
       {{ partial "icon-soundcloud.html" (dict "handle" .Params.Soundcloud "name" $name "template" .Site.Params.Label.SocialSoundcloudTitle) }}
       {{ partial "icon-youtube.html" (dict "handle" .Params.Youtube "name" $name "template" .Site.Params.Label.SocialYouTubeTitle) }}
       {{ partial "icon-vimeo.html" (dict "handle" .Params.Vimeo "name" $name "template" .Site.Params.Label.SocialVimeoTitle) }}
+      {{ partial "icon-mastodon.html" (dict "link" .Params.Mastodon "name" $name "template" .Site.Params.Label.socialMastodonTitle) }}
     </aside>
     {{ if or (or .Params.Intro .Content) .Params.isAlumnus }}
     <div class="member-description grid-narrow-left note content" itemprop="description">

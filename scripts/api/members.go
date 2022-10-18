@@ -31,6 +31,7 @@ type Response struct {
   Youtube string `yaml:"youtube,omitempty"`
   Soundcloud string `yaml:"soundcloud,omitempty"`
   Github string `yaml:"github,omitempty"`
+  Mastodon string `yaml:"mastodon,omitempty"`
   Vimeo string `yaml:"vimeo,omitempty"`
   Start string `yaml:"start,omitempty"`
   Description string `yaml:"description,omitempty"`
@@ -151,6 +152,7 @@ func main() {
     element.Email = utils.Trim(element.Email)
     element.Website = utils.FixExternalLink(utils.Trim(element.Website))
     element.Instagram = utils.Trim(element.Instagram)
+    element.Mastodon = utils.Trim(element.Mastodon)
 
     file, _ := yaml.Marshal(element)
     utils.WriteToMarkdown(FOLDER, element.Slug, file, content)

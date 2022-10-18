@@ -36,6 +36,7 @@ type Meta struct {
   Facebook string `json:"contact_facebook"`
   Linkedin string `json:"contact_linkedin"`
   Instagram string `json:"contact_instagram"`
+  Mastodon string `json:"contact_mastodon"`
   LabelTimezoneBoston string `json:"label_timezone_boston"`
   LabelTimezoneBerlin string `json:"label_timezone_berlin"`
   LabelAlumniUpdate string `json:"label_alumni_update"`
@@ -54,6 +55,7 @@ type Meta struct {
   SocialTwitterTitle string `json:"socialTwitterTitle"`
   SocialVimeoTitle string `json:"socialVimeoTitle"`
   SocialYouTubeTitle string `json:"socialYouTubeTitle"`
+  SocialMastodonTitle string `json:"socialMastodonTitle"`
   SocialMetalabSelf string `json:"socialMetalabSelf"`
   RelatedMembers string `json:"relatedMembers"`
   RelatedProjects string `json:"relatedProjects"`
@@ -117,6 +119,7 @@ type Social struct {
   Facebook string `json:"facebook,omitempty"`
   Linkedin string `json:"linkedin,omitempty"`
   Instagram string `json:"instagram,omitempty"`
+  Mastodon string `json:"mastodon,omitempty"`
 }
 
 type Label struct {
@@ -139,6 +142,7 @@ type Label struct {
   SocialTwitterTitle string `json:"socialTwitterTitle"`
   SocialVimeoTitle string `json:"socialVimeoTitle"`
   SocialYouTubeTitle string `json:"socialYouTubeTitle"`
+  SocialMastodonTitle string `json:"socialMastodonTitle"`
   SocialMetalabSelf string `json:"socialMetalabSelf"`
   RelatedMembers string `json:"relatedMembers"`
   RelatedProjects string `json:"relatedProjects"`
@@ -219,6 +223,7 @@ func main() {
       Facebook: responseObject.Facebook,
       Linkedin: responseObject.Linkedin,
       Instagram: responseObject.Instagram,
+      Mastodon: responseObject.Mastodon,
     },
     Params: Params{
       Title: responseObject.Title,
@@ -247,6 +252,7 @@ func main() {
         SocialTwitterTitle: responseObject.SocialTwitterTitle,
         SocialVimeoTitle: responseObject.SocialVimeoTitle,
         SocialYouTubeTitle: responseObject.SocialYouTubeTitle,
+        SocialMastodonTitle: responseObject.SocialMastodonTitle,
         SocialMetalabSelf: responseObject.SocialMetalabSelf,
         RelatedMembers: responseObject.RelatedMembers,
         RelatedProjects: responseObject.RelatedProjects,
