@@ -32,6 +32,11 @@ uglyURLs = true
     baseName = "humans"
     isPlainText = true
     notAlternative = true
+  [outputFormats.Robots]
+    mediaType = "text/plain"
+    baseName = "robots"
+    isPlainText = true
+    notAlternative = true
   [outputFormats.HTML]
     noUgly = true
   [outputFormats.manifest]
@@ -43,7 +48,7 @@ uglyURLs = true
     protocol = "https://"
 
 [outputs]
-  home = ["HTML", "Content", "RSS", "Humans", "Manifest"]
+  home = ["HTML", "Content", "RSS", "Humans", "Robots", "Manifest"]
   section = ["HTML", "RSS", "Calendar"]
 
 [sitemap]
