@@ -13,7 +13,8 @@ LinkedIn:      https://linkedin.com/{{- . -}}{{- end -}}{{ with .Site.Social.sou
 Soundcloud:    https://soundcloud.com/{{- . -}}{{- end -}}{{ with .Site.Social.twitter }}
 Twitter:       https://twitter.com/{{- . -}}{{- end -}}{{- with .Site.Social.vimeo }}
 Vimeo:         https://vimeo.com/{{- . -}}{{- end -}}{{ with .Site.Social.youtube }}
-YouTube:       https://youtube.com/{{- . -}}{{- end }}
+YouTube:       https://youtube.com/{{- . -}}{{- end }}{{ with .Site.Social.mastodon }}
+Mastodon:      {{- . -}}{{- end }}
 
 /* META */
 Built with:    Hugo, Svelte, Strapi, Cloudinary, Github, Netlify
