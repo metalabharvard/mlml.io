@@ -95,7 +95,7 @@
     {{- end -}}
   {{- end -}}
   {{- $subtitle := cond (isset $element.Params "subtitle") (index $element.Params "subtitle") "" -}}
-  {{- $projectsScratch.Add "projects" (dict "label" $element.Title "subtitle" $subtitle "intro" (htmlUnescape ($element.Params.Intro | markdownify)) "location" $element.Params.Location "date" (dateFormat "2 January 2006" $element.Params.Start) "dateISO" (dateFormat "2006-01-02" $element.Params.Start) "dateStartISO" (dateFormat "2006-01-02" $element.Params.Start) "dateEndISO" (cond (gt (len $element.Params.End) 0) (dateFormat "2006-01-02" $element.Params.End) "") "dateString" (htmlUnescape $element.Params.DateString) "members" ($relatedItems.Get "members") "events" ($relatedItems.Get "events") "projects" ($relatedItems.Get "projects") "links" ($relatedItems.Get "links") "collaborators" ($relatedItems.Get "collaborators") "id" $element.Slug) -}}
+  {{- $projectsScratch.Add "projects" (dict "label" $element.Title "subtitle" $subtitle "intro" (htmlUnescape ($element.Params.Intro | markdownify)) "location" $element.Params.Location "date" (dateFormat "2 January 2006" $element.Params.Start) "dateISO" (dateFormat "2006-01-02" $element.Params.Start) "dateString" (htmlUnescape $element.Params.DateString) "members" ($relatedItems.Get "members") "events" ($relatedItems.Get "events") "projects" ($relatedItems.Get "projects") "links" ($relatedItems.Get "links") "collaborators" ($relatedItems.Get "collaborators") "id" $element.Slug) -}}
 {{- end -}}
 
 {{- $content := newScratch -}}
