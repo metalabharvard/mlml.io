@@ -147,9 +147,9 @@ func CreateFulltitle(title string, subtitle string) string {
 }
 
 func CreateDescription(intro string) string {
-  if intro == "" {
-    println("Intro is missing")
-  }
+  // if intro == "" {
+  //   println("Intro is missing")
+  // }
   return TruncateString(intro, 150)
 }
 
@@ -353,3 +353,22 @@ func GetLastmod(updatedAt string, lastmod time.Time) time.Time {
   }
 }
 
+func CheckImageDimensions(image stru.Picture, title string, location string) bool {
+  if ((len(image.Url) > 0 || location == "Gallery") && !(image.Height > 1 && image.Width > 1)) {
+    println(fmt.Sprintf("%s (%s) has wrong dimensions (%dpx, %dpx, URL: %s)", title, location, image.Height, image.Width, image.Url))
+    return false;
+  }
+  return true;
+}
+
+func CheckGalleryDimensions(arr []stru.Picture, title string) []stru.Picture{
+  res := []stru.Picture{}
+  for _, element := range arr {
+    if (CheckImageDimensions(element, title, "Gallery")) {
+      res = append(res, element)
+    } else {
+      println(fmt.Sprintf("Removing image from gallery in %s because of wrong dimensions (%dpx, %dpx, URL: %s)", title, element.Height, element.Width, element.Url))
+    }
+  }
+  return res
+}

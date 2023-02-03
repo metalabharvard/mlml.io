@@ -133,7 +133,7 @@ func main() {
     element.Projects = utils.CleanProjects(element.Projects)
     element.Events = utils.CleanEvents(element.Events)
 
-    println(element.Aliases)
+    // println(element.Aliases)
 
     element.AliasesClean = utils.CleanAliases(element.Aliases)
     element.Aliases = nil
@@ -147,6 +147,8 @@ func main() {
     element.Picture.Formats.Small.Url = utils.ConvertToGrayscale(element.Picture.Formats.Small.Url)
     element.Picture.Formats.Medium.Url = utils.ConvertToGrayscale(element.Picture.Formats.Medium.Url)
     element.Picture.Formats.Large.Url = utils.ConvertToGrayscale(element.Picture.Formats.Large.Url)
+
+    utils.CheckImageDimensions(element.Picture, element.Title, "Picture")
 
     element.Name = utils.Trim(element.Name)
     element.Email = utils.Trim(element.Email)

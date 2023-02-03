@@ -157,9 +157,15 @@ func main() {
     element.Preview = stru.Picture{}
 
     element.Fulltitle = utils.CreateFulltitle(element.Title, element.Subtitle)
-    if element.Description == "" {
-      println(fmt.Sprintf("%s has missing intro", element.Title))
-    }
+    // if element.Description == "" {
+    //   println(fmt.Sprintf("%s has missing intro", element.Title))
+    // }
+
+    utils.CheckImageDimensions(element.Cover, element.Title, "Cover")
+    utils.CheckImageDimensions(element.Preview, element.Title, "Header")
+    utils.CheckImageDimensions(element.Header, element.Title, "Header")
+    utils.CheckImageDimensions(element.Feature, element.Title, "Header")
+    element.Gallery = utils.CheckGalleryDimensions(element.Gallery, element.Title)
 
     element.Description = utils.CreateDescription(element.Intro)
 

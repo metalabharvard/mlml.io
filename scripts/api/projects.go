@@ -156,13 +156,19 @@ func main() {
     element.Types = nil
 
     element.Description = utils.CreateDescription(element.Intro)
-    if element.Description == "" {
-      println(fmt.Sprintf("%s has missing intro", element.Title))
-    }
+    // if element.Description == "" {
+    //   println(fmt.Sprintf("%s has missing intro", element.Title))
+    // }
 
     if checkDates(element.Start, element.End) {
       println(fmt.Sprintf("%s has wrong dates", element.Title))
     }
+
+    utils.CheckImageDimensions(element.Cover, element.Title, "Cover")
+    utils.CheckImageDimensions(element.Preview, element.Title, "Header")
+    utils.CheckImageDimensions(element.Header, element.Title, "Header")
+    utils.CheckImageDimensions(element.Feature, element.Title, "Header")
+    element.Gallery = utils.CheckGalleryDimensions(element.Gallery, element.Title)
 
     file, _ := yaml.Marshal(element)
     utils.WriteToMarkdown(FOLDER, element.Slug, file, content)
