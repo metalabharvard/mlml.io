@@ -1,23 +1,25 @@
 package main
 
 import (
-  "encoding/json"
-  "fmt"
-  "io/ioutil"
-  "log"
-  "sort"
-  "net/http"
-  "os"
-  "time"
-  // "strings"
-  "gopkg.in/yaml.v3"
-  stru "api/structs"
-  utils "api/utils"
+	"encoding/json"
+	"fmt"
+	"io/ioutil"
+	"log"
+	"net/http"
+	"os"
+	"sort"
+	"time"
+
+	// "strings"
+	stru "api/structs"
+	utils "api/utils"
+
+	"gopkg.in/yaml.v3"
 )
 
 func main() {
   println("Requesting events")
-  response, err := http.Get("https://metalab-strapi.herokuapp.com/events")
+  response, err := http.Get("https://metalab-strapi.herokuapp.com/events?_limit=-1")
 
   var Lastmod time.Time;
 

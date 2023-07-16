@@ -1,18 +1,19 @@
 package main
 
 import (
-  "encoding/json"
-  "fmt"
-  "io/ioutil"
-  "log"
-  "net/http"
-  "os"
-  "sort"
-  "math"
-  "time"
-  "gopkg.in/yaml.v3"
-  stru "api/structs"
-  utils "api/utils"
+	stru "api/structs"
+	utils "api/utils"
+	"encoding/json"
+	"fmt"
+	"io/ioutil"
+	"log"
+	"math"
+	"net/http"
+	"os"
+	"sort"
+	"time"
+
+	"gopkg.in/yaml.v3"
 )
 
 type Response struct {
@@ -82,7 +83,7 @@ func isFounder(roles []stru.Role) bool {
 
 func main() {
   println("Requesting members")
-  response, err := http.Get("https://metalab-strapi.herokuapp.com/members")
+  response, err := http.Get("https://metalab-strapi.herokuapp.com/members?_limit=-1")
 
   var Lastmod time.Time;
 

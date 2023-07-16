@@ -1,17 +1,18 @@
 package main
 
 import (
-  "encoding/json"
-  "fmt"
-  "io/ioutil"
-  "log"
-  "sort"
-  "net/http"
-  "os"
-  "time"
-  "gopkg.in/yaml.v3"
-  stru "api/structs"
-  utils "api/utils"
+	stru "api/structs"
+	utils "api/utils"
+	"encoding/json"
+	"fmt"
+	"io/ioutil"
+	"log"
+	"net/http"
+	"os"
+	"sort"
+	"time"
+
+	"gopkg.in/yaml.v3"
 )
 
 func getDateYear(date time.Time) string {
@@ -69,7 +70,7 @@ func checkDates(start string, end string) bool {
 
 func main() {
   println("Requesting projects")
-  response, err := http.Get("https://metalab-strapi.herokuapp.com/projects")
+  response, err := http.Get("https://metalab-strapi.herokuapp.com/projects?_limit=-1")
 
   var Lastmod time.Time;
 
