@@ -75,8 +75,6 @@ type Meta struct {
   MemberAlumnus string `json:"memberAlumnus"`
   AriaTimezoneBoston string `json:"ariaTimezoneBoston"`
   AriaTimezoneBerlin string `json:"ariaTimezoneBerlin"`
-  TimezoneBostonAbbr string `json:"timezoneBostonAbbr"`
-  TimezoneBerlinAbbr string `json:"timezoneBerlinAbbr"`
   AriaProfilePicture string `json:"ariaProfilePicture"`
   AriaGeneralPicture string `json:"ariaGeneralPicture"`
   ExternalProject string `json:"externalProject"`
@@ -162,8 +160,6 @@ type Label struct {
   MemberAlumnus string `json:"memberAlumnus"`
   AriaTimezoneBoston string `json:"ariaTimezoneBoston"`
   AriaTimezoneBerlin string `json:"ariaTimezoneBerlin"`
-  TimezoneBostonAbbr string `json:"timezoneBostonAbbr"`
-  TimezoneBerlinAbbr string `json:"timezoneBerlinAbbr"`
   AriaProfilePicture string `json:"ariaProfilePicture"`
   AriaGeneralPicture string `json:"ariaGeneralPicture"`
   ExternalProject string `json:"externalProject"`
@@ -272,8 +268,6 @@ func main() {
         MemberAlumnus: responseObject.MemberAlumnus,
         AriaTimezoneBoston: responseObject.AriaTimezoneBoston,
         AriaTimezoneBerlin: responseObject.AriaTimezoneBerlin,
-        TimezoneBostonAbbr: responseObject.TimezoneBostonAbbr,
-        TimezoneBerlinAbbr: responseObject.TimezoneBerlinAbbr,
         AriaProfilePicture: responseObject.AriaProfilePicture,
         AriaGeneralPicture: responseObject.AriaGeneralPicture,
         ExternalProject: responseObject.ExternalProject,
