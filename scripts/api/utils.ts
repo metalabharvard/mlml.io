@@ -15,9 +15,9 @@ export function writeToMarkdown(
   fs.writeFileSync(`./content/${path}.md`, fileContent, "utf8");
 }
 
-export async function fetchFromStrapi(endpoint: string, populate: string = "") {
+export async function fetchFromStrapi(endpoint: string, params: string = "") {
   const response = await axios.get(
-    `http://192.168.178.121:1337/api/${endpoint}?populate=${populate}`,
+    `http://192.168.178.121:1337/api/${endpoint}?${params}`,
   );
   return response.data.data.attributes;
 }

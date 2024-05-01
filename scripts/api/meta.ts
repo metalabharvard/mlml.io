@@ -9,7 +9,7 @@ import {
 
 const fetchMetaData = async () => {
   try {
-    const responseObject = await fetchFromStrapi("meta", "preview");
+    const responseObject = await fetchFromStrapi("meta", "populate=preview");
 
     const config = {
       title: responseObject.header_title,
