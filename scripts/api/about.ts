@@ -1,10 +1,10 @@
-import { writeToMarkdown, fetchFromStrapi } from "./utils";
+import { writeToMarkdown, fetchSingleFromStrapi } from "./utils";
 
 // The main function to fetch, transform, and write about page data
 const fetchAndWriteAboutData = async () => {
   try {
     // Fetching data from the URL
-    const data = await fetchFromStrapi("about");
+    const data = await fetchSingleFromStrapi("about");
 
     const frontMatter = {};
     frontMatter.layout = "about";

@@ -38,7 +38,8 @@ meta:
 	bun $(p)/meta.ts
 
 projects:
-	cd $(p); go run projects.go
+	#cd $(p); go run projects.go
+	bun $(p)/projects.ts
 
 fetch: about events members meta projects
 

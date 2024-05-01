@@ -1,6 +1,6 @@
 import {
   writeToMarkdown,
-  fetchFromStrapi,
+  fetchSingleFromStrapi,
   writeToJSON,
   addIndexPage,
   convertToPreviewImage,
@@ -9,7 +9,10 @@ import {
 
 const fetchMetaData = async () => {
   try {
-    const responseObject = await fetchFromStrapi("meta", "populate=preview");
+    const responseObject = await fetchSingleFromStrapi(
+      "meta",
+      "populate=preview",
+    );
 
     const config = {
       title: responseObject.header_title,
