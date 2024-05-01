@@ -34,7 +34,8 @@ members:
 	cd $(p); go run members.go
 
 meta:
-	cd $(p); go run meta.go
+	#cd $(p); go run meta.go
+	bun $(p)/meta.ts
 
 projects:
 	cd $(p); go run projects.go
