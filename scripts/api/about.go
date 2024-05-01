@@ -10,6 +10,13 @@ import (
   "os"
 )
 
+// Definieren der neuen, genesteten Struktur
+type MetaData struct {
+    Data struct {
+        Attributes Meta `json:"attributes"`
+    } `json:"data"`
+}
+
 type Meta struct {
   Intro string `json:"intro,omitempty"`
   Updated_at string `json:"updated_at,omitempty"`
@@ -24,8 +31,7 @@ type Meta struct {
 
 func main() {
   println("Requesting about")
-  response, err := http.Get("https://metalab-strapi.herokuapp.com/about")
-
+  response, err := http.Get("http://192.168.178.121:1337/api/about")
   if err != nil {
     fmt.Print(err.Error())
     os.Exit(1)
@@ -36,20 +42,27 @@ func main() {
     log.Fatal(err)
   }
 
-  var responseObject Meta
-  json.Unmarshal(responseData, &responseObject)
+  var responseObject MetaData
+  err = json.Unmarshal(responseData, &responseObject)
+  if err != nil {
+    log.Fatal(err)
+  }
 
-  responseObject.Layout = "about"
-  responseObject.Slug = "about"
-  responseObject.Title = "About"
+  meta := responseObject.Data.Attributes
 
-  responseObject.Date = responseObject.Created_at
-  responseObject.Lastmod = responseObject.Updated_at
+  meta.Layout = "about"
+  meta.Slug = "about"
+  meta.Title = "About"
 
-  content := responseObject.Intro
-  responseObject.Intro = ""
+  meta.Date = meta.CreatedAt
+  meta.Lastmod = meta.UpdatedAt
+  meta.Created_at = meta.CreatedAt
+  meta.Updated_at = meta.UpdatedAt
 
-  file, _ := yaml.Marshal(responseObject)
+  content := meta.Intro
+  meta.Intro = ""
+
+  file, _ := yaml.Marshal(meta)
 
     _ = ioutil.WriteFile("../../content/about.md", []byte(fmt.Sprintf("---\n%s\n---\n%s", file, content)), 0644)
 

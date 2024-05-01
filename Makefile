@@ -24,6 +24,9 @@ local:
 about:
 	cd $(p); go run about.go
 
+about_ts:
+		bun $(p)/about.ts
+
 events:
 	cd $(p); go run events.go
 
