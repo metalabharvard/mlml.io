@@ -127,6 +127,7 @@ func GetRelatedProjects(topics []stru.Topic, allProjects []stru.ResponseProjects
 }
 
 func CleanFolder(folder string) {
+	println(fmt.Sprintf("Removing all files in “%s”", folder))
   err := os.RemoveAll(folder)
   if err != nil {
     log.Fatal(err)
@@ -259,6 +260,7 @@ func CleanEvents(events []stru.Event) []stru.Event {
 func CleanAliases(aliases []stru.Aliases) []string {
   var list []string
   for _, c := range aliases {
+  	fmt.Print(fmt.Sprintf("Alias: %s", c.Aliases))
     list = append(list, Trim(c.Aliases))
   }
   return list

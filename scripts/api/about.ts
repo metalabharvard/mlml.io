@@ -5,7 +5,6 @@ const fetchAndWriteAboutData = async () => {
   try {
     // Fetching data from the URL
     const data = await fetchSingleFromStrapi("about");
-
     const frontMatter = {};
     frontMatter.layout = "about";
     frontMatter.slug = "about";

@@ -1,6 +1,24 @@
 import axios from "axios";
-import * as fs from "fs";
 import * as yaml from "js-yaml";
+import { truncate } from "lodash";
+
+import fs from "node:fs/promises";
+import path from "node:path";
+
+export function sortByName(arr, key: string = "label"): any[] {
+  return arr.sort((a, b) => {
+    const nameA = a[key].toUpperCase();
+    const nameB = b[key].toUpperCase();
+    if (nameA < nameB) {
+      return -1;
+    }
+    if (nameA > nameB) {
+      return 1;
+    }
+
+    return 0;
+  });
+}
 
 export function writeToMarkdown(
   path: string,
@@ -8,13 +26,19 @@ export function writeToMarkdown(
   content: string = "",
 ) {
   // Converting the Meta object to a YAML string
-  const yamlStr = yaml.dump(frontMatter, { lineWidth: -1 });
+  const yamlStr = yaml.dump(frontMatter, {
+    lineWidth: -1,
+    indent: 2,
+  });
   const fileContent = `---\n${yamlStr}---\n${content}`;
 
   // Writing the YAML and the content to a Markdown file
-  fs.writeFileSync(`./content/${path}.md`, fileContent, "utf8");
+  fs.writeFile(`./content/${path}.md`, fileContent, "utf8");
 }
 
+// This function fetches multiple items from Strapi
+// It is used to fetch all projects, members, and other collections
+// This limit is set to 1000, which should be enough for most collections
 export async function fetchMultiFromStrapi(
   endpoint: string,
   params: string = "",
@@ -22,25 +46,27 @@ export async function fetchMultiFromStrapi(
   return fetchFromStrapi(endpoint, `pagination[limit]=1000&${params}`);
 }
 
+// This function fetches a single item from Strapi
 export async function fetchSingleFromStrapi(
   endpoint: string,
   params: string = "",
 ) {
-  const response = fetchFromStrapi(endpoint, params);
+  const response = await fetchFromStrapi(endpoint, params);
   return response.attributes;
 }
 
+// This function is used by fetchMultiFromStrapi and fetchSingleFromStrapi
 export async function fetchFromStrapi(endpoint: string, params: string = "") {
   console.log(`Fetching ${endpoint} from Strapi with params: ${params}`);
   const response = await axios.get(
-    `http://192.168.178.121:1337/api/${endpoint}?${params}`,
+    `${process.env.STRAPI_URL}/api/${endpoint}?${params}`,
   );
   return response.data.data;
 }
 
 export function writeToJSON(path: string, data: any) {
   const fileContent = JSON.stringify(data, null, 1);
-  fs.writeFileSync(`${path}.json`, fileContent, "utf8");
+  fs.writeFile(`${path}.json`, fileContent, "utf8");
 }
 
 export function addIndexPage(id: string, str: string) {
@@ -70,11 +96,21 @@ export function convertToLogo(url: string): string {
   return str;
 }
 
+export function createPreviewImage(preview: string, cover: string): string[] {
+  if (preview !== "" && typeof preview !== "undefined") {
+    return [convertToPreviewImage(preview)];
+  } else if (cover !== "" && typeof cover !== "undefined") {
+    return [convertToPreviewImage(cover)];
+  } else {
+    return [];
+  }
+}
+
 export function takeLatestDate(date_1: Date, date_2: Date): Date {
   return date_1 >= date_2 ? date_1 : date_2;
 }
 
-export function createDate(
+export function selectLastDate(
   published: string,
   start?: string | null,
   end?: string | null,
@@ -89,6 +125,10 @@ export function createDate(
 }
 
 export function fixExternalLink(str: string): string {
+  if (!Boolean(str)) {
+    return "";
+  }
+
   str = str.trim();
 
   if (str === "") {
@@ -115,7 +155,79 @@ type Link = {
   url?: string;
 };
 
-const trim = (str: string | undefined): string => (str ?? "").trim();
+export function trim(str: string | undefined): string {
+  return (str ?? "").trim();
+}
+
+export function checkIfRelationsExist(arr: string[], obj: object): void {
+  arr.forEach((relation) => {
+    if (!obj.hasOwnProperty(relation)) {
+      console.log(`The relation ${relation} does not exist in the object.`);
+    }
+  });
+}
+
+type ListEntry = {
+  [key: string]: string;
+  slug: string;
+};
+type Topic = {
+  attributes: {
+    TopicLabel: string;
+  };
+};
+export function getRelatedProjects(
+  topics: Topic[],
+  allProjects: any[],
+  slug: string,
+): ListEntry[] {
+  const list: ListEntry[] = [];
+  topics.forEach((topic) => {
+    const topicLabel = topic.attributes.TopicLabel;
+    allProjects.forEach(({ attributes: project }) => {
+      if (
+        project.topics.data.find(
+          (t: Topic) => t.attributes.TopicLabel === topicLabel,
+        ) &&
+        project.Slug !== slug
+      ) {
+        list.push({ label: project.title, slug: project.slug });
+      }
+    });
+  });
+  return list;
+}
+
+export function cleanList(arr: string[], key: string = "label"): ListEntry[] {
+  const list: ListEntry[] = [];
+  arr.forEach(({ attributes: project }) => {
+    const label = trim(project[key]);
+    const slug = trim(project.slug);
+    console.log({ project, label, slug, key });
+    if (label.length && slug.length) {
+      list.push({ label, slug });
+    }
+  });
+  return list;
+}
+
+type Member = {
+  name: string;
+  slug: string;
+  twitter: string;
+};
+export function cleanListMembers(arr: string[]): Member[] {
+  const list: Member[] = [];
+  arr.forEach(({ attributes: project }) => {
+    const label = trim(project.Name);
+    const slug = trim(project.slug);
+    const twitter = trim(project.twitter);
+    if (label.length && slug.length) {
+      list.push({ label, slug, twitter });
+    }
+  });
+  return list;
+}
 
 export function cleanLinkList(arr: Link[]): Link[] {
   const list: Link[] = [];
@@ -133,4 +245,35 @@ export function cleanLinkList(arr: Link[]): Link[] {
     }
   });
   return list;
+}
+
+export async function cleanDirectory(directory: string) {
+  const folder = `./content/${directory}`;
+  console.log(`Cleaning directory: ${folder}`);
+  for (const file of await fs.readdir(folder)) {
+    await fs.unlink(path.join(folder, file));
+  }
+}
+
+export function createFullTitle(title: string, subtitle: string): string {
+  if (subtitle === "" || subtitle === null || typeof subtitle === "undefined") {
+    return title;
+  } else {
+    return `${title}: ${subtitle}`;
+  }
+}
+
+export function cleanListTypes(arr: string[]): string[] {
+  const list: string[] = [];
+  arr.forEach(({ attributes: project }) => {
+    const label = trim(project.label);
+    if (label.length) {
+      list.push(label);
+    }
+  });
+  return list.reverse();
+}
+
+export function createDescription(intro: string): string {
+  return truncate(intro, { length: 150, omission: "…" });
 }
