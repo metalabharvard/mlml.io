@@ -1,4 +1,4 @@
-languageCode = "en-us"
+languageCode = "en-US"
 theme = ["hugo-cloak-email"]
 buildFuture = true
 uglyURLs = true
