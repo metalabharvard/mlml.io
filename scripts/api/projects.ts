@@ -91,6 +91,17 @@ const fetchProjects = async () => {
         // Tags used for Open Graph
       };
 
+      [
+        "collaborators",
+        "funders",
+        "projects",
+        "membersTwitter",
+        "images",
+        "categories",
+      ].forEach((key) => {
+        frontMatter[key].length === 0 && delete frontMatter[key];
+      });
+
       // Create a Markdown file for each project
       writeToMarkdown(
         `${FOLDER}/${project.slug}`,
