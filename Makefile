@@ -31,6 +31,9 @@ events:
 members:
 	cd $(p); go run members.go
 
+members_ts:
+	bun $(p)/members.ts
+
 meta:
 	#cd $(p); go run meta.go
 	bun $(p)/meta.ts

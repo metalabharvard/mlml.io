@@ -81,6 +81,14 @@ export function addIndexPage(id: string, str: string) {
   writeToMarkdown(`host/${id}/_index`, frontMatter);
 }
 
+export function imageMaxWidth(url: string): string {
+  // We limit the width of the image to 2000 pixels in height and width
+  return url.replace(
+    "upload/",
+    "upload/c_limit,w_2000,h_2000/",
+  );
+}
+
 export function convertToPreviewImage(url: string): string {
   // This is for the social media preview
   let str: string = url.replace(
@@ -107,6 +115,16 @@ export function cropFeatureImage(url: string): string {
   return url.replace(
     "upload/",
     "upload/ar_21:9,c_crop/",
+  );
+}
+
+export function convertGrayscale(url: string): string {
+  if (!Boolean(url)) {
+    return ''
+  }
+  return url.replace(
+    "upload/",
+    "upload/e_grayscale/",
   );
 }
 
@@ -204,7 +222,7 @@ export function trim(str: string | undefined): string {
 export function checkIfRelationsExist(arr: string[], obj: object): void {
   arr.forEach((relation) => {
     if (!obj.hasOwnProperty(relation)) {
-      console.log(`The relation ${relation} does not exist in the object.`);
+      console.log(`The relation ${relation} does not exist in the object. You might need to change the access in Strapi.`);
     }
   });
 }
@@ -245,7 +263,6 @@ export function cleanList(arr: string[], key: string = "label"): ListEntry[] {
   arr.forEach(({ attributes: project }) => {
     const label = trim(project[key]);
     const slug = trim(project.slug);
-    console.log({ project, label, slug, key });
     if (label.length && slug.length) {
       list.push({ label, slug });
     }
@@ -330,13 +347,16 @@ export function createDescription(intro: string): string {
 }
 
 const IMAGES_SIZES = ['large', 'medium', 'small', 'thumbnail']
-export function getImage(path, { isFeature } = {isFeature: false}) {
+export function getImage(path, { isFeature, isGrayscale } = {isFeature: false, isGrayscale: false}) {
   if(typeof path === 'undefined' || !Boolean(path)) {
     return undefined;
   }
   let url = path.url;
   if (isFeature) {
     url = cropFeatureImage(url)
+  }
+  if (isGrayscale) {
+    url = convertGrayscale(url)
   }
   const obj = {
     url,
