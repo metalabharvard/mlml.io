@@ -1,6 +1,6 @@
 import axios from "axios";
 import * as yaml from "js-yaml";
-import { truncate } from "lodash";
+import { truncate, set } from "lodash";
 
 import fs from "node:fs/promises";
 import path from "node:path";
@@ -58,6 +58,10 @@ export async function fetchSingleFromStrapi(
 // This function is used by fetchMultiFromStrapi and fetchSingleFromStrapi
 export async function fetchFromStrapi(endpoint: string, params: string = "") {
   console.log(`Fetching ${endpoint} from Strapi with params: ${params}`);
+  if (typeof process.env.STRAPI_URL === 'undefined') {
+    console.warn(`STRAPI_URL is not set`);
+  }
+  console.log(`${process.env.STRAPI_URL}`)
   const response = await axios.get(
     `${process.env.STRAPI_URL}/api/${endpoint}?${params}`,
   );
@@ -94,6 +98,44 @@ export function convertToLogo(url: string): string {
   // Logos can only be static graphics
   str = str.replace(".gif", ".jpg");
   return str;
+}
+
+export function cropFeatureImage(url: string): string {
+  if (!Boolean(url)) {
+    return ''
+  }
+  return url.replace(
+    "upload/",
+    "upload/ar_21:9,c_crop/",
+  );
+}
+
+export function convertToFeatureImage(path) {
+  return getImage(path, { isFeature: true })
+}
+
+export function createFeatureImage(cover, header, preview) {
+  if (cover?.url) {
+    return convertToFeatureImage(cover)
+  }
+  if (header?.url) {
+    return convertToFeatureImage(header)
+  }
+  if (preview?.url) {
+    return convertToFeatureImage(preview)
+  }
+}
+
+export function createHeaderImage(preview, cover, header) {
+  if (header?.url) {
+    return getImage(header)
+  }
+  if (preview?.url) {
+    return getImage(preview)
+  }
+  if (cover?.url) {
+    return getImage(cover)
+  }
 }
 
 export function createPreviewImage(preview: string, cover: string): string[] {
@@ -211,19 +253,28 @@ export function cleanList(arr: string[], key: string = "label"): ListEntry[] {
   return list;
 }
 
-type Member = {
-  name: string;
-  slug: string;
-  twitter: string;
+interface Member {
+  attributes: {
+    Name: string;
+    slug: string;
+    twitter: string;
+  }
 };
-export function cleanListMembers(arr: string[]): Member[] {
+export function cleanListMembers(arr: Member[]): Member[] {
   const list: Member[] = [];
-  arr.forEach(({ attributes: project }) => {
-    const label = trim(project.Name);
-    const slug = trim(project.slug);
-    const twitter = trim(project.twitter);
+  arr.forEach(({ attributes: member }) => {
+    const label = trim(member.Name);
+    const slug = trim(member.slug);
+    const twitter = trim(member.twitter);
     if (label.length && slug.length) {
-      list.push({ label, slug, twitter });
+      const obj = {
+        label,
+        slug
+      }
+      if (Boolean(twitter)) {
+        obj['twitter'] = twitter;
+      }
+      list.push(obj);
     }
   });
   return list;
@@ -276,4 +327,38 @@ export function cleanListTypes(arr: string[]): string[] {
 
 export function createDescription(intro: string): string {
   return truncate(intro, { length: 150, omission: "…" });
+}
+
+const IMAGES_SIZES = ['large', 'medium', 'small', 'thumbnail']
+export function getImage(path, { isFeature } = {isFeature: false}) {
+  if(typeof path === 'undefined' || !Boolean(path)) {
+    return undefined;
+  }
+  let url = path.url;
+  if (isFeature) {
+    url = cropFeatureImage(url)
+  }
+  const obj = {
+    url,
+    width: path.width,
+    height: path.height,
+    ext: path.ext,
+    mime: path.mime,
+  }
+  IMAGES_SIZES.forEach(size => {
+    if (path.formats?.[size]) {
+      let url = path.formats[size].url;
+      if (isFeature) {
+        url = cropFeatureImage(url)
+      }
+      set(obj, ['formats', size], {
+        url,
+        ext: path.formats[size].ext,
+        width: path.formats[size].width,
+        height: path.formats[size].height
+      })
+    }
+  })
+
+  return obj;
 }

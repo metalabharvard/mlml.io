@@ -1,3 +1,5 @@
+import { trim } from "./utils";
+
 function getDateYear(date: Date): string {
   return date.getFullYear().toString();
 }
@@ -23,7 +25,7 @@ function parseDate(dateStr: string): Date {
 }
 
 export function createTimeString(start: string, end: string): string {
-  if (start !== "" && end !== "") {
+  if (start !== "" && end !== "" && start != null && end != null) {
     const s = parseDate(start);
     const e = parseDate(end);
     if (getDateFull(s) === getDateFull(e)) {
@@ -35,10 +37,10 @@ export function createTimeString(start: string, end: string): string {
         return `${getDatePrint(s)}&ensp;–&ensp;${getDatePrint(e)}`;
       }
     }
-  } else if (start !== "") {
+  } else if (start !== "" && start != null) {
     const s = parseDate(start);
     return `Since ${getDatePrint(s)}`;
-  } else if (end !== "") {
+  } else if (end !== "" && end != null) {
     const e = parseDate(end);
     return getDatePrint(e);
   } else {
@@ -48,6 +50,42 @@ export function createTimeString(start: string, end: string): string {
 
 export function getMembersTwitter(members: any[]): string[] {
   return members
-    .filter((member) => member.twitter)
-    .map((member) => member.twitter);
+    .filter(({attributes: member}) => member.twitter)
+    .map(({attributes: member}) => member.twitter);
+}
+
+interface Keyword {
+  attributes: {
+    keyword: string;
+  }
+
+}
+
+interface Type {
+  attributes: {
+    label: string;
+  }
+}
+
+export function createTags(keywords: Keyword[] = [], types: Type[] = []): string[] {
+    const keys: Record<string, boolean> = {};
+    const tags: string[] = []; // This is used to store the list of unique entries
+
+    keywords.forEach(({attributes: keyword}) => {
+        const tag = trim(keyword.keyword);
+        const key = tag.toLowerCase(); // Lowercase to compare them
+        if (key.length && !keys[key]) {
+            keys[key] = true;
+            tags.push(tag);
+        }
+    });
+    types.forEach(({attributes: type}) => {
+        const tag = trim(type.label);
+        const key = tag.toLowerCase(); // Lowercase to compare them
+        if (key.length && !keys[key]) {
+            keys[key] = true;
+            tags.push(tag);
+        }
+    });
+    return tags;
 }
