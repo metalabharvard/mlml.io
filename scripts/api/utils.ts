@@ -58,10 +58,10 @@ export async function fetchSingleFromStrapi(
 // This function is used by fetchMultiFromStrapi and fetchSingleFromStrapi
 export async function fetchFromStrapi(endpoint: string, params: string = "") {
   console.log(`Fetching ${endpoint} from Strapi with params: ${params}`);
-  if (typeof process.env.STRAPI_URL === 'undefined') {
+  if (typeof process.env.STRAPI_URL === "undefined") {
     console.warn(`STRAPI_URL is not set`);
   }
-  console.log(`${process.env.STRAPI_URL}`)
+  console.log(`${process.env.STRAPI_URL}`);
   const response = await axios.get(
     `${process.env.STRAPI_URL}/api/${endpoint}?${params}`,
   );
@@ -83,10 +83,7 @@ export function addIndexPage(id: string, str: string) {
 
 export function imageMaxWidth(url: string): string {
   // We limit the width of the image to 2000 pixels in height and width
-  return url.replace(
-    "upload/",
-    "upload/c_limit,w_2000,h_2000/",
-  );
+  return url.replace("upload/", "upload/c_limit,w_2000,h_2000/");
 }
 
 export function convertToPreviewImage(url: string): string {
@@ -110,49 +107,50 @@ export function convertToLogo(url: string): string {
 
 export function cropFeatureImage(url: string): string {
   if (!Boolean(url)) {
-    return ''
+    return "";
   }
-  return url.replace(
-    "upload/",
-    "upload/ar_21:9,c_crop/",
-  );
+  return url.replace("upload/", "upload/ar_21:9,c_crop/");
 }
 
 export function convertGrayscale(url: string): string {
   if (!Boolean(url)) {
-    return ''
+    return "";
   }
-  return url.replace(
-    "upload/",
-    "upload/e_grayscale/",
-  );
+  return url.replace("upload/", "upload/e_grayscale/");
+}
+
+export function convertMaxWidth(url: string, width: number = 2000): string {
+  if (!Boolean(url)) {
+    return "";
+  }
+  return url.replace("upload/", `upload/c_limit,w_${width},h_${width}/`);
 }
 
 export function convertToFeatureImage(path) {
-  return getImage(path, { isFeature: true })
+  return getImage(path, { isFeature: true });
 }
 
 export function createFeatureImage(cover, header, preview) {
   if (cover?.url) {
-    return convertToFeatureImage(cover)
+    return convertToFeatureImage(cover);
   }
   if (header?.url) {
-    return convertToFeatureImage(header)
+    return convertToFeatureImage(header);
   }
   if (preview?.url) {
-    return convertToFeatureImage(preview)
+    return convertToFeatureImage(preview);
   }
 }
 
 export function createHeaderImage(preview, cover, header) {
   if (header?.url) {
-    return getImage(header)
+    return getImage(header);
   }
   if (preview?.url) {
-    return getImage(preview)
+    return getImage(preview);
   }
   if (cover?.url) {
-    return getImage(cover)
+    return getImage(cover);
   }
 }
 
@@ -222,7 +220,9 @@ export function trim(str: string | undefined): string {
 export function checkIfRelationsExist(arr: string[], obj: object): void {
   arr.forEach((relation) => {
     if (!obj.hasOwnProperty(relation)) {
-      console.log(`The relation ${relation} does not exist in the object. You might need to change the access in Strapi.`);
+      console.log(
+        `The relation ${relation} does not exist in the object. You might need to change the access in Strapi.`,
+      );
     }
   });
 }
@@ -275,8 +275,8 @@ interface Member {
     Name: string;
     slug: string;
     twitter: string;
-  }
-};
+  };
+}
 export function cleanListMembers(arr: Member[]): Member[] {
   const list: Member[] = [];
   arr.forEach(({ attributes: member }) => {
@@ -286,10 +286,10 @@ export function cleanListMembers(arr: Member[]): Member[] {
     if (label.length && slug.length) {
       const obj = {
         label,
-        slug
-      }
+        slug,
+      };
       if (Boolean(twitter)) {
-        obj['twitter'] = twitter;
+        obj["twitter"] = twitter;
       }
       list.push(obj);
     }
@@ -346,17 +346,35 @@ export function createDescription(intro: string): string {
   return truncate(intro, { length: 150, omission: "…" });
 }
 
-const IMAGES_SIZES = ['large', 'medium', 'small', 'thumbnail']
-export function getImage(path, { isFeature, isGrayscale } = {isFeature: false, isGrayscale: false}) {
-  if(typeof path === 'undefined' || !Boolean(path)) {
+const IMAGES_SIZES = ["large", "medium", "small", "thumbnail"];
+export function getImage(
+  path,
+  { isFeature, isGrayscale, isImageMaxWidth } = {
+    isFeature: false,
+    isGrayscale: false,
+    isImageMaxWidth: false,
+  },
+) {
+  if (typeof path === "undefined" || !Boolean(path)) {
     return undefined;
+  }
+  // This fixes the path for nested objects
+  if (path.hasOwnProperty("data")) {
+    path = path.data;
+  }
+  if (path.hasOwnProperty("attributes")) {
+    path = path.attributes;
   }
   let url = path.url;
   if (isFeature) {
-    url = cropFeatureImage(url)
+    url = cropFeatureImage(url);
   }
   if (isGrayscale) {
-    url = convertGrayscale(url)
+    url = convertGrayscale(url);
+  }
+  // This is only applied for the main image and not the formats
+  if (isImageMaxWidth) {
+    url = convertMaxWidth(url);
   }
   const obj = {
     url,
@@ -364,21 +382,24 @@ export function getImage(path, { isFeature, isGrayscale } = {isFeature: false, i
     height: path.height,
     ext: path.ext,
     mime: path.mime,
-  }
-  IMAGES_SIZES.forEach(size => {
+  };
+  IMAGES_SIZES.forEach((size) => {
     if (path.formats?.[size]) {
       let url = path.formats[size].url;
       if (isFeature) {
-        url = cropFeatureImage(url)
+        url = cropFeatureImage(url);
       }
-      set(obj, ['formats', size], {
+      if (isGrayscale) {
+        url = convertGrayscale(url);
+      }
+      set(obj, ["formats", size], {
         url,
         ext: path.formats[size].ext,
         width: path.formats[size].width,
-        height: path.formats[size].height
-      })
+        height: path.formats[size].height,
+      });
     }
-  })
+  });
 
   return obj;
 }

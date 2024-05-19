@@ -1,28 +1,23 @@
 import { sortBy } from "lodash";
 
 import {
-    writeToMarkdown,
-    fetchMultiFromStrapi, takeLatestDate,
-    selectLastDate,
-    cleanLinkList,
-    cleanDirectory,
-    trim,
-    checkIfRelationsExist,
-    getRelatedProjects,
-    fixExternalLink,
-    cleanList,
-    cleanListMembers,
-    sortByName,
-    createPreviewImage,
-    createFullTitle,
-    cleanListTypes,
-    createDescription,
-    getImage,
-    createFeatureImage,
-    createHeaderImage
+  writeToMarkdown,
+  fetchMultiFromStrapi,
+  cleanDirectory,
+  trim,
+  checkIfRelationsExist,
+  fixExternalLink,
+  cleanList,
+  sortByName,
+  getImage,
 } from "./utils";
 
-import { cleanListRoles, calculateRoleRank, createRoleString, checkFounder } from './utils-members'
+import {
+  cleanListRoles,
+  calculateRoleRank,
+  createRoleString,
+  checkFounder,
+} from "./utils-members";
 
 const FOLDER = "members";
 
@@ -38,11 +33,13 @@ const fetchProjects = async () => {
     members.forEach(({ attributes: member }) => {
       checkIfRelationsExist(["roles"], member);
 
-      const roles = sortBy(cleanListRoles(member.roles.data), 'position');
+      const roles = sortBy(cleanListRoles(member.roles.data), "position");
 
       const rank = member.isAlumnus ? 99 : calculateRoleRank(roles);
 
-      const role_string = member.isAlumnus ? "Alumnus" : createRoleString(roles)
+      const role_string = member.isAlumnus
+        ? "Alumnus"
+        : createRoleString(roles);
 
       const isFounder = checkFounder(roles);
 
@@ -51,6 +48,7 @@ const fetchProjects = async () => {
       const frontmatter = {
         name: trim(member.Name),
         title: trim(member.Name),
+        roles,
         isAlumnus: member.isAlumnus,
         isFounder,
         rank,
@@ -67,22 +65,38 @@ const fetchProjects = async () => {
         slug: member.slug,
         events: sortByName(cleanList(member.events.data, "title")),
         projects: sortByName(cleanList(member.projects.data, "title")),
-        picture: getImage(member.picture, { isGrayscale: true, isFeature: false })
-      }
+        picture: getImage(member.picture.data, {
+          isGrayscale: true,
+          isFeature: false,
+          isImageMaxWidth: true,
+        }),
+      };
 
-      const deleteIfEmpty = [
-        "projects",
-        "events"
-      ]
+      const deleteIfEmpty = ["projects", "events", "roles"];
 
       deleteIfEmpty.forEach((key) => {
-        frontmatter.hasOwnProperty(key) && Array.isArray(frontmatter[key]) && frontmatter[key].length === 0 && delete frontmatter[key];
+        frontmatter.hasOwnProperty(key) &&
+          Array.isArray(frontmatter[key]) &&
+          frontmatter[key].length === 0 &&
+          delete frontmatter[key];
       });
 
-      const deleteKeysIfInvalid = ["mastodon", "instagram", "website", "email", "start", "intro"];
+      const deleteKeysIfInvalid = [
+        "mastodon",
+        "instagram",
+        "website",
+        "email",
+        "start",
+        "intro",
+        "twitter",
+      ];
       deleteKeysIfInvalid.forEach((key: string) => {
-        frontmatter.hasOwnProperty(key) && (typeof frontmatter[key] === "undefined" || frontmatter[key] === '' || frontmatter[key] == null) && delete frontmatter[key];
-      })
+        frontmatter.hasOwnProperty(key) &&
+          (typeof frontmatter[key] === "undefined" ||
+            frontmatter[key] === "" ||
+            frontmatter[key] == null) &&
+          delete frontmatter[key];
+      });
 
       // Create a Markdown file for each project
       writeToMarkdown(

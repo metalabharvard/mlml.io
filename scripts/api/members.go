@@ -117,7 +117,7 @@ func main() {
     }
 
     element.IsFounder = isFounder(element.Roles)
-    
+
     element.Name = utils.Trim(element.Name)
     element.Title = utils.Trim(element.Name)
 
