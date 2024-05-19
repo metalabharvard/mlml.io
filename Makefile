@@ -1,7 +1,5 @@
 # source folder
 p = scripts/api
-# target folder
-# t = binaries
 
 precompile:
 	bun run svelte:prod
