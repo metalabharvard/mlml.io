@@ -62,7 +62,6 @@ const fetchProjects = async () => {
         website: fixExternalLink(member.website),
         instagram: trim(member.instagram),
         mastodon: trim(member.mastodon),
-
         start: member.start,
         lastmod: member.updatedAt,
         date: member.createdAt,
@@ -108,7 +107,7 @@ const fetchProjects = async () => {
         frontmatter,
         member.description,
       );
-      console.log(`Processed ${member.Name}`);
+      // console.log(`Processed ${member.Name}`);
     });
 
     console.log(`${members.length} members processed.`);
@@ -116,7 +115,6 @@ const fetchProjects = async () => {
     console.error("Error fetching projects:", error);
   }
 
-  console.log({ lastmod });
   writeLastMod(FOLDER, lastmod, "Members");
 };
 
