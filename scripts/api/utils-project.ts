@@ -1,22 +1,22 @@
 import { trim } from "./utils";
 
-function getDateYear(date: Date): string {
+export function getDateYear(date: Date): string {
   return date.getFullYear().toString();
 }
 
-function getDateMonth(date: Date): string {
+export function getDateMonth(date: Date): string {
   return date.toLocaleString("default", { month: "short" });
 }
 
-function getDateFull(date: Date): string {
+export function getDateFull(date: Date): string {
   return `${date.getFullYear()}-${getDateMonth(date)}`;
 }
 
-function getDatePrint(date: Date): string {
+export function getDatePrint(date: Date): string {
   return date.toLocaleString("default", { month: "long", year: "numeric" });
 }
 
-function getDateMonthPrint(date: Date): string {
+export function getDateMonthPrint(date: Date): string {
   return date.toLocaleString("default", { month: "long" });
 }
 
