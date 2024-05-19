@@ -75,12 +75,12 @@ const fetchProjects = async () => {
           project.cover?.data?.attributes,
           project.header?.data?.attributes,
         ),
-        noHeaderImage: Boolean(project.noHeaderImage),
         feature: createFeatureImage(
           project.cover?.data?.attributes,
           project.header?.data?.attributes,
           project.preview?.data?.attributes,
         ),
+        noHeaderImage: Boolean(project.noHeaderImage),
         gallery: (project.gallery?.data ?? []).map(({ attributes: image }) =>
           getImage(image),
         ),
