@@ -1,5 +1,4 @@
 import {
-  writeToMarkdown,
   fetchSingleFromStrapi,
   writeToJSON,
   addIndexPage,
