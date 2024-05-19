@@ -7,7 +7,7 @@ import {
   cleanDirectory,
   trim,
   checkIfRelationsExist,
-  getRelatedProjects,
+  getRelatedEntries,
   fixExternalLink,
   cleanList,
   cleanListMembers,
@@ -20,13 +20,10 @@ import {
   createFeatureImage,
   createHeaderImage,
   writeLastMod,
+  getMembersTwitter,
 } from "./utils";
 
-import {
-  createTimeString,
-  getMembersTwitter,
-  createTags,
-} from "./utils-project";
+import { createTimeString, createTags } from "./utils-project";
 
 const FOLDER = "projects";
 
@@ -70,7 +67,7 @@ const fetchProjects = async () => {
         events: sortByName(cleanList(project.events.data, "title")),
         members: sortByName(cleanListMembers(project.members.data), "label"),
         projects: sortByName(
-          getRelatedProjects(project.topics.data, projects, project.slug),
+          getRelatedEntries(project.topics.data, projects, project.slug),
         ),
         cover: getImage(project.cover?.data?.attributes),
         header: createHeaderImage(
