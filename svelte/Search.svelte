@@ -3,7 +3,6 @@
   import MiniSearch from 'minisearch';
   import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
   import trim from 'lodash/trim';
-  // import uniq from 'lodash/uniq';
   import get from 'lodash/get';
   import truncate from 'lodash/truncate';
 
@@ -13,7 +12,6 @@
   let resultsEvents = []; // Filtered items
   let resultsProjects = []; // Filtered items
   let hasTerm = false;
-  // let pageHeader;
   let isOpen = false;
   let tabIndex = 0;
   let isSearchBusy = false;
@@ -46,6 +44,8 @@
     fields: ['label', 'intro', 'links', 'members', 'projects', 'events', 'location', 'date', 'collaborators', 'subtitle'],
     searchOptions
   });
+
+
 
   // $: resultsTotalLength = resultsMembers.length + resultsEvents.length + resultsProjects.length
 
@@ -166,7 +166,6 @@
   on:input={handleInput}
   on:keydown={handleKeyDownInput}
   on:blur={handleBlur}
-  role="search"
   class:hasTerm={hasTerm}
   aria-hidden={Boolean(!isOpen)}
   spellcheck="false">
@@ -205,7 +204,6 @@
         <div role="feed" aria-busy="{ isSearchBusy }" aria-labelledby="results-projects">
           {#each results as result, i}
           <a
-            role="article"
             href="/{ path }/{ get(result, 'id') }"
             aria-posinset="{ i + 1 }"
             aria-setsize="{ results.length }"

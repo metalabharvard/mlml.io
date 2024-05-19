@@ -1,8 +1,8 @@
 {
- "title": "metaLAB (at) Harvard \u0026 FU Berlin",
+ "title": "metaLAB (at) Harvard & FU Berlin",
  "baseURL": "https://mlml.io",
  "params": {
-  "title": "metaLAB (at) Harvard \u0026 FU Berlin",
+  "title": "metaLAB (at) Harvard & FU Berlin",
   "description": "We are an idea foundry, knowledge-design lab, and production studio experimenting in the networked arts and humanities.",
   "homeIntro": "We are an idea foundry, knowledge-design lab, and production studio experimenting in the networked arts and humanities.",
   "homeLink": "Learn more",
@@ -46,8 +46,6 @@
    "memberAlumnus": "Alumnus",
    "ariaTimezoneBoston": "Click to change timezone to Boston",
    "ariaTimezoneBerlin": "Click to change timezone to Berlin",
-   "timezoneBostonAbbr": "EDT",
-   "timezoneBerlinAbbr": "CEST",
    "ariaProfilePicture": "Profile picture of %s",
    "ariaGeneralPicture": "Picture of %s",
    "externalProject": "Visit project",
@@ -62,17 +60,21 @@
    "siteEditedText": "Last updated",
    "siteEditedFormat": "January 2006"
   },
+  "maxNumberFeaturedProjects": 5,
   "Images": [
    "https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1645807663/mlml_preview_d282308b71.jpg"
   ],
-  "logo": "https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1:1,c_crop/v1645807663/mlml_preview_d282308b71.jpg",
-  "maxNumberFeaturedProjects": 5
+  "logo": "https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1:1,c_crop/v1645807663/mlml_preview_d282308b71.jpg"
  },
  "social": {
   "twitter": "metalabharvard",
   "github": "metalabharvard",
+  "vimeo": null,
+  "youtube": null,
+  "soundcloud": null,
   "facebook": "metalabharvard",
   "linkedin": "company/metalab-at-harvard",
-  "instagram": "metalabharvard"
+  "instagram": "metalabharvard",
+  "mastodon": null
  }
 }

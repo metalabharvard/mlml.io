@@ -135,10 +135,13 @@ func main() {
     element.MembersTwitter = utils.GetMembersTwitter(element.Members)
 
     element.Images = utils.CreatePreviewImage(element.Preview.Url, element.Cover.Url)
+
     element.Header = utils.CreateHeaderImage(element.Header, element.Cover, element.Preview)
+
     if element.IsFeatured {
       element.Feature = utils.CreateFeatureImage(element.Cover, element.Header, element.Preview)
     }
+    // TODO
     element.Preview = stru.Picture{}
 
     element.Fulltitle = utils.CreateFulltitle(element.Title, element.Subtitle)
@@ -176,7 +179,7 @@ func main() {
   }
 
   utils.WriteLastMod(FOLDER, Lastmod, "Projects")
-  
+
   println(fmt.Sprintf("%d elements added", len(responseObject)))
   println("Requesting projects finished")
 }

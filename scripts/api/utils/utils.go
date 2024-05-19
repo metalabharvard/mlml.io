@@ -115,18 +115,22 @@ func GetRelatedEvents(topics []stru.Topic, allEvents []stru.ResponseEvents, slug
 func GetRelatedProjects(topics []stru.Topic, allProjects []stru.ResponseProjects, slug string) []stru.Project {
   var list []stru.Project
   for _, t := range topics {
+  if t.Topic == "" {
     for _, a := range allProjects {
       for _, s := range a.Topics {
         if s.Topic == t.Topic && a.Slug != slug {
+        	// println(fmt.Sprintf("Found related project: %s, Topic: %s, Slug: %s", a.Title, t.Topic, slug))
           list = append(list, (stru.Project{Trim(a.Title), a.Slug}))
         }
       }
     }
   }
+  }
   return list
 }
 
 func CleanFolder(folder string) {
+	println(fmt.Sprintf("Removing all files in “%s”", folder))
   err := os.RemoveAll(folder)
   if err != nil {
     log.Fatal(err)
@@ -259,6 +263,7 @@ func CleanEvents(events []stru.Event) []stru.Event {
 func CleanAliases(aliases []stru.Aliases) []string {
   var list []string
   for _, c := range aliases {
+  	fmt.Print(fmt.Sprintf("Alias: %s", c.Aliases))
     list = append(list, Trim(c.Aliases))
   }
   return list
