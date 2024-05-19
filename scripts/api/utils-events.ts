@@ -5,7 +5,7 @@ type EventUnprocessed = {
   start_date_time?: string;
   start_time_utc?: string;
   end_time_utc?: string;
-  timezone?: string;
+  Timezone?: string;
   end_date?: string;
   end_date_time?: string;
   start_time?: string;
@@ -74,7 +74,7 @@ export function convertEventTimes(event: EventUnprocessed): EventProcessed {
     let loc = locBoston;
     let tzid = "America/New_York";
 
-    if (event.timezone === "Berlin") {
+    if (event.Timezone === "Berlin") {
       loc = locBerlin;
       tzid = "Europe/Berlin";
     }
@@ -86,18 +86,18 @@ export function convertEventTimes(event: EventUnprocessed): EventProcessed {
       te = moment(ts).add(1, "hours"); // Default length of an event is one hour
     }
 
-    obj.timezone = event.timezone;
+    obj.timezone = event.Timezone;
 
     obj.timezoneAbbr = {
       berlin: ts.tz(locBerlin).format("z"),
       boston: ts.tz(locBoston).format("z"),
     };
 
-    obj.start_time = ts.format();
-    obj.end_time = te.format();
+    obj.start_time = ts.tz(loc).format();
+    obj.end_time = te.tz(loc).format();
 
-    obj.start_time_utc = ts.tz(locUTC).format();
-    obj.end_time_utc = te.tz(locUTC).format();
+    obj.start_time_utc = `${ts.tz(locUTC).format("YYYYMMDDTHHmmss")}Z`;
+    obj.end_time_utc = `${te.tz(locUTC).format("YYYYMMDDTHHmmss")}Z`;
 
     // Zuweisung der umgerechneten Zeiten zu den Standorten
     obj.start_time_locations = {
