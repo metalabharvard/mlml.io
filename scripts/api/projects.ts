@@ -1,26 +1,32 @@
 import {
-    writeToMarkdown,
-    fetchMultiFromStrapi, takeLatestDate,
-    selectLastDate,
-    cleanLinkList,
-    cleanDirectory,
-    trim,
-    checkIfRelationsExist,
-    getRelatedProjects,
-    fixExternalLink,
-    cleanList,
-    cleanListMembers,
-    sortByName,
-    createPreviewImage,
-    createFullTitle,
-    cleanListTypes,
-    createDescription,
-    getImage,
-    createFeatureImage,
-    createHeaderImage
+  writeToMarkdown,
+  fetchMultiFromStrapi,
+  takeLatestDate,
+  selectLastDate,
+  cleanLinkList,
+  cleanDirectory,
+  trim,
+  checkIfRelationsExist,
+  getRelatedProjects,
+  fixExternalLink,
+  cleanList,
+  cleanListMembers,
+  sortByName,
+  createPreviewImage,
+  createFullTitle,
+  cleanListTypes,
+  createDescription,
+  getImage,
+  createFeatureImage,
+  createHeaderImage,
+  writeLastMod,
 } from "./utils";
 
-import { createTimeString, getMembersTwitter, createTags } from "./utils-project";
+import {
+  createTimeString,
+  getMembersTwitter,
+  createTags,
+} from "./utils-project";
 
 const FOLDER = "projects";
 
@@ -42,12 +48,12 @@ const fetchProjects = async () => {
         title: trim(project.title),
         subtitle: trim(project.subtitle),
         fulltitle: createFullTitle(project.title, project.subtitle),
-        intro: project.intro ?? '',
+        intro: project.intro ?? "",
         start: project.start,
-        end: project.end ?? '',
+        end: project.end ?? "",
         datestring: createTimeString(project.start, project.end),
         description: createDescription(project.intro),
-        keyword: tags.join(','),
+        keyword: tags.join(","),
         tags: tags,
         location: trim(project.location),
         host: trim(project.host),
@@ -68,16 +74,26 @@ const fetchProjects = async () => {
           getRelatedProjects(project.topics.data, projects, project.slug),
         ),
         cover: getImage(project.cover?.data?.attributes),
-        header: createHeaderImage(project.preview?.data?.attributes, project.cover?.data?.attributes, project.header?.data?.attributes),
+        header: createHeaderImage(
+          project.preview?.data?.attributes,
+          project.cover?.data?.attributes,
+          project.header?.data?.attributes,
+        ),
         noHeaderImage: Boolean(project.noHeaderImage),
-        feature: createFeatureImage(project.cover?.data?.attributes, project.header?.data?.attributes, project.preview?.data?.attributes),
-        gallery: (project.gallery?.data ?? []).map(({attributes: image}) => getImage(image)),
+        feature: createFeatureImage(
+          project.cover?.data?.attributes,
+          project.header?.data?.attributes,
+          project.preview?.data?.attributes,
+        ),
+        gallery: (project.gallery?.data ?? []).map(({ attributes: image }) =>
+          getImage(image),
+        ),
         funders: cleanLinkList(project.funders),
         members_twitter: getMembersTwitter(project.members.data),
         images: createPreviewImage(
           project.preview?.data?.attributes?.url,
           project.cover?.data?.attributes?.url,
-        )
+        ),
       };
 
       [
@@ -92,18 +108,24 @@ const fetchProjects = async () => {
         "links",
         "categories",
         "gallery",
-        "tags"
+        "tags",
       ].forEach((key) => {
-        frontMatter.hasOwnProperty(key) && Array.isArray(frontMatter[key]) && frontMatter[key].length === 0 && delete frontMatter[key];
+        frontMatter.hasOwnProperty(key) &&
+          Array.isArray(frontMatter[key]) &&
+          frontMatter[key].length === 0 &&
+          delete frontMatter[key];
       });
 
       if (!project.isFeatured) {
         delete frontMatter.feature;
       }
 
-      ["cover", "description", "keyword"].forEach(key => {
-        frontMatter.hasOwnProperty(key) && (typeof frontMatter[key] === "undefined" || frontMatter[key] === '') && delete frontMatter[key];
-      })
+      ["cover", "description", "keyword"].forEach((key) => {
+        frontMatter.hasOwnProperty(key) &&
+          (typeof frontMatter[key] === "undefined" ||
+            frontMatter[key] === "") &&
+          delete frontMatter[key];
+      });
 
       // Create a Markdown file for each project
       writeToMarkdown(
@@ -111,7 +133,7 @@ const fetchProjects = async () => {
         frontMatter,
         project.description,
       );
-      console.log(`Processed ${project.title}`);
+      // console.log(`Processed ${project.title}`);
     });
 
     console.log(`${projects.length} projects processed.`);
@@ -119,7 +141,7 @@ const fetchProjects = async () => {
     console.error("Error fetching projects:", error);
   }
 
-  console.log({ lastmod });
+  writeLastMod(FOLDER, lastmod, "Projects");
 };
 
 fetchProjects();
