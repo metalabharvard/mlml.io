@@ -36,13 +36,13 @@ const fetchProjects = async () => {
   console.log("Requesting projects");
   try {
     await cleanDirectory(FOLDER);
-    const projects = await fetchMultiFromStrapi("projects", "populate=*"); // &filters[slug][$eq]=waves
+    const projects = await fetchMultiFromStrapi("projects", "populate=*"); //
 
     projects.forEach(({ attributes: project }) => {
       checkIfRelationsExist(["topics", "events", "members", "types"], project);
       lastmod = takeLatestDate(lastmod, new Date(project.updatedAt));
 
-      const tags = createTags(project.keywords?.data, project.types?.data);
+      const tags = createTags(project.keywords, project.types?.data);
 
       const frontMatter = {
         title: trim(project.title),
@@ -65,11 +65,10 @@ const fetchProjects = async () => {
         slug: project.slug,
         categories: cleanListTypes(project.types.data),
         collaborators: cleanLinkList(project.collaborators),
+        press_articles: cleanLinkList(project.press_articles),
         links: cleanLinkList(project.links),
         events: sortByName(cleanList(project.events.data, "title")),
         members: sortByName(cleanListMembers(project.members.data), "label"),
-        press_articles: cleanLinkList(project.press_articles),
-
         projects: sortByName(
           getRelatedProjects(project.topics.data, projects, project.slug),
         ),
@@ -100,7 +99,6 @@ const fetchProjects = async () => {
         "collaborators",
         "funders",
         "projects",
-        "membersTwitter",
         "images",
         "categories",
         "events",
@@ -109,6 +107,7 @@ const fetchProjects = async () => {
         "categories",
         "gallery",
         "tags",
+        "members_twitter",
       ].forEach((key) => {
         frontMatter.hasOwnProperty(key) &&
           Array.isArray(frontMatter[key]) &&

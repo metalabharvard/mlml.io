@@ -252,18 +252,23 @@ export function getRelatedProjects(
   slug: string,
 ): ListEntry[] {
   const list: ListEntry[] = [];
-  topics.forEach((topic) => {
-    const topicLabel = topic.attributes.TopicLabel;
-    allProjects.forEach(({ attributes: project }) => {
-      if (
-        project.topics.data.find(
-          (t: Topic) => t.attributes.TopicLabel === topicLabel,
-        ) &&
-        project.Slug !== slug
-      ) {
-        list.push({ label: project.title, slug: project.slug });
-      }
-    });
+  topics.forEach(({ attributes: topic }) => {
+    // console.log(`Found topic ${topic.TopicLabel} in ${slug}`);
+    const topicLabel = topic.TopicLabel;
+    if (topicLabel !== "") {
+      allProjects.forEach(({ attributes: project }) => {
+        // console.log(`Searching for ${topicLabel} in ${project.title}`);
+        if (
+          project.topics.data.find(
+            ({ attributes: topic }: Topic) => topic.TopicLabel === topicLabel,
+          ) &&
+          project.Slug !== slug
+        ) {
+          // console.log(`Found ${topicLabel} in ${project.title}`);
+          list.push({ label: project.title, slug: project.slug });
+        }
+      });
+    }
   });
   return list;
 }
@@ -353,7 +358,7 @@ export function cleanListTypes(arr: string[]): string[] {
 }
 
 export function createDescription(intro: string): string {
-  return truncate(intro, { length: 150, omission: "…" });
+  return truncate(intro, { length: 160, omission: "…", separator: " " });
 }
 
 const IMAGES_SIZES = ["large", "medium", "small", "thumbnail"];

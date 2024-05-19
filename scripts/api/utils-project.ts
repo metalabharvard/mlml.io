@@ -50,42 +50,41 @@ export function createTimeString(start: string, end: string): string {
 
 export function getMembersTwitter(members: any[]): string[] {
   return members
-    .filter(({attributes: member}) => member.twitter)
-    .map(({attributes: member}) => member.twitter);
+    .filter(({ attributes: member }) => member.twitter)
+    .map(({ attributes: member }) => member.twitter);
 }
 
 interface Keyword {
-  attributes: {
-    keyword: string;
-  }
-
+  keyword: string;
 }
 
 interface Type {
   attributes: {
     label: string;
-  }
+  };
 }
 
-export function createTags(keywords: Keyword[] = [], types: Type[] = []): string[] {
-    const keys: Record<string, boolean> = {};
-    const tags: string[] = []; // This is used to store the list of unique entries
-
-    keywords.forEach(({attributes: keyword}) => {
-        const tag = trim(keyword.keyword);
-        const key = tag.toLowerCase(); // Lowercase to compare them
-        if (key.length && !keys[key]) {
-            keys[key] = true;
-            tags.push(tag);
-        }
-    });
-    types.forEach(({attributes: type}) => {
-        const tag = trim(type.label);
-        const key = tag.toLowerCase(); // Lowercase to compare them
-        if (key.length && !keys[key]) {
-            keys[key] = true;
-            tags.push(tag);
-        }
-    });
-    return tags;
+export function createTags(
+  keywords: Keyword[] = [],
+  types: Type[] = [],
+): string[] {
+  const keys: Record<string, boolean> = {};
+  const tags: string[] = []; // This is used to store the list of unique entries
+  keywords.forEach(({ keyword }) => {
+    const tag = trim(keyword);
+    const key = tag.toLowerCase(); // Lowercase to compare them
+    if (key.length && !keys[key]) {
+      keys[key] = true;
+      tags.push(tag);
+    }
+  });
+  types.forEach(({ attributes: type }) => {
+    const tag = trim(type.label);
+    const key = tag.toLowerCase(); // Lowercase to compare them
+    if (key.length && !keys[key]) {
+      keys[key] = true;
+      tags.push(tag);
+    }
+  });
+  return tags;
 }

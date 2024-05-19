@@ -115,13 +115,16 @@ func GetRelatedEvents(topics []stru.Topic, allEvents []stru.ResponseEvents, slug
 func GetRelatedProjects(topics []stru.Topic, allProjects []stru.ResponseProjects, slug string) []stru.Project {
   var list []stru.Project
   for _, t := range topics {
+  if t.Topic == "" {
     for _, a := range allProjects {
       for _, s := range a.Topics {
         if s.Topic == t.Topic && a.Slug != slug {
+        	// println(fmt.Sprintf("Found related project: %s, Topic: %s, Slug: %s", a.Title, t.Topic, slug))
           list = append(list, (stru.Project{Trim(a.Title), a.Slug}))
         }
       }
     }
+  }
   }
   return list
 }
