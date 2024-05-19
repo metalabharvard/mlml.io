@@ -36,7 +36,7 @@ const fetchProjects = async () => {
   console.log("Requesting projects");
   try {
     await cleanDirectory(FOLDER);
-    const projects = await fetchMultiFromStrapi("projects", "populate=*"); //
+    const projects = await fetchMultiFromStrapi("projects", "populate=*"); // &filters[slug][$eq]=artificial-worldviews
 
     projects.forEach(({ attributes: project }) => {
       checkIfRelationsExist(["topics", "events", "members", "types"], project);
