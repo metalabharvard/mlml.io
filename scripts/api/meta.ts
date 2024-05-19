@@ -45,9 +45,9 @@ const fetchMetaData = async () => {
           socialYouTubeTitle: responseObject.socialYouTubeTitle,
           socialMastodonTitle: responseObject.socialMastodonTitle,
           socialMetalabSelf: responseObject.socialMetalabSelf,
-          relatedMembers: responseObject.relatedMembers,
-          relatedProjects: responseObject.relatedProjects,
-          relatedEvents: responseObject.relatedEvents,
+          relatedMembers: responseObject.relatedMembers ?? "",
+          relatedProjects: responseObject.relatedProjects ?? "",
+          relatedEvents: responseObject.relatedEvents ?? "",
           relatedLabelMembers: responseObject.relatedLabelMembers,
           relatedLabelProjects: responseObject.relatedLabelProjects,
           relatedLabelEvents: responseObject.relatedLabelEvents,
@@ -92,8 +92,6 @@ const fetchMetaData = async () => {
         mastodon: responseObject.contact_mastodon,
       },
     };
-
-    console.log(responseObject.preview);
 
     if (
       responseObject.preview &&

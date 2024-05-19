@@ -38,7 +38,7 @@ members_ts:
 	bun $(p)/members.ts
 
 meta:
-	#cd $(p); go run meta.go
+	# cd $(p); go run meta.go
 	bun $(p)/meta.ts
 
 projects:
