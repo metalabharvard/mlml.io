@@ -28,6 +28,9 @@ about:
 events:
 	cd $(p); go run events.go
 
+events_ts:
+	bun $(p)/events.ts
+
 members:
 	cd $(p); go run members.go
 
