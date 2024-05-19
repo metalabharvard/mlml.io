@@ -119,15 +119,15 @@ build
 resources
 
 # Svelte
-assets/js/svelte.js
-assets/js/svelte.js.map
+# assets/js/svelte.js
+assets/index.html
 
-# config/config.json
+config/config.json
 .hugo_build.lock
 
 /public/
-/content/events/
-/content/members/
-/content/projects/
+#/content/events/
+#/content/members/
+#/content/projects/
 
 /blc/node_modules
