@@ -285,6 +285,20 @@ export function cleanList(arr: string[], key: string = "label"): ListEntry[] {
   return list;
 }
 
+type Alias = {
+  Aliases: string;
+};
+export function cleanAliases(arr: Alias[]): string[] {
+  const list: string[] = [];
+  arr.forEach(({ Aliases }) => {
+    const label = trim(Aliases);
+    if (label.length) {
+      list.push(label);
+    }
+  });
+  return list;
+}
+
 export function cleanTwitterHandle(handle: string): string {
   if (handle.startsWith("@")) {
     console.warn(`Twitter handle ${handle} starts with @. Removing it.`);
@@ -396,6 +410,10 @@ export function getImage(
   if (path.hasOwnProperty("attributes")) {
     path = path.attributes;
   }
+  if (!path.width || !path.height || !path.url) {
+    console.warn("The image path is missing width, height or url", path);
+    return false;
+  }
   let url = path.url;
   if (isFeature) {
     url = cropFeatureImage(url);
@@ -414,6 +432,12 @@ export function getImage(
     ext: path.ext,
     mime: path.mime,
   };
+  if (path.alternativeText) {
+    obj.alternativeText = path.alternativeText;
+  }
+  if (path.caption) {
+    obj.caption = path.caption;
+  }
   IMAGES_SIZES.forEach((size) => {
     if (path.formats?.[size]) {
       let url = path.formats[size].url;
@@ -433,4 +457,44 @@ export function getImage(
   });
 
   return obj;
+}
+
+interface Picture {
+  url: string;
+  height: number;
+  width: number;
+}
+
+export function checkImageDimensions(
+  image: Picture,
+  title: string,
+  location: string,
+): boolean {
+  if (
+    (image?.url?.length > 0 || location === "Gallery") &&
+    !(image.height > 1 && image.width > 1)
+  ) {
+    console.warn(
+      `${title} (${location}) has wrong dimensions (${image.height}px, ${image.width}px, URL: ${image.url})`,
+    );
+    return false;
+  }
+  return true;
+}
+
+export function checkGalleryDimensions(
+  arr: Picture[],
+  title: string,
+): Picture[] {
+  const res: Picture[] = [];
+  for (let element of arr) {
+    if (checkImageDimensions(element, title, "Gallery")) {
+      res.push(element);
+    } else {
+      console.warn(
+        `Removing image from gallery in ${title} because of wrong dimensions (${element.Height}px, ${element.Width}px, URL: ${element.url})`,
+      );
+    }
+  }
+  return res;
 }

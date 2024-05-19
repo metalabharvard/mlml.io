@@ -17,6 +17,8 @@ import {
   createHeaderImage,
   writeLastMod,
   getMembersTwitter,
+  checkImageDimensions,
+  cleanAliases,
 } from "./utils";
 
 import { convertEventTimes } from "./utils-events";
@@ -37,7 +39,7 @@ const fetchEvents = async () => {
 
       const times = convertEventTimes(event);
 
-      const frontMatter = {
+      const frontmatter = {
         title: trim(event.title),
         subtitle: trim(event.subtitle),
         fulltitle: createFullTitle(event.title, event.subtitle),
@@ -70,6 +72,9 @@ const fetchEvents = async () => {
           event.preview?.data?.attributes,
         ),
         noHeaderImage: Boolean(event.noHeaderImage),
+        gallery: (event.gallery?.data ?? [])
+          .map(({ attributes: image }) => getImage(image))
+          .filter(Boolean),
         collaborators: cleanLinkList(event.collaborators),
         links: cleanLinkList(event.links),
         press_articles: cleanLinkList(event.press_articles),
@@ -79,51 +84,13 @@ const fetchEvents = async () => {
           event.preview?.data?.attributes?.url,
           event.cover?.data?.attributes?.url,
         ),
-        // start: project.start,
-        // end: project.end ?? "",
-        // datestring: createTimeString(project.start, project.end),
-        // description: createDescription(project.intro),
-        // keyword: tags.join(","),
-        // tags: tags,
-        // location: trim(project.location),
-        // host: trim(project.host),
-        // mediation: project.mediation,
-        // isFeatured: Boolean(project.isFeatured),
-        // externalLink: fixExternalLink(project.externalLink),
-        // lastmod: project.updatedAt,
-        // date: selectLastDate(project.publishedAt, project.start, project.end),
-        // slug: project.slug,
-        // categories: cleanListTypes(project.types.data),
-        // collaborators: cleanLinkList(project.collaborators),
-        // press_articles: cleanLinkList(project.press_articles),
-        // links: cleanLinkList(project.links),
-        // events: sortByName(cleanList(project.events.data, "title")),
-        // members: sortByName(cleanListMembers(project.members.data), "label"),
-        // projects: sortByName(
-        //   getRelatedEntries(project.topics.data, projects, project.slug),
-        // ),
-        // cover: getImage(project.cover?.data?.attributes),
-        // header: createHeaderImage(
-        //   project.preview?.data?.attributes,
-        //   project.cover?.data?.attributes,
-        //   project.header?.data?.attributes,
-        // ),
-        // noHeaderImage: Boolean(project.noHeaderImage),
-        // feature: createFeatureImage(
-        //   project.cover?.data?.attributes,
-        //   project.header?.data?.attributes,
-        //   project.preview?.data?.attributes,
-        // ),
-        // gallery: (project.gallery?.data ?? []).map(({ attributes: image }) =>
-        //   getImage(image),
-        // ),
-        // funders: cleanLinkList(project.funders),
-        // members_twitter: getMembersTwitter(project.members.data),
-        // images: createPreviewImage(
-        //   project.preview?.data?.attributes?.url,
-        //   project.cover?.data?.attributes?.url,
-        // ),
+        aliases: cleanAliases(event.Aliases),
       };
+
+      checkImageDimensions(frontmatter.cover, frontmatter.title, "Cover");
+      checkImageDimensions(frontmatter.preview, frontmatter.title, "Header");
+      checkImageDimensions(frontmatter.header, frontmatter.title, "Header");
+      checkImageDimensions(frontmatter.feature, frontmatter.title, "Header");
 
       [
         "collaborators",
@@ -139,11 +106,12 @@ const fetchEvents = async () => {
         "gallery",
         "tags",
         "members_twitter",
+        "aliases",
       ].forEach((key) => {
-        frontMatter.hasOwnProperty(key) &&
-          Array.isArray(frontMatter[key]) &&
-          frontMatter[key].length === 0 &&
-          delete frontMatter[key];
+        frontmatter.hasOwnProperty(key) &&
+          Array.isArray(frontmatter[key]) &&
+          frontmatter[key].length === 0 &&
+          delete frontmatter[key];
       });
 
       [
@@ -155,16 +123,16 @@ const fetchEvents = async () => {
         "intro",
         "location",
       ].forEach((key) => {
-        frontMatter.hasOwnProperty(key) &&
-          (typeof frontMatter[key] === "undefined" ||
-            frontMatter[key] === "") &&
-          delete frontMatter[key];
+        frontmatter.hasOwnProperty(key) &&
+          (typeof frontmatter[key] === "undefined" ||
+            frontmatter[key] === "") &&
+          delete frontmatter[key];
       });
 
       // Create a Markdown file for each project
       writeToMarkdown(
         `${FOLDER}/${event.slug}`,
-        frontMatter,
+        frontmatter,
         event.description,
       );
       // console.log(`Processed ${project.title}`);

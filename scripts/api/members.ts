@@ -12,6 +12,7 @@ import {
   getImage,
   writeLastMod,
   takeLatestDate,
+  cleanAliases,
 } from "./utils";
 
 import {
@@ -73,9 +74,10 @@ const fetchProjects = async () => {
           isFeature: false,
           isImageMaxWidth: true,
         }),
+        aliases: cleanAliases(member.Aliases),
       };
 
-      const deleteIfEmpty = ["projects", "events", "roles"];
+      const deleteIfEmpty = ["projects", "events", "roles", "aliases"];
 
       deleteIfEmpty.forEach((key) => {
         frontmatter.hasOwnProperty(key) &&

@@ -21,6 +21,8 @@ import {
   createHeaderImage,
   writeLastMod,
   getMembersTwitter,
+  cleanAliases,
+  checkImageDimensions,
 } from "./utils";
 
 import { createTimeString, createTags } from "./utils-project";
@@ -41,7 +43,7 @@ const fetchProjects = async () => {
 
       const tags = createTags(project.keywords, project.types?.data);
 
-      const frontMatter = {
+      const frontmatter = {
         title: trim(project.title),
         subtitle: trim(project.subtitle),
         fulltitle: createFullTitle(project.title, project.subtitle),
@@ -81,16 +83,22 @@ const fetchProjects = async () => {
           project.preview?.data?.attributes,
         ),
         noHeaderImage: Boolean(project.noHeaderImage),
-        gallery: (project.gallery?.data ?? []).map(({ attributes: image }) =>
-          getImage(image),
-        ),
+        gallery: (project.gallery?.data ?? [])
+          .map(({ attributes: image }) => getImage(image))
+          .filter(Boolean),
         funders: cleanLinkList(project.funders),
         members_twitter: getMembersTwitter(project.members.data),
         images: createPreviewImage(
           project.preview?.data?.attributes?.url,
           project.cover?.data?.attributes?.url,
         ),
+        aliases: cleanAliases(project.Aliases),
       };
+
+      checkImageDimensions(frontmatter.cover, frontmatter.title, "Cover");
+      checkImageDimensions(frontmatter.preview, frontmatter.title, "Header");
+      checkImageDimensions(frontmatter.header, frontmatter.title, "Header");
+      checkImageDimensions(frontmatter.feature, frontmatter.title, "Header");
 
       [
         "collaborators",
@@ -105,28 +113,29 @@ const fetchProjects = async () => {
         "gallery",
         "tags",
         "members_twitter",
+        "aliases",
       ].forEach((key) => {
-        frontMatter.hasOwnProperty(key) &&
-          Array.isArray(frontMatter[key]) &&
-          frontMatter[key].length === 0 &&
-          delete frontMatter[key];
+        frontmatter.hasOwnProperty(key) &&
+          Array.isArray(frontmatter[key]) &&
+          frontmatter[key].length === 0 &&
+          delete frontmatter[key];
       });
 
       if (!project.isFeatured) {
-        delete frontMatter.feature;
+        delete frontmatter.feature;
       }
 
       ["cover", "description", "keyword"].forEach((key) => {
-        frontMatter.hasOwnProperty(key) &&
-          (typeof frontMatter[key] === "undefined" ||
-            frontMatter[key] === "") &&
-          delete frontMatter[key];
+        frontmatter.hasOwnProperty(key) &&
+          (typeof frontmatter[key] === "undefined" ||
+            frontmatter[key] === "") &&
+          delete frontmatter[key];
       });
 
       // Create a Markdown file for each project
       writeToMarkdown(
         `${FOLDER}/${project.slug}`,
-        frontMatter,
+        frontmatter,
         project.description,
       );
       // console.log(`Processed ${project.title}`);
