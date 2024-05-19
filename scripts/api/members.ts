@@ -10,6 +10,8 @@ import {
   cleanList,
   sortByName,
   getImage,
+  writeLastMod,
+  takeLatestDate,
 } from "./utils";
 
 import {
@@ -32,6 +34,7 @@ const fetchProjects = async () => {
 
     members.forEach(({ attributes: member }) => {
       checkIfRelationsExist(["roles"], member);
+      lastmod = takeLatestDate(lastmod, new Date(member.updatedAt));
 
       const roles = sortBy(cleanListRoles(member.roles.data), "position");
 
@@ -57,8 +60,9 @@ const fetchProjects = async () => {
         twitter: trim(member.twitter),
         email: trim(member.email),
         website: fixExternalLink(member.website),
-        mastodon: trim(member.mastodon),
         instagram: trim(member.instagram),
+        mastodon: trim(member.mastodon),
+
         start: member.start,
         lastmod: member.updatedAt,
         date: member.createdAt,
@@ -113,6 +117,7 @@ const fetchProjects = async () => {
   }
 
   console.log({ lastmod });
+  writeLastMod(FOLDER, lastmod, "Members");
 };
 
 fetchProjects();

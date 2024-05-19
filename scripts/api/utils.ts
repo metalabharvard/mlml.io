@@ -33,7 +33,17 @@ export function writeToMarkdown(
   const fileContent = `---\n${yamlStr}---\n${content}`;
 
   // Writing the YAML and the content to a Markdown file
-  fs.writeFile(`./content/${path}.md`, fileContent, "utf8");
+  if (!path.endsWith(".md")) {
+    path = `${path}.md`;
+  }
+  fs.writeFile(`./content/${path}`, fileContent, "utf8");
+}
+
+export function writeLastMod(folder: string, lastmod: Date, title: string) {
+  writeToMarkdown(`${folder}/_index.md`, {
+    title,
+    lastmod: lastmod.toISOString(),
+  });
 }
 
 // This function fetches multiple items from Strapi
