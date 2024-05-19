@@ -1,40 +1,36 @@
 # source folder
 p = scripts/api
 # target folder
-t = binaries
+# t = binaries
 
-precompile:
-	npm run prebuild
-	cd $(p); env GOOS=linux GOARCH=amd64 go build ./about.go
-	cd $(p); env GOOS=linux GOARCH=amd64 go build ./events.go
-	cd $(p); env GOOS=linux GOARCH=amd64 go build ./members.go
-	cd $(p); env GOOS=linux GOARCH=amd64 go build ./meta.go
-	cd $(p); env GOOS=linux GOARCH=amd64 go build ./projects.go
-	mv $(p)/about $(p)/events $(p)/members $(p)/meta $(p)/projects $(p)/$(t)/
+# precompile:
+# 	npm run prebuild
+# 	cd $(p); env GOOS=linux GOARCH=amd64 go build ./about.go
+# 	cd $(p); env GOOS=linux GOARCH=amd64 go build ./events.go
+# 	cd $(p); env GOOS=linux GOARCH=amd64 go build ./members.go
+# 	cd $(p); env GOOS=linux GOARCH=amd64 go build ./meta.go
+# 	cd $(p); env GOOS=linux GOARCH=amd64 go build ./projects.go
+# 	mv $(p)/about $(p)/events $(p)/members $(p)/meta $(p)/projects $(p)/$(t)/
 
-local:
-	npm run prebuild
-	cd $(p); go build ./about.go
-	cd $(p); go build ./events.go
-	cd $(p); go build ./members.go
-	cd $(p); go build ./meta.go
-	cd $(p); go build ./projects.go
-	mv $(p)/about $(p)/events $(p)/members $(p)/meta $(p)/projects $(p)/$(t)/
+# local:
+# 	npm run prebuild
+# 	cd $(p); go build ./about.go
+# 	cd $(p); go build ./events.go
+# 	cd $(p); go build ./members.go
+# 	cd $(p); go build ./meta.go
+# 	cd $(p); go build ./projects.go
+# 	mv $(p)/about $(p)/events $(p)/members $(p)/meta $(p)/projects $(p)/$(t)/
 
 about:
 	# cd $(p); go run about.go
 	bun $(p)/about.ts
 
 events:
-	cd $(p); go run events.go
-
-events_ts:
+	# cd $(p); go run events.go
 	bun $(p)/events.ts
 
 members:
-	cd $(p); go run members.go
-
-members_ts:
+	# cd $(p); go run members.go
 	bun $(p)/members.ts
 
 meta:
@@ -42,10 +38,7 @@ meta:
 	bun $(p)/meta.ts
 
 projects:
-	cd $(p); go run projects.go
-	# bun $(p)/projects.ts
-
-projects_ts:
+	# cd $(p); go run projects.go
 	bun $(p)/projects.ts
 
 fetch: about events members meta projects
@@ -56,10 +49,5 @@ links:
 buildLinks:
 	cd blc; ncc build blc.js -o bin -m
 
-build:
-	cd $(p); $(t)/about
-	cd $(p); $(t)/events
-	cd $(p); $(t)/members
-	cd $(p); $(t)/meta
-	cd $(p); $(t)/projects
+build: about events members meta projects
 	hugo --config config/config.json,config.toml --ignoreCache
