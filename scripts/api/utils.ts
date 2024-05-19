@@ -246,9 +246,9 @@ type Topic = {
     TopicLabel: string;
   };
 };
-export function getRelatedProjects(
+export function getRelatedEntries(
   topics: Topic[],
-  allProjects: any[],
+  allEntries: any[],
   slug: string,
 ): ListEntry[] {
   const list: ListEntry[] = [];
@@ -256,16 +256,16 @@ export function getRelatedProjects(
     // console.log(`Found topic ${topic.TopicLabel} in ${slug}`);
     const topicLabel = topic.TopicLabel;
     if (topicLabel !== "") {
-      allProjects.forEach(({ attributes: project }) => {
-        // console.log(`Searching for ${topicLabel} in ${project.title}`);
+      allEntries.forEach(({ attributes: entry }) => {
+        // console.log(`Searching for ${topicLabel} in ${entry.title}`);
         if (
-          project.topics.data.find(
+          entry.topics.data.find(
             ({ attributes: topic }: Topic) => topic.TopicLabel === topicLabel,
           ) &&
-          project.Slug !== slug
+          entry.Slug !== slug
         ) {
-          // console.log(`Found ${topicLabel} in ${project.title}`);
-          list.push({ label: project.title, slug: project.slug });
+          // console.log(`Found ${topicLabel} in ${entry.title}`);
+          list.push({ label: entry.title, slug: entry.slug });
         }
       });
     }
@@ -285,6 +285,14 @@ export function cleanList(arr: string[], key: string = "label"): ListEntry[] {
   return list;
 }
 
+export function cleanTwitterHandle(handle: string): string {
+  if (handle.startsWith("@")) {
+    console.warn(`Twitter handle ${handle} starts with @. Removing it.`);
+    return handle.slice(1);
+  }
+  return handle;
+}
+
 interface Member {
   attributes: {
     Name: string;
@@ -297,7 +305,7 @@ export function cleanListMembers(arr: Member[]): Member[] {
   arr.forEach(({ attributes: member }) => {
     const label = trim(member.Name);
     const slug = trim(member.slug);
-    const twitter = trim(member.twitter);
+    const twitter = cleanTwitterHandle(trim(member.twitter));
     if (label.length && slug.length) {
       const obj = {
         label,
@@ -310,6 +318,12 @@ export function cleanListMembers(arr: Member[]): Member[] {
     }
   });
   return list;
+}
+
+export function getMembersTwitter(members: any[]): string[] {
+  return members
+    .filter(({ attributes: member }) => member.twitter)
+    .map(({ attributes: member }) => cleanTwitterHandle(member.twitter));
 }
 
 export function cleanLinkList(arr: Link[]): Link[] {
@@ -339,6 +353,8 @@ export async function cleanDirectory(directory: string) {
 }
 
 export function createFullTitle(title: string, subtitle: string): string {
+  title = trim(title);
+  subtitle = trim(subtitle);
   if (subtitle === "" || subtitle === null || typeof subtitle === "undefined") {
     return title;
   } else {

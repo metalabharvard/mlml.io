@@ -48,12 +48,6 @@ export function createTimeString(start: string, end: string): string {
   }
 }
 
-export function getMembersTwitter(members: any[]): string[] {
-  return members
-    .filter(({ attributes: member }) => member.twitter)
-    .map(({ attributes: member }) => member.twitter);
-}
-
 interface Keyword {
   keyword: string;
 }
