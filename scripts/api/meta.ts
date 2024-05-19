@@ -107,8 +107,6 @@ const fetchMetaData = async () => {
 
     writeToJSON("config/config", config);
 
-    // console.log({ responseObject });
-
     addIndexPage("berlin", responseObject.hostsHeadline);
     addIndexPage("harvard", responseObject.hostsHeadline);
   } catch (error) {
