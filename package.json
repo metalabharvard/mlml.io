@@ -3,10 +3,9 @@
   "version": "0.0.1",
   "description": "Website for metalab(at)harvard and metalab(at)fu_berlin",
   "scripts": {
-    "build": "vite build; hugo --gc --config config/config.json,config.toml --ignoreCache",
+    "build": "hugo --gc --config config/config.json,config.toml --ignoreCache",
     "svelte:prod": "vite build",
-    "dev": "run-p svelte:prod hugo:dev",
-    "hugo:dev": "hugo server --bind=0.0.0.0 -D --config config/config.json,config.toml --ignoreCache"
+    "dev": "hugo server --bind=0.0.0.0 -D --config config/config.json,config.toml --ignoreCache"
   },
   "author": "Jonas Parnow <jonas@parnow.de>",
   "license": "ISC",
