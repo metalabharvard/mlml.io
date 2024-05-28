@@ -299,6 +299,23 @@ export function cleanAliases(arr: Alias[]): string[] {
   return list;
 }
 
+type Lab = {
+  attributes: {
+    label: string;
+    slug: string;
+  };
+};
+export function cleanLabsList(arr: Lab[]): string[] {
+  const list: string[] = [];
+  arr.forEach(({ attributes: { slug } }) => {
+    const label = trim(slug);
+    if (label.length) {
+      list.push(label);
+    }
+  });
+  return list;
+}
+
 export function cleanTwitterHandle(handle: string): string {
   if (handle.startsWith("@")) {
     console.warn(`Twitter handle ${handle} starts with @. Removing it.`);
