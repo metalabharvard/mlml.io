@@ -70,7 +70,10 @@ picture img {
     grid-column-end: 11;
   }
 
-  .grid-narrow-left, .grid-narrow-left-aside, .grid-narrow-right, .grid-narrow-right-aside {
+  .grid-narrow-left,
+  .grid-narrow-left-aside,
+  .grid-narrow-right,
+  .grid-narrow-right-aside {
     @include grid-full();
   }
 
@@ -84,7 +87,10 @@ picture img {
       @include grid-wide();
     }
 
-    .grid-narrow-left, .grid-narrow-left-aside, .grid-narrow-right, .grid-narrow-right-aside {
+    .grid-narrow-left,
+    .grid-narrow-left-aside,
+    .grid-narrow-right,
+    .grid-narrow-right-aside {
       @include grid-wide();
     }
   }
@@ -151,7 +157,8 @@ picture img {
   & > * {
     background-color: var(--color-bg);
 
-    &.page-search, &.page-logo {
+    &.page-search,
+    &.page-logo {
       @include query($medium) {
         border-bottom: 1px solid var(--color-border);
       }
@@ -261,7 +268,8 @@ picture img {
         bottom: auto;
       }
 
-      &:hover, &:focus-visible {
+      &:hover,
+      &:focus-visible {
         outline: none;
         color: var(--color-gradient-a);
       }
@@ -271,7 +279,10 @@ picture img {
       position: absolute;
       right: 0;
       top: 0;
-      transition: width var(--transition), border-bottom-color var(--transition), transform var(--transition);
+      transition:
+        width var(--transition),
+        border-bottom-color var(--transition),
+        transform var(--transition);
       border: none;
       height: var(--header-height);
       outline: none;
@@ -294,7 +305,8 @@ picture img {
         transform: translateX(-1.5px); // TODO
       }
 
-      &:focus, &.hasTerm {
+      &:focus,
+      &.hasTerm {
         transform: translateX(100vw);
 
         @include query($medium) {
@@ -307,7 +319,7 @@ picture img {
       &::-webkit-search-cancel-button,
       &::-webkit-search-results-button,
       &::-webkit-search-results-decoration {
-        -webkit-appearance:none;
+        -webkit-appearance: none;
       }
     }
 
@@ -323,7 +335,9 @@ picture img {
       pointer-events: none;
       transition: opacity var(--transition);
       padding: var(--spacing-2);
-      padding-bottom: calc(var(--trigger-size) + var(--trigger-distance) + var(--spacing-1));
+      padding-bottom: calc(
+        var(--trigger-size) + var(--trigger-distance) + var(--spacing-1)
+      );
       overflow-y: auto;
 
       @include query($medium) {
@@ -395,7 +409,9 @@ picture img {
 
     .page-menu-items {
       display: grid;
-      grid-template-rows: var(--header-height) repeat(5, 1fr) calc(var(--trigger-size) + var(--spacing-1));
+      grid-template-rows: var(--header-height) repeat(5, 1fr) calc(
+          var(--trigger-size) + var(--spacing-1)
+        );
       height: 100%;
 
       @include query($medium) {
@@ -445,7 +461,7 @@ picture img {
     right: var(--trigger-distance);
     left: auto;
 
-    &[aria-pressed=true] {
+    &[aria-pressed="true"] {
       outline: none;
     }
   }
@@ -471,7 +487,11 @@ picture img {
   .page-menu-items *:not(.header) a {
     position: relative;
     background-color: var(--color-bg);
-    transition: color var(--transition), background-color var(--transition), border-bottom-color var(--transition), border-right-color var(--transition);
+    transition:
+      color var(--transition),
+      background-color var(--transition),
+      border-bottom-color var(--transition),
+      border-right-color var(--transition);
 
     &.isActive:not(.logo) {
       color: var(--color-text-invert);
@@ -496,7 +516,6 @@ picture img {
     @include query($medium) {
       border-right: 1px solid var(--color-border);
       &:not(.isActive) {
-        
       }
     }
 
@@ -589,7 +608,8 @@ picture img {
 
       @include query($medium) {
         background-color: var(--color-bg);
-        padding: var(--spacing-05) var(--spacing-1) var(--spacing-05) var(--spacing-1);
+        padding: var(--spacing-05) var(--spacing-1) var(--spacing-05)
+          var(--spacing-1);
         border: 2px solid var(--color-bg-secondary);
         margin-bottom: calc(var(--medium-offset) * -1);
         width: auto;
@@ -631,7 +651,8 @@ picture img {
   }
 }
 
-.homepage-projects-list, .homepage-events-list {
+.homepage-projects-list,
+.homepage-events-list {
   .pagination {
     margin-top: var(--spacing-4);
     display: flex;
@@ -644,7 +665,8 @@ picture img {
   }
 }
 
-.project-preview, .event-preview {
+.project-preview,
+.event-preview {
   &:not(:last-child) {
     border-bottom: 1px solid var(--color-border);
   }
@@ -662,7 +684,9 @@ picture img {
       padding: var(--spacing-05) 0;
     }
 
-    .project-title, .event-title { // The titles might be wider than the content, so we cut it off
+    .project-title,
+    .event-title {
+      // The titles might be wider than the content, so we cut it off
       overflow: hidden;
       text-overflow: ellipsis;
       display: block;
@@ -733,14 +757,18 @@ picture img {
     &::before {
       grid-row-start: 1;
       grid-row-end: 2;
-      content: '';
+      content: "";
       display: block;
       border: var(--gradient-border-width) solid;
       border-image-slice: 1;
       z-index: $z-index-about-header;
-      border-image-source: linear-gradient(90deg, var(--color-gradient-a) 0%, var(--color-gradient-o) 100%); // TODO
+      border-image-source: linear-gradient(
+        90deg,
+        var(--color-gradient-a) 0%,
+        var(--color-gradient-o) 100%
+      ); // TODO
       @include grid-medium();
-      
+
       @media print {
         display: none;
       }
@@ -768,12 +796,35 @@ picture img {
   }
 }
 
-picture, img {
+picture,
+img {
   max-width: 100%;
 }
 
-.member-list-header, .alumni-list-header {
+.member-list-header,
+.alumni-list-header {
   margin-bottom: var(--spacing-1);
+}
+
+.members-labs-menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: var(--spacing-1);
+  font-size: var(--size-6);
+  font-weight: $font-weight-medium;
+  line-height: 1.1;
+  margin-bottom: var(--spacing-1);
+
+  a {
+    color: var(--color-text);
+    text-decoration: none;
+    transition: color var(--transition);
+
+    &:hover {
+      color: var(--color-accent);
+    }
+  }
 }
 
 .homepage-alumni-list {
@@ -881,7 +932,9 @@ picture, img {
     grid-row-end: $member-header-end;
     grid-column-start: 1;
     grid-column-end: 5;
-    margin-bottom: var(--spacing-05); // This is used to have a min height of the block
+    margin-bottom: var(
+      --spacing-05
+    ); // This is used to have a min height of the block
     z-index: $z-index-member-header;
 
     @include query($medium) {
@@ -942,7 +995,7 @@ picture, img {
     grid-row-end: 3;
     // grid-column-start: 1;
     // grid-column-end: 3;
-    content: '';
+    content: "";
     display: block;
     // position: absolute;
     // left: $wide-margin;
@@ -953,7 +1006,11 @@ picture, img {
     border-image-slice: 1;
     border-width: var(--gradient-border-width);
     z-index: $z-index-member-header-before;
-    border-image-source: linear-gradient(90deg, var(--color-gradient-a) 0%, var(--color-gradient-o) 100%); // TODO
+    border-image-source: linear-gradient(
+      90deg,
+      var(--color-gradient-a) 0%,
+      var(--color-gradient-o) 100%
+    ); // TODO
     animation: 20s rotate linear infinite;
     @include grid-wide();
 
@@ -995,7 +1052,8 @@ picture, img {
   }
 }
 
-.homepage-project .project-subtitle, .homepage-event .event-subtitle {
+.homepage-project .project-subtitle,
+.homepage-event .event-subtitle {
   margin-top: var(--spacing-05);
   margin-bottom: var(--spacing-2);
 
@@ -1005,12 +1063,15 @@ picture, img {
   }
 }
 
-.homepage-project, .homepage-event {
-  .project-header, .event-header {
+.homepage-project,
+.homepage-event {
+  .project-header,
+  .event-header {
     margin-top: var(--spacing-1);
   }
 
-  .project-header-image, .event-header-image {
+  .project-header-image,
+  .event-header-image {
     @include center();
 
     img {
@@ -1021,10 +1082,13 @@ picture, img {
   }
 }
 
-.homepage-member, .homepage-event, .homepage-project {
+.homepage-member,
+.homepage-event,
+.homepage-project {
   row-gap: var(--spacing-2);
 
-  .event-header-bar, .project-header-bar {
+  .event-header-bar,
+  .project-header-bar {
     display: grid;
     margin-top: var(--spacing-2);
     grid-template-columns: 3fr 2fr;
@@ -1034,7 +1098,8 @@ picture, img {
       margin-top: var(--spacing-1);
     }
 
-    .project-link, .event-link {
+    .project-link,
+    .event-link {
       grid-column-start: 2;
       justify-self: end;
       display: flex; // This is needed for the button. Should fix that.
@@ -1079,7 +1144,10 @@ picture, img {
   }
 }
 
-.event-relations, .project-relations, .member-relations, .project-gallery {
+.event-relations,
+.project-relations,
+.member-relations,
+.project-gallery {
   border-top: 1px solid var(--color-border);
   border-bottom: 1px solid var(--color-border);
   padding-top: var(--spacing-2);
@@ -1200,12 +1268,12 @@ picture, img {
       grid-template-areas:
         "logos logos . info info info info . sitemap sitemap . social"
         "update update update update . . . . sitemap sitemap . social";
-
     }
   }
 }
 
-.project-gallery, .event-gallery {
+.project-gallery,
+.event-gallery {
   position: relative;
   z-index: $z-index-gallery;
   max-width: 100%;
@@ -1237,7 +1305,8 @@ picture, img {
     border: none;
     cursor: pointer;
 
-    &:hover, &:focus {
+    &:hover,
+    &:focus {
       color: var(--color-interactive);
     }
 
@@ -1251,7 +1320,8 @@ picture, img {
     svg {
       height: calc(var(--size-6) * 1.2);
 
-      polyline, line {
+      polyline,
+      line {
         stroke-width: 2px;
         vector-effect: non-scaling-stroke;
       }
@@ -1263,7 +1333,8 @@ picture, img {
   }
 }
 
-.project-gallery-single, .event-gallery-single {
+.project-gallery-single,
+.event-gallery-single {
   padding-bottom: var(--spacing-05);
 
   &.without-caption {
@@ -1271,7 +1342,10 @@ picture, img {
   }
 }
 
-.project-gallery, .project-gallery-single, .event-gallery, .event-gallery-single {
+.project-gallery,
+.project-gallery-single,
+.event-gallery,
+.event-gallery-single {
   .without-caption {
     padding-bottom: var(--spacing-05);
   }
@@ -1291,4 +1365,3 @@ picture, img {
     text-align: center;
   }
 }
-
