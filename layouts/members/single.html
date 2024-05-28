@@ -65,6 +65,14 @@
       {{ with .Content }}
       {{ . }}
       {{ end }}
+      <p class="member-labs">
+        {{ .Params.Name }} is member of the lab at
+        {{ range $i, $value := .Params.Labs -}}
+          {{- if $i -}}{{ if eq $i (sub (len $.Params.Labs) 1) }} and {{else}}, {{end}}{{ end -}}
+          <a href="{{ "/m/" }}{{ $value.slug }}">{{ $value.label }}</a>
+        {{- end -}}
+        .
+      </p>
     </div>
     {{ end }}
     {{ $events := .Params.Events }}
