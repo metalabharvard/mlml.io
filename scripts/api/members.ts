@@ -13,6 +13,7 @@ import {
   writeLastMod,
   takeLatestDate,
   cleanAliases,
+  cleanLabsList,
 } from "./utils";
 
 import {
@@ -47,8 +48,6 @@ const fetchProjects = async () => {
 
       const isFounder = checkFounder(roles);
 
-      // console.log('hereh', cleanList(member.projects.data, "title"))
-
       const frontmatter = {
         name: trim(member.Name),
         title: trim(member.Name),
@@ -75,6 +74,8 @@ const fetchProjects = async () => {
           isImageMaxWidth: true,
         }),
         aliases: cleanAliases(member.Aliases),
+        "members/labs": cleanLabsList(member.labs.data),
+        labs: cleanList(member.labs.data, "title"),
       };
 
       const deleteIfEmpty = ["projects", "events", "roles", "aliases"];
