@@ -1,5 +1,12 @@
 {{ define "main" }}
   <section class="homepage-members-list grid-full">
+    <menu class="members-labs-menu">
+      <li><a href="/members/">All</a></li>
+      {{ range $name, $taxonomy := index .Site.Taxonomies "members/labs" }}
+        <li><a href="{{ .Page.Permalink }}" data-count="{{ len $taxonomy }}">{{.Page.Title}}</a></li>
+      {{ end }}
+    </menu>
+
     <h1 id="members" class="member-list-header">Members</h1>
     <ul class="grid member-list" role="list">
       {{ $templateLabel := .Site.Params.Label.AriaProfilePicture }}
@@ -12,10 +19,12 @@
       {{ end }}
     </ul>
   </section>
+  {{ $alumniList := (where .Pages "Params.isalumnus" true) }}
+  {{ if gt (len $alumniList) 0  }}
   <section class="homepage-alumni-list grid-full">
     <h1 id="community" class="alumni-list-header">Alumni</h1>
     <ul class="grid alumni-list" role="list">
-    {{ range where (sort .Pages "Params.name") "Params.isalumnus" true }}
+    {{ range (sort $alumniList "Params.name") }}
       <li role="listitem" {{ printf "data-id=%q" .Params.Slug | safeHTMLAttr }}>
         <a href="{{ printf "m/%s" .Params.Slug | absURL }}" class="alumni-preview vcard" vocab="https://schema.org/" typeof="Person">
           <strong class="alumni-name fn p-name" property="name">{{ .Params.Name }}</strong>
@@ -24,4 +33,5 @@
     {{ end }}
     </ul>
   </section>
+  {{ end }}
 {{ end }}
