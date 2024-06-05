@@ -6,6 +6,8 @@ uglyURLs = true
 [taxonomies]
   host = "host"
   categories = "categories"
+  'members/lab' = 'members/labs'
+  'films/genre' = 'films/genres'
 
 [params]
   contentTypes = ["projects", "members", "events"]
