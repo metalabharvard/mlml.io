@@ -19,11 +19,6 @@
         <dt class="title">{{ $title }}</dt>
         <dd class="text" itemprop="dateCreated">{{ partial "span-timespan.html" (dict "start" .Params.Start "end" .Params.End) }}</dd>
       </div>
-      {{ $title := .Site.Params.Label.BoxHost }}
-      <div class="box-item">
-        <dt class="title">{{ $title }}</dt>
-        <dd class="text">{{ partial "span-host-link.html" (dict "host" .Params.host "type" "project" "default" .Site.Params.Label.HostsDefault "slug" .Site.Params.SlugHost "both" .Site.Params.Label.HostsBoth) }}</dd>
-      </div>
       {{ $title = .Site.Params.Label.BoxLocation }}
       {{ with .Params.location }}
       <div class="box-item">
@@ -31,6 +26,7 @@
         <dd class="text project-location" itemprop="locationCreated">{{ . }}</dd>
       </div>
       {{ end }}
+      {{ $labs := .Params.Labs }}
       {{ $events := .Params.Events }}
       {{ $members := .Params.Members }}
       {{ $projects := .Params.Projects }}
@@ -45,6 +41,7 @@
       {{ partial "related-items.html" (dict "items" $events "term" .Site.Params.Label.RelatedEvents "label" .Site.Params.Label.RelatedLabelEvents "class" "event" "path" "e") }}
       {{ partial "related-list.html" (dict "items" .Params.Links "label" .Site.Params.Label.relatedLabelLinks "class" "links") }}
       {{ partial "related-list.html" (dict "items" .Params.Press_articles "label" .Site.Params.Label.relatedLabelPressArticles "class" "articles") }}
+      {{ partial "related-items.html" (dict "items" $labs "term" "" "label" "Labs" "class" "lab" "root" "event" "path" "m") }}
     </dl>
     {{ $defaultLabel := string (printf .Site.Params.Label.AriaGeneralPicture .Params.Title) }}
     {{ if not .Params.noHeaderImage }}

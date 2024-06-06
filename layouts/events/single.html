@@ -62,6 +62,7 @@
     {{ $events := .Params.Events }}
     {{ $members := .Params.Members }}
     {{ $projects := .Params.Projects }}
+    {{ $labs := .Params.Labs }}
     {{ $collaborators := .Params.Collaborators }}
     {{ $funders := .Params.Funders }}
     {{ if or (isset .Params "events") (isset .Params "members") (isset .Params "projects") (isset .Params "collaborators") (isset .Params "category") (isset .Params "location") }}
@@ -80,6 +81,7 @@
         <dd class="text event-location" itemprop="location">{{ . }}</dd>
       </div>
       {{ end }}
+      {{ partial "related-items.html" (dict "items" $labs "term" "" "label" "Labs" "class" "lab" "root" "event" "path" "m") }}
       {{ partial "related-items.html" (dict "items" $members "term" .Site.Params.Label.RelatedMembers "label" .Site.Params.Label.RelatedLabelMembers "class" "member" "root" "event" "path" "m") }}
       {{ partial "related-collaborators.html" (dict "items" $collaborators "label" .Site.Params.Label.boxCollaborator "class" "collaborator") }}
       {{ partial "related-collaborators.html" (dict "items" $funders "label" .Site.Params.Label.boxFunder "class" "funders") }}
