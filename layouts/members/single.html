@@ -15,7 +15,7 @@
       "@context": "https://schema.org",
       "@type": "Person",
       "name": {{ .Params.Name }},
-      {{ with .Params.picture.url -}} "image": {{.}},{{ end }}
+      {{ if .Params.picture }}{{ with .Params.picture.url -}} "image": {{.}},{{ end }}{{ end }}
       "jobTitle": {{ if .Params.isAlumnus -}}{{- .Site.Params.Label.MemberAlumnus -}}{{- else -}}{{- .Params.Role_string -}}{{- end -}},
       {{ with .Params.Website -}} "url": {{.}},{{ end }}
       "sameAs": [{{ range $i, $e := ($lists.Get "social") }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}],
@@ -65,21 +65,15 @@
       {{ with .Content }}
       {{ . }}
       {{ end }}
-      <p class="member-labs">
-        {{ .Params.Name }} is member of the lab at
-        {{ range $i, $value := .Params.Labs -}}
-          {{- if $i -}}{{ if eq $i (sub (len $.Params.Labs) 1) }} and {{else}}, {{end}}{{ end -}}
-          <a href="{{ "/m/" }}{{ $value.slug }}">{{ $value.label }}</a>
-        {{- end -}}
-        .
-      </p>
     </div>
     {{ end }}
     {{ $events := .Params.Events }}
     {{ $projects := .Params.Projects }}
+    {{ $labs := .Params.Labs }}
     {{ $count := partial "columnCount.html" (dict "list" (slice $projects $events)) }}
     {{ if gt $count 0 }}
     <aside class="member-relations grid-wide grid grid-v-default half">
+        {{ partial "related-items.html" (dict "items" $labs "term" "" "label" "Labs" "class" "labs" "path" "p") }}
       {{ partial "related-items.html" (dict "items" $projects "term" .Site.Params.Label.RelatedMembers "label" .Site.Params.Label.RelatedLabelProjects "class" "project" "path" "p") }}
       {{ partial "related-items.html" (dict "items" $events "term" .Site.Params.Label.RelatedMembers "label" .Site.Params.Label.RelatedLabelEvents "class" "event" "path" "e") }}
     </aside>
