@@ -19,6 +19,7 @@ import {
   getMembersTwitter,
   checkImageDimensions,
   cleanAliases,
+  cleanLabsList
 } from "./utils";
 
 import { convertEventTimes } from "./utils-events";
@@ -85,6 +86,8 @@ const fetchEvents = async () => {
           event.cover?.data?.attributes?.url,
         ),
         aliases: cleanAliases(event.Aliases),
+        "events/labs": cleanLabsList(event.labs.data),
+        labs: cleanList(event.labs.data, "title"),
       };
 
       checkImageDimensions(frontmatter.cover, frontmatter.title, "Cover");

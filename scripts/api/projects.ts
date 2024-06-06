@@ -23,6 +23,7 @@ import {
   getMembersTwitter,
   cleanAliases,
   checkImageDimensions,
+  cleanLabsList
 } from "./utils";
 
 import { createTimeString, createTags } from "./utils-project";
@@ -93,6 +94,8 @@ const fetchProjects = async () => {
           project.cover?.data?.attributes?.url,
         ),
         aliases: cleanAliases(project.Aliases),
+        "projects/labs": cleanLabsList(project.labs.data),
+        labs: cleanList(project.labs.data, "title"),
       };
 
       checkImageDimensions(frontmatter.cover, frontmatter.title, "Cover");
