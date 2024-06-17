@@ -7,7 +7,6 @@
       {{ end }}
     </menu>
 
-    <h1 id="members" class="member-list-header">Members</h1>
     <ul class="grid member-list" role="list">
       {{ $templateLabel := .Site.Params.Label.AriaProfilePicture }}
       {{ range (((where (where .Pages "Params.picture" "!=" nil) "Params.isalumnus" false).ByParam "Name").ByParam "start").ByParam "rank" }}
