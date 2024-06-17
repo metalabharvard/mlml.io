@@ -14,6 +14,8 @@ import {
   takeLatestDate,
   cleanAliases,
   cleanLabsList,
+  addexistingLabsToList,
+  createLabsFolders,
 } from "./utils";
 
 import {
@@ -26,6 +28,9 @@ import {
 const FOLDER = "members";
 
 let lastmod: Date = new Date(0);
+let existingsLabs: {
+  [key: string]: string;
+} = {};
 
 const fetchProjects = async () => {
   console.log("Requesting members");
@@ -47,6 +52,8 @@ const fetchProjects = async () => {
         : createRoleString(roles);
 
       const isFounder = checkFounder(roles);
+
+      const labs = cleanList(member.labs.data, "title");
 
       const frontmatter = {
         name: trim(member.Name),
@@ -75,7 +82,7 @@ const fetchProjects = async () => {
         }),
         aliases: cleanAliases(member.Aliases),
         "members/labs": cleanLabsList(member.labs.data),
-        labs: cleanList(member.labs.data, "title"),
+        labs,
       };
 
       const deleteIfEmpty = ["projects", "events", "roles", "aliases"];
@@ -110,6 +117,8 @@ const fetchProjects = async () => {
         frontmatter,
         member.description,
       );
+
+      existingsLabs = addexistingLabsToList(existingsLabs, labs);
       // console.log(`Processed ${member.Name}`);
     });
 
@@ -118,7 +127,10 @@ const fetchProjects = async () => {
     console.error("Error fetching projects:", error);
   }
 
+  console.log({ existingsLabs });
+
   writeLastMod(FOLDER, lastmod, "Members");
+  createLabsFolders(existingsLabs, FOLDER);
 };
 
 fetchProjects();

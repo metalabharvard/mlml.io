@@ -23,7 +23,9 @@ import {
   getMembersTwitter,
   cleanAliases,
   checkImageDimensions,
-  cleanLabsList
+  cleanLabsList,
+  addexistingLabsToList,
+  createLabsFolders,
 } from "./utils";
 
 import { createTimeString, createTags } from "./utils-project";
@@ -31,6 +33,9 @@ import { createTimeString, createTags } from "./utils-project";
 const FOLDER = "projects";
 
 let lastmod: Date = new Date(0);
+let existingsLabs: {
+  [key: string]: string;
+} = {};
 
 const fetchProjects = async () => {
   console.log("Requesting projects");
@@ -43,6 +48,8 @@ const fetchProjects = async () => {
       lastmod = takeLatestDate(lastmod, new Date(project.updatedAt));
 
       const tags = createTags(project.keywords, project.types?.data);
+
+      const labs = cleanList(project.labs.data, "title");
 
       const frontmatter = {
         title: trim(project.title),
@@ -95,7 +102,7 @@ const fetchProjects = async () => {
         ),
         aliases: cleanAliases(project.Aliases),
         "projects/labs": cleanLabsList(project.labs.data),
-        labs: cleanList(project.labs.data, "title"),
+        labs,
       };
 
       checkImageDimensions(frontmatter.cover, frontmatter.title, "Cover");
@@ -141,6 +148,8 @@ const fetchProjects = async () => {
         frontmatter,
         project.description,
       );
+
+      existingsLabs = addexistingLabsToList(existingsLabs, labs);
       // console.log(`Processed ${project.title}`);
     });
 
@@ -150,6 +159,7 @@ const fetchProjects = async () => {
   }
 
   writeLastMod(FOLDER, lastmod, "Projects");
+  createLabsFolders(existingsLabs, FOLDER);
 };
 
 fetchProjects();
