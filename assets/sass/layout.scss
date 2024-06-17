@@ -806,10 +806,12 @@ img {
   margin-bottom: var(--spacing-1);
 }
 
-.members-labs-menu {
+.members-labs-menu,
+.events-labs-menu,
+.projects-labs-menu {
   list-style: none;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   gap: var(--spacing-1);
   font-size: var(--size-6);
   font-weight: $font-weight-medium;
