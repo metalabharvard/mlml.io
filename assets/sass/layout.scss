@@ -823,8 +823,12 @@ img {
     text-decoration: none;
     transition: color var(--transition);
 
+    &.isActive {
+      color: var(--color-gradient-a);
+    }
+
     &:hover {
-      color: var(--color-accent);
+      color: var(--color-gradient-a);
     }
   }
 }
