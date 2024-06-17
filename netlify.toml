@@ -3,7 +3,7 @@ command = "make build"
 publish = "public"
 
 [context.production.environment]
-HUGO_VERSION = "0.96.0"
+HUGO_VERSION = "0.127.0"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
 
@@ -21,3 +21,6 @@ HUGO_ENABLEGITINFO = "true"
   from = "https://mlml.netlify.app/*"
   to = "https://mlml.io/:splat"
   status = 301
+
+[context.branch-labs]
+  HUGO_ENV = "https://labs--mlml.netlify.app/"
