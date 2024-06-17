@@ -85,7 +85,11 @@ export function createLabsFolders(labs: LabList, folder: string, type: string) {
   });
 }
 
-function writeLabIndex(folder: string, title: string, fulltitle: string) {
+function writeLabIndex(
+  folder: string,
+  title: string,
+  fulltitle: string | undefined = undefined,
+) {
   if (!existsSync(`./content/${folder}`)) {
     // console.log(`Creating folder for ${title} in ${folder}`);
     mkdirSync(`./content/${folder}`);
@@ -98,7 +102,7 @@ function writeLabIndex(folder: string, title: string, fulltitle: string) {
     {
       title,
       draft: false,
-      fulltitle,
+      fulltitle: fulltitle ?? title,
     },
     "",
     true,
