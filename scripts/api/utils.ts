@@ -76,16 +76,16 @@ export function writeLastMod(folder: string, lastmod: Date, title: string) {
   });
 }
 
-export function createLabsFolders(labs: LabList, folder: string) {
+export function createLabsFolders(labs: LabList, folder: string, type: string) {
   folder = `${folder}/labs`;
   writeLabIndex(folder, "Labs");
 
   Object.entries(labs).forEach(([slug, label]) => {
-    writeLabIndex(`${folder}/${slug}`, label);
+    writeLabIndex(`${folder}/${slug}`, label, `${type} in ${label}`);
   });
 }
 
-function writeLabIndex(folder: string, title: string) {
+function writeLabIndex(folder: string, title: string, fulltitle: string) {
   if (!existsSync(`./content/${folder}`)) {
     // console.log(`Creating folder for ${title} in ${folder}`);
     mkdirSync(`./content/${folder}`);
@@ -98,6 +98,7 @@ function writeLabIndex(folder: string, title: string) {
     {
       title,
       draft: false,
+      fulltitle,
     },
     "",
     true,
@@ -435,9 +436,9 @@ export function cleanLinkList(arr: Link[]): Link[] {
 
 export async function cleanDirectory(directory: string) {
   const dir_content = `./content/${directory}`;
-  console.log(`Cleaning directory: ${dir_content}`);
+  // console.log(`Cleaning directory: ${dir_content}`);
   for (const file of await fs.readdir(dir_content)) {
-    console.log(`Deleting file: ${file}`);
+    // console.log(`Deleting file: ${file}`);
     if (file.endsWith(".md")) {
       await fs.unlink(path.join(dir_content, file));
     }
@@ -447,7 +448,7 @@ export async function cleanDirectory(directory: string) {
   if (!existsSync(dir_labs)) {
     return;
   }
-  console.log(`Cleaning directory: ${dir_labs}`);
+  // console.log(`Cleaning directory: ${dir_labs}`);
 
   const indexPath = path.join(dir_labs, "_index.md");
   if (existsSync(indexPath)) {
@@ -457,7 +458,7 @@ export async function cleanDirectory(directory: string) {
   for (const item of await fs.readdir(dir_labs)) {
     const itemPath = path.join(dir_labs, item);
     if (lstatSync(itemPath).isDirectory()) {
-      console.log(`Deleting folder: ${itemPath}`);
+      // console.log(`Deleting folder: ${itemPath}`);
       const indexPath = path.join(itemPath, "_index.md");
       if (existsSync(indexPath)) {
         unlinkSync(indexPath);

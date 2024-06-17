@@ -159,7 +159,7 @@ const fetchProjects = async () => {
   }
 
   writeLastMod(FOLDER, lastmod, "Projects");
-  createLabsFolders(existingsLabs, FOLDER);
+  createLabsFolders(existingsLabs, FOLDER, "Projects");
 };
 
 fetchProjects();

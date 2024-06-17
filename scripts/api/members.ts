@@ -127,10 +127,8 @@ const fetchProjects = async () => {
     console.error("Error fetching projects:", error);
   }
 
-  console.log({ existingsLabs });
-
   writeLastMod(FOLDER, lastmod, "Members");
-  createLabsFolders(existingsLabs, FOLDER);
+  createLabsFolders(existingsLabs, FOLDER, "Members");
 };
 
 fetchProjects();

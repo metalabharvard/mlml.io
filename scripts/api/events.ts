@@ -22,6 +22,7 @@ import {
   cleanLabsList,
   addexistingLabsToList,
   createLabsFolders,
+  cleanDirectory,
 } from "./utils";
 
 import { convertEventTimes } from "./utils-events";
@@ -36,7 +37,7 @@ let existingsLabs: {
 const fetchEvents = async () => {
   console.log("Requesting events");
   try {
-    // await cleanDirectory(FOLDER);
+    await cleanDirectory(FOLDER);
     const events = await fetchMultiFromStrapi("events", "populate=*"); // &filters[slug][$eq]=tradition-and-technology
 
     events.forEach(({ attributes: event }) => {
@@ -156,7 +157,7 @@ const fetchEvents = async () => {
   }
 
   writeLastMod(FOLDER, lastmod, "Events");
-  createLabsFolders(existingsLabs, FOLDER);
+  createLabsFolders(existingsLabs, FOLDER, "Events");
 };
 
 fetchEvents();
