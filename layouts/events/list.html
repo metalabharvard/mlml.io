@@ -1,13 +1,10 @@
 {{ define "main" }}
 <section class="homepage-events-list grid-wide">
   <menu class="events-labs-menu">
-    <li><a href="/events/">All</a></li>
+    <li><a {{ if eq .RelPermalink "/events/" }}class="isActive" aria-current="page"{{ end }} href="/events/">All</a></li>
+    {{ $current := .RelPermalink }}
     {{ range $name, $taxonomy := index .Site.Taxonomies "events/labs" }}
-    <li>
-      <a href="{{ .Page.Permalink }}" data-count="{{ len $taxonomy }}"
-        >{{.Page.Title}}</a
-      >
-    </li>
+      <li><a href="{{ .Page.Permalink }}" {{ if eq .Page.RelPermalink $current }}class="isActive" aria-current="page"{{ end }}>{{.Page.Title}}</a></li>
     {{ end }}
   </menu>
   <ul role="list">
