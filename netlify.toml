@@ -23,4 +23,4 @@ HUGO_ENABLEGITINFO = "true"
   status = 301
 
 [context.branch-labs]
-  HUGO_ENV = "https://labs--mlml.netlify.app/"
+  HUGO_BASEURL = "https://labs--mlml.netlify.app/"
