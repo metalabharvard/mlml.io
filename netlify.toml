@@ -22,6 +22,6 @@ HUGO_ENABLEGITINFO = "true"
   to = "https://mlml.io/:splat"
   status = 301
 
-[context.branch-labs]
+[context.branch-labs.environment]
   HUGO_BASEURL = "https://labs--mlml.netlify.app/"
   HUGO_BASE_URL = "https://labs--mlml.netlify.app/"
