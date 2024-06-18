@@ -24,3 +24,4 @@ HUGO_ENABLEGITINFO = "true"
 
 [context.branch-labs]
   HUGO_BASEURL = "https://labs--mlml.netlify.app/"
+  HUGO_BASE_URL = "https://labs--mlml.netlify.app/"
