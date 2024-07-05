@@ -3,8 +3,9 @@
   <menu class="projects-labs-menu">
     <li><a {{ if eq .RelPermalink "/projects/" }}class="isActive" aria-current="page"{{ end }} href="/projects/">All</a></li>
     {{ $current := .RelPermalink }}
-    {{ range $name, $taxonomy := index .Site.Taxonomies "projects/labs" }}
-      <li><a href="{{ .Page.Permalink }}" {{ if eq .Page.RelPermalink $current }}class="isActive" aria-current="page"{{ end }}>{{.Page.Title}}</a></li>
+    {{ $list := index .Site.Taxonomies "projects/labs" }}
+    {{ range $list.ByCount }}
+      <li><a href="{{ .Page.Permalink }}" {{ if eq .Page.RelPermalink $current }}class="isActive" aria-current="page"{{ end }}>{{.Page.Title}}{{.Page.Params.Order}}</a></li>
     {{ end }}
   </menu>
   <ul role="list">

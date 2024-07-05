@@ -76,18 +76,22 @@ export function writeLastMod(folder: string, lastmod: Date, title: string) {
   });
 }
 
+
 export function createLabsFolders(labs: LabList, folder: string, type: string) {
   folder = `${folder}/labs`;
   writeLabIndex(folder, "Labs");
 
   Object.entries(labs).forEach(([slug, label]) => {
-    writeLabIndex(`${folder}/${slug}`, label, `${type} in ${label}`);
+    writeLabIndex(`${folder}/${slug}`, label, slug, `${type} in ${label}`);
   });
 }
+
+const ORDER = ['harvard', 'berlin', 'basel']
 
 function writeLabIndex(
   folder: string,
   title: string,
+  slug: string | undefined = undefined,
   fulltitle: string | undefined = undefined,
 ) {
   if (!existsSync(`./content/${folder}`)) {
@@ -103,6 +107,7 @@ function writeLabIndex(
       title,
       draft: false,
       fulltitle: fulltitle ?? title,
+      weight: ORDER.indexOf(slug ?? title.toLowerCase()) + 1,
     },
     "",
     true,
