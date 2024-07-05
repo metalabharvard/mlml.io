@@ -1,37 +1,41 @@
 ---
 title: Color Rx
-subtitle: ""
+subtitle: ''
 fulltitle: Color Rx
-status: ""
+status: ''
 outputs:
-    - HTML
-    - Calendar
+  - HTML
+  - Calendar
 timezone: Boston
 timezoneAbbr:
-    berlin: CEST
-    boston: EDT
-start_time: "2017-08-11T16:00:00-04:00"
-end_time: "2017-08-11T17:00:00-04:00"
+  berlin: CEST
+  boston: EDT
+start_time: '2017-08-11T16:00:00-04:00'
+end_time: '2017-08-11T17:00:00-04:00'
 start_time_utc: 20170811T200000Z
 end_time_utc: 20170811T210000Z
 start_time_locations:
-    berlin: "2017-08-11T22:00:00+02:00"
-    boston: "2017-08-11T16:00:00-04:00"
+  berlin: '2017-08-11T22:00:00+02:00'
+  boston: '2017-08-11T16:00:00-04:00'
 end_time_locations:
-    berlin: "2017-08-11T23:00:00+02:00"
-    boston: "2017-08-11T17:00:00-04:00"
+  berlin: '2017-08-11T23:00:00+02:00'
+  boston: '2017-08-11T17:00:00-04:00'
 tzid: America/New_York
 location: Cambridge, MA
 isFeatured: false
 isOngoing: false
-lastmod: "2022-02-09T16:13:54.214Z"
-date: "2017-08-11T16:00:00-04:00"
+lastmod: '2024-05-24T11:01:35.762Z'
+date: '2017-08-11T16:00:00-04:00'
 slug: color-rx
 members:
-    - label: Maia Suazo-Maler
-      slug: maia-suazo-maler
+  - label: Maia Suazo-Maler
+    slug: maia-suazo-maler
 noHeaderImage: false
-
+events/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 **Color Rx**
 <br />Maia Leandra

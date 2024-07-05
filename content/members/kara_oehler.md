@@ -2,8 +2,8 @@
 name: Kara Oehler
 title: Kara Oehler
 roles:
-    - role: Principal
-      position: 4
+  - role: Principal
+    position: 4
 isAlumnus: false
 isFounder: false
 rank: 4.999
@@ -11,50 +11,54 @@ role_string: Principal
 twitter: karaoehler
 email: kara@metalab.harvard.edu
 website: https://www.linkedin.com/in/karaoehler
-start: "2022-08-01"
-lastmod: "2023-11-10T13:36:26.692Z"
-date: "2022-04-25T02:40:20.332Z"
+start: '2022-08-01'
+lastmod: '2024-05-24T10:56:36.664Z'
+date: '2022-04-25T04:40:20.332Z'
 slug: kara_oehler
 events:
-    - label: Digital Mapping of Contemporaneity, Activism & Ecology
-      slug: digital-mapping
+  - label: Digital Mapping of Contemporaneity, Activism & Ecology
+    slug: digital-mapping
 projects:
-    - label: Digital Archive of Japan’s 2011 Disasters
-      slug: digital-archive-of-japans-2011-disasters
-    - label: Institute for Climate Sound & Society
-      slug: institute-for-climate-sound-and-society
-    - label: Sensate Journal
-      slug: sensate-journal
-    - label: Zeega
-      slug: zeega
+  - label: Digital Archive of Japan’s 2011 Disasters
+    slug: digital-archive-of-japans-2011-disasters
+  - label: Institute for Climate Sound & Society
+    slug: institute-for-climate-sound-and-society
+  - label: Sensate Journal
+    slug: sensate-journal
+  - label: Zeega
+    slug: zeega
 picture:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/c_limit,w_2000,h_2000/e_grayscale/v1661778742/KR_OEHLER_4_Kara_Oehler_3af2db74f4.jpg
-    width: 3024
-    height: 3024
-    ext: .jpg
-    mime: image/jpeg
-    formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1661778743/large_KR_OEHLER_4_Kara_Oehler_3af2db74f4.jpg
-            ext: .jpg
-            width: 1000
-            height: 1000
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1661778743/medium_KR_OEHLER_4_Kara_Oehler_3af2db74f4.jpg
-            ext: .jpg
-            width: 750
-            height: 750
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1661778743/small_KR_OEHLER_4_Kara_Oehler_3af2db74f4.jpg
-            ext: .jpg
-            width: 500
-            height: 500
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1661778742/thumbnail_KR_OEHLER_4_Kara_Oehler_3af2db74f4.jpg
-            ext: .jpg
-            width: 156
-            height: 156
-
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/c_limit,w_2000,h_2000/e_grayscale/v1661778742/KR_OEHLER_4_Kara_Oehler_3af2db74f4.jpg
+  width: 3024
+  height: 3024
+  ext: .jpg
+  mime: image/jpeg
+  formats:
+    large:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1661778743/large_KR_OEHLER_4_Kara_Oehler_3af2db74f4.jpg
+      ext: .jpg
+      width: 1000
+      height: 1000
+    medium:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1661778743/medium_KR_OEHLER_4_Kara_Oehler_3af2db74f4.jpg
+      ext: .jpg
+      width: 750
+      height: 750
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1661778743/small_KR_OEHLER_4_Kara_Oehler_3af2db74f4.jpg
+      ext: .jpg
+      width: 500
+      height: 500
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1661778742/thumbnail_KR_OEHLER_4_Kara_Oehler_3af2db74f4.jpg
+      ext: .jpg
+      width: 156
+      height: 156
+members/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 For two decades, Kara Oehler has been leading groundbreaking work at the intersection of media, documentary art, technology and data journalism. Her Peabody award-winning stories have aired around the world on shows like Radiolab, Morning Edition and Marketplace, been published in The New York Times Magazine & been exhibited at MoMA. Oehler co-founded metaLAB in 2011 and has been a Radcliffe Fellow at Harvard’s Radcliffe Institute, a Harvard Film Study Center Fellow, and a United States Artists Fellow. 
 

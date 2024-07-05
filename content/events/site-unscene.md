@@ -4,31 +4,35 @@ subtitle: Medial Ideology and the Literary Interface
 fulltitle: 'Site Unscene: Medial Ideology and the Literary Interface'
 status: postponed
 outputs:
-    - HTML
-    - Calendar
+  - HTML
+  - Calendar
 timezone: Boston
 timezoneAbbr:
-    berlin: CET
-    boston: EST
-start_time: "2020-02-23T16:00:00-05:00"
-end_time: "2020-02-23T17:00:00-05:00"
+  berlin: CET
+  boston: EST
+start_time: '2020-02-23T16:00:00-05:00'
+end_time: '2020-02-23T17:00:00-05:00'
 start_time_utc: 20200223T210000Z
 end_time_utc: 20200223T220000Z
 start_time_locations:
-    berlin: "2020-02-23T22:00:00+01:00"
-    boston: "2020-02-23T16:00:00-05:00"
+  berlin: '2020-02-23T22:00:00+01:00'
+  boston: '2020-02-23T16:00:00-05:00'
 end_time_locations:
-    berlin: "2020-02-23T23:00:00+01:00"
-    boston: "2020-02-23T17:00:00-05:00"
+  berlin: '2020-02-23T23:00:00+01:00'
+  boston: '2020-02-23T17:00:00-05:00'
 tzid: America/New_York
 location: Cambridge, MA
 isFeatured: false
 isOngoing: false
-lastmod: "2022-02-09T16:13:52.672Z"
-date: "2020-02-23T16:00:00-05:00"
+lastmod: '2024-05-24T11:01:34.886Z'
+date: '2020-02-23T16:00:00-05:00'
 slug: site-unscene
 noHeaderImage: false
-
+events/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 **THIS EVENT HAS BEEN POSTPONED**
 

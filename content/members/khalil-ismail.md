@@ -2,8 +2,8 @@
 name: Khalil Ismail
 title: Khalil Ismail
 roles:
-    - role: Researcher
-      position: 6
+  - role: Researcher
+    position: 6
 isAlumnus: false
 isFounder: false
 rank: 6.999
@@ -11,41 +11,45 @@ role_string: Researcher
 intro: Augment it with serendipity; make it human.
 email: khalil.ismail@mail.com
 website: https://www.linkedin.com/in/khx
-start: "2024-05-01"
-lastmod: "2024-05-05T02:15:29.586Z"
-date: "2024-05-05T02:15:06.580Z"
+start: '2024-05-01'
+lastmod: '2024-05-24T10:56:36.377Z'
+date: '2024-05-05T04:15:06.580Z'
 slug: khalil-ismail
 projects:
-    - label: AI Pedagogy Project
-      slug: ai-pedagogy-project
+  - label: AI Pedagogy Project
+    slug: ai-pedagogy-project
 picture:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/c_limit,w_2000,h_2000/e_grayscale/v1714875284/Khalil_Ismail_Khalil_Ismail_052a413631.jpg
-    width: 2282
-    height: 2453
-    ext: .jpg
-    mime: image/jpeg
-    formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1714875285/large_Khalil_Ismail_Khalil_Ismail_052a413631.jpg
-            ext: .jpg
-            width: 930
-            height: 1000
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1714875285/medium_Khalil_Ismail_Khalil_Ismail_052a413631.jpg
-            ext: .jpg
-            width: 698
-            height: 750
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1714875286/small_Khalil_Ismail_Khalil_Ismail_052a413631.jpg
-            ext: .jpg
-            width: 465
-            height: 500
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1714875285/thumbnail_Khalil_Ismail_Khalil_Ismail_052a413631.jpg
-            ext: .jpg
-            width: 145
-            height: 156
-
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/c_limit,w_2000,h_2000/e_grayscale/v1714875284/Khalil_Ismail_Khalil_Ismail_052a413631.jpg
+  width: 2282
+  height: 2453
+  ext: .jpg
+  mime: image/jpeg
+  formats:
+    large:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1714875285/large_Khalil_Ismail_Khalil_Ismail_052a413631.jpg
+      ext: .jpg
+      width: 930
+      height: 1000
+    medium:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1714875285/medium_Khalil_Ismail_Khalil_Ismail_052a413631.jpg
+      ext: .jpg
+      width: 698
+      height: 750
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1714875286/small_Khalil_Ismail_Khalil_Ismail_052a413631.jpg
+      ext: .jpg
+      width: 465
+      height: 500
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1714875285/thumbnail_Khalil_Ismail_Khalil_Ismail_052a413631.jpg
+      ext: .jpg
+      width: 145
+      height: 156
+members/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 Khalil Ismail is a designer, engineer, and technologist working at the intersection of software and hardware for the Intelligence Age. He is a graduate student at Imperial College London and the Royal College of Art, pursuing a double masters (MSc + MA) in Innovation Design Engineering. He is most interested in tangible AI, wearables, BCIs, and multimodal interfaces.
 

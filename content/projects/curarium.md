@@ -1,66 +1,70 @@
 ---
 title: Curarium
-subtitle: ""
+subtitle: ''
 fulltitle: Curarium
 intro: Curarium is a collection of collections, an “animated archive” crowdsourcing annotation, curation, and augmentation of works within and beyond their respective collections.
-start: "2016-01-01"
-end: "2016-01-01"
+start: '2016-01-01'
+end: '2016-01-01'
 datestring: January 2016
-description: Curarium is a collection of collections, an “animated archive” crowdsourcing annotation, curation, and augmentation of works within and beyond th…
+description: Curarium is a collection of collections, an “animated archive” crowdsourcing annotation, curation, and augmentation of works within and beyond their respective…
 location: virtual
 host: harvard
 mediation: mixed_media
 isFeatured: false
-externalLink: ""
-lastmod: "2022-03-30T17:49:44.175Z"
-date: "2016-01-01"
+externalLink: ''
+lastmod: '2024-05-20T02:01:49.662Z'
+date: '2016-01-01'
 slug: curarium
 collaborators:
-    - label: The Berkman Klein Center
-    - label: Villa I Tatti
+  - label: The Berkman Klein Center
+  - label: Villa I Tatti
 links:
-    - label: curarium.com
-      url: https://curarium.com/
-    - label: Curarium (satellite)
-      url: https://vimeo.com/165358156
-    - label: What is Curarium?
-      url: https://vimeo.com/96942072
+  - label: curarium.com
+    url: https://curarium.com/
+  - label: Curarium (satellite)
+    url: https://vimeo.com/165358156
+  - label: What is Curarium?
+    url: https://vimeo.com/96942072
 members:
-    - label: Jeffrey Schnapp
-      slug: jeffrey-schnapp
-      twitter: jaytiesse
-    - label: Julianne VanWagenen
-      slug: julianne-van-wagenen
-    - label: Krystelle Denis
-      slug: krystelle-denis
-      twitter: _kdenis
-    - label: Pablo Barría Urenda
-      slug: pablo-barria-urenda
+  - label: Jeffrey Schnapp
+    slug: jeffrey-schnapp
+    twitter: jaytiesse
+  - label: Julianne VanWagenen
+    slug: julianne-van-wagenen
+  - label: Krystelle Denis
+    slug: krystelle-denis
+    twitter: _kdenis
+  - label: Pablo Barría Urenda
+    slug: pablo-barria-urenda
 cover:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637808466/curarium1_33f2510f08.gif
-    width: 1113
-    height: 1440
-    ext: .gif
-    mime: image/gif
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637808466/curarium1_33f2510f08.gif
+  width: 1113
+  height: 1440
+  ext: .gif
+  mime: image/gif
 header:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637808466/curarium1_33f2510f08.gif
-    width: 1113
-    height: 1440
-    ext: .gif
-    mime: image/gif
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637808466/curarium1_33f2510f08.gif
+  width: 1113
+  height: 1440
+  ext: .gif
+  mime: image/gif
 noHeaderImage: false
 gallery:
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637808466/curarium1_33f2510f08.gif
-      width: 1113
-      height: 1440
-      ext: .gif
-      mime: image/gif
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637808466/curarium1_33f2510f08.gif
+    width: 1113
+    height: 1440
+    ext: .gif
+    mime: image/gif
 members_twitter:
-    - jaytiesse
-    - _kdenis
+  - _kdenis
+  - jaytiesse
 images:
-    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1637808466/curarium1_33f2510f08.jpg
-
+  - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1637808466/curarium1_33f2510f08.jpg
+projects/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 A web-based platform, Curarium aims to construct sharable, media-rich stories and elaborate arguments about individual items as well as groups of items within a corpus. 
 

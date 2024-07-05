@@ -2,33 +2,37 @@
 title: AI, Big Ideas, & Shiny Objects
 subtitle: SXSW
 fulltitle: 'AI, Big Ideas, & Shiny Objects: SXSW'
-status: ""
+status: ''
 outputs:
-    - HTML
-    - Calendar
+  - HTML
+  - Calendar
 timezone: Boston
 timezoneAbbr:
-    berlin: CET
-    boston: EDT
-start_time: "2019-03-12T16:00:00-04:00"
-end_time: "2019-03-12T17:00:00-04:00"
+  berlin: CET
+  boston: EDT
+start_time: '2019-03-12T16:00:00-04:00'
+end_time: '2019-03-12T17:00:00-04:00'
 start_time_utc: 20190312T200000Z
 end_time_utc: 20190312T210000Z
 start_time_locations:
-    berlin: "2019-03-12T21:00:00+01:00"
-    boston: "2019-03-12T16:00:00-04:00"
+  berlin: '2019-03-12T21:00:00+01:00'
+  boston: '2019-03-12T16:00:00-04:00'
 end_time_locations:
-    berlin: "2019-03-12T22:00:00+01:00"
-    boston: "2019-03-12T17:00:00-04:00"
+  berlin: '2019-03-12T22:00:00+01:00'
+  boston: '2019-03-12T17:00:00-04:00'
 tzid: America/New_York
 location: Austin, TX
 isFeatured: false
 isOngoing: false
-lastmod: "2022-02-09T16:13:53.227Z"
-date: "2019-03-12T16:00:00-04:00"
+lastmod: '2024-05-24T11:01:34.826Z'
+date: '2019-03-12T16:00:00-04:00'
 slug: ai-big-ideas-and-shiny-objects
 noHeaderImage: false
-
+events/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 **AI, Big Ideas, & Shiny Objects**
 

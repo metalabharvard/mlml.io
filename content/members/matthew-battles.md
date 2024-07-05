@@ -2,95 +2,100 @@
 name: Matthew Battles
 title: Matthew Battles
 roles:
-    - role: Principal
-      position: 4
+  - role: Principal
+    position: 4
 isAlumnus: true
 isFounder: false
+rank: 99
 role_string: Alumnus
 intro: No bird has the heart to sing in a thicket of questions. —René Char.
 twitter: matthewbattles
 instagram: mbattles
-start: "2012-01-01"
-lastmod: "2022-02-14T16:07:30.226Z"
-date: "2021-09-16T10:51:45.422Z"
+start: '2012-01-01'
+lastmod: '2024-05-24T10:56:36.933Z'
+date: '2021-09-16T12:51:45.422Z'
 slug: matthew-battles
 events:
-    - label: Curatorial A(i)gents at Ars Electronica 2020
-      slug: curatorial-a-i-gents-at-ars-electronica-2020
-    - label: Dialogues with Data [at] Infovis
-      slug: dialogues-with-data-at-infovis
-    - label: Error – The Art of Imperfection
-      slug: ars-electronica
-    - label: Machine Experience
-      slug: machine-experience
-    - label: Machine Experience II
-      slug: machine-experience-ii
-    - label: Overflow
-      slug: overflow
-    - label: metaLAB + friends openLAB
-      slug: meta-lab-friends-open-lab
+  - label: Curatorial A(i)gents at Ars Electronica 2020
+    slug: curatorial-a-i-gents-at-ars-electronica-2020
+  - label: Dialogues with Data [at] Infovis
+    slug: dialogues-with-data-at-infovis
+  - label: Error – The Art of Imperfection
+    slug: ars-electronica
+  - label: Machine Experience
+    slug: machine-experience
+  - label: Machine Experience II
+    slug: machine-experience-ii
+  - label: metaLAB + friends openLAB
+    slug: meta-lab-friends-open-lab
+  - label: Overflow
+    slug: overflow
 projects:
-    - label: '#MeToo Anti-Network'
-      slug: me-too-anti-network
-    - label: AI + Art at metaLAB
-      slug: ai-art-at-meta-lab
-    - label: Algorithm Inventarium (AI+)
-      slug: algorithm-inventarium-ai
-    - label: Curatorial A(i)gents
-      slug: curatorial-aigents
-    - label: Curricle
-      slug: curricle
-    - label: Curricle Lens
-      slug: curricle-lens
-    - label: Earth Measurer
-      slug: earth-measurer-networks-natures
-    - label: Futurefood
-      slug: futurefood
-    - label: Invasive Spirits
-      slug: invasive-spirits
-    - label: Light Prop
-      slug: light-prop
-    - label: Lightbox Gallery
-      slug: light-box
-    - label: Networks + Natures
-      slug: networks-and-natures
-    - label: Sensate Journal
-      slug: sensate-journal
-    - label: TOP (at) Harvard
-      slug: top-at-harvard
-    - label: The Library Beyond the Book
-      slug: the-library-beyond-the-book
-    - label: Their Names
-      slug: their-names
-    - label: Turing’s Mill
-      slug: turing-39-s-mill
-    - label: Your Story Has Touched My Heart
-      slug: your-story-has-touched-my-heart
-    - label: futureStage
-      slug: futurestage
+  - label: '#MeToo Anti-Network'
+    slug: me-too-anti-network
+  - label: AI + Art at metaLAB
+    slug: ai-art-at-meta-lab
+  - label: Algorithm Inventarium (AI+)
+    slug: algorithm-inventarium-ai
+  - label: Curatorial A(i)gents
+    slug: curatorial-aigents
+  - label: Curricle
+    slug: curricle
+  - label: Curricle Lens
+    slug: curricle-lens
+  - label: Earth Measurer
+    slug: earth-measurer-networks-natures
+  - label: Futurefood
+    slug: futurefood
+  - label: futureStage
+    slug: futurestage
+  - label: Invasive Spirits
+    slug: invasive-spirits
+  - label: Light Prop
+    slug: light-prop
+  - label: Lightbox Gallery
+    slug: light-box
+  - label: Networks + Natures
+    slug: networks-and-natures
+  - label: Sensate Journal
+    slug: sensate-journal
+  - label: The Library Beyond the Book
+    slug: the-library-beyond-the-book
+  - label: Their Names
+    slug: their-names
+  - label: TOP (at) Harvard
+    slug: top-at-harvard
+  - label: Turing’s Mill
+    slug: turing-39-s-mill
+  - label: Your Story Has Touched My Heart
+    slug: your-story-has-touched-my-heart
 picture:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/c_limit,w_2000,h_2000/e_grayscale/v1629122131/matthew_18c95f4abd.jpg
-    width: 850
-    height: 850
-    ext: .jpg
-    mime: image/jpeg
-    formats:
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122131/medium_matthew_18c95f4abd.jpg
-            ext: .jpg
-            width: 750
-            height: 750
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122132/small_matthew_18c95f4abd.jpg
-            ext: .jpg
-            width: 500
-            height: 500
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122131/thumbnail_matthew_18c95f4abd.jpg
-            ext: .jpg
-            width: 156
-            height: 156
-
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/c_limit,w_2000,h_2000/e_grayscale/v1629122131/matthew_18c95f4abd.jpg
+  width: 850
+  height: 850
+  ext: .jpg
+  mime: image/jpeg
+  formats:
+    medium:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122131/medium_matthew_18c95f4abd.jpg
+      ext: .jpg
+      width: 750
+      height: 750
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122132/small_matthew_18c95f4abd.jpg
+      ext: .jpg
+      width: 500
+      height: 500
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122131/thumbnail_matthew_18c95f4abd.jpg
+      ext: .jpg
+      width: 156
+      height: 156
+members/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 Matthew Battles is a maker and thinker whose work merges literary, scholarly, and artistic forms of inquiry. His writing appears in such venues as *The American Scholar*, *The Atlantic*, *Harper’s Magazine*, and *The New York Times*. His most recent book, *TREE*, was published by Bloomsbury in 2017.
   

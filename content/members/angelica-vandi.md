@@ -2,41 +2,46 @@
 name: Angelica Vandi
 title: Angelica Vandi
 roles:
-    - role: Researcher
-      position: 6
+  - role: Researcher
+    position: 6
 isAlumnus: true
 isFounder: false
+rank: 99
 role_string: Alumnus
 twitter: AngelicaVandi
-start: "2023-03-01"
-lastmod: "2023-07-08T01:58:28.299Z"
-date: "2023-03-07T19:59:51.957Z"
+start: '2023-03-01'
+lastmod: '2024-05-24T10:56:36.920Z'
+date: '2023-03-07T20:59:51.957Z'
 slug: angelica-vandi
 picture:
-    alternativeText: Picture of Angelica Vandi
-    caption: Picture of Angelica Vandi
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/c_limit,w_2000,h_2000/e_grayscale/v1678219169/Angelica_Vandi_BW_787eeedfed.jpg
-    width: 980
-    height: 917
-    ext: .jpg
-    mime: image/jpeg
-    formats:
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1678219169/medium_Angelica_Vandi_BW_787eeedfed.jpg
-            ext: .jpg
-            width: 750
-            height: 702
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1678219170/small_Angelica_Vandi_BW_787eeedfed.jpg
-            ext: .jpg
-            width: 500
-            height: 468
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1678219169/thumbnail_Angelica_Vandi_BW_787eeedfed.jpg
-            ext: .jpg
-            width: 167
-            height: 156
-
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/c_limit,w_2000,h_2000/e_grayscale/v1678219169/Angelica_Vandi_BW_787eeedfed.jpg
+  width: 980
+  height: 917
+  ext: .jpg
+  mime: image/jpeg
+  alternativeText: Picture of Angelica Vandi
+  caption: Picture of Angelica Vandi
+  formats:
+    medium:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1678219169/medium_Angelica_Vandi_BW_787eeedfed.jpg
+      ext: .jpg
+      width: 750
+      height: 702
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1678219170/small_Angelica_Vandi_BW_787eeedfed.jpg
+      ext: .jpg
+      width: 500
+      height: 468
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1678219169/thumbnail_Angelica_Vandi_BW_787eeedfed.jpg
+      ext: .jpg
+      width: 167
+      height: 156
+members/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 Angelica Vandi is a PhD Student in Design and MSc in Design for the Fashion System at Politecnico di Milano. During her University career, she took part in the Design Management joint program with Jefferson University, Philadelphia. 
 From 2019, she is a member of the Fashion in Process Research Lab, at the Design Department of Politecnico di Milano, within the research section "Design and Culture of Innovation”. As a research fellow, she followed the development of the DigiMood for CCIs European founded project.

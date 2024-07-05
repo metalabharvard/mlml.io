@@ -1,42 +1,46 @@
 ---
 title: Is A.I Laughing at us?
-subtitle: ""
+subtitle: ''
 fulltitle: Is A.I Laughing at us?
-status: ""
+status: ''
 outputs:
-    - HTML
-    - Calendar
+  - HTML
+  - Calendar
 timezone: Boston
 timezoneAbbr:
-    berlin: CET
-    boston: EST
-start_time: "2019-02-04T16:00:00-05:00"
-end_time: "2019-02-04T17:00:00-05:00"
+  berlin: CET
+  boston: EST
+start_time: '2019-02-04T16:00:00-05:00'
+end_time: '2019-02-04T17:00:00-05:00'
 start_time_utc: 20190204T210000Z
 end_time_utc: 20190204T220000Z
 start_time_locations:
-    berlin: "2019-02-04T22:00:00+01:00"
-    boston: "2019-02-04T16:00:00-05:00"
+  berlin: '2019-02-04T22:00:00+01:00'
+  boston: '2019-02-04T16:00:00-05:00'
 end_time_locations:
-    berlin: "2019-02-04T23:00:00+01:00"
-    boston: "2019-02-04T17:00:00-05:00"
+  berlin: '2019-02-04T23:00:00+01:00'
+  boston: '2019-02-04T17:00:00-05:00'
 tzid: America/New_York
 intro: Is A.I. Laughing at us?<br /> A conversation with Jessica Fjeld, Jon Orwant, and Nikhil Dharmaraj
 location: Cambridge, MA
 description: Is A.I. Laughing at us?<br /> A conversation with Jessica Fjeld, Jon Orwant, and Nikhil Dharmaraj
 isFeatured: false
 isOngoing: false
-lastmod: "2022-02-14T15:31:09.109Z"
-date: "2019-02-04T16:00:00-05:00"
+lastmod: '2024-05-24T11:01:34.785Z'
+date: '2019-02-04T16:00:00-05:00'
 slug: is-a-i-laughing-at-us
 members:
-    - label: David Weinberger
-      slug: david-weinberger
-      twitter: dweinberger
+  - label: David Weinberger
+    slug: david-weinberger
+    twitter: dweinberger
 noHeaderImage: false
 members_twitter:
-    - dweinberger
-
+  - dweinberger
+events/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 **Cambridge Public Library<br />
 Monday, February 04, 2019, 6:30-8pm<br />

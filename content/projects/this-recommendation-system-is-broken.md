@@ -1,31 +1,35 @@
 ---
 title: This Recommendation System is Broken
-subtitle: ""
+subtitle: ''
 fulltitle: This Recommendation System is Broken
 intro: Through randomization, This Recommendation System is Broken decenters the viewer and reimagines the role of norms in collections.
-start: "2019-11-01"
-end: "2020-04-09"
+start: '2019-11-01'
+end: '2020-04-09'
 datestring: November 2019&ensp;–&ensp;April 2020
 description: Through randomization, This Recommendation System is Broken decenters the viewer and reimagines the role of norms in collections.
-location: ""
+location: ''
 host: harvard
 mediation: mixed_media
 isFeatured: false
-externalLink: ""
-lastmod: "2022-02-18T18:03:19.795Z"
-date: "2020-04-09"
+externalLink: ''
+lastmod: '2024-05-20T02:01:50.312Z'
+date: '2020-04-09'
 slug: this-recommendation-system-is-broken
 collaborators:
-    - label: Harvard Art Museums
-    - label: Jonatan Reyes
+  - label: Harvard Art Museums
+  - label: Jonatan Reyes
 members:
-    - label: Giulia Taurino
-      slug: giulia-taurino
-      twitter: giulia_taurino
+  - label: Giulia Taurino
+    slug: giulia-taurino
+    twitter: giulia_taurino
 noHeaderImage: false
 members_twitter:
-    - giulia_taurino
-
+  - giulia_taurino
+projects/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 Imagine that you are gazing at Claude Monet’s *The Gare Saint-Lazare: Arrival of a Train*. A typical recommendation algorithm will suggest that you look at other Impressionist paintings: why not another work by Claude Monet, perhaps *Red Boats, Argenteuil*? It relies upon conventional, longstanding, consecrated associations: between artists, art movements, periods, schools, and subject matters. The present project turns this familiar matchmaking practice on its head, seeking to transport the viewer from center to periphery, from the gallery wall to deep in the storage closet, from the highly valued to the undervalued and rarely seen. 
 

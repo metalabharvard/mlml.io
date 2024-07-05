@@ -1,170 +1,174 @@
 ---
 title: Digital Mapping of Contemporaneity, Activism & Ecology
-subtitle: ""
+subtitle: ''
 fulltitle: Digital Mapping of Contemporaneity, Activism & Ecology
 status: default
 outputs:
-    - HTML
-    - Calendar
+  - HTML
+  - Calendar
 timezone: Berlin
 timezoneAbbr:
-    berlin: CET
-    boston: EST
-start_time: "2023-12-07T10:00:00+01:00"
-end_time: "2023-12-07T17:00:00+01:00"
+  berlin: CET
+  boston: EST
+start_time: '2023-12-07T10:00:00+01:00'
+end_time: '2023-12-07T17:00:00+01:00'
 start_time_utc: 20231207T090000Z
 end_time_utc: 20231207T160000Z
 start_time_locations:
-    berlin: "2023-12-07T10:00:00+01:00"
-    boston: "2023-12-07T04:00:00-05:00"
+  berlin: '2023-12-07T10:00:00+01:00'
+  boston: '2023-12-07T04:00:00-05:00'
 end_time_locations:
-    berlin: "2023-12-07T17:00:00+01:00"
-    boston: "2023-12-07T11:00:00-05:00"
+  berlin: '2023-12-07T17:00:00+01:00'
+  boston: '2023-12-07T11:00:00-05:00'
 tzid: Europe/Berlin
 intro: This workshop will test methods and investigative tools/mappings to raise awareness of climate resilience through narrative and performative interventions
 location: Berlin/online
 category: workshop
 externalLink: https://fu-berlin.webex.com/weblink/register/r2962acc342e232ca5beea5494cd050b9
-description: This workshop will test methods and investigative tools/mappings to raise awareness of climate resilience through narrative and performative interven…
+description: This workshop will test methods and investigative tools/mappings to raise awareness of climate resilience through narrative and performative interventions
 isFeatured: false
 isOngoing: false
-lastmod: "2023-11-27T18:49:15.096Z"
-date: "2023-12-07T10:00:00+01:00"
+lastmod: '2024-05-24T11:01:35.208Z'
+date: '2023-12-07T10:00:00+01:00'
 slug: digital-mapping
 members:
-    - label: Annette Jael Lehmann
-      slug: annette-jael-lehmann
-    - label: Charlotte Hannah Peters
-      slug: charlotte-hannah-peters
-    - label: Dario Rodighiero
-      slug: dario-rodighiero
-      twitter: dariorodighiero
-    - label: Giacomo Nanni
-      slug: giacomo-nanni
-      twitter: sinanatra
-    - label: Jeffrey Schnapp
-      slug: jeffrey-schnapp
-      twitter: jaytiesse
-    - label: Kara Oehler
-      slug: kara_oehler
-      twitter: karaoehler
-    - label: Kim Albrecht
-      slug: kim-albrecht
-      twitter: kimay
-    - label: Pier Luigi Sacco
-      slug: pier-luigi-sacco
-      twitter: pierluigisacco
-    - label: Till Rückwart
-      slug: till-rueckwart
-      twitter: till_mw
+  - label: Annette Jael Lehmann
+    slug: annette-jael-lehmann
+  - label: Charlotte Hannah Peters
+    slug: charlotte-hannah-peters
+  - label: Dario Rodighiero
+    slug: dario-rodighiero
+    twitter: dariorodighiero
+  - label: Giacomo Nanni
+    slug: giacomo-nanni
+    twitter: sinanatra
+  - label: Jeffrey Schnapp
+    slug: jeffrey-schnapp
+    twitter: jaytiesse
+  - label: Kara Oehler
+    slug: kara_oehler
+    twitter: karaoehler
+  - label: Kim Albrecht
+    slug: kim-albrecht
+    twitter: kimay
+  - label: Pier Luigi Sacco
+    slug: pier-luigi-sacco
+    twitter: pierluigisacco
+  - label: Till Rückwart
+    slug: till-rueckwart
+    twitter: till_mw
 projects:
-    - label: Circulating Narratives – Entangling Communities
-      slug: circulating-narratives-entangling-communities
+  - label: Circulating Narratives – Entangling Communities
+    slug: circulating-narratives-entangling-communities
 cover:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1700754317/Webflyer_Digital_Mapping_CET_161ee16d03.png
-    width: 5000
-    height: 2625
-    ext: .png
-    mime: image/png
-    formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1700754319/large_Webflyer_Digital_Mapping_CET_161ee16d03.png
-            ext: .png
-            width: 1000
-            height: 525
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1700754320/medium_Webflyer_Digital_Mapping_CET_161ee16d03.png
-            ext: .png
-            width: 750
-            height: 394
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1700754321/small_Webflyer_Digital_Mapping_CET_161ee16d03.png
-            ext: .png
-            width: 500
-            height: 263
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1700754318/thumbnail_Webflyer_Digital_Mapping_CET_161ee16d03.png
-            ext: .png
-            width: 245
-            height: 129
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1700754317/Webflyer_Digital_Mapping_CET_161ee16d03.png
+  width: 5000
+  height: 2625
+  ext: .png
+  mime: image/png
+  formats:
+    large:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1700754319/large_Webflyer_Digital_Mapping_CET_161ee16d03.png
+      ext: .png
+      width: 1000
+      height: 525
+    medium:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1700754320/medium_Webflyer_Digital_Mapping_CET_161ee16d03.png
+      ext: .png
+      width: 750
+      height: 394
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1700754321/small_Webflyer_Digital_Mapping_CET_161ee16d03.png
+      ext: .png
+      width: 500
+      height: 263
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1700754318/thumbnail_Webflyer_Digital_Mapping_CET_161ee16d03.png
+      ext: .png
+      width: 245
+      height: 129
 header:
-    alternativeText: 'Web flyer for the workshop ''Digital Mapping of Contemporaneity, Activism & Ecology''. Source: Studio Syberg.'
-    caption: '''Digital Mapping of Contemporaneity, Activism & Ecology''. Source: Studio Syberg.'
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1700754237/Webflyer_Digital_Mapping_CET_e0063705db.png
-    width: 5000
-    height: 1859
-    ext: .png
-    mime: image/png
-    formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1700754239/large_Webflyer_Digital_Mapping_CET_e0063705db.png
-            ext: .png
-            width: 1000
-            height: 372
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1700754239/medium_Webflyer_Digital_Mapping_CET_e0063705db.png
-            ext: .png
-            width: 750
-            height: 279
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1700754239/small_Webflyer_Digital_Mapping_CET_e0063705db.png
-            ext: .png
-            width: 500
-            height: 186
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1700754238/thumbnail_Webflyer_Digital_Mapping_CET_e0063705db.png
-            ext: .png
-            width: 245
-            height: 91
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1700754237/Webflyer_Digital_Mapping_CET_e0063705db.png
+  width: 5000
+  height: 1859
+  ext: .png
+  mime: image/png
+  alternativeText: 'Web flyer for the workshop ''Digital Mapping of Contemporaneity, Activism & Ecology''. Source: Studio Syberg.'
+  caption: '''Digital Mapping of Contemporaneity, Activism & Ecology''. Source: Studio Syberg.'
+  formats:
+    large:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1700754239/large_Webflyer_Digital_Mapping_CET_e0063705db.png
+      ext: .png
+      width: 1000
+      height: 372
+    medium:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1700754239/medium_Webflyer_Digital_Mapping_CET_e0063705db.png
+      ext: .png
+      width: 750
+      height: 279
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1700754239/small_Webflyer_Digital_Mapping_CET_e0063705db.png
+      ext: .png
+      width: 500
+      height: 186
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1700754238/thumbnail_Webflyer_Digital_Mapping_CET_e0063705db.png
+      ext: .png
+      width: 245
+      height: 91
 noHeaderImage: false
 gallery:
-    - alternativeText: 'Poster for the workshop ''Digital Mapping of Contemporaneity, Activism & Ecology''. Source: Studio Syberg.'
-      caption: 'Poster for the workshop ''Digital Mapping of Contemporaneity, Activism & Ecology''. Source: Studio Syberg.'
-      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1700243591/Poster_Digital_Mapping_f2f91b3e71.png
-      width: 4961
-      height: 7016
-      ext: .png
-      mime: image/png
-      formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1700243595/large_Poster_Digital_Mapping_f2f91b3e71.png
-            ext: .png
-            width: 707
-            height: 1000
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1700243595/medium_Poster_Digital_Mapping_f2f91b3e71.png
-            ext: .png
-            width: 530
-            height: 750
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1700243595/small_Poster_Digital_Mapping_f2f91b3e71.png
-            ext: .png
-            width: 354
-            height: 500
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1700243593/thumbnail_Poster_Digital_Mapping_f2f91b3e71.png
-            ext: .png
-            width: 110
-            height: 156
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1700243591/Poster_Digital_Mapping_f2f91b3e71.png
+    width: 4961
+    height: 7016
+    ext: .png
+    mime: image/png
+    alternativeText: 'Poster for the workshop ''Digital Mapping of Contemporaneity, Activism & Ecology''. Source: Studio Syberg.'
+    caption: 'Poster for the workshop ''Digital Mapping of Contemporaneity, Activism & Ecology''. Source: Studio Syberg.'
+    formats:
+      large:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1700243595/large_Poster_Digital_Mapping_f2f91b3e71.png
+        ext: .png
+        width: 707
+        height: 1000
+      medium:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1700243595/medium_Poster_Digital_Mapping_f2f91b3e71.png
+        ext: .png
+        width: 530
+        height: 750
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1700243595/small_Poster_Digital_Mapping_f2f91b3e71.png
+        ext: .png
+        width: 354
+        height: 500
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1700243593/thumbnail_Poster_Digital_Mapping_f2f91b3e71.png
+        ext: .png
+        width: 110
+        height: 156
 collaborators:
-    - label: Matthias Einhoff
-    - label: Stefan Koderisch
-    - label: Clemens Gruber
-    - label: Giacomo Nanni
-    - label: Jan Fillies
-    - label: Marie Koldkjær Højlund
-    - label: Francesca Panetta
+  - label: Matthias Einhoff
+  - label: Stefan Koderisch
+  - label: Clemens Gruber
+  - label: Giacomo Nanni
+  - label: Jan Fillies
+  - label: Marie Koldkjær Højlund
+  - label: Francesca Panetta
 members_twitter:
-    - dariorodighiero
-    - sinanatra
-    - jaytiesse
-    - karaoehler
-    - kimay
-    - pierluigisacco
-    - till_mw
+  - dariorodighiero
+  - pierluigisacco
+  - kimay
+  - jaytiesse
+  - karaoehler
+  - till_mw
+  - sinanatra
 images:
-    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1700754317/Webflyer_Digital_Mapping_CET_161ee16d03.png
-
+  - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1700754317/Webflyer_Digital_Mapping_CET_161ee16d03.png
+events/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 ## Digital Mapping of Contemporaneity, Activism & Ecology
 

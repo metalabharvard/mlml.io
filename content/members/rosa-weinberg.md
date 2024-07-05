@@ -2,30 +2,35 @@
 name: Rosa Weinberg
 title: Rosa Weinberg
 roles:
-    - role: Affiliate
-      position: 8
+  - role: Affiliate
+    position: 8
 isAlumnus: true
 isFounder: false
+rank: 99
 role_string: Alumnus
 twitter: rosaweinberg
 website: http://rosaweinberg.com
 instagram: leahrosaw
-lastmod: "2021-12-17T16:42:33.240Z"
-date: "2021-09-16T10:51:44.871Z"
+lastmod: '2024-05-24T10:56:35.946Z'
+date: '2021-09-16T12:51:44.871Z'
 slug: rosa-weinberg
 picture:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/c_limit,w_2000,h_2000/e_grayscale/v1629122118/rosa_de3699f2c8.jpg
-    width: 493
-    height: 493
-    ext: .jpg
-    mime: image/jpeg
-    formats:
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122119/thumbnail_rosa_de3699f2c8.jpg
-            ext: .jpg
-            width: 156
-            height: 156
-
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/c_limit,w_2000,h_2000/e_grayscale/v1629122118/rosa_de3699f2c8.jpg
+  width: 493
+  height: 493
+  ext: .jpg
+  mime: image/jpeg
+  formats:
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122119/thumbnail_rosa_de3699f2c8.jpg
+      ext: .jpg
+      width: 156
+      height: 156
+members/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 Rosa Weinberg teaches introductory and advanced architecture and design courses. She holds a bachelor’s of science in environmental policy with economics from the London School of Economics and a master of architecture from Yale University. She is a licensed architect.
 

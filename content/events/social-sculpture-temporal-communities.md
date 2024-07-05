@@ -4,106 +4,110 @@ subtitle: A one–day laboratory
 fulltitle: 'Social Sculpture – Temporal Communities: A one–day laboratory'
 status: default
 outputs:
-    - HTML
-    - Calendar
+  - HTML
+  - Calendar
 timezone: Berlin
 timezoneAbbr:
-    berlin: CET
-    boston: EST
-start_time: "2021-12-05T12:00:00+01:00"
-end_time: "2021-12-05T19:00:00+01:00"
+  berlin: CET
+  boston: EST
+start_time: '2021-12-05T12:00:00+01:00'
+end_time: '2021-12-05T19:00:00+01:00'
 start_time_utc: 20211205T110000Z
 end_time_utc: 20211205T180000Z
 start_time_locations:
-    berlin: "2021-12-05T12:00:00+01:00"
-    boston: "2021-12-05T06:00:00-05:00"
+  berlin: '2021-12-05T12:00:00+01:00'
+  boston: '2021-12-05T06:00:00-05:00'
 end_time_locations:
-    berlin: "2021-12-05T19:00:00+01:00"
-    boston: "2021-12-05T13:00:00-05:00"
+  berlin: '2021-12-05T19:00:00+01:00'
+  boston: '2021-12-05T13:00:00-05:00'
 tzid: Europe/Berlin
 intro: The one-day event "Social Sculpture – Temporal Communities" contributes to the project's broader inquiry into how embodied creative practices, such as performance, can unfold alternative narratives, practices of embodying histories and the transfer of embodied knowledge.
 location: Berlin
 category: talk
 externalLink: https://www.temporal-communities.de/events/workshop-social-sculpture.html
-description: The one-day event "Social Sculpture – Temporal Communities" contributes to the project's broader inquiry into how embodied creative practices, such…
+description: The one-day event "Social Sculpture – Temporal Communities" contributes to the project's broader inquiry into how embodied creative practices, such as…
 isFeatured: false
 isOngoing: false
-lastmod: "2022-02-09T16:13:54.280Z"
-date: "2021-12-05T12:00:00+01:00"
+lastmod: '2024-05-24T11:01:35.448Z'
+date: '2021-12-05T12:00:00+01:00'
 slug: social-sculpture-temporal-communities
 members:
-    - label: Annette Jael Lehmann
-      slug: annette-jael-lehmann
-    - label: Jeffrey Schnapp
-      slug: jeffrey-schnapp
-      twitter: jaytiesse
-    - label: Kim Albrecht
-      slug: kim-albrecht
-      twitter: kimay
+  - label: Annette Jael Lehmann
+    slug: annette-jael-lehmann
+  - label: Jeffrey Schnapp
+    slug: jeffrey-schnapp
+    twitter: jaytiesse
+  - label: Kim Albrecht
+    slug: kim-albrecht
+    twitter: kimay
 projects:
-    - label: Circulating Narratives – Entangling Communities
-      slug: circulating-narratives-entangling-communities
+  - label: Circulating Narratives – Entangling Communities
+    slug: circulating-narratives-entangling-communities
 cover:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637931937/Entwurf_Social_Media_Pic_Video_Reihe_211123_4838e57a5a.jpg
-    width: 2500
-    height: 2500
-    ext: .jpg
-    mime: image/jpeg
-    formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637931937/large_Entwurf_Social_Media_Pic_Video_Reihe_211123_4838e57a5a.jpg
-            ext: .jpg
-            width: 1000
-            height: 1000
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637931938/medium_Entwurf_Social_Media_Pic_Video_Reihe_211123_4838e57a5a.jpg
-            ext: .jpg
-            width: 750
-            height: 750
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637931938/small_Entwurf_Social_Media_Pic_Video_Reihe_211123_4838e57a5a.jpg
-            ext: .jpg
-            width: 500
-            height: 500
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637931937/thumbnail_Entwurf_Social_Media_Pic_Video_Reihe_211123_4838e57a5a.jpg
-            ext: .jpg
-            width: 156
-            height: 156
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637931937/Entwurf_Social_Media_Pic_Video_Reihe_211123_4838e57a5a.jpg
+  width: 2500
+  height: 2500
+  ext: .jpg
+  mime: image/jpeg
+  formats:
+    large:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637931937/large_Entwurf_Social_Media_Pic_Video_Reihe_211123_4838e57a5a.jpg
+      ext: .jpg
+      width: 1000
+      height: 1000
+    medium:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637931938/medium_Entwurf_Social_Media_Pic_Video_Reihe_211123_4838e57a5a.jpg
+      ext: .jpg
+      width: 750
+      height: 750
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637931938/small_Entwurf_Social_Media_Pic_Video_Reihe_211123_4838e57a5a.jpg
+      ext: .jpg
+      width: 500
+      height: 500
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637931937/thumbnail_Entwurf_Social_Media_Pic_Video_Reihe_211123_4838e57a5a.jpg
+      ext: .jpg
+      width: 156
+      height: 156
 header:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637931937/Entwurf_Social_Media_Pic_Video_Reihe_211123_4838e57a5a.jpg
-    width: 2500
-    height: 2500
-    ext: .jpg
-    mime: image/jpeg
-    formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637931937/large_Entwurf_Social_Media_Pic_Video_Reihe_211123_4838e57a5a.jpg
-            ext: .jpg
-            width: 1000
-            height: 1000
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637931938/medium_Entwurf_Social_Media_Pic_Video_Reihe_211123_4838e57a5a.jpg
-            ext: .jpg
-            width: 750
-            height: 750
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637931938/small_Entwurf_Social_Media_Pic_Video_Reihe_211123_4838e57a5a.jpg
-            ext: .jpg
-            width: 500
-            height: 500
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637931937/thumbnail_Entwurf_Social_Media_Pic_Video_Reihe_211123_4838e57a5a.jpg
-            ext: .jpg
-            width: 156
-            height: 156
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637931937/Entwurf_Social_Media_Pic_Video_Reihe_211123_4838e57a5a.jpg
+  width: 2500
+  height: 2500
+  ext: .jpg
+  mime: image/jpeg
+  formats:
+    large:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637931937/large_Entwurf_Social_Media_Pic_Video_Reihe_211123_4838e57a5a.jpg
+      ext: .jpg
+      width: 1000
+      height: 1000
+    medium:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637931938/medium_Entwurf_Social_Media_Pic_Video_Reihe_211123_4838e57a5a.jpg
+      ext: .jpg
+      width: 750
+      height: 750
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637931938/small_Entwurf_Social_Media_Pic_Video_Reihe_211123_4838e57a5a.jpg
+      ext: .jpg
+      width: 500
+      height: 500
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637931937/thumbnail_Entwurf_Social_Media_Pic_Video_Reihe_211123_4838e57a5a.jpg
+      ext: .jpg
+      width: 156
+      height: 156
 noHeaderImage: false
 members_twitter:
-    - jaytiesse
-    - kimay
+  - kimay
+  - jaytiesse
 images:
-    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1637931937/Entwurf_Social_Media_Pic_Video_Reihe_211123_4838e57a5a.jpg
-
+  - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1637931937/Entwurf_Social_Media_Pic_Video_Reihe_211123_4838e57a5a.jpg
+events/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 A practice-based laboratory featuring Stephanie Comilang, Rosalia Namsai Engchuan, Soydivision, members of EXC 2020, Research Area "Travelling Matters" and metaLAB (at) FU Berlin with metaLAB (at) Harvard’s founder and faculty director Prof. Jeffrey T. Schnapp.
 

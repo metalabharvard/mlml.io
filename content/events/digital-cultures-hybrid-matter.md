@@ -1,47 +1,51 @@
 ---
 title: Digital Cultures – Hybrid Matter
-subtitle: ""
+subtitle: ''
 fulltitle: Digital Cultures – Hybrid Matter
-status: ""
+status: ''
 outputs:
-    - HTML
-    - Calendar
+  - HTML
+  - Calendar
 timezone: Boston
 timezoneAbbr:
-    berlin: CEST
-    boston: EDT
-start_time: "2018-09-22T16:00:00-04:00"
-end_time: "2018-09-22T17:00:00-04:00"
+  berlin: CEST
+  boston: EDT
+start_time: '2018-09-22T16:00:00-04:00'
+end_time: '2018-09-22T17:00:00-04:00'
 start_time_utc: 20180922T200000Z
 end_time_utc: 20180922T210000Z
 start_time_locations:
-    berlin: "2018-09-22T22:00:00+02:00"
-    boston: "2018-09-22T16:00:00-04:00"
+  berlin: '2018-09-22T22:00:00+02:00'
+  boston: '2018-09-22T16:00:00-04:00'
 end_time_locations:
-    berlin: "2018-09-22T23:00:00+02:00"
-    boston: "2018-09-22T17:00:00-04:00"
+  berlin: '2018-09-22T23:00:00+02:00'
+  boston: '2018-09-22T17:00:00-04:00'
 tzid: America/New_York
 location: Warsaw, Poland
 isFeatured: false
 isOngoing: false
-lastmod: "2022-02-09T16:13:54.369Z"
-date: "2018-09-22T16:00:00-04:00"
+lastmod: '2024-05-24T11:01:35.538Z'
+date: '2018-09-22T16:00:00-04:00'
 slug: digital-cultures-hybrid-matter
 members:
-    - label: Kim Albrecht
-      slug: kim-albrecht
-      twitter: kimay
-    - label: Sarah Newman
-      slug: sarah-newman
-      twitter: sarahwnewman
+  - label: Kim Albrecht
+    slug: kim-albrecht
+    twitter: kimay
+  - label: Sarah Newman
+    slug: sarah-newman
+    twitter: sarahwnewman
 noHeaderImage: false
 links:
-    - label: 'Digital Cultures 2018: Hybrid Matter'
-      url: http://digitalcultures.pl/en
+  - label: 'Digital Cultures 2018: Hybrid Matter'
+    url: http://digitalcultures.pl/en
 members_twitter:
-    - kimay
-    - sarahwnewman
-
+  - sarahwnewman
+  - kimay
+events/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 Held September 22-25, 2018 in Warsaw, Poland, the Digital Cultures conference is a program of interdisciplinary debates and presentations that explore the ways digital media technologies are transforming contemporary culture, society, and the economy. The participants included researchers, scholars, and artists from a wide range of disciplines, and among the presenters were metaLAB at Harvard’s Sarah Newman and Kim Albrecht.
 

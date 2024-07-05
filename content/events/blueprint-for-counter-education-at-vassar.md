@@ -1,40 +1,44 @@
 ---
 title: Blueprint for Counter Education at Vassar
-subtitle: ""
+subtitle: ''
 fulltitle: Blueprint for Counter Education at Vassar
-status: ""
+status: ''
 outputs:
-    - HTML
-    - Calendar
+  - HTML
+  - Calendar
 timezone: Boston
 timezoneAbbr:
-    berlin: CEST
-    boston: EDT
-start_time: "2017-09-28T16:00:00-04:00"
-end_time: "2017-09-28T17:00:00-04:00"
+  berlin: CEST
+  boston: EDT
+start_time: '2017-09-28T16:00:00-04:00'
+end_time: '2017-09-28T17:00:00-04:00'
 start_time_utc: 20170928T200000Z
 end_time_utc: 20170928T210000Z
 start_time_locations:
-    berlin: "2017-09-28T22:00:00+02:00"
-    boston: "2017-09-28T16:00:00-04:00"
+  berlin: '2017-09-28T22:00:00+02:00'
+  boston: '2017-09-28T16:00:00-04:00'
 end_time_locations:
-    berlin: "2017-09-28T23:00:00+02:00"
-    boston: "2017-09-28T17:00:00-04:00"
+  berlin: '2017-09-28T23:00:00+02:00'
+  boston: '2017-09-28T17:00:00-04:00'
 tzid: America/New_York
 location: Vassar College, Poughkeepsie, NY
 isFeatured: false
 isOngoing: false
-lastmod: "2022-02-14T16:03:04.505Z"
-date: "2017-09-28T16:00:00-04:00"
+lastmod: '2024-05-24T11:01:34.809Z'
+date: '2017-09-28T16:00:00-04:00'
 slug: blueprint-for-counter-education-at-vassar
 projects:
-    - label: Blueprint for Counter Education
-      slug: blueprint-for-counter-education
+  - label: Blueprint for Counter Education
+    slug: blueprint-for-counter-education
 noHeaderImage: false
 links:
-    - label: Vassar CAAD
-      url: http://creativearts.vassar.edu/news/announcements/2017-2018/170928-blueprint-counter-education.html
-
+  - label: Vassar CAAD
+    url: http://creativearts.vassar.edu/news/announcements/2017-2018/170928-blueprint-counter-education.html
+events/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 **September 28, 2017**<br />
 Vassar College

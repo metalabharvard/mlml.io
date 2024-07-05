@@ -3,8 +3,8 @@ title: Blueprint for Counter Education
 subtitle: Expanded Reprint
 fulltitle: 'Blueprint for Counter Education: Expanded Reprint'
 intro: “This counter-university makes obsolete the traditional university process…”
-start: "2016-01-01"
-end: "2017-09-28"
+start: '2016-01-01'
+end: '2017-09-28'
 datestring: January 2016&ensp;–&ensp;September 2017
 description: “This counter-university makes obsolete the traditional university process…”
 location: Vassar College
@@ -12,97 +12,101 @@ host: harvard
 mediation: print
 isFeatured: false
 externalLink: http://www.inventorypress.com/product/blueprint-for-counter-education
-lastmod: "2021-11-25T02:28:04.203Z"
-date: "2017-09-28"
+lastmod: '2024-05-20T02:01:50.496Z'
+date: '2017-09-28'
 slug: blueprint-for-counter-education
 collaborators:
-    - label: Adam Michaels
+  - label: Adam Michaels
 links:
-    - label: blueprintforcountereducation.com
-      url: http://blueprintforcountereducation.com
-    - label: 2016 Reprint Edition (Inventory Press)
-      url: http://www.inventorypress.com/product/blueprint-for-counter-education
-    - label: Recording
-      url: https://vimeo.com/239698058
+  - label: blueprintforcountereducation.com
+    url: http://blueprintforcountereducation.com
+  - label: 2016 Reprint Edition (Inventory Press)
+    url: http://www.inventorypress.com/product/blueprint-for-counter-education
+  - label: Recording
+    url: https://vimeo.com/239698058
 events:
-    - label: Blueprint for Counter Education at Vassar
-      slug: blueprint-for-counter-education-at-vassar
+  - label: Blueprint for Counter Education at Vassar
+    slug: blueprint-for-counter-education-at-vassar
 members:
-    - label: Jeffrey Schnapp
-      slug: jeffrey-schnapp
-      twitter: jaytiesse
+  - label: Jeffrey Schnapp
+    slug: jeffrey-schnapp
+    twitter: jaytiesse
 cover:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637807272/blueprint1_65c8c108e9.jpg
-    width: 800
-    height: 649
-    ext: .jpeg
-    mime: image/jpeg
-    formats:
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637807273/medium_blueprint1_65c8c108e9.jpg
-            ext: .jpeg
-            width: 750
-            height: 608
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637807273/small_blueprint1_65c8c108e9.jpg
-            ext: .jpeg
-            width: 500
-            height: 406
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637807273/thumbnail_blueprint1_65c8c108e9.jpg
-            ext: .jpeg
-            width: 192
-            height: 156
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637807272/blueprint1_65c8c108e9.jpg
+  width: 800
+  height: 649
+  ext: .jpeg
+  mime: image/jpeg
+  formats:
+    medium:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637807273/medium_blueprint1_65c8c108e9.jpg
+      ext: .jpeg
+      width: 750
+      height: 608
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637807273/small_blueprint1_65c8c108e9.jpg
+      ext: .jpeg
+      width: 500
+      height: 406
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637807273/thumbnail_blueprint1_65c8c108e9.jpg
+      ext: .jpeg
+      width: 192
+      height: 156
 header:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637807272/blueprint1_65c8c108e9.jpg
-    width: 800
-    height: 649
-    ext: .jpeg
-    mime: image/jpeg
-    formats:
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637807273/medium_blueprint1_65c8c108e9.jpg
-            ext: .jpeg
-            width: 750
-            height: 608
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637807273/small_blueprint1_65c8c108e9.jpg
-            ext: .jpeg
-            width: 500
-            height: 406
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637807273/thumbnail_blueprint1_65c8c108e9.jpg
-            ext: .jpeg
-            width: 192
-            height: 156
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637807272/blueprint1_65c8c108e9.jpg
+  width: 800
+  height: 649
+  ext: .jpeg
+  mime: image/jpeg
+  formats:
+    medium:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637807273/medium_blueprint1_65c8c108e9.jpg
+      ext: .jpeg
+      width: 750
+      height: 608
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637807273/small_blueprint1_65c8c108e9.jpg
+      ext: .jpeg
+      width: 500
+      height: 406
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637807273/thumbnail_blueprint1_65c8c108e9.jpg
+      ext: .jpeg
+      width: 192
+      height: 156
 noHeaderImage: false
 gallery:
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637807272/blueprint1_65c8c108e9.jpg
-      width: 800
-      height: 649
-      ext: .jpeg
-      mime: image/jpeg
-      formats:
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637807273/medium_blueprint1_65c8c108e9.jpg
-            ext: .jpeg
-            width: 750
-            height: 608
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637807273/small_blueprint1_65c8c108e9.jpg
-            ext: .jpeg
-            width: 500
-            height: 406
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637807273/thumbnail_blueprint1_65c8c108e9.jpg
-            ext: .jpeg
-            width: 192
-            height: 156
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637807272/blueprint1_65c8c108e9.jpg
+    width: 800
+    height: 649
+    ext: .jpeg
+    mime: image/jpeg
+    formats:
+      medium:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637807273/medium_blueprint1_65c8c108e9.jpg
+        ext: .jpeg
+        width: 750
+        height: 608
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637807273/small_blueprint1_65c8c108e9.jpg
+        ext: .jpeg
+        width: 500
+        height: 406
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637807273/thumbnail_blueprint1_65c8c108e9.jpg
+        ext: .jpeg
+        width: 192
+        height: 156
 members_twitter:
-    - jaytiesse
+  - jaytiesse
 images:
-    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1637807272/blueprint1_65c8c108e9.jpg
-
+  - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1637807272/blueprint1_65c8c108e9.jpg
+projects/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 An unusual publication appeared in bookstores in the fall 1970, authored by the sociologist Maurice Stein and his collaborator Larry Miller. Published by Doubleday, its title was Blueprint for Counter Education: Curriculum – Handbook – Wall Decoration – Shooting Script. It assumed the form of a boxed set made up of three posters and an oversized paperback, whose wrappers proclaimed: "This counter-university makes obsolete the traditional university process... There is no text book, no final exam; and the 'faculty' includes Marcuse, McLuhan, Eldridge Cleaver, and Jean-Luc Godard." The base of the cover promised: The Revolution Starts Here. On the back of the box, the image of a clapperboard and television hovered above a granular black and white photograph of a student demonstration: a portrait of the publication’s intended audience.
 

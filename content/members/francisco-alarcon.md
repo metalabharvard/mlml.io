@@ -2,39 +2,44 @@
 name: Francisco Alarcon
 title: Francisco Alarcon
 roles:
-    - role: Affiliate
-      position: 8
+  - role: Affiliate
+    position: 8
 isAlumnus: true
 isFounder: false
+rank: 99
 role_string: Alumnus
 twitter: alarconbits
 email: falarcon@g.harvard.edu
 website: http://franciscoalarcon.info/
 instagram: franciscoalarconruiz
-lastmod: "2022-08-30T16:19:08.894Z"
-date: "2021-09-16T10:51:44.690Z"
+lastmod: '2024-05-24T10:56:35.909Z'
+date: '2021-09-16T12:51:44.690Z'
 slug: francisco-alarcon
 events:
-    - label: Curatorial A(i)gents at Ars Electronica 2020
-      slug: curatorial-a-i-gents-at-ars-electronica-2020
+  - label: Curatorial A(i)gents at Ars Electronica 2020
+    slug: curatorial-a-i-gents-at-ars-electronica-2020
 projects:
-    - label: Curatorial A(i)gents
-      slug: curatorial-aigents
-    - label: Ocean Amplification
-      slug: ocean-amplification
+  - label: Curatorial A(i)gents
+    slug: curatorial-aigents
+  - label: Ocean Amplification
+    slug: ocean-amplification
 picture:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/c_limit,w_2000,h_2000/e_grayscale/v1629122115/francisco_db4834b143.jpg
-    width: 376
-    height: 376
-    ext: .jpg
-    mime: image/jpeg
-    formats:
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122116/thumbnail_francisco_db4834b143.jpg
-            ext: .jpg
-            width: 156
-            height: 156
-
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/c_limit,w_2000,h_2000/e_grayscale/v1629122115/francisco_db4834b143.jpg
+  width: 376
+  height: 376
+  ext: .jpg
+  mime: image/jpeg
+  formats:
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122116/thumbnail_francisco_db4834b143.jpg
+      ext: .jpg
+      width: 156
+      height: 156
+members/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 Francisco Alarcon is an artist and engineer working on the intersection of visual arts and technology. Alarcon’s research focus is on the material history of computer-generated graphics and how the interface informs the construction of cultural techniques. He is intrigued by the importance of the technical specificity of postphotographic image production in the contemporary visual culture—a topic that is often misunderstood. Alarcon’s approach to digital imaging is multifaceted, on a historical level, and also conceptually, and his research intends to demystify technical processes and philosophical perspectives on media operations. 
 

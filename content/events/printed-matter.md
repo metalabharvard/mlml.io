@@ -2,38 +2,42 @@
 title: Printed Matter
 subtitle: Exploring metaLAB publications
 fulltitle: 'Printed Matter: Exploring metaLAB publications'
-status: ""
+status: ''
 outputs:
-    - HTML
-    - Calendar
+  - HTML
+  - Calendar
 timezone: Boston
 timezoneAbbr:
-    berlin: CET
-    boston: EST
-start_time: "2021-01-28T16:00:00-05:00"
-end_time: "2021-01-28T17:00:00-05:00"
+  berlin: CET
+  boston: EST
+start_time: '2021-01-28T16:00:00-05:00'
+end_time: '2021-01-28T17:00:00-05:00'
 start_time_utc: 20210128T210000Z
 end_time_utc: 20210128T220000Z
 start_time_locations:
-    berlin: "2021-01-28T22:00:00+01:00"
-    boston: "2021-01-28T16:00:00-05:00"
+  berlin: '2021-01-28T22:00:00+01:00'
+  boston: '2021-01-28T16:00:00-05:00'
 end_time_locations:
-    berlin: "2021-01-28T23:00:00+01:00"
-    boston: "2021-01-28T17:00:00-05:00"
+  berlin: '2021-01-28T23:00:00+01:00'
+  boston: '2021-01-28T17:00:00-05:00'
 tzid: America/New_York
 intro: A discussion of metaLAB's singular publications now available from Printed Matter.
 location: online
 description: A discussion of metaLAB's singular publications now available from Printed Matter.
 isFeatured: false
 isOngoing: false
-lastmod: "2022-02-09T16:13:53.863Z"
-date: "2021-01-28T16:00:00-05:00"
+lastmod: '2024-05-24T11:01:35.326Z'
+date: '2021-01-28T16:00:00-05:00'
 slug: printed-matter
 members:
-    - label: Mike Maizels
-      slug: mike-maizels
+  - label: Mike Maizels
+    slug: mike-maizels
 noHeaderImage: false
-
+events/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 <iframe width="100%" height="300" src="https://www.youtube.com/embed/MA5fttnJpeY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

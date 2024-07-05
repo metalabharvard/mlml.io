@@ -4,119 +4,107 @@ subtitle: metaLAB J-Term course
 fulltitle: 'Designing Speculations from Moot Courts: metaLAB J-Term course'
 status: default
 outputs:
-    - HTML
-    - Calendar
+  - HTML
+  - Calendar
 timezone: Boston
 timezoneAbbr:
-    berlin: CET
-    boston: EST
-start_time: "2024-01-03T10:00:00-05:00"
-end_time: "2024-01-12T12:00:00-05:00"
+  berlin: CET
+  boston: EST
+start_time: '2024-01-03T10:00:00-05:00'
+end_time: '2024-01-12T12:00:00-05:00'
 start_time_utc: 20240103T150000Z
 end_time_utc: 20240112T170000Z
 start_time_locations:
-    berlin: "2024-01-03T16:00:00+01:00"
-    boston: "2024-01-03T10:00:00-05:00"
+  berlin: '2024-01-03T16:00:00+01:00'
+  boston: '2024-01-03T10:00:00-05:00'
 end_time_locations:
-    berlin: "2024-01-12T18:00:00+01:00"
-    boston: "2024-01-12T12:00:00-05:00"
+  berlin: '2024-01-12T18:00:00+01:00'
+  boston: '2024-01-12T12:00:00-05:00'
 tzid: America/New_York
 intro: Can design speculation demand more from the law? In this hybrid J-Term course, Harvard Graduate School of Design students, faculty, and staff will have the opportunity to reimagine the law school moot court as a public site for speculation, making tangible the elaborate fictional scenarios developed in past competitions, thereby exploring how design can make arguments possible through law.
 location: Harvard Graduate School of Design
 category: seminar
 externalLink: https://harvard.az1.qualtrics.com/jfe/form/SV_0x3zZNQcPY9KgrI
-description: Can design speculation demand more from the law? In this hybrid J-Term course, Harvard Graduate School of Design students, faculty, and staff will ha…
+description: Can design speculation demand more from the law? In this hybrid J-Term course, Harvard Graduate School of Design students, faculty, and staff will have the…
 isFeatured: false
 isOngoing: false
-lastmod: "2023-12-31T05:11:10.562Z"
-date: "2024-01-03T10:00:00-05:00"
+lastmod: '2024-05-24T11:01:35.246Z'
+date: '2024-01-03T10:00:00-05:00'
 slug: designing-speculations-from-moot-courts
 members:
-    - label: Sankalp Bhatnagar
-      slug: sankalp-bhatnagar
+  - label: Sankalp Bhatnagar
+    slug: sankalp-bhatnagar
 events:
-    - label: Choreographic Interface Demos
-      slug: choreographic-interfaces-demos
-    - label: Choreographic Panel
-      slug: choreographic-panel
-    - label: Critical Panel
-      slug: critical-panel
-    - label: 'Future Stage Manifesto: Asia'
-      slug: future-stage-manifesto-asia
-    - label: 'Future Stage Manifesto: Eastern Europe'
-      slug: future-stage-manifesto-eastern-europe
-    - label: Future of Opera
-      slug: future-of-opera
-    - label: International Online Theatre Festival
-      slug: iotf2023
-    - label: Investigative Panel
-      slug: investigative-panel
-    - label: Panorama Panel
-      slug: panorama-panel
-    - label: What should or could (scholarly) knowledge look like in the 21st century?
-      slug: what-should-or-could-scholarly-knowledge-look-like-in-the-21st-century
+  - label: Designing Speculations from Moot Courts
+    slug: designing-speculations-from-moot-courts
+  - label: What should or could (scholarly) knowledge look like in the 21st century?
+    slug: what-should-or-could-scholarly-knowledge-look-like-in-the-21st-century
 cover:
-    alternativeText: ' Photograph of Harvard Law School Events: Ames Moot Court'
-    caption: Judges Hays and Leventhal, Ames Moot Court Competition
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1701813025/48366239_1_9742ceeece.jpg
-    width: 1200
-    height: 1245
-    ext: .jpg
-    mime: image/jpeg
-    formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1701813026/large_48366239_1_9742ceeece.jpg
-            ext: .jpg
-            width: 964
-            height: 1000
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1701813027/medium_48366239_1_9742ceeece.jpg
-            ext: .jpg
-            width: 723
-            height: 750
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1701813027/small_48366239_1_9742ceeece.jpg
-            ext: .jpg
-            width: 482
-            height: 500
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1701813026/thumbnail_48366239_1_9742ceeece.jpg
-            ext: .jpg
-            width: 150
-            height: 156
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1701813025/48366239_1_9742ceeece.jpg
+  width: 1200
+  height: 1245
+  ext: .jpg
+  mime: image/jpeg
+  alternativeText: ' Photograph of Harvard Law School Events: Ames Moot Court'
+  caption: Judges Hays and Leventhal, Ames Moot Court Competition
+  formats:
+    large:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1701813026/large_48366239_1_9742ceeece.jpg
+      ext: .jpg
+      width: 964
+      height: 1000
+    medium:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1701813027/medium_48366239_1_9742ceeece.jpg
+      ext: .jpg
+      width: 723
+      height: 750
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1701813027/small_48366239_1_9742ceeece.jpg
+      ext: .jpg
+      width: 482
+      height: 500
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1701813026/thumbnail_48366239_1_9742ceeece.jpg
+      ext: .jpg
+      width: 150
+      height: 156
 header:
-    alternativeText: ' Photograph of Harvard Law School Events: Ames Moot Court'
-    caption: Judges Hays and Leventhal, Ames Moot Court Competition
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1701813025/48366239_1_9742ceeece.jpg
-    width: 1200
-    height: 1245
-    ext: .jpg
-    mime: image/jpeg
-    formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1701813026/large_48366239_1_9742ceeece.jpg
-            ext: .jpg
-            width: 964
-            height: 1000
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1701813027/medium_48366239_1_9742ceeece.jpg
-            ext: .jpg
-            width: 723
-            height: 750
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1701813027/small_48366239_1_9742ceeece.jpg
-            ext: .jpg
-            width: 482
-            height: 500
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1701813026/thumbnail_48366239_1_9742ceeece.jpg
-            ext: .jpg
-            width: 150
-            height: 156
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1701813025/48366239_1_9742ceeece.jpg
+  width: 1200
+  height: 1245
+  ext: .jpg
+  mime: image/jpeg
+  alternativeText: ' Photograph of Harvard Law School Events: Ames Moot Court'
+  caption: Judges Hays and Leventhal, Ames Moot Court Competition
+  formats:
+    large:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1701813026/large_48366239_1_9742ceeece.jpg
+      ext: .jpg
+      width: 964
+      height: 1000
+    medium:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1701813027/medium_48366239_1_9742ceeece.jpg
+      ext: .jpg
+      width: 723
+      height: 750
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1701813027/small_48366239_1_9742ceeece.jpg
+      ext: .jpg
+      width: 482
+      height: 500
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1701813026/thumbnail_48366239_1_9742ceeece.jpg
+      ext: .jpg
+      width: 150
+      height: 156
 noHeaderImage: true
 images:
-    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1701813025/48366239_1_9742ceeece.jpg
-
+  - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1701813025/48366239_1_9742ceeece.jpg
+events/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 **Course Instructors:** [Sankalp Bhatnagar](https://mlml.io/m/sankalp-bhatnagar/) and [Phoebe Walton](https://phoebewalton.com/)
 

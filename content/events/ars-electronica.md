@@ -2,68 +2,72 @@
 title: Error – The Art of Imperfection
 subtitle: Ars Electronica
 fulltitle: 'Error – The Art of Imperfection: Ars Electronica'
-status: ""
+status: ''
 outputs:
-    - HTML
-    - Calendar
+  - HTML
+  - Calendar
 timezone: Boston
 timezoneAbbr:
-    berlin: CEST
-    boston: EDT
-start_time: "2018-09-06T16:00:00-04:00"
-end_time: "2018-09-10T17:00:00-04:00"
+  berlin: CEST
+  boston: EDT
+start_time: '2018-09-06T16:00:00-04:00'
+end_time: '2018-09-10T17:00:00-04:00'
 start_time_utc: 20180906T200000Z
 end_time_utc: 20180910T210000Z
 start_time_locations:
-    berlin: "2018-09-06T22:00:00+02:00"
-    boston: "2018-09-06T16:00:00-04:00"
+  berlin: '2018-09-06T22:00:00+02:00'
+  boston: '2018-09-06T16:00:00-04:00'
 end_time_locations:
-    berlin: "2018-09-10T23:00:00+02:00"
-    boston: "2018-09-10T17:00:00-04:00"
+  berlin: '2018-09-10T23:00:00+02:00'
+  boston: '2018-09-10T17:00:00-04:00'
 tzid: America/New_York
 location: Linz, Austria
 externalLink: https://ars.electronica.art/press/en/2018/04/12/ars-electronica-festival-2018/
 isFeatured: false
 isOngoing: false
-lastmod: "2022-02-14T16:02:29.091Z"
-date: "2018-09-06T16:00:00-04:00"
+lastmod: '2024-05-24T11:01:35.550Z'
+date: '2018-09-06T16:00:00-04:00'
 slug: ars-electronica
 members:
-    - label: Eveline Wandl-Vogt
-      slug: eveline-wandl-vogt
-      twitter: caissarl
-    - label: Keith Hartwig
-      slug: keith-hartwig
-    - label: Kim Albrecht
-      slug: kim-albrecht
-      twitter: kimay
-    - label: Matthew Battles
-      slug: matthew-battles
-      twitter: matthewbattles
-    - label: Sarah Newman
-      slug: sarah-newman
-      twitter: sarahwnewman
+  - label: Eveline Wandl-Vogt
+    slug: eveline-wandl-vogt
+    twitter: caissarl
+  - label: Keith Hartwig
+    slug: keith-hartwig
+  - label: Kim Albrecht
+    slug: kim-albrecht
+    twitter: kimay
+  - label: Matthew Battles
+    slug: matthew-battles
+    twitter: matthewbattles
+  - label: Sarah Newman
+    slug: sarah-newman
+    twitter: sarahwnewman
 projects:
-    - label: Distinction Machine
-      slug: distinction-machine
-    - label: Invasive Spirits
-      slug: invasive-spirits
-    - label: Moral Labyrinth
-      slug: moral-labyrinth
+  - label: Distinction Machine
+    slug: distinction-machine
+  - label: Invasive Spirits
+    slug: invasive-spirits
+  - label: Moral Labyrinth
+    slug: moral-labyrinth
 noHeaderImage: false
 press_articles:
-    - label: '''Error'' brings opportunity to metaLAB'
-      url: https://news.harvard.edu/gazette/story/2018/09/harvards-metalab-attends-festival-on-error-the-art-of-imperfection/
-    - label: Invasive Spirits at the Ars Electronica Festival
-      url: https://medium.com/@metalabharvard/invasive-spirits-at-the-ars-electronica-festival-a8a1c6df882a
-    - label: 'Engaging with Error: metaLAB at the Ars Electronica Festival'
-      url: https://medium.com/@metalabharvard/engaging-with-error-metalab-at-the-ars-electronica-festival-7a0ce3f5c1d3
+  - label: '''Error'' brings opportunity to metaLAB'
+    url: https://news.harvard.edu/gazette/story/2018/09/harvards-metalab-attends-festival-on-error-the-art-of-imperfection/
+  - label: Invasive Spirits at the Ars Electronica Festival
+    url: https://medium.com/@metalabharvard/invasive-spirits-at-the-ars-electronica-festival-a8a1c6df882a
+  - label: 'Engaging with Error: metaLAB at the Ars Electronica Festival'
+    url: https://medium.com/@metalabharvard/engaging-with-error-metalab-at-the-ars-electronica-festival-7a0ce3f5c1d3
 members_twitter:
-    - caissarl
-    - kimay
-    - matthewbattles
-    - sarahwnewman
-
+  - caissarl
+  - sarahwnewman
+  - kimay
+  - matthewbattles
+events/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 Ars Electronica, held in Linz, Austria, is one of the world’s largest festivals for art, technology, and society. This year’s theme is "Error—The Art of Imperfection," and it takes place from September 6-10, 2018. metaLAB at Harvard will have a significant presence at the festival, with four of its members exhibiting their current projects.
 

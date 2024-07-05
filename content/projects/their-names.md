@@ -1,209 +1,187 @@
 ---
 title: Their Names
-subtitle: ""
+subtitle: ''
 fulltitle: Their Names
 intro: This page visualizes the names of over 28,000 fatal encounters with police nationwide, from 2000 until the death of George Floyd. It treats the victims as individual persons, highlighting the often sad and disturbing stories behind each datapoint. Beyond listing first names and initials, the site makes available the news and police reports from which the data are taken. It draws on data compiled by Fatal Encounters, a nonprofit, led by journalist and researcher D. Brian Burghart, committed to gathering data on police-related deaths across the United States.
-start: "2020-06-01"
-end: "2020-06-30"
+start: '2020-06-01'
+end: '2020-06-30'
 datestring: June 2020
-description: This page visualizes the names of over 28,000 fatal encounters with police nationwide, from 2000 until the death of George Floyd. It treats the victi…
+description: This page visualizes the names of over 28,000 fatal encounters with police nationwide, from 2000 until the death of George Floyd. It treats the victims as…
 keyword: Data Visualisation,Web Platform
 tags:
-    - Data Visualisation
-    - Web Platform
+  - Data Visualisation
+  - Web Platform
 location: virtual
 host: harvard
 mediation: web
 isFeatured: false
 externalLink: https://theirnames.org/
-lastmod: "2022-09-16T11:15:36.049Z"
-date: "2020-06-30"
+lastmod: '2024-05-20T02:01:49.793Z'
+date: '2020-06-30'
 slug: their-names
 categories:
-    - Web Platform
-    - Data Visualisation
+  - Web Platform
+  - Data Visualisation
 press_articles:
-    - label: FastCompany
-      url: https://www.fastcompany.com/90516259/this-stark-site-visualizes-the-28000-americans-who-have-been-killed-by-police-in-the-last-20-years
-    - label: The Harvard Gazette
-      url: https://news.harvard.edu/gazette/story/2020/06/project-gathers-stories-of-those-killed-in-police-violence/
+  - label: FastCompany
+    url: https://www.fastcompany.com/90516259/this-stark-site-visualizes-the-28000-americans-who-have-been-killed-by-police-in-the-last-20-years
+  - label: The Harvard Gazette
+    url: https://news.harvard.edu/gazette/story/2020/06/project-gathers-stories-of-those-killed-in-police-violence/
 members:
-    - label: Kim Albrecht
-      slug: kim-albrecht
-      twitter: kimay
-    - label: Matthew Battles
-      slug: matthew-battles
-      twitter: matthewbattles
+  - label: Kim Albrecht
+    slug: kim-albrecht
+    twitter: kimay
+  - label: Matthew Battles
+    slug: matthew-battles
+    twitter: matthewbattles
 projects:
-    - label: '#MeToo Anti-Network'
-      slug: me-too-anti-network
-    - label: A Flitting Atlas of the Human Gaze
-      slug: a-flitting-atlas-of-the-human-gaze
-    - label: Artificial Worldviews
-      slug: artificial-worldviews
-    - label: Black Lives Matter Street Mural Map
-      slug: black-lives-matter-street-mural-map
-    - label: Choreographic Interface
-      slug: choreographic-interface
-    - label: Curatorial A(i)gents
-      slug: curatorial-aigents
-    - label: Digital Access Research Project (DARP)
-      slug: digital-access-research-project
-    - label: HAM Object Map
-      slug: ham-object-map
-    - label: Igùn
-      slug: igun
-    - label: Living by Protocol
-      slug: living-by-protocol
-    - label: Ocean Amplification
-      slug: ocean-amplification
-    - label: Post_Networks
-      slug: post-networks
-    - label: Processing the Page
-      slug: processing-the-page
-    - label: Second Look
-      slug: second-look
-    - label: Surprise Machines
-      slug: surprise-machines
-    - label: Sympoietic System
-      slug: sympoietic-system
-    - label: Watching Machines Loving Grace
-      slug: watching-machines-loving-grace
+  - label: '#MeToo Anti-Network'
+    slug: me-too-anti-network
+  - label: Artificial Worldviews
+    slug: artificial-worldviews
+  - label: Black Lives Matter Street Mural Map
+    slug: black-lives-matter-street-mural-map
+  - label: Their Names
+    slug: their-names
 cover:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686618/their_names_fcc869a829.jpg
-    width: 925
-    height: 756
-    ext: .jpg
-    mime: image/jpeg
-    formats:
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686619/medium_their_names_fcc869a829.jpg
-            ext: .jpg
-            width: 750
-            height: 613
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686619/small_their_names_fcc869a829.jpg
-            ext: .jpg
-            width: 500
-            height: 409
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686618/thumbnail_their_names_fcc869a829.jpg
-            ext: .jpg
-            width: 191
-            height: 156
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686618/their_names_fcc869a829.jpg
+  width: 925
+  height: 756
+  ext: .jpg
+  mime: image/jpeg
+  formats:
+    medium:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686619/medium_their_names_fcc869a829.jpg
+      ext: .jpg
+      width: 750
+      height: 613
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686619/small_their_names_fcc869a829.jpg
+      ext: .jpg
+      width: 500
+      height: 409
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686618/thumbnail_their_names_fcc869a829.jpg
+      ext: .jpg
+      width: 191
+      height: 156
 header:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686618/their_names_fcc869a829.jpg
-    width: 925
-    height: 756
-    ext: .jpg
-    mime: image/jpeg
-    formats:
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686619/medium_their_names_fcc869a829.jpg
-            ext: .jpg
-            width: 750
-            height: 613
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686619/small_their_names_fcc869a829.jpg
-            ext: .jpg
-            width: 500
-            height: 409
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686618/thumbnail_their_names_fcc869a829.jpg
-            ext: .jpg
-            width: 191
-            height: 156
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686618/their_names_fcc869a829.jpg
+  width: 925
+  height: 756
+  ext: .jpg
+  mime: image/jpeg
+  formats:
+    medium:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686619/medium_their_names_fcc869a829.jpg
+      ext: .jpg
+      width: 750
+      height: 613
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686619/small_their_names_fcc869a829.jpg
+      ext: .jpg
+      width: 500
+      height: 409
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686618/thumbnail_their_names_fcc869a829.jpg
+      ext: .jpg
+      width: 191
+      height: 156
 noHeaderImage: false
 gallery:
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355345/Their_Names_Police_Violence_Visualization_Kim_Albrecht_Animation_458c013b8d.gif
-      width: 1012
-      height: 1200
-      ext: .gif
-      mime: image/gif
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355345/Their_Names_Police_Violence_Visualization_Kim_Albrecht_min_aae3bbeea5.png
-      width: 1200
-      height: 630
-      ext: .png
-      mime: image/png
-      formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355346/large_Their_Names_Police_Violence_Visualization_Kim_Albrecht_min_aae3bbeea5.png
-            ext: .png
-            width: 1000
-            height: 525
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355346/medium_Their_Names_Police_Violence_Visualization_Kim_Albrecht_min_aae3bbeea5.png
-            ext: .png
-            width: 750
-            height: 394
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355347/small_Their_Names_Police_Violence_Visualization_Kim_Albrecht_min_aae3bbeea5.png
-            ext: .png
-            width: 500
-            height: 263
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355345/thumbnail_Their_Names_Police_Violence_Visualization_Kim_Albrecht_min_aae3bbeea5.png
-            ext: .png
-            width: 245
-            height: 129
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355344/Their_Names_Police_Violence_Visualization_Kim_Albrecht_Abstract_dfc62d561b.png
-      width: 3266
-      height: 1420
-      ext: .png
-      mime: image/png
-      formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355346/large_Their_Names_Police_Violence_Visualization_Kim_Albrecht_Abstract_dfc62d561b.png
-            ext: .png
-            width: 1000
-            height: 435
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355346/medium_Their_Names_Police_Violence_Visualization_Kim_Albrecht_Abstract_dfc62d561b.png
-            ext: .png
-            width: 750
-            height: 326
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355347/small_Their_Names_Police_Violence_Visualization_Kim_Albrecht_Abstract_dfc62d561b.png
-            ext: .png
-            width: 500
-            height: 217
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355345/thumbnail_Their_Names_Police_Violence_Visualization_Kim_Albrecht_Abstract_dfc62d561b.png
-            ext: .png
-            width: 245
-            height: 107
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355345/Their_Names_Police_Violence_Visualization_Kim_Albrecht_9e1e469469.png
-      width: 2772
-      height: 1146
-      ext: .png
-      mime: image/png
-      formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355347/large_Their_Names_Police_Violence_Visualization_Kim_Albrecht_9e1e469469.png
-            ext: .png
-            width: 1000
-            height: 413
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355348/medium_Their_Names_Police_Violence_Visualization_Kim_Albrecht_9e1e469469.png
-            ext: .png
-            width: 750
-            height: 310
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355348/small_Their_Names_Police_Violence_Visualization_Kim_Albrecht_9e1e469469.png
-            ext: .png
-            width: 500
-            height: 207
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355346/thumbnail_Their_Names_Police_Violence_Visualization_Kim_Albrecht_9e1e469469.png
-            ext: .png
-            width: 245
-            height: 101
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355345/Their_Names_Police_Violence_Visualization_Kim_Albrecht_Animation_458c013b8d.gif
+    width: 1012
+    height: 1200
+    ext: .gif
+    mime: image/gif
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355345/Their_Names_Police_Violence_Visualization_Kim_Albrecht_min_aae3bbeea5.png
+    width: 1200
+    height: 630
+    ext: .png
+    mime: image/png
+    formats:
+      large:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355346/large_Their_Names_Police_Violence_Visualization_Kim_Albrecht_min_aae3bbeea5.png
+        ext: .png
+        width: 1000
+        height: 525
+      medium:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355346/medium_Their_Names_Police_Violence_Visualization_Kim_Albrecht_min_aae3bbeea5.png
+        ext: .png
+        width: 750
+        height: 394
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355347/small_Their_Names_Police_Violence_Visualization_Kim_Albrecht_min_aae3bbeea5.png
+        ext: .png
+        width: 500
+        height: 263
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355345/thumbnail_Their_Names_Police_Violence_Visualization_Kim_Albrecht_min_aae3bbeea5.png
+        ext: .png
+        width: 245
+        height: 129
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355344/Their_Names_Police_Violence_Visualization_Kim_Albrecht_Abstract_dfc62d561b.png
+    width: 3266
+    height: 1420
+    ext: .png
+    mime: image/png
+    formats:
+      large:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355346/large_Their_Names_Police_Violence_Visualization_Kim_Albrecht_Abstract_dfc62d561b.png
+        ext: .png
+        width: 1000
+        height: 435
+      medium:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355346/medium_Their_Names_Police_Violence_Visualization_Kim_Albrecht_Abstract_dfc62d561b.png
+        ext: .png
+        width: 750
+        height: 326
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355347/small_Their_Names_Police_Violence_Visualization_Kim_Albrecht_Abstract_dfc62d561b.png
+        ext: .png
+        width: 500
+        height: 217
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355345/thumbnail_Their_Names_Police_Violence_Visualization_Kim_Albrecht_Abstract_dfc62d561b.png
+        ext: .png
+        width: 245
+        height: 107
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355345/Their_Names_Police_Violence_Visualization_Kim_Albrecht_9e1e469469.png
+    width: 2772
+    height: 1146
+    ext: .png
+    mime: image/png
+    formats:
+      large:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355347/large_Their_Names_Police_Violence_Visualization_Kim_Albrecht_9e1e469469.png
+        ext: .png
+        width: 1000
+        height: 413
+      medium:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355348/medium_Their_Names_Police_Violence_Visualization_Kim_Albrecht_9e1e469469.png
+        ext: .png
+        width: 750
+        height: 310
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355348/small_Their_Names_Police_Violence_Visualization_Kim_Albrecht_9e1e469469.png
+        ext: .png
+        width: 500
+        height: 207
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355346/thumbnail_Their_Names_Police_Violence_Visualization_Kim_Albrecht_9e1e469469.png
+        ext: .png
+        width: 245
+        height: 101
 members_twitter:
-    - kimay
-    - matthewbattles
+  - kimay
+  - matthewbattles
 images:
-    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1628686618/their_names_fcc869a829.jpg
-
+  - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1628686618/their_names_fcc869a829.jpg
+projects/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 We live in a world of systemic racism and systemic violence. The two are inextricably intertwined. This violence tears at victims' families, communities, and everyone involved in fatal encounters with law enforcement. Its effects fall disproportionately on communities of color and Black communities, families, and lives in particular. 
 

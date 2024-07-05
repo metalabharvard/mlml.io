@@ -1,344 +1,336 @@
 ---
 title: Curatorial A(i)gents
-subtitle: ""
+subtitle: ''
 fulltitle: Curatorial A(i)gents
 intro: A metaLAB exhibition of interactive projects exploring machine learning in, around, and about the Harvard Art Museums
-start: "2020-01-01"
-end: "2022-05-15"
+start: '2020-01-01'
+end: '2022-05-15'
 datestring: January 2020&ensp;–&ensp;May 2022
 description: A metaLAB exhibition of interactive projects exploring machine learning in, around, and about the Harvard Art Museums
 keyword: Data Visualisation,Exhibition,Pamphlet,Installation
 tags:
-    - Data Visualisation
-    - Exhibition
-    - Pamphlet
-    - Installation
+  - Data Visualisation
+  - Exhibition
+  - Pamphlet
+  - Installation
 location: Cambridge, USA
 host: harvard
 mediation: exhibition
 isFeatured: true
-externalLink: ""
-lastmod: "2023-10-27T16:35:38.701Z"
-date: "2022-05-15"
+externalLink: ''
+lastmod: '2024-05-20T02:01:49.552Z'
+date: '2022-05-15'
 slug: curatorial-aigents
 categories:
-    - Installation
-    - Pamphlet
-    - Exhibition
-    - Data Visualisation
+  - Installation
+  - Pamphlet
+  - Exhibition
+  - Data Visualisation
 collaborators:
-    - label: Harvard Art Museums
-      url: https://harvardartmuseums.org/
-    - label: Jeff Steward
-    - label: Lauren Hansen
-    - label: Daniel Newman
-    - label: Kevin Brewster
-    - label: Todd Linkner
-    - label: Stefan Helmreich
-    - label: Douglas Duhaime
-    - label: Christopher Pietsch
-    - label: Jonatan Reyes
-    - label: Tim Schneider
-    - label: Shannon Mattern
-    - label: David Joselit
-    - label: Wendy Chun
-    - label: Boris Konik
+  - label: Harvard Art Museums
+    url: https://harvardartmuseums.org/
+  - label: Jeff Steward
+  - label: Lauren Hansen
+  - label: Daniel Newman
+  - label: Kevin Brewster
+  - label: Todd Linkner
+  - label: Stefan Helmreich
+  - label: Douglas Duhaime
+  - label: Christopher Pietsch
+  - label: Jonatan Reyes
+  - label: Tim Schneider
+  - label: Shannon Mattern
+  - label: David Joselit
+  - label: Wendy Chun
+  - label: Boris Konik
 press_articles:
-    - label: Designing a Choreographic Interface During COVID-19
-      url: http://doi.acm.org?doi=3537972.3538020
-    - label: 'Surprise machines: Revealing Harvard Art Museums’ image collection'
-      url: https://doi.org/10.1075/idj.22013.rod
+  - label: Designing a Choreographic Interface During COVID-19
+    url: http://doi.acm.org?doi=3537972.3538020
+  - label: 'Surprise machines: Revealing Harvard Art Museums’ image collection'
+    url: https://doi.org/10.1075/idj.22013.rod
 events:
-    - label: Choreographic Interface Demos
-      slug: choreographic-interfaces-demos
-    - label: Choreographic Panel
-      slug: choreographic-panel
-    - label: Critical Panel
-      slug: critical-panel
-    - label: Curatorial A(i)gents at Ars Electronica 2020
-      slug: curatorial-a-i-gents-at-ars-electronica-2020
-    - label: Investigative Panel
-      slug: investigative-panel
-    - label: Panorama Panel
-      slug: panorama-panel
+  - label: Choreographic Interface Demos
+    slug: choreographic-interfaces-demos
+  - label: Choreographic Panel
+    slug: choreographic-panel
+  - label: Critical Panel
+    slug: critical-panel
+  - label: Curatorial A(i)gents at Ars Electronica 2020
+    slug: curatorial-a-i-gents-at-ars-electronica-2020
+  - label: Investigative Panel
+    slug: investigative-panel
+  - label: Panorama Panel
+    slug: panorama-panel
 members:
-    - label: Dario Rodighiero
-      slug: dario-rodighiero
-      twitter: dariorodighiero
-    - label: Dietmar Offenhuber
-      slug: dietmar-offenhuber
-      twitter: dietoff
-    - label: Francisco Alarcon
-      slug: francisco-alarcon
-      twitter: alarconbits
-    - label: Giulia Taurino
-      slug: giulia-taurino
-      twitter: giulia_taurino
-    - label: Jeffrey Schnapp
-      slug: jeffrey-schnapp
-      twitter: jaytiesse
-    - label: Jordan Kruguer
-      slug: jordan-kruguer
-    - label: Keith Hartwig
-      slug: keith-hartwig
-    - label: Kim Albrecht
-      slug: kim-albrecht
-      twitter: kimay
-    - label: Lins Derry
-      slug: lins-derry
-      twitter: LinsDerry
-    - label: Matthew Battles
-      slug: matthew-battles
-      twitter: matthewbattles
-    - label: Maximilian Mueller
-      slug: maximilian-mueller
-      twitter: allochron
-    - label: Mike Maizels
-      slug: mike-maizels
-    - label: Minne Atairu
-      slug: minne-atairu
-      twitter: minneatairu
-    - label: Pablo Castillo Luna
-      slug: pablo-castillo-luna
-    - label: Philipp Schmitt
-      slug: philipp-schmitt
-      twitter: philippschmitt
-    - label: Sarah Newman
-      slug: sarah-newman
-      twitter: sarahwnewman
-    - label: Sinan Goknur
-      slug: sinan-goknur
-    - label: Yue Chelsea Qiu
-      slug: yue-chelsea-qiu
+  - label: Dario Rodighiero
+    slug: dario-rodighiero
+    twitter: dariorodighiero
+  - label: Dietmar Offenhuber
+    slug: dietmar-offenhuber
+    twitter: dietoff
+  - label: Francisco Alarcon
+    slug: francisco-alarcon
+    twitter: alarconbits
+  - label: Giulia Taurino
+    slug: giulia-taurino
+    twitter: giulia_taurino
+  - label: Jeffrey Schnapp
+    slug: jeffrey-schnapp
+    twitter: jaytiesse
+  - label: Jordan Kruguer
+    slug: jordan-kruguer
+  - label: Keith Hartwig
+    slug: keith-hartwig
+  - label: Kim Albrecht
+    slug: kim-albrecht
+    twitter: kimay
+  - label: Lins Derry
+    slug: lins-derry
+    twitter: LinsDerry
+  - label: Matthew Battles
+    slug: matthew-battles
+    twitter: matthewbattles
+  - label: Maximilian Mueller
+    slug: maximilian-mueller
+    twitter: allochron
+  - label: Mike Maizels
+    slug: mike-maizels
+  - label: Minne Atairu
+    slug: minne-atairu
+    twitter: minneatairu
+  - label: Pablo Castillo Luna
+    slug: pablo-castillo-luna
+  - label: Philipp Schmitt
+    slug: philipp-schmitt
+    twitter: philippschmitt
+  - label: Sarah Newman
+    slug: sarah-newman
+    twitter: sarahwnewman
+  - label: Sinan Goknur
+    slug: sinan-goknur
+  - label: Yue Chelsea Qiu
+    slug: yue-chelsea-qiu
 projects:
-    - label: '#MeToo Anti-Network'
-      slug: me-too-anti-network
-    - label: A Flitting Atlas of the Human Gaze
-      slug: a-flitting-atlas-of-the-human-gaze
-    - label: Artificial Worldviews
-      slug: artificial-worldviews
-    - label: Black Lives Matter Street Mural Map
-      slug: black-lives-matter-street-mural-map
-    - label: Choreographic Interface
-      slug: choreographic-interface
-    - label: Digital Access Research Project (DARP)
-      slug: digital-access-research-project
-    - label: HAM Object Map
-      slug: ham-object-map
-    - label: Igùn
-      slug: igun
-    - label: Living by Protocol
-      slug: living-by-protocol
-    - label: Ocean Amplification
-      slug: ocean-amplification
-    - label: Post_Networks
-      slug: post-networks
-    - label: Processing the Page
-      slug: processing-the-page
-    - label: Second Look
-      slug: second-look
-    - label: Surprise Machines
-      slug: surprise-machines
-    - label: Sympoietic System
-      slug: sympoietic-system
-    - label: Their Names
-      slug: their-names
-    - label: Watching Machines Loving Grace
-      slug: watching-machines-loving-grace
+  - label: A Flitting Atlas of the Human Gaze
+    slug: a-flitting-atlas-of-the-human-gaze
+  - label: Choreographic Interface
+    slug: choreographic-interface
+  - label: Curatorial A(i)gents
+    slug: curatorial-aigents
+  - label: HAM Object Map
+    slug: ham-object-map
+  - label: Igùn
+    slug: igun
+  - label: Ocean Amplification
+    slug: ocean-amplification
+  - label: Processing the Page
+    slug: processing-the-page
+  - label: Second Look
+    slug: second-look
+  - label: Surprise Machines
+    slug: surprise-machines
+  - label: Sympoietic System
+    slug: sympoietic-system
+  - label: Watching Machines Loving Grace
+    slug: watching-machines-loving-grace
 cover:
-    alternativeText: Poster cutout for Curatorial A(i)gents at the Harvard Art Museums, Lightbox Gallery
-    caption: Poster cutout for Curatorial A(i)gents at the Harvard Art Museums, Lightbox Gallery
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1646813974/CA_Poster_Head_99e1223463_c206972172.png
-    width: 3200
-    height: 2400
-    ext: .png
-    mime: image/png
-    formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1646813975/large_CA_Poster_Head_99e1223463_c206972172.png
-            ext: .png
-            width: 1000
-            height: 750
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1646813976/medium_CA_Poster_Head_99e1223463_c206972172.png
-            ext: .png
-            width: 750
-            height: 563
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1646813976/small_CA_Poster_Head_99e1223463_c206972172.png
-            ext: .png
-            width: 500
-            height: 375
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1646813975/thumbnail_CA_Poster_Head_99e1223463_c206972172.png
-            ext: .png
-            width: 208
-            height: 156
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1646813974/CA_Poster_Head_99e1223463_c206972172.png
+  width: 3200
+  height: 2400
+  ext: .png
+  mime: image/png
+  alternativeText: Poster cutout for Curatorial A(i)gents at the Harvard Art Museums, Lightbox Gallery
+  caption: Poster cutout for Curatorial A(i)gents at the Harvard Art Museums, Lightbox Gallery
+  formats:
+    large:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1646813975/large_CA_Poster_Head_99e1223463_c206972172.png
+      ext: .png
+      width: 1000
+      height: 750
+    medium:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1646813976/medium_CA_Poster_Head_99e1223463_c206972172.png
+      ext: .png
+      width: 750
+      height: 563
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1646813976/small_CA_Poster_Head_99e1223463_c206972172.png
+      ext: .png
+      width: 500
+      height: 375
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1646813975/thumbnail_CA_Poster_Head_99e1223463_c206972172.png
+      ext: .png
+      width: 208
+      height: 156
 header:
-    alternativeText: Poster cutout for Curatorial A(i)gents at the Harvard Art Museums, Lightbox Gallery
-    caption: Poster cutout for Curatorial A(i)gents at the Harvard Art Museums, Lightbox Gallery
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1646813974/CA_Poster_Head_99e1223463_c206972172.png
-    width: 3200
-    height: 2400
-    ext: .png
-    mime: image/png
-    formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1646813975/large_CA_Poster_Head_99e1223463_c206972172.png
-            ext: .png
-            width: 1000
-            height: 750
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1646813976/medium_CA_Poster_Head_99e1223463_c206972172.png
-            ext: .png
-            width: 750
-            height: 563
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1646813976/small_CA_Poster_Head_99e1223463_c206972172.png
-            ext: .png
-            width: 500
-            height: 375
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1646813975/thumbnail_CA_Poster_Head_99e1223463_c206972172.png
-            ext: .png
-            width: 208
-            height: 156
-noHeaderImage: false
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1646813974/CA_Poster_Head_99e1223463_c206972172.png
+  width: 3200
+  height: 2400
+  ext: .png
+  mime: image/png
+  alternativeText: Poster cutout for Curatorial A(i)gents at the Harvard Art Museums, Lightbox Gallery
+  caption: Poster cutout for Curatorial A(i)gents at the Harvard Art Museums, Lightbox Gallery
+  formats:
+    large:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1646813975/large_CA_Poster_Head_99e1223463_c206972172.png
+      ext: .png
+      width: 1000
+      height: 750
+    medium:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1646813976/medium_CA_Poster_Head_99e1223463_c206972172.png
+      ext: .png
+      width: 750
+      height: 563
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1646813976/small_CA_Poster_Head_99e1223463_c206972172.png
+      ext: .png
+      width: 500
+      height: 375
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1646813975/thumbnail_CA_Poster_Head_99e1223463_c206972172.png
+      ext: .png
+      width: 208
+      height: 156
 feature:
-    alternativeText: Poster cutout for Curatorial A(i)gents at the Harvard Art Museums, Lightbox Gallery
-    caption: Poster cutout for Curatorial A(i)gents at the Harvard Art Museums, Lightbox Gallery
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1646813974/CA_Poster_Head_99e1223463_c206972172.png
-    width: 3200
-    height: 2400
-    ext: .png
-    mime: image/png
-    formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1646813975/large_CA_Poster_Head_99e1223463_c206972172.png
-            ext: .png
-            width: 1000
-            height: 750
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1646813976/medium_CA_Poster_Head_99e1223463_c206972172.png
-            ext: .png
-            width: 750
-            height: 563
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1646813976/small_CA_Poster_Head_99e1223463_c206972172.png
-            ext: .png
-            width: 500
-            height: 375
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1646813975/thumbnail_CA_Poster_Head_99e1223463_c206972172.png
-            ext: .png
-            width: 208
-            height: 156
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1646813974/CA_Poster_Head_99e1223463_c206972172.png
+  width: 3200
+  height: 2400
+  ext: .png
+  mime: image/png
+  alternativeText: Poster cutout for Curatorial A(i)gents at the Harvard Art Museums, Lightbox Gallery
+  caption: Poster cutout for Curatorial A(i)gents at the Harvard Art Museums, Lightbox Gallery
+  formats:
+    large:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1646813975/large_CA_Poster_Head_99e1223463_c206972172.png
+      ext: .png
+      width: 1000
+      height: 750
+    medium:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1646813976/medium_CA_Poster_Head_99e1223463_c206972172.png
+      ext: .png
+      width: 750
+      height: 563
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1646813976/small_CA_Poster_Head_99e1223463_c206972172.png
+      ext: .png
+      width: 500
+      height: 375
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1646813975/thumbnail_CA_Poster_Head_99e1223463_c206972172.png
+      ext: .png
+      width: 208
+      height: 156
+noHeaderImage: false
 gallery:
-    - alternativeText: Photo of Surprise Machines in Harvard Art Museums' Lightbox Gallery
-      caption: Photo of Surprise Machines by Dario Rodighiero, Douglas Duhaime, Christopher Pietsch, and Jeffrey Schnapp
-      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675392491/Surprise_Machines2_cf113d140f.jpg
-      width: 3000
-      height: 2043
-      ext: .jpg
-      mime: image/jpeg
-      formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675392492/large_Surprise_Machines2_cf113d140f.jpg
-            ext: .jpg
-            width: 1000
-            height: 681
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675392492/medium_Surprise_Machines2_cf113d140f.jpg
-            ext: .jpg
-            width: 750
-            height: 511
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675392493/small_Surprise_Machines2_cf113d140f.jpg
-            ext: .jpg
-            width: 500
-            height: 341
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675392491/thumbnail_Surprise_Machines2_cf113d140f.jpg
-            ext: .jpg
-            width: 229
-            height: 156
-    - alternativeText: Photo of Surprise Machines at the Harvard Art Museums' Lightbox Gallery
-      caption: Photo of Surprise Machines by Dario Rodighiero, Douglas Duhaime, Christopher Pietsch, and Jeffrey Schnapp
-      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675392491/Surprise_Machines1_893bcfd070.jpg
-      width: 3000
-      height: 1752
-      ext: .jpg
-      mime: image/jpeg
-      formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675392492/large_Surprise_Machines1_893bcfd070.jpg
-            ext: .jpg
-            width: 1000
-            height: 584
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675392492/medium_Surprise_Machines1_893bcfd070.jpg
-            ext: .jpg
-            width: 750
-            height: 438
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675392493/small_Surprise_Machines1_893bcfd070.jpg
-            ext: .jpg
-            width: 500
-            height: 292
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675392491/thumbnail_Surprise_Machines1_893bcfd070.jpg
-            ext: .jpg
-            width: 245
-            height: 143
-    - alternativeText: Photo of Ocean Amplification by Francisco Alarcon, Stefan Helmreich, and Boris Konik
-      caption: Photo of Ocean Amplification
-      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675392495/Ocean_Amp3_e2db091ea4.jpg
-      width: 3908
-      height: 2931
-      ext: .jpg
-      mime: image/jpeg
-      formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675392496/large_Ocean_Amp3_e2db091ea4.jpg
-            ext: .jpg
-            width: 1000
-            height: 750
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675392497/medium_Ocean_Amp3_e2db091ea4.jpg
-            ext: .jpg
-            width: 750
-            height: 563
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675392497/small_Ocean_Amp3_e2db091ea4.jpg
-            ext: .jpg
-            width: 500
-            height: 375
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675392496/thumbnail_Ocean_Amp3_e2db091ea4.jpg
-            ext: .jpg
-            width: 208
-            height: 156
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675392491/Surprise_Machines2_cf113d140f.jpg
+    width: 3000
+    height: 2043
+    ext: .jpg
+    mime: image/jpeg
+    alternativeText: Photo of Surprise Machines in Harvard Art Museums' Lightbox Gallery
+    caption: Photo of Surprise Machines by Dario Rodighiero, Douglas Duhaime, Christopher Pietsch, and Jeffrey Schnapp
+    formats:
+      large:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675392492/large_Surprise_Machines2_cf113d140f.jpg
+        ext: .jpg
+        width: 1000
+        height: 681
+      medium:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675392492/medium_Surprise_Machines2_cf113d140f.jpg
+        ext: .jpg
+        width: 750
+        height: 511
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675392493/small_Surprise_Machines2_cf113d140f.jpg
+        ext: .jpg
+        width: 500
+        height: 341
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675392491/thumbnail_Surprise_Machines2_cf113d140f.jpg
+        ext: .jpg
+        width: 229
+        height: 156
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675392491/Surprise_Machines1_893bcfd070.jpg
+    width: 3000
+    height: 1752
+    ext: .jpg
+    mime: image/jpeg
+    alternativeText: Photo of Surprise Machines at the Harvard Art Museums' Lightbox Gallery
+    caption: Photo of Surprise Machines by Dario Rodighiero, Douglas Duhaime, Christopher Pietsch, and Jeffrey Schnapp
+    formats:
+      large:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675392492/large_Surprise_Machines1_893bcfd070.jpg
+        ext: .jpg
+        width: 1000
+        height: 584
+      medium:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675392492/medium_Surprise_Machines1_893bcfd070.jpg
+        ext: .jpg
+        width: 750
+        height: 438
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675392493/small_Surprise_Machines1_893bcfd070.jpg
+        ext: .jpg
+        width: 500
+        height: 292
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675392491/thumbnail_Surprise_Machines1_893bcfd070.jpg
+        ext: .jpg
+        width: 245
+        height: 143
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675392495/Ocean_Amp3_e2db091ea4.jpg
+    width: 3908
+    height: 2931
+    ext: .jpg
+    mime: image/jpeg
+    alternativeText: Photo of Ocean Amplification by Francisco Alarcon, Stefan Helmreich, and Boris Konik
+    caption: Photo of Ocean Amplification
+    formats:
+      large:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675392496/large_Ocean_Amp3_e2db091ea4.jpg
+        ext: .jpg
+        width: 1000
+        height: 750
+      medium:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675392497/medium_Ocean_Amp3_e2db091ea4.jpg
+        ext: .jpg
+        width: 750
+        height: 563
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675392497/small_Ocean_Amp3_e2db091ea4.jpg
+        ext: .jpg
+        width: 500
+        height: 375
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675392496/thumbnail_Ocean_Amp3_e2db091ea4.jpg
+        ext: .jpg
+        width: 208
+        height: 156
 funders:
-    - label: “Deep Learning in the Museum,” grant from Dean’s Competitive Fund for Promising Scholarship Award”
-    - label: Faculty of Arts and Sciences, Harvard University
-    - label: Harvard Data Science Initiative
-      url: https://datascience.harvard.edu
+  - label: “Deep Learning in the Museum,” grant from Dean’s Competitive Fund for Promising Scholarship Award”
+  - label: Faculty of Arts and Sciences, Harvard University
+  - label: Harvard Data Science Initiative
+    url: https://datascience.harvard.edu
 members_twitter:
-    - dariorodighiero
-    - dietoff
-    - alarconbits
-    - giulia_taurino
-    - jaytiesse
-    - kimay
-    - LinsDerry
-    - matthewbattles
-    - allochron
-    - minneatairu
-    - philippschmitt
-    - sarahwnewman
+  - dariorodighiero
+  - alarconbits
+  - minneatairu
+  - LinsDerry
+  - sarahwnewman
+  - dietoff
+  - giulia_taurino
+  - kimay
+  - matthewbattles
+  - philippschmitt
+  - jaytiesse
+  - allochron
 images:
-    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1646813974/CA_Poster_Head_99e1223463_c206972172.png
-
+  - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1646813974/CA_Poster_Head_99e1223463_c206972172.png
+projects/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 *Curatorial A(i)gents* presented a series of machine-learning experiments with the Harvard Art Museums’ digital collections developed by members and affiliates of metaLAB (at) Harvard. The exhibition ran from March 1 through May 15, 2022 as part of an extended metaLAB residency in the museums’ Lightbox Gallery. During this period, four panel discussions among the artists and designers of *Curatorial A(i)gents* were offered on Zoom and remain available with closed captions [on Vimeo](https://vimeo.com/showcase/9589743).
 

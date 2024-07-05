@@ -2,47 +2,52 @@
 name: Heather Kapplow
 title: Heather Kapplow
 roles:
-    - role: Affiliate
-      position: 8
+  - role: Affiliate
+    position: 8
 isAlumnus: true
 isFounder: false
+rank: 99
 role_string: Alumnus
 twitter: hkapplow
 email: info@heatherkapplow.com
 website: https://www.heatherkapplow.com/
 instagram: heather_kapplow
-start: "2021-01-03"
-lastmod: "2022-08-30T16:20:10.060Z"
-date: "2021-09-16T10:51:44.686Z"
+start: '2021-01-03'
+lastmod: '2024-05-24T10:56:35.916Z'
+date: '2021-09-16T12:51:44.686Z'
 slug: heather-kapplow
 picture:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/c_limit,w_2000,h_2000/e_grayscale/v1643246330/HK_Headshot_by_Imke_Wagener_Hey_There_Kapplow_dbc16a18c6.jpg
-    width: 2172
-    height: 1994
-    ext: .jpg
-    mime: image/jpeg
-    formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1643246332/large_HK_Headshot_by_Imke_Wagener_Hey_There_Kapplow_dbc16a18c6.jpg
-            ext: .jpg
-            width: 1000
-            height: 918
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1643246332/medium_HK_Headshot_by_Imke_Wagener_Hey_There_Kapplow_dbc16a18c6.jpg
-            ext: .jpg
-            width: 750
-            height: 689
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1643246332/small_HK_Headshot_by_Imke_Wagener_Hey_There_Kapplow_dbc16a18c6.jpg
-            ext: .jpg
-            width: 500
-            height: 459
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1643246331/thumbnail_HK_Headshot_by_Imke_Wagener_Hey_There_Kapplow_dbc16a18c6.jpg
-            ext: .jpg
-            width: 170
-            height: 156
-
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/c_limit,w_2000,h_2000/e_grayscale/v1643246330/HK_Headshot_by_Imke_Wagener_Hey_There_Kapplow_dbc16a18c6.jpg
+  width: 2172
+  height: 1994
+  ext: .jpg
+  mime: image/jpeg
+  formats:
+    large:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1643246332/large_HK_Headshot_by_Imke_Wagener_Hey_There_Kapplow_dbc16a18c6.jpg
+      ext: .jpg
+      width: 1000
+      height: 918
+    medium:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1643246332/medium_HK_Headshot_by_Imke_Wagener_Hey_There_Kapplow_dbc16a18c6.jpg
+      ext: .jpg
+      width: 750
+      height: 689
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1643246332/small_HK_Headshot_by_Imke_Wagener_Hey_There_Kapplow_dbc16a18c6.jpg
+      ext: .jpg
+      width: 500
+      height: 459
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1643246331/thumbnail_HK_Headshot_by_Imke_Wagener_Hey_There_Kapplow_dbc16a18c6.jpg
+      ext: .jpg
+      width: 170
+      height: 156
+members/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 Heather Kapplow (no 3rd person pronouns please!) is a self-trained conceptual artist based in the United States. Kapplow creates participatory experiences that elicit unexpected intimacies using objects, alternative interpretations of existing environments, installation, performance, writing, audio and video.
 

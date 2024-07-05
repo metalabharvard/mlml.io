@@ -3,112 +3,116 @@ title: Womanhouse @Kunsthaus Graz
 subtitle: The Early Years of CalArts
 fulltitle: 'Womanhouse @Kunsthaus Graz: The Early Years of CalArts'
 intro: Memory traces of “the daydreams that women have as they wash, bake, cook, sew, clean and iron their lives away … taken to fantasy proportions” (30/1/1970-28/2/1970)
-start: "2020-03-13"
-end: "2020-06-07"
+start: '2020-03-13'
+end: '2020-06-07'
 datestring: March&ensp;–&ensp;June 2020
-description: Memory traces of “the daydreams that women have as they wash, bake, cook, sew, clean and iron their lives away … taken to fantasy proportions” …
+description: Memory traces of “the daydreams that women have as they wash, bake, cook, sew, clean and iron their lives away … taken to fantasy proportions”…
 keyword: Data Visualisation,Exhibition,Installation
 tags:
-    - Data Visualisation
-    - Exhibition
-    - Installation
+  - Data Visualisation
+  - Exhibition
+  - Installation
 location: Kunsthaus Graz
 host: berlin
 mediation: exhibition
 isFeatured: false
 externalLink: https://www.museum-joanneum.at/en/kunsthaus-graz/exhibitions/exhibitions/events/event/8855/where-art-might-happen
-lastmod: "2023-02-02T10:28:19.512Z"
-date: "2020-06-07"
+lastmod: '2024-05-20T02:01:49.570Z'
+date: '2020-06-07'
 slug: womanhouse-kunsthaus-graz
 categories:
-    - Installation
-    - Exhibition
-    - Data Visualisation
+  - Installation
+  - Exhibition
+  - Data Visualisation
 members:
-    - label: Annette Jael Lehmann
-      slug: annette-jael-lehmann
-    - label: Chiara Fauda Pichet
-      slug: chiara-fauda-pichet
-      twitter: chiarafauda
-    - label: Jeffrey Schnapp
-      slug: jeffrey-schnapp
-      twitter: jaytiesse
-    - label: Kim Albrecht
-      slug: kim-albrecht
-      twitter: kimay
-    - label: Mindy Seu
-      slug: mindy-seu
-      twitter: mind_seu
+  - label: Annette Jael Lehmann
+    slug: annette-jael-lehmann
+  - label: Chiara Fauda Pichet
+    slug: chiara-fauda-pichet
+    twitter: chiarafauda
+  - label: Jeffrey Schnapp
+    slug: jeffrey-schnapp
+    twitter: jaytiesse
+  - label: Kim Albrecht
+    slug: kim-albrecht
+    twitter: kimay
+  - label: Mindy Seu
+    slug: mindy-seu
+    twitter: mind_seu
 cover:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686495/where_art_might_happen_the_early_years_of_cal_arts_4b18fd7f74.jpg
-    width: 704
-    height: 480
-    ext: .jpg
-    mime: image/jpeg
-    formats:
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686496/small_where_art_might_happen_the_early_years_of_cal_arts_4b18fd7f74.jpg
-            ext: .jpg
-            width: 500
-            height: 341
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686496/thumbnail_where_art_might_happen_the_early_years_of_cal_arts_4b18fd7f74.jpg
-            ext: .jpg
-            width: 229
-            height: 156
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686495/where_art_might_happen_the_early_years_of_cal_arts_4b18fd7f74.jpg
+  width: 704
+  height: 480
+  ext: .jpg
+  mime: image/jpeg
+  formats:
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686496/small_where_art_might_happen_the_early_years_of_cal_arts_4b18fd7f74.jpg
+      ext: .jpg
+      width: 500
+      height: 341
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686496/thumbnail_where_art_might_happen_the_early_years_of_cal_arts_4b18fd7f74.jpg
+      ext: .jpg
+      width: 229
+      height: 156
 header:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686495/where_art_might_happen_the_early_years_of_cal_arts_4b18fd7f74.jpg
-    width: 704
-    height: 480
-    ext: .jpg
-    mime: image/jpeg
-    formats:
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686496/small_where_art_might_happen_the_early_years_of_cal_arts_4b18fd7f74.jpg
-            ext: .jpg
-            width: 500
-            height: 341
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686496/thumbnail_where_art_might_happen_the_early_years_of_cal_arts_4b18fd7f74.jpg
-            ext: .jpg
-            width: 229
-            height: 156
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686495/where_art_might_happen_the_early_years_of_cal_arts_4b18fd7f74.jpg
+  width: 704
+  height: 480
+  ext: .jpg
+  mime: image/jpeg
+  formats:
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686496/small_where_art_might_happen_the_early_years_of_cal_arts_4b18fd7f74.jpg
+      ext: .jpg
+      width: 500
+      height: 341
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1628686496/thumbnail_where_art_might_happen_the_early_years_of_cal_arts_4b18fd7f74.jpg
+      ext: .jpg
+      width: 229
+      height: 156
 noHeaderImage: false
 gallery:
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636727674/womanhouse1_b491a35529.jpg
-      width: 912
-      height: 1280
-      ext: .jpeg
-      mime: image/jpeg
-      formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636727676/large_womanhouse1_b491a35529.jpg
-            ext: .jpeg
-            width: 713
-            height: 1000
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636727676/medium_womanhouse1_b491a35529.jpg
-            ext: .jpeg
-            width: 534
-            height: 750
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636727676/small_womanhouse1_b491a35529.jpg
-            ext: .jpeg
-            width: 356
-            height: 500
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636727675/thumbnail_womanhouse1_b491a35529.jpg
-            ext: .jpeg
-            width: 111
-            height: 156
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636727674/womanhouse1_b491a35529.jpg
+    width: 912
+    height: 1280
+    ext: .jpeg
+    mime: image/jpeg
+    formats:
+      large:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636727676/large_womanhouse1_b491a35529.jpg
+        ext: .jpeg
+        width: 713
+        height: 1000
+      medium:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636727676/medium_womanhouse1_b491a35529.jpg
+        ext: .jpeg
+        width: 534
+        height: 750
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636727676/small_womanhouse1_b491a35529.jpg
+        ext: .jpeg
+        width: 356
+        height: 500
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636727675/thumbnail_womanhouse1_b491a35529.jpg
+        ext: .jpeg
+        width: 111
+        height: 156
 members_twitter:
-    - chiarafauda
-    - jaytiesse
-    - kimay
-    - mind_seu
+  - mind_seu
+  - chiarafauda
+  - kimay
+  - jaytiesse
 images:
-    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1628686495/where_art_might_happen_the_early_years_of_cal_arts_4b18fd7f74.jpg
-
+  - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1628686495/where_art_might_happen_the_early_years_of_cal_arts_4b18fd7f74.jpg
+projects/labs:
+  - berlin
+labs:
+  - label: Berlin
+    slug: berlin
 ---
 **This exhibit is an installation of {{< link "p/womanhouse-kunsthaus-graz" >}}Womanhouse (a memory theater){{< /link >}}.**
 

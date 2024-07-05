@@ -1,88 +1,93 @@
 ---
 title: The Military-Entertainment Complex
-subtitle: ""
+subtitle: ''
 fulltitle: The Military-Entertainment Complex
-intro: ""
-start: "2018-01-01"
-end: "2018-01-01"
+intro: ''
+start: '2018-01-01'
+end: '2018-01-01'
 datestring: January 2018
-location: ""
+location: ''
 host: harvard
 mediation: mixed_media
 isFeatured: false
-externalLink: ""
-lastmod: "2021-11-12T15:37:48.956Z"
-date: "2018-01-01"
+externalLink: ''
+lastmod: '2024-05-20T02:01:50.358Z'
+date: '2018-01-01'
 slug: the-military-45-entertainment-complex
 collaborators:
-    - label: Harvard University Press
-    - label: Tim Lenoir
-    - label: Luke Caldwell
+  - label: Harvard University Press
+  - label: Tim Lenoir
+  - label: Luke Caldwell
+members: []
 cover:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636731427/mecomplex1_f98e6dfc41.jpg
-    width: 462
-    height: 680
-    ext: .jpeg
-    mime: image/jpeg
-    formats:
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636731428/small_mecomplex1_f98e6dfc41.jpg
-            ext: .jpeg
-            width: 340
-            height: 500
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636731428/thumbnail_mecomplex1_f98e6dfc41.jpg
-            ext: .jpeg
-            width: 106
-            height: 156
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636731427/mecomplex1_f98e6dfc41.jpg
+  width: 462
+  height: 680
+  ext: .jpeg
+  mime: image/jpeg
+  formats:
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636731428/small_mecomplex1_f98e6dfc41.jpg
+      ext: .jpeg
+      width: 340
+      height: 500
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636731428/thumbnail_mecomplex1_f98e6dfc41.jpg
+      ext: .jpeg
+      width: 106
+      height: 156
 header:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636731427/mecomplex1_f98e6dfc41.jpg
-    width: 462
-    height: 680
-    ext: .jpeg
-    mime: image/jpeg
-    formats:
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636731428/small_mecomplex1_f98e6dfc41.jpg
-            ext: .jpeg
-            width: 340
-            height: 500
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636731428/thumbnail_mecomplex1_f98e6dfc41.jpg
-            ext: .jpeg
-            width: 106
-            height: 156
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636731427/mecomplex1_f98e6dfc41.jpg
+  width: 462
+  height: 680
+  ext: .jpeg
+  mime: image/jpeg
+  formats:
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636731428/small_mecomplex1_f98e6dfc41.jpg
+      ext: .jpeg
+      width: 340
+      height: 500
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636731428/thumbnail_mecomplex1_f98e6dfc41.jpg
+      ext: .jpeg
+      width: 106
+      height: 156
 noHeaderImage: false
 gallery:
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636731427/mecomplex2_aa6ee5ffb9.jpg
-      width: 1501
-      height: 1501
-      ext: .jpeg
-      mime: image/jpeg
-      formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636731428/large_mecomplex2_aa6ee5ffb9.jpg
-            ext: .jpeg
-            width: 1000
-            height: 1000
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636731429/medium_mecomplex2_aa6ee5ffb9.jpg
-            ext: .jpeg
-            width: 750
-            height: 750
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636731429/small_mecomplex2_aa6ee5ffb9.jpg
-            ext: .jpeg
-            width: 500
-            height: 500
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636731428/thumbnail_mecomplex2_aa6ee5ffb9.jpg
-            ext: .jpeg
-            width: 156
-            height: 156
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636731427/mecomplex2_aa6ee5ffb9.jpg
+    width: 1501
+    height: 1501
+    ext: .jpeg
+    mime: image/jpeg
+    formats:
+      large:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636731428/large_mecomplex2_aa6ee5ffb9.jpg
+        ext: .jpeg
+        width: 1000
+        height: 1000
+      medium:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636731429/medium_mecomplex2_aa6ee5ffb9.jpg
+        ext: .jpeg
+        width: 750
+        height: 750
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636731429/small_mecomplex2_aa6ee5ffb9.jpg
+        ext: .jpeg
+        width: 500
+        height: 500
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636731428/thumbnail_mecomplex2_aa6ee5ffb9.jpg
+        ext: .jpeg
+        width: 156
+        height: 156
 images:
-    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1636731427/mecomplex1_f98e6dfc41.jpg
-
+  - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1636731427/mecomplex1_f98e6dfc41.jpg
+projects/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 With the rise of drones and computer-controlled weapons, the line between war and video games continues to blur. In this book, the authors trace how the realities of war are deeply inflected by their representation in popular entertainment. War games and other media, in turn, feature an increasing number of weapons, tactics, and threat scenarios from the War on Terror.
 

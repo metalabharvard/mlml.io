@@ -1,180 +1,184 @@
 ---
 title: Turing’s Mill
-subtitle: ""
+subtitle: ''
 fulltitle: Turing’s Mill
-intro: ""
-start: "2017-08-09"
-end: "2018-01-01"
+intro: ''
+start: '2017-08-09'
+end: '2018-01-01'
 datestring: August 2017&ensp;–&ensp;January 2018
 location: Harvard Art Museums Lightbox Gallery
 host: harvard
 mediation: mixed_media
 isFeatured: false
-externalLink: ""
-lastmod: "2022-02-14T15:57:10.178Z"
-date: "2018-01-01"
+externalLink: ''
+lastmod: '2024-05-20T02:01:50.375Z'
+date: '2018-01-01'
 slug: turing-39-s-mill
 events:
-    - label: Machine Experience
-      slug: machine-experience
+  - label: Machine Experience
+    slug: machine-experience
 members:
-    - label: Matthew Battles
-      slug: matthew-battles
-      twitter: matthewbattles
+  - label: Matthew Battles
+    slug: matthew-battles
+    twitter: matthewbattles
 cover:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806262/turingsmill1_5490115f65.jpg
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806262/turingsmill1_5490115f65.jpg
+  width: 2419
+  height: 1476
+  ext: .jpeg
+  mime: image/jpeg
+  formats:
+    large:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806263/large_turingsmill1_5490115f65.jpg
+      ext: .jpeg
+      width: 1000
+      height: 610
+    medium:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806263/medium_turingsmill1_5490115f65.jpg
+      ext: .jpeg
+      width: 750
+      height: 458
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806264/small_turingsmill1_5490115f65.jpg
+      ext: .jpeg
+      width: 500
+      height: 305
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806263/thumbnail_turingsmill1_5490115f65.jpg
+      ext: .jpeg
+      width: 245
+      height: 149
+header:
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806262/turingsmill3_e5f58e2559.jpg
+  width: 1333
+  height: 1000
+  ext: .jpeg
+  mime: image/jpeg
+  formats:
+    large:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806263/large_turingsmill3_e5f58e2559.jpg
+      ext: .jpeg
+      width: 1000
+      height: 750
+    medium:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806263/medium_turingsmill3_e5f58e2559.jpg
+      ext: .jpeg
+      width: 750
+      height: 563
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806263/small_turingsmill3_e5f58e2559.jpg
+      ext: .jpeg
+      width: 500
+      height: 375
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806262/thumbnail_turingsmill3_e5f58e2559.jpg
+      ext: .jpeg
+      width: 208
+      height: 156
+noHeaderImage: false
+gallery:
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806262/turingsmill1_5490115f65.jpg
     width: 2419
     height: 1476
     ext: .jpeg
     mime: image/jpeg
     formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806263/large_turingsmill1_5490115f65.jpg
-            ext: .jpeg
-            width: 1000
-            height: 610
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806263/medium_turingsmill1_5490115f65.jpg
-            ext: .jpeg
-            width: 750
-            height: 458
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806264/small_turingsmill1_5490115f65.jpg
-            ext: .jpeg
-            width: 500
-            height: 305
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806263/thumbnail_turingsmill1_5490115f65.jpg
-            ext: .jpeg
-            width: 245
-            height: 149
-header:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806262/turingsmill3_e5f58e2559.jpg
+      large:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806263/large_turingsmill1_5490115f65.jpg
+        ext: .jpeg
+        width: 1000
+        height: 610
+      medium:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806263/medium_turingsmill1_5490115f65.jpg
+        ext: .jpeg
+        width: 750
+        height: 458
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806264/small_turingsmill1_5490115f65.jpg
+        ext: .jpeg
+        width: 500
+        height: 305
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806263/thumbnail_turingsmill1_5490115f65.jpg
+        ext: .jpeg
+        width: 245
+        height: 149
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806262/turingsmill2_4a225b1207.jpg
     width: 1333
     height: 1000
     ext: .jpeg
     mime: image/jpeg
     formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806263/large_turingsmill3_e5f58e2559.jpg
-            ext: .jpeg
-            width: 1000
-            height: 750
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806263/medium_turingsmill3_e5f58e2559.jpg
-            ext: .jpeg
-            width: 750
-            height: 563
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806263/small_turingsmill3_e5f58e2559.jpg
-            ext: .jpeg
-            width: 500
-            height: 375
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806262/thumbnail_turingsmill3_e5f58e2559.jpg
-            ext: .jpeg
-            width: 208
-            height: 156
-noHeaderImage: false
-gallery:
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806262/turingsmill1_5490115f65.jpg
-      width: 2419
-      height: 1476
-      ext: .jpeg
-      mime: image/jpeg
-      formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806263/large_turingsmill1_5490115f65.jpg
-            ext: .jpeg
-            width: 1000
-            height: 610
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806263/medium_turingsmill1_5490115f65.jpg
-            ext: .jpeg
-            width: 750
-            height: 458
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806264/small_turingsmill1_5490115f65.jpg
-            ext: .jpeg
-            width: 500
-            height: 305
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806263/thumbnail_turingsmill1_5490115f65.jpg
-            ext: .jpeg
-            width: 245
-            height: 149
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806262/turingsmill2_4a225b1207.jpg
-      width: 1333
-      height: 1000
-      ext: .jpeg
-      mime: image/jpeg
-      formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806263/large_turingsmill2_4a225b1207.jpg
-            ext: .jpeg
-            width: 1000
-            height: 750
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806263/medium_turingsmill2_4a225b1207.jpg
-            ext: .jpeg
-            width: 750
-            height: 563
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806263/small_turingsmill2_4a225b1207.jpg
-            ext: .jpeg
-            width: 500
-            height: 375
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806262/thumbnail_turingsmill2_4a225b1207.jpg
-            ext: .jpeg
-            width: 208
-            height: 156
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806262/turingsmill3_e5f58e2559.jpg
-      width: 1333
-      height: 1000
-      ext: .jpeg
-      mime: image/jpeg
-      formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806263/large_turingsmill3_e5f58e2559.jpg
-            ext: .jpeg
-            width: 1000
-            height: 750
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806263/medium_turingsmill3_e5f58e2559.jpg
-            ext: .jpeg
-            width: 750
-            height: 563
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806263/small_turingsmill3_e5f58e2559.jpg
-            ext: .jpeg
-            width: 500
-            height: 375
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806262/thumbnail_turingsmill3_e5f58e2559.jpg
-            ext: .jpeg
-            width: 208
-            height: 156
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806262/turingsmill4_314f6da130.gif
-      width: 720
-      height: 480
-      ext: .gif
-      mime: image/gif
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806262/turingsmill5_e8f74bc193.gif
-      width: 720
-      height: 480
-      ext: .gif
-      mime: image/gif
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806263/turingsmill3_0f7b80d6a6.gif
-      width: 720
-      height: 480
-      ext: .gif
-      mime: image/gif
+      large:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806263/large_turingsmill2_4a225b1207.jpg
+        ext: .jpeg
+        width: 1000
+        height: 750
+      medium:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806263/medium_turingsmill2_4a225b1207.jpg
+        ext: .jpeg
+        width: 750
+        height: 563
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806263/small_turingsmill2_4a225b1207.jpg
+        ext: .jpeg
+        width: 500
+        height: 375
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806262/thumbnail_turingsmill2_4a225b1207.jpg
+        ext: .jpeg
+        width: 208
+        height: 156
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806262/turingsmill3_e5f58e2559.jpg
+    width: 1333
+    height: 1000
+    ext: .jpeg
+    mime: image/jpeg
+    formats:
+      large:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806263/large_turingsmill3_e5f58e2559.jpg
+        ext: .jpeg
+        width: 1000
+        height: 750
+      medium:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806263/medium_turingsmill3_e5f58e2559.jpg
+        ext: .jpeg
+        width: 750
+        height: 563
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806263/small_turingsmill3_e5f58e2559.jpg
+        ext: .jpeg
+        width: 500
+        height: 375
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806262/thumbnail_turingsmill3_e5f58e2559.jpg
+        ext: .jpeg
+        width: 208
+        height: 156
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806262/turingsmill4_314f6da130.gif
+    width: 720
+    height: 480
+    ext: .gif
+    mime: image/gif
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806262/turingsmill5_e8f74bc193.gif
+    width: 720
+    height: 480
+    ext: .gif
+    mime: image/gif
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806263/turingsmill3_0f7b80d6a6.gif
+    width: 720
+    height: 480
+    ext: .gif
+    mime: image/gif
 members_twitter:
-    - matthewbattles
+  - matthewbattles
 images:
-    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1637806262/turingsmill3_e5f58e2559.jpg
-
+  - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1637806262/turingsmill3_e5f58e2559.jpg
+projects/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 **Turing's Mill**
 <br />Matthew Battles

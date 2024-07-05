@@ -1,136 +1,128 @@
 ---
 title: Sympoietic System
-subtitle: ""
+subtitle: ''
 fulltitle: Sympoietic System
 intro: Using weather data, algorithms, and a camera feed of the sky, Sympoietic System makes the weather a curator.
-start: "2019-12-01"
-end: "2020-04-01"
+start: '2019-12-01'
+end: '2020-04-01'
 datestring: December 2019&ensp;–&ensp;April 2020
 description: Using weather data, algorithms, and a camera feed of the sky, Sympoietic System makes the weather a curator.
 location: Harvard Art Museums
 host: harvard
 mediation: mixed_media
 isFeatured: false
-externalLink: ""
-lastmod: "2022-02-11T14:43:05.118Z"
-date: "2020-04-01"
+externalLink: ''
+lastmod: '2024-05-20T02:01:49.841Z'
+date: '2020-04-01'
 slug: sympoietic-system
 collaborators:
-    - label: Harvard Art Museums
-    - label: Robert Watts
-    - label: David Behrman
-    - label: Bob Diamond
+  - label: Harvard Art Museums
+  - label: Robert Watts
+  - label: David Behrman
+  - label: Bob Diamond
 members:
-    - label: Philipp Schmitt
-      slug: philipp-schmitt
-      twitter: philippschmitt
+  - label: Philipp Schmitt
+    slug: philipp-schmitt
+    twitter: philippschmitt
 projects:
-    - label: '#MeToo Anti-Network'
-      slug: me-too-anti-network
-    - label: A Flitting Atlas of the Human Gaze
-      slug: a-flitting-atlas-of-the-human-gaze
-    - label: Artificial Worldviews
-      slug: artificial-worldviews
-    - label: Black Lives Matter Street Mural Map
-      slug: black-lives-matter-street-mural-map
-    - label: Choreographic Interface
-      slug: choreographic-interface
-    - label: Curatorial A(i)gents
-      slug: curatorial-aigents
-    - label: Digital Access Research Project (DARP)
-      slug: digital-access-research-project
-    - label: HAM Object Map
-      slug: ham-object-map
-    - label: Igùn
-      slug: igun
-    - label: Living by Protocol
-      slug: living-by-protocol
-    - label: Ocean Amplification
-      slug: ocean-amplification
-    - label: Post_Networks
-      slug: post-networks
-    - label: Processing the Page
-      slug: processing-the-page
-    - label: Second Look
-      slug: second-look
-    - label: Surprise Machines
-      slug: surprise-machines
-    - label: Their Names
-      slug: their-names
-    - label: Watching Machines Loving Grace
-      slug: watching-machines-loving-grace
+  - label: A Flitting Atlas of the Human Gaze
+    slug: a-flitting-atlas-of-the-human-gaze
+  - label: Choreographic Interface
+    slug: choreographic-interface
+  - label: Curatorial A(i)gents
+    slug: curatorial-aigents
+  - label: HAM Object Map
+    slug: ham-object-map
+  - label: Igùn
+    slug: igun
+  - label: Ocean Amplification
+    slug: ocean-amplification
+  - label: Processing the Page
+    slug: processing-the-page
+  - label: Second Look
+    slug: second-look
+  - label: Surprise Machines
+    slug: surprise-machines
+  - label: Sympoietic System
+    slug: sympoietic-system
+  - label: Watching Machines Loving Grace
+    slug: watching-machines-loving-grace
 cover:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636726536/sympsys2_5a5ba9470a.jpg
-    width: 800
-    height: 533
-    ext: .jpeg
-    mime: image/jpeg
-    formats:
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636726537/medium_sympsys2_5a5ba9470a.jpg
-            ext: .jpeg
-            width: 750
-            height: 500
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636726537/small_sympsys2_5a5ba9470a.jpg
-            ext: .jpeg
-            width: 500
-            height: 333
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636726536/thumbnail_sympsys2_5a5ba9470a.jpg
-            ext: .jpeg
-            width: 234
-            height: 156
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636726536/sympsys2_5a5ba9470a.jpg
+  width: 800
+  height: 533
+  ext: .jpeg
+  mime: image/jpeg
+  formats:
+    medium:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636726537/medium_sympsys2_5a5ba9470a.jpg
+      ext: .jpeg
+      width: 750
+      height: 500
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636726537/small_sympsys2_5a5ba9470a.jpg
+      ext: .jpeg
+      width: 500
+      height: 333
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636726536/thumbnail_sympsys2_5a5ba9470a.jpg
+      ext: .jpeg
+      width: 234
+      height: 156
 header:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636726536/sympsys2_5a5ba9470a.jpg
-    width: 800
-    height: 533
-    ext: .jpeg
-    mime: image/jpeg
-    formats:
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636726537/medium_sympsys2_5a5ba9470a.jpg
-            ext: .jpeg
-            width: 750
-            height: 500
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636726537/small_sympsys2_5a5ba9470a.jpg
-            ext: .jpeg
-            width: 500
-            height: 333
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636726536/thumbnail_sympsys2_5a5ba9470a.jpg
-            ext: .jpeg
-            width: 234
-            height: 156
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636726536/sympsys2_5a5ba9470a.jpg
+  width: 800
+  height: 533
+  ext: .jpeg
+  mime: image/jpeg
+  formats:
+    medium:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636726537/medium_sympsys2_5a5ba9470a.jpg
+      ext: .jpeg
+      width: 750
+      height: 500
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636726537/small_sympsys2_5a5ba9470a.jpg
+      ext: .jpeg
+      width: 500
+      height: 333
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636726536/thumbnail_sympsys2_5a5ba9470a.jpg
+      ext: .jpeg
+      width: 234
+      height: 156
 noHeaderImage: false
 gallery:
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636726536/sympsys1_41020e621c.jpg
-      width: 800
-      height: 665
-      ext: .jpeg
-      mime: image/jpeg
-      formats:
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636726537/medium_sympsys1_41020e621c.jpg
-            ext: .jpeg
-            width: 750
-            height: 623
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636726537/small_sympsys1_41020e621c.jpg
-            ext: .jpeg
-            width: 500
-            height: 416
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636726536/thumbnail_sympsys1_41020e621c.jpg
-            ext: .jpeg
-            width: 188
-            height: 156
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636726536/sympsys1_41020e621c.jpg
+    width: 800
+    height: 665
+    ext: .jpeg
+    mime: image/jpeg
+    formats:
+      medium:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636726537/medium_sympsys1_41020e621c.jpg
+        ext: .jpeg
+        width: 750
+        height: 623
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636726537/small_sympsys1_41020e621c.jpg
+        ext: .jpeg
+        width: 500
+        height: 416
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636726536/thumbnail_sympsys1_41020e621c.jpg
+        ext: .jpeg
+        width: 188
+        height: 156
 members_twitter:
-    - philippschmitt
+  - philippschmitt
 images:
-    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1636726536/sympsys2_5a5ba9470a.jpg
-
+  - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1636726536/sympsys2_5a5ba9470a.jpg
+projects/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 <!---
 <iframe src="https://philippschmitt.com/sympoietic-system/" width="100%" height="300" frameborder="0" title="A Flitting Atlas of the Human Gaze"></iframe><br />

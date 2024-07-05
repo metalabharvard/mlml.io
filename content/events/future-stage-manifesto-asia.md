@@ -1,123 +1,115 @@
 ---
 title: 'Future Stage Manifesto: Asia'
-subtitle: ""
+subtitle: ''
 fulltitle: 'Future Stage Manifesto: Asia'
 status: default
 outputs:
-    - HTML
-    - Calendar
+  - HTML
+  - Calendar
 timezone: Boston
 timezoneAbbr:
-    berlin: CEST
-    boston: EDT
-start_time: "2022-09-22T21:00:00-04:00"
-end_time: "2022-09-22T23:00:00-04:00"
+  berlin: CEST
+  boston: EDT
+start_time: '2022-09-22T21:00:00-04:00'
+end_time: '2022-09-22T23:00:00-04:00'
 start_time_utc: 20220923T010000Z
 end_time_utc: 20220923T030000Z
 start_time_locations:
-    berlin: "2022-09-23T03:00:00+02:00"
-    boston: "2022-09-22T21:00:00-04:00"
+  berlin: '2022-09-23T03:00:00+02:00'
+  boston: '2022-09-22T21:00:00-04:00'
 end_time_locations:
-    berlin: "2022-09-23T05:00:00+02:00"
-    boston: "2022-09-22T23:00:00-04:00"
+  berlin: '2022-09-23T05:00:00+02:00'
+  boston: '2022-09-22T23:00:00-04:00'
 tzid: America/New_York
 intro: In October 2021, the futureStage research group published the Future Stage Manifesto, which has been translated and published in thirteen languages. This panel of international researchers and translators discussed the impact of the Future Stage Manifesto on the Asian performing arts scene.
 location: Virtual
 category: workshop
-description: In October 2021, the futureStage research group published the Future Stage Manifesto, which has been translated and published in thirteen languages. …
+description: In October 2021, the futureStage research group published the Future Stage Manifesto, which has been translated and published in thirteen languages. This panel…
 isFeatured: false
 isOngoing: false
-lastmod: "2023-03-14T15:47:46.028Z"
-date: "2022-09-22T21:00:00-04:00"
+lastmod: '2024-05-24T11:01:35.756Z'
+date: '2022-09-22T21:00:00-04:00'
 slug: future-stage-manifesto-asia
 members:
-    - label: Magda Romanska
-      slug: magda-romanska
-      twitter: MagdaRomanska
+  - label: Magda Romanska
+    slug: magda-romanska
+    twitter: MagdaRomanska
 projects:
-    - label: futureStage
-      slug: futurestage
+  - label: futureStage
+    slug: futurestage
 events:
-    - label: Choreographic Interface Demos
-      slug: choreographic-interfaces-demos
-    - label: Choreographic Panel
-      slug: choreographic-panel
-    - label: Critical Panel
-      slug: critical-panel
-    - label: Designing Speculations from Moot Courts
-      slug: designing-speculations-from-moot-courts
-    - label: 'Future Stage Manifesto: Eastern Europe'
-      slug: future-stage-manifesto-eastern-europe
-    - label: Future of Opera
-      slug: future-of-opera
-    - label: International Online Theatre Festival
-      slug: iotf2023
-    - label: Investigative Panel
-      slug: investigative-panel
-    - label: Panorama Panel
-      slug: panorama-panel
-    - label: What should or could (scholarly) knowledge look like in the 21st century?
-      slug: what-should-or-could-scholarly-knowledge-look-like-in-the-21st-century
+  - label: Future of Opera
+    slug: future-of-opera
+  - label: 'Future Stage Manifesto: Asia'
+    slug: future-stage-manifesto-asia
+  - label: 'Future Stage Manifesto: Eastern Europe '
+    slug: future-stage-manifesto-eastern-europe
+  - label: International Online Theatre Festival
+    slug: iotf2023
 cover:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1660098658/Future_Stage_Asia_Panel_a1f8308485.jpg
-    width: 1633
-    height: 659
-    ext: .jpg
-    mime: image/jpeg
-    formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1660098659/large_Future_Stage_Asia_Panel_a1f8308485.jpg
-            ext: .jpg
-            width: 1000
-            height: 404
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1660098659/medium_Future_Stage_Asia_Panel_a1f8308485.jpg
-            ext: .jpg
-            width: 750
-            height: 303
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1660098659/small_Future_Stage_Asia_Panel_a1f8308485.jpg
-            ext: .jpg
-            width: 500
-            height: 202
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1660098658/thumbnail_Future_Stage_Asia_Panel_a1f8308485.jpg
-            ext: .jpg
-            width: 245
-            height: 99
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1660098658/Future_Stage_Asia_Panel_a1f8308485.jpg
+  width: 1633
+  height: 659
+  ext: .jpg
+  mime: image/jpeg
+  formats:
+    large:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1660098659/large_Future_Stage_Asia_Panel_a1f8308485.jpg
+      ext: .jpg
+      width: 1000
+      height: 404
+    medium:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1660098659/medium_Future_Stage_Asia_Panel_a1f8308485.jpg
+      ext: .jpg
+      width: 750
+      height: 303
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1660098659/small_Future_Stage_Asia_Panel_a1f8308485.jpg
+      ext: .jpg
+      width: 500
+      height: 202
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1660098658/thumbnail_Future_Stage_Asia_Panel_a1f8308485.jpg
+      ext: .jpg
+      width: 245
+      height: 99
 header:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1660098658/Future_Stage_Asia_Panel_a1f8308485.jpg
-    width: 1633
-    height: 659
-    ext: .jpg
-    mime: image/jpeg
-    formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1660098659/large_Future_Stage_Asia_Panel_a1f8308485.jpg
-            ext: .jpg
-            width: 1000
-            height: 404
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1660098659/medium_Future_Stage_Asia_Panel_a1f8308485.jpg
-            ext: .jpg
-            width: 750
-            height: 303
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1660098659/small_Future_Stage_Asia_Panel_a1f8308485.jpg
-            ext: .jpg
-            width: 500
-            height: 202
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1660098658/thumbnail_Future_Stage_Asia_Panel_a1f8308485.jpg
-            ext: .jpg
-            width: 245
-            height: 99
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1660098658/Future_Stage_Asia_Panel_a1f8308485.jpg
+  width: 1633
+  height: 659
+  ext: .jpg
+  mime: image/jpeg
+  formats:
+    large:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1660098659/large_Future_Stage_Asia_Panel_a1f8308485.jpg
+      ext: .jpg
+      width: 1000
+      height: 404
+    medium:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1660098659/medium_Future_Stage_Asia_Panel_a1f8308485.jpg
+      ext: .jpg
+      width: 750
+      height: 303
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1660098659/small_Future_Stage_Asia_Panel_a1f8308485.jpg
+      ext: .jpg
+      width: 500
+      height: 202
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1660098658/thumbnail_Future_Stage_Asia_Panel_a1f8308485.jpg
+      ext: .jpg
+      width: 245
+      height: 99
 noHeaderImage: false
 members_twitter:
-    - MagdaRomanska
+  - MagdaRomanska
 images:
-    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1660098658/Future_Stage_Asia_Panel_a1f8308485.jpg
-
+  - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1660098658/Future_Stage_Asia_Panel_a1f8308485.jpg
+events/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/807774083?h=cca32edba3&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="ManifestoPanelAsia.mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 <br>

@@ -1,72 +1,76 @@
 ---
 title: Machine Experience
-subtitle: ""
+subtitle: ''
 fulltitle: Machine Experience
-status: ""
+status: ''
 outputs:
-    - HTML
-    - Calendar
+  - HTML
+  - Calendar
 timezone: Boston
 timezoneAbbr:
-    berlin: CEST
-    boston: EDT
-start_time: "2017-08-08T16:00:00-04:00"
-end_time: "2017-08-08T17:00:00-04:00"
+  berlin: CEST
+  boston: EDT
+start_time: '2017-08-08T16:00:00-04:00'
+end_time: '2017-08-08T17:00:00-04:00'
 start_time_utc: 20170808T200000Z
 end_time_utc: 20170808T210000Z
 start_time_locations:
-    berlin: "2017-08-08T22:00:00+02:00"
-    boston: "2017-08-08T16:00:00-04:00"
+  berlin: '2017-08-08T22:00:00+02:00'
+  boston: '2017-08-08T16:00:00-04:00'
 end_time_locations:
-    berlin: "2017-08-08T23:00:00+02:00"
-    boston: "2017-08-08T17:00:00-04:00"
+  berlin: '2017-08-08T23:00:00+02:00'
+  boston: '2017-08-08T17:00:00-04:00'
 tzid: America/New_York
 intro: A one-week exhibition at the Harvard Art Museums’ Lightbox Gallery asks where artificial intelligence is headed—and how art can help us explore the world we are making.
 location: Cambridge, MA
-description: A one-week exhibition at the Harvard Art Museums’ Lightbox Gallery asks where artificial intelligence is headed—and how art can help us explore t…
+description: A one-week exhibition at the Harvard Art Museums’ Lightbox Gallery asks where artificial intelligence is headed—and how art can help us explore the world we…
 isFeatured: false
 isOngoing: false
-lastmod: "2022-02-14T15:50:49.684Z"
-date: "2017-08-08T16:00:00-04:00"
+lastmod: '2024-05-24T11:01:35.431Z'
+date: '2017-08-08T16:00:00-04:00'
 slug: machine-experience
 members:
-    - label: Jonathan Sun
-      slug: jonathan-sun
-      twitter: jonnysun
-    - label: Kim Albrecht
-      slug: kim-albrecht
-      twitter: kimay
-    - label: Maia Suazo-Maler
-      slug: maia-suazo-maler
-    - label: Matthew Battles
-      slug: matthew-battles
-      twitter: matthewbattles
-    - label: Rachel Kalmar
-      slug: rachel-kalmar
-    - label: Sarah Newman
-      slug: sarah-newman
-      twitter: sarahwnewman
+  - label: Jonathan Sun
+    slug: jonathan-sun
+    twitter: jonnysun
+  - label: Kim Albrecht
+    slug: kim-albrecht
+    twitter: kimay
+  - label: Maia Suazo-Maler
+    slug: maia-suazo-maler
+  - label: Matthew Battles
+    slug: matthew-battles
+    twitter: matthewbattles
+  - label: Rachel Kalmar
+    slug: rachel-kalmar
+  - label: Sarah Newman
+    slug: sarah-newman
+    twitter: sarahwnewman
 projects:
-    - label: Artificial Senses
-      slug: artificial-senses
-    - label: Lightbox Gallery
-      slug: light-box
-    - label: Nobody’s Listening
-      slug: nobody-8217-s-listening
-    - label: Turing’s Mill
-      slug: turing-39-s-mill
+  - label: Artificial Senses
+    slug: artificial-senses
+  - label: Lightbox Gallery
+    slug: light-box
+  - label: Nobody’s Listening
+    slug: nobody-8217-s-listening
+  - label: Turing’s Mill
+    slug: turing-39-s-mill
 noHeaderImage: false
 collaborators:
-    - label: Kim Albrecht
-    - label: Rachel Kalmar
-    - label: Maia Leandra
-    - label: Jonathan Sun
+  - label: Kim Albrecht
+  - label: Rachel Kalmar
+  - label: Maia Leandra
+  - label: Jonathan Sun
 members_twitter:
-    - jonnysun
-    - kimay
-    - matthewbattles
-    - sarahwnewman
-
+  - jonnysun
+  - sarahwnewman
+  - kimay
+  - matthewbattles
+events/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 **MACHINE EXPERIENCE**
 

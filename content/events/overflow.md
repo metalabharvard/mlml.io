@@ -2,50 +2,54 @@
 title: Overflow
 subtitle: Inexplicable Parts of the Intimate
 fulltitle: 'Overflow: Inexplicable Parts of the Intimate'
-status: ""
+status: ''
 outputs:
-    - HTML
-    - Calendar
+  - HTML
+  - Calendar
 timezone: Boston
 timezoneAbbr:
-    berlin: CET
-    boston: EST
-start_time: "2019-01-19T16:00:00-05:00"
-end_time: "2019-01-19T17:00:00-05:00"
+  berlin: CET
+  boston: EST
+start_time: '2019-01-19T16:00:00-05:00'
+end_time: '2019-01-19T17:00:00-05:00'
 start_time_utc: 20190119T210000Z
 end_time_utc: 20190119T220000Z
 start_time_locations:
-    berlin: "2019-01-19T22:00:00+01:00"
-    boston: "2019-01-19T16:00:00-05:00"
+  berlin: '2019-01-19T22:00:00+01:00'
+  boston: '2019-01-19T16:00:00-05:00'
 end_time_locations:
-    berlin: "2019-01-19T23:00:00+01:00"
-    boston: "2019-01-19T17:00:00-05:00"
+  berlin: '2019-01-19T23:00:00+01:00'
+  boston: '2019-01-19T17:00:00-05:00'
 tzid: America/New_York
 location: Cambridge, MA
 isFeatured: false
 isOngoing: false
-lastmod: "2022-02-14T16:00:48.474Z"
-date: "2019-01-19T16:00:00-05:00"
+lastmod: '2024-05-24T11:01:35.496Z'
+date: '2019-01-19T16:00:00-05:00'
 slug: overflow
 members:
-    - label: Kim Albrecht
-      slug: kim-albrecht
-      twitter: kimay
-    - label: Matthew Battles
-      slug: matthew-battles
-      twitter: matthewbattles
+  - label: Kim Albrecht
+    slug: kim-albrecht
+    twitter: kimay
+  - label: Matthew Battles
+    slug: matthew-battles
+    twitter: matthewbattles
 noHeaderImage: false
 collaborators:
-    - label: Paul Heinicker
-      url: http://paulheinicker.com/
-    - label: Rainbow Unicorn
-      url: https://rainbow-unicorn.com/
-    - label: Transmediale Vorspiel
-      url: https://vorspiel.berlin/
+  - label: Paul Heinicker
+    url: http://paulheinicker.com/
+  - label: Rainbow Unicorn
+    url: https://rainbow-unicorn.com/
+  - label: Transmediale Vorspiel
+    url: https://vorspiel.berlin/
 members_twitter:
-    - kimay
-    - matthewbattles
-
+  - kimay
+  - matthewbattles
+events/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 **[OVERFLOW: INEXPLICABLE PARTS OF THE INTIMATE](https://rainbow-unicorn.com/#gallery)**
 

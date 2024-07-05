@@ -1,81 +1,85 @@
 ---
 title: Distinction Machine
-subtitle: ""
+subtitle: ''
 fulltitle: Distinction Machine
 intro: Creating conflicts within the computer
-start: "2018-02-01"
-end: "2019-08-10"
+start: '2018-02-01'
+end: '2019-08-10'
 datestring: February 2018&ensp;–&ensp;August 2019
 description: Creating conflicts within the computer
 keyword: Data Visualisation,Web Platform,Installation
 tags:
-    - Data Visualisation
-    - Web Platform
-    - Installation
+  - Data Visualisation
+  - Web Platform
+  - Installation
 location: virtual
 host: harvard
 mediation: mixed_media
 isFeatured: false
 externalLink: http://distinctionmachine.kimalbrecht.com/
-lastmod: "2023-02-07T19:01:41.776Z"
-date: "2019-08-10"
+lastmod: '2024-05-20T02:01:50.262Z'
+date: '2019-08-10'
 slug: distinction-machine
 categories:
-    - Installation
-    - Web Platform
-    - Data Visualisation
+  - Installation
+  - Web Platform
+  - Data Visualisation
 events:
-    - label: Error – The Art of Imperfection
-      slug: ars-electronica
+  - label: Error – The Art of Imperfection
+    slug: ars-electronica
 members:
-    - label: Kim Albrecht
-      slug: kim-albrecht
-      twitter: kimay
+  - label: Kim Albrecht
+    slug: kim-albrecht
+    twitter: kimay
 cover:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636730217/distinctionmachine1_68e71e2308.gif
-    width: 500
-    height: 500
-    ext: .gif
-    mime: image/gif
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636730217/distinctionmachine1_68e71e2308.gif
+  width: 500
+  height: 500
+  ext: .gif
+  mime: image/gif
 header:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636730217/distinctionmachine1_68e71e2308.gif
-    width: 500
-    height: 500
-    ext: .gif
-    mime: image/gif
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636730217/distinctionmachine1_68e71e2308.gif
+  width: 500
+  height: 500
+  ext: .gif
+  mime: image/gif
 noHeaderImage: false
 gallery:
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636730217/distinctionmachine2_ca25edf3fa.png
-      width: 1500
-      height: 1072
-      ext: .png
-      mime: image/png
-      formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636730218/large_distinctionmachine2_ca25edf3fa.png
-            ext: .png
-            width: 1000
-            height: 715
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636730219/medium_distinctionmachine2_ca25edf3fa.png
-            ext: .png
-            width: 750
-            height: 536
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636730219/small_distinctionmachine2_ca25edf3fa.png
-            ext: .png
-            width: 500
-            height: 357
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636730217/thumbnail_distinctionmachine2_ca25edf3fa.png
-            ext: .png
-            width: 218
-            height: 156
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636730217/distinctionmachine2_ca25edf3fa.png
+    width: 1500
+    height: 1072
+    ext: .png
+    mime: image/png
+    formats:
+      large:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636730218/large_distinctionmachine2_ca25edf3fa.png
+        ext: .png
+        width: 1000
+        height: 715
+      medium:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636730219/medium_distinctionmachine2_ca25edf3fa.png
+        ext: .png
+        width: 750
+        height: 536
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636730219/small_distinctionmachine2_ca25edf3fa.png
+        ext: .png
+        width: 500
+        height: 357
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636730217/thumbnail_distinctionmachine2_ca25edf3fa.png
+        ext: .png
+        width: 218
+        height: 156
 members_twitter:
-    - kimay
+  - kimay
 images:
-    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1636730217/distinctionmachine1_68e71e2308.jpg
-
+  - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1636730217/distinctionmachine1_68e71e2308.jpg
+projects/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 **Distinction Machine**
 

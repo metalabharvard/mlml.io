@@ -3,198 +3,202 @@ title: Algorithm Inventarium (AI+)
 subtitle: A collaboration with the Österreichische Akademie der Wissenschaften
 fulltitle: 'Algorithm Inventarium (AI+): A collaboration with the Österreichische Akademie der Wissenschaften'
 intro: 'Algorithm Inventarium (also known as AI+) is a recently concluded collaboration between the Austrian Academy of Science (ÖAW) and metaLAB (at) Harvard that sought to explore the development of an open knowledge base regarding algorithmic culture. '
-start: "2020-01-06"
-end: "2021-06-24"
+start: '2020-01-06'
+end: '2021-06-24'
 datestring: January 2020&ensp;–&ensp;June 2021
-description: Algorithm Inventarium (also known as AI+) is a recently concluded collaboration between the Austrian Academy of Science (ÖAW) and metaLAB (at) Harva…
-location: ""
+description: Algorithm Inventarium (also known as AI+) is a recently concluded collaboration between the Austrian Academy of Science (ÖAW) and metaLAB (at) Harvard that…
+location: ''
 host: harvard
 mediation: mixed_media
 isFeatured: false
-externalLink: ""
-lastmod: "2022-03-09T08:21:33.832Z"
-date: "2021-06-24"
+externalLink: ''
+lastmod: '2024-05-20T02:01:50.277Z'
+date: '2021-06-24'
 slug: algorithm-inventarium-ai
 members:
-    - label: Eveline Wandl-Vogt
-      slug: eveline-wandl-vogt
-      twitter: caissarl
-    - label: Jeffrey Schnapp
-      slug: jeffrey-schnapp
-      twitter: jaytiesse
-    - label: Kim Albrecht
-      slug: kim-albrecht
-      twitter: kimay
-    - label: Matthew Battles
-      slug: matthew-battles
-      twitter: matthewbattles
+  - label: Eveline Wandl-Vogt
+    slug: eveline-wandl-vogt
+    twitter: caissarl
+  - label: Jeffrey Schnapp
+    slug: jeffrey-schnapp
+    twitter: jaytiesse
+  - label: Kim Albrecht
+    slug: kim-albrecht
+    twitter: kimay
+  - label: Matthew Battles
+    slug: matthew-battles
+    twitter: matthewbattles
 header:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1643493214/Algorithm_inventarium_Page_08_f5deb5c79d.jpg
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1643493214/Algorithm_inventarium_Page_08_f5deb5c79d.jpg
+  width: 4610
+  height: 2594
+  ext: .jpg
+  mime: image/jpeg
+  formats:
+    large:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1643493215/large_Algorithm_inventarium_Page_08_f5deb5c79d.jpg
+      ext: .jpg
+      width: 1000
+      height: 563
+    medium:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1643493216/medium_Algorithm_inventarium_Page_08_f5deb5c79d.jpg
+      ext: .jpg
+      width: 750
+      height: 422
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1643493216/small_Algorithm_inventarium_Page_08_f5deb5c79d.jpg
+      ext: .jpg
+      width: 500
+      height: 281
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1643493215/thumbnail_Algorithm_inventarium_Page_08_f5deb5c79d.jpg
+      ext: .jpg
+      width: 245
+      height: 138
+noHeaderImage: true
+gallery:
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1643493213/Algorithm_inventarium_Page_11_ba8816b2e4.jpg
+    width: 2000
+    height: 1125
+    ext: .jpg
+    mime: image/jpeg
+    formats:
+      large:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1643493214/large_Algorithm_inventarium_Page_11_ba8816b2e4.jpg
+        ext: .jpg
+        width: 1000
+        height: 563
+      medium:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1643493214/medium_Algorithm_inventarium_Page_11_ba8816b2e4.jpg
+        ext: .jpg
+        width: 750
+        height: 422
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1643493214/small_Algorithm_inventarium_Page_11_ba8816b2e4.jpg
+        ext: .jpg
+        width: 500
+        height: 281
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1643493213/thumbnail_Algorithm_inventarium_Page_11_ba8816b2e4.jpg
+        ext: .jpg
+        width: 245
+        height: 138
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1643493215/Algorithm_inventarium_Page_10_2af7b1000c.jpg
+    width: 6720
+    height: 3780
+    ext: .jpg
+    mime: image/jpeg
+    formats:
+      large:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1643493216/large_Algorithm_inventarium_Page_10_2af7b1000c.jpg
+        ext: .jpg
+        width: 1000
+        height: 563
+      medium:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1643493216/medium_Algorithm_inventarium_Page_10_2af7b1000c.jpg
+        ext: .jpg
+        width: 750
+        height: 422
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1643493217/small_Algorithm_inventarium_Page_10_2af7b1000c.jpg
+        ext: .jpg
+        width: 500
+        height: 281
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1643493216/thumbnail_Algorithm_inventarium_Page_10_2af7b1000c.jpg
+        ext: .jpg
+        width: 245
+        height: 138
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1643493213/Algorithm_inventarium_Page_09_cd1357903a.jpg
+    width: 1160
+    height: 653
+    ext: .jpg
+    mime: image/jpeg
+    formats:
+      large:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1643493214/large_Algorithm_inventarium_Page_09_cd1357903a.jpg
+        ext: .jpg
+        width: 1000
+        height: 563
+      medium:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1643493214/medium_Algorithm_inventarium_Page_09_cd1357903a.jpg
+        ext: .jpg
+        width: 750
+        height: 422
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1643493214/small_Algorithm_inventarium_Page_09_cd1357903a.jpg
+        ext: .jpg
+        width: 500
+        height: 281
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1643493213/thumbnail_Algorithm_inventarium_Page_09_cd1357903a.jpg
+        ext: .jpg
+        width: 245
+        height: 138
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1643493214/Algorithm_inventarium_Page_08_f5deb5c79d.jpg
     width: 4610
     height: 2594
     ext: .jpg
     mime: image/jpeg
     formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1643493215/large_Algorithm_inventarium_Page_08_f5deb5c79d.jpg
-            ext: .jpg
-            width: 1000
-            height: 563
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1643493216/medium_Algorithm_inventarium_Page_08_f5deb5c79d.jpg
-            ext: .jpg
-            width: 750
-            height: 422
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1643493216/small_Algorithm_inventarium_Page_08_f5deb5c79d.jpg
-            ext: .jpg
-            width: 500
-            height: 281
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1643493215/thumbnail_Algorithm_inventarium_Page_08_f5deb5c79d.jpg
-            ext: .jpg
-            width: 245
-            height: 138
-noHeaderImage: true
-gallery:
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1643493213/Algorithm_inventarium_Page_11_ba8816b2e4.jpg
-      width: 2000
-      height: 1125
-      ext: .jpg
-      mime: image/jpeg
-      formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1643493214/large_Algorithm_inventarium_Page_11_ba8816b2e4.jpg
-            ext: .jpg
-            width: 1000
-            height: 563
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1643493214/medium_Algorithm_inventarium_Page_11_ba8816b2e4.jpg
-            ext: .jpg
-            width: 750
-            height: 422
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1643493214/small_Algorithm_inventarium_Page_11_ba8816b2e4.jpg
-            ext: .jpg
-            width: 500
-            height: 281
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1643493213/thumbnail_Algorithm_inventarium_Page_11_ba8816b2e4.jpg
-            ext: .jpg
-            width: 245
-            height: 138
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1643493215/Algorithm_inventarium_Page_10_2af7b1000c.jpg
-      width: 6720
-      height: 3780
-      ext: .jpg
-      mime: image/jpeg
-      formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1643493216/large_Algorithm_inventarium_Page_10_2af7b1000c.jpg
-            ext: .jpg
-            width: 1000
-            height: 563
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1643493216/medium_Algorithm_inventarium_Page_10_2af7b1000c.jpg
-            ext: .jpg
-            width: 750
-            height: 422
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1643493217/small_Algorithm_inventarium_Page_10_2af7b1000c.jpg
-            ext: .jpg
-            width: 500
-            height: 281
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1643493216/thumbnail_Algorithm_inventarium_Page_10_2af7b1000c.jpg
-            ext: .jpg
-            width: 245
-            height: 138
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1643493213/Algorithm_inventarium_Page_09_cd1357903a.jpg
-      width: 1160
-      height: 653
-      ext: .jpg
-      mime: image/jpeg
-      formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1643493214/large_Algorithm_inventarium_Page_09_cd1357903a.jpg
-            ext: .jpg
-            width: 1000
-            height: 563
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1643493214/medium_Algorithm_inventarium_Page_09_cd1357903a.jpg
-            ext: .jpg
-            width: 750
-            height: 422
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1643493214/small_Algorithm_inventarium_Page_09_cd1357903a.jpg
-            ext: .jpg
-            width: 500
-            height: 281
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1643493213/thumbnail_Algorithm_inventarium_Page_09_cd1357903a.jpg
-            ext: .jpg
-            width: 245
-            height: 138
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1643493214/Algorithm_inventarium_Page_08_f5deb5c79d.jpg
-      width: 4610
-      height: 2594
-      ext: .jpg
-      mime: image/jpeg
-      formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1643493215/large_Algorithm_inventarium_Page_08_f5deb5c79d.jpg
-            ext: .jpg
-            width: 1000
-            height: 563
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1643493216/medium_Algorithm_inventarium_Page_08_f5deb5c79d.jpg
-            ext: .jpg
-            width: 750
-            height: 422
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1643493216/small_Algorithm_inventarium_Page_08_f5deb5c79d.jpg
-            ext: .jpg
-            width: 500
-            height: 281
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1643493215/thumbnail_Algorithm_inventarium_Page_08_f5deb5c79d.jpg
-            ext: .jpg
-            width: 245
-            height: 138
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1643493213/Algorithm_inventarium_Page_01_fa33e8fb07.jpg
-      width: 1220
-      height: 692
-      ext: .jpg
-      mime: image/jpeg
-      formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1643493214/large_Algorithm_inventarium_Page_01_fa33e8fb07.jpg
-            ext: .jpg
-            width: 1000
-            height: 567
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1643493214/medium_Algorithm_inventarium_Page_01_fa33e8fb07.jpg
-            ext: .jpg
-            width: 750
-            height: 425
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1643493214/small_Algorithm_inventarium_Page_01_fa33e8fb07.jpg
-            ext: .jpg
-            width: 500
-            height: 284
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1643493213/thumbnail_Algorithm_inventarium_Page_01_fa33e8fb07.jpg
-            ext: .jpg
-            width: 245
-            height: 139
+      large:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1643493215/large_Algorithm_inventarium_Page_08_f5deb5c79d.jpg
+        ext: .jpg
+        width: 1000
+        height: 563
+      medium:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1643493216/medium_Algorithm_inventarium_Page_08_f5deb5c79d.jpg
+        ext: .jpg
+        width: 750
+        height: 422
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1643493216/small_Algorithm_inventarium_Page_08_f5deb5c79d.jpg
+        ext: .jpg
+        width: 500
+        height: 281
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1643493215/thumbnail_Algorithm_inventarium_Page_08_f5deb5c79d.jpg
+        ext: .jpg
+        width: 245
+        height: 138
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1643493213/Algorithm_inventarium_Page_01_fa33e8fb07.jpg
+    width: 1220
+    height: 692
+    ext: .jpg
+    mime: image/jpeg
+    formats:
+      large:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1643493214/large_Algorithm_inventarium_Page_01_fa33e8fb07.jpg
+        ext: .jpg
+        width: 1000
+        height: 567
+      medium:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1643493214/medium_Algorithm_inventarium_Page_01_fa33e8fb07.jpg
+        ext: .jpg
+        width: 750
+        height: 425
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1643493214/small_Algorithm_inventarium_Page_01_fa33e8fb07.jpg
+        ext: .jpg
+        width: 500
+        height: 284
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1643493213/thumbnail_Algorithm_inventarium_Page_01_fa33e8fb07.jpg
+        ext: .jpg
+        width: 245
+        height: 139
 members_twitter:
-    - caissarl
-    - jaytiesse
-    - kimay
-    - matthewbattles
+  - caissarl
+  - kimay
+  - matthewbattles
+  - jaytiesse
 images:
-    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1643493214/Algorithm_inventarium_Page_08_f5deb5c79d.jpg
-
+  - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1643493214/Algorithm_inventarium_Page_08_f5deb5c79d.jpg
+projects/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 *Algorithm Inventarium* (also known as **AI+**) is a recently concluded collaboration between the Austrian Academy of Science (ÖAW) and metaLAB (at) Harvard that sought to explore the development of an open knowledge base regarding algorithmic culture. Five main areas were explored in the course of the project:
 

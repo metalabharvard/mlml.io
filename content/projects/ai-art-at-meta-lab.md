@@ -1,49 +1,53 @@
 ---
 title: AI + Art at metaLAB
-subtitle: ""
+subtitle: ''
 fulltitle: AI + Art at metaLAB
 intro: metaLAB projects in this area explore the psychological and philosophical realms of electronic systems, reflect on the long history of human fascination with thinking machines, and consider our uncertain moral reckoning with the agency and autonomy of computers.
-start: "2019-01-01"
-end: "2019-01-01"
+start: '2019-01-01'
+end: '2019-01-01'
 datestring: January 2019
-description: metaLAB projects in this area explore the psychological and philosophical realms of electronic systems, reflect on the long history of human fascinat…
-location: ""
+description: metaLAB projects in this area explore the psychological and philosophical realms of electronic systems, reflect on the long history of human fascination with…
+location: ''
 host: harvard
 mediation: mixed_media
 isFeatured: false
-externalLink: ""
-lastmod: "2022-05-23T14:26:50.728Z"
-date: "2019-01-01"
+externalLink: ''
+lastmod: '2024-05-20T02:01:50.260Z'
+date: '2019-01-01'
 slug: ai-art-at-meta-lab
 events:
-    - label: 2021 Virtual Creative Spring Workshops
-      slug: 2021-virtual-creative-spring-workshops
+  - label: 2021 Virtual Creative Spring Workshops
+    slug: 2021-virtual-creative-spring-workshops
 members:
-    - label: David Weinberger
-      slug: david-weinberger
-      twitter: dweinberger
-    - label: Jessica Yurkofsky
-      slug: jessica-yurkofsky
-    - label: Jonathan Sun
-      slug: jonathan-sun
-      twitter: jonnysun
-    - label: Kim Albrecht
-      slug: kim-albrecht
-      twitter: kimay
-    - label: Matthew Battles
-      slug: matthew-battles
-      twitter: matthewbattles
-    - label: Sarah Newman
-      slug: sarah-newman
-      twitter: sarahwnewman
+  - label: David Weinberger
+    slug: david-weinberger
+    twitter: dweinberger
+  - label: Jessica Yurkofsky
+    slug: jessica-yurkofsky
+  - label: Jonathan Sun
+    slug: jonathan-sun
+    twitter: jonnysun
+  - label: Kim Albrecht
+    slug: kim-albrecht
+    twitter: kimay
+  - label: Matthew Battles
+    slug: matthew-battles
+    twitter: matthewbattles
+  - label: Sarah Newman
+    slug: sarah-newman
+    twitter: sarahwnewman
 noHeaderImage: false
 members_twitter:
-    - dweinberger
-    - jonnysun
-    - kimay
-    - matthewbattles
-    - sarahwnewman
-
+  - jonnysun
+  - sarahwnewman
+  - kimay
+  - matthewbattles
+  - dweinberger
+projects/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 **> > >[Download the metaLAB AI + Art Overview, 2017-2019](https://metalabharvard.github.io/assets/projects/aiandart/metaLAB_AI+Art_Report2017-19.pdf)**
 

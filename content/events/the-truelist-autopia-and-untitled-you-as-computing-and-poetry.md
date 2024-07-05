@@ -1,34 +1,38 @@
 ---
 title: The Truelist, Autopia, and Untitled [You] as Computing and Poetry
-subtitle: ""
+subtitle: ''
 fulltitle: The Truelist, Autopia, and Untitled [You] as Computing and Poetry
-status: ""
+status: ''
 outputs:
-    - HTML
-    - Calendar
+  - HTML
+  - Calendar
 timezone: Boston
 timezoneAbbr:
-    berlin: CEST
-    boston: EDT
-start_time: "2019-04-02T16:00:00-04:00"
-end_time: "2019-04-02T17:00:00-04:00"
+  berlin: CEST
+  boston: EDT
+start_time: '2019-04-02T16:00:00-04:00'
+end_time: '2019-04-02T17:00:00-04:00'
 start_time_utc: 20190402T200000Z
 end_time_utc: 20190402T210000Z
 start_time_locations:
-    berlin: "2019-04-02T22:00:00+02:00"
-    boston: "2019-04-02T16:00:00-04:00"
+  berlin: '2019-04-02T22:00:00+02:00'
+  boston: '2019-04-02T16:00:00-04:00'
 end_time_locations:
-    berlin: "2019-04-02T23:00:00+02:00"
-    boston: "2019-04-02T17:00:00-04:00"
+  berlin: '2019-04-02T23:00:00+02:00'
+  boston: '2019-04-02T17:00:00-04:00'
 tzid: America/New_York
 location: Cambridge, MA
 isFeatured: false
 isOngoing: false
-lastmod: "2022-02-09T16:13:53.137Z"
-date: "2019-04-02T16:00:00-04:00"
+lastmod: '2024-05-24T11:01:34.846Z'
+date: '2019-04-02T16:00:00-04:00'
 slug: the-truelist-autopia-and-untitled-you-as-computing-and-poetry
 noHeaderImage: false
-
+events/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 ***The Truelist, Autopia, and Untitled [You]* as Computing and Poetry
 <br />Nick Montfort**

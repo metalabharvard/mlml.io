@@ -1,34 +1,38 @@
 ---
 title: 'Open Session: Artifacts in Space'
-subtitle: ""
+subtitle: ''
 fulltitle: 'Open Session: Artifacts in Space'
-status: ""
+status: ''
 outputs:
-    - HTML
-    - Calendar
+  - HTML
+  - Calendar
 timezone: Boston
 timezoneAbbr:
-    berlin: CET
-    boston: EDT
-start_time: "2019-03-27T16:00:00-04:00"
-end_time: "2019-03-27T17:00:00-04:00"
+  berlin: CET
+  boston: EDT
+start_time: '2019-03-27T16:00:00-04:00'
+end_time: '2019-03-27T17:00:00-04:00'
 start_time_utc: 20190327T200000Z
 end_time_utc: 20190327T210000Z
 start_time_locations:
-    berlin: "2019-03-27T21:00:00+01:00"
-    boston: "2019-03-27T16:00:00-04:00"
+  berlin: '2019-03-27T21:00:00+01:00'
+  boston: '2019-03-27T16:00:00-04:00'
 end_time_locations:
-    berlin: "2019-03-27T22:00:00+01:00"
-    boston: "2019-03-27T17:00:00-04:00"
+  berlin: '2019-03-27T22:00:00+01:00'
+  boston: '2019-03-27T17:00:00-04:00'
 tzid: America/New_York
 location: Cambridge, MA
 isFeatured: false
 isOngoing: false
-lastmod: "2022-02-09T16:13:53.036Z"
-date: "2019-03-27T16:00:00-04:00"
+lastmod: '2024-05-24T11:01:34.768Z'
+date: '2019-03-27T16:00:00-04:00'
 slug: open-session-artifacts-in-space
 noHeaderImage: false
-
+events/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 **metaLAB_open session: Artifacts in Space
 <br />Human Culture & Design Beyond Earth’s Bounds**

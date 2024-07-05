@@ -2,8 +2,8 @@
 name: Nancy Baker Cahill
 title: Nancy Baker Cahill
 roles:
-    - role: Affiliate
-      position: 8
+  - role: Affiliate
+    position: 8
 isAlumnus: false
 isFounder: false
 rank: 8.999
@@ -12,38 +12,42 @@ twitter: nbakercahill
 email: nancy@nancybakercahillstudio.com
 website: https://nancybakercahill.com/
 instagram: nancybakercahill
-start: "2024-04-01"
-lastmod: "2024-04-11T18:55:39.297Z"
-date: "2024-04-11T18:55:36.102Z"
+start: '2024-04-01'
+lastmod: '2024-05-24T10:56:36.256Z'
+date: '2024-04-11T20:55:36.102Z'
 slug: nancy-baker-cahill
 picture:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/c_limit,w_2000,h_2000/e_grayscale/v1712861708/NBC_2_Nancy_Baker_Cahill_a97f96b70a.jpg
-    width: 2816
-    height: 3000
-    ext: .jpg
-    mime: image/jpeg
-    formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1712861710/large_NBC_2_Nancy_Baker_Cahill_a97f96b70a.jpg
-            ext: .jpg
-            width: 939
-            height: 1000
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1712861711/medium_NBC_2_Nancy_Baker_Cahill_a97f96b70a.jpg
-            ext: .jpg
-            width: 704
-            height: 750
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1712861712/small_NBC_2_Nancy_Baker_Cahill_a97f96b70a.jpg
-            ext: .jpg
-            width: 469
-            height: 500
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1712861710/thumbnail_NBC_2_Nancy_Baker_Cahill_a97f96b70a.jpg
-            ext: .jpg
-            width: 146
-            height: 156
-
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/c_limit,w_2000,h_2000/e_grayscale/v1712861708/NBC_2_Nancy_Baker_Cahill_a97f96b70a.jpg
+  width: 2816
+  height: 3000
+  ext: .jpg
+  mime: image/jpeg
+  formats:
+    large:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1712861710/large_NBC_2_Nancy_Baker_Cahill_a97f96b70a.jpg
+      ext: .jpg
+      width: 939
+      height: 1000
+    medium:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1712861711/medium_NBC_2_Nancy_Baker_Cahill_a97f96b70a.jpg
+      ext: .jpg
+      width: 704
+      height: 750
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1712861712/small_NBC_2_Nancy_Baker_Cahill_a97f96b70a.jpg
+      ext: .jpg
+      width: 469
+      height: 500
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1712861710/thumbnail_NBC_2_Nancy_Baker_Cahill_a97f96b70a.jpg
+      ext: .jpg
+      width: 146
+      height: 156
+members/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 Nancy Baker Cahill is an award-winning interdisciplinary artist whose hybrid practice focuses on systemic power, consciousness, and the human body. She creates research-based immersive experiences, video installations, and conceptual blockchain projects rooted in the history of drawing. Her monumental augmented reality (AR) artworks extend and subvert the lineage of land art, often highlighting ecological imagination, civics, and a desire for more equitable futures. She is the Founder and Artistic Director of 4th Wall, a free, AR public art platform exploring site interventions, resistance, and inclusive creative expression. 
 
