@@ -8,7 +8,6 @@ end: '2014-01-01'
 datestring: January 2014
 description: Graphesis provides a descriptive critical language for the analysis of graphical knowledge.
 location: global
-host: harvard
 mediation: print
 isFeatured: false
 externalLink: ''

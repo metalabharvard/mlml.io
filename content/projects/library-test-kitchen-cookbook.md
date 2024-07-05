@@ -7,7 +7,6 @@ start: '2011-01-01'
 end: '2018-01-01'
 datestring: January 2011&ensp;–&ensp;January 2018
 location: Harvard College, Harvard Graduate School of Design, Information Science at Simmons College
-host: harvard
 mediation: mixed_media
 isFeatured: false
 externalLink: ''

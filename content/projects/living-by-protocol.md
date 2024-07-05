@@ -13,7 +13,6 @@ keyword: Exhibition
 tags:
   - Exhibition
 location: Cambridge, USA
-host: both
 mediation: exhibition
 isFeatured: true
 externalLink: https://protocol.mlml.io/

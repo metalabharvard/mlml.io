@@ -8,7 +8,6 @@ end: '2021-09-30'
 datestring: January&ensp;–&ensp;September 2021
 description: The 3D Cartography of Covid-19 was showcased at the Ars Electronica 2021. The project aimed to highlight scientists' hard work and dedication during the…
 location: Ars Electronica
-host: harvard
 mediation: mixed_media
 isFeatured: false
 externalLink: ''

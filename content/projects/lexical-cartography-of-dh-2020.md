@@ -8,7 +8,6 @@ end: '2020-08-31'
 datestring: March&ensp;–&ensp;August 2020
 description: Lexical Cartography is a digital tool for navigating scientific conferences, displaying speakers based on lexical similarity. An interactive, open-source…
 location: virtual
-host: harvard
 mediation: web
 isFeatured: false
 externalLink: https://rodighiero.github.io/DH2020/

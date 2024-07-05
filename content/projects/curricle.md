@@ -12,7 +12,6 @@ tags:
   - Data Visualisation
   - Web Platform
 location: virtual
-host: harvard
 mediation: mixed_media
 isFeatured: false
 externalLink: https://curricle.berkman.harvard.edu/

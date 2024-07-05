@@ -13,7 +13,6 @@ tags:
   - Web Platform
   - Application
 location: Berlin, Germany
-host: berlin
 mediation: mixed_media
 isFeatured: true
 externalLink: ''

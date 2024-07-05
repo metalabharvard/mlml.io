@@ -8,7 +8,6 @@ end: '2016-01-01'
 datestring: January 2016
 description: How can we expose our perceptions of nature, landscape, and the city as not natural but constructed? What perspectives on the contested biopolitics of the city…
 location: ''
-host: harvard
 mediation: mixed_media
 isFeatured: false
 externalLink: ''

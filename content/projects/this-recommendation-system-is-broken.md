@@ -8,7 +8,6 @@ end: '2020-04-09'
 datestring: November 2019&ensp;–&ensp;April 2020
 description: Through randomization, This Recommendation System is Broken decenters the viewer and reimagines the role of norms in collections.
 location: ''
-host: harvard
 mediation: mixed_media
 isFeatured: false
 externalLink: ''

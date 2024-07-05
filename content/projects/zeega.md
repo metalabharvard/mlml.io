@@ -7,7 +7,6 @@ start: '2011-01-01'
 end: '2014-01-01'
 datestring: January 2011&ensp;–&ensp;January 2014
 location: global
-host: harvard
 mediation: mixed_media
 isFeatured: false
 externalLink: ''

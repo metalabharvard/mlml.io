@@ -8,7 +8,6 @@ end: '2024-06-01'
 datestring: April 2023&ensp;–&ensp;June 2024
 description: The mission of the Institute for Climate Sound & Society (ICSS) is to build an interdisciplinary community of practice that brings together sound-based…
 location: Copenhagen, Denmark // Cambridge, USA // Berlin, Germany
-host: both
 mediation: mixed_media
 isFeatured: true
 externalLink: ''

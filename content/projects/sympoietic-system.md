@@ -8,7 +8,6 @@ end: '2020-04-01'
 datestring: December 2019&ensp;–&ensp;April 2020
 description: Using weather data, algorithms, and a camera feed of the sky, Sympoietic System makes the weather a curator.
 location: Harvard Art Museums
-host: harvard
 mediation: mixed_media
 isFeatured: false
 externalLink: ''

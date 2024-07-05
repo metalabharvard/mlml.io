@@ -8,7 +8,6 @@ end: '2014-09-27'
 datestring: January 2013&ensp;–&ensp;September 2014
 description: In collections of scientific and cultural history that are too big to see, metadata act as virtual handles for rare and delicate artifacts from the past.
 location: Arnold Arboretum
-host: harvard
 mediation: web
 isFeatured: false
 externalLink: http://lifeanddeathofdata.org/

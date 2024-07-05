@@ -8,7 +8,6 @@ end: '2022-05-31'
 datestring: January 2020&ensp;–&ensp;May 2022
 description: Surprise Machines sets out to visualize the universe of Harvard Art Museums' collections, opening up unexpected vistas on the objects that make them up.
 location: Harvard Art Museums
-host: harvard
 mediation: mixed_media
 isFeatured: false
 externalLink: https://mlml.io/p/surprise-machines

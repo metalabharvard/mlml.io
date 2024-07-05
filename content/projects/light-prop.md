@@ -8,7 +8,6 @@ end: '2016-01-01'
 datestring: January 2016
 description: 'metaLAB is developing a model for the multimedia “thick description” of a cultural object: Light Prop for an Electric Stage, the work of László Moholy-Nagy…'
 location: Harvard Art Museum’s Lightbox Gallery
-host: harvard
 mediation: mixed_media
 isFeatured: false
 externalLink: https://vimeo.com/174445269

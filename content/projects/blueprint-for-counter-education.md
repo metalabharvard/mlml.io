@@ -8,7 +8,6 @@ end: '2017-09-28'
 datestring: January 2016&ensp;–&ensp;September 2017
 description: “This counter-university makes obsolete the traditional university process…”
 location: Vassar College
-host: harvard
 mediation: print
 isFeatured: false
 externalLink: http://www.inventorypress.com/product/blueprint-for-counter-education

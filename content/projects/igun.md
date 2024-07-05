@@ -8,7 +8,6 @@ end: '2022-05-16'
 datestring: October 2020&ensp;–&ensp;May 2022
 description: Igùn, an ongoing investigation into a 17-year artistic decline (1897-1914) in Benin Kingdom.
 location: Cambridge, USA
-host: harvard
 mediation: mixed_media
 isFeatured: false
 externalLink: https://igun.minneatairu.com

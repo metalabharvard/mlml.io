@@ -14,7 +14,6 @@ tags:
   - Workshop
   - Performance
 location: Berlin, Germany
-host: berlin
 mediation: mixed_media
 isFeatured: false
 externalLink: https://www.temporal-communities.de/research/travelling-matters/projects/circulating-narratives_entangled-communities/index.html

@@ -8,7 +8,6 @@ end: ''
 datestring: Since February 2022
 description: Data Sensorium is a transmedia performance work that expresses migratory data through movement and graphics
 location: ''
-host: harvard
 mediation: performance
 isFeatured: false
 externalLink: https://vimeo.com/715829162

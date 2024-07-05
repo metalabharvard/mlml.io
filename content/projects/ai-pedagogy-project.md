@@ -8,7 +8,6 @@ end: ''
 datestring: Since September 2023
 description: 'Now is a time when the humanities can do what the humanities do best: surface foundational questions about what it means to be human, attend with precision to…'
 location: Cambridge, USA & Virtual
-host: harvard
 mediation: web
 isFeatured: true
 externalLink: https://aipedagogy.org/

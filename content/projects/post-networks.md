@@ -13,7 +13,6 @@ tags:
   - art
   - Installation
 location: Berlin, Germany
-host: both
 mediation: exhibition
 isFeatured: false
 externalLink: ''

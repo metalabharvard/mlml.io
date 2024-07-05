@@ -8,7 +8,6 @@ end: ''
 datestring: Since June 2023
 description: What would the world look like if we could see the information that moves invisibly around us via wifi, cellular, and satellite?
 location: ''
-host: harvard
 mediation: mixed_media
 isFeatured: true
 externalLink: ''

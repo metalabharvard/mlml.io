@@ -8,7 +8,6 @@ end: '2019-09-18'
 datestring: January 2018&ensp;–&ensp;September 2019
 description: An artistic research project that considers what might happen to our private digital correspondence in the future.
 location: Northeastern University School of Law
-host: harvard
 mediation: mixed_media
 isFeatured: false
 externalLink: ''

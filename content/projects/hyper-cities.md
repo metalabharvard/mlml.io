@@ -8,7 +8,6 @@ end: '2014-01-01'
 datestring: January 2014
 description: 'HyperCities describes thick mapping: the humanist project of participating and listening that transforms mapping into an ethical undertaking.'
 location: global
-host: harvard
 mediation: print
 isFeatured: false
 externalLink: ''

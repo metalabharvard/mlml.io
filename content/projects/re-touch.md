@@ -12,7 +12,6 @@ tags:
   - Exhibition
   - Web Platform
 location: Berlin, Germany
-host: berlin
 mediation: web
 isFeatured: false
 externalLink: https://re-touch-photocontest.com/

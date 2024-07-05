@@ -8,7 +8,6 @@ end: '2015-05-01'
 datestring: January&ensp;–&ensp;May 2015
 description: By Halsey Burgund, a location-based audio installation, accessible via iOS app, commissioned for Harvard's LitFest 2015.
 location: Harvard Yard
-host: harvard
 mediation: mixed_media
 isFeatured: false
 externalLink: https://apps.apple.com/us/app/re-verse/id978338658

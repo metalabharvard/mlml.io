@@ -15,7 +15,6 @@ tags:
   - Data Visualisation
   - Web Platform
 location: Virtual
-host: both
 mediation: web
 isFeatured: true
 externalLink: https://artificial-worldviews.kimalbrecht.com/

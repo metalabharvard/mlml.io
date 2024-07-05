@@ -8,7 +8,6 @@ end: '2022-06-23'
 datestring: June 2020&ensp;–&ensp;June 2022
 description: As part of Curatorial A(i)gents, we researched how a choreographic interface could enable visitors to interact with the show's projects via a dance vocabulary
 location: ''
-host: harvard
 mediation: mixed_media
 isFeatured: false
 externalLink: https://vimeo.com/697394546

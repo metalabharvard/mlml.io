@@ -8,7 +8,6 @@ end: '2021-06-01'
 datestring: March 2020&ensp;–&ensp;June 2021
 description: Dear Loneliness is a large-scale collaborative art project that seeks to write the longest letter in the world as a memorial to 2020, the COVID-19 era, and the…
 location: ''
-host: harvard
 mediation: web
 isFeatured: false
 externalLink: https://www.dearloneliness.com/

@@ -8,7 +8,6 @@ end: '2023-12-31'
 datestring: May 2021&ensp;–&ensp;December 2023
 description: The Weather Map is a diachronic visual model that innovatively maps controversies in media narratives, using advanced data analysis to visualize the evolution…
 location: ''
-host: harvard
 mediation: mixed_media
 isFeatured: true
 externalLink: ''

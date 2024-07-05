@@ -13,7 +13,6 @@ tags:
   - Exhibition
   - Installation
 location: Kunsthaus Graz
-host: berlin
 mediation: exhibition
 isFeatured: false
 externalLink: https://www.museum-joanneum.at/en/kunsthaus-graz/exhibitions/exhibitions/events/event/8855/where-art-might-happen

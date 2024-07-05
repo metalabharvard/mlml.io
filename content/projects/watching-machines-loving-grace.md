@@ -13,7 +13,6 @@ tags:
   - Web Platform
   - Installation
 location: ''
-host: harvard
 mediation: web
 isFeatured: false
 externalLink: https://watching-machines.kimalbrecht.com/

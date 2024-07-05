@@ -11,7 +11,6 @@ keyword: Studio Course
 tags:
   - Studio Course
 location: online
-host: harvard
 mediation: web
 isFeatured: false
 externalLink: ''

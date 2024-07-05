@@ -8,7 +8,6 @@ end: '2021-07-01'
 datestring: May 2020&ensp;–&ensp;July 2021
 description: Hindsight 20/21 asks how the university is changing across its collections, communities, and curricula.
 location: virtual
-host: harvard
 mediation: mixed_media
 isFeatured: false
 externalLink: ''

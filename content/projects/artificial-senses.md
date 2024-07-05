@@ -13,7 +13,6 @@ tags:
   - Web Platform
   - Installation
 location: Harvard Art Museums Lightbox Gallery
-host: harvard
 mediation: web
 isFeatured: false
 externalLink: https://artificial-senses.kimalbrecht.com/

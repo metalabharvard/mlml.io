@@ -8,7 +8,6 @@ end: '2021-12-17'
 datestring: September&ensp;–&ensp;December 2021
 description: reRoot helps people make more informed decisions on where is the best place to move in the United States, outside of existing networks and word-of-mouth.
 location: online
-host: harvard
 mediation: web
 isFeatured: false
 externalLink: https://www.reroot.me/

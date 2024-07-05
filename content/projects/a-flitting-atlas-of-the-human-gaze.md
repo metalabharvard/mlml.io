@@ -8,7 +8,6 @@ end: '2022-05-15'
 datestring: September 2019&ensp;–&ensp;May 2022
 description: Using AI-based extraction and analysis, A Flitting Atlas of the Human Gaze allows the visitor to explore the museum through the eyes of the subjects of artworks
 location: Cambridge, USA
-host: harvard
 mediation: mixed_media
 isFeatured: false
 externalLink: https://metalabharvard.github.io/ars-flittingatlasofthegaze/

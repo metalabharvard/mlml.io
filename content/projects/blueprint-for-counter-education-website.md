@@ -7,7 +7,6 @@ start: '2016-01-01'
 end: '2016-01-01'
 datestring: January 2016
 location: virtual
-host: harvard
 mediation: web
 isFeatured: false
 externalLink: http://www.blueprintforcountereducation.com

@@ -8,7 +8,6 @@ end: '2021-12-17'
 datestring: September&ensp;–&ensp;December 2021
 description: Community LifeRAFT provides rich data stories and visualization dashboards using US Census Decennial and economic data sets to understand the demographic…
 location: online
-host: harvard
 mediation: web
 isFeatured: false
 externalLink: https://www.arcgis.com/apps/dashboards/ccb5a55e2b814f249222a069daf656cc

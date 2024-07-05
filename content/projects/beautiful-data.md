@@ -8,7 +8,6 @@ end: '2015-07-16'
 datestring: July 2014&ensp;–&ensp;July 2015
 description: Summer 2014-15 workshop series at Harvard, supported by the Getty Foundation.
 location: Harvard Carpenter Center, Harvard Art Museums
-host: harvard
 mediation: mixed_media
 isFeatured: false
 externalLink: https://beautifuldata.metalab.harvard.edu/

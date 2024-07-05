@@ -8,7 +8,6 @@ end: '2019-09-07'
 datestring: January 2018&ensp;–&ensp;September 2019
 description: Using machine learning not analytically but playfully, not predictively but expressively, to explore the enormity of biodiversity loss in the Anthropocene.
 location: Society for the Social Study of Science, New Orleans
-host: harvard
 mediation: mixed_media
 isFeatured: false
 externalLink: ''

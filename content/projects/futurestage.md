@@ -8,7 +8,6 @@ end: ''
 datestring: Since October 2021
 description: An international research collaborative mapping opportunities for performance spaces in a hyperconnected world
 location: global
-host: harvard
 mediation: web
 isFeatured: true
 externalLink: http://future-stage.org/

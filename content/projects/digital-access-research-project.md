@@ -8,7 +8,6 @@ end: ''
 datestring: Since January 2023
 description: The Digital Access Research Project (DARP) developed out of metaLAB’s FutureStage project, which was concerned with the future of the performing arts and the…
 location: Virtual
-host: harvard
 mediation: web
 isFeatured: false
 externalLink: ''

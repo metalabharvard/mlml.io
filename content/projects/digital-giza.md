@@ -8,7 +8,6 @@ end: '2016-01-01'
 datestring: January 2016
 description: Digital Giza explores new approaches to “cataloging” the world's most famous archeological site, The Pyramids on the Giza Plateau, highlighting efforts at the…
 location: virtual
-host: harvard
 mediation: mixed_media
 isFeatured: false
 externalLink: ''

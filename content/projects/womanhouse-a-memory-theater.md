@@ -13,7 +13,6 @@ tags:
   - Exhibition
   - Installation
 location: Hannover, Germany
-host: berlin
 mediation: exhibition
 isFeatured: true
 externalLink: https://kestnergesellschaft.de/en/exhibition/11

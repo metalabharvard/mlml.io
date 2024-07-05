@@ -11,7 +11,6 @@ keyword: Book
 tags:
   - Book
 location: ''
-host: harvard
 mediation: print
 isFeatured: false
 externalLink: https://mitpress.mit.edu/9780262539241/idea-colliders/

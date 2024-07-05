@@ -14,7 +14,6 @@ tags:
   - Pamphlet
   - Installation
 location: Cambridge, USA
-host: harvard
 mediation: exhibition
 isFeatured: true
 externalLink: ''

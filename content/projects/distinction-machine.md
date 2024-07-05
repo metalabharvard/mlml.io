@@ -13,7 +13,6 @@ tags:
   - Web Platform
   - Installation
 location: virtual
-host: harvard
 mediation: mixed_media
 isFeatured: false
 externalLink: http://distinctionmachine.kimalbrecht.com/

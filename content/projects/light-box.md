@@ -8,7 +8,6 @@ end: '2021-07-12'
 datestring: November 2014&ensp;–&ensp;July 2021
 description: A venue for digital experiments and new media projects that respond to collections held at the Harvard Art Museums, where digital tools reveal connections…
 location: Cambridge, USA
-host: harvard
 mediation: mixed_media
 isFeatured: false
 externalLink: ''

@@ -8,7 +8,6 @@ end: '2020-04-01'
 datestring: September 2019&ensp;–&ensp;April 2020
 description: AIxquisite Corpse explores computational and traditional roles for images through a variant of the famed surrealist game.
 location: ''
-host: harvard
 mediation: mixed_media
 isFeatured: false
 externalLink: ''

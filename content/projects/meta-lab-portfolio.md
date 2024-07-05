@@ -7,7 +7,6 @@ start: '2018-01-01'
 end: '2019-01-01'
 datestring: January 2018&ensp;–&ensp;January 2019
 location: ''
-host: harvard
 mediation: print
 isFeatured: false
 externalLink: ''

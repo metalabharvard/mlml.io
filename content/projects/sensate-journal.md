@@ -7,7 +7,6 @@ start: '2012-01-01'
 end: '2012-01-01'
 datestring: January 2012
 location: virtual
-host: harvard
 mediation: web
 isFeatured: false
 externalLink: ''

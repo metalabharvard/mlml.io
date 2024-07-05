@@ -8,7 +8,6 @@ end: '2022-05-15'
 datestring: January 2015&ensp;–&ensp;May 2022
 description: Designed as the default program for the Lightbox Gallery, the Object Map allows visitors to interact with all 1803 objects that are on display on the Harvard…
 location: ''
-host: harvard
 mediation: mixed_media
 isFeatured: false
 externalLink: ''

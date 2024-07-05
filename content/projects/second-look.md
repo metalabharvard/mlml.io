@@ -8,7 +8,6 @@ end: '2020-08-31'
 datestring: October 2019&ensp;–&ensp;August 2020
 description: Second Look calls attention to the circularity of how an artificial intelligence 'sees' and 'knows' by asking it to infer gender and sentiment in paintings…
 location: Harvard Art Museums
-host: harvard
 mediation: mixed_media
 isFeatured: false
 externalLink: https://linsderry.github.io/SecondLook/

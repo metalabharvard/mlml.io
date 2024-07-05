@@ -8,7 +8,6 @@ end: '2018-01-01'
 datestring: January 2017&ensp;–&ensp;January 2018
 description: Combining Matthew Battles's work on feral and invasive species in the city with designer and graduate researcher Keith Hartwig's practice in brewing,…
 location: ''
-host: harvard
 mediation: mixed_media
 isFeatured: false
 externalLink: ''

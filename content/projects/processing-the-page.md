@@ -8,7 +8,6 @@ end: '2022-07-31'
 datestring: July 2022
 description: Processing the Page shows how curatorial practice coupled with computer science and data visualization can expose hidden stories, spawn new conversations, and…
 location: Cambridge, USA
-host: harvard
 mediation: mixed_media
 isFeatured: false
 externalLink: https://harvardartmuseums.org/exhibitions/6223/processing-the-page-computer-vision-and-otto-pienes-sketchbooks

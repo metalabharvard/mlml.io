@@ -8,7 +8,6 @@ end: '2021-02-01'
 datestring: March 2020&ensp;–&ensp;February 2021
 description: Ocean Amplification simulates images of waves to visualize the effects of climate change—and the energy demands of computation.
 location: ''
-host: harvard
 mediation: mixed_media
 isFeatured: false
 externalLink: ''

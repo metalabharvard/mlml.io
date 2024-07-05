@@ -13,7 +13,6 @@ tags:
   - Web Platform
   - Installation
 location: New York, USA
-host: both
 mediation: mixed_media
 isFeatured: true
 externalLink: https://blm-murals.mlml.io/

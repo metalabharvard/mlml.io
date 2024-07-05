@@ -13,7 +13,6 @@ tags:
   - Web Platform
   - Installation
 location: online
-host: both
 mediation: web
 isFeatured: true
 externalLink: https://metoo.mlml.io/

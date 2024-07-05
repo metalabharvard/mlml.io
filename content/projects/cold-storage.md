@@ -7,7 +7,6 @@ start: '2015-01-01'
 end: '2015-06-01'
 datestring: January&ensp;–&ensp;June 2015
 location: Harvard GSD, National Library of France
-host: harvard
 mediation: mixed_media
 isFeatured: false
 externalLink: https://vimeo.com/96124198

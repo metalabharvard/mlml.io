@@ -8,7 +8,6 @@ end: '2023-01-08'
 datestring: October 2022&ensp;–&ensp;January 2023
 description: An interactive installation highlighting the experiences and wisdom of formerly incarcerated women at the Spencer Museum of Art and Lawrence Public Library
 location: Spencer Museum of Art & Lawrence Public Library // Lawrence, Kansas
-host: harvard
 mediation: exhibition
 isFeatured: false
 externalLink: ''

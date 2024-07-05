@@ -8,7 +8,6 @@ end: '2021-06-24'
 datestring: January 2020&ensp;–&ensp;June 2021
 description: Algorithm Inventarium (also known as AI+) is a recently concluded collaboration between the Austrian Academy of Science (ÖAW) and metaLAB (at) Harvard that…
 location: ''
-host: harvard
 mediation: mixed_media
 isFeatured: false
 externalLink: ''

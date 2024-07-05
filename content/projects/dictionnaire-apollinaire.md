@@ -7,7 +7,6 @@ start: '2016-01-01'
 end: '2016-01-01'
 datestring: January 2016
 location: Bibliothèque Nationale de France (BnF)
-host: harvard
 mediation: mixed_media
 isFeatured: false
 externalLink: ''

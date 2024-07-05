@@ -12,7 +12,6 @@ tags:
   - Data Visualisation
   - Web Platform
 location: virtual
-host: harvard
 mediation: web
 isFeatured: false
 externalLink: https://theirnames.org/

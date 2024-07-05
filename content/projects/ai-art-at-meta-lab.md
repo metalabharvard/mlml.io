@@ -8,7 +8,6 @@ end: '2019-01-01'
 datestring: January 2019
 description: metaLAB projects in this area explore the psychological and philosophical realms of electronic systems, reflect on the long history of human fascination with…
 location: ''
-host: harvard
 mediation: mixed_media
 isFeatured: false
 externalLink: ''

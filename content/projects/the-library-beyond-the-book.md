@@ -8,7 +8,6 @@ end: '2014-01-01'
 datestring: January 2014
 description: The Library Beyond the Book explains, speculates and provokes book culture for a world where the physical and the virtual blend with ever increasing intimacy.
 location: ''
-host: harvard
 mediation: print
 isFeatured: false
 externalLink: ''

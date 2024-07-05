@@ -13,7 +13,6 @@ tags:
   - Book
   - Installation
 location: ''
-host: berlin
 mediation: print
 isFeatured: false
 externalLink: ''

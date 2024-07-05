@@ -7,7 +7,6 @@ start: '2017-08-08'
 end: '2018-01-01'
 datestring: August 2017&ensp;–&ensp;January 2018
 location: Cambridge, MA
-host: harvard
 mediation: mixed_media
 isFeatured: false
 externalLink: ''

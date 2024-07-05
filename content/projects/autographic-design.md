@@ -8,7 +8,6 @@ end: '2023-12-19'
 datestring: December 2023
 description: An ambitious vision for design based on the premise that data is material, not abstract.
 location: ''
-host: harvard
 mediation: print
 isFeatured: false
 externalLink: https://mitpress.mit.edu/9780262547024/autographic-design/

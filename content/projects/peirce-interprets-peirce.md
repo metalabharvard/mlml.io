@@ -8,7 +8,6 @@ end: ''
 datestring: Since October 2022
 description: The project aims to study, disseminate, and valorize Charles S. Peirce’s work by transcribing, analyzing, and visualizing his writings held at Harvard's…
 location: ''
-host: harvard
 mediation: mixed_media
 isFeatured: true
 externalLink: ''

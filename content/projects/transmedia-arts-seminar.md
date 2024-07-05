@@ -8,7 +8,6 @@ end: ''
 datestring: Since January 2020
 description: The intersection of contemporary art/theatre and new media technologies in immersive, multisite, and networked modes of transmedia storytelling.
 location: Virtual
-host: harvard
 mediation: web
 isFeatured: false
 externalLink: https://mahindrahumanities.fas.harvard.edu/transmedia-arts

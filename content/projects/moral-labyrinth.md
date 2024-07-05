@@ -7,7 +7,6 @@ start: '2019-01-01'
 end: '2019-01-01'
 datestring: January 2019
 location: global
-host: harvard
 mediation: mixed_media
 isFeatured: false
 externalLink: ''
