@@ -63,7 +63,7 @@ const fetchProjects = async () => {
         keyword: tags.join(","),
         tags: tags,
         location: trim(project.location),
-        host: trim(project.host),
+        // host: trim(project.host),
         mediation: project.mediation,
         isFeatured: Boolean(project.isFeatured),
         externalLink: fixExternalLink(project.externalLink),
