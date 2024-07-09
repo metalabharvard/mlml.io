@@ -1,4 +1,5 @@
 @import "./global";
+@import "@glidejs/glide/dist/css/glide.core.min";
 
 :root {
   --spacing-0125: calc(var(--margin) * 0.125);
@@ -1281,6 +1282,7 @@ img {
 .project-gallery,
 .event-gallery {
   position: relative;
+  width: 100%;
   z-index: $z-index-gallery;
   max-width: 100%;
   padding-top: 0;
@@ -1295,6 +1297,13 @@ img {
     justify-content: space-between;
     align-items: center;
     margin-bottom: var(--spacing-05);
+    margin-top: var(--spacing-05);
+
+    nav,
+    nav button {
+      display: flex;
+      align-items: center;
+    }
 
     .gallery-counter {
       white-space: nowrap;
@@ -1318,9 +1327,8 @@ img {
 
     transition: opacity var(--transition);
 
-    &:disabled {
-      opacity: 0;
-      pointer-events: none;
+    &.end {
+      opacity: 0.6;
     }
 
     svg {
@@ -1344,7 +1352,7 @@ img {
   padding-bottom: var(--spacing-05);
 
   &.without-caption {
-    padding-bottom: var(--spacing-1);
+    padding-bottom: var(--spacing-05);
   }
 }
 

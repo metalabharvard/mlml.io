@@ -29,7 +29,8 @@
   {{- $svelte := resources.Get "/js/svelte.js" | js.Build (dict "minify" true) | fingerprint }}
   <script type="text/javascript" src="{{ $svelte.Permalink }}" integrity="{{ $svelte.Data.Integrity }}" defer></script>
 
-  {{- $style := resources.Get "sass/main.scss" | toCSS | minify | fingerprint }}
+  {{- $options := (dict "includePaths" (slice "node_modules")) -}}
+  {{- $style := resources.Get "sass/main.scss" | resources.ToCSS $options | minify | fingerprint }}
   <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}">
 
   {{- with .Page.OutputFormats.Get "rss" -}}
