@@ -821,7 +821,7 @@ img {
   margin-bottom: var(--spacing-1);
 
   @include query($medium) {
-    margin-bottom: var(--spacing-075);
+    margin-bottom: var(--spacing-025);
   }
 
   a {
