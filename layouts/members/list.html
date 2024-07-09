@@ -1,11 +1,11 @@
 {{ define "main" }}
   <section class="homepage-members-list grid-full">
     <menu class="members-labs-menu">
-      <li><a {{ if eq .RelPermalink "/members/" }}class="isActive" aria-current="page"{{ end }} href="/members/">All</a></li>
+      <li><a {{ if eq .RelPermalink "/members/" }}class="isActive" aria-current="page"{{ end }} href="/members/" title="View all">All</a></li>
       {{ $current := .RelPermalink }}
       {{ $list := index .Site.Taxonomies "members/labs" }}
       {{ range $list.ByCount }}
-        <li><a href="{{ .Page.Permalink }}" {{ if eq .Page.RelPermalink $current }}class="isActive" aria-current="page"{{ end }}>{{.Page.Title}}</a></li>
+        <li><a href="{{ .Page.Permalink }}" {{ if eq .Page.RelPermalink $current }}class="isActive" aria-current="page"{{ end }} title="Filter by {{ .Page.Title }}">{{.Page.Title}}</a></li>
       {{ end }}
     </menu>
 
