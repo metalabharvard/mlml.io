@@ -5,6 +5,7 @@
   --spacing-0125: calc(var(--margin) * 0.125);
   --spacing-025: calc(var(--margin) * 0.25);
   --spacing-05: calc(var(--margin) * 0.5);
+  --spacing-075: calc(var(--margin) * 0.75);
   --spacing-1: calc(var(--margin) * 1);
   --spacing-15: calc(var(--margin) * 1.5);
   --spacing-2: calc(var(--margin) * 2);
@@ -818,6 +819,10 @@ img {
   font-weight: $font-weight-medium;
   line-height: 1.1;
   margin-bottom: var(--spacing-1);
+
+  @include query($medium) {
+    margin-bottom: var(--spacing-075);
+  }
 
   a {
     color: var(--color-text);
