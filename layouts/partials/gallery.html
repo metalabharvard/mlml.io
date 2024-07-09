@@ -2,7 +2,7 @@
 {{ $class := .class }}
 {{ with .gallery -}}
   {{ if gt (len .) 1}}
-  <div class="{{ $class }}-gallery glide grid-wide gallery">
+  <div class="{{ $class }}-gallery grid-wide gallery" id="glide">
     <header class="gallery-header" >
       <nav data-glide-el="controls">
         <button data-glide-dir="<" class="btn-blank" aria-label="Previous image">

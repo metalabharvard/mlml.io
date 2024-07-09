@@ -1,23 +1,26 @@
 import Glide from "@glidejs/glide";
 
 export function enableProjectGallery() {
-  document.onreadystatechange = () => {
-    if (
-      document.readyState === "interactive" ||
-      document.readyState === "complete"
-    ) {
-      var glide = new Glide(".glide").mount();
+  let el = document.getElementById("glide");
+  if (el) {
+    document.onreadystatechange = () => {
+      if (
+        document.readyState === "interactive" ||
+        document.readyState === "complete"
+      ) {
+        var glide = new Glide(el).mount();
 
-      const counter = document.getElementById("gallery-counter");
-      const total = counter.dataset.total ?? 0;
+        const counter = document.getElementById("gallery-counter");
+        const total = counter.dataset.total ?? 0;
 
-      counter.textContent = `1 / ${total}`;
+        counter.textContent = `1 / ${total}`;
 
-      glide.on("run.after", function () {
-        counter.textContent = `${glide.index + 1} / ${total}`;
-      });
-    }
-  };
+        glide.on("run.after", function () {
+          counter.textContent = `${glide.index + 1} / ${total}`;
+        });
+      }
+    };
+  }
 }
 
 export function enableProjectHoverPreview() {
