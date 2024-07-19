@@ -1,56 +1,60 @@
 ---
 title: metaLAB + friends openLAB
-subtitle: ""
+subtitle: ''
 fulltitle: metaLAB + friends openLAB
-status: ""
+status: ''
 outputs:
-    - HTML
-    - Calendar
+  - HTML
+  - Calendar
 timezone: Boston
 timezoneAbbr:
-    berlin: CET
-    boston: EST
-start_time: "2018-03-06T16:00:00-05:00"
-end_time: "2018-03-06T17:00:00-05:00"
+  berlin: CET
+  boston: EST
+start_time: '2018-03-06T16:00:00-05:00'
+end_time: '2018-03-06T17:00:00-05:00'
 start_time_utc: 20180306T210000Z
 end_time_utc: 20180306T220000Z
 start_time_locations:
-    berlin: "2018-03-06T22:00:00+01:00"
-    boston: "2018-03-06T16:00:00-05:00"
+  berlin: '2018-03-06T22:00:00+01:00'
+  boston: '2018-03-06T16:00:00-05:00'
 end_time_locations:
-    berlin: "2018-03-06T23:00:00+01:00"
-    boston: "2018-03-06T17:00:00-05:00"
+  berlin: '2018-03-06T23:00:00+01:00'
+  boston: '2018-03-06T17:00:00-05:00'
 tzid: America/New_York
 location: Arts @ 29 Garden
 isFeatured: false
 isOngoing: false
-lastmod: "2022-02-09T16:13:54.297Z"
-date: "2018-03-06T16:00:00-05:00"
+lastmod: '2024-05-24T11:01:35.478Z'
+date: '2018-03-06T16:00:00-05:00'
 slug: meta-lab-friends-open-lab
 members:
-    - label: Adam Haar Horowitz
-      slug: adam-haar-horowitz
-    - label: Jeffrey Schnapp
-      slug: jeffrey-schnapp
-      twitter: jaytiesse
-    - label: Jessica Yurkofsky
-      slug: jessica-yurkofsky
-    - label: Kim Albrecht
-      slug: kim-albrecht
-      twitter: kimay
-    - label: Matthew Battles
-      slug: matthew-battles
-      twitter: matthewbattles
-    - label: Sarah Newman
-      slug: sarah-newman
-      twitter: sarahwnewman
+  - label: Adam Haar Horowitz
+    slug: adam-haar-horowitz
+  - label: Jeffrey Schnapp
+    slug: jeffrey-schnapp
+    twitter: jaytiesse
+  - label: Jessica Yurkofsky
+    slug: jessica-yurkofsky
+  - label: Kim Albrecht
+    slug: kim-albrecht
+    twitter: kimay
+  - label: Matthew Battles
+    slug: matthew-battles
+    twitter: matthewbattles
+  - label: Sarah Newman
+    slug: sarah-newman
+    twitter: sarahwnewman
 noHeaderImage: false
 members_twitter:
-    - jaytiesse
-    - kimay
-    - matthewbattles
-    - sarahwnewman
-
+  - sarahwnewman
+  - kimay
+  - matthewbattles
+  - jaytiesse
+events/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 **metaLAB + friends openLAB**<br />
 **March 6, 5:30-7:30**<br />

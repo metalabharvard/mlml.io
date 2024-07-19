@@ -1,25 +1,25 @@
 ---
 title: 'Clock, Fall: Choreorobotics and Near Futures of Choreographic Practice'
-subtitle: ""
+subtitle: ''
 fulltitle: 'Clock, Fall: Choreorobotics and Near Futures of Choreographic Practice'
 status: default
 outputs:
-    - HTML
-    - Calendar
+  - HTML
+  - Calendar
 timezone: Boston
 timezoneAbbr:
-    berlin: CEST
-    boston: EDT
-start_time: "2024-04-18T17:00:00-04:00"
-end_time: "2024-04-18T18:00:00-04:00"
+  berlin: CEST
+  boston: EDT
+start_time: '2024-04-18T17:00:00-04:00'
+end_time: '2024-04-18T18:00:00-04:00'
 start_time_utc: 20240418T210000Z
 end_time_utc: 20240418T220000Z
 start_time_locations:
-    berlin: "2024-04-18T23:00:00+02:00"
-    boston: "2024-04-18T17:00:00-04:00"
+  berlin: '2024-04-18T23:00:00+02:00'
+  boston: '2024-04-18T17:00:00-04:00'
 end_time_locations:
-    berlin: "2024-04-19T00:00:00+02:00"
-    boston: "2024-04-18T18:00:00-04:00"
+  berlin: '2024-04-19T00:00:00+02:00'
+  boston: '2024-04-18T18:00:00-04:00'
 tzid: America/New_York
 intro: A lecture on recent dance history and speculative dance futures as part of the Mahindra Humanities Center Theater and Performance Seminar.
 location: Barker Center, Room 110
@@ -28,22 +28,26 @@ externalLink: https://youtube.com/live/Puo8yU4w3Hk
 description: A lecture on recent dance history and speculative dance futures as part of the Mahindra Humanities Center Theater and Performance Seminar.
 isFeatured: false
 isOngoing: false
-lastmod: "2024-04-11T15:26:25.689Z"
-date: "2024-04-18T17:00:00-04:00"
+lastmod: '2024-05-24T11:01:35.239Z'
+date: '2024-04-18T17:00:00-04:00'
 slug: choreorobotics-talk
 members:
-    - label: Sydney Skybetter
-      slug: sydney-skybetter
-      twitter: sydneyskybetter
+  - label: Sydney Skybetter
+    slug: sydney-skybetter
+    twitter: sydneyskybetter
 projects:
-    - label: Choreographic Interface
-      slug: choreographic-interface
-    - label: futureStage
-      slug: futurestage
+  - label: Choreographic Interface
+    slug: choreographic-interface
+  - label: futureStage
+    slug: futurestage
 noHeaderImage: false
 members_twitter:
-    - sydneyskybetter
-
+  - sydneyskybetter
+events/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 ![Banner poster for Clock, Fall: Choreorobotics and Near Futures of Choreographic Practice](https://res.cloudinary.com/dfffh0gkl/image/upload/v1710427544/Clock_Fall_Banner_8d2fb1c221.png)
 

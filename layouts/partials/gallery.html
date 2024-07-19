@@ -2,35 +2,41 @@
 {{ $class := .class }}
 {{ with .gallery -}}
   {{ if gt (len .) 1}}
-  <div class="{{ $class }}-gallery grid-wide gallery">
-    <header class="gallery-header">
-      <nav>
-        <button id="btnPrev" class="btn-blank" aria-label="Previous image">
+  <div class="{{ $class }}-gallery grid-wide gallery" id="glide">
+    <header class="gallery-header" >
+      <nav data-glide-el="controls">
+        <button data-glide-dir="<" class="btn-blank" aria-label="Previous image">
           <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="18" height="24" viewBox="0 0 18 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
             <path stroke="none" d="M0 0h18v24H0z" fill="none"></path>
             <polyline points="15 6 9 12 15 18"></polyline>
           </svg>
         </button>
-        <button id="btnNext" class="btn-blank" aria-label="Next image">
+        <button data-glide-dir=">" class="btn-blank" aria-label="Next image">
           <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right" width="18" height="24" viewBox="0 0 18 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
             <path stroke="none" d="M0 0h18v24H0z" fill="none"></path>
             <polyline points="3 6 9 12 3 18"></polyline>
           </svg>
         </button>
-      </nav>
-      <span class="gallery-counter" id="gallery-counter"></span>
+      </nav >
+      <span class="gallery-counter" id="gallery-counter" data-total="{{ len . }}"></span>
     </header>
-    <figure class="siema full carousel" id="siema-carousel" data-amount="{{ len . }}">
-      {{ range . }}
-        <figure {{ if not (isset . "caption") }}class="without-caption"{{ end }}>
-        {{- partial "image.html" (dict "picture" . "alt" $defaultLabel "title" $defaultLabel "class" (printf "%s-gallery-image" $class) "format" "gallery" "maxHeight" 600) -}}
-        {{ with .caption }}
-          <figcaption class="gallery-caption">
-            {{- . -}}
-          </figcaption>
+    <figure class="full carousel">
+      <div data-glide-el="track" class="glide__track">
+        <ul class="glide__slides">
+        {{ range . }}
+          <li class="glide__slide">
+            <figure {{ if not (isset . "caption") }}class="without-caption"{{ end }}>
+            {{- partial "image.html" (dict "picture" . "alt" $defaultLabel "title" $defaultLabel "class" (printf "%s-gallery-image" $class) "format" "gallery" "maxHeight" 600) -}}
+            {{ with .caption }}
+              <figcaption class="gallery-caption">
+                {{- . -}}
+              </figcaption>
+            {{ end }}
+            </figure>
+          </li>
         {{ end }}
-        </figure>
-      {{ end }}
+        </ul>
+      </div>
     </figure>
   </div>
   {{ else }}

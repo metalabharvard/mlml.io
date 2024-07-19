@@ -1,34 +1,38 @@
 ---
 title: Nobody’s Listening [at] Fear and Loathing of the Online Self
-subtitle: ""
+subtitle: ''
 fulltitle: Nobody’s Listening [at] Fear and Loathing of the Online Self
-status: ""
+status: ''
 outputs:
-    - HTML
-    - Calendar
+  - HTML
+  - Calendar
 timezone: Boston
 timezoneAbbr:
-    berlin: CEST
-    boston: EDT
-start_time: "2017-05-23T16:00:00-04:00"
-end_time: "2017-05-23T17:00:00-04:00"
+  berlin: CEST
+  boston: EDT
+start_time: '2017-05-23T16:00:00-04:00'
+end_time: '2017-05-23T17:00:00-04:00'
 start_time_utc: 20170523T200000Z
 end_time_utc: 20170523T210000Z
 start_time_locations:
-    berlin: "2017-05-23T22:00:00+02:00"
-    boston: "2017-05-23T16:00:00-04:00"
+  berlin: '2017-05-23T22:00:00+02:00'
+  boston: '2017-05-23T16:00:00-04:00'
 end_time_locations:
-    berlin: "2017-05-23T23:00:00+02:00"
-    boston: "2017-05-23T17:00:00-04:00"
+  berlin: '2017-05-23T23:00:00+02:00'
+  boston: '2017-05-23T17:00:00-04:00'
 tzid: America/New_York
 location: Rome, Italy
 isFeatured: false
 isOngoing: false
-lastmod: "2022-02-09T16:13:53.901Z"
-date: "2017-05-23T16:00:00-04:00"
+lastmod: '2024-05-24T11:01:35.141Z'
+date: '2017-05-23T16:00:00-04:00'
 slug: nobody-8217-s-listening-at-fear-and-loathing-of-the-online-self
 noHeaderImage: false
-
+events/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 **Nobody's Listening**
 

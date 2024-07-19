@@ -1,83 +1,86 @@
 ---
 title: Futurefood
-subtitle: ""
+subtitle: ''
 fulltitle: Futurefood
-intro: ""
-start: "2019-01-01"
-end: "2019-01-01"
+intro: ''
+start: '2019-01-01'
+end: '2019-01-01'
 datestring: January 2019
 location: Cambridge Public Library, Cambridge City Hall Annex, Cambridge Art's Gallery 344, Central Square
-host: harvard
 mediation: mixed_media
 isFeatured: false
-externalLink: ""
-lastmod: "2021-11-12T14:56:56.175Z"
-date: "2019-01-01"
+externalLink: ''
+lastmod: '2024-05-20T02:01:50.462Z'
+date: '2019-01-01'
 slug: futurefood
 collaborators:
-    - label: Cambridge Arts Council
-    - label: Mass Cultural Council
-    - label: Clover Food Lab
-    - label: Best Bees
-    - label: David Buckley Borden
-    - label: Gap Dynamics
-    - label: Toni Bee
-    - label: Toscanini / Gus Rancatore
-    - label: Nate Phinisee
+  - label: Cambridge Arts Council
+  - label: Mass Cultural Council
+  - label: Clover Food Lab
+  - label: Best Bees
+  - label: David Buckley Borden
+  - label: Gap Dynamics
+  - label: Toni Bee
+  - label: Toscanini / Gus Rancatore
+  - label: Nate Phinisee
 members:
-    - label: Dietmar Offenhuber
-      slug: dietmar-offenhuber
-      twitter: dietoff
-    - label: Jessica Yurkofsky
-      slug: jessica-yurkofsky
-    - label: Keith Hartwig
-      slug: keith-hartwig
-    - label: Matthew Battles
-      slug: matthew-battles
-      twitter: matthewbattles
+  - label: Dietmar Offenhuber
+    slug: dietmar-offenhuber
+    twitter: dietoff
+  - label: Jessica Yurkofsky
+    slug: jessica-yurkofsky
+  - label: Keith Hartwig
+    slug: keith-hartwig
+  - label: Matthew Battles
+    slug: matthew-battles
+    twitter: matthewbattles
 cover:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636728991/futurefood1_6855930682.jpg
-    width: 386
-    height: 500
-    ext: .jpeg
-    mime: image/jpeg
-    formats:
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636728992/thumbnail_futurefood1_6855930682.jpg
-            ext: .jpeg
-            width: 120
-            height: 156
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636728991/futurefood1_6855930682.jpg
+  width: 386
+  height: 500
+  ext: .jpeg
+  mime: image/jpeg
+  formats:
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636728992/thumbnail_futurefood1_6855930682.jpg
+      ext: .jpeg
+      width: 120
+      height: 156
 header:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636728991/futurefood1_6855930682.jpg
-    width: 386
-    height: 500
-    ext: .jpeg
-    mime: image/jpeg
-    formats:
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636728992/thumbnail_futurefood1_6855930682.jpg
-            ext: .jpeg
-            width: 120
-            height: 156
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636728991/futurefood1_6855930682.jpg
+  width: 386
+  height: 500
+  ext: .jpeg
+  mime: image/jpeg
+  formats:
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636728992/thumbnail_futurefood1_6855930682.jpg
+      ext: .jpeg
+      width: 120
+      height: 156
 noHeaderImage: false
 gallery:
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636728991/futurefood2_882eee8630.jpg
-      width: 392
-      height: 500
-      ext: .jpeg
-      mime: image/jpeg
-      formats:
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636728991/thumbnail_futurefood2_882eee8630.jpg
-            ext: .jpeg
-            width: 122
-            height: 156
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636728991/futurefood2_882eee8630.jpg
+    width: 392
+    height: 500
+    ext: .jpeg
+    mime: image/jpeg
+    formats:
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1636728991/thumbnail_futurefood2_882eee8630.jpg
+        ext: .jpeg
+        width: 122
+        height: 156
 members_twitter:
-    - dietoff
-    - matthewbattles
+  - dietoff
+  - matthewbattles
 images:
-    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1636728991/futurefood1_6855930682.jpg
-
+  - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1636728991/futurefood1_6855930682.jpg
+projects/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 **FUTUREFOOD** is an interactive and participatory series of events that engages the public on matters of food waste, food justice, sustainable uses of urban green space, habitat loss, and the invisible or overlooked effects of climate change on urban ecology.
 

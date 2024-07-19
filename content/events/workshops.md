@@ -1,35 +1,39 @@
 ---
 title: Workshops
-subtitle: ""
+subtitle: ''
 fulltitle: Workshops
-status: ""
+status: ''
 outputs:
-    - HTML
-    - Calendar
+  - HTML
+  - Calendar
 timezone: Boston
 timezoneAbbr:
-    berlin: CET
-    boston: EST
-start_time: "2020-01-01T16:00:00-05:00"
-end_time: "2020-01-01T17:00:00-05:00"
+  berlin: CET
+  boston: EST
+start_time: '2020-01-01T16:00:00-05:00'
+end_time: '2020-01-01T17:00:00-05:00'
 start_time_utc: 20200101T210000Z
 end_time_utc: 20200101T220000Z
 start_time_locations:
-    berlin: "2020-01-01T22:00:00+01:00"
-    boston: "2020-01-01T16:00:00-05:00"
+  berlin: '2020-01-01T22:00:00+01:00'
+  boston: '2020-01-01T16:00:00-05:00'
 end_time_locations:
-    berlin: "2020-01-01T23:00:00+01:00"
-    boston: "2020-01-01T17:00:00-05:00"
+  berlin: '2020-01-01T23:00:00+01:00'
+  boston: '2020-01-01T17:00:00-05:00'
 tzid: America/New_York
 intro: I learned that questions are not indicative of incompleteness, but rather the questions themselves can be the practice.
 description: I learned that questions are not indicative of incompleteness, but rather the questions themselves can be the practice.
 isFeatured: false
 isOngoing: false
-lastmod: "2022-02-09T16:13:53.008Z"
-date: "2020-01-01T16:00:00-05:00"
+lastmod: '2024-05-24T11:01:34.838Z'
+date: '2020-01-01T16:00:00-05:00'
 slug: workshops
 noHeaderImage: false
-
+events/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 <iframe src="https://player.vimeo.com/video/473445114" width="100%" height="300" frameborder="0"></iframe>
 

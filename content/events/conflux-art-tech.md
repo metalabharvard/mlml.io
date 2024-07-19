@@ -1,25 +1,25 @@
 ---
 title: Conflux Winter Residency
-subtitle: ""
+subtitle: ''
 fulltitle: Conflux Winter Residency
 status: default
 outputs:
-    - HTML
-    - Calendar
+  - HTML
+  - Calendar
 timezone: Boston
 timezoneAbbr:
-    berlin: CET
-    boston: EST
-start_time: "2023-01-04T12:00:00-05:00"
-end_time: "2023-01-22T12:00:00-05:00"
+  berlin: CET
+  boston: EST
+start_time: '2023-01-04T12:00:00-05:00'
+end_time: '2023-01-22T12:00:00-05:00'
 start_time_utc: 20230104T170000Z
 end_time_utc: 20230122T170000Z
 start_time_locations:
-    berlin: "2023-01-04T18:00:00+01:00"
-    boston: "2023-01-04T12:00:00-05:00"
+  berlin: '2023-01-04T18:00:00+01:00'
+  boston: '2023-01-04T12:00:00-05:00'
 end_time_locations:
-    berlin: "2023-01-22T18:00:00+01:00"
-    boston: "2023-01-22T12:00:00-05:00"
+  berlin: '2023-01-22T18:00:00+01:00'
+  boston: '2023-01-22T12:00:00-05:00'
 tzid: America/New_York
 intro: A residency program exploring the ways in which art and media technology can transform liminal spaces into personal and meaningful places
 location: Harvard
@@ -28,109 +28,113 @@ externalLink: https://confluxcollective.org/Residency
 description: A residency program exploring the ways in which art and media technology can transform liminal spaces into personal and meaningful places
 isFeatured: false
 isOngoing: false
-lastmod: "2023-02-07T14:08:22.568Z"
-date: "2023-01-04T12:00:00-05:00"
+lastmod: '2024-05-24T11:01:35.849Z'
+date: '2023-01-04T12:00:00-05:00'
 slug: conflux-art-tech
 members:
-    - label: Alice Cai
-      slug: alice-cai
-    - label: Austin Ledzian
-      slug: austin-ledzian
-    - label: Halsey Burgund
-      slug: halsey-burgund
-      twitter: hburgund
-    - label: Jeanette Andrews
-      slug: jeanette-andrews
-      twitter: JeanetteMagic
-    - label: Jeffrey Schnapp
-      slug: jeffrey-schnapp
-      twitter: jaytiesse
-    - label: Juliana Castro-Varón
-      slug: juliana-castro-varon
-      twitter: juliacastrov
-    - label: Kim Albrecht
-      slug: kim-albrecht
-      twitter: kimay
-    - label: Minne Atairu
-      slug: minne-atairu
-      twitter: minneatairu
-    - label: Peggy Yin
-      slug: peggy-yin
-    - label: Sabrina Madera
-      slug: sabrina-madera
-    - label: Sarah Newman
-      slug: sarah-newman
-      twitter: sarahwnewman
-    - label: Sonia Sobrino Ralston
-      slug: sonia-sobrino-ralston
+  - label: Alice Cai
+    slug: alice-cai
+  - label: Austin Ledzian
+    slug: austin-ledzian
+  - label: Halsey Burgund
+    slug: halsey-burgund
+    twitter: hburgund
+  - label: Jeanette Andrews
+    slug: jeanette-andrews
+    twitter: JeanetteMagic
+  - label: Jeffrey Schnapp
+    slug: jeffrey-schnapp
+    twitter: jaytiesse
+  - label: Juliana Castro-Varón
+    slug: juliana-castro-varon
+    twitter: juliacastrov
+  - label: Kim Albrecht
+    slug: kim-albrecht
+    twitter: kimay
+  - label: Minne Atairu
+    slug: minne-atairu
+    twitter: minneatairu
+  - label: Peggy Yin
+    slug: peggy-yin
+  - label: Sabrina Madera
+    slug: sabrina-madera
+  - label: Sarah Newman
+    slug: sarah-newman
+    twitter: sarahwnewman
+  - label: Sonia Sobrino Ralston
+    slug: sonia-sobrino-ralston
 cover:
-    caption: Image by Kunal Botla
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1673043884/DSC_4501_d7719abc09.jpg
-    width: 6016
-    height: 4016
-    ext: .jpg
-    mime: image/jpeg
-    formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1673043885/large_DSC_4501_d7719abc09.jpg
-            ext: .jpg
-            width: 1000
-            height: 668
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1673043885/medium_DSC_4501_d7719abc09.jpg
-            ext: .jpg
-            width: 750
-            height: 501
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1673043886/small_DSC_4501_d7719abc09.jpg
-            ext: .jpg
-            width: 500
-            height: 334
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1673043884/thumbnail_DSC_4501_d7719abc09.jpg
-            ext: .jpg
-            width: 234
-            height: 156
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1673043884/DSC_4501_d7719abc09.jpg
+  width: 6016
+  height: 4016
+  ext: .jpg
+  mime: image/jpeg
+  caption: Image by Kunal Botla
+  formats:
+    large:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1673043885/large_DSC_4501_d7719abc09.jpg
+      ext: .jpg
+      width: 1000
+      height: 668
+    medium:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1673043885/medium_DSC_4501_d7719abc09.jpg
+      ext: .jpg
+      width: 750
+      height: 501
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1673043886/small_DSC_4501_d7719abc09.jpg
+      ext: .jpg
+      width: 500
+      height: 334
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1673043884/thumbnail_DSC_4501_d7719abc09.jpg
+      ext: .jpg
+      width: 234
+      height: 156
 header:
-    caption: Image by Kunal Botla
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1673043884/DSC_4501_d7719abc09.jpg
-    width: 6016
-    height: 4016
-    ext: .jpg
-    mime: image/jpeg
-    formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1673043885/large_DSC_4501_d7719abc09.jpg
-            ext: .jpg
-            width: 1000
-            height: 668
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1673043885/medium_DSC_4501_d7719abc09.jpg
-            ext: .jpg
-            width: 750
-            height: 501
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1673043886/small_DSC_4501_d7719abc09.jpg
-            ext: .jpg
-            width: 500
-            height: 334
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1673043884/thumbnail_DSC_4501_d7719abc09.jpg
-            ext: .jpg
-            width: 234
-            height: 156
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1673043884/DSC_4501_d7719abc09.jpg
+  width: 6016
+  height: 4016
+  ext: .jpg
+  mime: image/jpeg
+  caption: Image by Kunal Botla
+  formats:
+    large:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1673043885/large_DSC_4501_d7719abc09.jpg
+      ext: .jpg
+      width: 1000
+      height: 668
+    medium:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1673043885/medium_DSC_4501_d7719abc09.jpg
+      ext: .jpg
+      width: 750
+      height: 501
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1673043886/small_DSC_4501_d7719abc09.jpg
+      ext: .jpg
+      width: 500
+      height: 334
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1673043884/thumbnail_DSC_4501_d7719abc09.jpg
+      ext: .jpg
+      width: 234
+      height: 156
 noHeaderImage: false
 members_twitter:
-    - hburgund
-    - JeanetteMagic
-    - jaytiesse
-    - juliacastrov
-    - kimay
-    - minneatairu
-    - sarahwnewman
+  - minneatairu
+  - sarahwnewman
+  - hburgund
+  - JeanetteMagic
+  - kimay
+  - jaytiesse
+  - juliacastrov
 images:
-    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1673043884/DSC_4501_d7719abc09.jpg
-
+  - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1673043884/DSC_4501_d7719abc09.jpg
+events/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 [Conflux](https://confluxcollective.org) is a new Harvard student organization dedicated to expanding the intersection between art and technology. It is co-led by metaLAB researchers and Harvard College students Peggy Yin and Alice Cai. 
 

@@ -1,11 +1,7 @@
 <span class="{{ .type }}-host p-location">
-{{- if .host -}}
-{{- if eq .host "both" -}}
-{{ .both }}
-{{- else -}}
-{{- title .host }}
-{{- end -}}
-{{- else -}}
-{{ .default }}
-{{- end -}}
+  {{ $labels := slice }}
+  {{ range .labs }}
+    {{ $labels = $labels | append .label }}
+  {{ end }}
+  {{ delimit $labels ", " " and " }}
 </span>

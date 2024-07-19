@@ -1,312 +1,288 @@
 ---
 title: Post_Networks
-subtitle: ""
+subtitle: ''
 fulltitle: Post_Networks
 intro: The research project »POST_NETWORKS« conducts a series of aesthetic experiments visualizing the traces of network algorithms.
-start: "2021-11-07"
-end: "2022-11-01"
+start: '2021-11-07'
+end: '2022-11-01'
 datestring: November 2021&ensp;–&ensp;November 2022
 description: The research project »POST_NETWORKS« conducts a series of aesthetic experiments visualizing the traces of network algorithms.
 keyword: data visualisation,art,Installation
 tags:
-    - data visualisation
-    - art
-    - Installation
+  - data visualisation
+  - art
+  - Installation
 location: Berlin, Germany
-host: both
 mediation: exhibition
 isFeatured: false
-externalLink: ""
-lastmod: "2023-08-25T18:11:40.029Z"
-date: "2022-11-01"
+externalLink: ''
+lastmod: '2024-05-20T02:01:50.278Z'
+date: '2022-11-01'
 slug: post-networks
 categories:
-    - Installation
-    - Data Visualisation
+  - Installation
+  - Data Visualisation
 press_articles:
-    - label: Harvard Law Today
-      url: https://today.law.harvard.edu/living-by-protocol-meditates-on-the-impact-of-social-media-and-its-future/
-    - label: Mural Art
-      url: https://www.mutualart.com/Exhibition/Curatorial-A-i-gents--Living-by-Protocol/FF1A6A0802257A16
+  - label: Harvard Law Today
+    url: https://today.law.harvard.edu/living-by-protocol-meditates-on-the-impact-of-social-media-and-its-future/
+  - label: Mural Art
+    url: https://www.mutualart.com/Exhibition/Curatorial-A-i-gents--Living-by-Protocol/FF1A6A0802257A16
 members:
-    - label: Kim Albrecht
-      slug: kim-albrecht
-      twitter: kimay
+  - label: Kim Albrecht
+    slug: kim-albrecht
+    twitter: kimay
 projects:
-    - label: '#MeToo Anti-Network'
-      slug: me-too-anti-network
-    - label: A Flitting Atlas of the Human Gaze
-      slug: a-flitting-atlas-of-the-human-gaze
-    - label: Artificial Worldviews
-      slug: artificial-worldviews
-    - label: Black Lives Matter Street Mural Map
-      slug: black-lives-matter-street-mural-map
-    - label: Choreographic Interface
-      slug: choreographic-interface
-    - label: Curatorial A(i)gents
-      slug: curatorial-aigents
-    - label: Digital Access Research Project (DARP)
-      slug: digital-access-research-project
-    - label: HAM Object Map
-      slug: ham-object-map
-    - label: Igùn
-      slug: igun
-    - label: Living by Protocol
-      slug: living-by-protocol
-    - label: Ocean Amplification
-      slug: ocean-amplification
-    - label: Processing the Page
-      slug: processing-the-page
-    - label: Second Look
-      slug: second-look
-    - label: Surprise Machines
-      slug: surprise-machines
-    - label: Sympoietic System
-      slug: sympoietic-system
-    - label: Their Names
-      slug: their-names
-    - label: Watching Machines Loving Grace
-      slug: watching-machines-loving-grace
+  - label: Living by Protocol
+    slug: living-by-protocol
+  - label: Post_Networks
+    slug: post-networks
 cover:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609348/Screen_Shot_2022_02_22_at_20_56_20_85eafe0f61.png
-    width: 2282
-    height: 1330
-    ext: .png
-    mime: image/png
-    formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609351/large_Screen_Shot_2022_02_22_at_20_56_20_85eafe0f61.png
-            ext: .png
-            width: 1000
-            height: 583
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609351/medium_Screen_Shot_2022_02_22_at_20_56_20_85eafe0f61.png
-            ext: .png
-            width: 750
-            height: 437
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609352/small_Screen_Shot_2022_02_22_at_20_56_20_85eafe0f61.png
-            ext: .png
-            width: 500
-            height: 291
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609349/thumbnail_Screen_Shot_2022_02_22_at_20_56_20_85eafe0f61.png
-            ext: .png
-            width: 245
-            height: 143
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609348/Screen_Shot_2022_02_22_at_20_56_20_85eafe0f61.png
+  width: 2282
+  height: 1330
+  ext: .png
+  mime: image/png
+  formats:
+    large:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609351/large_Screen_Shot_2022_02_22_at_20_56_20_85eafe0f61.png
+      ext: .png
+      width: 1000
+      height: 583
+    medium:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609351/medium_Screen_Shot_2022_02_22_at_20_56_20_85eafe0f61.png
+      ext: .png
+      width: 750
+      height: 437
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609352/small_Screen_Shot_2022_02_22_at_20_56_20_85eafe0f61.png
+      ext: .png
+      width: 500
+      height: 291
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609349/thumbnail_Screen_Shot_2022_02_22_at_20_56_20_85eafe0f61.png
+      ext: .png
+      width: 245
+      height: 143
 header:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609348/Screen_Shot_2022_02_22_at_20_56_20_85eafe0f61.png
-    width: 2282
-    height: 1330
-    ext: .png
-    mime: image/png
-    formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609351/large_Screen_Shot_2022_02_22_at_20_56_20_85eafe0f61.png
-            ext: .png
-            width: 1000
-            height: 583
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609351/medium_Screen_Shot_2022_02_22_at_20_56_20_85eafe0f61.png
-            ext: .png
-            width: 750
-            height: 437
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609352/small_Screen_Shot_2022_02_22_at_20_56_20_85eafe0f61.png
-            ext: .png
-            width: 500
-            height: 291
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609349/thumbnail_Screen_Shot_2022_02_22_at_20_56_20_85eafe0f61.png
-            ext: .png
-            width: 245
-            height: 143
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609348/Screen_Shot_2022_02_22_at_20_56_20_85eafe0f61.png
+  width: 2282
+  height: 1330
+  ext: .png
+  mime: image/png
+  formats:
+    large:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609351/large_Screen_Shot_2022_02_22_at_20_56_20_85eafe0f61.png
+      ext: .png
+      width: 1000
+      height: 583
+    medium:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609351/medium_Screen_Shot_2022_02_22_at_20_56_20_85eafe0f61.png
+      ext: .png
+      width: 750
+      height: 437
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609352/small_Screen_Shot_2022_02_22_at_20_56_20_85eafe0f61.png
+      ext: .png
+      width: 500
+      height: 291
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609349/thumbnail_Screen_Shot_2022_02_22_at_20_56_20_85eafe0f61.png
+      ext: .png
+      width: 245
+      height: 143
 noHeaderImage: false
 gallery:
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659608846/02_link_connections_6511c75513.gif
-      width: 600
-      height: 335
-      ext: .gif
-      mime: image/gif
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659608847/01_node_repelling_965bb5ff30.gif
-      width: 600
-      height: 335
-      ext: .gif
-      mime: image/gif
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609148/03_random_graph_b9b92a66cb.gif
-      width: 600
-      height: 335
-      ext: .gif
-      mime: image/gif
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609348/Screen_Shot_2022_02_22_at_20_56_20_85eafe0f61.png
-      width: 2282
-      height: 1330
-      ext: .png
-      mime: image/png
-      formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609351/large_Screen_Shot_2022_02_22_at_20_56_20_85eafe0f61.png
-            ext: .png
-            width: 1000
-            height: 583
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609351/medium_Screen_Shot_2022_02_22_at_20_56_20_85eafe0f61.png
-            ext: .png
-            width: 750
-            height: 437
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609352/small_Screen_Shot_2022_02_22_at_20_56_20_85eafe0f61.png
-            ext: .png
-            width: 500
-            height: 291
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609349/thumbnail_Screen_Shot_2022_02_22_at_20_56_20_85eafe0f61.png
-            ext: .png
-            width: 245
-            height: 143
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609353/Screen_Shot_2022_02_22_at_20_57_11_57d7365a89.png
-      width: 2090
-      height: 1062
-      ext: .png
-      mime: image/png
-      formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609354/large_Screen_Shot_2022_02_22_at_20_57_11_57d7365a89.png
-            ext: .png
-            width: 1000
-            height: 508
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609355/medium_Screen_Shot_2022_02_22_at_20_57_11_57d7365a89.png
-            ext: .png
-            width: 750
-            height: 381
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609355/small_Screen_Shot_2022_02_22_at_20_57_11_57d7365a89.png
-            ext: .png
-            width: 500
-            height: 254
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609353/thumbnail_Screen_Shot_2022_02_22_at_20_57_11_57d7365a89.png
-            ext: .png
-            width: 245
-            height: 124
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609415/Screen_Shot_2022_03_18_at_23_47_13_b8007cf4dd.png
-      width: 3360
-      height: 2100
-      ext: .png
-      mime: image/png
-      formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609417/large_Screen_Shot_2022_03_18_at_23_47_13_b8007cf4dd.png
-            ext: .png
-            width: 1000
-            height: 625
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609417/medium_Screen_Shot_2022_03_18_at_23_47_13_b8007cf4dd.png
-            ext: .png
-            width: 750
-            height: 469
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609418/small_Screen_Shot_2022_03_18_at_23_47_13_b8007cf4dd.png
-            ext: .png
-            width: 500
-            height: 312
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609416/thumbnail_Screen_Shot_2022_03_18_at_23_47_13_b8007cf4dd.png
-            ext: .png
-            width: 245
-            height: 153
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609437/Screen_Shot_2022_03_09_at_19_49_41_7b38f1100d.png
-      width: 2218
-      height: 2090
-      ext: .png
-      mime: image/png
-      formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609439/large_Screen_Shot_2022_03_09_at_19_49_41_7b38f1100d.png
-            ext: .png
-            width: 1000
-            height: 942
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609439/medium_Screen_Shot_2022_03_09_at_19_49_41_7b38f1100d.png
-            ext: .png
-            width: 750
-            height: 707
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609440/small_Screen_Shot_2022_03_09_at_19_49_41_7b38f1100d.png
-            ext: .png
-            width: 500
-            height: 471
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609437/thumbnail_Screen_Shot_2022_03_09_at_19_49_41_7b38f1100d.png
-            ext: .png
-            width: 166
-            height: 156
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609488/Screen_Shot_2022_03_18_at_23_24_50_e6c2e16db4.png
-      width: 3360
-      height: 2100
-      ext: .png
-      mime: image/png
-      formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609491/large_Screen_Shot_2022_03_18_at_23_24_50_e6c2e16db4.png
-            ext: .png
-            width: 1000
-            height: 625
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609491/medium_Screen_Shot_2022_03_18_at_23_24_50_e6c2e16db4.png
-            ext: .png
-            width: 750
-            height: 469
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609492/small_Screen_Shot_2022_03_18_at_23_24_50_e6c2e16db4.png
-            ext: .png
-            width: 500
-            height: 312
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609490/thumbnail_Screen_Shot_2022_03_18_at_23_24_50_e6c2e16db4.png
-            ext: .png
-            width: 245
-            height: 153
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609507/Screen_Shot_2022_03_20_at_20_38_32_9ca7129c20.png
-      width: 3360
-      height: 2100
-      ext: .png
-      mime: image/png
-      formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609509/large_Screen_Shot_2022_03_20_at_20_38_32_9ca7129c20.png
-            ext: .png
-            width: 1000
-            height: 625
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609510/medium_Screen_Shot_2022_03_20_at_20_38_32_9ca7129c20.png
-            ext: .png
-            width: 750
-            height: 469
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609510/small_Screen_Shot_2022_03_20_at_20_38_32_9ca7129c20.png
-            ext: .png
-            width: 500
-            height: 312
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609508/thumbnail_Screen_Shot_2022_03_20_at_20_38_32_9ca7129c20.png
-            ext: .png
-            width: 245
-            height: 153
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659612132/post_network_gif_03_25ddd0c2a9.gif
-      width: 1000
-      height: 300
-      ext: .gif
-      mime: image/gif
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659608846/02_link_connections_6511c75513.gif
+    width: 600
+    height: 335
+    ext: .gif
+    mime: image/gif
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659608847/01_node_repelling_965bb5ff30.gif
+    width: 600
+    height: 335
+    ext: .gif
+    mime: image/gif
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609148/03_random_graph_b9b92a66cb.gif
+    width: 600
+    height: 335
+    ext: .gif
+    mime: image/gif
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609348/Screen_Shot_2022_02_22_at_20_56_20_85eafe0f61.png
+    width: 2282
+    height: 1330
+    ext: .png
+    mime: image/png
+    formats:
+      large:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609351/large_Screen_Shot_2022_02_22_at_20_56_20_85eafe0f61.png
+        ext: .png
+        width: 1000
+        height: 583
+      medium:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609351/medium_Screen_Shot_2022_02_22_at_20_56_20_85eafe0f61.png
+        ext: .png
+        width: 750
+        height: 437
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609352/small_Screen_Shot_2022_02_22_at_20_56_20_85eafe0f61.png
+        ext: .png
+        width: 500
+        height: 291
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609349/thumbnail_Screen_Shot_2022_02_22_at_20_56_20_85eafe0f61.png
+        ext: .png
+        width: 245
+        height: 143
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609353/Screen_Shot_2022_02_22_at_20_57_11_57d7365a89.png
+    width: 2090
+    height: 1062
+    ext: .png
+    mime: image/png
+    formats:
+      large:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609354/large_Screen_Shot_2022_02_22_at_20_57_11_57d7365a89.png
+        ext: .png
+        width: 1000
+        height: 508
+      medium:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609355/medium_Screen_Shot_2022_02_22_at_20_57_11_57d7365a89.png
+        ext: .png
+        width: 750
+        height: 381
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609355/small_Screen_Shot_2022_02_22_at_20_57_11_57d7365a89.png
+        ext: .png
+        width: 500
+        height: 254
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609353/thumbnail_Screen_Shot_2022_02_22_at_20_57_11_57d7365a89.png
+        ext: .png
+        width: 245
+        height: 124
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609415/Screen_Shot_2022_03_18_at_23_47_13_b8007cf4dd.png
+    width: 3360
+    height: 2100
+    ext: .png
+    mime: image/png
+    formats:
+      large:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609417/large_Screen_Shot_2022_03_18_at_23_47_13_b8007cf4dd.png
+        ext: .png
+        width: 1000
+        height: 625
+      medium:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609417/medium_Screen_Shot_2022_03_18_at_23_47_13_b8007cf4dd.png
+        ext: .png
+        width: 750
+        height: 469
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609418/small_Screen_Shot_2022_03_18_at_23_47_13_b8007cf4dd.png
+        ext: .png
+        width: 500
+        height: 312
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609416/thumbnail_Screen_Shot_2022_03_18_at_23_47_13_b8007cf4dd.png
+        ext: .png
+        width: 245
+        height: 153
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609437/Screen_Shot_2022_03_09_at_19_49_41_7b38f1100d.png
+    width: 2218
+    height: 2090
+    ext: .png
+    mime: image/png
+    formats:
+      large:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609439/large_Screen_Shot_2022_03_09_at_19_49_41_7b38f1100d.png
+        ext: .png
+        width: 1000
+        height: 942
+      medium:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609439/medium_Screen_Shot_2022_03_09_at_19_49_41_7b38f1100d.png
+        ext: .png
+        width: 750
+        height: 707
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609440/small_Screen_Shot_2022_03_09_at_19_49_41_7b38f1100d.png
+        ext: .png
+        width: 500
+        height: 471
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609437/thumbnail_Screen_Shot_2022_03_09_at_19_49_41_7b38f1100d.png
+        ext: .png
+        width: 166
+        height: 156
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609488/Screen_Shot_2022_03_18_at_23_24_50_e6c2e16db4.png
+    width: 3360
+    height: 2100
+    ext: .png
+    mime: image/png
+    formats:
+      large:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609491/large_Screen_Shot_2022_03_18_at_23_24_50_e6c2e16db4.png
+        ext: .png
+        width: 1000
+        height: 625
+      medium:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609491/medium_Screen_Shot_2022_03_18_at_23_24_50_e6c2e16db4.png
+        ext: .png
+        width: 750
+        height: 469
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609492/small_Screen_Shot_2022_03_18_at_23_24_50_e6c2e16db4.png
+        ext: .png
+        width: 500
+        height: 312
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609490/thumbnail_Screen_Shot_2022_03_18_at_23_24_50_e6c2e16db4.png
+        ext: .png
+        width: 245
+        height: 153
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609507/Screen_Shot_2022_03_20_at_20_38_32_9ca7129c20.png
+    width: 3360
+    height: 2100
+    ext: .png
+    mime: image/png
+    formats:
+      large:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609509/large_Screen_Shot_2022_03_20_at_20_38_32_9ca7129c20.png
+        ext: .png
+        width: 1000
+        height: 625
+      medium:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609510/medium_Screen_Shot_2022_03_20_at_20_38_32_9ca7129c20.png
+        ext: .png
+        width: 750
+        height: 469
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609510/small_Screen_Shot_2022_03_20_at_20_38_32_9ca7129c20.png
+        ext: .png
+        width: 500
+        height: 312
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659609508/thumbnail_Screen_Shot_2022_03_20_at_20_38_32_9ca7129c20.png
+        ext: .png
+        width: 245
+        height: 153
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1659612132/post_network_gif_03_25ddd0c2a9.gif
+    width: 1000
+    height: 300
+    ext: .gif
+    mime: image/gif
 funders:
-    - label: EXC 2020 Temporal Communities
-      url: https://www.temporal-communities.de/
+  - label: EXC 2020 Temporal Communities
+    url: https://www.temporal-communities.de/
 members_twitter:
-    - kimay
+  - kimay
 images:
-    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1659609348/Screen_Shot_2022_02_22_at_20_56_20_85eafe0f61.png
-
+  - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1659609348/Screen_Shot_2022_02_22_at_20_56_20_85eafe0f61.png
+projects/labs:
+  - harvard
+  - berlin
+labs:
+  - label: Harvard
+    slug: harvard
+  - label: Berlin
+    slug: berlin
 ---
 > Networks consist of conglomerates of points connected by lines. Two forces allocate their positions. Points repulse each other; they drift away from one another through time. 
 

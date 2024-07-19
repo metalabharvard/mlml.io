@@ -1,71 +1,95 @@
 {{ define "main" }}
-  <section class="homepage-project grid-full grid" vocab="https://schema.org/" typeof="CreativeWork">
-    <header class="project-header grid-wide">
-      <h1 class="project-name" property="name">{{ .Params.Title }}</h1>
-      {{ with .Params.Subtitle }}<h2 class="project-subtitle">{{ . }}</h2>{{ end }}
-      {{ with .Params.Intro }}<span class="project-intro" itemprop="abstract">{{ . | markdownify }}</span>{{ end }}
-      {{ $label := .Site.Params.Label.ExternalProject }}
-      {{ with .Params.ExternalLink -}}
-      <div class="project-header-bar">
-        <div class="project-link">
-          <a class="btn text-animate" href="{{ . }}" rel="noopener noreferrer external" target="_blank" itemprop="url"><span>{{ $label }}</span></a>
-        </div>
+<section
+  class="homepage-project grid-full grid"
+  vocab="https://schema.org/"
+  typeof="CreativeWork"
+>
+  <header class="project-header grid-wide">
+    <h1 class="project-name" property="name">{{ .Params.Title }}</h1>
+    {{ with .Params.Subtitle }}
+    <h2 class="project-subtitle">{{ . }}</h2>
+    {{ end }} {{ with .Params.Intro }}<span
+      class="project-intro"
+      itemprop="abstract"
+      >{{ . | markdownify }}</span
+    >{{ end }} {{ $label := .Site.Params.Label.ExternalProject }} {{ with
+    .Params.ExternalLink -}}
+    <div class="project-header-bar">
+      <div class="project-link">
+        <a
+          class="btn text-animate"
+          href="{{ . }}"
+          rel="noopener noreferrer external"
+          target="_blank"
+          itemprop="url"
+          ><span>{{ $label }}</span></a
+        >
       </div>
-      {{- end }}
-    </header>
-    <dl class="project-relations grid-wide grid grid-v-default half">
-      {{ $title := .Site.Params.Label.BoxTime }}
-      <div class="box-item">
-        <dt class="title">{{ $title }}</dt>
-        <dd class="text" itemprop="dateCreated">{{ partial "span-timespan.html" (dict "start" .Params.Start "end" .Params.End) }}</dd>
-      </div>
-      {{ $title := .Site.Params.Label.BoxHost }}
-      <div class="box-item">
-        <dt class="title">{{ $title }}</dt>
-        <dd class="text">{{ partial "span-host-link.html" (dict "host" .Params.host "type" "project" "default" .Site.Params.Label.HostsDefault "slug" .Site.Params.SlugHost "both" .Site.Params.Label.HostsBoth) }}</dd>
-      </div>
-      {{ $title = .Site.Params.Label.BoxLocation }}
-      {{ with .Params.location }}
-      <div class="box-item">
-        <dt class="title">{{ $title }}</dt>
-        <dd class="text project-location" itemprop="locationCreated">{{ . }}</dd>
-      </div>
-      {{ end }}
-      {{ $events := .Params.Events }}
-      {{ $members := .Params.Members }}
-      {{ $projects := .Params.Projects }}
-      {{ $collaborators := .Params.Collaborators }}
-      {{ $funders := .Params.Funders }}
-      {{ $types := .Params.Categories }}
-      {{ partial "related-types.html" (dict "items" $types "label" .Site.Params.Label.BoxType) }}
-      {{ partial "related-items.html" (dict "items" $members "term" .Site.Params.Label.RelatedMembers "label" .Site.Params.Label.RelatedLabelMembers "class" "member" "root" "project" "path" "m") }}
-      {{ partial "related-collaborators.html" (dict "items" $collaborators "label" .Site.Params.Label.boxCollaborator "class" "collaborator") }}
-      {{ partial "related-collaborators.html" (dict "items" $funders "label" .Site.Params.Label.boxFunder "class" "funders") }}
-      {{ partial "related-items.html" (dict "items" $projects "term" .Site.Params.Label.RelatedProjects "label" .Site.Params.Label.RelatedLabelProjects "class" "project" "path" "p") }}
-      {{ partial "related-items.html" (dict "items" $events "term" .Site.Params.Label.RelatedEvents "label" .Site.Params.Label.RelatedLabelEvents "class" "event" "path" "e") }}
-      {{ partial "related-list.html" (dict "items" .Params.Links "label" .Site.Params.Label.relatedLabelLinks "class" "links") }}
-      {{ partial "related-list.html" (dict "items" .Params.Press_articles "label" .Site.Params.Label.relatedLabelPressArticles "class" "articles") }}
-    </dl>
-    {{ $defaultLabel := string (printf .Site.Params.Label.AriaGeneralPicture .Params.Title) }}
-    {{ if not .Params.noHeaderImage }}
-    {{ with .Params.Header -}}
-    <div class="project-header grid-wide">
-      {{- partial "image.html" (dict "picture" . "alt" $defaultLabel "title" $defaultLabel "class" "project-header-image" "format" "wide") -}}
     </div>
-    {{ end }}
-    {{ end }}
-    <aside class="project-share grid-narrow-right-aside">
-      {{ partial "share-twitter.html" (dict "url" .Permalink "text" .Params.Fulltitle "via" .Site.Social.twitter) }}
-      {{ partial "share-facebook.html" (dict "url" .Permalink "text" .Params.Fulltitle) }}
-    </aside>
-    {{ with .Content }}
-    <div class="project-description grid-narrow-right content">
-      {{ . }}
+    {{- end }}
+  </header>
+  <dl class="project-relations grid-wide grid grid-v-default half">
+    {{ $title := .Site.Params.Label.BoxTime }}
+    <div class="box-item">
+      <dt class="title">{{ $title }}</dt>
+      <dd class="text" itemprop="dateCreated">
+        {{ partial "span-timespan.html" (dict "start" .Params.Start "end"
+        .Params.End) }}
+      </dd>
     </div>
-    {{ end }}
-    {{ partial "gallery.html" (dict "gallery" .Params.gallery "defaultLabel" .Site.Params.Label.AriaGeneralPicture "class" "project" "title" .Params.Title) }}
-    <footer class="project-footer grid-narrow-right" role="contentinfo">
-      {{ partial "span-published.html" (dict "PublishDate" .PublishDate "Lastmod" .Lastmod "PublishText" .Site.Params.Label.pagePublishedText "EditText" .Site.Params.Label.pageEditedText "DateFormat" .Site.Params.Label.pagePublishedFormat) }}
-    </footer>
-  </section>
+    {{ $title = .Site.Params.Label.BoxLocation }} {{ with .Params.location }}
+    <div class="box-item">
+      <dt class="title">{{ $title }}</dt>
+      <dd class="text project-location" itemprop="locationCreated">{{ . }}</dd>
+    </div>
+    {{ end }} {{ $labs := .Params.Labs }} {{ $events := .Params.Events }} {{
+    $members := .Params.Members }} {{ $projects := .Params.Projects }} {{
+    $collaborators := .Params.Collaborators }} {{ $funders := .Params.Funders }}
+    {{ $types := .Params.Categories }} {{ partial "related-types.html" (dict
+    "items" $types "label" .Site.Params.Label.BoxType) }} {{ partial
+    "related-items.html" (dict "items" $members "term"
+    .Site.Params.Label.RelatedMembers "label"
+    .Site.Params.Label.RelatedLabelMembers "class" "member" "root" "project"
+    "path" "m") }} {{ partial "related-collaborators.html" (dict "items"
+    $collaborators "label" .Site.Params.Label.boxCollaborator "class"
+    "collaborator") }} {{ partial "related-collaborators.html" (dict "items"
+    $funders "label" .Site.Params.Label.boxFunder "class" "funders") }} {{
+    partial "related-items.html" (dict "items" $projects "term"
+    .Site.Params.Label.RelatedProjects "label"
+    .Site.Params.Label.RelatedLabelProjects "class" "project" "path" "p") }} {{
+    partial "related-items.html" (dict "items" $events "term"
+    .Site.Params.Label.RelatedEvents "label"
+    .Site.Params.Label.RelatedLabelEvents "class" "event" "path" "e") }} {{
+    partial "related-list.html" (dict "items" .Params.Links "label"
+    .Site.Params.Label.relatedLabelLinks "class" "links") }} {{ partial
+    "related-list.html" (dict "items" .Params.Press_articles "label"
+    .Site.Params.Label.relatedLabelPressArticles "class" "articles") }} {{
+    partial "related-items.html" (dict "items" $labs "term" "" "label" "Labs"
+    "class" "lab" "root" "event" "path" "p") }}
+  </dl>
+  {{ $defaultLabel := string (printf .Site.Params.Label.AriaGeneralPicture
+  .Params.Title) }} {{ if not .Params.noHeaderImage }} {{ with .Params.Header
+  -}}
+  <div class="project-header grid-wide">
+    {{- partial "image.html" (dict "picture" . "alt" $defaultLabel "title"
+    $defaultLabel "class" "project-header-image" "format" "wide") -}}
+  </div>
+  {{ end }} {{ end }}
+  <aside class="project-share grid-narrow-right-aside">
+    {{ partial "share-twitter.html" (dict "url" .Permalink "text"
+    .Params.Fulltitle "via" .Site.Social.twitter) }} {{ partial
+    "share-facebook.html" (dict "url" .Permalink "text" .Params.Fulltitle) }}
+  </aside>
+  {{ with .Content }}
+  <div class="project-description grid-narrow-right content">{{ . }}</div>
+  {{ end }} {{ partial "gallery.html" (dict "gallery" .Params.gallery
+  "defaultLabel" .Site.Params.Label.AriaGeneralPicture "class" "project" "title"
+  .Params.Title) }}
+  <footer class="project-footer grid-narrow-right" role="contentinfo">
+    {{ partial "span-published.html" (dict "PublishDate" .PublishDate "Lastmod"
+    .Lastmod "PublishText" .Site.Params.Label.pagePublishedText "EditText"
+    .Site.Params.Label.pageEditedText "DateFormat"
+    .Site.Params.Label.pagePublishedFormat) }}
+  </footer>
+</section>
 {{ end }}

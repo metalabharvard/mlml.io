@@ -2,45 +2,50 @@
 name: Alexander Reben
 title: Alexander Reben
 roles:
-    - role: Affiliate
-      position: 8
+  - role: Affiliate
+    position: 8
 isAlumnus: true
 isFounder: false
+rank: 99
 role_string: Alumnus
 twitter: artBoffin
 website: http://areben.com/
 instagram: artBoffin
-lastmod: "2022-11-29T17:34:19.405Z"
-date: "2021-09-16T10:51:44.469Z"
+lastmod: '2024-05-24T10:56:35.931Z'
+date: '2021-09-16T12:51:44.469Z'
 slug: alexander-reben
 picture:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/c_limit,w_2000,h_2000/e_grayscale/v1629122111/alexander_5d5278090b.jpg
-    width: 720
-    height: 1080
-    ext: .jpg
-    mime: image/jpeg
-    formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122112/large_alexander_5d5278090b.jpg
-            ext: .jpg
-            width: 667
-            height: 1000
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122113/medium_alexander_5d5278090b.jpg
-            ext: .jpg
-            width: 500
-            height: 750
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122113/small_alexander_5d5278090b.jpg
-            ext: .jpg
-            width: 333
-            height: 500
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122112/thumbnail_alexander_5d5278090b.jpg
-            ext: .jpg
-            width: 104
-            height: 156
-
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/c_limit,w_2000,h_2000/e_grayscale/v1629122111/alexander_5d5278090b.jpg
+  width: 720
+  height: 1080
+  ext: .jpg
+  mime: image/jpeg
+  formats:
+    large:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122112/large_alexander_5d5278090b.jpg
+      ext: .jpg
+      width: 667
+      height: 1000
+    medium:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122113/medium_alexander_5d5278090b.jpg
+      ext: .jpg
+      width: 500
+      height: 750
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122113/small_alexander_5d5278090b.jpg
+      ext: .jpg
+      width: 333
+      height: 500
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122112/thumbnail_alexander_5d5278090b.jpg
+      ext: .jpg
+      width: 104
+      height: 156
+members/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 Alexander Reben’s work probes the inherently human nature of the artificial. Using tools such as artificial philosophy, synthetic psychology, perceptual manipulation and technological magic, he brings to light our inseparable evolutionary entanglement to invention which has unarguably shaped our way of being. This is done to not only help understand who we are, but to consider who we will become in our continued codevelopment with our artificial creations.
 

@@ -1,359 +1,362 @@
 ---
 title: B4 Tomorrow
-subtitle: ""
+subtitle: ''
 fulltitle: B4 Tomorrow
 intro: B4 Tomorrow is a collaborative multi-phase practice-based research project on the material culture of the Eyak and Sugpiaq peoples of the Chugach Region of Alaska.
-start: "2021-04-01"
-end: "2023-09-30"
+start: '2021-04-01'
+end: '2023-09-30'
 datestring: April 2021&ensp;–&ensp;September 2023
-description: B4 Tomorrow is a collaborative multi-phase practice-based research project on the material culture of the Eyak and Sugpiaq peoples of the Chugach Reg…
+description: B4 Tomorrow is a collaborative multi-phase practice-based research project on the material culture of the Eyak and Sugpiaq peoples of the Chugach Region of…
 keyword: Exhibition,Web Platform,Application
 tags:
-    - Exhibition
-    - Web Platform
-    - Application
+  - Exhibition
+  - Web Platform
+  - Application
 location: Berlin, Germany
-host: berlin
 mediation: mixed_media
 isFeatured: true
-externalLink: ""
-lastmod: "2023-02-02T11:00:00.960Z"
-date: "2023-09-30"
+externalLink: ''
+lastmod: '2024-05-20T02:01:50.043Z'
+date: '2023-09-30'
 slug: b4-tomorrow
 categories:
-    - Application
-    - Web Platform
-    - Exhibition
+  - Application
+  - Web Platform
+  - Exhibition
 collaborators:
-    - label: Chugachmiut
-      url: https://www.chugachmiut.org/
-    - label: Ethnologisches Museum Berlin
-      url: https://www.smb.museum/museen-einrichtungen/ethnologisches-museum/home/
+  - label: Chugachmiut
+    url: https://www.chugachmiut.org/
+  - label: Ethnologisches Museum Berlin
+    url: https://www.smb.museum/museen-einrichtungen/ethnologisches-museum/home/
 events:
-    - label: Tradition and Technology
-      slug: tradition-and-technology
+  - label: Tradition and Technology
+    slug: tradition-and-technology
 members:
-    - label: Annette Jael Lehmann
-      slug: annette-jael-lehmann
-    - label: Charlotte Hannah Peters
-      slug: charlotte-hannah-peters
-    - label: Kim Albrecht
-      slug: kim-albrecht
-      twitter: kimay
-    - label: Lindsey Drury
-      slug: lindsey-drury
-      twitter: msdrury
-    - label: Olivia Al-Slaiman
-      slug: olivia-al-slaiman
+  - label: Annette Jael Lehmann
+    slug: annette-jael-lehmann
+  - label: Charlotte Hannah Peters
+    slug: charlotte-hannah-peters
+  - label: Kim Albrecht
+    slug: kim-albrecht
+    twitter: kimay
+  - label: Lindsey Drury
+    slug: lindsey-drury
+    twitter: msdrury
+  - label: Olivia Al-Slaiman
+    slug: olivia-al-slaiman
 cover:
-    caption: Photogrammetry capture of the Berlin archive keeping the Chugach Objects.
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675334853/B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_6_bf9a41e76a.png
-    width: 1600
-    height: 1066
-    ext: .png
-    mime: image/png
-    formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675334857/large_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_6_bf9a41e76a.png
-            ext: .png
-            width: 1000
-            height: 666
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675334857/medium_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_6_bf9a41e76a.png
-            ext: .png
-            width: 750
-            height: 500
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675334858/small_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_6_bf9a41e76a.png
-            ext: .png
-            width: 500
-            height: 333
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675334854/thumbnail_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_6_bf9a41e76a.png
-            ext: .png
-            width: 234
-            height: 156
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675334853/B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_6_bf9a41e76a.png
+  width: 1600
+  height: 1066
+  ext: .png
+  mime: image/png
+  caption: Photogrammetry capture of the Berlin archive keeping the Chugach Objects.
+  formats:
+    large:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675334857/large_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_6_bf9a41e76a.png
+      ext: .png
+      width: 1000
+      height: 666
+    medium:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675334857/medium_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_6_bf9a41e76a.png
+      ext: .png
+      width: 750
+      height: 500
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675334858/small_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_6_bf9a41e76a.png
+      ext: .png
+      width: 500
+      height: 333
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675334854/thumbnail_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_6_bf9a41e76a.png
+      ext: .png
+      width: 234
+      height: 156
 header:
-    caption: Photogrammetry capture of the Berlin archive keeping the Chugach Objects.
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675334853/B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_6_bf9a41e76a.png
-    width: 1600
-    height: 1066
-    ext: .png
-    mime: image/png
-    formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675334857/large_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_6_bf9a41e76a.png
-            ext: .png
-            width: 1000
-            height: 666
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675334857/medium_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_6_bf9a41e76a.png
-            ext: .png
-            width: 750
-            height: 500
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675334858/small_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_6_bf9a41e76a.png
-            ext: .png
-            width: 500
-            height: 333
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675334854/thumbnail_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_6_bf9a41e76a.png
-            ext: .png
-            width: 234
-            height: 156
-noHeaderImage: false
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675334853/B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_6_bf9a41e76a.png
+  width: 1600
+  height: 1066
+  ext: .png
+  mime: image/png
+  caption: Photogrammetry capture of the Berlin archive keeping the Chugach Objects.
+  formats:
+    large:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675334857/large_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_6_bf9a41e76a.png
+      ext: .png
+      width: 1000
+      height: 666
+    medium:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675334857/medium_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_6_bf9a41e76a.png
+      ext: .png
+      width: 750
+      height: 500
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675334858/small_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_6_bf9a41e76a.png
+      ext: .png
+      width: 500
+      height: 333
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675334854/thumbnail_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_6_bf9a41e76a.png
+      ext: .png
+      width: 234
+      height: 156
 feature:
-    caption: Photogrammetry capture of the Berlin archive keeping the Chugach Objects.
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1675334853/B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_6_bf9a41e76a.png
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1675334853/B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_6_bf9a41e76a.png
+  width: 1600
+  height: 1066
+  ext: .png
+  mime: image/png
+  caption: Photogrammetry capture of the Berlin archive keeping the Chugach Objects.
+  formats:
+    large:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1675334857/large_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_6_bf9a41e76a.png
+      ext: .png
+      width: 1000
+      height: 666
+    medium:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1675334857/medium_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_6_bf9a41e76a.png
+      ext: .png
+      width: 750
+      height: 500
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1675334858/small_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_6_bf9a41e76a.png
+      ext: .png
+      width: 500
+      height: 333
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1675334854/thumbnail_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_6_bf9a41e76a.png
+      ext: .png
+      width: 234
+      height: 156
+noHeaderImage: false
+gallery:
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1666967623/B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_8_1a6431f673.png
+    width: 1600
+    height: 1066
+    ext: .png
+    mime: image/png
+    caption: Transformation of the archive into a 3D mesh.
+    formats:
+      large:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1666967625/large_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_8_1a6431f673.png
+        ext: .png
+        width: 1000
+        height: 666
+      medium:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1666967625/medium_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_8_1a6431f673.png
+        ext: .png
+        width: 750
+        height: 500
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1666967627/small_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_8_1a6431f673.png
+        ext: .png
+        width: 500
+        height: 333
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1666967624/thumbnail_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_8_1a6431f673.png
+        ext: .png
+        width: 234
+        height: 156
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675334954/B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_5_45f1374fc9.png
+    width: 1600
+    height: 1066
+    ext: .png
+    mime: image/png
+    caption: Photogrammetry capture by Kim Albrecht
+    formats:
+      large:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675334956/large_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_5_45f1374fc9.png
+        ext: .png
+        width: 1000
+        height: 666
+      medium:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675334957/medium_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_5_45f1374fc9.png
+        ext: .png
+        width: 750
+        height: 500
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675334957/small_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_5_45f1374fc9.png
+        ext: .png
+        width: 500
+        height: 333
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675334955/thumbnail_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_5_45f1374fc9.png
+        ext: .png
+        width: 234
+        height: 156
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675335091/B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_4_fc9401a5e2.png
+    width: 1600
+    height: 1066
+    ext: .png
+    mime: image/png
+    caption: The digital capturing is similarly fragmented to the archive itself.
+    formats:
+      large:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675335096/large_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_4_fc9401a5e2.png
+        ext: .png
+        width: 1000
+        height: 666
+      medium:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675335096/medium_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_4_fc9401a5e2.png
+        ext: .png
+        width: 750
+        height: 500
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675335097/small_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_4_fc9401a5e2.png
+        ext: .png
+        width: 500
+        height: 333
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675335093/thumbnail_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_4_fc9401a5e2.png
+        ext: .png
+        width: 234
+        height: 156
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1666967616/B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_3_e24d611fad.png
+    width: 1199
+    height: 800
+    ext: .png
+    mime: image/png
+    formats:
+      large:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1666967617/large_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_3_e24d611fad.png
+        ext: .png
+        width: 1000
+        height: 667
+      medium:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1666967618/medium_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_3_e24d611fad.png
+        ext: .png
+        width: 750
+        height: 500
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1666967618/small_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_3_e24d611fad.png
+        ext: .png
+        width: 500
+        height: 334
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1666967617/thumbnail_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_3_e24d611fad.png
+        ext: .png
+        width: 234
+        height: 156
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1666967618/B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_7_a9996686f7.png
     width: 1600
     height: 1066
     ext: .png
     mime: image/png
     formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1675334857/large_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_6_bf9a41e76a.png
-            ext: .png
-            width: 1000
-            height: 666
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1675334857/medium_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_6_bf9a41e76a.png
-            ext: .png
-            width: 750
-            height: 500
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1675334858/small_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_6_bf9a41e76a.png
-            ext: .png
-            width: 500
-            height: 333
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1675334854/thumbnail_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_6_bf9a41e76a.png
-            ext: .png
-            width: 234
-            height: 156
-gallery:
-    - caption: Transformation of the archive into a 3D mesh.
-      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1666967623/B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_8_1a6431f673.png
-      width: 1600
-      height: 1066
-      ext: .png
-      mime: image/png
-      formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1666967625/large_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_8_1a6431f673.png
-            ext: .png
-            width: 1000
-            height: 666
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1666967625/medium_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_8_1a6431f673.png
-            ext: .png
-            width: 750
-            height: 500
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1666967627/small_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_8_1a6431f673.png
-            ext: .png
-            width: 500
-            height: 333
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1666967624/thumbnail_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_8_1a6431f673.png
-            ext: .png
-            width: 234
-            height: 156
-    - caption: Photogrammetry capture by Kim Albrecht
-      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675334954/B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_5_45f1374fc9.png
-      width: 1600
-      height: 1066
-      ext: .png
-      mime: image/png
-      formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675334956/large_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_5_45f1374fc9.png
-            ext: .png
-            width: 1000
-            height: 666
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675334957/medium_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_5_45f1374fc9.png
-            ext: .png
-            width: 750
-            height: 500
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675334957/small_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_5_45f1374fc9.png
-            ext: .png
-            width: 500
-            height: 333
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675334955/thumbnail_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_5_45f1374fc9.png
-            ext: .png
-            width: 234
-            height: 156
-    - caption: The digital capturing is similarly fragmented to the archive itself.
-      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675335091/B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_4_fc9401a5e2.png
-      width: 1600
-      height: 1066
-      ext: .png
-      mime: image/png
-      formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675335096/large_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_4_fc9401a5e2.png
-            ext: .png
-            width: 1000
-            height: 666
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675335096/medium_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_4_fc9401a5e2.png
-            ext: .png
-            width: 750
-            height: 500
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675335097/small_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_4_fc9401a5e2.png
-            ext: .png
-            width: 500
-            height: 333
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675335093/thumbnail_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_4_fc9401a5e2.png
-            ext: .png
-            width: 234
-            height: 156
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1666967616/B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_3_e24d611fad.png
-      width: 1199
-      height: 800
-      ext: .png
-      mime: image/png
-      formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1666967617/large_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_3_e24d611fad.png
-            ext: .png
-            width: 1000
-            height: 667
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1666967618/medium_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_3_e24d611fad.png
-            ext: .png
-            width: 750
-            height: 500
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1666967618/small_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_3_e24d611fad.png
-            ext: .png
-            width: 500
-            height: 334
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1666967617/thumbnail_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_3_e24d611fad.png
-            ext: .png
-            width: 234
-            height: 156
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1666967618/B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_7_a9996686f7.png
-      width: 1600
-      height: 1066
-      ext: .png
-      mime: image/png
-      formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1666967619/large_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_7_a9996686f7.png
-            ext: .png
-            width: 1000
-            height: 666
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1666967620/medium_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_7_a9996686f7.png
-            ext: .png
-            width: 750
-            height: 500
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1666967621/small_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_7_a9996686f7.png
-            ext: .png
-            width: 500
-            height: 333
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1666967619/thumbnail_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_7_a9996686f7.png
-            ext: .png
-            width: 234
-            height: 156
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1666967619/B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_1_c52dd76bae.png
-      width: 1199
-      height: 800
-      ext: .png
-      mime: image/png
-      formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1666967621/large_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_1_c52dd76bae.png
-            ext: .png
-            width: 1000
-            height: 667
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1666967622/medium_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_1_c52dd76bae.png
-            ext: .png
-            width: 750
-            height: 500
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1666967623/small_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_1_c52dd76bae.png
-            ext: .png
-            width: 500
-            height: 334
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1666967620/thumbnail_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_1_c52dd76bae.png
-            ext: .png
-            width: 234
-            height: 156
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1666967620/B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_2_122f2327f4.png
-      width: 1199
-      height: 800
-      ext: .png
-      mime: image/png
-      formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1666967622/large_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_2_122f2327f4.png
-            ext: .png
-            width: 1000
-            height: 667
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1666967623/medium_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_2_122f2327f4.png
-            ext: .png
-            width: 750
-            height: 500
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1666967623/small_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_2_122f2327f4.png
-            ext: .png
-            width: 500
-            height: 334
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1666967621/thumbnail_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_2_122f2327f4.png
-            ext: .png
-            width: 234
-            height: 156
-    - caption: Photogrammetry capture of the Berlin archive keeping the Chugach Objects.
-      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675334853/B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_6_bf9a41e76a.png
-      width: 1600
-      height: 1066
-      ext: .png
-      mime: image/png
-      formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675334857/large_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_6_bf9a41e76a.png
-            ext: .png
-            width: 1000
-            height: 666
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675334857/medium_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_6_bf9a41e76a.png
-            ext: .png
-            width: 750
-            height: 500
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675334858/small_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_6_bf9a41e76a.png
-            ext: .png
-            width: 500
-            height: 333
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675334854/thumbnail_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_6_bf9a41e76a.png
-            ext: .png
-            width: 234
-            height: 156
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1666968400/karteikarten_eea7aa49ac.gif
-      width: 244
-      height: 184
-      ext: .gif
-      mime: image/gif
+      large:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1666967619/large_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_7_a9996686f7.png
+        ext: .png
+        width: 1000
+        height: 666
+      medium:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1666967620/medium_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_7_a9996686f7.png
+        ext: .png
+        width: 750
+        height: 500
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1666967621/small_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_7_a9996686f7.png
+        ext: .png
+        width: 500
+        height: 333
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1666967619/thumbnail_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_7_a9996686f7.png
+        ext: .png
+        width: 234
+        height: 156
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1666967619/B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_1_c52dd76bae.png
+    width: 1199
+    height: 800
+    ext: .png
+    mime: image/png
+    formats:
+      large:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1666967621/large_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_1_c52dd76bae.png
+        ext: .png
+        width: 1000
+        height: 667
+      medium:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1666967622/medium_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_1_c52dd76bae.png
+        ext: .png
+        width: 750
+        height: 500
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1666967623/small_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_1_c52dd76bae.png
+        ext: .png
+        width: 500
+        height: 334
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1666967620/thumbnail_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_1_c52dd76bae.png
+        ext: .png
+        width: 234
+        height: 156
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1666967620/B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_2_122f2327f4.png
+    width: 1199
+    height: 800
+    ext: .png
+    mime: image/png
+    formats:
+      large:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1666967622/large_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_2_122f2327f4.png
+        ext: .png
+        width: 1000
+        height: 667
+      medium:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1666967623/medium_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_2_122f2327f4.png
+        ext: .png
+        width: 750
+        height: 500
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1666967623/small_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_2_122f2327f4.png
+        ext: .png
+        width: 500
+        height: 334
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1666967621/thumbnail_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_2_122f2327f4.png
+        ext: .png
+        width: 234
+        height: 156
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675334853/B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_6_bf9a41e76a.png
+    width: 1600
+    height: 1066
+    ext: .png
+    mime: image/png
+    caption: Photogrammetry capture of the Berlin archive keeping the Chugach Objects.
+    formats:
+      large:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675334857/large_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_6_bf9a41e76a.png
+        ext: .png
+        width: 1000
+        height: 666
+      medium:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675334857/medium_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_6_bf9a41e76a.png
+        ext: .png
+        width: 750
+        height: 500
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675334858/small_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_6_bf9a41e76a.png
+        ext: .png
+        width: 500
+        height: 333
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1675334854/thumbnail_B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_6_bf9a41e76a.png
+        ext: .png
+        width: 234
+        height: 156
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1666968400/karteikarten_eea7aa49ac.gif
+    width: 244
+    height: 184
+    ext: .gif
+    mime: image/gif
 members_twitter:
-    - kimay
-    - msdrury
+  - kimay
+  - msdrury
 images:
-    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1675334853/B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_6_bf9a41e76a.png
-
+  - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1675334853/B4_Tomorrow_Chugach_Visualization_Interface_Kim_Albrecht_6_bf9a41e76a.png
+projects/labs:
+  - berlin
+labs:
+  - label: Berlin
+    slug: berlin
 ---
 ![karteikarten.gif](https://res.cloudinary.com/dfffh0gkl/image/upload/v1666968400/karteikarten_eea7aa49ac.gif)
 

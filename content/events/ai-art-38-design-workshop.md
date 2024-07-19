@@ -1,42 +1,46 @@
 ---
 title: AI Art & Design Workshop
-subtitle: ""
+subtitle: ''
 fulltitle: AI Art & Design Workshop
-status: ""
+status: ''
 outputs:
-    - HTML
-    - Calendar
+  - HTML
+  - Calendar
 timezone: Boston
 timezoneAbbr:
-    berlin: CEST
-    boston: EDT
-start_time: "2017-07-08T16:00:00-04:00"
-end_time: "2017-07-08T17:00:00-04:00"
+  berlin: CEST
+  boston: EDT
+start_time: '2017-07-08T16:00:00-04:00'
+end_time: '2017-07-08T17:00:00-04:00'
 start_time_utc: 20170708T200000Z
 end_time_utc: 20170708T210000Z
 start_time_locations:
-    berlin: "2017-07-08T22:00:00+02:00"
-    boston: "2017-07-08T16:00:00-04:00"
+  berlin: '2017-07-08T22:00:00+02:00'
+  boston: '2017-07-08T16:00:00-04:00'
 end_time_locations:
-    berlin: "2017-07-08T23:00:00+02:00"
-    boston: "2017-07-08T17:00:00-04:00"
+  berlin: '2017-07-08T23:00:00+02:00'
+  boston: '2017-07-08T17:00:00-04:00'
 tzid: America/New_York
 location: Cambridge, MA
 isFeatured: false
 isOngoing: false
-lastmod: "2022-02-09T16:13:54.522Z"
-date: "2017-07-08T16:00:00-04:00"
+lastmod: '2024-05-24T11:01:34.340Z'
+date: '2017-07-08T16:00:00-04:00'
 slug: ai-art-38-design-workshop
 members:
-    - label: Olivia Tai
-      slug: olivia-tai
-    - label: Sarah Newman
-      slug: sarah-newman
-      twitter: sarahwnewman
+  - label: Olivia Tai
+    slug: olivia-tai
+  - label: Sarah Newman
+    slug: sarah-newman
+    twitter: sarahwnewman
 noHeaderImage: false
 members_twitter:
-    - sarahwnewman
-
+  - sarahwnewman
+events/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 **AI Art & Design Workshop with metaLAB**
 <p>An experimental, creative, design workshop to think through both small big questions that come up arise with AI and explore them through art-making, design, and expressive provocation. </p>

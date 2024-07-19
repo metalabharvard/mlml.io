@@ -4,8 +4,8 @@
     <a href="{{ "about" | absURL }}" class="btn text-animate"><span>{{ .Site.Params.HomeLink }}</span></a>
   </div>
   <div class="grid-full home-features">
-    <ul>
-    {{ range first .Site.Params.maxNumberFeaturedProjects (((where (where .Site.RegularPages "Section" "in" (slice "projects")) "Params.isfeatured" true).ByParam "date")).Reverse }}
+    <ul id="home-features-list" style="opacity: 0; transition: opacity 0.3s ease;" data-count="{{.Site.Params.maxNumberFeaturedProjects}}">
+    {{ range first 10 (((where (where .Site.RegularPages "Section" "in" (slice "projects")) "Params.isfeatured" true).ByParam "date")).Reverse }}
       {{ partial "project-feature.html" (dict "project" . "type" "project" "imageLabelTemplate" .Site.Params.Label.AriaGeneralPicture)}}
     {{ end }}
     </ul>

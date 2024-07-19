@@ -2,43 +2,48 @@
 name: Philipp Schmitt
 title: Philipp Schmitt
 roles:
-    - role: Affiliate
-      position: 8
+  - role: Affiliate
+    position: 8
 isAlumnus: true
 isFounder: false
+rank: 99
 role_string: Alumnus
 twitter: philippschmitt
 website: http://philippschmitt.com/
 instagram: phlpschmt
-lastmod: "2022-08-30T17:47:57.998Z"
-date: "2021-09-16T10:51:45.508Z"
+lastmod: '2024-05-24T10:56:36.571Z'
+date: '2021-09-16T12:51:45.508Z'
 slug: philipp-schmitt
 events:
-    - label: Curatorial A(i)gents at Ars Electronica 2020
-      slug: curatorial-a-i-gents-at-ars-electronica-2020
+  - label: Curatorial A(i)gents at Ars Electronica 2020
+    slug: curatorial-a-i-gents-at-ars-electronica-2020
 projects:
-    - label: Curatorial A(i)gents
-      slug: curatorial-aigents
-    - label: Sympoietic System
-      slug: sympoietic-system
+  - label: Curatorial A(i)gents
+    slug: curatorial-aigents
+  - label: Sympoietic System
+    slug: sympoietic-system
 picture:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/c_limit,w_2000,h_2000/e_grayscale/v1629122123/philipp_b9bb3f6b65.jpg
-    width: 460
-    height: 598
-    ext: .jpg
-    mime: image/jpeg
-    formats:
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122125/small_philipp_b9bb3f6b65.jpg
-            ext: .jpg
-            width: 385
-            height: 500
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122124/thumbnail_philipp_b9bb3f6b65.jpg
-            ext: .jpg
-            width: 120
-            height: 156
-
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/c_limit,w_2000,h_2000/e_grayscale/v1629122123/philipp_b9bb3f6b65.jpg
+  width: 460
+  height: 598
+  ext: .jpg
+  mime: image/jpeg
+  formats:
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122125/small_philipp_b9bb3f6b65.jpg
+      ext: .jpg
+      width: 385
+      height: 500
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1629122124/thumbnail_philipp_b9bb3f6b65.jpg
+      ext: .jpg
+      width: 120
+      height: 156
+members/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 Philipp Schmitt (b. 1993, Germany) is an artist, designer, and researcher based in Brooklyn, NY, USA.
 

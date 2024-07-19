@@ -3,97 +3,100 @@ title: Networks + Natures
 subtitle: Feral Trees
 fulltitle: 'Networks + Natures: Feral Trees'
 intro: How can we expose our perceptions of nature, landscape, and the city as not natural but constructed? What perspectives on the contested biopolitics of the city are offered by invasive species and urban wilds?
-start: "2016-01-01"
-end: "2016-01-01"
+start: '2016-01-01'
+end: '2016-01-01'
 datestring: January 2016
-description: How can we expose our perceptions of nature, landscape, and the city as not natural but constructed? What perspectives on the contested biopolitics o…
-location: ""
-host: harvard
+description: How can we expose our perceptions of nature, landscape, and the city as not natural but constructed? What perspectives on the contested biopolitics of the city…
+location: ''
 mediation: mixed_media
 isFeatured: false
-externalLink: ""
-lastmod: "2022-03-03T11:41:14.595Z"
-date: "2016-01-01"
+externalLink: ''
+lastmod: '2024-05-20T02:01:50.566Z'
+date: '2016-01-01'
 slug: networks-natures
 links:
-    - label: Feral Trees (video
-      url: https://vimeo.com/130915730
-    - label: Tree (M. Battles, Bloomsbury 2017)
-      url: https://www.bloomsbury.com/us/tree-9781628920536/
-    - label: The Life and Death of Data (Y. Loukissas, 2014)
-      url: https://lifeanddeathofdata.org/
+  - label: Feral Trees (video
+    url: https://vimeo.com/130915730
+  - label: Tree (M. Battles, Bloomsbury 2017)
+    url: https://www.bloomsbury.com/us/tree-9781628920536/
+  - label: The Life and Death of Data (Y. Loukissas, 2014)
+    url: https://lifeanddeathofdata.org/
 members:
-    - label: Cristoforo Magliozzi
-      slug: cristoforo-magliozzi
-    - label: Keith Hartwig
-      slug: keith-hartwig
-    - label: Kyle Parry
-      slug: kyle-parry
-    - label: Sarah Newman
-      slug: sarah-newman
-      twitter: sarahwnewman
-    - label: Yanni Loukissas
-      slug: yanni-loukissas
+  - label: Cristoforo Magliozzi
+    slug: cristoforo-magliozzi
+  - label: Keith Hartwig
+    slug: keith-hartwig
+  - label: Kyle Parry
+    slug: kyle-parry
+  - label: Sarah Newman
+    slug: sarah-newman
+    twitter: sarahwnewman
+  - label: Yanni Loukissas
+    slug: yanni-loukissas
 cover:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635188502/img0_28d1a9b527.jpg
-    width: 1920
-    height: 1080
-    ext: .jpg
-    mime: image/jpeg
-    formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635188503/large_img0_28d1a9b527.jpg
-            ext: .jpg
-            width: 1000
-            height: 563
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635188503/medium_img0_28d1a9b527.jpg
-            ext: .jpg
-            width: 750
-            height: 422
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635188503/small_img0_28d1a9b527.jpg
-            ext: .jpg
-            width: 500
-            height: 281
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635188502/thumbnail_img0_28d1a9b527.jpg
-            ext: .jpg
-            width: 245
-            height: 138
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635188502/img0_28d1a9b527.jpg
+  width: 1920
+  height: 1080
+  ext: .jpg
+  mime: image/jpeg
+  formats:
+    large:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635188503/large_img0_28d1a9b527.jpg
+      ext: .jpg
+      width: 1000
+      height: 563
+    medium:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635188503/medium_img0_28d1a9b527.jpg
+      ext: .jpg
+      width: 750
+      height: 422
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635188503/small_img0_28d1a9b527.jpg
+      ext: .jpg
+      width: 500
+      height: 281
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635188502/thumbnail_img0_28d1a9b527.jpg
+      ext: .jpg
+      width: 245
+      height: 138
 header:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635188502/img0_28d1a9b527.jpg
-    width: 1920
-    height: 1080
-    ext: .jpg
-    mime: image/jpeg
-    formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635188503/large_img0_28d1a9b527.jpg
-            ext: .jpg
-            width: 1000
-            height: 563
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635188503/medium_img0_28d1a9b527.jpg
-            ext: .jpg
-            width: 750
-            height: 422
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635188503/small_img0_28d1a9b527.jpg
-            ext: .jpg
-            width: 500
-            height: 281
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635188502/thumbnail_img0_28d1a9b527.jpg
-            ext: .jpg
-            width: 245
-            height: 138
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635188502/img0_28d1a9b527.jpg
+  width: 1920
+  height: 1080
+  ext: .jpg
+  mime: image/jpeg
+  formats:
+    large:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635188503/large_img0_28d1a9b527.jpg
+      ext: .jpg
+      width: 1000
+      height: 563
+    medium:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635188503/medium_img0_28d1a9b527.jpg
+      ext: .jpg
+      width: 750
+      height: 422
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635188503/small_img0_28d1a9b527.jpg
+      ext: .jpg
+      width: 500
+      height: 281
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635188502/thumbnail_img0_28d1a9b527.jpg
+      ext: .jpg
+      width: 245
+      height: 138
 noHeaderImage: false
 members_twitter:
-    - sarahwnewman
+  - sarahwnewman
 images:
-    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1635188502/img0_28d1a9b527.jpg
-
+  - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1635188502/img0_28d1a9b527.jpg
+projects/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 Cities, nature, and knowledge itself: we often resolve  images of these things in the branching forms of trees. Rivers, traffic, bits and bytes: these things, too, run in networks. We often speak of technology as antithetical to the natural world—where technology reigns, nature retreats. And yet wherever we look in the world, natural and technical things meet and merge, find ways to enfold one another. What are technology's roles in our experience of the natural world? metaLAB is exploring this question through artistic provocations, field research, and the development of digital platforms for exploring urban ecology. A crucial partner in this exploration is Harvard Arnold Arboretum, where we continue to explore opportunities to bring data, media, and archival materials into dialogue about the natural and cultural dimensions of urban wilds. Future initiatives will include media documentation of botanical collecting, the development of platforms and provocations for encountering gardens and arboreta in new and nourishing ways, and convivial encounters with invasive plants species in food and drink.
 

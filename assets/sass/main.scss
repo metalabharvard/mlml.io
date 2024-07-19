@@ -6,7 +6,12 @@
   --columns: 12;
   --size-wrapper: min(90vw, 1280px);
   --size-gap: min(2vw, 30px);
-  --size-column: calc(((var(--size-wrapper) - var(--size-gap) * (var(--columns) - 1)) / var(--columns)));
+  --size-column: calc(
+    (
+      (var(--size-wrapper) - var(--size-gap) * (var(--columns) - 1)) /
+        var(--columns)
+    )
+  );
 
   --color-text: #282828;
   --color-white: #ffffff;
@@ -30,8 +35,8 @@
   --size-3: 19.22px;
   --size-4: 17.09px;
   --size-5: 15.19px;
-  --size-6: 13.50px;
-  --size-7: 12.00px; // Base
+  --size-6: 13.5px;
+  --size-7: 12px; // Base
   --size-8: 10.67px;
   --size-9: 9.48px;
 
@@ -67,11 +72,10 @@
   (forced-colors: active),
   (prefers-contrast),
   (prefers-contrast: more) {
-
   --color-text: #000000;
   --color-border: #000000;
   --color-mute: #000000;
-  --color-gradient-o: #FF4800;
+  --color-gradient-o: #ff4800;
 }
 
 @include query($medium) {
@@ -107,12 +111,17 @@ html {
   font-weight: $font-weight-default;
   font-kerning: normal;
   font-variant-ligatures: contextual common-ligatures;
-  font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1;
+  font-feature-settings:
+    "kern" 1,
+    "liga" 1,
+    "calt" 1;
   background-color: var(--color-bg);
   overscroll-behavior-y: none;
 
   @include query($medium) {
-    background-color: var(--color-bg-secondary); // This is used for the case when the user scroll »out« of the website at the top or bottom of the page
+    background-color: var(
+      --color-bg-secondary
+    ); // This is used for the case when the user scroll »out« of the website at the top or bottom of the page
   }
 }
 
@@ -125,7 +134,9 @@ body {
   background-color: var(--color-bg);
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -149,9 +160,9 @@ body {
     --size-3: 24.88px;
     --size-4: 20.74px;
     --size-5: 17.28px;
-    --size-6: 14.40px;
-    --size-7: 12.00px; // Base
-    --size-8: 10.00px;
+    --size-6: 14.4px;
+    --size-7: 12px; // Base
+    --size-8: 10px;
     --size-9: 8.33px;
   }
 }
@@ -160,12 +171,12 @@ body {
   :root {
     --size-1: 45.78px;
     --size-2: 36.62px;
-    --size-3: 29.30px;
+    --size-3: 29.3px;
     --size-4: 23.44px;
     --size-5: 18.75px;
-    --size-6: 15.00px;
-    --size-7: 12.00px; // Base
-    --size-8: 9.60px;
+    --size-6: 15px;
+    --size-7: 12px; // Base
+    --size-8: 9.6px;
     --size-9: 7.68px;
   }
 }
@@ -174,12 +185,12 @@ body {
   :root {
     --size-1: 67.34px;
     --size-2: 50.52px;
-    --size-3: 37.90px;
+    --size-3: 37.9px;
     --size-4: 28.43px;
     --size-5: 21.33px;
-    --size-6: 16.00px;
-    --size-7: 12.00px; // Base
-    --size-8: 9.00px;
+    --size-6: 16px;
+    --size-7: 12px; // Base
+    --size-8: 9px;
     --size-9: 6.76px;
   }
 }
@@ -201,4 +212,3 @@ body {
 @import "./layout";
 @import "./typography";
 @import "./icons";
-@import "./tippy";

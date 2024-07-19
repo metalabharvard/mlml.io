@@ -1,160 +1,168 @@
 ---
 title: Institute for Climate Sound & Society
-subtitle: ""
+subtitle: ''
 fulltitle: Institute for Climate Sound & Society
 intro: 'The mission of the Institute for Climate Sound & Society (ICSS) is to build an interdisciplinary community of practice that brings together sound-based scientists, technologists, scholars, archivists, storytellers, data journalists, curators, and media artists to expand research impact, build new research tools, and de-center humans in public culture.  '
-start: "2023-04-01"
-end: "2024-06-01"
+start: '2023-04-01'
+end: '2024-06-01'
 datestring: April 2023&ensp;–&ensp;June 2024
-description: The mission of the Institute for Climate Sound & Society (ICSS) is to build an interdisciplinary community of practice that brings together sound-bas…
+description: The mission of the Institute for Climate Sound & Society (ICSS) is to build an interdisciplinary community of practice that brings together sound-based…
 location: Copenhagen, Denmark // Cambridge, USA // Berlin, Germany
-host: both
 mediation: mixed_media
 isFeatured: true
-externalLink: ""
-lastmod: "2024-03-24T11:01:15.277Z"
-date: "2024-06-01"
+externalLink: ''
+lastmod: '2024-05-20T02:01:50.028Z'
+date: '2024-06-01'
 slug: institute-for-climate-sound-and-society
 members:
-    - label: Brian House
-      slug: brian-house
-    - label: Ilan Manouach
-      slug: ilan-manouach
-      twitter: NeuralYorker
-    - label: Jeffrey Schnapp
-      slug: jeffrey-schnapp
-      twitter: jaytiesse
-    - label: Jesse Shapins
-      slug: kara-oehler
-      twitter: https://twitter.com/jshapes
-    - label: Kara Oehler
-      slug: kara_oehler
-      twitter: karaoehler
+  - label: Brian House
+    slug: brian-house
+  - label: Ilan Manouach
+    slug: ilan-manouach
+    twitter: NeuralYorker
+  - label: Jeffrey Schnapp
+    slug: jeffrey-schnapp
+    twitter: jaytiesse
+  - label: Jesse Shapins
+    slug: kara-oehler
+    twitter: https://twitter.com/jshapes
+  - label: Kara Oehler
+    slug: kara_oehler
+    twitter: karaoehler
+  - label: Sara Keen
+    slug: sara-keen
 cover:
-    alternativeText: Macrophones (2022–24) by Brian House (https://brianhouse.net)
-    caption: Macrophones (2022–24) by Brian House (https://brianhouse.net)
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1711223446/macrophones_2x_8d8d29b0a5.jpg
-    width: 1600
-    height: 900
-    ext: .jpg
-    mime: image/jpeg
-    formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1711223447/large_macrophones_2x_8d8d29b0a5.jpg
-            ext: .jpg
-            width: 1000
-            height: 563
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1711223448/medium_macrophones_2x_8d8d29b0a5.jpg
-            ext: .jpg
-            width: 750
-            height: 422
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1711223448/small_macrophones_2x_8d8d29b0a5.jpg
-            ext: .jpg
-            width: 500
-            height: 281
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1711223447/thumbnail_macrophones_2x_8d8d29b0a5.jpg
-            ext: .jpg
-            width: 245
-            height: 138
-header:
-    alternativeText: Macrophones (2022–24) by Brian House (https://brianhouse.net)
-    caption: Macrophones (2022–24) by Brian House (https://brianhouse.net)
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1711223446/macrophones_2x_8d8d29b0a5.jpg
-    width: 1600
-    height: 900
-    ext: .jpg
-    mime: image/jpeg
-    formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1711223447/large_macrophones_2x_8d8d29b0a5.jpg
-            ext: .jpg
-            width: 1000
-            height: 563
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1711223448/medium_macrophones_2x_8d8d29b0a5.jpg
-            ext: .jpg
-            width: 750
-            height: 422
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1711223448/small_macrophones_2x_8d8d29b0a5.jpg
-            ext: .jpg
-            width: 500
-            height: 281
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1711223447/thumbnail_macrophones_2x_8d8d29b0a5.jpg
-            ext: .jpg
-            width: 245
-            height: 138
-noHeaderImage: false
-feature:
-    alternativeText: Macrophones (2022–24) by Brian House (https://brianhouse.net)
-    caption: Macrophones (2022–24) by Brian House (https://brianhouse.net)
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1711223446/macrophones_2x_8d8d29b0a5.jpg
-    width: 1600
-    height: 900
-    ext: .jpg
-    mime: image/jpeg
-    formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1711223447/large_macrophones_2x_8d8d29b0a5.jpg
-            ext: .jpg
-            width: 1000
-            height: 563
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1711223448/medium_macrophones_2x_8d8d29b0a5.jpg
-            ext: .jpg
-            width: 750
-            height: 422
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1711223448/small_macrophones_2x_8d8d29b0a5.jpg
-            ext: .jpg
-            width: 500
-            height: 281
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1711223447/thumbnail_macrophones_2x_8d8d29b0a5.jpg
-            ext: .jpg
-            width: 245
-            height: 138
-gallery:
-    - alternativeText: Macrophones (2022–24) by Brian House (https://brianhouse.net)
-      caption: Macrophones (2022–24) by Brian House (https://brianhouse.net)
-      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1711223446/macrophones_2x_8d8d29b0a5.jpg
-      width: 1600
-      height: 900
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1711223446/macrophones_2x_8d8d29b0a5.jpg
+  width: 1600
+  height: 900
+  ext: .jpg
+  mime: image/jpeg
+  alternativeText: Macrophones (2022–24) by Brian House (https://brianhouse.net)
+  caption: Macrophones (2022–24) by Brian House (https://brianhouse.net)
+  formats:
+    large:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1711223447/large_macrophones_2x_8d8d29b0a5.jpg
       ext: .jpg
-      mime: image/jpeg
-      formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1711223447/large_macrophones_2x_8d8d29b0a5.jpg
-            ext: .jpg
-            width: 1000
-            height: 563
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1711223448/medium_macrophones_2x_8d8d29b0a5.jpg
-            ext: .jpg
-            width: 750
-            height: 422
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1711223448/small_macrophones_2x_8d8d29b0a5.jpg
-            ext: .jpg
-            width: 500
-            height: 281
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1711223447/thumbnail_macrophones_2x_8d8d29b0a5.jpg
-            ext: .jpg
-            width: 245
-            height: 138
+      width: 1000
+      height: 563
+    medium:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1711223448/medium_macrophones_2x_8d8d29b0a5.jpg
+      ext: .jpg
+      width: 750
+      height: 422
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1711223448/small_macrophones_2x_8d8d29b0a5.jpg
+      ext: .jpg
+      width: 500
+      height: 281
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1711223447/thumbnail_macrophones_2x_8d8d29b0a5.jpg
+      ext: .jpg
+      width: 245
+      height: 138
+header:
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1711223446/macrophones_2x_8d8d29b0a5.jpg
+  width: 1600
+  height: 900
+  ext: .jpg
+  mime: image/jpeg
+  alternativeText: Macrophones (2022–24) by Brian House (https://brianhouse.net)
+  caption: Macrophones (2022–24) by Brian House (https://brianhouse.net)
+  formats:
+    large:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1711223447/large_macrophones_2x_8d8d29b0a5.jpg
+      ext: .jpg
+      width: 1000
+      height: 563
+    medium:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1711223448/medium_macrophones_2x_8d8d29b0a5.jpg
+      ext: .jpg
+      width: 750
+      height: 422
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1711223448/small_macrophones_2x_8d8d29b0a5.jpg
+      ext: .jpg
+      width: 500
+      height: 281
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1711223447/thumbnail_macrophones_2x_8d8d29b0a5.jpg
+      ext: .jpg
+      width: 245
+      height: 138
+feature:
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1711223446/macrophones_2x_8d8d29b0a5.jpg
+  width: 1600
+  height: 900
+  ext: .jpg
+  mime: image/jpeg
+  alternativeText: Macrophones (2022–24) by Brian House (https://brianhouse.net)
+  caption: Macrophones (2022–24) by Brian House (https://brianhouse.net)
+  formats:
+    large:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1711223447/large_macrophones_2x_8d8d29b0a5.jpg
+      ext: .jpg
+      width: 1000
+      height: 563
+    medium:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1711223448/medium_macrophones_2x_8d8d29b0a5.jpg
+      ext: .jpg
+      width: 750
+      height: 422
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1711223448/small_macrophones_2x_8d8d29b0a5.jpg
+      ext: .jpg
+      width: 500
+      height: 281
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1711223447/thumbnail_macrophones_2x_8d8d29b0a5.jpg
+      ext: .jpg
+      width: 245
+      height: 138
+noHeaderImage: false
+gallery:
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1711223446/macrophones_2x_8d8d29b0a5.jpg
+    width: 1600
+    height: 900
+    ext: .jpg
+    mime: image/jpeg
+    alternativeText: Macrophones (2022–24) by Brian House (https://brianhouse.net)
+    caption: Macrophones (2022–24) by Brian House (https://brianhouse.net)
+    formats:
+      large:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1711223447/large_macrophones_2x_8d8d29b0a5.jpg
+        ext: .jpg
+        width: 1000
+        height: 563
+      medium:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1711223448/medium_macrophones_2x_8d8d29b0a5.jpg
+        ext: .jpg
+        width: 750
+        height: 422
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1711223448/small_macrophones_2x_8d8d29b0a5.jpg
+        ext: .jpg
+        width: 500
+        height: 281
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1711223447/thumbnail_macrophones_2x_8d8d29b0a5.jpg
+        ext: .jpg
+        width: 245
+        height: 138
 members_twitter:
-    - NeuralYorker
-    - jaytiesse
-    - https://twitter.com/jshapes
-    - karaoehler
+  - jaytiesse
+  - https://twitter.com/jshapes
+  - karaoehler
+  - NeuralYorker
 images:
-    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1711223446/macrophones_2x_8d8d29b0a5.jpg
-
+  - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1711223446/macrophones_2x_8d8d29b0a5.jpg
+projects/labs:
+  - harvard
+  - berlin
+labs:
+  - label: Harvard
+    slug: harvard
+  - label: Berlin
+    slug: berlin
 ---
 In recent years, new sound recording technologies such as passive acoustic monitoring and underwater sound arrays have become increasingly central to environmental science, offering new ways to gather and analyze data to understand changing ecosystems. At the same time, creative experimentation with sound has been growing in the journalism, storytelling, media arts, and curatorial worlds. With sound as the common medium, increased collaboration across these disciplines presents significant opportunities to expand audiences for research, enhancing impact and creative potential for all. 
 

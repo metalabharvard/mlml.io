@@ -1,126 +1,97 @@
 ---
 title: Digital Access Research Project (DARP)
-subtitle: ""
+subtitle: ''
 fulltitle: Digital Access Research Project (DARP)
 intro: 'The Digital Access Research Project (DARP) developed out of metaLAB’s FutureStage project, which was concerned with the future of the performing arts and the social and technological challenges brought on by the pandemic. The DARP continues to pursue these lines of inquiry, with a renewed focus on the digital accessibility of performing arts events and the codification of streaming as part of the disability laws in the US and globally. '
-start: "2023-01-23"
-end: ""
+start: '2023-01-23'
+end: ''
 datestring: Since January 2023
-description: The Digital Access Research Project (DARP) developed out of metaLAB’s FutureStage project, which was concerned with the future of the performing ar…
+description: The Digital Access Research Project (DARP) developed out of metaLAB’s FutureStage project, which was concerned with the future of the performing arts and the…
 location: Virtual
-host: harvard
 mediation: web
 isFeatured: false
-externalLink: ""
-lastmod: "2024-02-08T07:27:10.474Z"
-date: "2023-01-23"
+externalLink: ''
+lastmod: '2024-05-29T20:57:23.862Z'
+date: '2023-01-23'
 slug: digital-access-research-project
 events:
-    - label: International Online Theatre Festival
-      slug: iotf2023
+  - label: International Online Theatre Festival
+    slug: iotf2023
 members:
-    - label: Kasia Lech
-      slug: kasia-lech
-      twitter: Kasia_Lech
-    - label: Magda Romanska
-      slug: magda-romanska
-      twitter: MagdaRomanska
+  - label: Kasia Lech
+    slug: kasia-lech
+    twitter: Kasia_Lech
+  - label: Magda Romanska
+    slug: magda-romanska
+    twitter: MagdaRomanska
 projects:
-    - label: '#MeToo Anti-Network'
-      slug: me-too-anti-network
-    - label: A Flitting Atlas of the Human Gaze
-      slug: a-flitting-atlas-of-the-human-gaze
-    - label: Artificial Worldviews
-      slug: artificial-worldviews
-    - label: Black Lives Matter Street Mural Map
-      slug: black-lives-matter-street-mural-map
-    - label: Choreographic Interface
-      slug: choreographic-interface
-    - label: Curatorial A(i)gents
-      slug: curatorial-aigents
-    - label: HAM Object Map
-      slug: ham-object-map
-    - label: Igùn
-      slug: igun
-    - label: Living by Protocol
-      slug: living-by-protocol
-    - label: Ocean Amplification
-      slug: ocean-amplification
-    - label: Post_Networks
-      slug: post-networks
-    - label: Processing the Page
-      slug: processing-the-page
-    - label: Second Look
-      slug: second-look
-    - label: Surprise Machines
-      slug: surprise-machines
-    - label: Sympoietic System
-      slug: sympoietic-system
-    - label: Their Names
-      slug: their-names
-    - label: Watching Machines Loving Grace
-      slug: watching-machines-loving-grace
+  - label: 'Digital Access Research Project (DARP) '
+    slug: digital-access-research-project
 cover:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1674176534/1600px_WBGU_TV_Green_Screen_7e704f38db.jpg
-    width: 1600
-    height: 1200
-    ext: .jpg
-    mime: image/jpeg
-    formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1674176535/large_1600px_WBGU_TV_Green_Screen_7e704f38db.jpg
-            ext: .jpg
-            width: 1000
-            height: 750
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1674176536/medium_1600px_WBGU_TV_Green_Screen_7e704f38db.jpg
-            ext: .jpg
-            width: 750
-            height: 563
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1674176536/small_1600px_WBGU_TV_Green_Screen_7e704f38db.jpg
-            ext: .jpg
-            width: 500
-            height: 375
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1674176535/thumbnail_1600px_WBGU_TV_Green_Screen_7e704f38db.jpg
-            ext: .jpg
-            width: 208
-            height: 156
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1674176534/1600px_WBGU_TV_Green_Screen_7e704f38db.jpg
+  width: 1600
+  height: 1200
+  ext: .jpg
+  mime: image/jpeg
+  formats:
+    large:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1674176535/large_1600px_WBGU_TV_Green_Screen_7e704f38db.jpg
+      ext: .jpg
+      width: 1000
+      height: 750
+    medium:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1674176536/medium_1600px_WBGU_TV_Green_Screen_7e704f38db.jpg
+      ext: .jpg
+      width: 750
+      height: 563
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1674176536/small_1600px_WBGU_TV_Green_Screen_7e704f38db.jpg
+      ext: .jpg
+      width: 500
+      height: 375
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1674176535/thumbnail_1600px_WBGU_TV_Green_Screen_7e704f38db.jpg
+      ext: .jpg
+      width: 208
+      height: 156
 header:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1674176534/1600px_WBGU_TV_Green_Screen_7e704f38db.jpg
-    width: 1600
-    height: 1200
-    ext: .jpg
-    mime: image/jpeg
-    formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1674176535/large_1600px_WBGU_TV_Green_Screen_7e704f38db.jpg
-            ext: .jpg
-            width: 1000
-            height: 750
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1674176536/medium_1600px_WBGU_TV_Green_Screen_7e704f38db.jpg
-            ext: .jpg
-            width: 750
-            height: 563
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1674176536/small_1600px_WBGU_TV_Green_Screen_7e704f38db.jpg
-            ext: .jpg
-            width: 500
-            height: 375
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1674176535/thumbnail_1600px_WBGU_TV_Green_Screen_7e704f38db.jpg
-            ext: .jpg
-            width: 208
-            height: 156
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1674176534/1600px_WBGU_TV_Green_Screen_7e704f38db.jpg
+  width: 1600
+  height: 1200
+  ext: .jpg
+  mime: image/jpeg
+  formats:
+    large:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1674176535/large_1600px_WBGU_TV_Green_Screen_7e704f38db.jpg
+      ext: .jpg
+      width: 1000
+      height: 750
+    medium:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1674176536/medium_1600px_WBGU_TV_Green_Screen_7e704f38db.jpg
+      ext: .jpg
+      width: 750
+      height: 563
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1674176536/small_1600px_WBGU_TV_Green_Screen_7e704f38db.jpg
+      ext: .jpg
+      width: 500
+      height: 375
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1674176535/thumbnail_1600px_WBGU_TV_Green_Screen_7e704f38db.jpg
+      ext: .jpg
+      width: 208
+      height: 156
 noHeaderImage: false
 members_twitter:
-    - Kasia_Lech
-    - MagdaRomanska
+  - MagdaRomanska
+  - Kasia_Lech
 images:
-    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1674176534/1600px_WBGU_TV_Green_Screen_7e704f38db.jpg
-
+  - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1674176534/1600px_WBGU_TV_Green_Screen_7e704f38db.jpg
+projects/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 A collaboration between metaLAB (at) Harvard and the [Berkman Klein Center for Internet and Society](https://cyber.harvard.edu/), the **Digital Access Research Project (DARP)** developed out of metaLAB’s [FutureStage](https://mlml.io/p/futurestage/) project, which was concerned with the future of the performing arts and the social and technological challenges brought on by the pandemic. The DARP continues to pursue these lines of inquiry, with a renewed focus on the digital accessibility of performing arts events and the codification of streaming as part of the disability laws in the US and globally. The group consists of leading international experts in disability law, copyright law, digital technology, and performing arts management. The objective of the group is to develop a set of guidelines for policy- and lawmakers, and performing arts organizations that would balance the digital accessibility needs of formerly marginalized groups with the performer and institutional copyright rights.
 
@@ -155,7 +126,7 @@ The project is coordinated by **Magda Romanska** (Principal Researcher at metaLA
 
 ![Futurstage_Instagram posts17.png](https://res.cloudinary.com/dfffh0gkl/image/upload/v1674632373/Futurstage_Instagram_posts17_7ef66ce74e.png)
 
-**RESEARCH GROUP MEMBERS:**
+**ADVISORY BOARD MEMBERS:**
 
 **Magda Romanska**, Principal Investigator at [metaLAB (at) Harvard](https://mlml.io/m/magda-romanska/ ), and Faculty Associate at Berkman Klein Center for Internet and Society, Chair of the DARP 
 **Jim Augustine**, former COO of Zuckerberg Media, co-founder of Assemble Stream, and co-founder of the [League of Live Stream Theater](https://www.realrightgood.com/augustine) 

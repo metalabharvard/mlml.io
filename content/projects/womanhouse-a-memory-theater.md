@@ -1,320 +1,323 @@
 ---
 title: Womanhouse (a memory theater)
-subtitle: ""
+subtitle: ''
 fulltitle: Womanhouse (a memory theater)
 intro: Memory traces of “the daydreams that women have as they wash, bake, cook, sew, clean and iron their lives away … taken to fantasy proportions” (30/1/1970-28/2/1970)
-start: "2019-08-30"
-end: "2019-11-10"
+start: '2019-08-30'
+end: '2019-11-10'
 datestring: August&ensp;–&ensp;November 2019
-description: Memory traces of “the daydreams that women have as they wash, bake, cook, sew, clean and iron their lives away … taken to fantasy proportions” …
+description: Memory traces of “the daydreams that women have as they wash, bake, cook, sew, clean and iron their lives away … taken to fantasy proportions”…
 keyword: Data Visualisation,Exhibition,Installation
 tags:
-    - Data Visualisation
-    - Exhibition
-    - Installation
+  - Data Visualisation
+  - Exhibition
+  - Installation
 location: Hannover, Germany
-host: berlin
 mediation: exhibition
 isFeatured: true
 externalLink: https://kestnergesellschaft.de/en/exhibition/11
-lastmod: "2022-09-16T11:20:11.958Z"
-date: "2019-11-10"
+lastmod: '2024-05-20T02:01:50.165Z'
+date: '2019-11-10'
 slug: womanhouse-a-memory-theater
 categories:
-    - Installation
-    - Exhibition
-    - Data Visualisation
+  - Installation
+  - Exhibition
+  - Data Visualisation
 members:
-    - label: Annette Jael Lehmann
-      slug: annette-jael-lehmann
-    - label: Chiara Fauda Pichet
-      slug: chiara-fauda-pichet
-      twitter: chiarafauda
-    - label: Jeffrey Schnapp
-      slug: jeffrey-schnapp
-      twitter: jaytiesse
-    - label: Kim Albrecht
-      slug: kim-albrecht
-      twitter: kimay
-    - label: Mindy Seu
-      slug: mindy-seu
-      twitter: mind_seu
+  - label: Annette Jael Lehmann
+    slug: annette-jael-lehmann
+  - label: Chiara Fauda Pichet
+    slug: chiara-fauda-pichet
+    twitter: chiarafauda
+  - label: Jeffrey Schnapp
+    slug: jeffrey-schnapp
+    twitter: jaytiesse
+  - label: Kim Albrecht
+    slug: kim-albrecht
+    twitter: kimay
+  - label: Mindy Seu
+    slug: mindy-seu
+    twitter: mind_seu
 cover:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348649/DSC_01121_a09f017e7f.jpg
-    width: 5467
-    height: 2025
-    ext: .jpg
-    mime: image/jpeg
-    formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348651/large_DSC_01121_a09f017e7f.jpg
-            ext: .jpg
-            width: 1000
-            height: 370
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348651/medium_DSC_01121_a09f017e7f.jpg
-            ext: .jpg
-            width: 750
-            height: 278
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348651/small_DSC_01121_a09f017e7f.jpg
-            ext: .jpg
-            width: 500
-            height: 185
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348650/thumbnail_DSC_01121_a09f017e7f.jpg
-            ext: .jpg
-            width: 245
-            height: 91
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348649/DSC_01121_a09f017e7f.jpg
+  width: 5467
+  height: 2025
+  ext: .jpg
+  mime: image/jpeg
+  formats:
+    large:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348651/large_DSC_01121_a09f017e7f.jpg
+      ext: .jpg
+      width: 1000
+      height: 370
+    medium:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348651/medium_DSC_01121_a09f017e7f.jpg
+      ext: .jpg
+      width: 750
+      height: 278
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348651/small_DSC_01121_a09f017e7f.jpg
+      ext: .jpg
+      width: 500
+      height: 185
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348650/thumbnail_DSC_01121_a09f017e7f.jpg
+      ext: .jpg
+      width: 245
+      height: 91
 header:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348649/DSC_01121_a09f017e7f.jpg
-    width: 5467
-    height: 2025
-    ext: .jpg
-    mime: image/jpeg
-    formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348651/large_DSC_01121_a09f017e7f.jpg
-            ext: .jpg
-            width: 1000
-            height: 370
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348651/medium_DSC_01121_a09f017e7f.jpg
-            ext: .jpg
-            width: 750
-            height: 278
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348651/small_DSC_01121_a09f017e7f.jpg
-            ext: .jpg
-            width: 500
-            height: 185
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348650/thumbnail_DSC_01121_a09f017e7f.jpg
-            ext: .jpg
-            width: 245
-            height: 91
-noHeaderImage: false
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348649/DSC_01121_a09f017e7f.jpg
+  width: 5467
+  height: 2025
+  ext: .jpg
+  mime: image/jpeg
+  formats:
+    large:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348651/large_DSC_01121_a09f017e7f.jpg
+      ext: .jpg
+      width: 1000
+      height: 370
+    medium:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348651/medium_DSC_01121_a09f017e7f.jpg
+      ext: .jpg
+      width: 750
+      height: 278
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348651/small_DSC_01121_a09f017e7f.jpg
+      ext: .jpg
+      width: 500
+      height: 185
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348650/thumbnail_DSC_01121_a09f017e7f.jpg
+      ext: .jpg
+      width: 245
+      height: 91
 feature:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1635348649/DSC_01121_a09f017e7f.jpg
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1635348649/DSC_01121_a09f017e7f.jpg
+  width: 5467
+  height: 2025
+  ext: .jpg
+  mime: image/jpeg
+  formats:
+    large:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1635348651/large_DSC_01121_a09f017e7f.jpg
+      ext: .jpg
+      width: 1000
+      height: 370
+    medium:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1635348651/medium_DSC_01121_a09f017e7f.jpg
+      ext: .jpg
+      width: 750
+      height: 278
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1635348651/small_DSC_01121_a09f017e7f.jpg
+      ext: .jpg
+      width: 500
+      height: 185
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1635348650/thumbnail_DSC_01121_a09f017e7f.jpg
+      ext: .jpg
+      width: 245
+      height: 91
+noHeaderImage: false
+gallery:
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348556/DSC_01111_4f4e846735.jpg
+    width: 5472
+    height: 3648
+    ext: .jpg
+    mime: image/jpeg
+    formats:
+      large:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348560/large_DSC_01111_4f4e846735.jpg
+        ext: .jpg
+        width: 1000
+        height: 667
+      medium:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348561/medium_DSC_01111_4f4e846735.jpg
+        ext: .jpg
+        width: 750
+        height: 500
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348562/small_DSC_01111_4f4e846735.jpg
+        ext: .jpg
+        width: 500
+        height: 333
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348558/thumbnail_DSC_01111_4f4e846735.jpg
+        ext: .jpg
+        width: 234
+        height: 156
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348558/DSC_01128_56004a109d.jpg
+    width: 3615
+    height: 5070
+    ext: .jpg
+    mime: image/jpeg
+    formats:
+      large:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348563/large_DSC_01128_56004a109d.jpg
+        ext: .jpg
+        width: 713
+        height: 1000
+      medium:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348563/medium_DSC_01128_56004a109d.jpg
+        ext: .jpg
+        width: 535
+        height: 750
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348565/small_DSC_01128_56004a109d.jpg
+        ext: .jpg
+        width: 357
+        height: 500
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348560/thumbnail_DSC_01128_56004a109d.jpg
+        ext: .jpg
+        width: 111
+        height: 156
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348557/DSC_01117_8443c76e0e.jpg
+    width: 3648
+    height: 4633
+    ext: .jpg
+    mime: image/jpeg
+    formats:
+      large:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348564/large_DSC_01117_8443c76e0e.jpg
+        ext: .jpg
+        width: 787
+        height: 1000
+      medium:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348564/medium_DSC_01117_8443c76e0e.jpg
+        ext: .jpg
+        width: 591
+        height: 750
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348565/small_DSC_01117_8443c76e0e.jpg
+        ext: .jpg
+        width: 394
+        height: 500
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348561/thumbnail_DSC_01117_8443c76e0e.jpg
+        ext: .jpg
+        width: 123
+        height: 156
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348645/DSC_01109_e25b099bde.jpg
+    width: 3152
+    height: 5379
+    ext: .jpg
+    mime: image/jpeg
+    formats:
+      large:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348648/large_DSC_01109_e25b099bde.jpg
+        ext: .jpg
+        width: 586
+        height: 1000
+      medium:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348648/medium_DSC_01109_e25b099bde.jpg
+        ext: .jpg
+        width: 439
+        height: 750
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348649/small_DSC_01109_e25b099bde.jpg
+        ext: .jpg
+        width: 293
+        height: 500
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348647/thumbnail_DSC_01109_e25b099bde.jpg
+        ext: .jpg
+        width: 91
+        height: 156
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348646/DSC_01120_6bbe23c6be.jpg
+    width: 3212
+    height: 5472
+    ext: .jpg
+    mime: image/jpeg
+    formats:
+      large:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348649/large_DSC_01120_6bbe23c6be.jpg
+        ext: .jpg
+        width: 587
+        height: 1000
+      medium:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348650/medium_DSC_01120_6bbe23c6be.jpg
+        ext: .jpg
+        width: 440
+        height: 750
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348651/small_DSC_01120_6bbe23c6be.jpg
+        ext: .jpg
+        width: 293
+        height: 500
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348648/thumbnail_DSC_01120_6bbe23c6be.jpg
+        ext: .jpg
+        width: 92
+        height: 156
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348649/DSC_01121_a09f017e7f.jpg
     width: 5467
     height: 2025
     ext: .jpg
     mime: image/jpeg
     formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1635348651/large_DSC_01121_a09f017e7f.jpg
-            ext: .jpg
-            width: 1000
-            height: 370
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1635348651/medium_DSC_01121_a09f017e7f.jpg
-            ext: .jpg
-            width: 750
-            height: 278
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1635348651/small_DSC_01121_a09f017e7f.jpg
-            ext: .jpg
-            width: 500
-            height: 185
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1635348650/thumbnail_DSC_01121_a09f017e7f.jpg
-            ext: .jpg
-            width: 245
-            height: 91
-gallery:
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348556/DSC_01111_4f4e846735.jpg
-      width: 5472
-      height: 3648
-      ext: .jpg
-      mime: image/jpeg
-      formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348560/large_DSC_01111_4f4e846735.jpg
-            ext: .jpg
-            width: 1000
-            height: 667
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348561/medium_DSC_01111_4f4e846735.jpg
-            ext: .jpg
-            width: 750
-            height: 500
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348562/small_DSC_01111_4f4e846735.jpg
-            ext: .jpg
-            width: 500
-            height: 333
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348558/thumbnail_DSC_01111_4f4e846735.jpg
-            ext: .jpg
-            width: 234
-            height: 156
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348558/DSC_01128_56004a109d.jpg
-      width: 3615
-      height: 5070
-      ext: .jpg
-      mime: image/jpeg
-      formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348563/large_DSC_01128_56004a109d.jpg
-            ext: .jpg
-            width: 713
-            height: 1000
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348563/medium_DSC_01128_56004a109d.jpg
-            ext: .jpg
-            width: 535
-            height: 750
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348565/small_DSC_01128_56004a109d.jpg
-            ext: .jpg
-            width: 357
-            height: 500
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348560/thumbnail_DSC_01128_56004a109d.jpg
-            ext: .jpg
-            width: 111
-            height: 156
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348557/DSC_01117_8443c76e0e.jpg
-      width: 3648
-      height: 4633
-      ext: .jpg
-      mime: image/jpeg
-      formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348564/large_DSC_01117_8443c76e0e.jpg
-            ext: .jpg
-            width: 787
-            height: 1000
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348564/medium_DSC_01117_8443c76e0e.jpg
-            ext: .jpg
-            width: 591
-            height: 750
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348565/small_DSC_01117_8443c76e0e.jpg
-            ext: .jpg
-            width: 394
-            height: 500
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348561/thumbnail_DSC_01117_8443c76e0e.jpg
-            ext: .jpg
-            width: 123
-            height: 156
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348645/DSC_01109_e25b099bde.jpg
-      width: 3152
-      height: 5379
-      ext: .jpg
-      mime: image/jpeg
-      formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348648/large_DSC_01109_e25b099bde.jpg
-            ext: .jpg
-            width: 586
-            height: 1000
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348648/medium_DSC_01109_e25b099bde.jpg
-            ext: .jpg
-            width: 439
-            height: 750
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348649/small_DSC_01109_e25b099bde.jpg
-            ext: .jpg
-            width: 293
-            height: 500
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348647/thumbnail_DSC_01109_e25b099bde.jpg
-            ext: .jpg
-            width: 91
-            height: 156
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348646/DSC_01120_6bbe23c6be.jpg
-      width: 3212
-      height: 5472
-      ext: .jpg
-      mime: image/jpeg
-      formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348649/large_DSC_01120_6bbe23c6be.jpg
-            ext: .jpg
-            width: 587
-            height: 1000
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348650/medium_DSC_01120_6bbe23c6be.jpg
-            ext: .jpg
-            width: 440
-            height: 750
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348651/small_DSC_01120_6bbe23c6be.jpg
-            ext: .jpg
-            width: 293
-            height: 500
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348648/thumbnail_DSC_01120_6bbe23c6be.jpg
-            ext: .jpg
-            width: 92
-            height: 156
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348649/DSC_01121_a09f017e7f.jpg
-      width: 5467
-      height: 2025
-      ext: .jpg
-      mime: image/jpeg
-      formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348651/large_DSC_01121_a09f017e7f.jpg
-            ext: .jpg
-            width: 1000
-            height: 370
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348651/medium_DSC_01121_a09f017e7f.jpg
-            ext: .jpg
-            width: 750
-            height: 278
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348651/small_DSC_01121_a09f017e7f.jpg
-            ext: .jpg
-            width: 500
-            height: 185
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348650/thumbnail_DSC_01121_a09f017e7f.jpg
-            ext: .jpg
-            width: 245
-            height: 91
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348654/DSC_01118_f188042850.jpg
-      width: 3648
-      height: 5472
-      ext: .jpg
-      mime: image/jpeg
-      formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348657/large_DSC_01118_f188042850.jpg
-            ext: .jpg
-            width: 667
-            height: 1000
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348657/medium_DSC_01118_f188042850.jpg
-            ext: .jpg
-            width: 500
-            height: 750
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348658/small_DSC_01118_f188042850.jpg
-            ext: .jpg
-            width: 333
-            height: 500
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348655/thumbnail_DSC_01118_f188042850.jpg
-            ext: .jpg
-            width: 104
-            height: 156
+      large:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348651/large_DSC_01121_a09f017e7f.jpg
+        ext: .jpg
+        width: 1000
+        height: 370
+      medium:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348651/medium_DSC_01121_a09f017e7f.jpg
+        ext: .jpg
+        width: 750
+        height: 278
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348651/small_DSC_01121_a09f017e7f.jpg
+        ext: .jpg
+        width: 500
+        height: 185
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348650/thumbnail_DSC_01121_a09f017e7f.jpg
+        ext: .jpg
+        width: 245
+        height: 91
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348654/DSC_01118_f188042850.jpg
+    width: 3648
+    height: 5472
+    ext: .jpg
+    mime: image/jpeg
+    formats:
+      large:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348657/large_DSC_01118_f188042850.jpg
+        ext: .jpg
+        width: 667
+        height: 1000
+      medium:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348657/medium_DSC_01118_f188042850.jpg
+        ext: .jpg
+        width: 500
+        height: 750
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348658/small_DSC_01118_f188042850.jpg
+        ext: .jpg
+        width: 333
+        height: 500
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348655/thumbnail_DSC_01118_f188042850.jpg
+        ext: .jpg
+        width: 104
+        height: 156
 funders:
-    - label: Volkswagenstiftung
-      url: https://www.volkswagenstiftung.de/en/foundation
+  - label: Volkswagenstiftung
+    url: https://www.volkswagenstiftung.de/en/foundation
 members_twitter:
-    - chiarafauda
-    - jaytiesse
-    - kimay
-    - mind_seu
+  - mind_seu
+  - chiarafauda
+  - kimay
+  - jaytiesse
 images:
-    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1635348649/DSC_01121_a09f017e7f.jpg
-
+  - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1635348649/DSC_01121_a09f017e7f.jpg
+projects/labs:
+  - berlin
+labs:
+  - label: Berlin
+    slug: berlin
 ---
 **This exhibit has moved to {{< link "p/womanhouse-kunsthaus-graz" >}}Kunsthaus Graz{{< /link >}}.**
 

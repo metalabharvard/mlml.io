@@ -2,33 +2,37 @@
 title: Futurefood I
 subtitle: Kvass
 fulltitle: 'Futurefood I: Kvass'
-status: ""
+status: ''
 outputs:
-    - HTML
-    - Calendar
+  - HTML
+  - Calendar
 timezone: Boston
 timezoneAbbr:
-    berlin: CEST
-    boston: EDT
-start_time: "2019-05-11T16:00:00-04:00"
-end_time: "2019-05-11T17:00:00-04:00"
+  berlin: CEST
+  boston: EDT
+start_time: '2019-05-11T16:00:00-04:00'
+end_time: '2019-05-11T17:00:00-04:00'
 start_time_utc: 20190511T200000Z
 end_time_utc: 20190511T210000Z
 start_time_locations:
-    berlin: "2019-05-11T22:00:00+02:00"
-    boston: "2019-05-11T16:00:00-04:00"
+  berlin: '2019-05-11T22:00:00+02:00'
+  boston: '2019-05-11T16:00:00-04:00'
 end_time_locations:
-    berlin: "2019-05-11T23:00:00+02:00"
-    boston: "2019-05-11T17:00:00-04:00"
+  berlin: '2019-05-11T23:00:00+02:00'
+  boston: '2019-05-11T17:00:00-04:00'
 tzid: America/New_York
 location: Cambridge, MA
 isFeatured: false
 isOngoing: false
-lastmod: "2022-02-09T16:13:53.214Z"
-date: "2019-05-11T16:00:00-04:00"
+lastmod: '2024-05-24T11:01:34.816Z'
+date: '2019-05-11T16:00:00-04:00'
 slug: futurefood-i
 noHeaderImage: false
-
+events/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 **Cambridge Public Library<br />
 Saturday, May 11, 1-4 PM**

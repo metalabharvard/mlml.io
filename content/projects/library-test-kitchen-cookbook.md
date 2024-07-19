@@ -1,112 +1,115 @@
 ---
 title: Library Test Kitchen Cookbook
-subtitle: ""
+subtitle: ''
 fulltitle: Library Test Kitchen Cookbook
-intro: ""
-start: "2011-01-01"
-end: "2018-01-01"
+intro: ''
+start: '2011-01-01'
+end: '2018-01-01'
 datestring: January 2011&ensp;–&ensp;January 2018
 location: Harvard College, Harvard Graduate School of Design, Information Science at Simmons College
-host: harvard
 mediation: mixed_media
 isFeatured: false
-externalLink: ""
-lastmod: "2021-11-25T02:06:41.740Z"
-date: "2018-01-01"
+externalLink: ''
+lastmod: '2024-05-20T02:01:50.168Z'
+date: '2018-01-01'
 slug: library-test-kitchen-cookbook
 collaborators:
-    - label: MIT Press
+  - label: MIT Press
 links:
-    - label: LTK Cookbook
-      url: http://www.librarytestkitchen.org
+  - label: LTK Cookbook
+    url: http://www.librarytestkitchen.org
 members:
-    - label: Jessica Yurkofsky
-      slug: jessica-yurkofsky
+  - label: Jessica Yurkofsky
+    slug: jessica-yurkofsky
 cover:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637805934/librarytestkitchen_e813bbb710.jpg
-    width: 1000
-    height: 1294
-    ext: .jpeg
-    mime: image/jpeg
-    formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637805935/large_librarytestkitchen_e813bbb710.jpg
-            ext: .jpeg
-            width: 773
-            height: 1000
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637805935/medium_librarytestkitchen_e813bbb710.jpg
-            ext: .jpeg
-            width: 580
-            height: 750
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637805936/small_librarytestkitchen_e813bbb710.jpg
-            ext: .jpeg
-            width: 386
-            height: 500
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637805935/thumbnail_librarytestkitchen_e813bbb710.jpg
-            ext: .jpeg
-            width: 121
-            height: 156
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637805934/librarytestkitchen_e813bbb710.jpg
+  width: 1000
+  height: 1294
+  ext: .jpeg
+  mime: image/jpeg
+  formats:
+    large:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637805935/large_librarytestkitchen_e813bbb710.jpg
+      ext: .jpeg
+      width: 773
+      height: 1000
+    medium:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637805935/medium_librarytestkitchen_e813bbb710.jpg
+      ext: .jpeg
+      width: 580
+      height: 750
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637805936/small_librarytestkitchen_e813bbb710.jpg
+      ext: .jpeg
+      width: 386
+      height: 500
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637805935/thumbnail_librarytestkitchen_e813bbb710.jpg
+      ext: .jpeg
+      width: 121
+      height: 156
 header:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637805934/librarytestkitchen_e813bbb710.jpg
-    width: 1000
-    height: 1294
-    ext: .jpeg
-    mime: image/jpeg
-    formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637805935/large_librarytestkitchen_e813bbb710.jpg
-            ext: .jpeg
-            width: 773
-            height: 1000
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637805935/medium_librarytestkitchen_e813bbb710.jpg
-            ext: .jpeg
-            width: 580
-            height: 750
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637805936/small_librarytestkitchen_e813bbb710.jpg
-            ext: .jpeg
-            width: 386
-            height: 500
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637805935/thumbnail_librarytestkitchen_e813bbb710.jpg
-            ext: .jpeg
-            width: 121
-            height: 156
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637805934/librarytestkitchen_e813bbb710.jpg
+  width: 1000
+  height: 1294
+  ext: .jpeg
+  mime: image/jpeg
+  formats:
+    large:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637805935/large_librarytestkitchen_e813bbb710.jpg
+      ext: .jpeg
+      width: 773
+      height: 1000
+    medium:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637805935/medium_librarytestkitchen_e813bbb710.jpg
+      ext: .jpeg
+      width: 580
+      height: 750
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637805936/small_librarytestkitchen_e813bbb710.jpg
+      ext: .jpeg
+      width: 386
+      height: 500
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637805935/thumbnail_librarytestkitchen_e813bbb710.jpg
+      ext: .jpeg
+      width: 121
+      height: 156
 noHeaderImage: false
 gallery:
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637805934/librarytestkitchen_e813bbb710.jpg
-      width: 1000
-      height: 1294
-      ext: .jpeg
-      mime: image/jpeg
-      formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637805935/large_librarytestkitchen_e813bbb710.jpg
-            ext: .jpeg
-            width: 773
-            height: 1000
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637805935/medium_librarytestkitchen_e813bbb710.jpg
-            ext: .jpeg
-            width: 580
-            height: 750
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637805936/small_librarytestkitchen_e813bbb710.jpg
-            ext: .jpeg
-            width: 386
-            height: 500
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637805935/thumbnail_librarytestkitchen_e813bbb710.jpg
-            ext: .jpeg
-            width: 121
-            height: 156
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637805934/librarytestkitchen_e813bbb710.jpg
+    width: 1000
+    height: 1294
+    ext: .jpeg
+    mime: image/jpeg
+    formats:
+      large:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637805935/large_librarytestkitchen_e813bbb710.jpg
+        ext: .jpeg
+        width: 773
+        height: 1000
+      medium:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637805935/medium_librarytestkitchen_e813bbb710.jpg
+        ext: .jpeg
+        width: 580
+        height: 750
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637805936/small_librarytestkitchen_e813bbb710.jpg
+        ext: .jpeg
+        width: 386
+        height: 500
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637805935/thumbnail_librarytestkitchen_e813bbb710.jpg
+        ext: .jpeg
+        width: 121
+        height: 156
 images:
-    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1637805934/librarytestkitchen_e813bbb710.jpg
-
+  - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1637805934/librarytestkitchen_e813bbb710.jpg
+projects/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 Started at Harvard in 2011, the Library Test Kitchen is a seminar and community bringing together librarians, students, and designers to explore innovative new programs, services, and spatial strategies for libraries. Participants created wifi-proof booths, study carrels for napping, and digital campfires for charging devices convivially. Over its life, the seminar created a pop-up library lab in a retail storefront space in Harvard Square, visited SXSW, and moved from Harvard to the Graduate School of Library and Information Science at Simmons College. 
 

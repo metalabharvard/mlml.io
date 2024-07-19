@@ -2,41 +2,45 @@
 title: The Future of Science Museums
 subtitle: Michael John Gorman in conversation with Jeffrey Schnapp
 fulltitle: 'The Future of Science Museums: Michael John Gorman in conversation with Jeffrey Schnapp'
-status: ""
+status: ''
 outputs:
-    - HTML
-    - Calendar
+  - HTML
+  - Calendar
 timezone: Boston
 timezoneAbbr:
-    berlin: CET
-    boston: EST
-start_time: "2020-12-10T16:00:00-05:00"
-end_time: "2020-12-10T17:00:00-05:00"
+  berlin: CET
+  boston: EST
+start_time: '2020-12-10T16:00:00-05:00'
+end_time: '2020-12-10T17:00:00-05:00'
 start_time_utc: 20201210T210000Z
 end_time_utc: 20201210T220000Z
 start_time_locations:
-    berlin: "2020-12-10T22:00:00+01:00"
-    boston: "2020-12-10T16:00:00-05:00"
+  berlin: '2020-12-10T22:00:00+01:00'
+  boston: '2020-12-10T16:00:00-05:00'
 end_time_locations:
-    berlin: "2020-12-10T23:00:00+01:00"
-    boston: "2020-12-10T17:00:00-05:00"
+  berlin: '2020-12-10T23:00:00+01:00'
+  boston: '2020-12-10T17:00:00-05:00'
 tzid: America/New_York
 intro: Exploring the future of science museums with Michael John Gorman, founder of Biotopia and Science Gallery International.
 location: Cambridge, MA
 description: Exploring the future of science museums with Michael John Gorman, founder of Biotopia and Science Gallery International.
 isFeatured: false
 isOngoing: false
-lastmod: "2022-02-09T16:13:54.347Z"
-date: "2020-12-10T16:00:00-05:00"
+lastmod: '2024-05-24T11:01:35.563Z'
+date: '2020-12-10T16:00:00-05:00'
 slug: the-future-of-science-museums
 members:
-    - label: Jeffrey Schnapp
-      slug: jeffrey-schnapp
-      twitter: jaytiesse
+  - label: Jeffrey Schnapp
+    slug: jeffrey-schnapp
+    twitter: jaytiesse
 noHeaderImage: false
 members_twitter:
-    - jaytiesse
-
+  - jaytiesse
+events/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 **ONLINE<br />
 Thursday, December 10

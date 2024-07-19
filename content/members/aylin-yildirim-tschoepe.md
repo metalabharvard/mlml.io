@@ -2,42 +2,47 @@
 name: Aylin Yildirim Tschoepe
 title: Aylin Yildirim Tschoepe
 roles:
-    - role: Co-Founder Basel
-      position: 3
+  - role: Co-Founder Basel
+    position: 3
 isAlumnus: false
-isFounder: false
+isFounder: true
 rank: 3.999
 role_string: Co-Founder Basel
 email: aylin.tschoepe@fhnw.ch
 website: https://www.fhnw.ch/de/personen/aylin-tschoepe
-vimeo: aylintschoepe
-start: "2024-03-01"
-lastmod: "2024-03-14T10:04:17.562Z"
-date: "2024-03-13T15:26:39.149Z"
+start: '2024-03-01'
+lastmod: '2024-05-24T10:56:36.136Z'
+date: '2024-03-13T16:26:39.149Z'
 slug: aylin-yildirim-tschoepe
 events:
-    - label: metaLAB (at) Basel Launch
-      slug: basel-launch
+  - label: Changing the world one stitch at a time
+    slug: changing-the-world-one-stitch-at-a-time
+  - label: metaLAB (at) Basel Launch
+    slug: basel-launch
 picture:
-    alternativeText: Aylin Yildirim Tschoepe profile picture
-    caption: Aylin Yildirim Tschoepe profile picture
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/c_limit,w_2000,h_2000/e_grayscale/v1710343582/f_SW_Aylin_Tschoepe_portrait_026c36dfc7.png
-    width: 457
-    height: 640
-    ext: .png
-    mime: image/png
-    formats:
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1710343583/small_f_SW_Aylin_Tschoepe_portrait_026c36dfc7.png
-            ext: .png
-            width: 357
-            height: 500
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1710343583/thumbnail_f_SW_Aylin_Tschoepe_portrait_026c36dfc7.png
-            ext: .png
-            width: 111
-            height: 156
-
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/c_limit,w_2000,h_2000/e_grayscale/v1710343582/f_SW_Aylin_Tschoepe_portrait_026c36dfc7.png
+  width: 457
+  height: 640
+  ext: .png
+  mime: image/png
+  alternativeText: Aylin Yildirim Tschoepe profile picture
+  caption: Aylin Yildirim Tschoepe profile picture
+  formats:
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1710343583/small_f_SW_Aylin_Tschoepe_portrait_026c36dfc7.png
+      ext: .png
+      width: 357
+      height: 500
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1710343583/thumbnail_f_SW_Aylin_Tschoepe_portrait_026c36dfc7.png
+      ext: .png
+      width: 111
+      height: 156
+members/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 Aylin Yildirim Tschoepe (Ph.D. Anthropology, Doctor of Design) is founder of metaLAB (at) Basel and professor of design anthropology at the Basel Academy of Art and Design FHNW, where she connects her experience from anthropology, architecture, design, gender studies, and urban studies.
 

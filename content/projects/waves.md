@@ -1,147 +1,150 @@
 ---
 title: Swimming in a Sea of Invisible Waves
-subtitle: ""
+subtitle: ''
 fulltitle: Swimming in a Sea of Invisible Waves
 intro: What would the world look like if we could see the information that moves invisibly around us via wifi, cellular, and satellite?
-start: "2023-06-01"
-end: ""
+start: '2023-06-01'
+end: ''
 datestring: Since June 2023
 description: What would the world look like if we could see the information that moves invisibly around us via wifi, cellular, and satellite?
-location: ""
-host: harvard
+location: ''
 mediation: mixed_media
 isFeatured: true
-externalLink: ""
-lastmod: "2023-08-25T18:09:37.987Z"
-date: "2023-06-01"
+externalLink: ''
+lastmod: '2024-05-20T02:01:49.933Z'
+date: '2023-06-01'
 slug: waves
 events:
-    - label: Swimming in a Sea of Invisible Waves
-      slug: waves-hls-beyond
+  - label: Swimming in a Sea of Invisible Waves
+    slug: waves-hls-beyond
 members:
-    - label: Dhriti Vadlakonda
-      slug: dhriti-vadlakonda
-    - label: Jeffrey Schnapp
-      slug: jeffrey-schnapp
-      twitter: jaytiesse
-    - label: Kathleen Esfahany
-      slug: kathleen-esfahany
-      twitter: knesfahany
-    - label: Lindsay Saftler
-      slug: lindsay-saftler
-    - label: Maggie Chen
-      slug: maggie-chen
-    - label: Mohsin Yousufi
-      slug: mohsin-yousufi
-      twitter: mohsinyky
-    - label: Rebecca Kilberg
-      slug: rebecca-kilberg
-    - label: Sabrina Madera
-      slug: sabrina-madera
-    - label: Sarah Newman
-      slug: sarah-newman
-      twitter: sarahwnewman
-    - label: Sonia Sobrino Ralston
-      slug: sonia-sobrino-ralston
-    - label: Taylor Bledsoe
-      slug: taylor-bledsoe
-      twitter: aiming4moon
-    - label: Zachary Slonsky
-      slug: zachary-slonsky
+  - label: Dhriti Vadlakonda
+    slug: dhriti-vadlakonda
+  - label: Jeffrey Schnapp
+    slug: jeffrey-schnapp
+    twitter: jaytiesse
+  - label: Kathleen Esfahany
+    slug: kathleen-esfahany
+    twitter: knesfahany
+  - label: Lindsay Saftler
+    slug: lindsay-saftler
+  - label: Maggie Chen
+    slug: maggie-chen
+  - label: Mohsin Yousufi
+    slug: mohsin-yousufi
+    twitter: mohsinyky
+  - label: Rebecca Kilberg
+    slug: rebecca-kilberg
+  - label: Sabrina Madera
+    slug: sabrina-madera
+  - label: Sarah Newman
+    slug: sarah-newman
+    twitter: sarahwnewman
+  - label: Sonia Sobrino Ralston
+    slug: sonia-sobrino-ralston
+  - label: Taylor Bledsoe
+    slug: taylor-bledsoe
+    twitter: aiming4moon
+  - label: Zachary Slonsky
+    slug: zachary-slonsky
 cover:
-    caption: Swimming in a Sea of Invisible Waves banner image
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1692646798/Screen_Shot_2023_08_21_at_3_38_22_PM_ef9b289132.png
-    width: 1636
-    height: 1018
-    ext: .png
-    mime: image/png
-    formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1692646800/large_Screen_Shot_2023_08_21_at_3_38_22_PM_ef9b289132.png
-            ext: .png
-            width: 1000
-            height: 622
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1692646800/medium_Screen_Shot_2023_08_21_at_3_38_22_PM_ef9b289132.png
-            ext: .png
-            width: 750
-            height: 467
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1692646801/small_Screen_Shot_2023_08_21_at_3_38_22_PM_ef9b289132.png
-            ext: .png
-            width: 500
-            height: 311
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1692646799/thumbnail_Screen_Shot_2023_08_21_at_3_38_22_PM_ef9b289132.png
-            ext: .png
-            width: 245
-            height: 152
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1692646798/Screen_Shot_2023_08_21_at_3_38_22_PM_ef9b289132.png
+  width: 1636
+  height: 1018
+  ext: .png
+  mime: image/png
+  caption: Swimming in a Sea of Invisible Waves banner image
+  formats:
+    large:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1692646800/large_Screen_Shot_2023_08_21_at_3_38_22_PM_ef9b289132.png
+      ext: .png
+      width: 1000
+      height: 622
+    medium:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1692646800/medium_Screen_Shot_2023_08_21_at_3_38_22_PM_ef9b289132.png
+      ext: .png
+      width: 750
+      height: 467
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1692646801/small_Screen_Shot_2023_08_21_at_3_38_22_PM_ef9b289132.png
+      ext: .png
+      width: 500
+      height: 311
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1692646799/thumbnail_Screen_Shot_2023_08_21_at_3_38_22_PM_ef9b289132.png
+      ext: .png
+      width: 245
+      height: 152
 header:
-    caption: Swimming in a Sea of Invisible Waves banner image
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1692646798/Screen_Shot_2023_08_21_at_3_38_22_PM_ef9b289132.png
-    width: 1636
-    height: 1018
-    ext: .png
-    mime: image/png
-    formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1692646800/large_Screen_Shot_2023_08_21_at_3_38_22_PM_ef9b289132.png
-            ext: .png
-            width: 1000
-            height: 622
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1692646800/medium_Screen_Shot_2023_08_21_at_3_38_22_PM_ef9b289132.png
-            ext: .png
-            width: 750
-            height: 467
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1692646801/small_Screen_Shot_2023_08_21_at_3_38_22_PM_ef9b289132.png
-            ext: .png
-            width: 500
-            height: 311
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1692646799/thumbnail_Screen_Shot_2023_08_21_at_3_38_22_PM_ef9b289132.png
-            ext: .png
-            width: 245
-            height: 152
-noHeaderImage: false
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1692646798/Screen_Shot_2023_08_21_at_3_38_22_PM_ef9b289132.png
+  width: 1636
+  height: 1018
+  ext: .png
+  mime: image/png
+  caption: Swimming in a Sea of Invisible Waves banner image
+  formats:
+    large:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1692646800/large_Screen_Shot_2023_08_21_at_3_38_22_PM_ef9b289132.png
+      ext: .png
+      width: 1000
+      height: 622
+    medium:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1692646800/medium_Screen_Shot_2023_08_21_at_3_38_22_PM_ef9b289132.png
+      ext: .png
+      width: 750
+      height: 467
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1692646801/small_Screen_Shot_2023_08_21_at_3_38_22_PM_ef9b289132.png
+      ext: .png
+      width: 500
+      height: 311
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1692646799/thumbnail_Screen_Shot_2023_08_21_at_3_38_22_PM_ef9b289132.png
+      ext: .png
+      width: 245
+      height: 152
 feature:
-    caption: Swimming in a Sea of Invisible Waves banner image
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1692646798/Screen_Shot_2023_08_21_at_3_38_22_PM_ef9b289132.png
-    width: 1636
-    height: 1018
-    ext: .png
-    mime: image/png
-    formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1692646800/large_Screen_Shot_2023_08_21_at_3_38_22_PM_ef9b289132.png
-            ext: .png
-            width: 1000
-            height: 622
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1692646800/medium_Screen_Shot_2023_08_21_at_3_38_22_PM_ef9b289132.png
-            ext: .png
-            width: 750
-            height: 467
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1692646801/small_Screen_Shot_2023_08_21_at_3_38_22_PM_ef9b289132.png
-            ext: .png
-            width: 500
-            height: 311
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1692646799/thumbnail_Screen_Shot_2023_08_21_at_3_38_22_PM_ef9b289132.png
-            ext: .png
-            width: 245
-            height: 152
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1692646798/Screen_Shot_2023_08_21_at_3_38_22_PM_ef9b289132.png
+  width: 1636
+  height: 1018
+  ext: .png
+  mime: image/png
+  caption: Swimming in a Sea of Invisible Waves banner image
+  formats:
+    large:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1692646800/large_Screen_Shot_2023_08_21_at_3_38_22_PM_ef9b289132.png
+      ext: .png
+      width: 1000
+      height: 622
+    medium:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1692646800/medium_Screen_Shot_2023_08_21_at_3_38_22_PM_ef9b289132.png
+      ext: .png
+      width: 750
+      height: 467
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1692646801/small_Screen_Shot_2023_08_21_at_3_38_22_PM_ef9b289132.png
+      ext: .png
+      width: 500
+      height: 311
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1692646799/thumbnail_Screen_Shot_2023_08_21_at_3_38_22_PM_ef9b289132.png
+      ext: .png
+      width: 245
+      height: 152
+noHeaderImage: false
 members_twitter:
-    - jaytiesse
-    - knesfahany
-    - mohsinyky
-    - sarahwnewman
-    - aiming4moon
+  - sarahwnewman
+  - jaytiesse
+  - aiming4moon
+  - knesfahany
+  - mohsinyky
 images:
-    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1692646798/Screen_Shot_2023_08_21_at_3_38_22_PM_ef9b289132.png
-
+  - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1692646798/Screen_Shot_2023_08_21_at_3_38_22_PM_ef9b289132.png
+projects/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 *Swimming in a Sea of Invisible Waves* is a multimodal project – part art, part science communication, part public engagement – that seeks to understand, demystify, and create designs to visualize the various radio frequency technologies (including wifi, cellular, bluetooth, and satellite) that provide the scaffolding for 21st century information and communication technologies.
 

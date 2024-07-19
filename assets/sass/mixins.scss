@@ -104,6 +104,10 @@
       & > * {
         grid-column-end: span 4;
       }
+
+      .related-labs {
+        grid-column-end: span 8;
+      }
     }
 
     &.third {

@@ -1,11 +1,20 @@
 {{ define "main" }}
-  <section class="homepage-projects-list grid-wide">
-    <ul role="list">
-    {{ $defaultLabel := .Site.Params.Label.AriaGeneralPicture }}
-    {{ range (.Paginate ((((.Pages).ByParam "title").Reverse.ByParam "date").Reverse)).Pages }}
-      {{ partial "project-preview.html" (dict "project" . "defaultHost" .Site.Params.Label.HostsDefault "defaultMediation" .Site.Params.Label.DefaultMediation "defaultLabel" $defaultLabel "both" .Site.Params.Label.HostsBoth)}}
+<section class="homepage-projects-list grid-wide">
+  <menu class="projects-labs-menu">
+    <li><a {{ if eq .RelPermalink "/projects/" }}class="isActive" aria-current="page"{{ end }} href="/projects/" title="View all">All</a></li>
+    {{ $current := .RelPermalink }}
+    {{ $list := index .Site.Taxonomies "projects/labs" }}
+    {{ range $list.ByCount }}
+      <li><a href="{{ .Page.Permalink }}" {{ if eq .Page.RelPermalink $current }}class="isActive" aria-current="page"{{ end }} title="Filter by {{ .Page.Title }}">{{.Page.Title}}{{.Page.Params.Order}}</a></li>
     {{ end }}
-    </ul>
-    {{ partial "pagination.html" . }}
-  </section>
+  </menu>
+  <ul role="list">
+    {{ $defaultLabel := .Site.Params.Label.AriaGeneralPicture }} {{ range
+    (.Paginate ((((.Pages).ByParam "title").Reverse.ByParam
+    "date").Reverse)).Pages }} {{ partial "project-preview.html" (dict "project"
+    . "defaultMediation"
+    .Site.Params.Label.DefaultMediation "defaultLabel" $defaultLabel)}} {{ end }}
+  </ul>
+  {{ partial "pagination.html" . }}
+</section>
 {{ end }}

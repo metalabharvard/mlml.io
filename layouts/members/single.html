@@ -1,83 +1,98 @@
-{{ define "main" }}
-  {{ $name := .Params.Name }}
-  {{- $lists := newScratch }}
-  {{- $lists.Set "social" (slice) }}
-  {{- with .Params.Facebook }}{{ $lists.Add "social" (printf `https://facebook.com/%s` .) }}{{ end }}
-  {{- with .Params.Github }}{{ $lists.Add "social" (printf `https://github.com/%s` .) }}{{ end }}
-  {{- with .Params.Instagram }}{{ $lists.Add "social" (printf `https://instagram.com/%s` .) }}{{ end }}
-  {{- with .Params.Linkedin }}{{ $lists.Add "social" (printf `https://linkedin.com/%s` .) }}{{ end }}
-  {{- with .Params.Soundcloud }}{{ $lists.Add "social" (printf `https://soundcloud.com/%s` .) }}{{ end }}
-  {{- with .Params.Twitter }}{{ $lists.Add "social" (printf `https://twitter.com/%s` .) }}{{ end }}
-  {{- with .Params.Vimeo }}{{ $lists.Add "social" (printf `https://vimeo.com/%s` .) }}{{ end }}
-  {{- with .Params.Youtube }}{{ $lists.Add "social" (printf `https://youtube.com/%s` .) }}{{ end -}}
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Person",
-      "name": {{ .Params.Name }},
-      {{ with .Params.picture.url -}} "image": {{.}},{{ end }}
-      "jobTitle": {{ if .Params.isAlumnus -}}{{- .Site.Params.Label.MemberAlumnus -}}{{- else -}}{{- .Params.Role_string -}}{{- end -}},
-      {{ with .Params.Website -}} "url": {{.}},{{ end }}
-      "sameAs": [{{ range $i, $e := ($lists.Get "social") }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}],
-      {{ if not .Params.isAlumnus -}}"affiliation": {
-        "@type": "Organization",
-        "name": {{ .Site.Title }}
-      }{{ end }}
-    }
-  </script>
-  <section class="homepage-member grid-full grid vcard" itemscope itemtype="https://schema.org/Person">
-    <header class="member-header grid-wide">
-      <h1 class="member-name fn" itemprop="name">{{ .Params.Name }}</h1>
-      <span class="member-role role" itemprop="jobTitle" >
-      {{- if .Params.isAlumnus -}}
-      {{- .Site.Params.Label.MemberAlumnus -}}
-      {{- else -}}
-      {{- .Params.Role_string -}}
-      {{- end -}}
-      </span>
-    </header>
-    {{ $name := .Params.name }}
-    {{ $defaultLabel := string (printf .Site.Params.Label.AriaProfilePicture $name) }}
-    {{ with .Params.picture -}}
-    <div class="member-image" itemprop="image">
-      {{- partial "image.html" (dict "picture" . "alt" $defaultLabel "title" $defaultLabel "format" "member") -}}
-    </div>
-    {{- end }}
-    <aside class="member-aside grid-narrow-left-aside">
-      {{ partial "icon-website.html" (dict "link" .Params.Website "name" $name "template" .Site.Params.Label.SocialHomepageTitle) }}
-      {{ partial "icon-mail.html" (dict "mail" .Params.Email "name" $name "template" .Site.Params.Label.SocialEmailTitle) }}
-      {{ partial "icon-twitter.html" (dict "handle" .Params.Twitter "name" $name "template" .Site.Params.Label.SocialTwitterTitle) }}
-      {{ partial "icon-instagram.html" (dict "handle" .Params.Instagram "name" $name "template" .Site.Params.Label.SocialInstagramTitle) }}
-      {{ partial "icon-github.html" (dict "handle" .Params.Github "name" $name "template" .Site.Params.Label.SocialGithubTitle) }}
-      {{ partial "icon-soundcloud.html" (dict "handle" .Params.Soundcloud "name" $name "template" .Site.Params.Label.SocialSoundcloudTitle) }}
-      {{ partial "icon-youtube.html" (dict "handle" .Params.Youtube "name" $name "template" .Site.Params.Label.SocialYouTubeTitle) }}
-      {{ partial "icon-vimeo.html" (dict "handle" .Params.Vimeo "name" $name "template" .Site.Params.Label.SocialVimeoTitle) }}
-      {{ partial "icon-mastodon.html" (dict "link" .Params.Mastodon "name" $name "template" .Site.Params.Label.socialMastodonTitle) }}
-    </aside>
-    {{ if or (or .Params.Intro .Content) .Params.isAlumnus }}
-    <div class="member-description grid-narrow-left note content" itemprop="description">
-      {{ if .Params.isAlumnus }}
-      <span role="alert">{{ .Site.Params.Label.label_alumni_update }}</span>
-      {{ end }}
-      {{ with .Params.Intro }}
-      <h2 class="member-intro">{{ . }}</h2>
-      {{ end }}
-      {{ with .Content }}
-      {{ . }}
-      {{ end }}
-    </div>
-    {{ end }}
-    {{ $events := .Params.Events }}
-    {{ $projects := .Params.Projects }}
-    {{ $count := partial "columnCount.html" (dict "list" (slice $projects $events)) }}
-    {{ if gt $count 0 }}
-    <aside class="member-relations grid-wide grid grid-v-default half">
-      {{ partial "related-items.html" (dict "items" $projects "term" .Site.Params.Label.RelatedMembers "label" .Site.Params.Label.RelatedLabelProjects "class" "project" "path" "p") }}
-      {{ partial "related-items.html" (dict "items" $events "term" .Site.Params.Label.RelatedMembers "label" .Site.Params.Label.RelatedLabelEvents "class" "event" "path" "e") }}
-    </aside>
-    {{ end }}
-    <footer class="member-footer grid-wide" role="contentinfo">
-      {{ partial "span-published.html" (dict "PublishDate" .PublishDate "Lastmod" .Lastmod  "PublishText" .Site.Params.Label.pagePublishedText "EditText" .Site.Params.Label.pageEditedText "DateFormat" .Site.Params.Label.pagePublishedFormat) }}
-    </footer>
-  </section>
+{{ define "main" }} {{ $name := .Params.Name }} {{- $lists := newScratch }} {{-
+$lists.Set "social" (slice) }} {{- with .Params.Facebook }}{{ $lists.Add
+"social" (printf `https://facebook.com/%s` .) }}{{ end }} {{- with
+.Params.Github }}{{ $lists.Add "social" (printf `https://github.com/%s` .) }}{{
+end }} {{- with .Params.Instagram }}{{ $lists.Add "social" (printf
+`https://instagram.com/%s` .) }}{{ end }} {{- with .Params.Linkedin }}{{
+$lists.Add "social" (printf `https://linkedin.com/%s` .) }}{{ end }} {{- with
+.Params.Soundcloud }}{{ $lists.Add "social" (printf `https://soundcloud.com/%s`
+.) }}{{ end }} {{- with .Params.Twitter }}{{ $lists.Add "social" (printf
+`https://twitter.com/%s` .) }}{{ end }} {{- with .Params.Vimeo }}{{ $lists.Add
+"social" (printf `https://vimeo.com/%s` .) }}{{ end }} {{- with .Params.Youtube
+}}{{ $lists.Add "social" (printf `https://youtube.com/%s` .) }}{{ end -}}
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": {{ .Params.Name }},
+    {{ if .Params.picture }}{{ with .Params.picture.url -}} "image": {{.}},{{ end }}{{ end }}
+    "jobTitle": {{ if .Params.isAlumnus -}}{{- .Site.Params.Label.MemberAlumnus -}}{{- else -}}{{- .Params.Role_string -}}{{- end -}},
+    {{ with .Params.Website -}} "url": {{.}},{{ end }}
+    "sameAs": [{{ range $i, $e := ($lists.Get "social") }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}],
+    {{ if not .Params.isAlumnus -}}"affiliation": {
+      "@type": "Organization",
+      "name": {{ .Site.Title }}
+    }{{ end }}
+  }
+</script>
+<section
+  class="homepage-member grid-full grid vcard"
+  itemscope
+  itemtype="https://schema.org/Person"
+>
+  <header class="member-header grid-wide">
+    <h1 class="member-name fn" itemprop="name">{{ .Params.Name }}</h1>
+    <span class="member-role role" itemprop="jobTitle">
+      {{- if .Params.isAlumnus -}} {{- .Site.Params.Label.MemberAlumnus -}} {{-
+      else -}} {{- .Params.Role_string -}} {{- end -}}
+    </span>
+  </header>
+  {{ $name := .Params.name }} {{ $defaultLabel := string (printf
+  .Site.Params.Label.AriaProfilePicture $name) }} {{ with .Params.picture -}}
+  <div class="member-image" itemprop="image">
+    {{- partial "image.html" (dict "picture" . "alt" $defaultLabel "title"
+    $defaultLabel "format" "member") -}}
+  </div>
+  {{- end }}
+  <aside class="member-aside grid-narrow-left-aside">
+    {{ partial "icon-website.html" (dict "link" .Params.Website "name" $name
+    "template" .Site.Params.Label.SocialHomepageTitle) }} {{ partial
+    "icon-mail.html" (dict "mail" .Params.Email "name" $name "template"
+    .Site.Params.Label.SocialEmailTitle) }} {{ partial "icon-twitter.html" (dict
+    "handle" .Params.Twitter "name" $name "template"
+    .Site.Params.Label.SocialTwitterTitle) }} {{ partial "icon-instagram.html"
+    (dict "handle" .Params.Instagram "name" $name "template"
+    .Site.Params.Label.SocialInstagramTitle) }} {{ partial "icon-github.html"
+    (dict "handle" .Params.Github "name" $name "template"
+    .Site.Params.Label.SocialGithubTitle) }} {{ partial "icon-soundcloud.html"
+    (dict "handle" .Params.Soundcloud "name" $name "template"
+    .Site.Params.Label.SocialSoundcloudTitle) }} {{ partial "icon-youtube.html"
+    (dict "handle" .Params.Youtube "name" $name "template"
+    .Site.Params.Label.SocialYouTubeTitle) }} {{ partial "icon-vimeo.html" (dict
+    "handle" .Params.Vimeo "name" $name "template"
+    .Site.Params.Label.SocialVimeoTitle) }} {{ partial "icon-mastodon.html"
+    (dict "link" .Params.Mastodon "name" $name "template"
+    .Site.Params.Label.socialMastodonTitle) }}
+  </aside>
+  {{ if or (or .Params.Intro .Content) .Params.isAlumnus }}
+  <div
+    class="member-description grid-narrow-left note content"
+    itemprop="description"
+  >
+    {{ if .Params.isAlumnus }}
+    <span role="alert">{{ .Site.Params.Label.label_alumni_update }}</span>
+    {{ end }} {{ with .Params.Intro }}
+    <h2 class="member-intro">{{ . }}</h2>
+    {{ end }} {{ with .Content }} {{ . }} {{ end }}
+  </div>
+  {{ end }} {{ $events := .Params.Events }} {{ $projects := .Params.Projects }}
+  {{ $labs := .Params.Labs }} {{ $count := partial "columnCount.html" (dict
+  "list" (slice $projects $events)) }} {{ if gt $count 0 }}
+  <aside class="member-relations grid-wide grid grid-v-default half">
+    {{ partial "related-items.html" (dict "items" $labs "term" "" "label" "Labs"
+    "class" "labs" "path" "m") }} {{ partial "related-items.html" (dict "items"
+    $projects "term" .Site.Params.Label.RelatedMembers "label"
+    .Site.Params.Label.RelatedLabelProjects "class" "project" "path" "p") }} {{
+    partial "related-items.html" (dict "items" $events "term"
+    .Site.Params.Label.RelatedMembers "label"
+    .Site.Params.Label.RelatedLabelEvents "class" "event" "path" "e") }}
+  </aside>
+  {{ end }}
+  <footer class="member-footer grid-wide" role="contentinfo">
+    {{ partial "span-published.html" (dict "PublishDate" .PublishDate "Lastmod"
+    .Lastmod "PublishText" .Site.Params.Label.pagePublishedText "EditText"
+    .Site.Params.Label.pageEditedText "DateFormat"
+    .Site.Params.Label.pagePublishedFormat) }}
+  </footer>
+</section>
 {{ end }}

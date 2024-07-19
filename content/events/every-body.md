@@ -2,35 +2,39 @@
 title: Every Body
 subtitle: A conversation with Sara Hendren & Elizabeth Guffey
 fulltitle: 'Every Body: A conversation with Sara Hendren & Elizabeth Guffey'
-status: ""
+status: ''
 outputs:
-    - HTML
-    - Calendar
+  - HTML
+  - Calendar
 timezone: Boston
 timezoneAbbr:
-    berlin: CEST
-    boston: EDT
-start_time: "2020-10-08T16:00:00-04:00"
-end_time: "2020-10-08T17:00:00-04:00"
+  berlin: CEST
+  boston: EDT
+start_time: '2020-10-08T16:00:00-04:00'
+end_time: '2020-10-08T17:00:00-04:00'
 start_time_utc: 20201008T200000Z
 end_time_utc: 20201008T210000Z
 start_time_locations:
-    berlin: "2020-10-08T22:00:00+02:00"
-    boston: "2020-10-08T16:00:00-04:00"
+  berlin: '2020-10-08T22:00:00+02:00'
+  boston: '2020-10-08T16:00:00-04:00'
 end_time_locations:
-    berlin: "2020-10-08T23:00:00+02:00"
-    boston: "2020-10-08T17:00:00-04:00"
+  berlin: '2020-10-08T23:00:00+02:00'
+  boston: '2020-10-08T17:00:00-04:00'
 tzid: America/New_York
 intro: Celebrating the arrival of two books that question hidden assumptions about ability, the body, and roles for design and technology in defining shared worlds.
 location: Cambridge, MA
-description: Celebrating the arrival of two books that question hidden assumptions about ability, the body, and roles for design and technology in defining shared…
+description: Celebrating the arrival of two books that question hidden assumptions about ability, the body, and roles for design and technology in defining shared worlds.
 isFeatured: false
 isOngoing: false
-lastmod: "2022-02-14T15:25:40.776Z"
-date: "2020-10-08T16:00:00-04:00"
+lastmod: '2024-05-24T11:01:34.865Z'
+date: '2020-10-08T16:00:00-04:00'
 slug: every-body
 noHeaderImage: false
-
+events/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 **ONLINE<br />
 Thursday, October 8

@@ -1,6 +1,14 @@
 {{ define "main" }}
   <section class="homepage-members-list grid-full">
-    <h1 id="members" class="member-list-header">Members</h1>
+    <menu class="members-labs-menu">
+      <li><a {{ if eq .RelPermalink "/members/" }}class="isActive" aria-current="page"{{ end }} href="/members/" title="View all">All</a></li>
+      {{ $current := .RelPermalink }}
+      {{ $list := index .Site.Taxonomies "members/labs" }}
+      {{ range $list.ByCount }}
+        <li><a href="{{ .Page.Permalink }}" {{ if eq .Page.RelPermalink $current }}class="isActive" aria-current="page"{{ end }} title="Filter by {{ .Page.Title }}">{{.Page.Title}}</a></li>
+      {{ end }}
+    </menu>
+
     <ul class="grid member-list" role="list">
       {{ $templateLabel := .Site.Params.Label.AriaProfilePicture }}
       {{ range (((where (where .Pages "Params.picture" "!=" nil) "Params.isalumnus" false).ByParam "Name").ByParam "start").ByParam "rank" }}
@@ -12,10 +20,12 @@
       {{ end }}
     </ul>
   </section>
+  {{ $alumniList := (where .Pages "Params.isalumnus" true) }}
+  {{ if gt (len $alumniList) 0  }}
   <section class="homepage-alumni-list grid-full">
     <h1 id="community" class="alumni-list-header">Alumni</h1>
     <ul class="grid alumni-list" role="list">
-    {{ range where (sort .Pages "Params.name") "Params.isalumnus" true }}
+    {{ range (sort $alumniList "Params.name") }}
       <li role="listitem" {{ printf "data-id=%q" .Params.Slug | safeHTMLAttr }}>
         <a href="{{ printf "m/%s" .Params.Slug | absURL }}" class="alumni-preview vcard" vocab="https://schema.org/" typeof="Person">
           <strong class="alumni-name fn p-name" property="name">{{ .Params.Name }}</strong>
@@ -24,4 +34,5 @@
     {{ end }}
     </ul>
   </section>
+  {{ end }}
 {{ end }}

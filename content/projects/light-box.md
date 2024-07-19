@@ -3,135 +3,138 @@ title: Lightbox Gallery
 subtitle: Harvard Art Museums
 fulltitle: 'Lightbox Gallery: Harvard Art Museums'
 intro: A venue for digital experiments and new media projects that respond to collections held at the Harvard Art Museums, where digital tools reveal connections between objects and play with traditions of display.
-start: "2014-11-01"
-end: "2021-07-12"
+start: '2014-11-01'
+end: '2021-07-12'
 datestring: November 2014&ensp;–&ensp;July 2021
-description: A venue for digital experiments and new media projects that respond to collections held at the Harvard Art Museums, where digital tools reveal connec…
+description: A venue for digital experiments and new media projects that respond to collections held at the Harvard Art Museums, where digital tools reveal connections…
 location: Cambridge, USA
-host: harvard
 mediation: mixed_media
 isFeatured: false
-externalLink: ""
-lastmod: "2022-07-13T09:37:03.749Z"
-date: "2021-07-12"
+externalLink: ''
+lastmod: '2024-05-20T02:01:50.450Z'
+date: '2021-07-12'
 slug: light-box
 collaborators:
-    - label: Harvard Art Museums
+  - label: Harvard Art Museums
 links:
-    - label: Lightbox Gallery programming (Harvard Art Museums)
-      url: http://www.harvardartmuseums.org/search-results?q=Lightbox
+  - label: Lightbox Gallery programming (Harvard Art Museums)
+    url: http://www.harvardartmuseums.org/search-results?q=Lightbox
 events:
-    - label: Machine Experience
-      slug: machine-experience
+  - label: Machine Experience
+    slug: machine-experience
 members:
-    - label: James Yamada
-      slug: james-yamada
-    - label: Jeffrey Schnapp
-      slug: jeffrey-schnapp
-      twitter: jaytiesse
-    - label: Kim Albrecht
-      slug: kim-albrecht
-      twitter: kimay
-    - label: Lins Derry
-      slug: lins-derry
-      twitter: LinsDerry
-    - label: Matthew Battles
-      slug: matthew-battles
-      twitter: matthewbattles
-    - label: Sarah Newman
-      slug: sarah-newman
-      twitter: sarahwnewman
+  - label: James Yamada
+    slug: james-yamada
+  - label: Jeffrey Schnapp
+    slug: jeffrey-schnapp
+    twitter: jaytiesse
+  - label: Kim Albrecht
+    slug: kim-albrecht
+    twitter: kimay
+  - label: Lins Derry
+    slug: lins-derry
+    twitter: LinsDerry
+  - label: Matthew Battles
+    slug: matthew-battles
+    twitter: matthewbattles
+  - label: Sarah Newman
+    slug: sarah-newman
+    twitter: sarahwnewman
 cover:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1641413991/Untitled_1_4352a71efd.png
-    width: 1785
-    height: 1004
-    ext: .png
-    mime: image/png
-    formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1641413992/large_Untitled_1_4352a71efd.png
-            ext: .png
-            width: 1000
-            height: 562
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1641413992/medium_Untitled_1_4352a71efd.png
-            ext: .png
-            width: 750
-            height: 422
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1641413993/small_Untitled_1_4352a71efd.png
-            ext: .png
-            width: 500
-            height: 281
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1641413991/thumbnail_Untitled_1_4352a71efd.png
-            ext: .png
-            width: 245
-            height: 138
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1641413991/Untitled_1_4352a71efd.png
+  width: 1785
+  height: 1004
+  ext: .png
+  mime: image/png
+  formats:
+    large:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1641413992/large_Untitled_1_4352a71efd.png
+      ext: .png
+      width: 1000
+      height: 562
+    medium:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1641413992/medium_Untitled_1_4352a71efd.png
+      ext: .png
+      width: 750
+      height: 422
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1641413993/small_Untitled_1_4352a71efd.png
+      ext: .png
+      width: 500
+      height: 281
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1641413991/thumbnail_Untitled_1_4352a71efd.png
+      ext: .png
+      width: 245
+      height: 138
 header:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1641413991/Untitled_1_4352a71efd.png
-    width: 1785
-    height: 1004
-    ext: .png
-    mime: image/png
-    formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1641413992/large_Untitled_1_4352a71efd.png
-            ext: .png
-            width: 1000
-            height: 562
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1641413992/medium_Untitled_1_4352a71efd.png
-            ext: .png
-            width: 750
-            height: 422
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1641413993/small_Untitled_1_4352a71efd.png
-            ext: .png
-            width: 500
-            height: 281
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1641413991/thumbnail_Untitled_1_4352a71efd.png
-            ext: .png
-            width: 245
-            height: 138
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1641413991/Untitled_1_4352a71efd.png
+  width: 1785
+  height: 1004
+  ext: .png
+  mime: image/png
+  formats:
+    large:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1641413992/large_Untitled_1_4352a71efd.png
+      ext: .png
+      width: 1000
+      height: 562
+    medium:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1641413992/medium_Untitled_1_4352a71efd.png
+      ext: .png
+      width: 750
+      height: 422
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1641413993/small_Untitled_1_4352a71efd.png
+      ext: .png
+      width: 500
+      height: 281
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1641413991/thumbnail_Untitled_1_4352a71efd.png
+      ext: .png
+      width: 245
+      height: 138
 noHeaderImage: true
 gallery:
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1641413991/Untitled_1_4352a71efd.png
-      width: 1785
-      height: 1004
-      ext: .png
-      mime: image/png
-      formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1641413992/large_Untitled_1_4352a71efd.png
-            ext: .png
-            width: 1000
-            height: 562
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1641413992/medium_Untitled_1_4352a71efd.png
-            ext: .png
-            width: 750
-            height: 422
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1641413993/small_Untitled_1_4352a71efd.png
-            ext: .png
-            width: 500
-            height: 281
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1641413991/thumbnail_Untitled_1_4352a71efd.png
-            ext: .png
-            width: 245
-            height: 138
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1641413991/Untitled_1_4352a71efd.png
+    width: 1785
+    height: 1004
+    ext: .png
+    mime: image/png
+    formats:
+      large:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1641413992/large_Untitled_1_4352a71efd.png
+        ext: .png
+        width: 1000
+        height: 562
+      medium:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1641413992/medium_Untitled_1_4352a71efd.png
+        ext: .png
+        width: 750
+        height: 422
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1641413993/small_Untitled_1_4352a71efd.png
+        ext: .png
+        width: 500
+        height: 281
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1641413991/thumbnail_Untitled_1_4352a71efd.png
+        ext: .png
+        width: 245
+        height: 138
 members_twitter:
-    - jaytiesse
-    - kimay
-    - LinsDerry
-    - matthewbattles
-    - sarahwnewman
+  - LinsDerry
+  - sarahwnewman
+  - kimay
+  - matthewbattles
+  - jaytiesse
 images:
-    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1641413991/Untitled_1_4352a71efd.png
-
+  - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1641413991/Untitled_1_4352a71efd.png
+projects/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 How do we experience a collection? The Lightbox Gallery in the Renzo Piano designed facility is a venue for digital experiments and new media projects that respond to collections held at the Harvard Art Museums. Built in collaboration with faculty, staff, students, and visiting artists, projects in this space use digital tools to reveal connections between objects and play with traditions of display. Some of these projects are responsive, allowing users to navigate and manipulate the collections. Other projects are cinematic, transforming the Museums into a landscape of digital performance. The Lightbox is a space for cross-disciplinary exploration, turning the gallery into an experimental digital lab.
 

@@ -1,469 +1,472 @@
 ---
 title: futureStage
-subtitle: ""
+subtitle: ''
 fulltitle: futureStage
 intro: An international research collaborative mapping opportunities for performance spaces in a hyperconnected world
-start: "2021-10-15"
-end: ""
+start: '2021-10-15'
+end: ''
 datestring: Since October 2021
 description: An international research collaborative mapping opportunities for performance spaces in a hyperconnected world
 location: global
-host: harvard
 mediation: web
 isFeatured: true
 externalLink: http://future-stage.org/
-lastmod: "2023-03-26T00:48:15.068Z"
-date: "2021-10-15"
+lastmod: '2024-05-20T02:01:49.187Z'
+date: '2021-10-15'
 slug: futurestage
 collaborators:
-    - label: Cathie Boyd
-    - label: Marc Brickman
-    - label: Paolo Ciuccarelli
-    - label: Wesley Cornwell
-    - label: Evenlyn Ficarra
-    - label: Mariana Ibañez
-    - label: Simone Kim
-    - label: Mohammed Obaidullah
-    - label: Jay Pather
-    - label: Cui Qiao
-    - label: Matthias Röder
-      url: https://www.matthiasroder.com/
-    - label: Adama Sanneh
-    - label: Anthony Sargent
-    - label: Shain Shapiro
-    - label: Jean-Philippe Thiellay
-    - label: Shahrokh Yadegari
+  - label: Cathie Boyd
+  - label: Marc Brickman
+  - label: Paolo Ciuccarelli
+  - label: Wesley Cornwell
+  - label: Evenlyn Ficarra
+  - label: Mariana Ibañez
+  - label: Simone Kim
+  - label: Mohammed Obaidullah
+  - label: Jay Pather
+  - label: Cui Qiao
+  - label: Matthias Röder
+    url: https://www.matthiasroder.com/
+  - label: Adama Sanneh
+  - label: Anthony Sargent
+  - label: Shain Shapiro
+  - label: Jean-Philippe Thiellay
+  - label: Shahrokh Yadegari
 events:
-    - label: 'Clock, Fall: Choreorobotics and Near Futures of Choreographic Practice'
-      slug: choreorobotics-talk
-    - label: 'Future Stage Manifesto: Asia'
-      slug: future-stage-manifesto-asia
-    - label: 'Future Stage Manifesto: Eastern Europe'
-      slug: future-stage-manifesto-eastern-europe
-    - label: International Online Theatre Festival
-      slug: iotf2023
-    - label: futureSTAGE Manifesto Panel
-      slug: future-stage-manifesto
+  - label: 'Clock, Fall: Choreorobotics and Near Futures of Choreographic Practice'
+    slug: choreorobotics-talk
+  - label: 'Future Stage Manifesto: Asia'
+    slug: future-stage-manifesto-asia
+  - label: 'Future Stage Manifesto: Eastern Europe'
+    slug: future-stage-manifesto-eastern-europe
+  - label: futureSTAGE Manifesto Panel
+    slug: future-stage-manifesto
+  - label: International Online Theatre Festival
+    slug: iotf2023
 members:
-    - label: Jeffrey Schnapp
-      slug: jeffrey-schnapp
-      twitter: jaytiesse
-    - label: Lins Derry
-      slug: lins-derry
-      twitter: LinsDerry
-    - label: Magda Romanska
-      slug: magda-romanska
-      twitter: MagdaRomanska
-    - label: Matthew Battles
-      slug: matthew-battles
-      twitter: matthewbattles
-    - label: Paolo Ciuccarelli
-      slug: paolo-ciuccarelli
-      twitter: pciuccarelli
-    - label: Paolo Petrocelli
-      slug: paolo-petrocelli
-      twitter: paolopetrocelli
-    - label: Sydney Skybetter
-      slug: sydney-skybetter
-      twitter: sydneyskybetter
+  - label: Jeffrey Schnapp
+    slug: jeffrey-schnapp
+    twitter: jaytiesse
+  - label: Lins Derry
+    slug: lins-derry
+    twitter: LinsDerry
+  - label: Magda Romanska
+    slug: magda-romanska
+    twitter: MagdaRomanska
+  - label: Matthew Battles
+    slug: matthew-battles
+    twitter: matthewbattles
+  - label: Paolo Ciuccarelli
+    slug: paolo-ciuccarelli
+    twitter: pciuccarelli
+  - label: Paolo Petrocelli
+    slug: paolo-petrocelli
+    twitter: paolopetrocelli
+  - label: Sydney Skybetter
+    slug: sydney-skybetter
+    twitter: sydneyskybetter
 cover:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870218/Futurstage_Instagram_posts3_d7dcee6127.png
-    width: 2250
-    height: 2250
-    ext: .png
-    mime: image/png
-    formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870219/large_Futurstage_Instagram_posts3_d7dcee6127.png
-            ext: .png
-            width: 1000
-            height: 1000
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870219/medium_Futurstage_Instagram_posts3_d7dcee6127.png
-            ext: .png
-            width: 750
-            height: 750
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870220/small_Futurstage_Instagram_posts3_d7dcee6127.png
-            ext: .png
-            width: 500
-            height: 500
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870218/thumbnail_Futurstage_Instagram_posts3_d7dcee6127.png
-            ext: .png
-            width: 156
-            height: 156
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870218/Futurstage_Instagram_posts3_d7dcee6127.png
+  width: 2250
+  height: 2250
+  ext: .png
+  mime: image/png
+  formats:
+    large:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870219/large_Futurstage_Instagram_posts3_d7dcee6127.png
+      ext: .png
+      width: 1000
+      height: 1000
+    medium:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870219/medium_Futurstage_Instagram_posts3_d7dcee6127.png
+      ext: .png
+      width: 750
+      height: 750
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870220/small_Futurstage_Instagram_posts3_d7dcee6127.png
+      ext: .png
+      width: 500
+      height: 500
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870218/thumbnail_Futurstage_Instagram_posts3_d7dcee6127.png
+      ext: .png
+      width: 156
+      height: 156
 header:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870218/Futurstage_Instagram_posts3_d7dcee6127.png
-    width: 2250
-    height: 2250
-    ext: .png
-    mime: image/png
-    formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870219/large_Futurstage_Instagram_posts3_d7dcee6127.png
-            ext: .png
-            width: 1000
-            height: 1000
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870219/medium_Futurstage_Instagram_posts3_d7dcee6127.png
-            ext: .png
-            width: 750
-            height: 750
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870220/small_Futurstage_Instagram_posts3_d7dcee6127.png
-            ext: .png
-            width: 500
-            height: 500
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870218/thumbnail_Futurstage_Instagram_posts3_d7dcee6127.png
-            ext: .png
-            width: 156
-            height: 156
-noHeaderImage: false
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870218/Futurstage_Instagram_posts3_d7dcee6127.png
+  width: 2250
+  height: 2250
+  ext: .png
+  mime: image/png
+  formats:
+    large:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870219/large_Futurstage_Instagram_posts3_d7dcee6127.png
+      ext: .png
+      width: 1000
+      height: 1000
+    medium:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870219/medium_Futurstage_Instagram_posts3_d7dcee6127.png
+      ext: .png
+      width: 750
+      height: 750
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870220/small_Futurstage_Instagram_posts3_d7dcee6127.png
+      ext: .png
+      width: 500
+      height: 500
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870218/thumbnail_Futurstage_Instagram_posts3_d7dcee6127.png
+      ext: .png
+      width: 156
+      height: 156
 feature:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1635870218/Futurstage_Instagram_posts3_d7dcee6127.png
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1635870218/Futurstage_Instagram_posts3_d7dcee6127.png
+  width: 2250
+  height: 2250
+  ext: .png
+  mime: image/png
+  formats:
+    large:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1635870219/large_Futurstage_Instagram_posts3_d7dcee6127.png
+      ext: .png
+      width: 1000
+      height: 1000
+    medium:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1635870219/medium_Futurstage_Instagram_posts3_d7dcee6127.png
+      ext: .png
+      width: 750
+      height: 750
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1635870220/small_Futurstage_Instagram_posts3_d7dcee6127.png
+      ext: .png
+      width: 500
+      height: 500
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1635870218/thumbnail_Futurstage_Instagram_posts3_d7dcee6127.png
+      ext: .png
+      width: 156
+      height: 156
+noHeaderImage: false
+gallery:
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870215/Futurstage_Instagram_posts1_7695077a08.png
     width: 2250
     height: 2250
     ext: .png
     mime: image/png
     formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1635870219/large_Futurstage_Instagram_posts3_d7dcee6127.png
-            ext: .png
-            width: 1000
-            height: 1000
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1635870219/medium_Futurstage_Instagram_posts3_d7dcee6127.png
-            ext: .png
-            width: 750
-            height: 750
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1635870220/small_Futurstage_Instagram_posts3_d7dcee6127.png
-            ext: .png
-            width: 500
-            height: 500
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1635870218/thumbnail_Futurstage_Instagram_posts3_d7dcee6127.png
-            ext: .png
-            width: 156
-            height: 156
-gallery:
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870215/Futurstage_Instagram_posts1_7695077a08.png
-      width: 2250
-      height: 2250
-      ext: .png
-      mime: image/png
-      formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870216/large_Futurstage_Instagram_posts1_7695077a08.png
-            ext: .png
-            width: 1000
-            height: 1000
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870216/medium_Futurstage_Instagram_posts1_7695077a08.png
-            ext: .png
-            width: 750
-            height: 750
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870217/small_Futurstage_Instagram_posts1_7695077a08.png
-            ext: .png
-            width: 500
-            height: 500
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870215/thumbnail_Futurstage_Instagram_posts1_7695077a08.png
-            ext: .png
-            width: 156
-            height: 156
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870224/Futurstage_Instagram_posts5_4fad76900d.png
-      width: 2250
-      height: 2250
-      ext: .png
-      mime: image/png
-      formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870226/large_Futurstage_Instagram_posts5_4fad76900d.png
-            ext: .png
-            width: 1000
-            height: 1000
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870226/medium_Futurstage_Instagram_posts5_4fad76900d.png
-            ext: .png
-            width: 750
-            height: 750
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870227/small_Futurstage_Instagram_posts5_4fad76900d.png
-            ext: .png
-            width: 500
-            height: 500
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870225/thumbnail_Futurstage_Instagram_posts5_4fad76900d.png
-            ext: .png
-            width: 156
-            height: 156
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870225/Futurstage_Instagram_posts2_58c91aa958.png
-      width: 2250
-      height: 2250
-      ext: .png
-      mime: image/png
-      formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870227/large_Futurstage_Instagram_posts2_58c91aa958.png
-            ext: .png
-            width: 1000
-            height: 1000
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870227/medium_Futurstage_Instagram_posts2_58c91aa958.png
-            ext: .png
-            width: 750
-            height: 750
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870227/small_Futurstage_Instagram_posts2_58c91aa958.png
-            ext: .png
-            width: 500
-            height: 500
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870226/thumbnail_Futurstage_Instagram_posts2_58c91aa958.png
-            ext: .png
-            width: 156
-            height: 156
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870226/Futurstage_Instagram_posts4_adb4b7f24e.png
-      width: 2250
-      height: 2250
-      ext: .png
-      mime: image/png
-      formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870227/large_Futurstage_Instagram_posts4_adb4b7f24e.png
-            ext: .png
-            width: 1000
-            height: 1000
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870227/medium_Futurstage_Instagram_posts4_adb4b7f24e.png
-            ext: .png
-            width: 750
-            height: 750
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870228/small_Futurstage_Instagram_posts4_adb4b7f24e.png
-            ext: .png
-            width: 500
-            height: 500
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870226/thumbnail_Futurstage_Instagram_posts4_adb4b7f24e.png
-            ext: .png
-            width: 156
-            height: 156
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870226/Futurstage_Instagram_posts7_42780912c2.png
-      width: 2250
-      height: 2250
-      ext: .png
-      mime: image/png
-      formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870228/large_Futurstage_Instagram_posts7_42780912c2.png
-            ext: .png
-            width: 1000
-            height: 1000
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870228/medium_Futurstage_Instagram_posts7_42780912c2.png
-            ext: .png
-            width: 750
-            height: 750
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870229/small_Futurstage_Instagram_posts7_42780912c2.png
-            ext: .png
-            width: 500
-            height: 500
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870227/thumbnail_Futurstage_Instagram_posts7_42780912c2.png
-            ext: .png
-            width: 156
-            height: 156
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870229/Futurstage_Instagram_posts9_1e13d8c8c0.png
-      width: 2250
-      height: 2250
-      ext: .png
-      mime: image/png
-      formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870230/large_Futurstage_Instagram_posts9_1e13d8c8c0.png
-            ext: .png
-            width: 1000
-            height: 1000
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870231/medium_Futurstage_Instagram_posts9_1e13d8c8c0.png
-            ext: .png
-            width: 750
-            height: 750
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870231/small_Futurstage_Instagram_posts9_1e13d8c8c0.png
-            ext: .png
-            width: 500
-            height: 500
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870229/thumbnail_Futurstage_Instagram_posts9_1e13d8c8c0.png
-            ext: .png
-            width: 156
-            height: 156
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870229/Futurstage_Instagram_posts6_fe680a3eb5.png
-      width: 2250
-      height: 2250
-      ext: .png
-      mime: image/png
-      formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870230/large_Futurstage_Instagram_posts6_fe680a3eb5.png
-            ext: .png
-            width: 1000
-            height: 1000
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870231/medium_Futurstage_Instagram_posts6_fe680a3eb5.png
-            ext: .png
-            width: 750
-            height: 750
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870232/small_Futurstage_Instagram_posts6_fe680a3eb5.png
-            ext: .png
-            width: 500
-            height: 500
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870229/thumbnail_Futurstage_Instagram_posts6_fe680a3eb5.png
-            ext: .png
-            width: 156
-            height: 156
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870230/Futurstage_Instagram_posts8_29e51c3d29.png
-      width: 2250
-      height: 2250
-      ext: .png
-      mime: image/png
-      formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870231/large_Futurstage_Instagram_posts8_29e51c3d29.png
-            ext: .png
-            width: 1000
-            height: 1000
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870232/medium_Futurstage_Instagram_posts8_29e51c3d29.png
-            ext: .png
-            width: 750
-            height: 750
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870232/small_Futurstage_Instagram_posts8_29e51c3d29.png
-            ext: .png
-            width: 500
-            height: 500
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870231/thumbnail_Futurstage_Instagram_posts8_29e51c3d29.png
-            ext: .png
-            width: 156
-            height: 156
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1648394783/Future_Stage_Poster_Green_Pattern_1_Page_2sm_de97288de1.jpg
-      width: 386
-      height: 640
-      ext: .jpg
-      mime: image/jpeg
-      formats:
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1648394784/small_Future_Stage_Poster_Green_Pattern_1_Page_2sm_de97288de1.jpg
-            ext: .jpg
-            width: 302
-            height: 500
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1648394784/thumbnail_Future_Stage_Poster_Green_Pattern_1_Page_2sm_de97288de1.jpg
-            ext: .jpg
-            width: 94
-            height: 156
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1648394783/Future_Stage_Poster_Green_Pattern_1_Page_1sm_79bc7edd39.jpg
-      width: 386
-      height: 640
-      ext: .jpg
-      mime: image/jpeg
-      formats:
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1648394784/small_Future_Stage_Poster_Green_Pattern_1_Page_1sm_79bc7edd39.jpg
-            ext: .jpg
-            width: 302
-            height: 500
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1648394784/thumbnail_Future_Stage_Poster_Green_Pattern_1_Page_1sm_79bc7edd39.jpg
-            ext: .jpg
-            width: 94
-            height: 156
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1648394783/Future_Stage_Poster_Green_Pattern_1_Page_3sm_71ba3d3b02.jpg
-      width: 386
-      height: 640
-      ext: .jpg
-      mime: image/jpeg
-      formats:
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1648394784/small_Future_Stage_Poster_Green_Pattern_1_Page_3sm_71ba3d3b02.jpg
-            ext: .jpg
-            width: 302
-            height: 500
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1648394784/thumbnail_Future_Stage_Poster_Green_Pattern_1_Page_3sm_71ba3d3b02.jpg
-            ext: .jpg
-            width: 94
-            height: 156
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1648394809/Future_Stage_Poster_Black_Pattern_1_Page_1sm_51c39250f7.jpg
-      width: 386
-      height: 640
-      ext: .jpg
-      mime: image/jpeg
-      formats:
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1648394809/small_Future_Stage_Poster_Black_Pattern_1_Page_1sm_51c39250f7.jpg
-            ext: .jpg
-            width: 302
-            height: 500
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1648394809/thumbnail_Future_Stage_Poster_Black_Pattern_1_Page_1sm_51c39250f7.jpg
-            ext: .jpg
-            width: 94
-            height: 156
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1648394809/Future_Stage_Poster_Black_Pattern_1_Page_3sm_0c416b0c86.jpg
-      width: 386
-      height: 640
-      ext: .jpg
-      mime: image/jpeg
-      formats:
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1648394810/small_Future_Stage_Poster_Black_Pattern_1_Page_3sm_0c416b0c86.jpg
-            ext: .jpg
-            width: 302
-            height: 500
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1648394809/thumbnail_Future_Stage_Poster_Black_Pattern_1_Page_3sm_0c416b0c86.jpg
-            ext: .jpg
-            width: 94
-            height: 156
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1648394809/Future_Stage_Poster_Black_Pattern_1_Page_2sm_bb203bf196.jpg
-      width: 386
-      height: 640
-      ext: .jpg
-      mime: image/jpeg
-      formats:
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1648394810/small_Future_Stage_Poster_Black_Pattern_1_Page_2sm_bb203bf196.jpg
-            ext: .jpg
-            width: 302
-            height: 500
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1648394809/thumbnail_Future_Stage_Poster_Black_Pattern_1_Page_2sm_bb203bf196.jpg
-            ext: .jpg
-            width: 94
-            height: 156
+      large:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870216/large_Futurstage_Instagram_posts1_7695077a08.png
+        ext: .png
+        width: 1000
+        height: 1000
+      medium:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870216/medium_Futurstage_Instagram_posts1_7695077a08.png
+        ext: .png
+        width: 750
+        height: 750
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870217/small_Futurstage_Instagram_posts1_7695077a08.png
+        ext: .png
+        width: 500
+        height: 500
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870215/thumbnail_Futurstage_Instagram_posts1_7695077a08.png
+        ext: .png
+        width: 156
+        height: 156
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870224/Futurstage_Instagram_posts5_4fad76900d.png
+    width: 2250
+    height: 2250
+    ext: .png
+    mime: image/png
+    formats:
+      large:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870226/large_Futurstage_Instagram_posts5_4fad76900d.png
+        ext: .png
+        width: 1000
+        height: 1000
+      medium:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870226/medium_Futurstage_Instagram_posts5_4fad76900d.png
+        ext: .png
+        width: 750
+        height: 750
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870227/small_Futurstage_Instagram_posts5_4fad76900d.png
+        ext: .png
+        width: 500
+        height: 500
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870225/thumbnail_Futurstage_Instagram_posts5_4fad76900d.png
+        ext: .png
+        width: 156
+        height: 156
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870225/Futurstage_Instagram_posts2_58c91aa958.png
+    width: 2250
+    height: 2250
+    ext: .png
+    mime: image/png
+    formats:
+      large:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870227/large_Futurstage_Instagram_posts2_58c91aa958.png
+        ext: .png
+        width: 1000
+        height: 1000
+      medium:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870227/medium_Futurstage_Instagram_posts2_58c91aa958.png
+        ext: .png
+        width: 750
+        height: 750
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870227/small_Futurstage_Instagram_posts2_58c91aa958.png
+        ext: .png
+        width: 500
+        height: 500
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870226/thumbnail_Futurstage_Instagram_posts2_58c91aa958.png
+        ext: .png
+        width: 156
+        height: 156
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870226/Futurstage_Instagram_posts4_adb4b7f24e.png
+    width: 2250
+    height: 2250
+    ext: .png
+    mime: image/png
+    formats:
+      large:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870227/large_Futurstage_Instagram_posts4_adb4b7f24e.png
+        ext: .png
+        width: 1000
+        height: 1000
+      medium:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870227/medium_Futurstage_Instagram_posts4_adb4b7f24e.png
+        ext: .png
+        width: 750
+        height: 750
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870228/small_Futurstage_Instagram_posts4_adb4b7f24e.png
+        ext: .png
+        width: 500
+        height: 500
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870226/thumbnail_Futurstage_Instagram_posts4_adb4b7f24e.png
+        ext: .png
+        width: 156
+        height: 156
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870226/Futurstage_Instagram_posts7_42780912c2.png
+    width: 2250
+    height: 2250
+    ext: .png
+    mime: image/png
+    formats:
+      large:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870228/large_Futurstage_Instagram_posts7_42780912c2.png
+        ext: .png
+        width: 1000
+        height: 1000
+      medium:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870228/medium_Futurstage_Instagram_posts7_42780912c2.png
+        ext: .png
+        width: 750
+        height: 750
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870229/small_Futurstage_Instagram_posts7_42780912c2.png
+        ext: .png
+        width: 500
+        height: 500
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870227/thumbnail_Futurstage_Instagram_posts7_42780912c2.png
+        ext: .png
+        width: 156
+        height: 156
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870229/Futurstage_Instagram_posts9_1e13d8c8c0.png
+    width: 2250
+    height: 2250
+    ext: .png
+    mime: image/png
+    formats:
+      large:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870230/large_Futurstage_Instagram_posts9_1e13d8c8c0.png
+        ext: .png
+        width: 1000
+        height: 1000
+      medium:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870231/medium_Futurstage_Instagram_posts9_1e13d8c8c0.png
+        ext: .png
+        width: 750
+        height: 750
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870231/small_Futurstage_Instagram_posts9_1e13d8c8c0.png
+        ext: .png
+        width: 500
+        height: 500
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870229/thumbnail_Futurstage_Instagram_posts9_1e13d8c8c0.png
+        ext: .png
+        width: 156
+        height: 156
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870229/Futurstage_Instagram_posts6_fe680a3eb5.png
+    width: 2250
+    height: 2250
+    ext: .png
+    mime: image/png
+    formats:
+      large:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870230/large_Futurstage_Instagram_posts6_fe680a3eb5.png
+        ext: .png
+        width: 1000
+        height: 1000
+      medium:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870231/medium_Futurstage_Instagram_posts6_fe680a3eb5.png
+        ext: .png
+        width: 750
+        height: 750
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870232/small_Futurstage_Instagram_posts6_fe680a3eb5.png
+        ext: .png
+        width: 500
+        height: 500
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870229/thumbnail_Futurstage_Instagram_posts6_fe680a3eb5.png
+        ext: .png
+        width: 156
+        height: 156
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870230/Futurstage_Instagram_posts8_29e51c3d29.png
+    width: 2250
+    height: 2250
+    ext: .png
+    mime: image/png
+    formats:
+      large:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870231/large_Futurstage_Instagram_posts8_29e51c3d29.png
+        ext: .png
+        width: 1000
+        height: 1000
+      medium:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870232/medium_Futurstage_Instagram_posts8_29e51c3d29.png
+        ext: .png
+        width: 750
+        height: 750
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870232/small_Futurstage_Instagram_posts8_29e51c3d29.png
+        ext: .png
+        width: 500
+        height: 500
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635870231/thumbnail_Futurstage_Instagram_posts8_29e51c3d29.png
+        ext: .png
+        width: 156
+        height: 156
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1648394783/Future_Stage_Poster_Green_Pattern_1_Page_2sm_de97288de1.jpg
+    width: 386
+    height: 640
+    ext: .jpg
+    mime: image/jpeg
+    formats:
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1648394784/small_Future_Stage_Poster_Green_Pattern_1_Page_2sm_de97288de1.jpg
+        ext: .jpg
+        width: 302
+        height: 500
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1648394784/thumbnail_Future_Stage_Poster_Green_Pattern_1_Page_2sm_de97288de1.jpg
+        ext: .jpg
+        width: 94
+        height: 156
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1648394783/Future_Stage_Poster_Green_Pattern_1_Page_1sm_79bc7edd39.jpg
+    width: 386
+    height: 640
+    ext: .jpg
+    mime: image/jpeg
+    formats:
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1648394784/small_Future_Stage_Poster_Green_Pattern_1_Page_1sm_79bc7edd39.jpg
+        ext: .jpg
+        width: 302
+        height: 500
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1648394784/thumbnail_Future_Stage_Poster_Green_Pattern_1_Page_1sm_79bc7edd39.jpg
+        ext: .jpg
+        width: 94
+        height: 156
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1648394783/Future_Stage_Poster_Green_Pattern_1_Page_3sm_71ba3d3b02.jpg
+    width: 386
+    height: 640
+    ext: .jpg
+    mime: image/jpeg
+    formats:
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1648394784/small_Future_Stage_Poster_Green_Pattern_1_Page_3sm_71ba3d3b02.jpg
+        ext: .jpg
+        width: 302
+        height: 500
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1648394784/thumbnail_Future_Stage_Poster_Green_Pattern_1_Page_3sm_71ba3d3b02.jpg
+        ext: .jpg
+        width: 94
+        height: 156
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1648394809/Future_Stage_Poster_Black_Pattern_1_Page_1sm_51c39250f7.jpg
+    width: 386
+    height: 640
+    ext: .jpg
+    mime: image/jpeg
+    formats:
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1648394809/small_Future_Stage_Poster_Black_Pattern_1_Page_1sm_51c39250f7.jpg
+        ext: .jpg
+        width: 302
+        height: 500
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1648394809/thumbnail_Future_Stage_Poster_Black_Pattern_1_Page_1sm_51c39250f7.jpg
+        ext: .jpg
+        width: 94
+        height: 156
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1648394809/Future_Stage_Poster_Black_Pattern_1_Page_3sm_0c416b0c86.jpg
+    width: 386
+    height: 640
+    ext: .jpg
+    mime: image/jpeg
+    formats:
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1648394810/small_Future_Stage_Poster_Black_Pattern_1_Page_3sm_0c416b0c86.jpg
+        ext: .jpg
+        width: 302
+        height: 500
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1648394809/thumbnail_Future_Stage_Poster_Black_Pattern_1_Page_3sm_0c416b0c86.jpg
+        ext: .jpg
+        width: 94
+        height: 156
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1648394809/Future_Stage_Poster_Black_Pattern_1_Page_2sm_bb203bf196.jpg
+    width: 386
+    height: 640
+    ext: .jpg
+    mime: image/jpeg
+    formats:
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1648394810/small_Future_Stage_Poster_Black_Pattern_1_Page_2sm_bb203bf196.jpg
+        ext: .jpg
+        width: 302
+        height: 500
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1648394809/thumbnail_Future_Stage_Poster_Black_Pattern_1_Page_2sm_bb203bf196.jpg
+        ext: .jpg
+        width: 94
+        height: 156
 members_twitter:
-    - jaytiesse
-    - LinsDerry
-    - MagdaRomanska
-    - matthewbattles
-    - pciuccarelli
-    - paolopetrocelli
-    - sydneyskybetter
+  - sydneyskybetter
+  - pciuccarelli
+  - LinsDerry
+  - MagdaRomanska
+  - matthewbattles
+  - jaytiesse
+  - paolopetrocelli
 images:
-    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1635870218/Futurstage_Instagram_posts3_d7dcee6127.png
-
+  - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1635870218/Futurstage_Instagram_posts3_d7dcee6127.png
+projects/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 Future Stage is an international initiative broadly concerned with the future of the performing arts: with the needs and possibilities for media, culture, and presence in a hyperconnected world; the civic stakes of the performing arts today; emergent modes and genres of performance and organization; the architecture of future performance spaces; and the future professions that will animate those performance venues. It is both theoretical and practical: consisting in [A Manifesto for the Future Stage](http://future-stage.org/) (which was published on Oct. 25, 2021, and has now been translated into twelve languages) and in an array of related hands-on projects that are connected to the manifesto's key themes: performance as a human right, architectures that promote connectivity, expanded concepts of liveness, sustainable models of touring, a rethinking of streaming not as a fallback option but instead as an expressive medium, and the need for new institutional and fiscal models. 
 

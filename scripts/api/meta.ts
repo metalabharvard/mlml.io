@@ -13,6 +13,8 @@ const fetchMetaData = async () => {
       "populate=preview",
     );
 
+    console.log(`Meta data fetched and processed successfully for ${responseObject.header_title}`);
+
     const config = {
       title: responseObject.header_title,
       baseURL: responseObject.url,

@@ -2,8 +2,8 @@
 name: Nic Palmarini
 title: Nic Palmarini
 roles:
-    - role: Affiliate
-      position: 8
+  - role: Affiliate
+    position: 8
 isAlumnus: false
 isFounder: false
 rank: 8.999
@@ -11,31 +11,35 @@ role_string: Affiliate
 twitter: '@nipalm'
 email: Nic.Palmarini@newcastle.ac.uk
 website: https://uknica.co.uk/blog/people/nic-palmarini/
-start: "2024-04-15"
-lastmod: "2024-04-23T16:34:14.833Z"
-date: "2024-04-23T16:27:20.635Z"
+start: '2024-04-15'
+lastmod: '2024-05-24T10:56:36.419Z'
+date: '2024-04-23T18:27:20.635Z'
 slug: nic-1
 events:
-    - label: metaLAB (at) Basel Launch
-      slug: basel-launch
+  - label: metaLAB (at) Basel Launch
+    slug: basel-launch
 picture:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/c_limit,w_2000,h_2000/e_grayscale/v1713889520/Palmarini_2019_col_wide_720x720_40f9ec3fd9.jpg
-    width: 720
-    height: 720
-    ext: .jpeg
-    mime: image/jpeg
-    formats:
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1713889522/small_Palmarini_2019_col_wide_720x720_40f9ec3fd9.jpg
-            ext: .jpeg
-            width: 500
-            height: 500
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1713889521/thumbnail_Palmarini_2019_col_wide_720x720_40f9ec3fd9.jpg
-            ext: .jpeg
-            width: 156
-            height: 156
-
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/c_limit,w_2000,h_2000/e_grayscale/v1713889520/Palmarini_2019_col_wide_720x720_40f9ec3fd9.jpg
+  width: 720
+  height: 720
+  ext: .jpeg
+  mime: image/jpeg
+  formats:
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1713889522/small_Palmarini_2019_col_wide_720x720_40f9ec3fd9.jpg
+      ext: .jpeg
+      width: 500
+      height: 500
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1713889521/thumbnail_Palmarini_2019_col_wide_720x720_40f9ec3fd9.jpg
+      ext: .jpeg
+      width: 156
+      height: 156
+members/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 Nic is one of the leading experts in innovation on ageing and longevity and the Director of UK's National Innovation Centre for Ageing (NICA), a global organisation supported by an initial investment from the UK Government and Newcastle University to help co-innovate - together with citizens and private and public organisations - services, technologies and products and deliver them to the market through innovative, ethical, and sustainable business models.
 

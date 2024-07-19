@@ -1,34 +1,38 @@
 ---
 title: Sherlock
-subtitle: ""
+subtitle: ''
 fulltitle: Sherlock
-status: ""
+status: ''
 outputs:
-    - HTML
-    - Calendar
+  - HTML
+  - Calendar
 timezone: Boston
 timezoneAbbr:
-    berlin: CEST
-    boston: EDT
-start_time: "2017-08-10T16:00:00-04:00"
-end_time: "2017-08-10T17:00:00-04:00"
+  berlin: CEST
+  boston: EDT
+start_time: '2017-08-10T16:00:00-04:00'
+end_time: '2017-08-10T17:00:00-04:00'
 start_time_utc: 20170810T200000Z
 end_time_utc: 20170810T210000Z
 start_time_locations:
-    berlin: "2017-08-10T22:00:00+02:00"
-    boston: "2017-08-10T16:00:00-04:00"
+  berlin: '2017-08-10T22:00:00+02:00'
+  boston: '2017-08-10T16:00:00-04:00'
 end_time_locations:
-    berlin: "2017-08-10T23:00:00+02:00"
-    boston: "2017-08-10T17:00:00-04:00"
+  berlin: '2017-08-10T23:00:00+02:00'
+  boston: '2017-08-10T17:00:00-04:00'
 tzid: America/New_York
 location: Cambridge, MA
 isFeatured: false
 isOngoing: false
-lastmod: "2022-02-09T16:13:52.716Z"
-date: "2017-08-10T16:00:00-04:00"
+lastmod: '2024-05-24T11:01:35.330Z'
+date: '2017-08-10T16:00:00-04:00'
 slug: sherlock
 noHeaderImage: false
-
+events/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 **Sherlock**
 <br />Jonathan Sun

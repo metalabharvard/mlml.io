@@ -1,37 +1,41 @@
 ---
 title: MozFest
-subtitle: ""
+subtitle: ''
 fulltitle: MozFest
-status: ""
+status: ''
 outputs:
-    - HTML
-    - Calendar
+  - HTML
+  - Calendar
 timezone: Boston
 timezoneAbbr:
-    berlin: CEST
-    boston: EDT
-start_time: "2018-10-22T16:00:00-04:00"
-end_time: "2018-10-22T17:00:00-04:00"
+  berlin: CEST
+  boston: EDT
+start_time: '2018-10-22T16:00:00-04:00'
+end_time: '2018-10-22T17:00:00-04:00'
 start_time_utc: 20181022T200000Z
 end_time_utc: 20181022T210000Z
 start_time_locations:
-    berlin: "2018-10-22T22:00:00+02:00"
-    boston: "2018-10-22T16:00:00-04:00"
+  berlin: '2018-10-22T22:00:00+02:00'
+  boston: '2018-10-22T16:00:00-04:00'
 end_time_locations:
-    berlin: "2018-10-22T23:00:00+02:00"
-    boston: "2018-10-22T17:00:00-04:00"
+  berlin: '2018-10-22T23:00:00+02:00'
+  boston: '2018-10-22T17:00:00-04:00'
 tzid: America/New_York
 location: London, England
 isFeatured: false
 isOngoing: false
-lastmod: "2022-03-03T11:47:49.570Z"
-date: "2018-10-22T16:00:00-04:00"
+lastmod: '2024-05-24T11:01:35.737Z'
+date: '2018-10-22T16:00:00-04:00'
 slug: moz-fest
 noHeaderImage: false
 links:
-    - label: Mozilla Festival
-      url: https://www.mozillafestival.org
-
+  - label: Mozilla Festival
+    url: https://www.mozillafestival.org
+events/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 metaLAB will make our debut appearance at the international Mozilla Festival, MozFest, in London this weekend, with {{< link "p/moral-labyrinth" >}}Moral Labyrinth{{< /link >}} a walking installation created by Sarah Newman that contends with the Value Alignment Problem in artificial intelligence. This is part of metaLAB's ongoing exploration of the intersection of Art + AI, particularly focused on using interactive art to reflect on social and ethical problems that AI developments make relevant.
 

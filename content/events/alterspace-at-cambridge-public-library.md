@@ -1,42 +1,46 @@
 ---
 title: Alterspace at Cambridge Public Library
-subtitle: ""
+subtitle: ''
 fulltitle: Alterspace at Cambridge Public Library
-status: ""
+status: ''
 outputs:
-    - HTML
-    - Calendar
+  - HTML
+  - Calendar
 timezone: Boston
 timezoneAbbr:
-    berlin: CET
-    boston: EST
-start_time: "2019-03-01T16:00:00-05:00"
-end_time: "2019-03-01T17:00:00-05:00"
+  berlin: CET
+  boston: EST
+start_time: '2019-03-01T16:00:00-05:00'
+end_time: '2019-03-01T17:00:00-05:00'
 start_time_utc: 20190301T210000Z
 end_time_utc: 20190301T220000Z
 start_time_locations:
-    berlin: "2019-03-01T22:00:00+01:00"
-    boston: "2019-03-01T16:00:00-05:00"
+  berlin: '2019-03-01T22:00:00+01:00'
+  boston: '2019-03-01T16:00:00-05:00'
 end_time_locations:
-    berlin: "2019-03-01T23:00:00+01:00"
-    boston: "2019-03-01T17:00:00-05:00"
+  berlin: '2019-03-01T23:00:00+01:00'
+  boston: '2019-03-01T17:00:00-05:00'
 tzid: America/New_York
 intro: <i>Alterspace:</i> libraries, digital placemaking, and emancipatory design
 location: Cambridge, MA
 description: <i>Alterspace:</i> libraries, digital placemaking, and emancipatory design
 isFeatured: false
 isOngoing: false
-lastmod: "2022-02-14T16:00:18.425Z"
-date: "2019-03-01T16:00:00-05:00"
+lastmod: '2024-05-24T11:01:34.933Z'
+date: '2019-03-01T16:00:00-05:00'
 slug: alterspace-at-cambridge-public-library
 members:
-    - label: Keith Hartwig
-      slug: keith-hartwig
+  - label: Keith Hartwig
+    slug: keith-hartwig
 noHeaderImage: false
 links:
-    - label: Alterspace
-      url: http://alterspace.github.io
-
+  - label: Alterspace
+    url: http://alterspace.github.io
+events/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 **An immersive library experience that gives visitors control over light, color, sound, and space to create the ideal environment for whatever brings them through the library's doors.**
 

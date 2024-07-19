@@ -1,45 +1,49 @@
 ---
 title: The Laughing Room
-subtitle: ""
+subtitle: ''
 fulltitle: The Laughing Room
-status: ""
+status: ''
 outputs:
-    - HTML
-    - Calendar
+  - HTML
+  - Calendar
 timezone: Boston
 timezoneAbbr:
-    berlin: CET
-    boston: EST
-start_time: "2018-11-16T16:00:00-05:00"
-end_time: "2018-11-16T17:00:00-05:00"
+  berlin: CET
+  boston: EST
+start_time: '2018-11-16T16:00:00-05:00'
+end_time: '2018-11-16T17:00:00-05:00'
 start_time_utc: 20181116T210000Z
 end_time_utc: 20181116T220000Z
 start_time_locations:
-    berlin: "2018-11-16T22:00:00+01:00"
-    boston: "2018-11-16T16:00:00-05:00"
+  berlin: '2018-11-16T22:00:00+01:00'
+  boston: '2018-11-16T16:00:00-05:00'
 end_time_locations:
-    berlin: "2018-11-16T23:00:00+01:00"
-    boston: "2018-11-16T17:00:00-05:00"
+  berlin: '2018-11-16T23:00:00+01:00'
+  boston: '2018-11-16T17:00:00-05:00'
 tzid: America/New_York
 location: Cambridge, MA
 isFeatured: false
 isOngoing: false
-lastmod: "2022-02-09T16:13:53.740Z"
-date: "2018-11-16T16:00:00-05:00"
+lastmod: '2024-05-24T11:01:35.791Z'
+date: '2018-11-16T16:00:00-05:00'
 slug: the-laughing-room
 noHeaderImage: false
 press_articles:
-    - label: Inside the Laughing Room
-      url: https://shass.mit.edu/news/news-2018-inside-laughing-room
-    - label: Funny, Creepy, or Both? - The Harvard Gazette
-      url: https://news.harvard.edu/gazette/story/2018/11/funny-or-creepy-metalab-researcher-creates-sitcom-like-experience/
-    - label: Jonny Sun’s New Art Project Is a Sitcom, Starring You - Boston
-      url: https://www.bostonmagazine.com/arts-entertainment/2018/11/09/jonny-sun-sitcom-cambridge-laughing-room/
-    - label: First, he wrote a book with Lin-Manuel Miranda. Next, an art exhibit in Cambridge that will tell you if you’re funny - The Boston Globe
-      url: https://www.bostonglobe.com/metro/2018/11/09/want-sitcom-illustrator-jonny-sun-opening-interactive-art-exhibit-cambridge/9IWRjdMFk19s4FoGCLj0MN/story.html
-    - label: Student’s work at Harvard examines the convergence of tech and the arts
-      url: http://news.harker.org/students-work-at-harvard-examines-the-convergence-of-tech-and-the-arts/
-
+  - label: Inside the Laughing Room
+    url: https://shass.mit.edu/news/news-2018-inside-laughing-room
+  - label: Funny, Creepy, or Both? - The Harvard Gazette
+    url: https://news.harvard.edu/gazette/story/2018/11/funny-or-creepy-metalab-researcher-creates-sitcom-like-experience/
+  - label: Jonny Sun’s New Art Project Is a Sitcom, Starring You - Boston
+    url: https://www.bostonmagazine.com/arts-entertainment/2018/11/09/jonny-sun-sitcom-cambridge-laughing-room/
+  - label: First, he wrote a book with Lin-Manuel Miranda. Next, an art exhibit in Cambridge that will tell you if you’re funny - The Boston Globe
+    url: https://www.bostonglobe.com/metro/2018/11/09/want-sitcom-illustrator-jonny-sun-opening-interactive-art-exhibit-cambridge/9IWRjdMFk19s4FoGCLj0MN/story.html
+  - label: Student’s work at Harvard examines the convergence of tech and the arts
+    url: http://news.harker.org/students-work-at-harvard-examines-the-convergence-of-tech-and-the-arts/
+events/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 **The Laughing Room<br />
 November 16–18, 2018**

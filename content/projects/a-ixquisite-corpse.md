@@ -1,27 +1,30 @@
 ---
 title: AIxquisite Corpse
-subtitle: ""
+subtitle: ''
 fulltitle: AIxquisite Corpse
 intro: AIxquisite Corpse explores computational and traditional roles for images through a variant of the famed surrealist game.
-start: "2019-09-01"
-end: "2020-04-01"
+start: '2019-09-01'
+end: '2020-04-01'
 datestring: September 2019&ensp;–&ensp;April 2020
 description: AIxquisite Corpse explores computational and traditional roles for images through a variant of the famed surrealist game.
-location: ""
-host: harvard
+location: ''
 mediation: mixed_media
 isFeatured: false
-externalLink: ""
-lastmod: "2022-02-18T16:58:59.479Z"
-date: "2020-04-01"
+externalLink: ''
+lastmod: '2024-05-20T02:01:49.758Z'
+date: '2020-04-01'
 slug: a-ixquisite-corpse
 collaborators:
-    - label: Harvard Art Museums
+  - label: Harvard Art Museums
 members:
-    - label: Keith Hartwig
-      slug: keith-hartwig
+  - label: Keith Hartwig
+    slug: keith-hartwig
 noHeaderImage: false
-
+projects/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 <!---
 <iframe src="http://www.exquisitecorpse.tech/" width="100%" height="300" frameborder="0" title="AIxquisite Corpse"></iframe>

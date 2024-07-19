@@ -2,35 +2,39 @@
 title: From Sea to Seen
 subtitle: A metaLAB conversation with A. Kendra Greene
 fulltitle: 'From Sea to Seen: A metaLAB conversation with A. Kendra Greene'
-status: ""
+status: ''
 outputs:
-    - HTML
-    - Calendar
+  - HTML
+  - Calendar
 timezone: Boston
 timezoneAbbr:
-    berlin: CET
-    boston: EST
-start_time: "2020-11-05T16:00:00-05:00"
-end_time: "2020-11-05T17:00:00-05:00"
+  berlin: CET
+  boston: EST
+start_time: '2020-11-05T16:00:00-05:00'
+end_time: '2020-11-05T17:00:00-05:00'
 start_time_utc: 20201105T210000Z
 end_time_utc: 20201105T220000Z
 start_time_locations:
-    berlin: "2020-11-05T22:00:00+01:00"
-    boston: "2020-11-05T16:00:00-05:00"
+  berlin: '2020-11-05T22:00:00+01:00'
+  boston: '2020-11-05T16:00:00-05:00'
 end_time_locations:
-    berlin: "2020-11-05T23:00:00+01:00"
-    boston: "2020-11-05T17:00:00-05:00"
+  berlin: '2020-11-05T23:00:00+01:00'
+  boston: '2020-11-05T17:00:00-05:00'
 tzid: America/New_York
 intro: Exploring the varied museums of Iceland, and how we contend with memory and trauma, fascination and fear, through objects on display.
 location: Cambridge, MA
 description: Exploring the varied museums of Iceland, and how we contend with memory and trauma, fascination and fear, through objects on display.
 isFeatured: false
 isOngoing: false
-lastmod: "2022-02-09T16:13:53.222Z"
-date: "2020-11-05T16:00:00-05:00"
+lastmod: '2024-05-24T11:01:35.444Z'
+date: '2020-11-05T16:00:00-05:00'
 slug: from-sea-to-seen
 noHeaderImage: false
-
+events/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 **ONLINE<br />
 Thursday, November 5

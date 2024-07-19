@@ -1,81 +1,85 @@
 ---
 title: Machine Experience II
-subtitle: ""
+subtitle: ''
 fulltitle: Machine Experience II
-status: ""
+status: ''
 outputs:
-    - HTML
-    - Calendar
+  - HTML
+  - Calendar
 timezone: Boston
 timezoneAbbr:
-    berlin: CET
-    boston: EST
-start_time: "2018-01-19T16:00:00-05:00"
-end_time: "2018-01-19T17:00:00-05:00"
+  berlin: CET
+  boston: EST
+start_time: '2018-01-19T16:00:00-05:00'
+end_time: '2018-01-19T17:00:00-05:00'
 start_time_utc: 20180119T210000Z
 end_time_utc: 20180119T220000Z
 start_time_locations:
-    berlin: "2018-01-19T22:00:00+01:00"
-    boston: "2018-01-19T16:00:00-05:00"
+  berlin: '2018-01-19T22:00:00+01:00'
+  boston: '2018-01-19T16:00:00-05:00'
 end_time_locations:
-    berlin: "2018-01-19T23:00:00+01:00"
-    boston: "2018-01-19T17:00:00-05:00"
+  berlin: '2018-01-19T23:00:00+01:00'
+  boston: '2018-01-19T17:00:00-05:00'
 tzid: America/New_York
 intro: 'Machine Experience II: Art Perspectives on Artificial Intelligence'
 location: Berlin
 description: 'Machine Experience II: Art Perspectives on Artificial Intelligence'
 isFeatured: false
 isOngoing: false
-lastmod: "2022-02-09T16:13:54.522Z"
-date: "2018-01-19T16:00:00-05:00"
+lastmod: '2024-05-24T11:01:35.423Z'
+date: '2018-01-19T16:00:00-05:00'
 slug: machine-experience-ii
 members:
-    - label: Adam Haar Horowitz
-      slug: adam-haar-horowitz
-    - label: Jessica Yurkofsky
-      slug: jessica-yurkofsky
-    - label: Jie Qi
-      slug: jie-qi
-      twitter: qijie
-    - label: Joanne Cheung
-      slug: joanne-cheung
-      twitter: joannekcheung
-    - label: Kim Albrecht
-      slug: kim-albrecht
-      twitter: kimay
-    - label: Maia Suazo-Maler
-      slug: maia-suazo-maler
-    - label: Matthew Battles
-      slug: matthew-battles
-      twitter: matthewbattles
-    - label: Mindy Seu
-      slug: mindy-seu
-      twitter: mind_seu
-    - label: Rachel Kalmar
-      slug: rachel-kalmar
-    - label: Sands Alden Fish
-      slug: sands-alden-fish
-      twitter: sandsfish
-    - label: Sarah Newman
-      slug: sarah-newman
-      twitter: sarahwnewman
+  - label: Adam Haar Horowitz
+    slug: adam-haar-horowitz
+  - label: Jessica Yurkofsky
+    slug: jessica-yurkofsky
+  - label: Jie Qi
+    slug: jie-qi
+    twitter: qijie
+  - label: Joanne Cheung
+    slug: joanne-cheung
+    twitter: joannekcheung
+  - label: Kim Albrecht
+    slug: kim-albrecht
+    twitter: kimay
+  - label: Maia Suazo-Maler
+    slug: maia-suazo-maler
+  - label: Matthew Battles
+    slug: matthew-battles
+    twitter: matthewbattles
+  - label: Mindy Seu
+    slug: mindy-seu
+    twitter: mind_seu
+  - label: Rachel Kalmar
+    slug: rachel-kalmar
+  - label: Sands Alden Fish
+    slug: sands-alden-fish
+    twitter: sandsfish
+  - label: Sarah Newman
+    slug: sarah-newman
+    twitter: sarahwnewman
 projects:
-    - label: Artificial Senses
-      slug: artificial-senses
-    - label: Moral Labyrinth
-      slug: moral-labyrinth
+  - label: Artificial Senses
+    slug: artificial-senses
+  - label: Moral Labyrinth
+    slug: moral-labyrinth
 noHeaderImage: false
 collaborators:
-    - label: Hannah Davis
+  - label: Hannah Davis
 members_twitter:
-    - qijie
-    - joannekcheung
-    - kimay
-    - matthewbattles
-    - mind_seu
-    - sandsfish
-    - sarahwnewman
-
+  - sandsfish
+  - qijie
+  - joannekcheung
+  - mind_seu
+  - sarahwnewman
+  - kimay
+  - matthewbattles
+events/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 **January 19 - February 4**<br />
 **Rainbow Unicorn**<br />

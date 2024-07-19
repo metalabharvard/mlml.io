@@ -1,91 +1,94 @@
 ---
 title: The Future of Secrets
-subtitle: ""
+subtitle: ''
 fulltitle: The Future of Secrets
 intro: An artistic research project that considers what might happen to our private digital correspondence in the future.
-start: "2018-01-01"
-end: "2019-09-18"
+start: '2018-01-01'
+end: '2019-09-18'
 datestring: January 2018&ensp;–&ensp;September 2019
 description: An artistic research project that considers what might happen to our private digital correspondence in the future.
 location: Northeastern University School of Law
-host: harvard
 mediation: mixed_media
 isFeatured: false
-externalLink: ""
-lastmod: "2021-11-25T01:47:25.295Z"
-date: "2019-09-18"
+externalLink: ''
+lastmod: '2024-05-20T02:01:50.459Z'
+date: '2019-09-18'
 slug: the-future-of-secrets
 collaborators:
-    - label: CLIC Art Artist Residency
+  - label: CLIC Art Artist Residency
 links:
-    - label: TRUST (the presence of secrets) at mfaNOW, Museum of Fine Arts Boston, 2016
-      url: http://www.mfa.org/programs/series/mfanow-overnights
-    - label: The Future of Secrets talk at MIT's Open Documentary Lab, 2017
-      url: http://opendoclab.mit.edu/feb-21-harvard-metalabs-sarah-newman-jessica-yurkofsky-matthew-battles-visit-open-documentary-lab
+  - label: TRUST (the presence of secrets) at mfaNOW, Museum of Fine Arts Boston, 2016
+    url: http://www.mfa.org/programs/series/mfanow-overnights
+  - label: The Future of Secrets talk at MIT's Open Documentary Lab, 2017
+    url: http://opendoclab.mit.edu/feb-21-harvard-metalabs-sarah-newman-jessica-yurkofsky-matthew-battles-visit-open-documentary-lab
 events:
-    - label: The Future of Secrets @ Northeastern School of Law
-      slug: the-future-of-secrets-northeastern-school-of-law
+  - label: The Future of Secrets @ Northeastern School of Law
+    slug: the-future-of-secrets-northeastern-school-of-law
 members:
-    - label: Sarah Newman
-      slug: sarah-newman
-      twitter: sarahwnewman
+  - label: Sarah Newman
+    slug: sarah-newman
+    twitter: sarahwnewman
 cover:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637804487/thefutureofsecrets_3e96b7ea6d.jpg
-    width: 499
-    height: 500
-    ext: .jpeg
-    mime: image/jpeg
-    formats:
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637804487/thumbnail_thefutureofsecrets_3e96b7ea6d.jpg
-            ext: .jpeg
-            width: 156
-            height: 156
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637804487/thefutureofsecrets_3e96b7ea6d.jpg
+  width: 499
+  height: 500
+  ext: .jpeg
+  mime: image/jpeg
+  formats:
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637804487/thumbnail_thefutureofsecrets_3e96b7ea6d.jpg
+      ext: .jpeg
+      width: 156
+      height: 156
 header:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637804487/thefutureofsecrets_3e96b7ea6d.jpg
-    width: 499
-    height: 500
-    ext: .jpeg
-    mime: image/jpeg
-    formats:
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637804487/thumbnail_thefutureofsecrets_3e96b7ea6d.jpg
-            ext: .jpeg
-            width: 156
-            height: 156
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637804487/thefutureofsecrets_3e96b7ea6d.jpg
+  width: 499
+  height: 500
+  ext: .jpeg
+  mime: image/jpeg
+  formats:
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637804487/thumbnail_thefutureofsecrets_3e96b7ea6d.jpg
+      ext: .jpeg
+      width: 156
+      height: 156
 noHeaderImage: false
 gallery:
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637804487/futureofsecrets_poster_e3b7966cb3.jpg
-      width: 800
-      height: 1035
-      ext: .jpeg
-      mime: image/jpeg
-      formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637804488/large_futureofsecrets_poster_e3b7966cb3.jpg
-            ext: .jpeg
-            width: 773
-            height: 1000
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637804488/medium_futureofsecrets_poster_e3b7966cb3.jpg
-            ext: .jpeg
-            width: 580
-            height: 750
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637804488/small_futureofsecrets_poster_e3b7966cb3.jpg
-            ext: .jpeg
-            width: 386
-            height: 500
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637804487/thumbnail_futureofsecrets_poster_e3b7966cb3.jpg
-            ext: .jpeg
-            width: 121
-            height: 156
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637804487/futureofsecrets_poster_e3b7966cb3.jpg
+    width: 800
+    height: 1035
+    ext: .jpeg
+    mime: image/jpeg
+    formats:
+      large:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637804488/large_futureofsecrets_poster_e3b7966cb3.jpg
+        ext: .jpeg
+        width: 773
+        height: 1000
+      medium:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637804488/medium_futureofsecrets_poster_e3b7966cb3.jpg
+        ext: .jpeg
+        width: 580
+        height: 750
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637804488/small_futureofsecrets_poster_e3b7966cb3.jpg
+        ext: .jpeg
+        width: 386
+        height: 500
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637804487/thumbnail_futureofsecrets_poster_e3b7966cb3.jpg
+        ext: .jpeg
+        width: 121
+        height: 156
 members_twitter:
-    - sarahwnewman
+  - sarahwnewman
 images:
-    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1637804487/thefutureofsecrets_3e96b7ea6d.jpg
-
+  - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1637804487/thefutureofsecrets_3e96b7ea6d.jpg
+projects/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 > &#8220;With the smallest as with the greatest happiness, however, there is always one thing which makes it happiness: being able to forget or, to express it in a more learned fashion, the capacity to live unhistorically while it endures.&#8221;
 >

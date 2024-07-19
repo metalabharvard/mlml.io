@@ -19,6 +19,10 @@ import {
   getMembersTwitter,
   checkImageDimensions,
   cleanAliases,
+  cleanLabsList,
+  addexistingLabsToList,
+  createLabsFolders,
+  cleanDirectory,
 } from "./utils";
 
 import { convertEventTimes } from "./utils-events";
@@ -26,11 +30,14 @@ import { convertEventTimes } from "./utils-events";
 const FOLDER = "events";
 
 let lastmod: Date = new Date(0);
+let existingsLabs: {
+  [key: string]: string;
+} = {};
 
 const fetchEvents = async () => {
   console.log("Requesting events");
   try {
-    // await cleanDirectory(FOLDER);
+    await cleanDirectory(FOLDER);
     const events = await fetchMultiFromStrapi("events", "populate=*"); // &filters[slug][$eq]=tradition-and-technology
 
     events.forEach(({ attributes: event }) => {
@@ -38,6 +45,8 @@ const fetchEvents = async () => {
       lastmod = takeLatestDate(lastmod, new Date(event.updatedAt));
 
       const times = convertEventTimes(event);
+
+      const labs = cleanList(event.labs.data, "title");
 
       const frontmatter = {
         title: trim(event.title),
@@ -85,6 +94,8 @@ const fetchEvents = async () => {
           event.cover?.data?.attributes?.url,
         ),
         aliases: cleanAliases(event.Aliases),
+        "events/labs": cleanLabsList(event.labs.data),
+        labs,
       };
 
       checkImageDimensions(frontmatter.cover, frontmatter.title, "Cover");
@@ -135,6 +146,8 @@ const fetchEvents = async () => {
         frontmatter,
         event.description,
       );
+
+      existingsLabs = addexistingLabsToList(existingsLabs, labs);
       // console.log(`Processed ${project.title}`);
     });
 
@@ -144,6 +157,7 @@ const fetchEvents = async () => {
   }
 
   writeLastMod(FOLDER, lastmod, "Events");
+  createLabsFolders(existingsLabs, FOLDER, "Events");
 };
 
 fetchEvents();

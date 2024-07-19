@@ -1,233 +1,236 @@
 ---
 title: Hypercam
-subtitle: ""
+subtitle: ''
 fulltitle: Hypercam
 intro: Hypercam enacts a gesture of visual resistance to the squared-off talking heads that we have all become; it converts the interface flatland into a multidimensional space of play.
-start: "2020-04-01"
-end: "2020-05-31"
+start: '2020-04-01'
+end: '2020-05-31'
 datestring: April&ensp;–&ensp;May 2020
-description: Hypercam enacts a gesture of visual resistance to the squared-off talking heads that we have all become; it converts the interface flatland into a mu…
+description: Hypercam enacts a gesture of visual resistance to the squared-off talking heads that we have all become; it converts the interface flatland into a…
 keyword: Data Visualisation,Web Platform,Installation
 tags:
-    - Data Visualisation
-    - Web Platform
-    - Installation
-location: ""
-host: harvard
+  - Data Visualisation
+  - Web Platform
+  - Installation
+location: ''
 mediation: web
 isFeatured: true
 externalLink: https://hypercam.kimalbrecht.com/
-lastmod: "2023-02-02T10:32:03.140Z"
-date: "2020-05-31"
+lastmod: '2024-05-20T02:01:49.741Z'
+date: '2020-05-31'
 slug: hypercam
 categories:
-    - Installation
-    - Web Platform
-    - Data Visualisation
+  - Installation
+  - Web Platform
+  - Data Visualisation
 links:
-    - label: ZKM Exhibition
-      url: https://zkm.de/de/ausstellung/2020/10/berechenbar-unberechenbar
-    - label: ZDF Digitale Kunsthalle
-      url: https://digitalekunsthalle.zdf.de/zkm_en/index.html#tp125
+  - label: ZKM Exhibition
+    url: https://zkm.de/de/ausstellung/2020/10/berechenbar-unberechenbar
+  - label: ZDF Digitale Kunsthalle
+    url: https://digitalekunsthalle.zdf.de/zkm_en/index.html#tp125
 members:
-    - label: Kim Albrecht
-      slug: kim-albrecht
-      twitter: kimay
+  - label: Kim Albrecht
+    slug: kim-albrecht
+    twitter: kimay
 cover:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348173/hypercam_5052cf8738.jpg
-    width: 3360
-    height: 1862
-    ext: .jpg
-    mime: image/jpeg
-    formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348174/large_hypercam_5052cf8738.jpg
-            ext: .jpg
-            width: 1000
-            height: 554
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348174/medium_hypercam_5052cf8738.jpg
-            ext: .jpg
-            width: 750
-            height: 416
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348175/small_hypercam_5052cf8738.jpg
-            ext: .jpg
-            width: 500
-            height: 277
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348174/thumbnail_hypercam_5052cf8738.jpg
-            ext: .jpg
-            width: 245
-            height: 136
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348173/hypercam_5052cf8738.jpg
+  width: 3360
+  height: 1862
+  ext: .jpg
+  mime: image/jpeg
+  formats:
+    large:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348174/large_hypercam_5052cf8738.jpg
+      ext: .jpg
+      width: 1000
+      height: 554
+    medium:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348174/medium_hypercam_5052cf8738.jpg
+      ext: .jpg
+      width: 750
+      height: 416
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348175/small_hypercam_5052cf8738.jpg
+      ext: .jpg
+      width: 500
+      height: 277
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348174/thumbnail_hypercam_5052cf8738.jpg
+      ext: .jpg
+      width: 245
+      height: 136
 header:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348173/hypercam_5052cf8738.jpg
-    width: 3360
-    height: 1862
-    ext: .jpg
-    mime: image/jpeg
-    formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348174/large_hypercam_5052cf8738.jpg
-            ext: .jpg
-            width: 1000
-            height: 554
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348174/medium_hypercam_5052cf8738.jpg
-            ext: .jpg
-            width: 750
-            height: 416
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348175/small_hypercam_5052cf8738.jpg
-            ext: .jpg
-            width: 500
-            height: 277
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348174/thumbnail_hypercam_5052cf8738.jpg
-            ext: .jpg
-            width: 245
-            height: 136
-noHeaderImage: false
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348173/hypercam_5052cf8738.jpg
+  width: 3360
+  height: 1862
+  ext: .jpg
+  mime: image/jpeg
+  formats:
+    large:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348174/large_hypercam_5052cf8738.jpg
+      ext: .jpg
+      width: 1000
+      height: 554
+    medium:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348174/medium_hypercam_5052cf8738.jpg
+      ext: .jpg
+      width: 750
+      height: 416
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348175/small_hypercam_5052cf8738.jpg
+      ext: .jpg
+      width: 500
+      height: 277
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1635348174/thumbnail_hypercam_5052cf8738.jpg
+      ext: .jpg
+      width: 245
+      height: 136
 feature:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1635348173/hypercam_5052cf8738.jpg
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1635348173/hypercam_5052cf8738.jpg
+  width: 3360
+  height: 1862
+  ext: .jpg
+  mime: image/jpeg
+  formats:
+    large:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1635348174/large_hypercam_5052cf8738.jpg
+      ext: .jpg
+      width: 1000
+      height: 554
+    medium:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1635348174/medium_hypercam_5052cf8738.jpg
+      ext: .jpg
+      width: 750
+      height: 416
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1635348175/small_hypercam_5052cf8738.jpg
+      ext: .jpg
+      width: 500
+      height: 277
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1635348174/thumbnail_hypercam_5052cf8738.jpg
+      ext: .jpg
+      width: 245
+      height: 136
+noHeaderImage: false
+gallery:
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355149/hypercam_visualization_kim_albrecht_metalab_15_1b84e81cb8.jpg
+    width: 1700
+    height: 1700
+    ext: .jpg
+    mime: image/jpeg
+    formats:
+      large:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355150/large_hypercam_visualization_kim_albrecht_metalab_15_1b84e81cb8.jpg
+        ext: .jpg
+        width: 1000
+        height: 1000
+      medium:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355150/medium_hypercam_visualization_kim_albrecht_metalab_15_1b84e81cb8.jpg
+        ext: .jpg
+        width: 750
+        height: 750
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355151/small_hypercam_visualization_kim_albrecht_metalab_15_1b84e81cb8.jpg
+        ext: .jpg
+        width: 500
+        height: 500
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355149/thumbnail_hypercam_visualization_kim_albrecht_metalab_15_1b84e81cb8.jpg
+        ext: .jpg
+        width: 156
+        height: 156
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355150/hypercam_visualization_kim_albrecht_metalab_11_c84be0e6fc.jpg
+    width: 2256
+    height: 1862
+    ext: .jpeg
+    mime: image/jpeg
+    caption: Can video conferencing footage become sculptural?
+    formats:
+      large:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355151/large_hypercam_visualization_kim_albrecht_metalab_11_c84be0e6fc.jpg
+        ext: .jpeg
+        width: 1000
+        height: 825
+      medium:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355151/medium_hypercam_visualization_kim_albrecht_metalab_11_c84be0e6fc.jpg
+        ext: .jpeg
+        width: 750
+        height: 619
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355152/small_hypercam_visualization_kim_albrecht_metalab_11_c84be0e6fc.jpg
+        ext: .jpeg
+        width: 500
+        height: 413
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355150/thumbnail_hypercam_visualization_kim_albrecht_metalab_11_c84be0e6fc.jpg
+        ext: .jpeg
+        width: 189
+        height: 156
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355150/hypercam_visualization_kim_albrecht_metalab_17_9b7425f899.jpg
+    width: 1700
+    height: 1700
+    ext: .jpeg
+    mime: image/jpeg
+    caption: Deconstruction of the live video footage.
+    formats:
+      large:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355151/large_hypercam_visualization_kim_albrecht_metalab_17_9b7425f899.jpg
+        ext: .jpeg
+        width: 1000
+        height: 1000
+      medium:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355152/medium_hypercam_visualization_kim_albrecht_metalab_17_9b7425f899.jpg
+        ext: .jpeg
+        width: 750
+        height: 750
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355152/small_hypercam_visualization_kim_albrecht_metalab_17_9b7425f899.jpg
+        ext: .jpeg
+        width: 500
+        height: 500
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355151/thumbnail_hypercam_visualization_kim_albrecht_metalab_17_9b7425f899.jpg
+        ext: .jpeg
+        width: 156
+        height: 156
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355150/hypercam_visualization_kim_albrecht_metalab_2_3a13add296.jpg
     width: 3360
     height: 1862
     ext: .jpg
     mime: image/jpeg
+    caption: Deconstruction of the live video footage.
     formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1635348174/large_hypercam_5052cf8738.jpg
-            ext: .jpg
-            width: 1000
-            height: 554
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1635348174/medium_hypercam_5052cf8738.jpg
-            ext: .jpg
-            width: 750
-            height: 416
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1635348175/small_hypercam_5052cf8738.jpg
-            ext: .jpg
-            width: 500
-            height: 277
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/ar_21:9,c_crop/v1635348174/thumbnail_hypercam_5052cf8738.jpg
-            ext: .jpg
-            width: 245
-            height: 136
-gallery:
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355149/hypercam_visualization_kim_albrecht_metalab_15_1b84e81cb8.jpg
-      width: 1700
-      height: 1700
-      ext: .jpg
-      mime: image/jpeg
-      formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355150/large_hypercam_visualization_kim_albrecht_metalab_15_1b84e81cb8.jpg
-            ext: .jpg
-            width: 1000
-            height: 1000
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355150/medium_hypercam_visualization_kim_albrecht_metalab_15_1b84e81cb8.jpg
-            ext: .jpg
-            width: 750
-            height: 750
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355151/small_hypercam_visualization_kim_albrecht_metalab_15_1b84e81cb8.jpg
-            ext: .jpg
-            width: 500
-            height: 500
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355149/thumbnail_hypercam_visualization_kim_albrecht_metalab_15_1b84e81cb8.jpg
-            ext: .jpg
-            width: 156
-            height: 156
-    - caption: Can video conferencing footage become sculptural?
-      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355150/hypercam_visualization_kim_albrecht_metalab_11_c84be0e6fc.jpg
-      width: 2256
-      height: 1862
-      ext: .jpeg
-      mime: image/jpeg
-      formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355151/large_hypercam_visualization_kim_albrecht_metalab_11_c84be0e6fc.jpg
-            ext: .jpeg
-            width: 1000
-            height: 825
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355151/medium_hypercam_visualization_kim_albrecht_metalab_11_c84be0e6fc.jpg
-            ext: .jpeg
-            width: 750
-            height: 619
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355152/small_hypercam_visualization_kim_albrecht_metalab_11_c84be0e6fc.jpg
-            ext: .jpeg
-            width: 500
-            height: 413
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355150/thumbnail_hypercam_visualization_kim_albrecht_metalab_11_c84be0e6fc.jpg
-            ext: .jpeg
-            width: 189
-            height: 156
-    - caption: Deconstruction of the live video footage.
-      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355150/hypercam_visualization_kim_albrecht_metalab_17_9b7425f899.jpg
-      width: 1700
-      height: 1700
-      ext: .jpeg
-      mime: image/jpeg
-      formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355151/large_hypercam_visualization_kim_albrecht_metalab_17_9b7425f899.jpg
-            ext: .jpeg
-            width: 1000
-            height: 1000
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355152/medium_hypercam_visualization_kim_albrecht_metalab_17_9b7425f899.jpg
-            ext: .jpeg
-            width: 750
-            height: 750
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355152/small_hypercam_visualization_kim_albrecht_metalab_17_9b7425f899.jpg
-            ext: .jpeg
-            width: 500
-            height: 500
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355151/thumbnail_hypercam_visualization_kim_albrecht_metalab_17_9b7425f899.jpg
-            ext: .jpeg
-            width: 156
-            height: 156
-    - caption: Deconstruction of the live video footage.
-      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355150/hypercam_visualization_kim_albrecht_metalab_2_3a13add296.jpg
-      width: 3360
-      height: 1862
-      ext: .jpg
-      mime: image/jpeg
-      formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355151/large_hypercam_visualization_kim_albrecht_metalab_2_3a13add296.jpg
-            ext: .jpg
-            width: 1000
-            height: 554
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355152/medium_hypercam_visualization_kim_albrecht_metalab_2_3a13add296.jpg
-            ext: .jpg
-            width: 750
-            height: 416
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355152/small_hypercam_visualization_kim_albrecht_metalab_2_3a13add296.jpg
-            ext: .jpg
-            width: 500
-            height: 277
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355151/thumbnail_hypercam_visualization_kim_albrecht_metalab_2_3a13add296.jpg
-            ext: .jpg
-            width: 245
-            height: 136
+      large:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355151/large_hypercam_visualization_kim_albrecht_metalab_2_3a13add296.jpg
+        ext: .jpg
+        width: 1000
+        height: 554
+      medium:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355152/medium_hypercam_visualization_kim_albrecht_metalab_2_3a13add296.jpg
+        ext: .jpg
+        width: 750
+        height: 416
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355152/small_hypercam_visualization_kim_albrecht_metalab_2_3a13add296.jpg
+        ext: .jpg
+        width: 500
+        height: 277
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1633355151/thumbnail_hypercam_visualization_kim_albrecht_metalab_2_3a13add296.jpg
+        ext: .jpg
+        width: 245
+        height: 136
 members_twitter:
-    - kimay
+  - kimay
 images:
-    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1635348173/hypercam_5052cf8738.jpg
-
+  - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1635348173/hypercam_5052cf8738.jpg
+projects/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 During the first months of 2020, human relationships turned virtual. Once a bounded practice, a backup for otherwise face-to-face encounters, video conferencing became the normative mode of interaction for work meetings, friendships, education, love relationships and family gatherings on both the local and global scales. Hypercam enacts a gesture of visual resistance to the squared-off talking heads that we have all become; it converts the interface flatland into a multidimensional space of play.<br><br>
 

@@ -1,115 +1,118 @@
 ---
 title: Nobody’s Listening
-subtitle: ""
+subtitle: ''
 fulltitle: Nobody’s Listening
-intro: ""
-start: "2017-08-08"
-end: "2018-01-01"
+intro: ''
+start: '2017-08-08'
+end: '2018-01-01'
 datestring: August 2017&ensp;–&ensp;January 2018
 location: Cambridge, MA
-host: harvard
 mediation: mixed_media
 isFeatured: false
-externalLink: ""
-lastmod: "2022-01-24T16:49:57.687Z"
-date: "2018-01-01"
+externalLink: ''
+lastmod: '2024-05-20T02:01:50.537Z'
+date: '2018-01-01'
 slug: nobody-8217-s-listening
 collaborators:
-    - label: Rachel Kalmar
+  - label: Rachel Kalmar
 events:
-    - label: Machine Experience
-      slug: machine-experience
+  - label: Machine Experience
+    slug: machine-experience
 members:
-    - label: Sarah Newman
-      slug: sarah-newman
-      twitter: sarahwnewman
+  - label: Sarah Newman
+    slug: sarah-newman
+    twitter: sarahwnewman
 cover:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806477/nobodyslistening_bc086b876d.jpg
-    width: 1391
-    height: 1800
-    ext: .jpeg
-    mime: image/jpeg
-    formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806478/large_nobodyslistening_bc086b876d.jpg
-            ext: .jpeg
-            width: 773
-            height: 1000
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806478/medium_nobodyslistening_bc086b876d.jpg
-            ext: .jpeg
-            width: 580
-            height: 750
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806478/small_nobodyslistening_bc086b876d.jpg
-            ext: .jpeg
-            width: 386
-            height: 500
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806477/thumbnail_nobodyslistening_bc086b876d.jpg
-            ext: .jpeg
-            width: 121
-            height: 156
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806477/nobodyslistening_bc086b876d.jpg
+  width: 1391
+  height: 1800
+  ext: .jpeg
+  mime: image/jpeg
+  formats:
+    large:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806478/large_nobodyslistening_bc086b876d.jpg
+      ext: .jpeg
+      width: 773
+      height: 1000
+    medium:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806478/medium_nobodyslistening_bc086b876d.jpg
+      ext: .jpeg
+      width: 580
+      height: 750
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806478/small_nobodyslistening_bc086b876d.jpg
+      ext: .jpeg
+      width: 386
+      height: 500
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806477/thumbnail_nobodyslistening_bc086b876d.jpg
+      ext: .jpeg
+      width: 121
+      height: 156
 header:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806477/nobodyslistening_bc086b876d.jpg
-    width: 1391
-    height: 1800
-    ext: .jpeg
-    mime: image/jpeg
-    formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806478/large_nobodyslistening_bc086b876d.jpg
-            ext: .jpeg
-            width: 773
-            height: 1000
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806478/medium_nobodyslistening_bc086b876d.jpg
-            ext: .jpeg
-            width: 580
-            height: 750
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806478/small_nobodyslistening_bc086b876d.jpg
-            ext: .jpeg
-            width: 386
-            height: 500
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806477/thumbnail_nobodyslistening_bc086b876d.jpg
-            ext: .jpeg
-            width: 121
-            height: 156
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806477/nobodyslistening_bc086b876d.jpg
+  width: 1391
+  height: 1800
+  ext: .jpeg
+  mime: image/jpeg
+  formats:
+    large:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806478/large_nobodyslistening_bc086b876d.jpg
+      ext: .jpeg
+      width: 773
+      height: 1000
+    medium:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806478/medium_nobodyslistening_bc086b876d.jpg
+      ext: .jpeg
+      width: 580
+      height: 750
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806478/small_nobodyslistening_bc086b876d.jpg
+      ext: .jpeg
+      width: 386
+      height: 500
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806477/thumbnail_nobodyslistening_bc086b876d.jpg
+      ext: .jpeg
+      width: 121
+      height: 156
 noHeaderImage: false
 gallery:
-    - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806477/nobodyslistening_bc086b876d.jpg
-      width: 1391
-      height: 1800
-      ext: .jpeg
-      mime: image/jpeg
-      formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806478/large_nobodyslistening_bc086b876d.jpg
-            ext: .jpeg
-            width: 773
-            height: 1000
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806478/medium_nobodyslistening_bc086b876d.jpg
-            ext: .jpeg
-            width: 580
-            height: 750
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806478/small_nobodyslistening_bc086b876d.jpg
-            ext: .jpeg
-            width: 386
-            height: 500
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806477/thumbnail_nobodyslistening_bc086b876d.jpg
-            ext: .jpeg
-            width: 121
-            height: 156
+  - url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806477/nobodyslistening_bc086b876d.jpg
+    width: 1391
+    height: 1800
+    ext: .jpeg
+    mime: image/jpeg
+    formats:
+      large:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806478/large_nobodyslistening_bc086b876d.jpg
+        ext: .jpeg
+        width: 773
+        height: 1000
+      medium:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806478/medium_nobodyslistening_bc086b876d.jpg
+        ext: .jpeg
+        width: 580
+        height: 750
+      small:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806478/small_nobodyslistening_bc086b876d.jpg
+        ext: .jpeg
+        width: 386
+        height: 500
+      thumbnail:
+        url: https://res.cloudinary.com/dfffh0gkl/image/upload/v1637806477/thumbnail_nobodyslistening_bc086b876d.jpg
+        ext: .jpeg
+        width: 121
+        height: 156
 members_twitter:
-    - sarahwnewman
+  - sarahwnewman
 images:
-    - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1637806477/nobodyslistening_bc086b876d.jpg
-
+  - https://res.cloudinary.com/dfffh0gkl/image/upload/ar_1200:600,c_crop/c_limit,h_1200,w_600/v1637806477/nobodyslistening_bc086b876d.jpg
+projects/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 <em>Are secrets uniquely human?  Our private lives, relationships,experiences, and secrets are mediated, influenced, and recorded by digital devices. Where are our secrets now? Where will they be in the future, and who—or what—might read them? How will AI systems of the future process the data we leave behind? Will they know things about us that we don’t (and never could) know about ourselves? </em>
 

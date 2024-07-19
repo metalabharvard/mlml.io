@@ -422,7 +422,7 @@ ul {
   font-size: var(--size-6);
 }
 
-.related-events, .related-projects, .related-members, .box-item, .related-links, .related-collaborators, .related-funders, .related-articles, .related-types {
+.related-events, .related-projects, .related-members, .related-labs, .box-item, .related-links, .related-collaborators, .related-funders, .related-articles, .related-types {
   line-height: 1;
 
   .title {
@@ -433,7 +433,7 @@ ul {
   }
 }
 
-.related-events-list, .related-projects-list, .related-members-list, .box-item .text, .related-links-list, .related-collaborators-list, .related-funders-list, .related-articles-list, .related-types-list {
+.related-events-list, .related-projects-list, .related-members-list, .related-labs-list, .box-item .text, .related-links-list, .related-collaborators-list, .related-funders-list, .related-articles-list, .related-types-list {
   font-size: var(--size-6);
   font-weight: $font-weight-medium;
   line-height: 1.6;
@@ -478,7 +478,7 @@ ul {
   .feature-link {
     text-decoration: none;
     text-align: left;
-    
+
     .project-title, .project-details {
       color: var(--color-fg);
       transition: color var(--transition);

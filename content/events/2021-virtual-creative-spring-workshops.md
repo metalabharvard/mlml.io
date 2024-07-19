@@ -1,25 +1,25 @@
 ---
 title: 2021 Virtual Creative Spring Workshops
-subtitle: ""
+subtitle: ''
 fulltitle: 2021 Virtual Creative Spring Workshops
 status: default
 outputs:
-    - HTML
-    - Calendar
+  - HTML
+  - Calendar
 timezone: Boston
 timezoneAbbr:
-    berlin: CEST
-    boston: EDT
-start_time: "2021-05-28T20:00:00-04:00"
-end_time: "2021-06-25T16:15:00-04:00"
+  berlin: CEST
+  boston: EDT
+start_time: '2021-05-28T20:00:00-04:00'
+end_time: '2021-06-25T16:15:00-04:00'
 start_time_utc: 20210529T000000Z
 end_time_utc: 20210625T201500Z
 start_time_locations:
-    berlin: "2021-05-29T02:00:00+02:00"
-    boston: "2021-05-28T20:00:00-04:00"
+  berlin: '2021-05-29T02:00:00+02:00'
+  boston: '2021-05-28T20:00:00-04:00'
 end_time_locations:
-    berlin: "2021-06-25T22:15:00+02:00"
-    boston: "2021-06-25T16:15:00-04:00"
+  berlin: '2021-06-25T22:15:00+02:00'
+  boston: '2021-06-25T16:15:00-04:00'
 tzid: America/New_York
 intro: “Creative workshops exploring AI, time, and the future of communication”
 location: online
@@ -27,24 +27,28 @@ category: workshop
 description: “Creative workshops exploring AI, time, and the future of communication”
 isFeatured: false
 isOngoing: false
-lastmod: "2022-02-09T16:17:01.148Z"
-date: "2021-05-28T20:00:00-04:00"
+lastmod: '2024-05-24T11:01:35.476Z'
+date: '2021-05-28T20:00:00-04:00'
 slug: 2021-virtual-creative-spring-workshops
 members:
-    - label: Olivia Tai
-      slug: olivia-tai
-    - label: Sarah Newman
-      slug: sarah-newman
-      twitter: sarahwnewman
+  - label: Olivia Tai
+    slug: olivia-tai
+  - label: Sarah Newman
+    slug: sarah-newman
+    twitter: sarahwnewman
 projects:
-    - label: AI + Art at metaLAB
-      slug: ai-art-at-meta-lab
-    - label: Moral Labyrinth
-      slug: moral-labyrinth
+  - label: AI + Art at metaLAB
+    slug: ai-art-at-meta-lab
+  - label: Moral Labyrinth
+    slug: moral-labyrinth
 noHeaderImage: false
 members_twitter:
-    - sarahwnewman
-
+  - sarahwnewman
+events/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 metaLAB’s experimental, materials-based creative workshops bring together hybrid formats that include design thinking exercises, group discussion, and physical prototyping (yes, even on zoom!) to think through pressing questions and work toward possible reformulations, new metaphors—and maybe, some solutions.  
 

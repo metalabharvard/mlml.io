@@ -2,46 +2,50 @@
 title: Where will your values take AI?
 subtitle: Co-designing a Moral Labyrinth in Tunis
 fulltitle: 'Where will your values take AI?: Co-designing a Moral Labyrinth in Tunis'
-status: ""
+status: ''
 outputs:
-    - HTML
-    - Calendar
+  - HTML
+  - Calendar
 timezone: Boston
 timezoneAbbr:
-    berlin: CEST
-    boston: EDT
-start_time: "2019-06-14T16:00:00-04:00"
-end_time: "2019-06-14T17:00:00-04:00"
+  berlin: CEST
+  boston: EDT
+start_time: '2019-06-14T16:00:00-04:00'
+end_time: '2019-06-14T17:00:00-04:00'
 start_time_utc: 20190614T200000Z
 end_time_utc: 20190614T210000Z
 start_time_locations:
-    berlin: "2019-06-14T22:00:00+02:00"
-    boston: "2019-06-14T16:00:00-04:00"
+  berlin: '2019-06-14T22:00:00+02:00'
+  boston: '2019-06-14T16:00:00-04:00'
 end_time_locations:
-    berlin: "2019-06-14T23:00:00+02:00"
-    boston: "2019-06-14T17:00:00-04:00"
+  berlin: '2019-06-14T23:00:00+02:00'
+  boston: '2019-06-14T17:00:00-04:00'
 tzid: America/New_York
 location: Tunis, Tunisia
 isFeatured: false
 isOngoing: false
-lastmod: "2022-02-09T16:13:54.518Z"
-date: "2019-06-14T16:00:00-04:00"
+lastmod: '2024-05-24T11:01:35.797Z'
+date: '2019-06-14T16:00:00-04:00'
 slug: where-will-your-values-take-ai-1
 members:
-    - label: Jie Qi
-      slug: jie-qi
-      twitter: qijie
-    - label: Mindy Seu
-      slug: mindy-seu
-      twitter: mind_seu
+  - label: Jie Qi
+    slug: jie-qi
+    twitter: qijie
+  - label: Mindy Seu
+    slug: mindy-seu
+    twitter: mind_seu
 projects:
-    - label: Moral Labyrinth
-      slug: moral-labyrinth
+  - label: Moral Labyrinth
+    slug: moral-labyrinth
 noHeaderImage: false
 members_twitter:
-    - qijie
-    - mind_seu
-
+  - qijie
+  - mind_seu
+events/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 **[Tunis 2019 metaLAB Workshop](https://rightscon2019.sched.com/event/Pvfz/where-will-your-values-take-ai-co-designing-a-moral-labyrinth-and-taking-one-home)<br />
 Where will your values take AI? Co-designing a Moral Labyrinth (and taking one home!)<br />

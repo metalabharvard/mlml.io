@@ -1,34 +1,38 @@
 ---
 title: The Presence of Secrets [at] re:publica 17
-subtitle: ""
+subtitle: ''
 fulltitle: The Presence of Secrets [at] re:publica 17
-status: ""
+status: ''
 outputs:
-    - HTML
-    - Calendar
+  - HTML
+  - Calendar
 timezone: Boston
 timezoneAbbr:
-    berlin: CEST
-    boston: EDT
-start_time: "2017-05-09T16:00:00-04:00"
-end_time: "2017-05-09T17:00:00-04:00"
+  berlin: CEST
+  boston: EDT
+start_time: '2017-05-09T16:00:00-04:00'
+end_time: '2017-05-09T17:00:00-04:00'
 start_time_utc: 20170509T200000Z
 end_time_utc: 20170509T210000Z
 start_time_locations:
-    berlin: "2017-05-09T22:00:00+02:00"
-    boston: "2017-05-09T16:00:00-04:00"
+  berlin: '2017-05-09T22:00:00+02:00'
+  boston: '2017-05-09T16:00:00-04:00'
 end_time_locations:
-    berlin: "2017-05-09T23:00:00+02:00"
-    boston: "2017-05-09T17:00:00-04:00"
+  berlin: '2017-05-09T23:00:00+02:00'
+  boston: '2017-05-09T17:00:00-04:00'
 tzid: America/New_York
 location: Berlin, Germany
 isFeatured: false
 isOngoing: false
-lastmod: "2022-02-14T16:03:18.202Z"
-date: "2017-05-09T16:00:00-04:00"
+lastmod: '2024-05-24T11:01:35.349Z'
+date: '2017-05-09T16:00:00-04:00'
 slug: the-presence-of-secrets-at-re-publica-17
 noHeaderImage: false
-
+events/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 re:publica 2017 installation website
 

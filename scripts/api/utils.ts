@@ -3,7 +3,31 @@ import * as yaml from "js-yaml";
 import { truncate, set } from "lodash";
 
 import fs from "node:fs/promises";
+import {
+  existsSync,
+  unlinkSync,
+  lstatSync,
+  rmdirSync,
+  mkdirSync,
+  writeFileSync,
+} from "node:fs";
 import path from "node:path";
+
+type LabList = {
+  [key: string]: string;
+};
+
+export function addexistingLabsToList(
+  obj: LabList,
+  labs: { label: string; slug: string }[],
+): LabList {
+  labs.forEach(({ slug, label }) => {
+    if (obj[slug] === undefined) {
+      obj[slug] = label;
+    }
+  });
+  return obj;
+}
 
 export function sortByName(arr, key: string = "label"): any[] {
   return arr.sort((a, b) => {
@@ -24,6 +48,7 @@ export function writeToMarkdown(
   path: string,
   frontMatter: any,
   content: string = "",
+  isSync: boolean = false,
 ) {
   // Converting the Meta object to a YAML string
   const yamlStr = yaml.dump(frontMatter, {
@@ -36,14 +61,57 @@ export function writeToMarkdown(
   if (!path.endsWith(".md")) {
     path = `${path}.md`;
   }
-  fs.writeFile(`./content/${path}`, fileContent, "utf8");
+  if (isSync) {
+    writeFileSync(`./content/${path}`, fileContent, "utf8");
+  } else {
+    fs.writeFile(`./content/${path}`, fileContent, "utf8");
+  }
 }
 
 export function writeLastMod(folder: string, lastmod: Date, title: string) {
   writeToMarkdown(`${folder}/_index.md`, {
     title,
     lastmod: lastmod.toISOString(),
+    draft: false,
   });
+}
+
+
+export function createLabsFolders(labs: LabList, folder: string, type: string) {
+  folder = `${folder}/labs`;
+  writeLabIndex(folder, "Labs");
+
+  Object.entries(labs).forEach(([slug, label]) => {
+    writeLabIndex(`${folder}/${slug}`, label, slug, `${type} in ${label}`);
+  });
+}
+
+const ORDER = ['harvard', 'berlin', 'basel']
+
+function writeLabIndex(
+  folder: string,
+  title: string,
+  slug: string | undefined = undefined,
+  fulltitle: string | undefined = undefined,
+) {
+  if (!existsSync(`./content/${folder}`)) {
+    // console.log(`Creating folder for ${title} in ${folder}`);
+    mkdirSync(`./content/${folder}`);
+  } else {
+    // console.log(`Folder for ${title} already exists in ${folder}`);
+  }
+  // console.log(`Creating index for ${title} in ${folder}`);
+  writeToMarkdown(
+    `${folder}/_index.md`,
+    {
+      title,
+      draft: false,
+      fulltitle: fulltitle ?? title,
+      weight: ORDER.indexOf(slug ?? title.toLowerCase()) + 1,
+    },
+    "",
+    true,
+  );
 }
 
 // This function fetches multiple items from Strapi
@@ -299,6 +367,23 @@ export function cleanAliases(arr: Alias[]): string[] {
   return list;
 }
 
+type Lab = {
+  attributes: {
+    label: string;
+    slug: string;
+  };
+};
+export function cleanLabsList(arr: Lab[]): string[] {
+  const list: string[] = [];
+  arr.forEach(({ attributes: { slug } }) => {
+    const label = trim(slug);
+    if (label.length) {
+      list.push(label);
+    }
+  });
+  return list;
+}
+
 export function cleanTwitterHandle(handle: string): string {
   if (handle.startsWith("@")) {
     console.warn(`Twitter handle ${handle} starts with @. Removing it.`);
@@ -359,10 +444,36 @@ export function cleanLinkList(arr: Link[]): Link[] {
 }
 
 export async function cleanDirectory(directory: string) {
-  const folder = `./content/${directory}`;
-  console.log(`Cleaning directory: ${folder}`);
-  for (const file of await fs.readdir(folder)) {
-    await fs.unlink(path.join(folder, file));
+  const dir_content = `./content/${directory}`;
+  // console.log(`Cleaning directory: ${dir_content}`);
+  for (const file of await fs.readdir(dir_content)) {
+    // console.log(`Deleting file: ${file}`);
+    if (file.endsWith(".md")) {
+      await fs.unlink(path.join(dir_content, file));
+    }
+  }
+
+  const dir_labs = `./content/${directory}/labs`;
+  if (!existsSync(dir_labs)) {
+    return;
+  }
+  // console.log(`Cleaning directory: ${dir_labs}`);
+
+  const indexPath = path.join(dir_labs, "_index.md");
+  if (existsSync(indexPath)) {
+    unlinkSync(indexPath);
+  }
+
+  for (const item of await fs.readdir(dir_labs)) {
+    const itemPath = path.join(dir_labs, item);
+    if (lstatSync(itemPath).isDirectory()) {
+      // console.log(`Deleting folder: ${itemPath}`);
+      const indexPath = path.join(itemPath, "_index.md");
+      if (existsSync(indexPath)) {
+        unlinkSync(indexPath);
+      }
+      rmdirSync(itemPath);
+    }
   }
 }
 

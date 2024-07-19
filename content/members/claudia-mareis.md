@@ -2,49 +2,53 @@
 name: Claudia Mareis
 title: Claudia Mareis
 roles:
-    - role: Principal
-      position: 4
+  - role: Principal
+    position: 4
 isAlumnus: false
 isFounder: false
 rank: 4.999
 role_string: Principal
 intro: Life is a journey, not a destination.
 website: https://www.matters-of-activity.de/en/members/169/prof-dr-claudia-mareis
-start: "2024-03-14"
-lastmod: "2024-03-15T10:07:42.957Z"
-date: "2024-03-15T10:07:34.581Z"
+start: '2024-03-14'
+lastmod: '2024-05-24T10:56:36.193Z'
+date: '2024-03-15T11:07:34.581Z'
 slug: claudia-mareis
 events:
-    - label: metaLAB (at) Basel Launch
-      slug: basel-launch
+  - label: metaLAB (at) Basel Launch
+    slug: basel-launch
 picture:
-    url: https://res.cloudinary.com/dfffh0gkl/image/upload/c_limit,w_2000,h_2000/e_grayscale/v1710497209/2021_Claudia_Mareis_lr_Claudia_Mareis_09f2473766.jpg
-    width: 1000
-    height: 1340
-    ext: .jpg
-    mime: image/jpeg
-    formats:
-        large:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1710497210/large_2021_Claudia_Mareis_lr_Claudia_Mareis_09f2473766.jpg
-            ext: .jpg
-            width: 746
-            height: 1000
-        medium:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1710497210/medium_2021_Claudia_Mareis_lr_Claudia_Mareis_09f2473766.jpg
-            ext: .jpg
-            width: 560
-            height: 750
-        small:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1710497211/small_2021_Claudia_Mareis_lr_Claudia_Mareis_09f2473766.jpg
-            ext: .jpg
-            width: 373
-            height: 500
-        thumbnail:
-            url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1710497210/thumbnail_2021_Claudia_Mareis_lr_Claudia_Mareis_09f2473766.jpg
-            ext: .jpg
-            width: 116
-            height: 156
-
+  url: https://res.cloudinary.com/dfffh0gkl/image/upload/c_limit,w_2000,h_2000/e_grayscale/v1710497209/2021_Claudia_Mareis_lr_Claudia_Mareis_09f2473766.jpg
+  width: 1000
+  height: 1340
+  ext: .jpg
+  mime: image/jpeg
+  formats:
+    large:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1710497210/large_2021_Claudia_Mareis_lr_Claudia_Mareis_09f2473766.jpg
+      ext: .jpg
+      width: 746
+      height: 1000
+    medium:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1710497210/medium_2021_Claudia_Mareis_lr_Claudia_Mareis_09f2473766.jpg
+      ext: .jpg
+      width: 560
+      height: 750
+    small:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1710497211/small_2021_Claudia_Mareis_lr_Claudia_Mareis_09f2473766.jpg
+      ext: .jpg
+      width: 373
+      height: 500
+    thumbnail:
+      url: https://res.cloudinary.com/dfffh0gkl/image/upload/e_grayscale/v1710497210/thumbnail_2021_Claudia_Mareis_lr_Claudia_Mareis_09f2473766.jpg
+      ext: .jpg
+      width: 116
+      height: 156
+members/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 Prof. Dr. Claudia Mareis is an expert for Design as well as Cultural History and Theory. Since 2021, she has been Professor of Design and History of Knowledge at the Department of Cultural History and Theory at the Humboldt University of Berlin. Since 2019, she is also the Co-Director of the Cluster of Excellence »Matters of Activity. Image Space Material«.
 

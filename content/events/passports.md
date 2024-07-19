@@ -2,33 +2,37 @@
 title: Passports
 subtitle: Knowledge Design Workshop'
 fulltitle: 'Passports: Knowledge Design Workshop'''
-status: ""
+status: ''
 outputs:
-    - HTML
-    - Calendar
+  - HTML
+  - Calendar
 timezone: Boston
 timezoneAbbr:
-    berlin: CEST
-    boston: EDT
-start_time: "2018-05-10T16:00:00-04:00"
-end_time: "2018-05-10T17:00:00-04:00"
+  berlin: CEST
+  boston: EDT
+start_time: '2018-05-10T16:00:00-04:00'
+end_time: '2018-05-10T17:00:00-04:00'
 start_time_utc: 20180510T200000Z
 end_time_utc: 20180510T210000Z
 start_time_locations:
-    berlin: "2018-05-10T22:00:00+02:00"
-    boston: "2018-05-10T16:00:00-04:00"
+  berlin: '2018-05-10T22:00:00+02:00'
+  boston: '2018-05-10T16:00:00-04:00'
 end_time_locations:
-    berlin: "2018-05-10T23:00:00+02:00"
-    boston: "2018-05-10T17:00:00-04:00"
+  berlin: '2018-05-10T23:00:00+02:00'
+  boston: '2018-05-10T17:00:00-04:00'
 tzid: America/New_York
 location: Houghton Library
 isFeatured: false
 isOngoing: false
-lastmod: "2022-02-09T16:13:53.091Z"
-date: "2018-05-10T16:00:00-04:00"
+lastmod: '2024-05-24T11:01:35.266Z'
+date: '2018-05-10T16:00:00-04:00'
 slug: passports
 noHeaderImage: false
-
+events/labs:
+  - harvard
+labs:
+  - label: Harvard
+    slug: harvard
 ---
 **Passports: Knowledge Design Workshop**<br />
 **May 10, 2-4pm**<br />

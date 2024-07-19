@@ -1,11 +1,21 @@
 {{ define "main" }}
-  <section class="homepage-events-list grid-wide">
-    <ul role="list">
-    {{ $defaultLabel := .Site.Params.Label.AriaGeneralPicture }}
-    {{ range (.Paginate ((((.Pages).ByParam "title").Reverse.ByParam "date").Reverse)).Pages }}
-      {{ partial "event-preview.html" (dict "event" . "defaultHost" .Site.Params.Label.HostsDefault "defaultCategory" .Site.Params.Label.DefaultEventCategory "defaultLabel" $defaultLabel)}}
+<section class="homepage-events-list grid-wide">
+  <menu class="events-labs-menu">
+    <li><a {{ if eq .RelPermalink "/events/" }}class="isActive" aria-current="page"{{ end }} href="/events/" title="View all">All</a></li>
+    {{ $current := .RelPermalink }}
+    {{ $list := index .Site.Taxonomies "events/labs" }}
+    {{ range $list.ByCount }}
+      <li><a href="{{ .Page.Permalink }}" {{ if eq .Page.RelPermalink $current }}class="isActive" aria-current="page"{{ end }} title="Filter by {{ .Page.Title }}">{{.Page.Title}}</a></li>
     {{ end }}
-    </ul>
-    {{ partial "pagination.html" . }}
-  </section>
+  </menu>
+  <ul role="list">
+    {{ $defaultLabel := .Site.Params.Label.AriaGeneralPicture }} {{ range
+    (.Paginate ((((.Pages).ByParam "title").Reverse.ByParam
+    "date").Reverse)).Pages }} {{ partial "event-preview.html" (dict "event" .
+     "defaultCategory"
+    .Site.Params.Label.DefaultEventCategory "defaultLabel" $defaultLabel)}} {{
+    end }}
+  </ul>
+  {{ partial "pagination.html" . }}
+</section>
 {{ end }}
