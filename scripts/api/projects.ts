@@ -26,6 +26,7 @@ import {
   cleanLabsList,
   addexistingLabsToList,
   createLabsFolders,
+  writeToJSON,
 } from "./utils";
 
 import { createTimeString, createTags } from "./utils-project";
@@ -36,6 +37,7 @@ let lastmod: Date = new Date(0);
 let existingsLabs: {
   [key: string]: string;
 } = {};
+const allProjects: any[] = [];
 
 const fetchProjects = async () => {
   console.log("Requesting projects");
@@ -106,7 +108,6 @@ const fetchProjects = async () => {
       };
 
       checkImageDimensions(frontmatter.cover, frontmatter.title, "Cover");
-      checkImageDimensions(frontmatter.preview, frontmatter.title, "Header");
       checkImageDimensions(frontmatter.header, frontmatter.title, "Header");
       checkImageDimensions(frontmatter.feature, frontmatter.title, "Header");
 
@@ -119,7 +120,6 @@ const fetchProjects = async () => {
         "events",
         "press_articles",
         "links",
-        "categories",
         "gallery",
         "tags",
         "members_twitter",
@@ -149,9 +149,13 @@ const fetchProjects = async () => {
         project.description,
       );
 
+      allProjects.push({ ...frontmatter, content: project.description });
+
       existingsLabs = addexistingLabsToList(existingsLabs, labs);
       // console.log(`Processed ${project.title}`);
     });
+
+    writeToJSON(`content/${FOLDER}/${FOLDER}`, allProjects);
 
     console.log(`${projects.length} projects processed.`);
   } catch (error) {

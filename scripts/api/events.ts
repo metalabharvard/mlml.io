@@ -23,6 +23,7 @@ import {
   addexistingLabsToList,
   createLabsFolders,
   cleanDirectory,
+  writeToJSON,
 } from "./utils";
 
 import { convertEventTimes } from "./utils-events";
@@ -33,6 +34,7 @@ let lastmod: Date = new Date(0);
 let existingsLabs: {
   [key: string]: string;
 } = {};
+const allEvents: any[] = [];
 
 const fetchEvents = async () => {
   console.log("Requesting events");
@@ -76,9 +78,9 @@ const fetchEvents = async () => {
         ),
         cover: getImage(event.cover?.data?.attributes),
         header: createHeaderImage(
-          event.header?.data?.attributes,
-          event.cover?.data?.attributes,
           event.preview?.data?.attributes,
+          event.cover?.data?.attributes,
+          event.header?.data?.attributes,
         ),
         noHeaderImage: Boolean(event.noHeaderImage),
         gallery: (event.gallery?.data ?? [])
@@ -99,23 +101,18 @@ const fetchEvents = async () => {
       };
 
       checkImageDimensions(frontmatter.cover, frontmatter.title, "Cover");
-      checkImageDimensions(frontmatter.preview, frontmatter.title, "Header");
       checkImageDimensions(frontmatter.header, frontmatter.title, "Header");
-      checkImageDimensions(frontmatter.feature, frontmatter.title, "Header");
 
       [
         "collaborators",
         "funders",
         "projects",
         "images",
-        "categories",
         "members",
         "events",
         "press_articles",
         "links",
-        "categories",
         "gallery",
-        "tags",
         "members_twitter",
         "aliases",
       ].forEach((key) => {
@@ -128,7 +125,6 @@ const fetchEvents = async () => {
       [
         "cover",
         "description",
-        "keyword",
         "category",
         "externalLink",
         "intro",
@@ -147,9 +143,13 @@ const fetchEvents = async () => {
         event.description,
       );
 
+      allEvents.push({ ...frontmatter, content: event.description });
+
       existingsLabs = addexistingLabsToList(existingsLabs, labs);
       // console.log(`Processed ${project.title}`);
     });
+
+    writeToJSON(`content/${FOLDER}/${FOLDER}`, allEvents);
 
     console.log(`${events.length} events processed.`);
   } catch (error) {
